@@ -1,0 +1,6 @@
+.page-hero{
+  background:
+    radial-gradient(circle at 90% 20%,rgba(11,66,120,.09),transparent 30%),
+    radial-gradient(circle at 10% 10%,rgba(23,101,54,.09),transparent 34%),
+    linear-gradient(135deg,#f8f5ec 0%,#e3ece2 58%,#dce7e9 100%);
+}
