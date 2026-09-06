@@ -192,4 +192,9 @@ if (diagnosticChronology) {
     .dm-features + .series.model-section .sequence-arrow{color:#b98519}
   `;
   document.head.appendChild(chronologyStyle);
+
+  const diagnosticConclusion = diagnosticChronology.querySelector('.model-copy');
+  if (diagnosticConclusion) {
+    diagnosticConclusion.innerHTML = '<p><strong>Why the chronology matters diagnostically:</strong> A passage cannot be classified by subject matter alone. Its place within the Acts chronology helps determine which divine program, audience, and doctrinal context governs the passage. The Acts 9–28 overlap therefore becomes an essential coordinate in the diagnostic process.</p>';
+  }
 }
