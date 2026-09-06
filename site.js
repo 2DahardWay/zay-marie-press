@@ -190,6 +190,8 @@ if (diagnosticChronology) {
     .dm-features + .series.model-section .sequence-item.mystery .sequence-kicker{color:#0b4278}
     .dm-features + .series.model-section .sequence-item.overlap .sequence-kicker{color:#176536}
     .dm-features + .series.model-section .sequence-arrow{color:#b98519}
+    .dm-features + .series.model-section .model-copy{margin-top:22px;border-left:3px solid #b98519;padding-left:18px;max-width:960px}
+    .dm-features + .series.model-section .model-copy p{margin:0}
   `;
   document.head.appendChild(chronologyStyle);
 
