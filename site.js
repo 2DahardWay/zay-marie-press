@@ -21,26 +21,35 @@ if (toggle && nav) {
   });
 }
 
-const coverTrigger = document.querySelector('.cover-enlarge');
+const coverTriggers = document.querySelectorAll('.cover-enlarge');
 const coverLightbox = document.querySelector('#cover-lightbox');
-if (coverTrigger && coverLightbox) {
+if (coverTriggers.length && coverLightbox) {
   const closeButton = coverLightbox.querySelector('.cover-lightbox-close');
+  const lightboxImage = coverLightbox.querySelector('img');
+  let activeCoverTrigger = null;
 
-  const openCover = () => {
+  const openCover = (trigger) => {
+    activeCoverTrigger = trigger;
+    if (lightboxImage) {
+      const triggerImage = trigger.querySelector('img');
+      lightboxImage.src = trigger.dataset.coverSrc || triggerImage?.src || lightboxImage.src;
+      lightboxImage.alt = trigger.dataset.coverAlt || triggerImage?.alt || 'Enlarged book cover';
+    }
     coverLightbox.hidden = false;
-    coverTrigger.setAttribute('aria-expanded', 'true');
+    trigger.setAttribute('aria-expanded', 'true');
     document.body.classList.add('lightbox-open');
     closeButton?.focus();
   };
 
   const closeCover = () => {
     coverLightbox.hidden = true;
-    coverTrigger.setAttribute('aria-expanded', 'false');
+    activeCoverTrigger?.setAttribute('aria-expanded', 'false');
     document.body.classList.remove('lightbox-open');
-    coverTrigger.focus();
+    activeCoverTrigger?.focus();
+    activeCoverTrigger = null;
   };
 
-  coverTrigger.addEventListener('click', openCover);
+  coverTriggers.forEach((trigger) => trigger.addEventListener('click', () => openCover(trigger)));
   closeButton?.addEventListener('click', closeCover);
   coverLightbox.addEventListener('click', (event) => {
     if (event.target === coverLightbox) closeCover();
