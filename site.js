@@ -49,3 +49,9 @@ if (coverTrigger && coverLightbox) {
     if (event.key === 'Escape' && !coverLightbox.hidden) closeCover();
   });
 }
+
+const libraryMark = document.querySelector('.library-section .library-mark');
+if (libraryMark) {
+  libraryMark.innerHTML = '<img src="assets/about-growing-theological-library.png" alt="Warm theological library with shelves of books" loading="lazy" style="display:block;width:100%;height:auto;" />';
+  libraryMark.removeAttribute('aria-hidden');
+}
