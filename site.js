@@ -142,3 +142,26 @@ if (orientation) {
     document.head.appendChild(orientationStyle);
   }
 }
+
+/* Diagnostic Manual — approved protocol spine hierarchy refinement. */
+const diagnosticProtocol = document.querySelector('.protocol-instrument .protocol-spine');
+if (diagnosticProtocol) {
+  diagnosticProtocol.querySelectorAll('.protocol-step:not(:last-child)').forEach((step) => {
+    const direction = document.createElement('span');
+    direction.className = 'protocol-direction';
+    direction.setAttribute('aria-hidden', 'true');
+    direction.textContent = '▾';
+    step.appendChild(direction);
+  });
+
+  const protocolRefinementStyle = document.createElement('style');
+  protocolRefinementStyle.textContent = `
+    .protocol-spine:before{width:3px!important;box-shadow:0 0 0 1px rgba(185,133,25,.08)}
+    .protocol-step{padding-bottom:54px!important}
+    .protocol-step:last-child{padding-bottom:0!important}
+    .protocol-direction{position:absolute;z-index:2;left:26px;bottom:15px;width:20px;height:20px;display:flex;align-items:center;justify-content:center;background:#fcfdf9;color:#b98519;font:700 14px/1 Arial,sans-serif}
+    @media(max-width:820px){.protocol-step{padding-bottom:48px!important}.protocol-direction{left:19px;bottom:13px}}
+    @media(max-width:600px){.protocol-step{padding-bottom:44px!important}.protocol-direction{left:13px;bottom:12px;width:20px;height:20px}}
+  `;
+  document.head.appendChild(protocolRefinementStyle);
+}
