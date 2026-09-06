@@ -50,6 +50,15 @@ if (coverTrigger && coverLightbox) {
   });
 }
 
+const processFlow = document.querySelector('.process-section .process-flow');
+if (processFlow) {
+  processFlow.innerHTML = '<img src="assets/about-conviction-to-craft.png" alt="Doctrine, editorial process, publication, and reader impact shown with warm photographic imagery" loading="lazy" style="display:block;width:100%;height:auto;" />';
+  processFlow.style.display = 'block';
+  processFlow.style.maxWidth = '1120px';
+  processFlow.style.border = '0';
+  processFlow.style.boxShadow = 'none';
+}
+
 const libraryMark = document.querySelector('.library-section .library-mark');
 if (libraryMark) {
   libraryMark.innerHTML = '<img src="assets/about-growing-theological-library.png" alt="Warm theological library with shelves of books" loading="lazy" style="display:block;width:100%;height:auto;" />';
