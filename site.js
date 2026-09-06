@@ -54,6 +54,6 @@ const libraryMark = document.querySelector('.library-section .library-mark');
 if (libraryMark) {
   libraryMark.innerHTML = '<img src="assets/about-growing-theological-library.png" alt="Warm theological library with shelves of books" loading="lazy" style="display:block;width:100%;height:auto;" />';
   libraryMark.removeAttribute('aria-hidden');
-  libraryMark.style.width = '560px';
+  libraryMark.style.width = '640px';
   libraryMark.style.maxWidth = '90vw';
 }
