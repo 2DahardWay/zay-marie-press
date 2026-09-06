@@ -165,3 +165,31 @@ if (diagnosticProtocol) {
   `;
   document.head.appendChild(protocolRefinementStyle);
 }
+
+/* Diagnostic Manual — approved chronology palette refinement. */
+const diagnosticChronology = document.querySelector('.dm-features + .series.model-section');
+if (diagnosticChronology) {
+  const chronologyStyle = document.createElement('style');
+  chronologyStyle.textContent = `
+    .dm-features + .series.model-section{background:radial-gradient(circle at 88% 18%,rgba(11,66,120,.055),transparent 30%),linear-gradient(135deg,#f8f5ec 0%,#f6f2e8 48%,#e3ece2 100%);color:#1d2520;border-top:0;border-bottom:2px solid #3b1110}
+    .dm-features + .series.model-section h2{color:#143823}
+    .dm-features + .series.model-section .eyebrow{color:#b98519}
+    .dm-features + .series.model-section .model-lead{color:#1d2520;max-width:920px}
+    .dm-features + .series.model-section .sequence-item{background:rgba(255,255,255,.78);border:1px solid #cbd5cc;box-shadow:0 5px 18px rgba(20,40,25,.035)}
+    .dm-features + .series.model-section .sequence-item.prophecy{border-top:4px solid #b98519}
+    .dm-features + .series.model-section .sequence-item.mystery{border-top:4px solid #0b4278}
+    .dm-features + .series.model-section .sequence-item.overlap{border-top:4px solid #176536;background:rgba(227,236,226,.72)}
+    .dm-features + .series.model-section .sequence-item.prophecy-end{border-top:4px solid #b98519}
+    .dm-features + .series.model-section .sequence-item strong{color:#143823}
+    .dm-features + .series.model-section .sequence-item.prophecy strong,.dm-features + .series.model-section .sequence-item.prophecy-end strong{color:#9b6d0f}
+    .dm-features + .series.model-section .sequence-item.mystery strong{color:#0b4278}
+    .dm-features + .series.model-section .sequence-item.overlap strong{color:#176536}
+    .dm-features + .series.model-section .sequence-item small{color:#303d35;opacity:1}
+    .dm-features + .series.model-section .sequence-kicker{color:#59645e}
+    .dm-features + .series.model-section .sequence-item.prophecy .sequence-kicker,.dm-features + .series.model-section .sequence-item.prophecy-end .sequence-kicker{color:#b98519}
+    .dm-features + .series.model-section .sequence-item.mystery .sequence-kicker{color:#0b4278}
+    .dm-features + .series.model-section .sequence-item.overlap .sequence-kicker{color:#176536}
+    .dm-features + .series.model-section .sequence-arrow{color:#b98519}
+  `;
+  document.head.appendChild(chronologyStyle);
+}
