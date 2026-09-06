@@ -109,7 +109,7 @@ if (orientation) {
     const orientationStyle = document.createElement('style');
     orientationStyle.textContent = `
       .orientation-section{background:linear-gradient(135deg,#f8f5ec 0%,#edf2e7 100%)!important}
-      .orientation-section .wrap{max-width:1060px;padding:30px 50px 34px;background:radial-gradient(ellipse at center,#fffdf8 0%,#fffdf8 46%,#f3f3e8 72%,#e4eddf 100%);border:1px solid #d8d1bd;border-top:4px solid #b98519;box-shadow:inset 0 0 60px rgba(23,101,54,.07)}
+      .orientation-section .wrap{max-width:1060px;padding:30px 50px 34px;background:radial-gradient(ellipse at center,#fffdf8 0%,#fffdf8 46%,#eef1e3 70%,#d9e6d4 100%);border:1px solid #d8d1bd;border-top:4px solid #b98519;box-shadow:inset 0 0 70px rgba(23,101,54,.10)}
       .orientation-section .wrap::after{margin-top:27px}
       .orientation-title-mark{display:grid;grid-template-columns:1fr 76px 1fr;align-items:center;gap:16px;max-width:900px;margin:0 auto 4px;color:#b98519}
       .orientation-title-mark span{height:1px;background:#b98519;opacity:.78}
