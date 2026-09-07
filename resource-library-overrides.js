@@ -14,6 +14,7 @@
   };
 
   const reflection = 'Read the passages slowly. What do they say God has already made true of you in Christ? How should that truth shape the way you think and walk today?';
+  const closingTruth = 'Your identity in Christ is not something you are trying to achieve. It is the position God has already given you by grace. Christian growth begins by knowing what God has made you in Christ and learning to walk consistently with that truth.';
 
   const style = document.createElement('style');
   style.textContent = `
@@ -25,27 +26,35 @@
       body.rl-printing .rl-days,
       body.rl-printing .rl-devotional{display:none!important}
       body.rl-printing .rl-devotional-print{display:block!important}
+      body.rl-printing .rl-print-page{break-after:page;page-break-after:always}
+      body.rl-printing .rl-print-page:last-child{break-after:auto;page-break-after:auto}
+      body.rl-printing .rl-print-day{break-inside:avoid-page;page-break-inside:avoid;margin:0 0 24px}
+      body.rl-printing .rl-print-day:last-child{margin-bottom:0}
       body.rl-printing .rl-devotional-print h3,
       body.rl-printing .rl-devotional-print h4{break-after:avoid-page;page-break-after:avoid}
-      body.rl-printing .rl-devotional-print .rl-print-day{break-inside:avoid-page;page-break-inside:avoid;margin:0 0 26px}
-      body.rl-printing .rl-devotional-print .rl-print-day:last-child{margin-bottom:0}
-      body.rl-printing .rl-devotional-print .rl-print-day.day-7{break-inside:avoid-page;page-break-inside:avoid}
       body.rl-printing .rl-devotional-print .rl-principle{break-inside:avoid-page;page-break-inside:avoid}
     }
   `;
   document.head.appendChild(style);
 
-  const buildPrintDevotional = () => {
-    return Object.entries(devotionalDays).map(([n,d]) => `
-      <section class="rl-print-day day-${n}">
-        <h3>Day ${n} — ${d[0]}</h3>
-        <h4>Truth</h4><p>${d[1]}</p>
-        <h4>Scripture</h4><p>${d[2]}</p>
-        <h4>Reflection</h4><p>${reflection}</p>
-        <h4>Prayer</h4><p>${d[3]}</p>
-        ${Number(n)===7?'<div class="rl-principle"><strong>Closing Truth</strong><p>Your identity in Christ is not something you are trying to achieve. It is the position God has already given you by grace. Christian growth begins by knowing what God has made you in Christ and learning to walk consistently with that truth.</p></div>':''}
-      </section>`).join('');
+  const dayHtml = (n) => {
+    const d = devotionalDays[n];
+    return `<section class="rl-print-day day-${n}">
+      <h3>Day ${n} — ${d[0]}</h3>
+      <h4>Truth</h4><p>${d[1]}</p>
+      <h4>Scripture</h4><p>${d[2]}</p>
+      <h4>Reflection</h4><p>${reflection}</p>
+      <h4>Prayer</h4><p>${d[3]}</p>
+      ${n===7?`<div class="rl-principle"><strong>Closing Truth</strong><p>${closingTruth}</p></div>`:''}
+    </section>`;
   };
+
+  const buildPrintDevotional = () => `
+    <div class="rl-print-page page-1">${dayHtml(1)}</div>
+    <div class="rl-print-page page-2">${dayHtml(2)}${dayHtml(3)}</div>
+    <div class="rl-print-page page-3">${dayHtml(4)}</div>
+    <div class="rl-print-page page-4">${dayHtml(5)}${dayHtml(6)}</div>
+    <div class="rl-print-page page-5">${dayHtml(7)}</div>`;
 
   const applyApprovedResource10 = () => {
     const title = document.querySelector('.rl-resource-head h2');
