@@ -116,19 +116,5 @@ body.lightbox-open{overflow:hidden}
 <footer><div class="wrap footer-grid"><div><strong>Zay-Marie Press</strong><br/><small>Where the Bible Means What It Says.</small></div><div><a href="books.html">Books</a><br/><a href="series.html">Series</a><br/><a href="about.html">About</a><br/><a href="resources.html">Resources</a><br/><a href="contact.html">Contact</a></div><div>Acts Overlap Theology Series<br/><small>Two Distinct Streams. One Overlap.</small></div></div></footer>
 <div aria-modal="true" class="cover-lightbox" hidden="" id="cover-lightbox" role="dialog"><button aria-label="Close enlarged book cover" class="cover-lightbox-close" type="button">×</button><img alt="Enlarged The Full Framework book cover" src="assets/full-framework-front-cover.png"/></div>
 <script src="site.js"></script>
-<script>
-(function(){
-  const trigger=document.querySelector('.cover-enlarge');
-  const modal=document.getElementById('cover-lightbox');
-  if(!trigger||!modal)return;
-  const closeButton=modal.querySelector('.cover-lightbox-close');
-  const open=()=>{modal.hidden=false;document.body.classList.add('lightbox-open');trigger.setAttribute('aria-expanded','true');closeButton.focus();};
-  const close=()=>{modal.hidden=true;document.body.classList.remove('lightbox-open');trigger.setAttribute('aria-expanded','false');trigger.focus();};
-  trigger.addEventListener('click',open);
-  closeButton.addEventListener('click',close);
-  modal.addEventListener('click',(event)=>{if(event.target===modal)close();});
-  document.addEventListener('keydown',(event)=>{if(event.key==='Escape'&&!modal.hidden)close();});
-})();
-</script>
 </body>
 </html>
