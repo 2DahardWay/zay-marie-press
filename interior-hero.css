@@ -17,6 +17,10 @@
 .series-page .series-compact h2{color:#f4c24f}
 .series-page .series-compact .eyebrow{color:#f4c24f}
 .series-page .series-compact .model-lead{color:#fff}
+
+/* Book 1 — approved companion relationship color refinement */
+.companion-relation{color:#0B4278}
+
 @media(max-width:820px){
   .series-page .series-compact{
     background:
