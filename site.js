@@ -19,6 +19,36 @@ if (toggle && nav) {
       toggle.focus();
     }
   });
+
+  /* Site-wide current-page navigation indicator. */
+  const currentPage = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
+  const navSectionByPage = {
+    'index.html': 'index.html',
+    'books.html': 'books.html',
+    'full-framework.html': 'books.html',
+    'diagnostic-manual.html': 'books.html',
+    'series.html': 'series.html',
+    'about.html': 'about.html',
+    'resources.html': 'resources.html',
+    'acts-overlap-visual-guide.html': 'resources.html',
+    'contact.html': 'contact.html'
+  };
+  const activeHref = navSectionByPage[currentPage];
+  if (activeHref) {
+    nav.querySelectorAll('a').forEach((link) => {
+      const href = (link.getAttribute('href') || '').split('#')[0].toLowerCase();
+      if (href === activeHref) {
+        link.classList.add('current-page');
+        link.setAttribute('aria-current', 'page');
+      }
+    });
+
+    const currentNavStyle = document.createElement('style');
+    currentNavStyle.textContent = `
+      .primary-nav a.current-page{color:#8a918d!important;border-bottom:2px solid #8a918d;padding-bottom:5px}
+    `;
+    document.head.appendChild(currentNavStyle);
+  }
 }
 
 const coverTriggers = document.querySelectorAll('.cover-enlarge');
