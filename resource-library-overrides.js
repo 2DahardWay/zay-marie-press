@@ -37,6 +37,20 @@
       body.rl-printing .rl-devotional-print .rl-principle p{margin:3px 0 0!important}
       body.rl-printing .rl-print-page.page-2 .rl-print-day:first-child,
       body.rl-printing .rl-print-page.page-4 .rl-print-day:first-child{margin-bottom:18px!important}
+
+      body.rl-printing .rl-print-page.page-1 .rl-print-day,
+      body.rl-printing .rl-print-page.page-3 .rl-print-day,
+      body.rl-printing .rl-print-page.page-5 .rl-print-day{font-size:11pt!important;line-height:1.38!important}
+      body.rl-printing .rl-print-page.page-1 .rl-print-day h3,
+      body.rl-printing .rl-print-page.page-3 .rl-print-day h3,
+      body.rl-printing .rl-print-page.page-5 .rl-print-day h3{font-size:20pt!important;line-height:1.12!important;margin-bottom:16px!important}
+      body.rl-printing .rl-print-page.page-1 .rl-print-day h4,
+      body.rl-printing .rl-print-page.page-3 .rl-print-day h4,
+      body.rl-printing .rl-print-page.page-5 .rl-print-day h4{font-size:10.5pt!important;line-height:1.2!important;margin:13px 0 5px!important}
+      body.rl-printing .rl-print-page.page-1 .rl-print-day p,
+      body.rl-printing .rl-print-page.page-3 .rl-print-day p,
+      body.rl-printing .rl-print-page.page-5 .rl-print-day p{font-size:11pt!important;line-height:1.38!important;margin-bottom:10px!important}
+      body.rl-printing .rl-print-page.page-5 .rl-principle{margin-top:18px!important;padding:12px 14px!important}
     }
   `;
   document.head.appendChild(style);
