@@ -21,25 +21,36 @@ if (toggle && nav) {
   });
 
   /* Site-wide current-page navigation indicator. */
-  const currentPage = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
-  const navSectionByPage = {
-    'index.html': 'index.html',
-    'books.html': 'books.html',
-    'full-framework.html': 'books.html',
-    'diagnostic-manual.html': 'books.html',
-    'series.html': 'series.html',
-    'about.html': 'about.html',
-    'resources.html': 'resources.html',
-    'acts-overlap-visual-guide.html': 'resources.html',
-    'contact.html': 'contact.html'
+  const normalizePage = (value) => {
+    const clean = (value || '').split('?')[0].split('#')[0].replace(/^.*\//, '').toLowerCase();
+    if (!clean || clean === 'index.html' || clean === 'index') return 'home';
+    return clean.replace(/\.html$/, '');
   };
-  const activeHref = navSectionByPage[currentPage];
-  if (activeHref) {
+
+  const currentPage = normalizePage(window.location.pathname);
+  const navSectionByPage = {
+    home: 'home',
+    books: 'books',
+    'full-framework': 'books',
+    'diagnostic-manual': 'books',
+    series: 'series',
+    about: 'about',
+    resources: 'resources',
+    'acts-overlap-visual-guide': 'resources',
+    contact: 'contact'
+  };
+  const activeSection = navSectionByPage[currentPage];
+
+  if (activeSection) {
     nav.querySelectorAll('a').forEach((link) => {
-      const href = (link.getAttribute('href') || '').split('#')[0].toLowerCase();
-      if (href === activeHref) {
+      const linkPage = normalizePage(link.getAttribute('href'));
+      const linkSection = navSectionByPage[linkPage] || linkPage;
+      if (linkSection === activeSection) {
         link.classList.add('current-page');
         link.setAttribute('aria-current', 'page');
+      } else {
+        link.classList.remove('current-page');
+        link.removeAttribute('aria-current');
       }
     });
 
