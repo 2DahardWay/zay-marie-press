@@ -25,14 +25,18 @@
       body.rl-printing .rl-print-only{display:inline!important}
       body.rl-printing .rl-days,
       body.rl-printing .rl-devotional{display:none!important}
-      body.rl-printing .rl-devotional-print{display:block!important}
-      body.rl-printing .rl-print-page{break-after:page;page-break-after:always}
-      body.rl-printing .rl-print-page:last-child{break-after:auto;page-break-after:auto}
-      body.rl-printing .rl-print-day{break-inside:avoid-page;page-break-inside:avoid;margin:0 0 24px}
-      body.rl-printing .rl-print-day:last-child{margin-bottom:0}
-      body.rl-printing .rl-devotional-print h3,
-      body.rl-printing .rl-devotional-print h4{break-after:avoid-page;page-break-after:avoid}
-      body.rl-printing .rl-devotional-print .rl-principle{break-inside:avoid-page;page-break-inside:avoid}
+      body.rl-printing .rl-devotional-print{display:block!important;font-size:9.5pt!important;line-height:1.28!important}
+      body.rl-printing .rl-print-page{break-after:page!important;page-break-after:always!important}
+      body.rl-printing .rl-print-page:last-child{break-after:auto!important;page-break-after:auto!important}
+      body.rl-printing .rl-print-day{break-inside:avoid-page!important;page-break-inside:avoid!important;margin:0 0 14px!important}
+      body.rl-printing .rl-print-day:last-child{margin-bottom:0!important}
+      body.rl-printing .rl-devotional-print h3{font-size:17pt!important;line-height:1.1!important;margin:0 0 11px!important;break-after:avoid-page!important;page-break-after:avoid!important}
+      body.rl-printing .rl-devotional-print h4{font-size:9.5pt!important;line-height:1.15!important;margin:9px 0 3px!important;break-after:avoid-page!important;page-break-after:avoid!important}
+      body.rl-printing .rl-devotional-print p{font-size:9.5pt!important;line-height:1.28!important;margin:0 0 7px!important}
+      body.rl-printing .rl-devotional-print .rl-principle{break-inside:avoid-page!important;page-break-inside:avoid!important;margin-top:12px!important;padding:9px 12px!important}
+      body.rl-printing .rl-devotional-print .rl-principle p{margin:3px 0 0!important}
+      body.rl-printing .rl-print-page.page-2 .rl-print-day:first-child,
+      body.rl-printing .rl-print-page.page-4 .rl-print-day:first-child{margin-bottom:18px!important}
     }
   `;
   document.head.appendChild(style);
