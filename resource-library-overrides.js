@@ -27,6 +27,9 @@
       body.rl-printing .rl-devotional-print{display:block!important}
       body.rl-printing .rl-devotional-print h3,
       body.rl-printing .rl-devotional-print h4{break-after:avoid-page;page-break-after:avoid}
+      body.rl-printing .rl-devotional-print .rl-print-day{break-inside:avoid-page;page-break-inside:avoid;margin:0 0 26px}
+      body.rl-printing .rl-devotional-print .rl-print-day:last-child{margin-bottom:0}
+      body.rl-printing .rl-devotional-print .rl-print-day.day-7{break-inside:avoid-page;page-break-inside:avoid}
       body.rl-printing .rl-devotional-print .rl-principle{break-inside:avoid-page;page-break-inside:avoid}
     }
   `;
@@ -34,7 +37,7 @@
 
   const buildPrintDevotional = () => {
     return Object.entries(devotionalDays).map(([n,d]) => `
-      <section class="rl-print-day">
+      <section class="rl-print-day day-${n}">
         <h3>Day ${n} — ${d[0]}</h3>
         <h4>Truth</h4><p>${d[1]}</p>
         <h4>Scripture</h4><p>${d[2]}</p>
