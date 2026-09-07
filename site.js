@@ -115,6 +115,36 @@ if (libraryMark) {
   libraryMark.removeAttribute('aria-hidden');
   libraryMark.style.width = '640px';
   libraryMark.style.maxWidth = '90vw';
+
+  const librarySection = libraryMark.closest('.library-section');
+  const libraryWrap = librarySection?.querySelector('.wrap');
+  const libraryHeading = librarySection?.querySelector('.about-heading h2');
+  if (libraryHeading) libraryHeading.textContent = 'Growing Theological Library';
+
+  if (libraryWrap) {
+    const existingParagraphs = libraryWrap.querySelectorAll(':scope > p');
+    existingParagraphs.forEach((paragraph) => paragraph.remove());
+    libraryWrap.querySelector('.library-resource-link')?.remove();
+
+    const libraryCopy = document.createElement('p');
+    libraryCopy.className = 'library-current-copy';
+    libraryCopy.innerHTML = '<em>The Full Framework</em> establishes the theological architecture of the Acts Overlap Model. <em>The Diagnostic Manual</em> provides the analytical tools for applying that architecture throughout Acts. The <strong>Acts Overlap Model Visual Guide</strong> now extends the library with an accessible visual resource for understanding the concurrent operation of the Prophecy and Mystery Programs. Additional books and study resources will continue to develop the framework.';
+    libraryWrap.appendChild(libraryCopy);
+
+    const libraryLink = document.createElement('a');
+    libraryLink.className = 'btn library-resource-link';
+    libraryLink.href = 'resources.html';
+    libraryLink.textContent = 'EXPLORE BOOKS & RESOURCES';
+    libraryWrap.appendChild(libraryLink);
+
+    const libraryUpdateStyle = document.createElement('style');
+    libraryUpdateStyle.textContent = `
+      .library-section .library-current-copy{max-width:940px;margin:0 auto 22px!important;font-style:normal!important;line-height:1.6;color:#303d35}
+      .library-section .library-resource-link{display:inline-flex;align-items:center;justify-content:center;background:#176536;color:#fff!important;text-decoration:none;font-family:'Montserrat',Arial,sans-serif;font-weight:700;letter-spacing:.05em;padding:12px 22px;margin-top:2px}
+      .library-section .library-resource-link:hover{background:#0b4278}
+    `;
+    document.head.appendChild(libraryUpdateStyle);
+  }
 }
 
 const orientation = document.querySelector('.orientation-section');
