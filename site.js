@@ -200,3 +200,43 @@ if (diagnosticChronology) {
     diagnosticConclusion.innerHTML = '<p><strong>Why the chronology matters diagnostically:</strong> A passage cannot be classified by subject matter alone. Its place within the Acts chronology helps determine which divine program, audience, and doctrinal context governs the passage. The Acts 9–28 overlap therefore becomes an essential coordinate in the diagnostic process.</p>';
   }
 }
+
+/* Full Framework — approved closing companion-volume refinement. */
+const companionVolume = document.querySelector('.companion-volume');
+if (companionVolume) {
+  const companionCard = companionVolume.querySelector('.companion-card');
+  if (companionCard) {
+    const subtitle = companionCard.querySelector('p');
+    if (subtitle) subtitle.classList.add('companion-subtitle');
+
+    const support = document.createElement('p');
+    support.className = 'companion-support';
+    support.textContent = 'Apply the framework established in Book 1 through structured diagnostic tools for identifying audience, program, chronology, and doctrinal application throughout Acts.';
+
+    const button = companionCard.querySelector('.btn');
+    const status = companionCard.querySelector('.status');
+    if (button) companionCard.insertBefore(support, button);
+
+    if (button && status) {
+      const actions = document.createElement('div');
+      actions.className = 'companion-actions';
+      companionCard.insertBefore(actions, button);
+      actions.appendChild(button);
+      actions.appendChild(status);
+    }
+
+    const companionStyle = document.createElement('style');
+    companionStyle.textContent = `
+      .companion-volume{background:linear-gradient(135deg,#f8f5ec 0%,#f4f3ec 48%,#e8f0f4 100%)!important}
+      .companion-card{padding:32px 34px 34px!important;background:linear-gradient(135deg,#fffdf7 0%,#fff 58%,#f3f7fa 100%)!important;border-top:4px solid #0b4278!important;box-shadow:0 10px 28px rgba(11,66,120,.06)}
+      .companion-card .eyebrow{color:#8a620f}
+      .companion-card h3{font-size:1.72rem!important;margin:8px 0 8px!important}
+      .companion-subtitle{margin:0 0 16px;color:#303d35}
+      .companion-support{max-width:720px;margin:0;line-height:1.65}
+      .companion-actions{display:flex;align-items:center;gap:18px;margin-top:24px}
+      .companion-actions .status{margin:0!important}
+      @media(max-width:520px){.companion-card{padding:27px 22px 28px!important}.companion-actions{align-items:flex-start;flex-direction:column;gap:14px}.companion-actions .status{display:block;margin:0!important}}
+    `;
+    document.head.appendChild(companionStyle);
+  }
+}
