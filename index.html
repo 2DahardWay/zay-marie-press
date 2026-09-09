@@ -14,6 +14,8 @@
 .home-page .card{padding:20px 22px}
 .home-page .why-home{padding-top:48px!important;padding-bottom:48px!important}
 .home-page .closing{padding-top:40px!important;padding-bottom:40px!important}
+.home-page .closing .eyebrow{margin-bottom:10px}
+.home-page .closing .quote{margin:0}
 .home-page footer{padding:42px 0}
 
 .home-series-panel{padding:38px 58px 30px;background:linear-gradient(90deg,rgba(3,17,27,.56) 0%,rgba(3,17,27,.28) 38%,rgba(3,17,27,.10) 72%,rgba(3,17,27,.06) 100%),url("assets/just the landscape pic.png") center/cover no-repeat;color:#fff}
@@ -133,21 +135,8 @@ body.lightbox-open{overflow:hidden}
 </div></div></section>
 <section class="closing"><div class="wrap"><div class="eyebrow">OUR ORIENTATION</div><p class="quote">“Faithful to Scripture. Led by the Spirit. Life-giving truth. Eternal purpose.”</p></div></section>
 </main>
-<footer><div class="wrap footer-grid"><div><strong>Zay-Marie Press</strong><br/><small>Where the Bible Means What It Says.</small></div><div><a href="books.html">Books</a><br/><a href="series.html">Series</a><br/><a href="about.html">About</a><br/><a href="resources.html">Resources</a><br/><a href="contact.html">Contact</a></div><div><strong>Acts Overlap Theology Series</strong><br/><small>Two Distinct Streams. One Overlap.</small></div></div></footer>
-<div aria-hidden="true" aria-modal="true" class="cover-lightbox" hidden="" id="cover-lightbox" role="dialog"><button aria-label="Close enlarged book cover" class="cover-lightbox-close" type="button">×</button><img alt="Enlarged cover of The Full Framework" src="assets/full-framework-front-cover.png"/></div>
-<script>
-(function(){
-var trigger=document.querySelector('.cover-enlarge');
-var lightbox=document.getElementById('cover-lightbox');
-if(trigger&&lightbox){
-var close=lightbox.querySelector('.cover-lightbox-close');
-function openBox(){lightbox.hidden=false;lightbox.setAttribute('aria-hidden','false');trigger.setAttribute('aria-expanded','true');document.body.classList.add('lightbox-open');close.focus();}
-function closeBox(){lightbox.hidden=true;lightbox.setAttribute('aria-hidden','true');trigger.setAttribute('aria-expanded','false');document.body.classList.remove('lightbox-open');trigger.focus();}
-trigger.addEventListener('click',openBox);
-close.addEventListener('click',closeBox);
-lightbox.addEventListener('click',function(e){if(e.target===lightbox)closeBox();});
-document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!lightbox.hidden)closeBox();});
-}
-})();
-</script>
-<script src="script.js"></script></body></html>
+<footer><div class="wrap footer-grid"><div><strong>Zay-Marie Press</strong><br/><small>Where the Bible Means What It Says.</small></div><div><a href="books.html">Books</a><br/><a href="series.html">Series</a><br/><a href="about.html">About</a><br/><a href="resources.html">Resources</a><br/><a href="contact.html">Contact</a></div><div>Acts Overlap Theology Series<br/><small>Two Distinct Streams. One Overlap.</small></div></div></footer>
+<div aria-modal="true" class="cover-lightbox" hidden="" id="cover-lightbox" role="dialog"><button aria-label="Close enlarged book cover" class="cover-lightbox-close" type="button">×</button><img alt="Enlarged The Full Framework book cover" src="assets/full-framework-front-cover.png"/></div>
+<script src="site.js"></script>
+</body>
+</html>
