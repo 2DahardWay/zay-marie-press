@@ -8,15 +8,17 @@
 <link href="styles.css" rel="stylesheet"/>
 <link href="assets/zay-marie-press-favicon.png" rel="icon" type="image/png"/>
 <style>
-.digital-studies-hero{text-align:center;background:linear-gradient(135deg,#f8f5ec,#e3ece2)}
-.digital-studies-hero h1{max-width:980px;margin:8px auto 18px}
-.digital-studies-hero .lead{max-width:900px;margin-left:auto;margin-right:auto}
+.digital-studies-hero{text-align:center;background:linear-gradient(135deg,#f8f5ec,#e3ece2);padding:56px 0 48px}
+.digital-studies-hero h1{max-width:920px;margin:8px auto 14px;font-size:clamp(2.35rem,4.4vw,4rem);line-height:1.08}
+.digital-studies-hero .lead{max-width:900px;margin:0 auto 10px}
+.digital-studies-hero .lead:last-child{margin-bottom:0}
 .digital-paths{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:32px}
 .digital-path{border:1px solid var(--line);background:#fff;padding:28px 30px;box-shadow:0 5px 18px rgba(20,40,25,.04)}
 .digital-path h3{color:#143823;margin:0 0 12px}
 .digital-path p{margin:0;line-height:1.6}
 .digital-note{max-width:900px;margin:28px auto 0;text-align:center;font-style:italic}
-@media(max-width:820px){.digital-paths{grid-template-columns:1fr}}
+@media(max-width:820px){.digital-studies-hero{padding:46px 0 40px}.digital-paths{grid-template-columns:1fr}}
+@media(max-width:520px){.digital-studies-hero{padding:38px 0 34px}.digital-studies-hero h1{font-size:clamp(2rem,10vw,2.7rem)}}
 </style>
 </head>
 <body>
