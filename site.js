@@ -128,6 +128,7 @@ const renderBookPreview = () => {
   const page = bookOnePreviewPages[previewIndex];
   previewImage.src = page.src;
   previewImage.alt = page.alt;
+  previewImage.classList.toggle('book-preview-image--timeline', previewIndex === 3);
   previewCount.textContent = `Preview ${previewIndex + 1} of ${bookOnePreviewPages.length}`;
   previewPrevButtons.forEach((button) => { button.disabled = previewIndex === 0; });
   previewNextButtons.forEach((button) => { button.disabled = previewIndex === bookOnePreviewPages.length - 1; });
