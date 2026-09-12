@@ -5,6 +5,11 @@
 /* Approved Contact page redesign */
 .contact-page .page-hero{padding:44px 0 38px}
 .contact-page .page-hero h1{margin-bottom:14px}
+.contact-page .page-hero .wrap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr);column-gap:64px;align-items:center}
+.contact-hero-copy{min-width:0}
+.contact-hero-visual{text-align:center;justify-self:end;width:min(100%,470px)}
+.contact-hero-visual img{display:block;width:100%;max-height:205px;object-fit:cover;object-position:center 68%;border-radius:2px;box-shadow:0 8px 22px rgba(20,40,25,.10)}
+.contact-hero-tagline{margin:13px 0 0;font-family:Georgia,"Times New Roman",serif;font-size:1.08rem;font-style:italic;font-weight:600;color:#176b3a;letter-spacing:.01em}
 .contact-feature{padding:44px 0 32px;background:#fff}
 .contact-publisher-panel{position:relative;overflow:hidden;isolation:isolate;border:1px solid var(--line);background:linear-gradient(90deg,rgba(250,247,238,.98) 0%,rgba(250,247,238,.94) 52%,rgba(250,247,238,.72) 100%);box-shadow:0 8px 28px rgba(20,40,25,.06)}
 .contact-publisher-panel::after{content:"";position:absolute;z-index:-1;inset:0 0 0 46%;background:url("assets/home-hero-open-bible-web.jpg") center right/cover no-repeat;opacity:.29;-webkit-mask-image:linear-gradient(to right,transparent,#000 42%);mask-image:linear-gradient(to right,transparent,#000 42%)}
@@ -25,8 +30,11 @@
 <button aria-controls="primary-nav" aria-expanded="false" class="menu-toggle" type="button">MENU</button>
 <nav aria-label="Primary navigation" class="primary-nav" id="primary-nav"><a href="index.html">HOME</a><a href="books.html">BOOKS</a><a href="series.html">SERIES</a><a href="about.html">ABOUT</a><a href="resources.html">RESOURCES</a><a href="contact.html">CONTACT</a></nav>
 </div></header><main>
-<section class="page-hero"><div class="wrap"><div class="eyebrow">GET IN TOUCH</div><h1>CONTACT ZAY-MARIE PRESS</h1>
-<p class="lead">Questions concerning Zay-Marie Press, our publications, website resources, or general publishing matters may be directed to us by email.</p></div></section>
+<section class="page-hero"><div class="wrap">
+<div class="contact-hero-copy"><div class="eyebrow">GET IN TOUCH</div><h1>CONTACT ZAY-MARIE PRESS</h1>
+<p class="lead">Questions concerning Zay-Marie Press, our publications, website resources, or general publishing matters may be directed to us by email.</p></div>
+<div class="contact-hero-visual" aria-label="Open Bible"><img src="assets/home-hero-open-bible-web.jpg" alt="An open Bible with Scripture text visible"/><p class="contact-hero-tagline">Where the Bible Means What It Says.</p></div>
+</div></section>
 <section class="contact-feature"><div class="wrap">
 <div class="contact-publisher-panel"><div class="contact-columns">
 <section class="contact-column"><div class="eyebrow">GENERAL INQUIRIES</div><h2>Contact Zay-Marie Press</h2>
