@@ -78,12 +78,110 @@ if (toggle && nav) {
 
 const coverTriggers = document.querySelectorAll('.cover-enlarge');
 const coverLightbox = document.querySelector('#cover-lightbox');
-if (coverTriggers.length && coverLightbox) {
-  const closeButton = coverLightbox.querySelector('.cover-lightbox-close');
-  const lightboxImage = coverLightbox.querySelector('img');
+
+/* Approved Book 1 site-wide preview viewer */
+const bookOnePreviewPages = [
+  { src: 'assets/full-framework-front-cover.png', alt: 'The Full Framework front cover' },
+  { src: 'assets/book1-preview-02.png', alt: 'The Full Framework preview — Chapter 2 opening' },
+  { src: 'assets/book1-preview-03.png', alt: 'The Full Framework preview — Chapter 2 continuation' },
+  { src: 'assets/book1-preview-04.png', alt: 'The Full Framework preview — canonical four-marker Acts timeline' },
+  { src: 'assets/book1-preview-05.png', alt: 'The Full Framework preview — canonical Two Programs chart' },
+  { src: 'assets/book1-preview-06.png', alt: 'The Full Framework preview — Full Master Chart' },
+  { src: 'assets/book1-preview-07.png', alt: 'The Full Framework preview — Full Master Chart continuation' },
+  { src: 'assets/book1-preview-08.png', alt: 'The Full Framework preview — Overlap Zone Diagram' }
+];
+
+const previewModal = document.createElement('div');
+previewModal.className = 'book-preview-modal';
+previewModal.hidden = true;
+previewModal.setAttribute('role', 'dialog');
+previewModal.setAttribute('aria-modal', 'true');
+previewModal.setAttribute('aria-label', 'Preview The Full Framework');
+previewModal.innerHTML = `
+  <div class="book-preview-shell">
+    <div class="book-preview-topbar">
+      <div class="book-preview-heading">Preview <em>The Full Framework</em></div>
+      <button class="book-preview-close" type="button" aria-label="Close book preview">×</button>
+    </div>
+    <div class="book-preview-stage">
+      <button class="book-preview-arrow book-preview-prev" type="button" aria-label="Previous preview page">‹</button>
+      <img class="book-preview-image" src="" alt=""/>
+      <button class="book-preview-arrow book-preview-next" type="button" aria-label="Next preview page">›</button>
+    </div>
+    <div class="book-preview-controls">
+      <button class="book-preview-text-button book-preview-prev-bottom" type="button">‹ Previous</button>
+      <span class="book-preview-count" aria-live="polite"></span>
+      <button class="book-preview-text-button book-preview-next-bottom" type="button">Next ›</button>
+    </div>
+  </div>`;
+document.body.appendChild(previewModal);
+
+const previewImage = previewModal.querySelector('.book-preview-image');
+const previewCount = previewModal.querySelector('.book-preview-count');
+const previewClose = previewModal.querySelector('.book-preview-close');
+const previewPrevButtons = previewModal.querySelectorAll('.book-preview-prev, .book-preview-prev-bottom');
+const previewNextButtons = previewModal.querySelectorAll('.book-preview-next, .book-preview-next-bottom');
+let previewIndex = 0;
+let activePreviewTrigger = null;
+
+const renderBookPreview = () => {
+  const page = bookOnePreviewPages[previewIndex];
+  previewImage.src = page.src;
+  previewImage.alt = page.alt;
+  previewCount.textContent = `Preview ${previewIndex + 1} of ${bookOnePreviewPages.length}`;
+  previewPrevButtons.forEach((button) => { button.disabled = previewIndex === 0; });
+  previewNextButtons.forEach((button) => { button.disabled = previewIndex === bookOnePreviewPages.length - 1; });
+};
+
+const openBookPreview = (trigger) => {
+  activePreviewTrigger = trigger;
+  previewIndex = 0;
+  renderBookPreview();
+  previewModal.hidden = false;
+  trigger.setAttribute('aria-expanded', 'true');
+  document.body.classList.add('lightbox-open');
+  previewClose.focus();
+};
+
+const closeBookPreview = () => {
+  previewModal.hidden = true;
+  document.body.classList.remove('lightbox-open');
+  if (activePreviewTrigger) {
+    activePreviewTrigger.setAttribute('aria-expanded', 'false');
+    activePreviewTrigger.focus();
+  }
+};
+
+previewPrevButtons.forEach((button) => button.addEventListener('click', () => {
+  if (previewIndex > 0) {
+    previewIndex -= 1;
+    renderBookPreview();
+  }
+}));
+previewNextButtons.forEach((button) => button.addEventListener('click', () => {
+  if (previewIndex < bookOnePreviewPages.length - 1) {
+    previewIndex += 1;
+    renderBookPreview();
+  }
+}));
+previewClose.addEventListener('click', closeBookPreview);
+previewModal.addEventListener('click', (event) => {
+  if (event.target === previewModal) closeBookPreview();
+});
+
+const isBookOneTrigger = (trigger) => {
+  const triggerImage = trigger.querySelector('img');
+  const src = trigger.dataset.coverSrc || triggerImage?.getAttribute('src') || '';
+  return src.includes('full-framework-front-cover.png');
+};
+
+if (coverTriggers.length) {
   let activeCoverTrigger = null;
+  const closeButton = coverLightbox?.querySelector('.cover-lightbox-close');
+  const lightboxImage = coverLightbox?.querySelector('img');
 
   const openCover = (trigger) => {
+    if (!coverLightbox) return;
     activeCoverTrigger = trigger;
     if (lightboxImage) {
       const triggerImage = trigger.querySelector('img');
@@ -97,6 +195,7 @@ if (coverTriggers.length && coverLightbox) {
   };
 
   const closeCover = () => {
+    if (!coverLightbox) return;
     coverLightbox.hidden = true;
     document.body.classList.remove('lightbox-open');
     if (activeCoverTrigger) {
@@ -105,13 +204,35 @@ if (coverTriggers.length && coverLightbox) {
     }
   };
 
-  coverTriggers.forEach((trigger) => trigger.addEventListener('click', () => openCover(trigger)));
+  coverTriggers.forEach((trigger) => trigger.addEventListener('click', () => {
+    if (isBookOneTrigger(trigger)) {
+      openBookPreview(trigger);
+    } else {
+      openCover(trigger);
+    }
+  }));
+
   closeButton?.addEventListener('click', closeCover);
-  coverLightbox.addEventListener('click', (event) => {
+  coverLightbox?.addEventListener('click', (event) => {
     if (event.target === coverLightbox) closeCover();
   });
+
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && !coverLightbox.hidden) closeCover();
+    if (event.key === 'Escape') {
+      if (!previewModal.hidden) {
+        closeBookPreview();
+      } else if (coverLightbox && !coverLightbox.hidden) {
+        closeCover();
+      }
+    }
+    if (!previewModal.hidden && event.key === 'ArrowLeft' && previewIndex > 0) {
+      previewIndex -= 1;
+      renderBookPreview();
+    }
+    if (!previewModal.hidden && event.key === 'ArrowRight' && previewIndex < bookOnePreviewPages.length - 1) {
+      previewIndex += 1;
+      renderBookPreview();
+    }
   });
 }
 
