@@ -3,13 +3,13 @@
 <html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>Contact — Zay-Marie Press</title><link href="styles.css" rel="stylesheet"/><link href="interior-hero.css" rel="stylesheet"/><link href="assets/zay-marie-press-favicon.png" rel="icon" type="image/png"/><meta content="Contact information and publishing inquiry status for Zay-Marie Press." name="description"/><link href="https://zaymariepress.com/contact.html" rel="canonical"/><style>
 /* Approved Contact page redesign */
-.contact-page .page-hero{padding:44px 0 38px}
+.contact-page .page-hero{padding:0;background:#eef3ec}
 .contact-page .page-hero h1{margin-bottom:14px}
-.contact-page .page-hero .wrap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr);column-gap:64px;align-items:center}
-.contact-hero-copy{min-width:0}
-.contact-hero-visual{text-align:center;justify-self:end;width:min(100%,470px)}
-.contact-hero-visual img{display:block;width:100%;max-height:205px;object-fit:cover;object-position:center 68%;border-radius:2px;box-shadow:0 8px 22px rgba(20,40,25,.10)}
-.contact-hero-tagline{margin:13px 0 0;font-family:Georgia,"Times New Roman",serif;font-size:1.08rem;font-style:italic;font-weight:400;color:#111;letter-spacing:.01em}
+.contact-page .page-hero .wrap{display:block;max-width:none;width:100%;padding:0}
+.contact-hero-copy{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.contact-hero-visual{display:block;width:100%;margin:0}
+.contact-hero-visual img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;border-radius:0;box-shadow:none}
+.contact-hero-tagline{display:none}
 .contact-feature{padding:44px 0 32px;background:#fff}
 .contact-publisher-panel{position:relative;overflow:hidden;isolation:isolate;border:1px solid var(--line);background:linear-gradient(90deg,rgba(250,247,238,.98) 0%,rgba(250,247,238,.94) 52%,rgba(250,247,238,.72) 100%);box-shadow:0 8px 28px rgba(20,40,25,.06)}
 .contact-publisher-panel::after{content:"";position:absolute;z-index:-1;inset:0 0 0 46%;background:url("assets/home-hero-open-bible-web.jpg") center right/cover no-repeat;opacity:.29;-webkit-mask-image:linear-gradient(to right,transparent,#000 42%);mask-image:linear-gradient(to right,transparent,#000 42%)}
@@ -23,8 +23,8 @@
 .contact-support-strip{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:22px;padding:22px 28px;border:1px solid var(--line);background:#eef2e9}
 .contact-support-strip h3{margin:0 0 6px;color:#143823}
 .contact-support-strip p{margin:0}
-@media(max-width:900px){.contact-page .page-hero .wrap{grid-template-columns:1fr;gap:28px}.contact-hero-visual{max-width:620px;margin:0 auto;width:100%}}
-@media(max-width:760px){.contact-page .page-hero{padding:38px 0}.contact-hero-tagline{white-space:normal}.contact-feature{padding:36px 0 28px}.contact-columns{grid-template-columns:1fr}.contact-column{padding:30px 26px;min-height:0}.contact-column+.contact-column{border-left:0;border-top:1px solid #d6c59a}.contact-publisher-panel::after{inset:48% 0 0 0;opacity:.13;-webkit-mask-image:linear-gradient(to bottom,transparent,#000);mask-image:linear-gradient(to bottom,transparent,#000)}.contact-support-strip{align-items:flex-start;flex-direction:column;gap:18px}}
+@media(max-width:900px){.contact-hero-visual{width:100%;margin:0}}
+@media(max-width:760px){.contact-page .page-hero{padding:0}.contact-hero-tagline{display:none}.contact-feature{padding:36px 0 28px}.contact-columns{grid-template-columns:1fr}.contact-column{padding:30px 26px;min-height:0}.contact-column+.contact-column{border-left:0;border-top:1px solid #d6c59a}.contact-publisher-panel::after{inset:48% 0 0 0;opacity:.13;-webkit-mask-image:linear-gradient(to bottom,transparent,#000);mask-image:linear-gradient(to bottom,transparent,#000)}.contact-support-strip{align-items:flex-start;flex-direction:column;gap:18px}}
 </style></head><body class="contact-page"><header class="site-header"><div class="wrap nav">
 <a aria-label="Zay-Marie Press home" class="logo" href="index.html"><img alt="Zay-Marie Press" height="238" src="assets/zay-marie-press-logo-hq.png" width="420"/></a>
 <button aria-controls="primary-nav" aria-expanded="false" class="menu-toggle" type="button">MENU</button>
@@ -33,7 +33,7 @@
 <section class="page-hero"><div class="wrap">
 <div class="contact-hero-copy"><div class="eyebrow">GET IN TOUCH</div><h1>CONTACT ZAY-MARIE PRESS</h1>
 <p class="lead">Questions concerning Zay-Marie Press, our publications, website resources, or general publishing matters may be directed to us by email.</p></div>
-<div class="contact-hero-visual" aria-label="Open Bible"><img src="assets/home-hero-open-bible-web.jpg" alt="An open Bible with Scripture text visible"/><p class="contact-hero-tagline">Where the Bible Means What It Says.</p></div>
+<div class="contact-hero-visual"><img src="assets/contact-hero-approved.png" alt="Contact Zay-Marie Press hero with an open Bible and the phrase Where the Bible Means What It Says."/></div>
 </div></section>
 <section class="contact-feature"><div class="wrap">
 <div class="contact-publisher-panel"><div class="contact-columns">
