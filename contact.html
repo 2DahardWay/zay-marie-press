@@ -14,12 +14,12 @@
 .contact-publisher-panel{position:relative;overflow:hidden;isolation:isolate;border:1px solid var(--line);background:linear-gradient(90deg,rgba(250,247,238,.98) 0%,rgba(250,247,238,.94) 52%,rgba(250,247,238,.72) 100%);box-shadow:0 8px 28px rgba(20,40,25,.06)}
 .contact-publisher-panel::after{content:"";position:absolute;z-index:-1;inset:0 0 0 46%;background:url("assets/home-hero-open-bible-web.jpg") center right/cover no-repeat;opacity:.29;-webkit-mask-image:linear-gradient(to right,transparent,#000 42%);mask-image:linear-gradient(to right,transparent,#000 42%)}
 .contact-columns{display:grid;grid-template-columns:1fr 1fr;gap:0}
-.contact-column{padding:38px 42px 40px;min-height:310px}
+.contact-column{padding:38px 42px 40px;min-height:310px;display:flex;flex-direction:column;align-items:flex-start}
 .contact-column+ .contact-column{border-left:1px solid #d6c59a}
-.contact-column h2{margin:7px 0 16px;color:#143823;font-size:clamp(1.65rem,3vw,2.2rem)}
-.contact-column p{max-width:570px;line-height:1.6}
-.contact-email{font-size:1.12rem;margin:18px 0 20px}
-.contact-status{font-size:1.05rem}
+.contact-column h2{margin:7px 0 16px;color:#143823;font-size:clamp(1.65rem,3vw,2.2rem);line-height:1.12}
+.contact-column p{max-width:570px;line-height:1.6;margin-top:0;margin-bottom:14px}
+.contact-email{font-size:1.12rem;margin:4px 0 20px}
+.contact-status{font-size:1.05rem;margin-bottom:14px}
 .contact-support-strip{display:flex;align-items:center;justify-content:space-between;gap:30px;margin-top:22px;padding:22px 28px;border:1px solid var(--line);background:#eef2e9}
 .contact-support-strip h3{margin:0 0 6px;color:#143823}
 .contact-support-strip p{margin:0}
@@ -40,7 +40,7 @@
 <section class="contact-column"><div class="eyebrow">GENERAL INQUIRIES</div><h2>Contact Zay-Marie Press</h2>
 <p>Questions about our publications, Digital Studies, website resources, or the work of Zay-Marie Press are welcome.</p>
 <p class="contact-email"><strong><a href="mailto:info@zaymariepress.com">info@zaymariepress.com</a></strong></p>
-<a class="btn btn-primary" href="mailto:info@zaymariepress.com">EMAIL ZAY-MARIE PRESS →</a></section>
+<a class="btn btn-primary" href="mailto:info@zaymariepress.com" style="margin-top:2px">EMAIL ZAY-MARIE PRESS →</a></section>
 <section class="contact-column"><div class="eyebrow">MANUSCRIPT SUBMISSIONS</div><h2>Current Status</h2>
 <p class="contact-status">Zay-Marie Press is <strong>not currently accepting unsolicited manuscript submissions.</strong></p>
 <p>When future submission opportunities become available, guidelines will be announced on the Zay-Marie Press website.</p></section>
