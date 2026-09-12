@@ -126,7 +126,7 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 /* Approved site-wide Book 1 preview viewer — publisher-grade refinement */
 .book-preview-modal[hidden]{display:none}
 .book-preview-modal{position:fixed;inset:0;z-index:1100;background:rgba(5,17,11,.95);display:flex;align-items:center;justify-content:center;padding:18px 24px}
-.book-preview-shell{width:min(1080px,94vw);height:min(96vh,1000px);display:grid;grid-template-rows:auto 1fr auto;gap:12px}
+.book-preview-shell{width:min(1080px,94vw);height:min(92vh,960px);display:grid;grid-template-rows:auto 1fr auto;gap:12px}
 .book-preview-topbar{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:58px;padding:0 6px 9px;border-bottom:1px solid rgba(255,255,255,.16);color:#fff}
 .book-preview-titleblock{display:flex;flex-direction:column;gap:1px}
 .book-preview-kicker{font-family:Arial,sans-serif;font-size:.66rem;font-weight:700;letter-spacing:.18em;color:#d9b760}
