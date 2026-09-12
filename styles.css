@@ -199,7 +199,7 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 .support-tab-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .support-tab-grid a{display:flex;align-items:center;justify-content:center;min-height:54px;border:1px solid #d9d7cb;border-radius:6px;background:rgba(255,255,255,.35);font-family:Georgia,serif;font-weight:700;color:#173a32;text-decoration:none}
 .support-tab-grid a:hover,.support-tab-grid a.active{background:var(--green);color:#fff;border-color:var(--green)}
-.support-panel{padding:38px 0 42px;scroll-margin-top:92px}
+.support-panel{padding:34px 0 36px;scroll-margin-top:92px}
 .support-panel:nth-of-type(odd){background:#f7f5ee}
 .support-inner{max-width:1000px}
 .support-panel h2{font-size:clamp(2.35rem,4vw,3.55rem);color:var(--green);margin:0 0 10px}
@@ -216,4 +216,4 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 .support-help{margin-top:22px;padding:22px 26px;border:1px solid #d5d8ce;border-radius:7px;background:#edf0e8;display:flex;align-items:center;justify-content:space-between;gap:28px}
 .support-help strong{font-family:Georgia,serif;font-size:1.28rem;color:#173a32}.support-help p{margin:4px 0 0}
 .support-help .btn{white-space:nowrap;background:var(--green);color:#fff;padding:14px 22px;text-decoration:none;border-radius:5px;font-family:Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.06em}
-@media(max-width:760px){.support-tab-grid{grid-template-columns:1fr 1fr;gap:8px}.support-tabs{position:static}.support-hero{padding:34px 0 30px}.support-panel{padding:34px 0}.support-help{align-items:flex-start;flex-direction:column}.support-panel summary{padding-left:62px}.support-panel summary span{left:14px}.support-panel details>p{padding-left:62px}}
+@media(max-width:760px){.support-tab-grid{grid-template-columns:1fr 1fr;gap:8px}.support-tabs{position:static}.support-hero{padding:34px 0 30px}.support-panel{padding:30px 0}.support-help{align-items:flex-start;flex-direction:column}.support-panel summary{padding-left:62px}.support-panel summary span{left:14px}.support-panel details>p{padding-left:62px}}
