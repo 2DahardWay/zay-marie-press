@@ -84,7 +84,7 @@ const bookOnePreviewPages = [
   { src: 'assets/full-framework-front-cover.png', alt: 'The Full Framework front cover' },
   { src: 'assets/book1-preview-02.png', alt: 'The Full Framework preview — Chapter 2 opening' },
   { src: 'assets/book1-preview-03.png', alt: 'The Full Framework preview — Chapter 2 continuation' },
-  { src: 'assets/book1-preview-04.png', alt: 'The Full Framework preview — canonical four-marker Acts timeline' },
+  { src: 'assets/appendix A Acts Timeline for the website insert.png', alt: 'The Full Framework preview — canonical four-marker Acts timeline' },
   { src: 'assets/book1-preview-05.png', alt: 'The Full Framework preview — canonical Two Programs chart' },
   { src: 'assets/book1-preview-06.png', alt: 'The Full Framework preview — Full Master Chart' },
   { src: 'assets/book1-preview-07.png', alt: 'The Full Framework preview — Full Master Chart continuation' },
