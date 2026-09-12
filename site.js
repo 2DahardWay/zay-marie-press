@@ -88,7 +88,8 @@ const bookOnePreviewPages = [
   { src: 'assets/book1-preview-05.png', alt: 'The Full Framework preview — canonical Two Programs chart' },
   { src: 'assets/book1-preview-06.png', alt: 'The Full Framework preview — Full Master Chart' },
   { src: 'assets/book1-preview-07.png', alt: 'The Full Framework preview — Full Master Chart continuation' },
-  { src: 'assets/book1-preview-08.png', alt: 'The Full Framework preview — Overlap Zone Diagram' }
+  { src: 'assets/book1-preview-08.png', alt: 'The Full Framework preview — Overlap Zone Diagram' },
+  { src: 'assets/back cover mock for website.png', alt: 'The Full Framework — back cover' }
 ];
 
 const previewModal = document.createElement('div');
