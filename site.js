@@ -100,7 +100,7 @@ previewModal.setAttribute('aria-label', 'Preview The Full Framework');
 previewModal.innerHTML = `
   <div class="book-preview-shell">
     <div class="book-preview-topbar">
-      <div class="book-preview-heading">Preview <em>The Full Framework</em></div>
+      <div class="book-preview-titleblock"><span class="book-preview-kicker">BOOK PREVIEW</span><div class="book-preview-heading"><em>The Full Framework</em></div></div>
       <button class="book-preview-close" type="button" aria-label="Close book preview">×</button>
     </div>
     <div class="book-preview-stage">
