@@ -228,30 +228,3 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
   .support-tabs{padding:9px 0}
   .support-tab-grid a{min-height:50px}
 }
-
-
-/* Approved Reader Support lower-section scanability refinement */
-.support-info-card{
-  background:rgba(255,255,255,.58);
-  border:1px solid #ddd8c9;
-  border-radius:6px;
-  padding:18px 22px;
-  margin:12px 0;
-}
-.support-info-card h3{margin:0 0 7px}
-.support-info-card p{margin:0}
-.support-info-card p+p{margin-top:10px}
-.support-contact-card{
-  border-left:3px solid var(--green);
-  background:#f7f8f3;
-}
-.support-security-note{
-  margin-top:14px!important;
-  padding:12px 14px;
-  border-left:3px solid #b88719;
-  background:#f8f3e7;
-}
-.support-manuscript-card{background:rgba(255,255,255,.38)}
-@media(max-width:760px){
-  .support-info-card{padding:16px 17px}
-}
