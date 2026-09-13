@@ -218,3 +218,13 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 .support-help strong{font-family:Georgia,serif;font-size:1.28rem;color:#173a32}.support-help p{margin:4px 0 0}
 .support-help .btn{white-space:nowrap;background:var(--green);color:#fff;padding:14px 22px;text-decoration:none;border-radius:5px;font-family:Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.06em}
 @media(max-width:760px){.support-tab-grid{grid-template-columns:1fr 1fr;gap:8px}.support-tabs{position:static}.support-hero{padding:34px 0 30px}.support-panel{padding:30px 0}.support-help{align-items:flex-start;flex-direction:column}.support-panel summary{padding-left:62px}.support-panel summary span{left:14px}.support-panel details>p{padding-left:62px}}
+
+
+/* Approved Reader Support hero/tab refinement */
+@media(min-width:761px){
+  .support-hero{padding:34px 0 27px}
+  .support-hero .eyebrow{margin-bottom:8px}
+  .support-hero h1{margin-bottom:9px}
+  .support-tabs{padding:9px 0}
+  .support-tab-grid a{min-height:50px}
+}
