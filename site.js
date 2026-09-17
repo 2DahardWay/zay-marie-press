@@ -308,3 +308,38 @@ if (resourceModal && resourceModalTriggers.length) {
     if (event.key === 'Escape' && !resourceModal.hidden) closeResourceModal();
   });
 }
+
+/* Approved Digital Studies catalog cover treatment */
+if (document.body.classList.contains('digital-studies-page')) {
+  const studyCards = document.querySelectorAll('.individual-studies .study-card');
+  studyCards.forEach((card) => {
+    const type = card.querySelector('.study-type');
+    const match = type?.textContent.match(/Study\s+(\d+)/i);
+    if (!match) return;
+    const number = String(Number(match[1])).padStart(2, '0');
+    const title = card.querySelector('h3')?.textContent.trim() || `Study ${Number(match[1])}`;
+    const image = document.createElement('img');
+    image.className = 'study-cover-thumb';
+    image.src = `assets/study-${number}-cover.jpg`;
+    image.alt = `${title} cover`;
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    const content = document.createElement('div');
+    content.className = 'study-card-content';
+    while (card.firstChild) content.appendChild(card.firstChild);
+    card.appendChild(image);
+    card.appendChild(content);
+  });
+
+  const studyCoverStyle = document.createElement('style');
+  studyCoverStyle.textContent = `
+    .digital-studies-page .study-card{display:grid;grid-template-columns:150px minmax(0,1fr);gap:22px;align-items:stretch;padding:20px;min-height:260px}
+    .digital-studies-page .study-cover-thumb{display:block;width:150px;height:auto;aspect-ratio:2/3;object-fit:cover;align-self:start;border:1px solid #d8d1bf;box-shadow:0 5px 14px rgba(20,40,25,.12)}
+    .digital-studies-page .study-card-content{display:flex;flex-direction:column;min-width:0;height:100%}
+    .digital-studies-page .study-card-content .study-meta{margin-top:auto}
+    @media(max-width:1100px){.digital-studies-page .study-card{grid-template-columns:125px minmax(0,1fr);gap:18px}.digital-studies-page .study-cover-thumb{width:125px}}
+    @media(max-width:820px){.digital-studies-page .study-card{grid-template-columns:130px minmax(0,1fr);gap:18px}.digital-studies-page .study-cover-thumb{width:130px}}
+    @media(max-width:520px){.digital-studies-page .study-card{grid-template-columns:96px minmax(0,1fr);gap:14px;padding:16px}.digital-studies-page .study-cover-thumb{width:96px}.digital-studies-page .study-card h3{font-size:1.25rem}.digital-studies-page .study-card p{font-size:.94rem}}
+  `;
+  document.head.appendChild(studyCoverStyle);
+}
