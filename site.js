@@ -65,7 +65,7 @@ if(document.body.classList.contains('digital-studies-page')){
     .digital-studies-page .study-card-content{display:flex;flex-direction:column;min-width:0;height:100%}
     .digital-studies-page .study-card-content .study-meta{margin-top:auto}
     .digital-studies-page .study-card-03 h3{font-weight:700;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
-    .digital-studies-page .study-card-03 h3 + p{font-weight:500;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+    .digital-studies-page .study-card-03 h3 + p{font-size:1.06em;font-weight:500;line-height:1.58;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
     .study-cover-preview[hidden]{display:none}.study-cover-preview{position:fixed;inset:0;z-index:10000;background:rgba(7,20,12,.86);display:flex;align-items:center;justify-content:center;padding:36px}
     .study-cover-preview img{display:block;max-height:88vh;max-width:min(92vw,680px);width:auto;height:auto;box-shadow:0 18px 55px rgba(0,0,0,.45)}
     .study-cover-preview-close{position:fixed;top:20px;right:26px;width:48px;height:48px;border:1px solid rgba(255,255,255,.7);border-radius:50%;background:#fff;color:#123d28;font-size:32px;line-height:1;cursor:pointer}
