@@ -9,12 +9,22 @@ if (toggle && nav) {
     digitalStudiesLink.textContent = 'DIGITAL STUDIES';
     if (seriesLink) seriesLink.insertAdjacentElement('afterend', digitalStudiesLink); else nav.appendChild(digitalStudiesLink);
   }
+  if (!nav.querySelector('a[href="biblical-hermeneutics-course.html"]')) {
+    const digitalStudiesLink = nav.querySelector('a[href="digital-studies.html"]');
+    const seriesLink = nav.querySelector('a[href="series.html"]');
+    const courseLink = document.createElement('a');
+    courseLink.href = 'biblical-hermeneutics-course.html';
+    courseLink.textContent = 'COURSE';
+    if (digitalStudiesLink) digitalStudiesLink.insertAdjacentElement('afterend', courseLink);
+    else if (seriesLink) seriesLink.insertAdjacentElement('afterend', courseLink);
+    else nav.appendChild(courseLink);
+  }
   const closeMenu = () => { toggle.setAttribute('aria-expanded', 'false'); nav.classList.remove('open'); };
   toggle.addEventListener('click', () => { const open = toggle.getAttribute('aria-expanded') === 'true'; toggle.setAttribute('aria-expanded', String(!open)); nav.classList.toggle('open', !open); });
   document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { closeMenu(); toggle.focus(); } });
   const normalizePage = (value) => { const clean = (value || '').split('?')[0].split('#')[0].replace(/^.*\//, '').toLowerCase(); if (!clean || clean === 'index.html' || clean === 'index') return 'home'; return clean.replace(/\.html$/, ''); };
   const currentPage = normalizePage(window.location.pathname);
-  const navSectionByPage = {home:'home',books:'books','full-framework':'books','diagnostic-manual':'books',series:'series','digital-studies':'digital-studies',about:'about',resources:'resources','acts-overlap-visual-guide':'resources',contact:'contact'};
+  const navSectionByPage = {home:'home',books:'books','full-framework':'books','diagnostic-manual':'books',series:'series','digital-studies':'digital-studies','biblical-hermeneutics-course':'biblical-hermeneutics-course',about:'about',resources:'resources','acts-overlap-visual-guide':'resources',contact:'contact'};
   const activeSection = navSectionByPage[currentPage];
   if (activeSection) {
     nav.querySelectorAll('a').forEach((link) => { const linkPage = normalizePage(link.getAttribute('href')); const linkSection = navSectionByPage[linkPage] || linkPage; if (linkSection === activeSection) { link.classList.add('current-page'); link.setAttribute('aria-current','page'); } else { link.classList.remove('current-page'); link.removeAttribute('aria-current'); } });
