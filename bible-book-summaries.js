@@ -13,6 +13,7 @@
   ].map(([title,testament,genre,description,href])=>({title,testament,genre,description,href}));
   const search=document.querySelector('#book-search');
   const count=document.querySelector('#book-count');
+  const status=document.querySelector('#book-status');
   const genreIntroTitle=document.querySelector('#genre-intro-title');
   const genreIntroDescription=document.querySelector('#genre-intro-description');
   const testamentButtons=[...document.querySelectorAll('[data-testament]')];
@@ -33,7 +34,18 @@
   let testament='All',genre='All';
   const propheticGenres=new Set(['Major Prophets','Minor Prophets','Apocalyptic Prophecy']);
   const matchesGenre=book=>genre==='All'||book.genre===genre||(genre==='Prophetic Books'&&propheticGenres.has(book.genre));
-  const render=()=>{const query=search.value.trim().toLowerCase();const visible=books.filter(book=>(testament==='All'||book.testament===testament)&&matchesGenre(book)&&(!query||`${book.title} ${book.genre} ${book.description}`.toLowerCase().includes(query)));const introduction=genreIntroductions[genre];genreIntroTitle.textContent=introduction.title;genreIntroDescription.textContent=introduction.description;count.textContent=`Showing ${visible.length} of 66 books`;grid.innerHTML=visible.length?visible.map(book=>{const content=`<div class="book-meta"><span>${book.testament==='OT'?'Old Testament':'New Testament'}</span><span>${book.genre}</span></div><h3>${book.title}</h3><p>${book.description}</p><span class="book-action">${book.href?'Read Summary →':'Summary in Development'}</span>`;return book.href?`<a class="book-card available" href="${book.href}">${content}</a>`:`<article class="book-card planned" aria-label="${book.title} summary is in development">${content}</article>`;}).join(''):'<p class="summary-empty">No books match these filters. Try another search or category.</p>';};
+  const numberWords={1:'One',4:'Four',5:'Five',8:'Eight',12:'Twelve',13:'Thirteen',18:'Eighteen'};
+  const statusText=(visibleCount,query)=>{
+    if(query) return 'These results match your search within the selected filters.';
+    if(testament==='All'&&genre==='All') return 'The complete 66-book Bible Book Summaries collection is now available.';
+    if(testament!=='All'&&genre==='All') return `The ${testament==='OT'?'Old':'New'} Testament contains ${visibleCount} books in this directory.`;
+    if(testament==='All'&&genre==='Apocalyptic Prophecy') return 'Revelation is classified as Apocalyptic Prophecy in this directory.';
+    if(testament==='All') return `${numberWords[visibleCount]||visibleCount} books are classified under ${genre==='Law'?'the Law':genre}.`;
+    const testamentName=testament==='OT'?'Old Testament':'New Testament';
+    if(visibleCount===0) return `No ${genre} books are classified in the ${testamentName}.`;
+    return `This selection includes ${visibleCount} ${genre} ${visibleCount===1?'book':'books'} in the ${testamentName}.`;
+  };
+  const render=()=>{const query=search.value.trim().toLowerCase();const visible=books.filter(book=>(testament==='All'||book.testament===testament)&&matchesGenre(book)&&(!query||`${book.title} ${book.genre} ${book.description}`.toLowerCase().includes(query)));const introduction=genreIntroductions[genre];genreIntroTitle.textContent=introduction.title;genreIntroDescription.textContent=introduction.description;count.textContent=`Showing ${visible.length} of 66 books`;status.textContent=statusText(visible.length,query);grid.innerHTML=visible.length?visible.map(book=>{const content=`<div class="book-meta"><span>${book.testament==='OT'?'Old Testament':'New Testament'}</span><span>${book.genre}</span></div><h3>${book.title}</h3><p>${book.description}</p><span class="book-action">${book.href?'Read Summary →':'Summary in Development'}</span>`;return book.href?`<a class="book-card available" href="${book.href}">${content}</a>`:`<article class="book-card planned" aria-label="${book.title} summary is in development">${content}</article>`;}).join(''):'<p class="summary-empty">No books match these filters. Try another search or category.</p>';};
   testamentButtons.forEach(button=>button.addEventListener('click',()=>{testamentButtons.forEach(item=>item.classList.remove('active'));button.classList.add('active');testament=button.dataset.testament;render();}));
   genreButtons.forEach(button=>button.addEventListener('click',()=>{genreButtons.forEach(item=>item.classList.remove('active'));button.classList.add('active');genre=button.dataset.genre;render();}));
   search.addEventListener('input',render);render();
