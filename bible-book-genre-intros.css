@@ -1,0 +1,35 @@
+.genre-intro {
+  margin: 0 0 20px;
+  padding: 22px 24px;
+  border: 1px solid #c8d6cb;
+  border-left: 5px solid #176536;
+  background: #f7faf7;
+}
+
+.genre-intro-label {
+  margin: 0 0 7px;
+  color: #176536;
+  font: 800 .69rem 'Montserrat', Arial, sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.genre-intro h2 {
+  margin: 0 0 8px;
+  color: #0b2748;
+  font-size: clamp(1.35rem, 2.5vw, 1.8rem);
+}
+
+.genre-intro p:last-child {
+  max-width: 1030px;
+  margin: 0;
+  color: #34443b;
+  font-size: .98rem;
+  line-height: 1.68;
+}
+
+@media (max-width: 680px) {
+  .genre-intro {
+    padding: 18px;
+  }
+}
