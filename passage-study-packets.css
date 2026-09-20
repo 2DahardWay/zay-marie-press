@@ -1,0 +1,8 @@
+.summary-packet{margin:34px 0 24px;padding:24px 26px;border:1px solid #d9d2c1;border-left:5px solid #b8871c;background:#faf8f2}
+.summary-packet .eyebrow{color:#8a6414;margin-bottom:5px}
+.summary-packet h2{margin:0 0 8px;color:#143823}
+.summary-packet p{margin:0 0 14px}
+.summary-packet-meta{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:13px;border-top:1px solid #ddd7c8}
+.summary-packet-meta strong{font-family:Arial,sans-serif;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;color:#6b531a}
+.summary-packet-meta a{font-family:Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#176b3a}
+@media(max-width:680px){.summary-packet-meta{align-items:flex-start;flex-direction:column}}
