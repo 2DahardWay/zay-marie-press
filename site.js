@@ -64,6 +64,7 @@ const digitalStudyPageCounts={1:14,2:15,3:20,4:20,5:16,6:16,7:17,8:15,9:15,10:23
 const digitalStudyMatch=window.location.pathname.match(/\/study-(\d+)-/i);
 const digitalStudyFormat=document.querySelector('.detail-hero .detail-format');
 if(digitalStudyMatch&&digitalStudyFormat){const studyNumber=Number(digitalStudyMatch[1]),pageCount=digitalStudyPageCounts[studyNumber];if(pageCount)digitalStudyFormat.textContent=`Digital PDF · ${pageCount} Pages`;}
+if(digitalStudyMatch){document.querySelectorAll('.detail-button.pending').forEach(button=>{button.textContent='Checkout Coming Soon';button.setAttribute('aria-disabled','true');});}
 
 /* Approved Digital Studies catalog: larger real covers, tighter cards, click-to-enlarge preview. */
 if(document.body.classList.contains('digital-studies-page')){
