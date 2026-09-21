@@ -260,3 +260,15 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
   .support-tabs{padding:9px 0}
   .support-tab-grid a{min-height:50px}
 }
+
+/* Digital Study detail-page bridge to the complete interpretive method */
+.study-method-course-bridge{padding:42px 0;background:#edf2ee}
+.study-method-course-panel{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:38px;align-items:center;padding:32px 38px;border:1px solid #cfdbd3;border-left:5px solid #176b3a;background:#fff}
+.study-method-course-panel .eyebrow{font-family:Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.18em;color:#176b3a;margin-bottom:10px}
+.study-method-course-panel h2{margin:4px 0 10px;color:#143823;font-size:clamp(2.25rem,4vw,3.55rem);line-height:1.02}
+.study-method-course-panel p{max-width:850px;margin:0;line-height:1.55}
+.study-method-course-panel .btn{white-space:nowrap}
+@media(max-width:820px){
+  .study-method-course-panel{grid-template-columns:1fr;padding:28px}
+  .study-method-course-panel .btn{justify-self:start}
+}
