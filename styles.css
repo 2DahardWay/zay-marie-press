@@ -19,6 +19,9 @@
   gap: 22px !important;
   padding: 30px !important;
 }
+.digital-studies-page .study-card-content {
+  padding: 8px 16px 8px 8px !important;
+}
 @media (max-width: 1100px) {
   .digital-studies-page .study-cover-button, .digital-studies-page .study-cover-thumb { width: 195px !important; }
   .digital-studies-page .study-card { grid-template-columns: 195px minmax(0,1fr) !important; padding:28px !important; }
@@ -33,6 +36,9 @@
     grid-template-columns: 140px minmax(0,1fr) !important;
     gap: 18px !important;
     padding: 20px !important;
+  }
+  .digital-studies-page .study-card-content {
+    padding: 4px 8px 4px 4px !important;
   }
 }:root{
   --green:#176536; --blue:#0B4278; --ink:#1D2520; --muted:#59645e;
