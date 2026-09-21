@@ -59,6 +59,12 @@ if(resourceCards.length&&(resourceSearch||resourceCategory)){const normalize=v=>
 const resourceModal=document.querySelector('#resource-modal'), resourceModalTitle=resourceModal?.querySelector('[data-modal-title]'), resourceModalDescription=resourceModal?.querySelector('[data-modal-description]'), resourceModalLink=resourceModal?.querySelector('[data-modal-link]'), resourceModalClose=resourceModal?.querySelector('[data-modal-close]'), resourceModalTriggers=document.querySelectorAll('[data-resource-open]');let lastResourceTrigger=null;
 if(resourceModal&&resourceModalTriggers.length){const closeResourceModal=()=>{resourceModal.hidden=true;document.body.classList.remove('resource-modal-open');lastResourceTrigger?.focus();};resourceModalTriggers.forEach(trigger=>trigger.addEventListener('click',()=>{lastResourceTrigger=trigger;if(resourceModalTitle)resourceModalTitle.textContent=trigger.dataset.title||'Resource';if(resourceModalDescription)resourceModalDescription.textContent=trigger.dataset.description||'';if(resourceModalLink){resourceModalLink.href=trigger.dataset.href||'#';resourceModalLink.textContent=trigger.dataset.linkText||'OPEN RESOURCE';}resourceModal.hidden=false;document.body.classList.add('resource-modal-open');resourceModalClose?.focus();}));resourceModalClose?.addEventListener('click',closeResourceModal);resourceModal.addEventListener('click',e=>{if(e.target===resourceModal)closeResourceModal();});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!resourceModal.hidden)closeResourceModal();});}
 
+/* Display the verified final-PDF page count at the primary purchase decision point. */
+const digitalStudyPageCounts={1:14,2:15,3:20,4:20,5:16,6:16,7:17,8:15,9:15,10:23,11:13,12:13,13:15,14:13,15:13,16:14,17:14,18:13,19:13,20:13,21:14,22:15,23:15,24:13,25:13,26:17,27:15,28:14,29:13};
+const digitalStudyMatch=window.location.pathname.match(/\/study-(\d+)-/i);
+const digitalStudyFormat=document.querySelector('.detail-hero .detail-format');
+if(digitalStudyMatch&&digitalStudyFormat){const studyNumber=Number(digitalStudyMatch[1]),pageCount=digitalStudyPageCounts[studyNumber];if(pageCount)digitalStudyFormat.textContent=`Digital PDF · ${pageCount} Pages`;}
+
 /* Approved Digital Studies catalog: larger real covers, tighter cards, click-to-enlarge preview. */
 if(document.body.classList.contains('digital-studies-page')){
   const studyCards=document.querySelectorAll('.individual-studies .study-card');
