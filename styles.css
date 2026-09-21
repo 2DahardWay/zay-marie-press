@@ -14,7 +14,11 @@
   .digital-studies-page .study-cover-button,.digital-studies-page .study-cover-thumb{width:165px!important}
 }.digital-studies-page .study-cover-button,
 .digital-studies-page .study-cover-thumb { width: 250px !important; }
-.digital-studies-page .study-card { grid-template-columns: 250px minmax(0,1fr) !important; }
+.digital-studies-page .study-card {
+  grid-template-columns: 250px minmax(0,1fr) !important;
+  gap: 24px !important;
+  padding: 24px !important;
+}
 @media (max-width: 1100px) {
   .digital-studies-page .study-cover-button, .digital-studies-page .study-cover-thumb { width: 210px !important; }
   .digital-studies-page .study-card { grid-template-columns: 210px minmax(0,1fr) !important; }
@@ -25,7 +29,11 @@
 }
 @media (max-width: 520px) {
   .digital-studies-page .study-cover-button, .digital-studies-page .study-cover-thumb { width: 160px !important; }
-  .digital-studies-page .study-card { grid-template-columns: 160px minmax(0,1fr) !important; }
+  .digital-studies-page .study-card {
+    grid-template-columns: 160px minmax(0,1fr) !important;
+    gap: 18px !important;
+    padding: 20px !important;
+  }
 }:root{
   --green:#176536; --blue:#0B4278; --ink:#1D2520; --muted:#59645e;
   --ivory:#f6f2e8; --paper:#ffffff; --line:#cbd5cc; --burgundy:#3b1110; --gold:#b98519;
