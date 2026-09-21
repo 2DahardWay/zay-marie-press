@@ -17,6 +17,7 @@
   };
 
   const resources = [
+    {id:21,title:'New Testament and New Covenant Are Not the Same',subtitle:'Why Two Related Biblical Terms Must Not Be Used Interchangeably',category:'Doctrine',tags:['New Testament','New Covenant','Audience'],desc:'A free six-page guide correcting a common terminology error while preserving Israel’s covenant identity and the Body of Christ’s distinct Mystery calling.',href:'new-testament-and-new-covenant.html'},
     {id:20,title:'Historical Drift',subtitle:'How the Church Lost Sight of Pauline Distinctions',category:'Doctrine',tags:['Church History','Pauline Distinctions','Prophecy and Mystery'],desc:'A free 19-page monograph tracing how influential interpretive habits obscured the distinction between Israel’s Prophecy Program and the Mystery revealed through Paul.',href:'historical-drift.html'},
     {id:12,title:'Biblical Interpretation Starter Kit',subtitle:'A Practical Introduction to Reading Scripture With Evidence and Context',category:'Interpretation',tags:['Hermeneutics','Context','Worksheet'],desc:'A free 15-page starter kit for observing a passage, establishing meaning and assignment, classifying application, and completing a guided passage study.',content:()=>`
       <p>This complete introductory kit helps you move from careful observation to a defensible basic interpretation. It includes concise instruction, reusable exercises, a two-page passage-study worksheet, one worked example, and a seven-day practice plan.</p>
