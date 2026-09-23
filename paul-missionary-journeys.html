@@ -1,0 +1,480 @@
+hello
+world<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Paul's Missionary Journeys: Interactive Map of Acts 9–28 | Zay-Marie Press</title>
+<meta name="description" content="An interactive map of Paul's missionary journeys and voyage to Rome, with verses for every stop, where each letter was written, and the Acts Overlap."/>
+<link rel="canonical" href="https://zaymariepress.com/paul-missionary-journeys.html"/>
+<link rel="icon" href="assets/zay-marie-press-favicon.png" type="image/png"/>
+<style>
+:root{--navy:#0b1628;--panel:#14223a;--gold:#d4af37;--blue:#2f80ed;--green:#176536;--white:#f7f7f2;--muted:#c4cad4;--line:#32435f;--sea:#0a1830;--land:#243650}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 50% 0,#12213a 0,var(--navy) 55%);color:var(--muted);font:17px/1.55 Arial,sans-serif}
+a{color:inherit}
+.wrap{width:min(1180px,94%);margin:auto}
+.top{position:sticky;top:0;z-index:20;background:rgba(8,17,32,.96);border-bottom:1px solid #1d2a40}
+.nav{display:flex;justify-content:space-between;align-items:center;min-height:62px}
+.brand{font:700 20px Georgia,serif;color:var(--gold);text-decoration:none}
+.navlinks{display:flex;gap:24px;font-weight:700;font-size:14px}.navlinks a{text-decoration:none}
+.hero{text-align:center;padding:70px 0 30px}
+.eyebrow{color:var(--gold);font-weight:700;letter-spacing:.28em;font-size:13px}
+.hero h1{font:700 clamp(38px,6vw,64px)/1.05 Georgia,serif;color:var(--gold);margin:18px 0 8px}
+.hero h2{font:italic 21px Georgia,serif;color:var(--white);font-weight:400;margin:0}
+.intro{max-width:860px;margin:30px auto 0}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+.btn{border:1px solid var(--gold);background:var(--gold);color:#091426;padding:11px 18px;border-radius:5px;font-weight:800;text-decoration:none;cursor:pointer;font-size:14px}
+.btn.alt{background:transparent;color:var(--white)}
+section{padding:36px 0}
+.section-title{text-align:center;font:700 32px Georgia,serif;color:var(--white);margin:0 0 8px}
+.section-sub{text-align:center;color:#8590a2;margin-bottom:24px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:16px}
+.tab{border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:9px 14px;border-radius:999px;font-weight:700;font-size:13px;cursor:pointer;display:flex;align-items:center;gap:8px}
+.tab .sw{width:12px;height:12px;border-radius:50%;display:inline-block}
+.tab[aria-pressed="true"]{background:#223352;color:var(--white);border-color:var(--gold)}
+.layers{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-bottom:18px;font-size:14px}
+.layers label{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);padding:8px 12px;border-radius:6px;cursor:pointer}
+.stage{display:grid;grid-template-columns:1fr 340px;gap:18px;align-items:start}
+.mapbox{background:var(--sea);border:1px solid var(--line);border-radius:12px;overflow:hidden;position:relative}
+svg.map{display:block;width:100%;height:auto;touch-action:manipulation}
+.land{fill:var(--land);stroke:#4a6189;stroke-width:1.1}
+.region{fill:#6c7a92;font:italic 11px Georgia,serif;letter-spacing:.12em;pointer-events:none}
+.route{fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.route.dim{stroke-opacity:.14}
+.stopdot{cursor:pointer}
+.stopdot circle.base{stroke:#0b1628;stroke-width:1.4}
+.stopdot.dim{opacity:.16;pointer-events:none}
+.stopdot:focus{outline:none}.stopdot:focus circle.base,.stopdot.sel circle.base{stroke:#fff;stroke-width:2.4}
+.lbl{font:600 10px Arial,sans-serif;fill:#e9ecf2;paint-order:stroke;stroke:#0b1628;stroke-width:3px;pointer-events:none}
+#labels g.dim{display:none}
+.mk{pointer-events:none}
+#flow,#badges{pointer-events:none}
+.badge text{font:800 10.5px Arial,sans-serif;fill:#0b1628}
+.startTag text{font:800 9.5px Arial,sans-serif;letter-spacing:.08em;fill:#0b1628}
+#flow path{transition:opacity .4s}
+.howto{font-size:13px;color:#8f9bad;border-left:3px solid var(--line);padding:6px 10px;margin:8px 0 4px}
+.mk.hide,.mk.off{display:none}.mapbox .zoomnote{position:absolute;left:10px;bottom:8px;font-size:11px;color:#6f7d95}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;position:sticky;top:78px;min-height:260px}
+.panel h3{font:700 22px Georgia,serif;color:var(--white);margin:0 0 4px}
+.panel .jr{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.panel .vs{font:italic 14px Georgia,serif;color:var(--gold);margin:6px 0 10px}
+.panel p{margin:0 0 10px;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.chip{font-size:11px;font-weight:800;padding:3px 8px;border-radius:4px;background:#223352;color:var(--white)}
+.chip.turn{background:#5b4514}.chip.suspend{background:#7a2415}.chip.sign{background:#3d2a5c}.chip.letter{background:#153a5c}.chip.jew,.chip.prayer{background:#1d4a33}
+.panel ul{margin:6px 0 0;padding-left:18px;font-size:14px}
+.panel .hint{color:#8f9bad;font-size:14px}
+.stoplist{margin:14px 0 0;border-top:1px solid var(--line);padding:12px 0 0 26px;max-height:300px;overflow:auto;font-size:14px;color:var(--gold)}.stoplist li{margin:0}
+.stoplist button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--muted);padding:6px 4px;font:14px Arial,sans-serif;cursor:pointer;border-radius:4px}
+.stoplist button:hover,.stoplist button.sel{background:#223352;color:var(--white)}
+.jbtn{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;background:none;border:1px solid transparent;border-radius:8px;padding:8px;color:var(--muted);cursor:pointer;font:15px Arial,sans-serif}.jbtn:hover{background:#1b2b47;border-color:var(--line)}.jbtn b{color:var(--white)}.jbtn small{color:#8f9bad;font-size:13px}.jbtn .sw{width:11px;height:11px;border-radius:50%;margin-top:5px;flex:none}.dates{font-size:13px;color:#8f9bad;margin-bottom:10px}.panel h3{margin-top:4px}.letters{color:#9cc3ff}.pn{display:flex;justify-content:space-between;gap:8px;margin-top:14px}.pn button{background:#1b2b47;border:1px solid var(--line);color:var(--white);border-radius:6px;padding:7px 10px;font:700 13px Arial,sans-serif;cursor:pointer}.pn button:disabled{opacity:.35;cursor:default}
+.note{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:12px;padding:24px 26px}
+.note h3{font:700 22px Georgia,serif;color:var(--white);margin:0 0 8px}
+.note ul{margin:8px 0 0}.note li{margin:6px 0}
+.legend{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;font-size:14px}
+.legend span{background:var(--panel);border:1px solid var(--line);padding:10px 14px;border-radius:7px;display:flex;align-items:center;gap:8px}
+table{width:100%;border-collapse:collapse;background:var(--panel);border-radius:12px;overflow:hidden;font-size:15px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#3a3422;color:var(--gold)}
+td:first-child{font-weight:800;color:var(--white);width:22%}
+.studies{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.studies a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;text-decoration:none}
+.studies a b{display:block;color:var(--white);font:700 16px Georgia,serif;margin-bottom:4px}
+.studies a span{font-size:13px;color:#8f9bad}
+.footer{text-align:center;border-top:1px solid #1d2a40;padding:32px;color:#788497}
+.footer strong{color:var(--gold)}
+.print-only{display:none}
+@media(max-width:900px){.stage{grid-template-columns:1fr}.panel{position:static}}
+@media(max-width:760px){.navlinks{display:none}.hero{padding-top:44px}table{font-size:14px;display:block;overflow-x:auto}}
+@media print{
+ .top,.actions,.tabs,.layers,.stage,.no-print,.studies-sec{display:none!important}
+ .print-only{display:block}
+ body{background:#fff;color:#222;font-size:10.5pt}
+ .hero{padding:0 0 10px}.hero h1,.eyebrow{color:#8a620f!important}.hero h2,.section-title{color:#111!important}
+ .intro{margin-top:10px}
+ section{padding:10px 0}
+ table,.note{background:#fff!important;color:#222!important;border-color:#aaa}
+ th{background:#eee!important;color:#5a4309!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ td:first-child,.note h3{color:#111!important}
+ .footer{color:#555;padding:8px;font-size:9pt}
+ .legend{display:none!important}
+ body{font-size:9.5pt;line-height:1.4}
+ .hero h1{font-size:28pt;margin:6px 0 2px}.hero h2{font-size:13pt}
+ .section-title{font-size:15pt;margin:0 0 4px}.section-sub{margin-bottom:6px;font-size:9pt}
+ th,td{padding:4px 8px}
+ .note{padding:10px 14px;border-left-color:#176536}.note h3{font-size:13pt;margin:0 0 4px}.note li{margin:3px 0}
+ section{padding:6px 0}
+ @page{margin:0.4in}
+ td:first-child{width:auto}
+ #map{display:none!important}
+ table{font-size:9pt}
+ .print-only p{margin:4px 0 0;font-size:8.5pt}
+ .intro{font-size:9pt;margin-top:6px}
+ .hero{padding:0}
+ #letters .section-sub:last-child{display:none}
+ thead th{padding:4px 8px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap nav">
+    <a class="brand" href="resources.html">Zay-Marie Press</a>
+    <nav class="navlinks">
+      <a href="#map">Map</a>
+      <a href="#pattern">Jew First</a>
+      <a href="#letters">Letters</a>
+      <a href="#studies">Related Studies</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap hero">
+  <div class="eyebrow">ZAY-MARIE PRESS · RESOURCES</div>
+  <h1>Paul's Missionary Journeys</h1>
+  <h2>An Interactive Map of Acts 9–28</h2>
+  <p class="intro">Follow Paul from the Damascus road to Rome, city by city. See where he went to the synagogue first, where his letters were written, and how Israel's <b style="color:var(--gold)">Prophecy Program</b> and the <b style="color:#62a5ff">Mystery</b> operated concurrently through the Acts Overlap — two distinct programs, side by side, never merged. Scripture is quoted from the KJV; dates are approximate.</p>
+  <div class="actions">
+    <a class="btn" href="#map">Explore the Map</a>
+    <button class="btn alt" onclick="window.print()">Print One-Page Summary</button>
+  </div>
+</div>
+
+<section class="wrap print-only">
+  <h2 class="section-title">The Journeys at a Glance</h2>
+  <table>
+    <thead><tr><th>Journey</th><th>Acts</th><th>About</th><th>Main cities</th></tr></thead>
+    <tbody>
+      <tr><td>First</td><td>13:1–14:28</td><td>AD 46–48</td><td>Cyprus, Antioch of Pisidia, Iconium, Lystra, Derbe</td></tr>
+      <tr><td>Second</td><td>15:36–18:22</td><td>AD 50–52</td><td>Philippi, Thessalonica, Berea, Athens, Corinth</td></tr>
+      <tr><td>Third</td><td>18:23–21:17</td><td>AD 53–57</td><td>Ephesus, Macedonia, Corinth, Troas, Miletus</td></tr>
+      <tr><td>To Rome</td><td>21:18–28:31</td><td>AD 57–62</td><td>Jerusalem, Caesarea, Crete, Malta, Rome</td></tr>
+    </tbody>
+  </table>
+  <p>Interactive map: zaymariepress.com/paul-missionary-journeys.html</p>
+</section>
+
+<section id="map" class="wrap">
+  <div class="tabs" role="group" aria-label="Choose a journey" id="tabs"></div>
+  <div class="layers" role="group" aria-label="Map layers">
+    <label><input type="checkbox" id="lyJew" checked> “To the Jew first” markers</label>
+    <label><input type="checkbox" id="lyLet"> Letters written here</label>
+    <label><input type="checkbox" id="lySig"> Signs in Paul's ministry</label>
+  </div>
+  <div class="stage">
+    <div class="mapbox">
+      <svg class="map" id="svg" viewBox="0 0 1000 635" role="img" aria-label="Map of the eastern Mediterranean showing Paul's journeys">
+        <path class="land" d="M-38-52l2076 0l0 1365l0-132l0 132l-297 0l22-1l0-3l4-16l2-2l0-3l0-2l1 0l-1-2l2-2l0-8l2-6l0-1l-2-3l-4 6l-4 2l-4 7l-5 7l0 2l-1 3l0 6l-2 1l-2 6l0 6l1 3l-115 0l1 0l-3-3l-1 0l-3-3l-2-3l-8-9l-5-3l-1-5l-2-1l-2-4l0-5l-6-4l0-2l-1 1l0 1l-1 0l1-7l-1-4l-3-1l2-11l-3-6l-4-3l1-2l0-2l-4-5l1-2l-2-2l2 0l0-3l-2 2l1 4l-1-2l-3 0l-4 4l1 3l3 2l-9 11l-2 4l-1 5l-1 3l3 5l11 10l5 7l1 5l2 4l2 13l-2 3l-1 5l444 0l-2076 0l0-754l0 59l0-32l1-2l3 0l1 2l-1 4l3 5l0 5l4 4l-2 3l-7 5l-2 4l0 102l3 1l1 3l-2 1l-1 2l1 4l1 1l4 2l-2 1l-1 3l0 6l-1 2l1 4l4 6l4 2l0 2l-3 1l-8 11l1 5l-2 3l0 139l0-15l0 1l5 3l4 6l0 4l-2 3l2 6l-1 3l2-1l3 4l10 4l-2 0l-11-3l-1 3l5 6l5 0l9 3l4 0l1-1l0-1l-6-5l7 5l9 4l2 3l3 2l12 2l-8-5l12 5l18 11l3 4l17 7l29 4l7-1l19-6l7-4l7 0l7 1l16 9l4 1l16 0l12 4l15 3l21 18l12 2l7 4l14 0l21 5l8 7l1 5l5 9l-1 17l10 27l10 15l11 9l21 10l24 4l28 1l16 3l16 6l16 3l7 5l29 9l5 6l22 8l9 10l18 13l7 7l8 3l16 10l13 1l7-1l8-2l16-9l3-1l11-9l13-15l5-8l4-4l9-19l0-16l-4-8l-6-7l-5-15l0-7l-3-11l3-15l-1-2l10-20l14-14l5-7l5-2l13-11l18-7l10-8l9-4l3-1l15 1l9-2l15-12l8-2l6 3l6 1l17-2l1-2l3 0l1 1l1 2l2 3l10 0l13 8l23 6l4 3l18 5l1 2l-2 3l1 6l3 3l-1 8l-2-1l-1-3l-1 9l9 4l3 6l4 2l1 3l-1-5l5 1l4 2l19 1l13 3l12 5l-2 2l9 5l15 0l20 2l9-4l5 0l4 2l15 4l2 2l1 2l0 7l7 9l3 7l0 7l2 5l9 2l5-1l2 1l35-10l8 0l30 8l21 3l3 1l5 0l9 4l7-1l7 3l13 4l1-1l6 0l2 1l4 10l6 4l8 1l2 0l4 2l4-1l10-5l1 2l3 9l2 2l17 0l4 2l8 1l8-2l4 3l4 0l22 8l1 4l15 8l14-1l22-11l20-14l1-3l2 1l2-1l4-3l-2-1l0-1l2 0l0 1l13-12l0 3l2 1l6 2l-2 3l2 1l3-1l0 1l1 0l2-3l1 1l0-2l2 3l1-3l-1-1l-4 1l1-1l-5 0l5-2l5-4l3-7l-1-6l2 3l2 1l-2-1l-1-5l8 5l6 0l33-11l-26 13l-6 1l-1 3l2 0l5 0l3-1l0-2l5 3l1-3l4-2l2 2l3-1l2 1l3-2l0-1l3 2l4-7l3 0l4 2l0-1l-1-1l2 0l-5-4l-4-2l-3 0l9-2l9 2l26 12l14-3l10-5l5 1l6 11l13 9l-2 0l-7-5l1 1l-1-1l-6-3l-2-4l2 0l-6-8l-2 0l-1 1l-1-1l0 1l-1 0l-1 2l2 0l1 6l-3-4l-1 2l2 0l0 2l2 1l-4 0l1 2l-1 2l2 1l-4 0l0 4l-2 1l0 1l1 1l1 0l-1-1l3 1l1 2l4 3l1-3l0 3l-1 0l1 0l-1 2l3-1l0 2l4-4l2 1l-1 0l1 1l1-1l1 0l0 6l-2 2l3-1l2 3l-2 2l3 0l0 2l1 1l2-1l-2-1l0-2l3 2l0-2l1 0l0-1l2 0l0-1l4 1l3-1l1-2l-2-3l2 0l0-5l-2-2l2-1l-6-1l0-2l9 3l1 2l5 2l10 12l4 2l13-2l12-6l-6 5l-14 4l4 0l-1 1l4-1l1 1l9-5l2 0l0 2l0-1l2-1l-2 0l1-1l3 1l1 2l-1 1l3 0l2 0l-2-2l4-1l1-3l-4 3l-5-1l3 0l3-5l4-1l2-2l1 1l-2 0l5 6l-3 2l0-1l1 3l0 3l6-2l-2-1l5-2l1 1l1-1l2 2l-1-2l2 0l-3-1l8-1l-1-1l2-1l0-1l7 2l12 1l15-4l15-6l13-8l17-19l12-20l8-17l2-9l1-1l6-19l8-40l1-10l1 0l4 1l3-3l2-4l-1-2l1-13l2-1l-1-2l2-2l2-1l1-4l1 1l2-5l0-3l-1-2l3-3l3-13l6-5l3-12l4-6l3-8l0-6l-1-3l1-1l3 1l4-1l3-7l2-1l-1-4l2-7l-2-7l2-2l1-8l2-2l1 1l3-7l5-2l1-2l-2-2l8-2l6-5l0-8l-4-11l0-4l-5-13l1-1l-1-4l3-4l-1-8l5-8l-3-8l1-3l-1-9l-8-9l-3 1l0-4l-3-2l1-1l-2 0l4-3l0-5l2-2l3-5l0-5l-3-5l5-1l8-13l0-2l-2-6l-12-21l2-4l3-2l1-3l3-1l1-3l5-3l4-6l11-6l2-5l-2-13l-4-7l-5-4l-3-1l-3 1l-14 13l-11 2l-3 3l-1-2l-2 4l0 1l2-1l1 0l0-1l2 1l0-2l1-1l1 2l3-1l-4 2l-4 4l1 1l4-5l2-1l-3 3l-2 7l-5 2l-4-3l-2 2l4 1l-7-1l-7 5l-2-2l-26-15l-2-1l-4 1l1-2l-4-4l-7-3l0 1l-2-1l-4 0l-10 5l-1 2l-20 15l-8 11l-7 5l0 8l-6 2l-3 9l-1 0l0-5l-1-2l-5-3l-3 4l-1 1l1 0l-2 3l-4 2l-3 3l-1 4l-3-5l-3 0l-5 6l-1-1l1-1l-7-1l-4 2l-6-1l-1 1l-8 1l-3-1l-2 0l-4 5l-11-2l-5 3l-5 4l-10-2l-8-4l-4-1l-7-5l-4-2l-4-5l-2-1l-1-4l-6-7l-2-4l-3-3l-2-5l-6-5l-9-2l-3-2l-4-1l-3-2l-3-3l-2 0l-8-4l-17-7l0-3l-3-1l-30-5l-12 1l-7-4l-6 5l-3 5l1 10l-2 4l1 3l1 1l-1 6l-4 4l-3 8l0 2l2 2l0 1l1 1l-3 3l-1 2l2 0l-5 6l-2 1l0-5l-1-1l-2 1l-8-4l-7 1l-1 4l-1-2l-2 3l-4-2l-1 1l1 1l-5 2l-5 0l-6 3l0 1l-3 1l2 0l-3 3l-2 0l1-2l-5 0l-2 3l-1-2l-2-1l-1-2l1 0l0-1l-4 0l3-1l-10-1l-5-3l0 1l-1-3l-1 0l-1 0l-3 3l-9-9l-4-1l-1-2l-1 1l0-3l-3 0l1 0l-2-1l3-2l-1-4l-2-2l2-2l-1-5l-1 0l-1-1l-5 1l1 0l-1-4l2-3l1 1l3-3l0 2l1 0l0-2l-1-2l-10-5l-2-3l-3 4l0 1l-3 1l0 2l-1 0l2 4l1-2l0-2l1 1l-3 4l1 1l-3 0l-1-1l2-2l-3-2l-1 1l-1-3l-2-2l-4 0l-3 1l-1-3l-2 2l-1-3l1-3l-1-3l0-2l-1 2l-1-2l-2-1l-2 1l0 3l-3-1l1-2l-3 0l0-1l-1-2l2 0l-2-3l-1 1l-4 2l1 1l2 1l-2 4l-6-3l0 2l-3 0l0-2l3-1l-3-2l-1 0l-2 3l2 3l-1 2l3 2l1 2l-3-1l-1 2l-1-1l0 2l-6 3l-3 6l-2 2l-2-1l-2 1l1 1l-1 1l-2-1l0 1l-2 0l-2-4l6 0l4-4l-1-1l-2 2l1-3l-2-2l-1 2l-4-2l5-3l4 0l0 1l2-1l0-1l-3-1l3-3l1 2l-1-4l-2 0l-3 3l-1-1l-5 3l-1-2l-3 2l0-1l-2 1l-2-1l-1 1l-3-2l-7 1l-3 3l0 6l-4-2l-5 0l0-1l-6 4l-2-2l-4 0l0-2l-3 0l1-1l-1-1l4 0l3-4l12-1l1-3l2-1l3 2l5 0l3-2l8 0l3 1l5 0l1 1l3-2l-2-2l-2 0l1-1l-1-2l4-1l-3-4l1 0l-1-1l3 0l-2-1l6 0l3 0l1 2l-1-3l2 1l2-4l-1 0l1-2l3 1l1-1l-1-1l6-3l-2-1l-13 1l-2 1l1 1l-10-1l-2 1l-5-1l-8 2l0 1l-7-1l-4 3l-5-2l-1 2l-3-2l-3 0l-3-3l-2 1l-1-1l-1 3l-1-3l-3 1l-1 3l-1 1l0 2l-3-1l-3-9l1-2l4-3l-2 0l-1-1l5 0l0-3l2 1l0 1l3-2l0 2l4 1l-1 1l2 2l8-3l1-1l-1 0l-2-5l3-1l1 0l-1 2l2-1l1-1l-1-1l-1-2l2-2l0-2l-1-1l-1 1l-2 0l-3 4l-2 0l2-1l-1-3l-3 2l2-7l-1-2l-1 3l-2 1l-3-2l-1-2l1-2l3-2l-2-2l-3 0l-2 4l-2 0l1 1l-7 2l-4-2l1-2l0-2l2-1l0-6l-3-1l-1 2l1-4l0-4l0-1l1 1l1-2l-1-3l-5-3l-9-3l0-2l8-1l7-2l3-3l1-7l-2-3l3-8l-3-5l-5 0l-4-1l-1-2l-3 0l-1-3l-6-2l-6 1l-2 2l-2-4l-1-5l-3-4l-1 1l0-4l-1-1l-10 1l-1 6l-1 0l1 2l-2 2l-2-4l0 2l-1 0l-2-2l0-4l-3 1l-5-4l0 2l-2-3l0-3l-1 2l-2 1l-9-5l0-2l2 1l2-3l2 0l-2-2l0-3l2 1l1-2l-1 5l3 0l0 1l3 0l-1-2l3 0l4-3l0-3l-2-2l3 2l2-3l-5-4l-3 2l-1 0l1-3l-3-5l-1-8l0-4l4-2l4 1l3 2l10 13l1 5l-4 0l1 1l-1 3l2 1l4 10l2 0l0-2l-1-1l-1-6l2-3l2 0l3 7l2-1l0 1l10-2l7-3l5 1l6-5l-10-1l-7 3l1-1l-4-5l-3-1l-3-3l4 3l2 0l-5-4l1-5l-1-1l-3 1l1-1l-4-1l1-2l-3-1l2-1l-2-6l7-3l7 2l-1-1l2-2l1 1l0-2l-3-4l3-1l1 2l1 0l0-4l4-2l1 1l3-3l-2 0l1-3l-1-2l-4 2l-2-2l-2 1l-1-1l-4 3l-5-4l-1-2l2-5l-2 0l7-5l-1-2l-4-6l-5-3l-2-7l-9-2l2-3l1-1l1 1l-2 1l3 2l0-3l11-9l-1 0l0-3l4-1l0-2l6-2l1-5l-1-4l-3-1l-5 3l-2-1l-26 4l-7 4l-6 0l-3 2l-1-1l-9 1l-3-1l0-2l3-10l3-3l0-2l1-6l-2-5l1-6l-1-2l1-6l0-3l1-4l2-3l4 1l8-6l1-5l2 0l1-2l0-7l7-2l18-18l12-1l7 2l8-6l9 0l5-2l4 6l-3 0l3 4l9 5l5 1l3 0l4-2l6 1l1-1l6 1l2-3l6-4l-6-1l-2 1l-3-7l-1 0l-4-4l3-3l2 0l1-1l2 3l2-1l12 2l5 3l-1 2l-9 5l0 2l3 1l6 0l7-3l18-1l10 1l-2 2l7-1l6 2l8-2l3-1l8 1l6 3l7-1l1-2l2-4l4 0l-3-4l-3-1l-4 0l-3 2l-15-6l1-3l10-6l4-3l23-3l8-4l2 2l7-4l3 2l0 2l16-3l8-1l5 1l1-1l-1-3l-3 0l-9 1l-3-2l-5-1l-18 0l-4 2l-4-3l2-1l-2-2l-5 1l1-3l2 0l-1-1l-3-3l-2 0l-5-3l-5-5l-4-2l0-1l-1 0l-1-4l4-5l3-6l-2-1l8-8l2 0l2-1l29 6l21 3l19 1l6-3l4-4l7 3l25 6l4 3l6 1l20 0l2-2l8 1l7-4l5-6l2-9l-2-2l1-2l5 0l2-3l13-5l28-18l7-2l10-12l7-1l2-3l1 1l11-7l3 0l2-2l5 0l6-2l13-3l6-3l12-4l12-7l16 1l6 2l16 2l13-1l25 4l12-3l6 2l10 1l7-2l7-4l4-7l1-3l4 2l1-1l2 3l0 1l3 2l4 1l2-2l4 2l-6 0l-2 2l-2 8l5 8l4 3l-1 1l1 3l7 6l8 3l6 4l7 2l24-8l5-3l-2 3l-1 6l1-4l3-4l5 4l0-1l7 10l-1 7l1 7l5 5l3 5l7 4l1 3l4 4l4 1l5-2l4-4l4-8l10 1l6 2l11 6l4 5l0 6l8 4l12 0l3 2l4 1l3 3l4 1l3 4l4 0l2-2l3-5l4-4l2 3l2-1l3 0l0 6l6 5l2 3l3-1l20 5l5-1l5 3l4-1l5 1l4-1l0-262l-750 0l3 0l-4 6l-6 5l0 3l-6-5l-5-1l-6 2l-7 0l-3 1l-2 4l-5 13l-9 3l3 5l-2 9l-2 4l1 9l0 8l-1 2l1 6l-1 8l-12-1l-1 3l2 3l-9 3l2 7l-8 0l-2 1l-3 7l-1-1l-1 3l1 1l0 3l1-4l3 3l2-3l1 2l1-1l2 1l2-1l1 0l0 1l1 3l3-1l1 1l1 0l-2 2l2 1l0 4l2 1l3 0l0 3l-3 3l1 2l2 2l-1 0l6 6l0 1l10 10l2 4l3 14l-5 1l-1 6l9 15l-1 1l0 2l8 9l4 4l11 7l40 18l9 3l1-1l2 0l3 2l-2 4l-3 3l2 3l-3 8l-3 2l0 3l-4-1l-3 3l-6 2l-6-2l-8 1l-3-1l1-3l-2-1l0-3l-2-3l-2 0l3 6l-2 3l-2 0l-6-5l-8-3l-5 0l-2-1l-4 0l-1 0l-12 4l-2 2l-2 5l-1 0l-6-1l-7-3l-19 2l-2 2l-5 14l-7 7l-4 6l-8 7l-5 2l-5 0l-4 5l-6 1l-7 5l-4 0l-6 4l-1 3l-4 4l-1 4l-4 4l-3 1l-5 6l-7 4l2 4l-10 8l-5 2l-2 0l0-1l8-13l1-3l0-3l-4-4l1-1l-2-1l3-3l6-2l8-7l4-2l6-4l2-1l7 0l4-5l1 0l3 0l3-4l-3-6l-8 2l-6 0l-8 4l-4-2l-3 2l-3-1l-5 1l-16-1l-2-5l0-4l-2-3l1-1l-2-6l-1 0l4-2l0-1l-4 1l-1-2l0 2l-6-3l-14 0l-9-2l-3 1l-3-1l-3-3l-6 0l-9-5l-2 2l-7-1l-3-2l1-3l2 0l-3-2l-7 1l0 1l-4 2l1 2l-1 1l-3 0l-4 2l-7 7l-3-1l-4 1l-4-3l-2 2l-5-9l-5-1l-3 2l-1-1l-4 1l-6 6l1 3l-1 0l0 2l2 0l-17 10l-3 1l-7-1l-11-5l-6 2l-3 2l-2 5l1 2l4 2l3 6l3 3l4 0l2 2l-1 1l-5 1l-1 1l0 5l3 5l8 3l3-1l0-1l-1-5l1 0l6 8l7 2l2 3l2 0l11 14l1 2l-2 2l-5 1l-1-3l-4-3l-5-9l-11-3l-7-6l-7 0l-6 2l-2-1l-3 5l2 5l3 3l2 2l8 3l8 6l-1 2l2 4l-1 0l-1 1l2 0l1 3l-2 1l0 3l-2 1l2 1l-6 0l1-2l-2 0l0-1l-3-2l-1-2l-2 0l0 2l-3-6l1-3l-9-12l-3-2l-7-1l-8-3l-3 0l-2 2l-2 3l1 8l3 0l8 10l7 5l6 1l0 2l2 2l3 1l-3 2l-6-1l-13-5l-7 1l2-4l-3-5l-3-5l1-7l0-3l-2-3l-11-4l-4-3l-5-2l-1-2l-5-4l-5 0l1-3l-5-8l8-2l4-3l-1-2l-3-2l1-2l-3-3l-4 0l0 3l-3 4l-3-1l-1 1l-1 3l0 2l-1-1l0 2l-1-1l-1 1l-3-2l-1 1l1 2l-2 3l-1-1l-4 1l2 3l0 3l4 4l-8 20l2 11l1 0l1 4l8 6l1 7l6 4l4 5l1 6l5 15l13 8l1 4l11 13l6 14l-3 2l-7 2l1 2l-2 1l-2 0l-4 2l-5-1l2-5l3-1l-2 5l6-3l1-2l1 0l1-2l-3-6l0-3l-3-3l-3-1l-6-1l-1-4l-5 0l0 5l0 1l-7 1l-1 2l0 5l2 6l2-3l2 2l1 4l1 1l0-2l2 2l3 4l0 2l-3 3l0 1l6-3l3 1l-4 2l-3 6l-4 0l0 2l-3 1l-4-1l0 3l-4 2l-4 1l-1-2l-3 1l-5-3l-6 3l-1-1l0 3l4-1l-2 2l2 1l2-1l-1 2l4 0l5-2l4 6l5 0l3 3l1-2l3 0l3 2l6 1l5 10l6-1l1-1l-2-2l1 0l9 3l2 3l-3 4l0 2l1-1l6 3l-4 2l0 1l14 2l2-3l4 4l-2 2l2 1l0 2l2 1l4 5l3 2l5 0l14 6l8 7l0 4l-1 3l-1-1l-1 0l-3 2l0 2l3 9l-2 4l0 4l2 0l1 2l-3 1l5 3l0 2l-2 2l3 2l0 3l-2 3l1 4l-3 4l-6-3l-1-4l-1 0l-2-6l-1 1l-2-3l-3-2l-1 2l-2 0l0 1l-6-14l-2 0l-4 1l1-2l-1 1l-5-3l3-4l-2-3l-9 3l-4 3l2 1l-1 0l-14 0l-10 6l-6-1l-1 4l1 3l5 1l3-1l5 4l0 3l-4 2l-1 1l4 2l0 11l12 7l2-1l0-3l-4-4l3-1l4-1l1 4l-3 4l4 3l-2 1l3 1l7 4l0 2l-6 3l-11 0l0 1l-3 0l0 1l-3 0l0 1l2 1l0 1l2 1l-7 1l1 3l-2 0l-2-1l1-1l-3 0l0-1l1 1l-1-2l-3-1l-1-4l2 1l2-4l2 2l-1-4l-3-1l-4 0l1 0l-1-2l-3 2l-2-4l-4-4l-1 0l1 2l-3-1l-2 2l-3-2l1-1l-2-1l-2-4l-4 3l0 7l3 6l0 3l4 5l0 3l7 12l-1 3l1 3l4 0l0 3l1 1l-1 0l4 9l-2 0l1 2l1-1l0 4l2 6l4 5l-1 3l3 0l-2 5l-3-1l-2 3l1 0l-1 2l2 0l-1 1l0 3l3 7l6 3l-2 3l5 5l0 2l-3-1l-2 1l-3-1l-2-3l-1-4l-6 0l-3-7l-4-3l0-3l-3-3l-2 2l0-5l-2-7l-2-1l-6 0l-5 0l-3 2l0 4l-2 2l-2 3l2 1l0 3l-2-2l-1 2l2 1l-1 2l-1 1l0-2l-2 2l1 9l1 4l-1 3l1 3l-1 0l0 1l-2-6l-5-3l-2 1l-2-3l1-4l1 1l1-1l-1-3l1-2l-2 0l1-4l1 0l-2-1l0-1l2-4l-3 1l-4-7l0-4l-6-8l-1 0l-2 1l-3-2l1-10l-8-1l-8 3l-1 13l0 4l3 2l-2 1l0 2l-4 4l-5-8l-4 1l-4-2l-1 0l-1-3l0-4l2-5l-2-2l-2 1l1-2l-1 2l-1-4l-4-5l-2-10l2-6l6-6l1-3l-1-8l-9-15l-9-6l-3-3l-4-2l-2 1l0 2l-1-3l1-4l-2-7l-14-5l0-4l2-6l2 1l4-1l8-7l0-2l-2 2l6-10l0-9l3 3l-1-3l6 2l3 3l8 1l6-5l5-9l6-4l8 0l5 3l1 3l3 1l3 0l2 1l2 4l4 3l7 1l2-1l6 5l1-1l6 1l13 6l9 9l5 3l6 0l2-3l-2-3l-5-2l0-1l-2 0l2-2l2 0l2-2l10 2l8-2l3-2l-3-3l0-1l4-2l-7-1l1-1l-2-2l-4 2l-3 0l2-1l-2-2l-6-1l-2 2l2 0l2 1l-5 0l-1-5l-1 2l0-2l-6 2l-3-2l3-3l-8-4l-2-2l1-2l-3-3l-1 2l1 1l-2 0l-2 2l0 1l1 1l0 2l-1 1l-2-1l-1 0l-2-3l1-1l-5-8l-5-3l0 4l-2 2l1 2l-1 1l0 2l-12-2l-2 4l-5-5l-6-3l-3 1l-2-2l-2 0l-6 3l-3-1l-4 3l-1 3l-4-3l-4 0l-4 2l-1-1l-6 5l-7-3l1 0l4 2l0-3l-1 0l1-2l-2 0l1-1l-4 1l0-2l-3-2l-2-6l-3-3l-1 0l0 1l4 5l-1 0l-1 4l-3 1l0 2l-2-1l0 2l-3 2l-3-1l0 1l1 1l-2 2l-1-1l-1-3l-5 0l2-2l0-1l-1 1l1-2l0 1l3-3l-2-1l-2 1l-1-2l0-2l2 2l1-2l-1 1l0-5l-2 0l1-1l-1-1l1-3l-5 2l-1-3l1-6l-4-6l-3 0l-1-1l-3-11l-2-1l-3 4l-1-1l-2 1l-3-4l1-5l4-1l-3-4l1-5l0 2l3 2l3-4l1 3l3 0l1-2l1 1l3-1l4 2l0 3l4 3l2-4l2 1l3 3l1-2l-3-4l1-7l-6-6l0 3l-2 0l-1 1l1 1l-4 0l-3-3l0 1l-2-1l1-3l-2 1l-2-1l-2 2l1 2l-3 0l1-1l0-2l-1-1l-1 0l1-2l-2-2l-3 2l1 1l0 3l-2 3l-2-1l1 2l6 3l0 2l-5-2l-2 3l-3-4l2-2l-3-6l-6-5l-9-10l0-5l-5 0l-2-2l-2 1l-3-1l-2-3l0-3l-3-3l-2-1l-1-4l4 0l-1-3l-3-2l3 0l0-1l-3-2l0 2l-3-3l-3 1l1-4l1 0l1-1l0-5l-7-5l-6-2l-1 1l-1-3l2-3l-2-1l3-8l-1-2l-8-4l3-4l-6-10l-5-1l1-1l-2-1l-1 1l-3-5l-6-2l-13-8l-7-8l-3-8l-4-4l2-2l2 1l3 3l2 6l3 0l2-1l0-10l-4-4l-2-3l-1-2l1 2l3 1l1-4l-3-3l-1 0l-1 3l-6-10l4-4l1-11l3-2l-1-2l1-3l-2-4l4-4l-1 1l0 7l1-1l0 1l7-5l-3-8l0 2l-3 6l2-5l0-3l-3-2l1-9l-1-3l2-1l0-4l4-5l0-4l-2-3l-4 0l-1-1l-1-6l-1-3l2 1l2-1l-1-3l6-5l0-4l-4-3l-2-3l7 1l3-1l1-3l1 2l1-1l-1-3l0 1l-3-3l2-3l-1-8l2 0l0-3l0-2l-12-5l-5 1l-6-5l-9-3l-2-5l0-6l-5-4l0-3l-2-3l-3 0l-1-2l-7-6l-1-7l-3 0l-2 1l-1-1l-3 2l-4-6l-2-3l0-2l-1-1l-2 0l0 2l-3 0l-3-3l-2-3l1-1l7 2l3 2l1-3l-2-3l0-3l-2 3l-3 1l-9-1l2 2l-1 3l2 1l-2-1l-3-4l-4-2l0-1l-13-9l-2-2l0-4l-11-3l-1-2l1 0l-2-3l-1 1l-10-6l-2-2l2-2l-3 0l-4-3l-2 2l-4-3l2 2l0 4l0-2l-2-1l-22-8l1-3l-7-2l-11-6l-9 0l-5-2l0-3l-2-2l6 3l6-1l6 1l12 4l4 4l1 2l4 2l1-2l9 5l2 0l3 3l2 1l-2-2l0-3l-1 0l-2 1l-9-6l5 1l-9-5l-2-4l2-2l-1-1l-4 2l2-1l-2-1l-1-3l-1 2l-7-8l-15-9l-1-2l-3-1l-1-4l-2 0l-7-10l-4-3l-10-1l-9-4l-7-5l-31 0l3 0l1 1l-5 0l0 1l-7-2l-292 0l111 0l16 39l9 34l9 20l11 13l13 10l3 6l10 9l11 5l3 10l9 5l10 2l4 5l5 3l4 1l8 0l13 2l12-2l13 0l19-2l8 3l2 2l1 0l1 11l-3 4l-3 1l-6 6l-8 4l-2 2l0 8l2 6l7 5l5 2l2 2l26 13l5 1l5 4l36 13l16 10l5 7l5 3l5 5l21 8l7 6l6 1l2 1l0 2l4 0l3 5l-1 4l7 6l9 4l15 19l6 13l0 3l-2 2l-1 3l-4 3l-3 10l0 10l-2 2l-1 0l-5-3l-6-1l-10-7l-6-8l2-2l0-2l-4-2l3-2l1-2l-2-3l-5-5l-2-7l1-1l-4-3l-26-2l-6-2l-3 0l-15-9l3-2l1-2l-2-1l2-1l3 1l2-3l-4 1l0-1l-1 0l-5 2l-2-3l-8-1l-6 3l-5 4l-9 15l-4 10l-10 11l0 5l2 7l-9 12l-1 7l3 5l-1 3l2 3l6 3l12 2l2 2l2 3l9 6l4 1l6 6l5 2l-3 6l0 7l2 6l-2 11l3 5l4 1l-3 3l0 4l-5 6l-1-2l-2 0l-3 1l-3-3l-4 0l-7 2l-8 4l-11 8l-4 9l1 1l2 16l-1 11l-7 6l-10 5l-13 15l-4 16l-3 3l-5 2l-5-1l-13 1l-6-3l-3-3l-1-4l2-1l-3-5l2-5l-1-7l1-3l11-3l2-2l6-17l1-7l-6-8l1-3l12-6l10 0l3-2l3-7l0-8l-1-3l-4-2l-5-12l-3-23l-4-13l-5-7l-4-5l-3-9l-2-4l-2-11l-1-1l1-7l-4-7l-7-9l-1-2l-6 0l-10 8l-5-1l-3-3l-3 0l1-1l-1-3l-10-9l-6 0l-4-4l-7-3l0-2l2-5l0-3l5-2l0-4l-10-21l-6-6l-3-1l-5 3l-4 0l-6 4l-4-2l-5 1l-6 5l-2-4l1-1l4-2l4-5l3 0l-1-4l-2-2l-4-1l-7-8l-6 1l-1 3l-9-3l0 5l-3-1l0-8l-2-5l-4-7l-3-3l-1-4l-5-9l-9-10l-10 0l-2 1l1 3l-3 0l-2-2l-1 1l-2-2l-11-5l-3-1l-6 2l-7 3l-2 2l-3 0l-4-8l-8-9l-4-2l-7 0l-7-5l-1 2l-15-18l-8-8l-7-3l-2-3l-1-6l-2-5l-2-3l-8-6l-2-3l-2 0l-5-4l-7 0l-6-10l-1-4l-6-11l-9-7l-11-5l-1-1l-3 1l-9-3l-1 2l-2 4l-2 0l-4-2l-1-4l2-2l4 1l2-7l-3-6l-2 0l-2-5l-2 0l0-2l-6-5l0-85l0 737l0-737l0 22l0-22l2076 0l-2076 0zM988 481l-1 8l1 2l-2 7l-6 2l-4-5l-4 2l2 2l-3 0l-4-5l1-1l-1-3l-2 0l0-2l-3-1l-3 1l0-3l-2-1l2-3l-2-5l-2-1l-1 0l1 1l-2 0l3-5l-1-1l-2 2l-1 0l0-2l-1 0l2-3l-8-2l4-2l-2-5l-10 1l-5-1l-15 0l-3-6l-1 1l3-4l0-3l-3-4l-6-2l-1-4l-4-3l0-2l-5-2l-5-6l-13-8l-6 0l-2-3l-5-1l-1 1l2 1l-1 2l-11 2l1-3l15-7l0-2l3 0l1-4l3-1l5-1l7-3l6 3l1 4l3 2l3 9l1 2l9 5l0 1l1 0l4 2l4-1l4 6l7 2l7 1l2-1l12 2l1 1l-2 2l0 3l8 7l-2 2l-2 6l2 2l-2 2l2 2l1 4l2 4l0 7l6 4l1 2l4 0l2 2l5 0l8-2zM1141 395l-1 4l-5-1l-2-2l1-4l-2-2l-3-1l-2 1l9 9l0 2l-10 2l-6-1l-5-3l-9-1l-5-6l5-1l3-3l2-1l5-4l-1-2l-3-1l-5 1l-6 10l-3 0l-7-2l-9-6l2-8l4-4l2 2l7 0l1-2l1 1l1-1l7-2l0-1l0-5l13 0l2 0l-1 3l5 2l-3 5l3 3l3 1l6 7l-1 2l7 9zM1168 738l3 0l-1 1l0 3l-3 0l-6 4l-1 0l-2-2l4-5l2 1l4-2zM1200 645l-1 1l1 1l3 0l-2 3l-3 0l-2-5l-2 2l-2-2l1-4l0 2l4-2l1 3l2 1zM912 557l-3 2l-3 0l0 2l-1 0l-3 1l-4 1l-2-1l7-4l9-1zM909 518l1 1l-2 7l-4 1l-2-1l1-2l-2-2l-1-3l9-1zM1219 238l6 1l0 2l-1 1l-5 0l-4 3l-5-2l0-4l1-2l1 1l4-1l3 1zM358-8l1 1l-3 3l-7 3l-5-1l2-1l0-1l-1-1l-2-2l6-2l9 1zM369-36l-1 2l-2-1l-5-3l-6-2l0-2l1-1l5 0l1 1l0 2l3 0l4 4zM1160 579l1 3l-2 0l-2 0l2-2l-3 0l0-2l-2-2l-1-2l2-1l4 1l-1 2l2 3zM-38 884l5 4l-5 5l0 5l0-14zM1186 730l1 2l0 3l-3 0l-2 2l0 2l1-1l-2 3l-1 0l1-1l-4-3l2-4l-1-5l-3-4l1-4l2-1l1-5l2-2l1-8l2 0l2-2l1 0l-1 4l0 5l-4 9l0 2l5 6l-2 1l1 1zM230 696l2 4l-1 1l-1 0l-1 1l0 2l-8-2l-4-2l-2-3l-1-8l-1-1l1-1l3-1l-2 2l7 1l5 3l0 3l3 1zM869 657l5 3l2 3l-4 2l0 7l-3 0l-2 1l0-1l-3-2l-3-4l1-7l-1-5l3-5l5 8zM1122 626l5 2l2 3l0 1l-1-2l-1 2l-5 0l-1 3l-1 3l-3 0l-2-4l0-1l0-3l2 0l3 2l2-2l3 0l-3-4zM979 616l5-2l1 1l0 6l-5 2l-9 1l-3 1l0-5l1-1l-1-1l2-3l3 2l1 2l2 1l3 0l-1-2l-2 0l-2-4l1-1l4 3zM1191 600l1 2l4 1l1 2l-11 3l-6 6l-4 0l-3-1l-4 2l-1 1l1 2l-2 2l1 2l-2 0l-2-3l0-5l1 0l2-2l2 2l5-7l8-5l9-2zM1095 598l5 4l-5 0l-6 4l-4 5l-9 3l-1-3l1 1l2-2l1 1l4-1l1-3l-1 1l0-2l9-5l-1-1l4-2zM1040 587l-6 6l-4 0l-3-2l0-5l4-3l-2 0l3-3l5-3l-1 2l2 1l2-1l-1-2l2 0l-2 6l0 2l1 0l-1 2l1 0zM1059 573l3 2l1 3l0 12l-3 5l-7 5l-3-6l-2-1l0-4l-3-5l2-1l8-6l1-3l3-1zM1049 552l-7 1l2-5l-2-1l3-3l2 4l2-3l5 3l-1 1l-3 1l-1 2zM1026 536l-7-5l-1-4l5 0l1 1l0 1l1 2l3-1l2 2l1-2l6 3l1 3l-3 5l-7-2l-2-3zM972 527l2 3l-1 2l-7 10l-2-1l0-8l2-4l2 0l1-1l-1-1l4 0zM1122 527l-4 5l-6 6l-8 1l-5 4l-6 0l-1-2l5-8l3-2l9 1l3-1l4-3l6-1zM1173 523l2 0l-1 2l-4 0l-7 2l-3 4l-6-1l-2-4l-4-2l-5 1l-2 2l-2-1l-1-5l1-2l4-1l1-2l9-2l5 1l9 6l-1-4l2 0l1-1l0 1l6 1l-3 2l1 3zM709 516l2 3l5 3l1 3l-3-2l-5-1l-4 3l1 3l-1 2l-2 0l-8-8l-1-2l-6-6l0-4l5-7l2 1l2 6l3 2l3-1l3 1l3 4zM1018 519l-2 8l-3-4l-2-4l-2-1l-4-5l-1 1l-2-4l-3-3l-2 1l1-2l-3-3l1-1l0-3l6-2l1 2l3 1l1 5l8 1l1 0l-1 6l3 2l-2 4l2 1zM686 437l-3 5l1-12l3-9l5-5l1-1l3 2l1 4l0 5l-3 4l1 1l1-2l0 7l-2-1l0 2l-1 0l0 1l-3 0l0 2l-1 0l0-2l-1 0l-1-2l-1 1zM994 419l1 2l-2 2l-2 0l-3-3l-2 2l0 1l-2-3l3-1l-1-3l-1-1l-1 1l-1-1l-2 0l-1-3l-4 0l2-4l0-5l3-1l6 5l0 5l5 4l2 3zM649 358l1 5l-1 2l-11-6l-3-1l1-1l-3-2l-1 1l-4-12l-6-4l-2-6l-3 0l0-4l-2 0l0-2l-2-1l1-1l3-3l9-1l4-2l7 4l1-1l-1 5l-7 3l-1 3l2 1l-1 1l6 3l0 2l-2 0l3 13l7 3l4 0l1 1zM1053 299l-1 1l1 4l-4 2l-1 4l-3 2l2 0l-2 2l1 2l-1 1l2 3l-2 3l-4-2l0-2l-4-3l3-3l-1-2l-2-1l-3 3l2 1l-2 0l-2 4l1-1l1 1l1 4l-5-2l1-4l-2 2l-1-2l-6 2l2-2l-2 0l2-6l-3-7l8-1l2 1l5-1l2 0l2 5l5-3l3-4l5-1zM1095 286l0 2l-1 1l-10 3l-9 1l-6-3l2-3l5-5l12-3l4 2l-1 6l4-1zM1071 258l0 2l-1 1l-8 2l-8-6l-2-2l2 0l4-3l4 0l8 2l2 3l-1 1zM1003 230l-2 1l2 1l0 2l-2 2l1 6l-2-1l-2 2l-3 0l-3 3l-3-3l-1-2l-6-2l0-3l2-5l2-4l6-4l7 2l1 2l3 3zM425 3l5 5l0 1l-2-1l-5 1l-7-2l-12 3l-15-2l-1-1l5-3l0-1l-6-1l3-1l12 3l16-2l6 2l1-1zM392-13l-10-2l-14-5l9-3l4 4l3-1l-5-4l3 0l2 2l5 0l3 3l3 2l10 0l2 1l10 2l10 0l3 1l-38 0zM377-29l-7-5l2 0l2-3l-2-4l5 1l15 1l9 2l-1 1l1 1l1-1l5 4l-4 4l-16 1l-10-2zM1651 1122l2 0l5 4l-13-6l6 2zM1629 1118l2-1l11 2l-8-1l-6 1l-10 6l11-7zM-38 810l0-1l8 0l1 1l-1 1l-4 2l-2-1l-2-2zM953 792l0 1l1 2l-4-1l-3-2l2-2l4 1l0 1zM889 695l4 3l0 4l-3-3l-1-4zM1074 650l3-2l6 4l0 1l-2-1l-6 0l-1-2zM1009 623l6 4l1 2l-3 0l-2-2l-4-2l0-2l2 0zM1030 618l3 0l0 1l-7 7l-2 0l3-6l3-2zM775 615l1 2l0 3l-1-1l0-1l-1 1l1-4zM992 612l2 2l-2 2l-1-1l-2-3l1-1l2 1zM769 616l1-5l1 0l1 1l-3 4zM989 607l-2 5l-2 0l-1-1l-1-2l1-2l2-1l3 1zM1051 608l2-3l1-1l1 1l0 2l-3 1l-1 0zM1065 603l4-3l2 2l-1 1l-5 0zM1025 596l-3-1l-1-4l3-3l1 0l-1 6l1 2zM1080 582l-1 1l-1-3l4-1l0 3l-2 0zM878 565l2 3l0 1l-2 0l-3-3l3-1zM904 539l4 3l-4 2l-3-2l3-2l0-1zM58 502l3 0l5 2l-2 1l-3-1l-1 0l-2-2zM262 455l0 1l2 3l0 2l-1 1l-3-3l0-2l2-2zM257 451l0-2l1-3l4 1l-1 1l1 2l-1 0l1 3l-5-2zM254 444l0 1l-5-3l1-2l3 0l2 2l-1 2zM712 438l-2 6l-1 0l3-6zM1063 438l3 2l-1 5l-4 0l0-3l-2-4l1 1l1-1l2 0zM901 386l-3 0l0-2l2-1l3-3l0-1l2 1l2 3l-1 2l-1-1l-2 3l-2-1zM652 377l4 4l1 2l-3-1l-3-3l0-2l1 0zM1020 345l2 2l-4 8l-1-7l3-3zM1099 318l1 0l1 1l-1 5l-7-4l0-2l6 0zM404 22l5 1l1 2l-2 3l-4-2l-1 2l-2-2l1-2l-2 0l1-1l3-1zM232 441l1 2l-3 0l0-3l2 1zM126 428l2 1l-2 1l-1-1l1-1zM281 419l1 0l0 2l-1 1l-1 0l-2-2l3-1zM85 731l-1 2l-6-2l0-1l2 0l5 1zM1213 663l3 0l0 2l-3 1l-3 0l-1-2l4-1zM1184 628l1 3l0 1l-5 1l-1-2l1-2l4-1zM1140 558l0 2l-2-1l-2 2l1 2l0 3l-2-1l-1-2l1-6l2-1l3 2zM999 534l0 1l-1 0l-4 0l-1-1l1 0l5-2l0 2zM43 500l1 1l-1 0l-2-2l-1-1l2-1l1 3zM713 434l0 2l-5 3l-1 2l0-2l3-4l3-1zM702 433l-3 3l3 3l-4-3l-1-2l4-2l1 1zM950 366l0 1l0 3l-2 1l-1-2l1-4l1 0l0 2l1-1zM1219 257l0 1l-4-1l-1-2l2-3l2 2l1 3zM363-52l5 2l-12 0l0-2l7 0zM-18 799l3 3l0 1l-13 6l-1-1l4-5l0-2l1 0l3 1l0-4l3-4l3 2l-2 1l-1 2zM208 679l6 3l-7 2l-4-2l-1-2l6-1zM1048 641l5 3l3 4l-2 6l-7-1l-1-1l4 0l2-3l-1-6l-4-1l1-1zM1235 630l1 3l-1 1l1 1l-4 1l2-2l-4-1l1-1l-4 0l3-4l5-3l-4 3l2 1l2-2l0 3zM1040 618l-2 0l1-4l3-3l2 4l5 2l1 2l-2 1l1 2l-2 2l-3-1l-4-5zM38 607l4 5l0 2l-2 2l-2 0l-5-4l-1-4l1-1l1 0l3 1l1-1zM997 589l4 7l-4 5l-3-10l-2-2l0-2l4 2l1 0zM1163 597l3-8l0-1l-3 0l-2-3l1-2l0 2l7 2l-1 1l2 2l0 2l2-1l1 0l0 6l-4-1l0 2l-3 1l-3-2zM977 575l-1-1l4-2l3 1l1 6l-2-1l0 3l-1 0l0-1l-3 0l0-1l-3 1l2-5zM971 553l1-3l5-4l-1 3l4 4l0 2l-2 0l-1 4l-3 2l-3 1l1-4l2-1l-1-2l0-2l-2 0zM1015 550l1 2l0 2l-6 3l0-3l-2 0l1-2l1-1l-1 0l2-2l0-6l3 1l2 4l-1 2zM899 506l0-2l2-2l2 1l3-3l-3 1l-3-1l2-1l-2-1l3 1l0-2l2-1l3 1l1 4l2 0l-2 1l-2 4l-1 0l-3 2l-4-2zM696 459l3 2l-2 0l2 5l-4 0l-5-8l0-4l-2-2l0-2l2 1l1-3l1 1l0 3l3 2l-3 6l4 1l-2-1l2 0l0-1zM918 389l-3-4l-3-5l1-1l5 5l5 2l0 1l5 1l-4 4l-6-1l0-2zM938 379l-3 5l-2 2l-2 0l3-3l5-10l1-1l0 1l1 1l0 2l-3 3zM185 233l-5 1l-2-2l-1 0l2-4l-1-1l2 0l6 3l0 2l-1 1zM465 26l5 4l2 1l-28-7l-1 1l-3-3l3-2l2 1l-1 0l8 1l8 4l5 0zM1263 645l-1 2l1 4l-1 1l-1 4l-2 3l-1 4l-3 5l-2 1l-3 6l3 1l-2 3l1 2l-4-2l-3 1l-5 3l-5 8l-6 5l-4-3l-2-3l4-8l0-4l-4-4l0-2l-2-1l7-4l3-7l2-1l5-5l16-8l5 0l3-3l1 2zM697 491l-4-4l-5-2l-3 1l-1 2l-4-2l-3-8l3 1l-6-9l0 10l-4 2l0-2l-2-1l0-7l3-4l1-6l0 2l2-2l2 4l1-1l1 2l3-3l1-1l-1-4l2 1l-1-9l3 0l4 12l0 2l-2 3l3 4l3-2l-1 1l2 0l1 4l3 3l4 8l0 4l-5 1zM1107 445l-2 4l-1 1l2 2l-1 4l2 12l-4 1l-1 3l1 3l-6 3l-1 3l-3 0l-5-6l-2 1l0-3l-2 0l1-3l3-1l1-1l3 0l1-4l1 0l0-4l-1-1l0 1l-2-2l0-4l-2-2l-3-1l-4-4l0-3l1-3l11-3l5 2l4 5l1-3l3 3zM1119 749l-4 5l2 7l2-1l-3 5l-1 4l-2 6l-7 3l-4 0l-2-1l-4-1l-3-1l-13 3l-16-1l-7 3l-12-1l-10 4l-5-1l-3 2l-28 1l1-3l1-7l-3-5l-12-1l-4-4l-2-1l-2 1l-4-3l0-1l-8 1l-6-1l-1-2l-2 1l-7 0l-3 1l-4-4l-10 0l-3-2l-3 2l-5 0l-3 1l-1-2l-6 0l0-2l-5-3l0-1l3-1l-1-5l2-6l-1-2l2-3l-1-3l1-5l1-3l2 8l2 2l4 0l2-3l-1-7l0-1l0-4l3-2l2 1l-1 2l1 6l1 4l2 1l13 1l4 0l1-3l2 0l0-3l6-1l1 1l2 4l-2 3l-7 0l-1 1l8 5l5-3l1 10l6 2l7-2l2 1l8-2l10-4l11 2l4-2l5 2l1-2l6 2l0 5l2 1l7-1l3 1l12 0l4 4l2 0l16-5l2 1l6 0l-3 4l0 3l1 0l0-2l1 1l0 1l-2 2l-1 6l1 4l5 2l3-1l1-2l2-2l2-2l6-1l6-3l4 1l0 1l1 1l2 0l3-2l5-6l2 0l0-3l3 0zM1739 716l4-2l-2 5l-2 0l-14 11l-17 10l-7 9l-5 0l-2 1l-3 4l0 9l11 12l3 7l-2 0l-4-3l-8 2l-3 3l-5-3l-3-1l-6 2l-2 3l-2 7l-2 3l-4 0l-3 3l-5 2l-2 1l-1-2l0 3l-11 4l-6-1l-7 2l-5 5l-1 3l2 3l-7 0l1-2l-3-6l-6-1l-9 2l-4-1l-8-4l-6-1l-5-4l-2-9l-4-4l0-3l-4-11l0-4l1-1l1 1l4 4l4 0l5-3l6-9l2 1l5-2l7 1l7 3l3-1l3-4l1-3l1-10l-1-5l11 3l5 0l22 3l17-3l10-5l4 1l15-6l7-4l4-4l10-3l17-8zM304 468l9 2l0 1l-6 4l0 3l1 0l-6 11l-8 10l-10 16l-4 4l1 6l-2 3l-2 10l-6 7l0 14l2 2l8 4l2 2l1 3l-1-1l-2 2l0-2l-1 0l-2 3l2 5l3 0l-1 1l1 3l4 1l0 4l-1-1l0 2l2 1l1 3l-2-1l-3 2l0 2l-5 2l-3 3l-5 12l3 10l-1 3l-2 0l-6-4l-2 1l-8-4l-7 3l-3-2l-5 0l-2-3l-5-3l-7-1l-9-17l-7-6l-6-4l-9-3l-8 0l-3 2l-3-1l-5-3l-9-3l-11-10l-6-1l-5-3l-11-8l-2-3l-6-5l-12-1l-1-4l-4-3l-6-1l-15 1l-5-7l-3-2l-4 0l-6-13l0-1l3-1l1-6l-1-3l3-8l-1-2l6-5l3 1l3-3l1-3l3 1l1-1l1-7l0 1l2 0l4 10l7 5l3 0l9-5l0-3l-1-3l4-5l8 2l2-1l0-2l6-1l4 4l2 7l9-1l2 2l1 4l7 5l5 1l-1 1l7 0l17-7l5 2l5 0l9 1l5 0l7-3l3 1l3-1l10-3l7-7l5-1l8-2l2 0l3 2l6 1l1 2l2 0l6-2l5-9l0-2l1 5l3 1l8-3l10-6z" transform="scale(.5)"/>
+        <g id="regions"></g>
+        <g id="routes"></g>
+        <g id="flow"></g>
+        <g id="markers"></g>
+        <g id="stops"></g>
+        <g id="labels"></g>
+        <g id="badges"></g>
+      </svg>
+    </div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+  <div class="legend" style="margin-top:16px">
+    <span><svg width="22" height="22" viewBox="-11 -11 22 22"><circle r="7.5" fill="none" stroke="#07101f" stroke-width="6"/><circle r="7.5" fill="none" stroke="#4ee08f" stroke-width="3"/></svg> Synagogue / Jew first</span>
+    <span><svg width="22" height="22" viewBox="-11 -11 22 22"><circle r="7.5" fill="none" stroke="#07101f" stroke-width="6"/><circle r="7.5" fill="none" stroke="#4ee08f" stroke-width="3" stroke-dasharray="4 3"/></svg> Place of prayer (Philippi)</span>
+    <span><svg width="22" height="22" viewBox="-11 -11 22 22"><path d="M0-8l8 8-8 8-8-8z" fill="#ffd24a" stroke="#07101f" stroke-width="2"/></svg> Local turn to the Gentiles</span>
+    <span><svg width="22" height="22" viewBox="-11 -11 22 22"><rect x="-7.5" y="-7.5" width="15" height="15" rx="1.5" fill="#ff7a3d" stroke="#07101f" stroke-width="2"/></svg> National judicial suspension (Acts 28)</span>
+    <span><svg width="24" height="22" viewBox="-12 -11 24 22"><rect x="-10" y="-7" width="20" height="14" rx="2" fill="#9ccaff" stroke="#07101f" stroke-width="2"/><path d="M-8.5-5.5l8.5 6.5 8.5-6.5" fill="none" stroke="#07101f" stroke-width="1.8"/></svg> Letter written here</span>
+    <span><svg width="22" height="22" viewBox="-11 -11 22 22"><path d="M0-10l2.9 6.6 7.2.7-5.4 4.8 1.6 7.1L0 5.5-6.3 9.2l1.6-7.1-5.4-4.8 7.2-.7z" fill="#d4b0ff" stroke="#07101f" stroke-width="2" stroke-linejoin="round"/></svg> Recorded sign</span>
+  </div>
+</section>
+
+<section id="pattern" class="wrap">
+  <div class="note">
+    <h3>Reading the Map: “To the Jew First”</h3>
+    <p>During Acts 9–28 Israel's Prophecy Program is still operating alongside the Mystery. So in city after city Paul goes to the synagogue first, reasoning from Israel's Scriptures that Jesus is the Christ (Acts 17:2–3). He ministers within Israel's prophetic setting without administering Israel's program; his own apostleship and commission remain distinctly Mystery.</p>
+    <ul>
+      <li><b style="color:var(--gold)">Local turns</b> (Acts 13:46; 18:6; 19:9): after local rejection, Paul turns to the Gentiles <i>in that city</i>. Israel's national standing is unchanged, and Paul keeps entering synagogues elsewhere. These are not successive stages.</li>
+      <li><b style="color:#ff8a5c">National judicial suspension</b> (Acts 28:25–28): at Rome, citing Isaiah 6:9–10, Paul pronounces the national judicial suspension of Israel's Prophecy Program. It is categorically different from the local turns — and a suspension, not an abolition. Israel's prophetic promises remain to be fulfilled.</li>
+      <li><b style="color:#b48de0">Signs and Acts-era practices</b>: signs continue because Israel's prophetic setting is still operative (“the Jews require a sign,” 1 Corinthians 1:22). Paul's accommodations — Timothy's circumcision, the Cenchrea vow, the temple purification — and the baptisms in his ministry are read by their own context. None of them becomes doctrine or obligation for the Body of Christ.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="letters" class="wrap">
+  <h2 class="section-title">Where the Letters Were Written</h2>
+  <p class="section-sub">Dates are approximate and follow the Paul's Epistles Timeline.</p>
+  <table>
+    <thead><tr><th>Letter</th><th>Written from</th><th>Approx. date</th><th>On the map</th></tr></thead>
+    <tbody>
+      <tr><td>Galatians</td><td>Disputed</td><td>Disputed</td><td>Not pinned to a city</td></tr>
+      <tr><td>1 Thessalonians</td><td>Corinth</td><td>AD 50–51</td><td>Second journey</td></tr>
+      <tr><td>2 Thessalonians</td><td>Corinth</td><td>AD 51–52</td><td>Second journey</td></tr>
+      <tr><td>1 Corinthians</td><td>Ephesus</td><td>AD 54–55</td><td>Third journey</td></tr>
+      <tr><td>2 Corinthians</td><td>Macedonia</td><td>AD 55–56</td><td>Third journey</td></tr>
+      <tr><td>Romans</td><td>Corinth</td><td>AD 56–57</td><td>Third journey</td></tr>
+      <tr><td>Ephesians, Philippians, Colossians, Philemon</td><td>Rome (traditional)</td><td>—</td><td>Roman imprisonment</td></tr>
+    </tbody>
+  </table>
+  <p class="section-sub" style="margin-top:14px">1 Timothy, Titus and 2 Timothy come after Acts 28 and fall outside the map. See the <a href="resources.html">Paul's Epistles Timeline</a>.</p>
+</section>
+
+
+
+<section id="studies" class="wrap studies-sec">
+  <h2 class="section-title">Go Deeper: Related Digital Studies</h2>
+  <p class="section-sub">Each study takes up a stop on the map in depth.</p>
+  <div class="studies">
+    <a href="study-11-the-beginning-of-the-body-of-christ.html"><b>The Beginning of the Body of Christ</b><span>Study 11 · Damascus, Acts 9</span></a>
+    <a href="study-14-acts-9-and-the-beginning-of-mystery.html"><b>Why Acts 9 Matters</b><span>Study 14 · Damascus, Acts 9</span></a>
+    <a href="study-06-the-mystery-revealed-through-paul.html"><b>The Mystery Revealed Through Paul</b><span>Study 6 · Damascus, Acts 9</span></a>
+    <a href="study-18-peter-and-paul-distinct-apostolic-commissions.html"><b>Peter and Paul</b><span>Study 18 · The synagogue ministry</span></a>
+    <a href="study-19-the-jerusalem-council.html"><b>The Jerusalem Council</b><span>Study 19 · Jerusalem, Acts 15</span></a>
+    <a href="study-38-why-acts-is-not-a-universal-experience-manual.html"><b>Why Acts Is Not a Universal Experience Manual</b><span>Study 38 · Ephesus, Acts 19</span></a>
+    <a href="study-42-one-baptism.html"><b>One Baptism</b><span>Study 42 · Ephesus, Acts 19</span></a>
+    <a href="study-43-the-gospel-of-the-grace-of-god.html"><b>The Gospel of the Grace of God</b><span>Study 43 · Miletus, Acts 20:24</span></a>
+    <a href="study-25-the-signs-that-followed.html"><b>The Signs That Followed</b><span>Study 25 · Malta, Acts 28</span></a>
+    <a href="study-21-israels-judicial-blinding.html"><b>Israel's Judicial Blinding</b><span>Study 21 · Rome, Acts 28</span></a>
+    <a href="study-13-the-olive-tree-and-the-body-of-christ.html"><b>The Olive Tree of Romans 11</b><span>Study 13 · Romans, written at Corinth</span></a>
+    <a href="study-37-what-does-paul-mean-by-new-creation.html"><b>What Does Paul Mean by New Creation?</b><span>Study 37 · 2 Corinthians, from Macedonia</span></a>
+    <a href="study-30-seated-with-christ-in-heavenly-places.html"><b>Seated with Christ in Heavenly Places</b><span>Study 30 · Ephesians, from Rome</span></a>
+  </div>
+</section>
+
+<footer class="footer">
+  <strong>© Zay-Marie Press</strong><br/>
+  Paul's Missionary Journeys · Educational resource in the Zay-Marie Press Resources library.
+</footer>
+
+<script>
+const D = {"J": {"prelude": {"title": "Before the Journeys", "dates": "Acts 9–12 · c. AD 34–47", "color": "#aab4c4", "dash": true, "stops": [{"p": "Jerusalem", "label": "Jerusalem", "verses": "Acts 9:1–2", "note": "Saul sets out for Damascus with letters from the high priest.", "tags": [], "letters": [], "via": []}, {"p": "Damascus", "label": "Damascus", "verses": "Acts 9:3–25; Gal. 1:17", "note": "The risen Lord appears to Saul near Damascus; he is blind three days. Ananias is told Saul is “a chosen vessel unto me, to bear my name before the Gentiles, and kings, and the children of Israel” (9:15). Saul preaches Christ in the synagogues (9:20). He also goes into Arabia before returning to Damascus (Galatians 1:17), then escapes over the wall in a basket.", "tags": ["jew"], "letters": [], "via": []}, {"p": "Jerusalem", "label": "Jerusalem", "verses": "Acts 9:26–29; Gal. 1:18", "note": "Barnabas brings Saul to the apostles. Paul stays fifteen days with Peter.", "tags": [], "letters": [], "via": []}, {"p": "Tarsus", "label": "Tarsus", "verses": "Acts 9:30", "note": "The brethren bring him down to Caesarea and send him to his home city.", "tags": [], "letters": [], "via": [[882.6, 502.7], [871.7, 444.1], [894.3, 368.4], [879.2, 314.7]]}, {"p": "Antioch of Syria", "label": "Antioch of Syria", "verses": "Acts 11:25–26; 11:29–30; 12:25", "note": "Barnabas brings Saul to Antioch for a year. “The disciples were called Christians first in Antioch.” Barnabas and Saul later carry famine relief to Jerusalem and return.", "tags": [], "letters": [], "via": []}]}, "j1": {"title": "First Journey", "dates": "Acts 13:1–14:28 · c. AD 46–48", "color": "#d4af37", "stops": [{"p": "Antioch of Syria", "label": "Antioch of Syria", "verses": "Acts 13:1–3", "note": "The Holy Ghost says, “Separate me Barnabas and Saul.” They are sent out.", "tags": [], "letters": [], "via": []}, {"p": "Seleucia", "label": "Seleucia", "verses": "Acts 13:4", "note": "Port of departure for Cyprus.", "tags": [], "letters": [], "via": []}, {"p": "Salamis", "label": "Salamis, Cyprus", "verses": "Acts 13:5", "note": "They preach “in the synagogues of the Jews.”", "tags": ["jew"], "letters": [], "via": [[898.1, 361.4]]}, {"p": "Paphos", "label": "Paphos, Cyprus", "verses": "Acts 13:6–12", "note": "Elymas the sorcerer is struck blind; the deputy Sergius Paulus believes. Here Saul is first called Paul (13:9).", "tags": ["sign"], "letters": [], "via": []}, {"p": "Perga", "label": "Perga", "verses": "Acts 13:13", "note": "John Mark leaves and returns to Jerusalem.", "tags": [], "letters": [], "via": [[750.9, 347.5], [732.1, 310.0]]}, {"p": "Antioch of Pisidia", "label": "Antioch of Pisidia", "verses": "Acts 13:14–52", "note": "Paul's synagogue sermon (13:16–41). After local Jewish opposition: “It was necessary that the word of God should first have been spoken to you: but seeing ye put it from you… lo, we turn to the Gentiles” (13:46). A local turn in this city; Paul goes to the synagogue again at Iconium.", "tags": ["jew", "turn"], "letters": [], "via": []}, {"p": "Iconium", "label": "Iconium", "verses": "Acts 14:1–5", "note": "They speak in the synagogue; a great multitude of Jews and Greeks believe. A plot to stone them drives them out.", "tags": ["jew"], "letters": [], "via": []}, {"p": "Lystra", "label": "Lystra", "verses": "Acts 14:6–20", "note": "A man lame from birth is healed; the crowd calls them gods. Jews from Antioch and Iconium stir the people, and Paul is stoned and left for dead.", "tags": ["sign"], "letters": [], "via": []}, {"p": "Derbe", "label": "Derbe", "verses": "Acts 14:20–21", "note": "They preach and teach many.", "tags": [], "letters": [], "via": []}, {"p": "Attalia", "label": "Perga and Attalia", "verses": "Acts 14:21–25", "note": "Returning through Lystra, Iconium and Antioch, they ordain elders in every church. They preach the word in Perga, then go down to Attalia.", "tags": [], "letters": [], "via": [[790.6, 268.4], [792.5, 254.5], [743.0, 233.9], [730.2, 297.8]]}, {"p": "Antioch of Syria", "label": "Antioch of Syria", "verses": "Acts 14:26–28", "note": "They report how God “had opened the door of faith unto the Gentiles.”", "tags": [], "letters": [], "via": [[747.2, 328.8], [803.8, 346.1], [871.7, 345.2], [920.8, 339.1]]}]}, "council": {"title": "The Jerusalem Council", "dates": "Acts 15:1–35 · c. AD 49–50", "color": "#72bd8a", "dash": true, "stops": [{"p": "Antioch of Syria", "label": "Antioch of Syria", "verses": "Acts 15:1–3", "note": "Men from Judaea teach that Gentile believers must be circumcised. Paul and Barnabas go up through Phenice and Samaria.", "tags": [], "letters": [], "via": []}, {"p": "Jerusalem", "label": "Jerusalem — the Council", "verses": "Acts 15:4–29", "note": "Peter recalls that God “put no difference between us and them” (15:9). Barnabas and Paul declare the miracles God had wrought among the Gentiles by them. James gives the decision, and a letter goes to the Gentile believers in Antioch, Syria and Cilicia. (Galatians 2:9 is often linked to this visit; whether it describes the same visit is debated.)", "tags": [], "letters": [], "via": []}, {"p": "Antioch of Syria", "label": "Antioch of Syria", "verses": "Acts 15:30–35", "note": "Judas and Silas return to Antioch with Paul and Barnabas.", "tags": [], "letters": [], "via": []}]}, "j2": {"title": "Second Journey", "dates": "Acts 15:36–18:22 · c. AD 50–52", "color": "#4f95f5", "stops": [{"p": "Antioch of Syria", "label": "Antioch of Syria", "verses": "Acts 15:36–41", "note": "Paul and Barnabas part over John Mark; Paul takes Silas and goes through Syria and Cilicia, confirming the churches.", "tags": [], "letters": [], "via": []}, {"p": "Derbe", "label": "Derbe", "verses": "Acts 16:1", "note": "They come again to Derbe.", "tags": [], "letters": [], "via": [[883.0, 299.7], [856.6, 286.4]]}, {"p": "Lystra", "label": "Lystra", "verses": "Acts 16:1–5", "note": "Timothy joins them. Paul circumcises him “because of the Jews” (16:3) — voluntary accommodation to a Jewish setting, not an obligation for the Body (compare Titus, Galatians 2:3–5).", "tags": [], "letters": [], "via": []}, {"p": "Troas", "label": "Troas", "verses": "Acts 16:6–10", "note": "Forbidden to preach in Asia and not suffered to go into Bithynia, they come down to Troas. The vision of a man of Macedonia: “Come over into Macedonia, and help us.”", "tags": [], "letters": [], "via": [[758.5, 209.8], [679.2, 190.4], [607.5, 170.8]]}, {"p": "Neapolis", "label": "Neapolis", "verses": "Acts 16:11", "note": "By way of Samothracia, the crossing into Europe.", "tags": [], "letters": [], "via": [[529.4, 133.9]]}, {"p": "Philippi", "label": "Philippi", "verses": "Acts 16:12–40", "note": "No synagogue is mentioned; they go to the riverside “where prayer was wont to be made” (16:13). Lydia believes. A spirit of divination is cast out of a girl. Paul and Silas are beaten and jailed; the jailer asks, “what must I do to be saved?”", "tags": ["prayer", "sign"], "letters": [], "via": []}, {"p": "Amphipolis", "label": "Amphipolis", "verses": "Acts 17:1", "note": "Passed through, with Apollonia, on the way to Thessalonica.", "tags": [], "letters": [], "via": []}, {"p": "Thessalonica", "label": "Thessalonica", "verses": "Acts 17:1–9", "note": "“Paul, as his manner was, went in unto them” in the synagogue for three sabbath days, reasoning that Jesus is the Christ (17:2–3). Some believe; others start an uproar.", "tags": ["jew"], "letters": [], "via": [[452.8, 112.6]]}, {"p": "Berea", "label": "Berea", "verses": "Acts 17:10–14", "note": "They go into the synagogue. The Bereans “searched the scriptures daily” (17:11). Jews from Thessalonica follow and stir the people.", "tags": ["jew"], "letters": [], "via": []}, {"p": "Athens", "label": "Athens", "verses": "Acts 17:15–34", "note": "Paul disputes in the synagogue and in the market daily (17:17), then speaks on Mars' hill about “THE UNKNOWN GOD” (17:23).", "tags": ["jew"], "letters": [], "via": [[418.9, 136.4], [447.2, 153.7], [460.4, 183.1], [483.0, 202.5], [503.8, 233.9], [488.7, 255.5], [476.2, 272.2], [460.4, 262.7]]}, {"p": "Corinth", "label": "Corinth", "verses": "Acts 18:1–17", "note": "Paul works with Aquila and Priscilla and reasons in the synagogue every sabbath (18:4). After local opposition: “Your blood be upon your own heads; I am clean: from henceforth I will go unto the Gentiles” (18:6) — a local turn in this city. He stays a year and six months; Gallio dismisses the charges. 1 and 2 Thessalonians are written from here.", "tags": ["jew", "turn", "letter"], "letters": ["1 Thessalonians · c. AD 50–51", "2 Thessalonians · c. AD 51–52"], "via": []}, {"p": "Cenchrea", "label": "Cenchrea", "verses": "Acts 18:18", "note": "Paul shaves his head, “for he had a vow” — voluntary accommodation, read in its own context.", "tags": [], "letters": [], "via": []}, {"p": "Ephesus", "label": "Ephesus (brief visit)", "verses": "Acts 18:19–21", "note": "He reasons with the Jews in the synagogue and promises to return.", "tags": ["jew"], "letters": [], "via": [[449.1, 261.7], [479.2, 272.2], [524.5, 269.8], [573.6, 253.1]]}, {"p": "Caesarea", "label": "Caesarea", "verses": "Acts 18:22", "note": "He lands at Caesarea.", "tags": [], "letters": [], "via": [[590.6, 262.7], [583.0, 284.1], [603.8, 326.5], [617.0, 356.8], [645.3, 359.1], [717.0, 361.4], [792.5, 419.0], [860.4, 480.2]]}, {"p": "Antioch of Syria", "label": "Antioch of Syria", "verses": "Acts 18:22", "note": "He goes up and salutes the church (at Jerusalem), then returns to Antioch.", "tags": [], "letters": [], "via": [[895.5, 534.8], [928.3, 471.2], [943.4, 393.8]]}]}, "j3": {"title": "Third Journey", "dates": "Acts 18:23–21:17 · c. AD 53–57", "color": "#d65fa8", "stops": [{"p": "Antioch of Syria", "label": "Antioch of Syria", "verses": "Acts 18:23", "note": "Paul sets out again.", "tags": [], "letters": [], "via": []}, {"p": "Ephesus", "label": "Ephesus", "verses": "Acts 19:1–20:1", "note": "After going through Galatia and Phrygia (18:23): twelve disciples who knew only John's baptism receive the Holy Ghost (19:1–7). Paul speaks in the synagogue three months (19:8), then, when some are hardened, “departed from them, and separated the disciples” (19:9) — a local turn in this city. For two years “all they which dwelt in Asia heard the word… both Jews and Greeks” (19:10). Special miracles; the sons of Sceva; the riot over Diana. 1 Corinthians is written here.", "tags": ["jew", "turn", "sign", "letter"], "letters": ["1 Corinthians · c. AD 54–55"], "via": [[883.0, 299.7], [826.4, 279.3], [792.5, 254.5], [743.0, 229.1], [667.9, 233.9]]}, {"p": "Thessalonica", "label": "Macedonia", "verses": "Acts 20:1–2; 2 Cor. 2:12–13", "note": "Paul passes through Troas and goes into Macedonia, exhorting the churches. 2 Corinthians is written from Macedonia.", "tags": ["letter"], "letters": ["2 Corinthians · c. AD 55–56"], "via": [[584.9, 200.1], [553.2, 163.0], [520.8, 133.9], [486.8, 104.6], [482.6, 101.1], [452.8, 112.6]]}, {"p": "Corinth", "label": "Greece (Corinth)", "verses": "Acts 20:2–3", "note": "Three months in Greece. A Jewish plot changes his route back through Macedonia. Romans is written from here (Romans 16:1, 23).", "tags": ["letter"], "letters": ["Romans · c. AD 56–57"], "via": [[415.1, 170.8], [432.1, 214.6]]}, {"p": "Philippi", "label": "Philippi", "verses": "Acts 20:3–6", "note": "Back through Macedonia; they sail from Philippi after the days of unleavened bread.", "tags": [], "letters": [], "via": [[432.1, 214.6], [415.1, 170.8], [431.7, 119.5], [452.8, 112.6]]}, {"p": "Troas", "label": "Troas", "verses": "Acts 20:6–12", "note": "Eutychus falls from a window during Paul's long sermon and is restored to life.", "tags": ["sign"], "letters": [], "via": [[486.8, 104.6], [520.8, 136.4]]}, {"p": "Assos", "label": "Assos", "verses": "Acts 20:13–14", "note": "Paul goes on foot to Assos and rejoins the ship.", "tags": [], "letters": [], "via": []}, {"p": "Mitylene", "label": "Mitylene", "verses": "Acts 20:14", "note": "A stop on the coastal route south.", "tags": [], "letters": [], "via": []}, {"p": "Chios", "label": "Chios", "verses": "Acts 20:15", "note": "A stop on the coastal route south.", "tags": [], "letters": [], "via": [[560.4, 212.2]]}, {"p": "Samos", "label": "Samos and Trogyllium", "verses": "Acts 20:15", "note": "Stops on the coastal route south.", "tags": [], "letters": [], "via": [[558.5, 245.9], [575.5, 253.1]]}, {"p": "Miletus", "label": "Miletus", "verses": "Acts 20:15–38", "note": "Paul's farewell to the Ephesian elders: “testifying both to the Jews, and also to the Greeks” (20:21), and “to testify the gospel of the grace of God” (20:24).", "tags": [], "letters": [], "via": [[589.4, 264.6]]}, {"p": "Coos", "label": "Coos", "verses": "Acts 21:1", "note": "A stop on the way south.", "tags": [], "letters": [], "via": [[584.9, 284.1], [586.8, 295.9]]}, {"p": "Rhodes", "label": "Rhodes", "verses": "Acts 21:1", "note": "A stop on the way to Patara.", "tags": [], "letters": [], "via": [[601.9, 317.1], [620.8, 318.5]]}, {"p": "Patara", "label": "Patara", "verses": "Acts 21:1–2", "note": "They change ships for Phenicia.", "tags": [], "letters": [], "via": []}, {"p": "Tyre", "label": "Tyre", "verses": "Acts 21:3–6", "note": "Passing Cyprus “on the left hand” (21:3). Seven days at Tyre; the disciples urge Paul not to go up to Jerusalem.", "tags": [], "letters": [], "via": [[683.0, 361.4], [754.7, 416.7], [834.0, 439.5]]}, {"p": "Ptolemais", "label": "Ptolemais", "verses": "Acts 21:7", "note": "One day with the brethren.", "tags": [], "letters": [], "via": []}, {"p": "Caesarea", "label": "Caesarea", "verses": "Acts 21:8–14", "note": "At Philip's house, Agabus binds his own hands with Paul's girdle. Paul: “I am ready not to be bound only, but also to die at Jerusalem” (21:13).", "tags": [], "letters": [], "via": []}, {"p": "Jerusalem", "label": "Jerusalem", "verses": "Acts 21:15–17", "note": "The brethren receive them gladly.", "tags": [], "letters": [], "via": []}]}, "rome": {"title": "Arrest and Voyage to Rome", "dates": "Acts 21:18–28:31 · c. AD 57–62", "color": "#ef7a3c", "stops": [{"p": "Jerusalem", "label": "Jerusalem", "verses": "Acts 21:18–23:30", "note": "Paul joins men in a vow and the temple purification (21:26) — voluntary accommodation, read in its own context. He is seized in the temple. Speaking to the crowd, he recounts the Lord's words: “Depart: for I will send thee far hence unto the Gentiles” (22:21). The Lord tells him, “so must thou bear witness also at Rome” (23:11).", "tags": [], "letters": [], "via": []}, {"p": "Antipatris", "label": "Antipatris", "verses": "Acts 23:31", "note": "A night march under guard after a plot against his life.", "tags": [], "letters": [], "via": []}, {"p": "Caesarea", "label": "Caesarea", "verses": "Acts 23:33–26:32", "note": "Heard by Felix and held two years (24:27). Before Festus he appeals to Caesar (25:11). Before Agrippa: “Almost thou persuadest me to be a Christian” (26:28).", "tags": [], "letters": [], "via": []}, {"p": "Sidon", "label": "Sidon", "verses": "Acts 27:3", "note": "Julius the centurion lets Paul visit friends.", "tags": [], "letters": [], "via": [[877.4, 480.2]]}, {"p": "Myra", "label": "Myra", "verses": "Acts 27:4–6", "note": "Sailing under Cyprus, they reach Myra and board a ship of Alexandria bound for Italy.", "tags": [], "letters": [], "via": [[894.3, 407.6], [884.9, 349.8], [818.9, 344.2], [735.8, 341.9]]}, {"p": "Cnidus", "label": "Cnidus", "verses": "Acts 27:7", "note": "Slow sailing against the wind.", "tags": [], "letters": [], "via": []}, {"p": "Salmone", "label": "Salmone, Crete", "verses": "Acts 27:7", "note": "They sail under Crete.", "tags": [], "letters": [], "via": []}, {"p": "Fair Havens", "label": "Fair Havens, Crete", "verses": "Acts 27:8–13", "note": "Paul warns against sailing on; he is overruled.", "tags": [], "letters": [], "via": [[550.9, 391.5], [520.8, 396.1]]}, {"p": "Clauda", "label": "Clauda", "verses": "Acts 27:14–17", "note": "The storm Euroclydon drives the ship past Clauda.", "tags": [], "letters": [], "via": []}, {"p": "Melita", "label": "Melita (Malta)", "verses": "Acts 27:18–28:10", "note": "After fourteen days adrift an angel tells Paul, “thou must be brought before Caesar” (27:24). Shipwreck; all 276 reach land. A viper fastens on Paul's hand and he feels no harm; he heals the father of Publius and others on the island.", "tags": ["sign"], "letters": [], "via": [[264.2, 363.8]]}, {"p": "Syracuse", "label": "Syracuse", "verses": "Acts 28:11–12", "note": "Three days, after three months on Malta.", "tags": [], "letters": [], "via": []}, {"p": "Rhegium", "label": "Rhegium", "verses": "Acts 28:13", "note": "They wait for the south wind.", "tags": [], "letters": [], "via": [[149.1, 274.6], [152.8, 250.7]]}, {"p": "Puteoli", "label": "Puteoli", "verses": "Acts 28:13–14", "note": "Seven days with the brethren.", "tags": [], "letters": [], "via": [[147.2, 226.7], [130.2, 192.8], [115.1, 153.7], [103.8, 124.0]]}, {"p": "Appii Forum", "label": "Appii Forum", "verses": "Acts 28:15", "note": "Brethren from Rome come out to meet him.", "tags": [], "letters": [], "via": []}, {"p": "Three Taverns", "label": "Three Taverns", "verses": "Acts 28:15", "note": "More brethren meet him on the road.", "tags": [], "letters": [], "via": []}, {"p": "Rome", "label": "Rome", "verses": "Acts 28:16–31", "note": "Paul calls “the chief of the Jews together” first (28:17) and expounds the kingdom of God from Moses and the prophets. Citing Isaiah 6:9–10, he declares: “the salvation of God is sent unto the Gentiles, and that they will hear it” (28:28). This is not another local turn but the national judicial suspension of Israel's Prophecy Program — a suspension, not an abolition. He lives two whole years in his own hired house.", "tags": ["jew", "suspend", "letter"], "letters": ["Ephesians · Roman imprisonment (traditional)", "Philippians · Roman imprisonment (traditional)", "Colossians · Roman imprisonment (traditional)", "Philemon · Roman imprisonment (traditional)"], "via": []}]}}, "PX": {"Damascus": [935.8, 457.2], "Jerusalem": [895.5, 534.8], "Tarsus": [883.0, 299.7], "Antioch of Syria": [930.6, 333.5], "Seleucia": [922.3, 337.2], "Salamis": [845.3, 380.9], "Paphos": [789.1, 400.2], "Perga": [730.2, 297.8], "Attalia": [724.9, 301.1], "Antioch of Pisidia": [743.0, 233.9], "Iconium": [792.5, 254.5], "Lystra": [790.6, 268.4], "Derbe": [826.4, 279.3], "Troas": [553.2, 163.0], "Neapolis": [486.8, 104.6], "Philippi": [482.6, 101.1], "Amphipolis": [466.0, 110.1], "Thessalonica": [431.7, 119.5], "Berea": [403.8, 125.5], "Athens": [461.5, 249.3], "Corinth": [431.3, 251.2], "Cenchrea": [434.0, 254.1], "Ephesus": [597.7, 251.2], "Caesarea": [882.6, 502.7], "Miletus": [595.5, 270.8], "Assos": [560.0, 176.2], "Mitylene": [567.9, 194.8], "Chios": [552.5, 230.6], "Samos": [583.8, 260.3], "Coos": [595.8, 301.1], "Rhodes": [631.3, 321.8], "Patara": [672.5, 330.7], "Tyre": [894.3, 468.1], "Ptolemais": [889.8, 483.4], "Antipatris": [884.2, 520.5], "Sidon": [900.8, 455.0], "Myra": [697.4, 331.2], "Cnidus": [598.9, 311.0], "Salmone": [558.5, 376.3], "Fair Havens": [501.1, 392.0], "Clauda": [474.7, 396.6], "Melita": [109.8, 345.2], "Syracuse": [143.0, 292.1], "Rhegium": [156.6, 243.1], "Puteoli": [98.9, 110.6], "Appii Forum": [56.6, 79.0], "Three Taverns": [50.2, 72.4], "Rome": [37.7, 56.3]}, "LAB": {"Berea": [-8, 4, "end"], "Thessalonica": [-6, -9, "middle"], "Amphipolis": [0, 15, "middle"], "Philippi": [8, -4, "start"], "Neapolis": [8, 10, "start"], "Athens": [8, -6, "start"], "Corinth": [-8, -4, "end"], "Cenchrea": [-4, 18, "end"], "Samos": [-8, 6, "end"], "Miletus": [8, 8, "start"], "Ephesus": [8, -2, "start"], "Coos": [-8, 4, "end"], "Cnidus": [-8, 6, "end"], "Tyre": [-8, 4, "end"], "Ptolemais": [-8, 4, "end"], "Caesarea": [-8, 4, "end"], "Antipatris": [-8, 6, "end"], "Jerusalem": [8, 8, "start"], "Sidon": [-8, 0, "end"], "Damascus": [8, 4, "start"], "Seleucia": [-8, 10, "end"], "Antioch of Syria": [-4, -9, "end"], "Lystra": [-8, 10, "end"], "Iconium": [8, -2, "start"], "Derbe": [8, 6, "start"], "Perga": [6, -7, "start"], "Attalia": [-8, 6, "end"], "Tarsus": [0, -9, "middle"], "Three Taverns": [8, -2, "start"], "Appii Forum": [16, 20, "start"], "Clauda": [0, 18, "middle"], "Fair Havens": [-4, -11, "end"], "Rome": [8, -4, "start"], "Assos": [8, -2, "start"], "Troas": [-8, 2, "end"], "Chios": [-8, 4, "end"], "Mitylene": [8, 4, "start"], "Salamis": [8, -4, "start"], "Paphos": [-8, 10, "end"]}, "MAJOR": ["Antioch of Pisidia", "Antioch of Syria", "Athens", "Caesarea", "Corinth", "Damascus", "Ephesus", "Jerusalem", "Lystra", "Melita", "Miletus", "Philippi", "Rome", "Tarsus", "Thessalonica", "Troas"]};
+const J = D.J, PX = D.PX, LAB = D.LAB, MAJOR = new Set(D.MAJOR);
+const ORDER = ["prelude","j1","council","j2","j3","rome"];
+const SHORT = {prelude:"Before",j1:"1st Journey",council:"Council",j2:"2nd Journey",j3:"3rd Journey",rome:"To Rome"};
+const NS = "http://www.w3.org/2000/svg";
+const $ = id => document.getElementById(id);
+const el = (t,a={},p) => {const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;};
+const svg = $("svg");
+const FULL = [0,0,1000,635];
+let vb = FULL.slice(), scale = 1, current = "all", selected = null;
+
+// Region labels (ancient names)
+const REG=[["MACEDONIA",430,86],["ACHAIA",392,285],["ASIA",640,210],["GALATIA",790,178],["CILICIA",862,280],["SYRIA",965,395],["JUDAEA",850,575],["CYPRUS",815,420],["CRETE",540,415],["ITALY",140,40],["SICILY",95,255],["THE GREAT SEA",320,500],["AEGEAN",505,225],["LYCIA",700,352],["PAMPHYLIA",745,318]];
+const regEls = REG.map(([t,x,y])=>{const e=el("text",{x,y,"class":"region","text-anchor":"middle"},$("regions"));e.textContent=t;return e;});
+
+// Smooth path through points (Catmull-Rom -> cubic Bezier)
+function smooth(pts){
+  if(pts.length<2) return "";
+  let d=`M${pts[0][0]} ${pts[0][1]}`;
+  for(let i=0;i<pts.length-1;i++){
+    const p0=pts[i-1]||pts[i], p1=pts[i], p2=pts[i+1], p3=pts[i+2]||p2;
+    const seg=Math.hypot(p2[0]-p1[0],p2[1]-p1[1]);
+    const tan=(a,b)=>{const dx=b[0]-a[0],dy=b[1]-a[1],L=Math.hypot(dx,dy)||1,m=Math.min(L*0.18,seg*0.33);return [dx/L*m,dy/L*m];};
+    const t1=tan(p0,p2), t2=tan(p1,p3);
+    const c1=[p1[0]+t1[0], p1[1]+t1[1]];
+    const c2=[p2[0]-t2[0], p2[1]-t2[1]];
+    d+=`C${c1[0].toFixed(1)} ${c1[1].toFixed(1)} ${c2[0].toFixed(1)} ${c2[1].toFixed(1)} ${p2[0]} ${p2[1]}`;
+  }
+  return d;
+}
+function routePts(k){const pts=[];J[k].stops.forEach(s=>{s.via.forEach(v=>pts.push(v));pts.push(PX[s.p]);});return pts;}
+
+const routeEls = {};
+ORDER.forEach(k=>{
+  routeEls[k]=el("path",{d:smooth(routePts(k)),"class":"route",stroke:J[k].color,"vector-effect":"non-scaling-stroke","stroke-dasharray":J[k].dash?"6 5":"none"},$("routes"));
+});
+
+// Places (unique by name) with tags
+const places={};
+ORDER.forEach(k=>J[k].stops.forEach((s,i)=>{
+  const p=places[s.p]=places[s.p]||{name:s.p,xy:PX[s.p],visits:[],tags:new Set()};
+  p.visits.push({k,i}); s.tags.forEach(t=>p.tags.add(t));
+}));
+
+// Scalable marker helper: a group positioned at a point, scaled by current zoom
+const scalables=[];
+function sg(parent,x,y,cls){const g=el("g",{"class":cls||""},parent);g._x=x;g._y=y;scalables.push(g);return g;}
+
+// Layer markers: one set per journey, so each view shows only what happened on that journey
+const mk={jew:[],letter:[],sign:[]};
+ORDER.concat(["all"]).forEach(k=>{
+  const byPlace={};
+  (k==="all"?ORDER.flatMap(q=>J[q].stops):J[k].stops).forEach(s=>{(byPlace[s.p]=byPlace[s.p]||new Set()); s.tags.forEach(t=>byPlace[s.p].add(t));});
+  Object.entries(byPlace).forEach(([name,tags])=>{
+    const [x,y]=PX[name]; const tag=g=>{g._k=k;return g;};
+    // icons sit in a small row directly above the stop, so each one clearly belongs to that stop
+    const row=[];if(tags.has("turn"))row.push("turn");if(tags.has("suspend"))row.push("suspend");if(tags.has("letter"))row.push("letter");if(tags.has("sign"))row.push("sign");
+    const ix=n=>(row.indexOf(n)-(row.length-1)/2)*24, IY=-29;
+    if(tags.has("prayer")||tags.has("jew")){const g=sg($("markers"),x,y,"mk");
+      const dash=tags.has("jew")?"none":"4 3";
+      el("circle",{r:9,fill:"none",stroke:"#07101f","stroke-width":6.5,"class":"ring halo"},g);
+      el("circle",{r:9,fill:"none",stroke:"#4ee08f","stroke-width":3.2,"stroke-dasharray":dash,"class":"ring"},g);
+      if(tags.has("turn")){el("path",{d:`M${ix("turn")} ${IY-9}l9 9-9 9-9-9z`,fill:"#ffd24a",stroke:"#07101f","stroke-width":2},g);}
+      if(tags.has("suspend")){el("rect",{x:ix("suspend")-8,y:IY-8,width:16,height:16,rx:1.5,fill:"#ff7a3d",stroke:"#07101f","stroke-width":2},g);}
+      mk.jew.push(tag(g));}
+    if(tags.has("letter")){const g=sg($("markers"),x,y,"mk");const i=el("g",{transform:`translate(${ix("letter")-10} ${IY-7})`},g);
+      el("rect",{x:0,y:0,width:20,height:14,rx:2,fill:"#9ccaff",stroke:"#07101f","stroke-width":2},i);
+      el("path",{d:"M1.5 1.5l8.5 6.5 8.5-6.5",fill:"none",stroke:"#07101f","stroke-width":1.8},i);mk.letter.push(tag(g));}
+    if(tags.has("sign")){const g=sg($("markers"),x,y,"mk");
+      el("path",{d:"M0-10l2.9 6.6 7.2.7-5.4 4.8 1.6 7.1L0 5.5-6.3 9.2l1.6-7.1-5.4-4.8 7.2-.7z",transform:`translate(${ix("sign")} ${IY+1})`,fill:"#d4b0ff",stroke:"#07101f","stroke-width":2,"stroke-linejoin":"round"},g);mk.sign.push(tag(g));}
+    if(row.length){const g=sg($("markers"),x,y,"mk stem");el("line",{x1:0,y1:-14,x2:0,y2:IY+9,stroke:"#c4cad4","stroke-width":1.2,"stroke-opacity":.7},g);g._k=k;g._stem=row;mk.stem=(mk.stem||[]).concat([g]);}
+  });
+});
+
+// Clickable stops: one dot per place per journey
+const stopEls=[];
+ORDER.forEach(k=>{
+  const seen={};
+  J[k].stops.forEach((s,i)=>{
+    if(seen[s.p]!==undefined){stopEls.push({g:seen[s.p].g,k,i,p:s.p});return;}
+    const [x,y]=PX[s.p];
+    const g=sg($("stops"),x,y,"stopdot");
+    g.setAttribute("tabindex","0");g.setAttribute("role","button");g.setAttribute("aria-label",`${s.label}, ${J[k].title}`);
+    el("circle",{r:5.4,fill:J[k].color,"class":"base"},g);
+    const idx=i;g.addEventListener("click",()=>select(k,idx));
+    g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();select(k,idx);}});
+    seen[s.p]={g};stopEls.push({g,k,i,p:s.p});
+  });
+});
+
+// Labels (one per place)
+const labelEls=Object.values(places).map(p=>{
+  const [dx,dy,anc]=LAB[p.name]||[8,4,"start"];
+  const g=sg($("labels"),p.xy[0],p.xy[1],"");
+  const t=el("text",{x:dx,y:dy,"text-anchor":anc,"class":"lbl"},g);t.textContent=p.name;
+  return {g,t,p,dx,dy,anc};
+});
+
+function applyScale(){
+  const m=Math.min(1.9,Math.max(1,760/(svg.clientWidth||760))), s=scale*m;
+  scalables.forEach(g=>g.setAttribute("transform",`translate(${g._x} ${g._y}) scale(${g.classList.contains("mk")?s*1.2:s})`+(g._rot!==undefined?` rotate(${g._rot})`:"")));
+  regEls.forEach(e=>e.style.fontSize=(11*scale)+"px");
+}
+
+// Zoom (animated viewBox)
+function fit(k){
+  if(k==="all") return FULL.slice();
+  const pts=routePts(k);let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;
+  pts.forEach(([x,y])=>{x0=Math.min(x0,x);y0=Math.min(y0,y);x1=Math.max(x1,x);y1=Math.max(y1,y);});
+  let pad=45,w=Math.max(x1-x0+pad*2,300),h=Math.max(y1-y0+pad*2,190);
+  const ar=1000/635; if(w/h>ar) h=w/ar; else w=h*ar;
+  let cx=(x0+x1)/2, cy=(y0+y1)/2, x=cx-w/2, y=cy-h/2;
+  if(w>1000){w=1000;h=635;} x=Math.max(0,Math.min(x,1000-w)); y=Math.max(0,Math.min(y,635-h));
+  return [x,y,w,h];
+}
+let anim=null;
+function zoomTo(t){
+  const from=vb.slice(),t0=performance.now(),dur=matchMedia("(prefers-reduced-motion: reduce)").matches?0:550;
+  cancelAnimationFrame(anim);
+  const step=now=>{
+    const u=dur?Math.min(1,(now-t0)/dur):1,e=u<.5?2*u*u:1-Math.pow(-2*u+2,2)/2;
+    vb=from.map((v,i)=>v+(t[i]-v)*e);scale=vb[2]/1000;
+    svg.setAttribute("viewBox",vb.map(v=>v.toFixed(2)).join(" "));applyScale();
+    if(u<1) anim=requestAnimationFrame(step);
+  };
+  anim=requestAnimationFrame(step);
+}
+
+
+// Direction of travel: numbered stops, a Start tag, and arrows along the chosen route
+const BOFF={"Cenchrea":[9,13],"Amphipolis":[2,-12],"Appii Forum":[6,14]};
+function clearFlow(){["flow","badges"].forEach(id=>{const g=$(id);while(g.firstChild)g.removeChild(g.firstChild);});
+  for(let i=scalables.length-1;i>=0;i--) if(scalables[i]._flow) scalables.splice(i,1);}
+function drawFlow(key,target){
+  clearFlow();
+  labelEls.forEach(l=>{const sh=key==="all"?0:7;l.t.setAttribute("x",l.dx+(l.anc==="start"?sh:l.anc==="end"?-sh:0));l.t.setAttribute("y",l.dy+(l.anc==="middle"?(l.dy<0?-sh:sh):0));});
+  if(key==="all") return;
+  const j=J[key], col=j.color, m=Math.min(1.9,Math.max(1,760/(svg.clientWidth||760))), ts=target[2]/1000*m;
+  // numbers per place (a place visited twice shows both numbers)
+  const nums={};j.stops.forEach((s,i)=>(nums[s.p]=nums[s.p]||[]).push(i+1));
+  Object.entries(nums).forEach(([p,ns])=>{
+    const [x,y]=PX[p],txt=ns.join("·"),w=Math.max(17,7+txt.length*6.4);
+    const g0=sg($("badges"),x,y,"badge");g0._flow=1;const off=BOFF[p]||[0,0];
+    if(off[0]||off[1]) el("line",{x1:0,y1:0,x2:off[0],y2:off[1],stroke:col,"stroke-width":1.4},g0);
+    const g=el("g",{transform:`translate(${off[0]} ${off[1]})`},g0);
+    el("rect",{x:-w/2,y:-8.5,width:w,height:17,rx:8.5,fill:col,stroke:"#0b1628","stroke-width":1.4},g);
+    const t=el("text",{x:0,y:3.9,"text-anchor":"middle"},g);t.textContent=txt;
+  });
+  // START tag at the first stop
+  const [sx,sy]=PX[j.stops[0].p];const st=sg($("badges"),sx,sy,"startTag");st._flow=1;
+  el("rect",{x:-23,y:11,width:46,height:15,rx:3,fill:"#f7f7f2",stroke:"#0b1628","stroke-width":1},st);
+  const stt=el("text",{x:0,y:21.8,"text-anchor":"middle"},st);stt.textContent="START";
+  // arrows every so often along the route, pointing the way Paul travelled
+  const path=routeEls[key],L=path.getTotalLength(),gap=70*ts,stopsXY=j.stops.map(s=>PX[s.p]);
+  for(let d=gap*0.6; d<L-gap*0.3; d+=gap){
+    const a=path.getPointAtLength(d),b=path.getPointAtLength(Math.min(L,d+1));
+    if(stopsXY.some(([x,y])=>Math.hypot(x-a.x,y-a.y)<16*ts)) continue;
+    const ang=Math.atan2(b.y-a.y,b.x-a.x)*180/Math.PI;
+    const g=el("g",{},$("flow"));g._x=a.x;g._y=a.y;g._flow=1;g._rot=ang;scalables.push(g);
+    el("path",{d:"M-7-6.5L7 0-7 6.5-3.5 0z",fill:col,stroke:"#0b1628","stroke-width":1.1},g);
+  }
+  applyScale();
+}
+
+// Tabs
+function tab(key,label,color){const b=document.createElement("button");b.className="tab";b.type="button";b.dataset.key=key;b.setAttribute("aria-pressed","false");b.innerHTML=(color?`<span class="sw" style="background:${color}"></span>`:"")+label;b.onclick=()=>show(key);$("tabs").appendChild(b);}
+tab("all","All journeys");ORDER.forEach(k=>tab(k,SHORT[k],J[k].color));
+
+function show(key){
+  current=key;selected=null;
+  document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.key===key)));
+  for(const k in routeEls) routeEls[k].classList.toggle("dim",key!=="all"&&k!==key);
+  const active=new Set(stopEls.filter(s=>key==="all"||s.k===key).map(s=>s.g));
+  const gs=new Set(stopEls.map(s=>s.g));
+  gs.forEach(g=>{g.classList.remove("sel");g.classList.toggle("dim",!active.has(g));
+    if(active.has(g)) g.parentNode.appendChild(g);});
+  // dot color follows the chosen journey when a place is shared
+  if(key!=="all") stopEls.filter(s=>s.k===key).forEach(s=>s.g.querySelector("circle").setAttribute("fill",J[key].color));
+  else ORDER.slice().reverse().forEach(k=>stopEls.filter(s=>s.k===k).forEach(s=>s.g.querySelector("circle").setAttribute("fill",J[s.k].color)));
+  const inJ=new Set(key==="all"?[]:J[key].stops.map(s=>s.p));
+  labelEls.forEach(l=>l.g.classList.toggle("dim", key==="all" ? !MAJOR.has(l.p.name) : !inJ.has(l.p.name)));
+  Object.values(mk).flat().forEach(g=>g.classList.toggle("off", g._k!==key));
+  document.querySelectorAll("#markers .ring").forEach(c=>{c.setAttribute("r",key==="all"?10:14);c.setAttribute("stroke-width",c.classList.contains("halo")?(key==="all"?6.5:7):(key==="all"?3.2:3.6));});
+  const tgt=fit(key);drawFlow(key,tgt);zoomTo(tgt);
+  renderPanel();
+}
+
+const CHIP={prayer:"Place of prayer (no synagogue named)",jew:"Synagogue first",turn:"Local turn",suspend:"National suspension",letter:"Letter written here",sign:"Recorded sign"};
+function renderPanel(){
+  const P=$("panel");
+  if(current==="all"){
+    P.innerHTML=`<h3>Paul's Journeys</h3><p class="hint">Choose a journey above, or click any stop on the map, to read what happened there and the verses.</p>`+
+      ORDER.map(k=>`<button type="button" class="jbtn" data-k="${k}"><span class="sw" style="background:${J[k].color}"></span><span><b>${J[k].title}</b><br><small>${J[k].dates}</small></span></button>`).join("");
+    P.querySelectorAll(".jbtn").forEach(b=>b.onclick=()=>show(b.dataset.k));
+    return;
+  }
+  const j=J[current];
+  let h=`<div class="jr" style="color:${j.color}">${j.title}</div><div class="dates">${j.dates}</div>`;
+  if(selected!==null){
+    const s=j.stops[selected];
+    h+=`<h3>${s.label}</h3><div class="vs">${s.verses}</div><p>${s.note}</p>`;
+    if(s.tags.length) h+=`<div class="chips">${s.tags.map(t=>`<span class="chip ${t}">${CHIP[t]}</span>`).join("")}</div>`;
+    if(s.letters.length) h+=`<ul class="letters">${s.letters.map(l=>`<li>${l}</li>`).join("")}</ul>`;
+    h+=`<div class="pn"><button type="button" ${selected===0?"disabled":""} data-d="-1">&larr; Previous stop</button><button type="button" ${selected===j.stops.length-1?"disabled":""} data-d="1">Next stop &rarr;</button></div>`;
+  } else h+=`<p class="hint">Starts at <b style="color:var(--white)">${j.stops[0].label}</b>. Click a stop on the map or in the list below.</p>`;
+  h+=`<div class="howto">Numbers on the map match this list. Arrows show the direction of travel.</div>`;
+  h+=`<ol class="stoplist">${j.stops.map((s,i)=>`<li><button type="button" class="${i===selected?"sel":""}" data-i="${i}">${s.label}</button></li>`).join("")}</ol>`;
+  P.innerHTML=h;
+  P.querySelectorAll(".stoplist button").forEach(b=>b.onclick=()=>select(current,+b.dataset.i));
+  P.querySelectorAll(".pn button").forEach(b=>b.onclick=()=>select(current,selected+ +b.dataset.d));
+}
+
+function select(k,i){
+  if(current!==k) show(k);
+  selected=i;
+  const p=J[k].stops[i].p;
+  stopEls.forEach(s=>s.g.classList.toggle("sel",s.k===k&&s.p===p));
+  renderPanel();
+  if(innerWidth<900) $("panel").scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+function layers(){
+  (mk.stem||[]).forEach(g=>g.classList.toggle("hide",!g._stem.some(t=>(t==="turn"||t==="suspend")?$("lyJew").checked:t==="letter"?$("lyLet").checked:$("lySig").checked)));
+  mk.jew.forEach(e=>e.classList.toggle("hide",!$("lyJew").checked));
+  mk.letter.forEach(e=>e.classList.toggle("hide",!$("lyLet").checked));
+  mk.sign.forEach(e=>e.classList.toggle("hide",!$("lySig").checked));
+}
+["lyJew","lyLet","lySig"].forEach(id=>$(id).addEventListener("change",layers));
+applyScale();layers();show("all");
+addEventListener("resize",applyScale);
+</script>
+</body>
+</html>
