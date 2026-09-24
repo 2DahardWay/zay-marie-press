@@ -17,6 +17,8 @@ a{color:inherit}
 .nav{display:flex;justify-content:space-between;align-items:center;min-height:62px}
 .brand{font:700 20px Georgia,serif;color:var(--gold);text-decoration:none}
 .navlinks{display:flex;gap:24px;font-weight:700;font-size:14px}.navlinks a{text-decoration:none}
+.backbtn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--gold);color:var(--gold);padding:7px 13px;border-radius:5px;font-weight:800;font-size:13px;text-decoration:none;white-space:nowrap}.backbtn:hover,.backbtn:focus-visible{background:var(--gold);color:#091426}
+.backwrap{text-align:center;padding:6px 0 44px}
 .hero{text-align:center;padding:70px 0 30px}
 .eyebrow{color:var(--gold);font-weight:700;letter-spacing:.28em;font-size:13px}
 .hero h1{font:700 clamp(38px,6vw,64px)/1.05 Georgia,serif;color:var(--gold);margin:18px 0 8px}
@@ -97,7 +99,7 @@ td:first-child{font-weight:800;color:var(--white);width:22%}
  th{background:#eee!important;color:#5a4309!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
  td:first-child,.note h3{color:#111!important}
  .footer{color:#555;padding:8px;font-size:9pt}
- .legend{display:none!important}
+ .legend,.backwrap,.backbtn{display:none!important}
  body{font-size:9.5pt;line-height:1.4}
  .hero h1{font-size:28pt;margin:6px 0 2px}.hero h2{font-size:13pt}
  .section-title{font-size:15pt;margin:0 0 4px}.section-sub{margin-bottom:6px;font-size:9pt}
@@ -126,6 +128,7 @@ td:first-child{font-weight:800;color:var(--white);width:22%}
       <a href="#letters">Letters</a>
       <a href="#studies">Related Studies</a>
     </nav>
+    <a class="backbtn" href="resources.html">&larr; Back to Resources</a>
   </div>
 </header>
 
@@ -237,6 +240,8 @@ td:first-child{font-weight:800;color:var(--white);width:22%}
     <a href="study-30-seated-with-christ-in-heavenly-places.html"><b>Seated with Christ in Heavenly Places</b><span>Study 30 · Ephesians, from Rome</span></a>
   </div>
 </section>
+
+<div class="wrap backwrap"><a class="btn" href="resources.html">&larr; Back to Resources</a></div>
 
 <footer class="footer">
   <strong>© Zay-Marie Press</strong><br/>
