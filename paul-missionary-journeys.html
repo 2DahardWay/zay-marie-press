@@ -69,6 +69,7 @@ svg.map{display:block;width:100%;height:auto;touch-action:manipulation}
 .stoplist{margin:14px 0 0;border-top:1px solid var(--line);padding:12px 0 0 26px;max-height:300px;overflow:auto;font-size:14px;color:var(--gold)}.stoplist li{margin:0}
 .stoplist button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--muted);padding:6px 4px;font:14px Arial,sans-serif;cursor:pointer;border-radius:4px}
 .stoplist button:hover,.stoplist button.sel{background:#223352;color:var(--white)}
+.godeeper{margin:14px 0 4px;border-top:1px solid var(--line);padding-top:12px}.godeeper .gd-h{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}.godeeper a{display:block;background:#1b2b47;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:6px;padding:9px 12px;margin-bottom:8px;text-decoration:none}.godeeper a:hover,.godeeper a:focus-visible{border-color:var(--gold);background:#223352}.godeeper b{display:block;color:var(--white);font:700 15px Georgia,serif}.godeeper span{font-size:12px;color:#9fb0c8}
 .jbtn{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;background:none;border:1px solid transparent;border-radius:8px;padding:8px;color:var(--muted);cursor:pointer;font:15px Arial,sans-serif}.jbtn:hover{background:#1b2b47;border-color:var(--line)}.jbtn b{color:var(--white)}.jbtn small{color:#8f9bad;font-size:13px}.jbtn .sw{width:11px;height:11px;border-radius:50%;margin-top:5px;flex:none}.dates{font-size:13px;color:#8f9bad;margin-bottom:10px}.panel h3{margin-top:4px}.letters{color:#9cc3ff}.pn{display:flex;justify-content:space-between;gap:8px;margin-top:14px}.pn button{background:#1b2b47;border:1px solid var(--line);color:var(--white);border-radius:6px;padding:7px 10px;font:700 13px Arial,sans-serif;cursor:pointer}.pn button:disabled{opacity:.35;cursor:default}
 .note{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:12px;padding:24px 26px}
 .note h3{font:700 22px Georgia,serif;color:var(--white);margin:0 0 8px}
@@ -436,6 +437,8 @@ function show(key){
   renderPanel();
 }
 
+const STUDY={6:["The Mystery Revealed Through Paul","study-06-the-mystery-revealed-through-paul.html"],11:["The Beginning of the Body of Christ","study-11-the-beginning-of-the-body-of-christ.html"],13:["The Olive Tree of Romans 11","study-13-the-olive-tree-and-the-body-of-christ.html"],14:["Why Acts 9 Matters","study-14-acts-9-and-the-beginning-of-mystery.html"],18:["Peter and Paul","study-18-peter-and-paul-distinct-apostolic-commissions.html"],19:["The Jerusalem Council","study-19-the-jerusalem-council.html"],21:["Israel's Judicial Blinding","study-21-israels-judicial-blinding.html"],25:["The Signs That Followed","study-25-the-signs-that-followed.html"],30:["Seated with Christ in Heavenly Places","study-30-seated-with-christ-in-heavenly-places.html"],37:["What Does Paul Mean by New Creation?","study-37-what-does-paul-mean-by-new-creation.html"],38:["Why Acts Is Not a Universal Experience Manual","study-38-why-acts-is-not-a-universal-experience-manual.html"],42:["One Baptism","study-42-one-baptism.html"],43:["The Gospel of the Grace of God","study-43-the-gospel-of-the-grace-of-god.html"]};
+const STOP_STUDIES={"prelude|Damascus":[11,14,6],"j1|Antioch of Pisidia":[18],"j2|Corinth":[18],"council|Jerusalem":[19],"j3|Ephesus":[18,38,42],"j3|Thessalonica":[37],"j3|Corinth":[13],"j3|Miletus":[43],"rome|Melita":[25],"rome|Rome":[21,30]};
 const CHIP={prayer:"Place of prayer (no synagogue named)",jew:"Synagogue first",turn:"Local turn",suspend:"National suspension",letter:"Letter written here",sign:"Recorded sign"};
 function renderPanel(){
   const P=$("panel");
@@ -452,6 +455,8 @@ function renderPanel(){
     h+=`<h3>${s.label}</h3><div class="vs">${s.verses}</div><p>${s.note}</p>`;
     if(s.tags.length) h+=`<div class="chips">${s.tags.map(t=>`<span class="chip ${t}">${CHIP[t]}</span>`).join("")}</div>`;
     if(s.letters.length) h+=`<ul class="letters">${s.letters.map(l=>`<li>${l}</li>`).join("")}</ul>`;
+    const sid=STOP_STUDIES[current+"|"+s.p];
+    if(sid) h+=`<div class="godeeper"><div class="gd-h">Go deeper</div>${sid.map(n=>`<a href="${STUDY[n][1]}"><b>${STUDY[n][0]}</b><span>Digital Study ${n} &rarr;</span></a>`).join("")}</div>`;
     h+=`<div class="pn"><button type="button" ${selected===0?"disabled":""} data-d="-1">&larr; Previous stop</button><button type="button" ${selected===j.stops.length-1?"disabled":""} data-d="1">Next stop &rarr;</button></div>`;
   } else h+=`<p class="hint">Starts at <b style="color:var(--white)">${j.stops[0].label}</b>. Click a stop on the map or in the list below.</p>`;
   h+=`<div class="howto">Numbers on the map match this list. Arrows show the direction of travel.</div>`;
