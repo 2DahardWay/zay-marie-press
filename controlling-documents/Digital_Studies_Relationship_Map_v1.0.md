@@ -1,6 +1,14 @@
 # Digital Studies: Relationship Map for Studies 1–47
 
-This editorial map distinguishes each study's main question from nearby studies and proposes only links that give the reader a concrete next question. It is based on the study PDFs currently available and the published study pages (Studies 1–40 in earlier editions; Studies 41–43 added in a prior edition from their published catalog descriptions and preview pages; Study 44 added in a prior edition; Study 45 added in a prior edition; Study 46 added in a prior edition; Study 47 added in this edition from its approved interior draft, cover, and preview pages). The website copy should use brief reciprocal links on relevant detail pages; the catalog's curated study paths remain the broader browsing aid. A relationship is a reading route, not a claim that one study is required to understand another.
+**Version 1.0** — controlling edition as of this version. Covers Studies 1–47. Superseded prior unversioned editions of this document; the last of those left off at Study 46.
+
+## Version history
+
+| Version | Covers through | Change |
+|-|-|-|
+| 1.0 | Study 47 | First versioned edition. Folds in the unversioned edition's Study 47 addition (Giving Under Grace) and corrects the "forty-six subjects" note in Source-version checks to forty-seven. Establishes version control for this document going forward: each new study or structural change bumps the version and logs the change here, per the same convention used by the Master Standard. |
+
+This editorial map distinguishes each study's main question from nearby studies and proposes only links that give the reader a concrete next question. It is based on the study PDFs currently available and the published study pages (Studies 1–40 in earlier editions; Studies 41–43 added in a prior edition from their published catalog descriptions and preview pages; Study 44 added in a prior edition; Study 45 added in a prior edition; Study 46 added in a prior edition; Study 47 added in a prior edition from its approved interior draft, cover, and preview pages). The website copy should use brief reciprocal links on relevant detail pages; the catalog's curated study paths remain the broader browsing aid. A relationship is a reading route, not a claim that one study is required to understand another.
 
 |Study|Distinct subject|Strong related studies and the next question|
 |-|-|-|
@@ -90,4 +98,4 @@ Keep each page to one short explanation and generally no more than two or three 
 
 ## Source-version checks
 
-Studies 14 and 32 were available as `DRAFT\_v4\_TOC\_ALIGNED` and `REVIEW\_MASTER` PDFs respectively. Their published page descriptions were also checked. Before quoting or reusing exact interior wording for those two studies in promotional copy, reconcile those files with the approved publication masters. Study 17's newest available file is named `FINAL\_REVIEW`; its covenant scope was checked against the published page. All forty-six subjects have readable PDF content available.
+Studies 14 and 32 were available as `DRAFT\_v4\_TOC\_ALIGNED` and `REVIEW\_MASTER` PDFs respectively. Their published page descriptions were also checked. Before quoting or reusing exact interior wording for those two studies in promotional copy, reconcile those files with the approved publication masters. Study 17's newest available file is named `FINAL\_REVIEW`; its covenant scope was checked against the published page. All forty-seven subjects have readable PDF content available.

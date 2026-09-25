@@ -8,7 +8,7 @@ These are kept in the repo at `controlling-documents/` and are the current versi
 
 - **`controlling-documents/Framework_Control_Document_Acts_Overlap.docx`** — Framework Control Document, Acts Overlap Theology. Governs all doctrinal content. It overrides mainstream dispensationalism.
 - **`controlling-documents/Zay-Marie_Press_Digital_Studies_Master_Standard_v1.17.pdf`** — Master Standard v1.17. Governs study structure, cover, PDF assembly, website package and publication (includes §16 Individual Study Preview Selection Standard).
-- **`controlling-documents/Digital_Studies_Relationship_Map.md`** — records each study's distinct subject and its related studies (currently covers Studies 1–46; update it as new studies publish). Check a proposed topic against it before recommending or writing a new study.
+- **`controlling-documents/Digital_Studies_Relationship_Map_v1.0.md`** — records each study's distinct subject and its related studies (currently version 1.0, covers Studies 1–47; update it as new studies publish, bump the version number, rename the file to match, and log the change in its own version-history table — mirroring the Master Standard's `_vX.Y` filename convention). Check a proposed topic against it before recommending or writing a new study.
 
 ## Approval checkpoints (do not skip)
 
