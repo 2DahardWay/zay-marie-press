@@ -7,7 +7,7 @@ This repository is the production site for zaymariepress.com. Pushing to `main` 
 These are kept in the repo at `controlling-documents/` and are the current versions. Read them from there at the start of any topic/overlap check or website-package work — do not ask the publisher to re-attach them. If the publisher sends a newer version, replace the file in `controlling-documents/`, commit it, and note the version bump here.
 
 - **`controlling-documents/Framework_Control_Document_Acts_Overlap.docx`** — Framework Control Document, Acts Overlap Theology. Governs all doctrinal content. It overrides mainstream dispensationalism.
-- **`controlling-documents/Zay-Marie_Press_Digital_Studies_Master_Standard_v1.17.pdf`** — Master Standard v1.17. Governs study structure, cover, PDF assembly, website package and publication (includes §16 Individual Study Preview Selection Standard).
+- **`controlling-documents/Zay-Marie_Press_Digital_Studies_Master_Standard_v1.18.pdf`** — Master Standard v1.18. Governs study structure, cover, PDF assembly, website package and publication (includes §16 Individual Study Preview Selection Standard). As of v1.18, §16 fixes the preview set at exactly three pages: Table of Contents, What You Will Learn, and one further page of real substance that does not give away the study's thesis — the TOC exclusion and four-page target from v1.17 are superseded. See §18 Version History in the document itself.
 - **`controlling-documents/Digital_Studies_Relationship_Map_v1.0.md`** — records each study's distinct subject and its related studies (currently version 1.0, covers Studies 1–47; update it as new studies publish, bump the version number, rename the file to match, and log the change in its own version-history table — mirroring the Master Standard's `_vX.Y` filename convention). Check a proposed topic against it before recommending or writing a new study.
 
 ## Approval checkpoints (do not skip)
@@ -21,9 +21,9 @@ These are kept in the repo at `controlling-documents/` and are the current versi
 
 Files to add:
 
-- `study-NN-slug.html`: copy the most recent study page (e.g. `study-42-one-baptism.html`) and replace everything inside `<main>`. Sections in order: hero (cover, eyebrow `STUDY N · DIGITAL STUDY`, title, subtitle, kicker, two copy paragraphs, buyline `$5.99 · Digital PDF · NN Pages · Checkout Coming Soon`), About This Study with "How These Studies Relate" (**at most three** related-study links, then the connection-guide link), What You'll Study (6 points), Key Scriptures (8 cards), From the Study quote, A Look Inside (4 preview pages, one of which must be the "What You Will Learn" page, never the TOC), What's Included (8 items), final buy panel, and the course bridge.
+- `study-NN-slug.html`: copy the most recent study page (e.g. `study-42-one-baptism.html`) and replace everything inside `<main>`. Sections in order: hero (cover, eyebrow `STUDY N · DIGITAL STUDY`, title, subtitle, kicker, two copy paragraphs, buyline `$5.99 · Digital PDF · NN Pages · Checkout Coming Soon`), About This Study with "How These Studies Relate" (**at most three** related-study links, then the connection-guide link), What You'll Study (6 points), Key Scriptures (8 cards), From the Study quote, A Look Inside (3 preview pages, per Master Standard §16 v1.18: Table of Contents, "What You Will Learn", and one further page of real substance that doesn't give away the study's thesis), What's Included (8 items), final buy panel, and the course bridge.
 - `assets/study-NN-cover.jpg` and `assets/study-NN-cover.webp`: 1024×1536, made from the approved 1600×2400 cover.
-- `assets/study-NN-page-P.jpg`: four preview pages at 1041×1347, rendered from the **final** PDF. P is the interior page number, i.e. the PDF page minus 1 for the cover.
+- `assets/study-NN-page-P.jpg`: three preview pages (Table of Contents, What You Will Learn, and one further substantive page) at 1041×1347, rendered from the **final** PDF. P is the interior page number, i.e. the PDF page minus 1 for the cover.
 
 Files to update:
 
