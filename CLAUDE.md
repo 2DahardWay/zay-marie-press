@@ -2,11 +2,13 @@
 
 This repository is the production site for zaymariepress.com. Pushing to `main` deploys automatically through Cloudflare Workers & Pages. Commit and push directly to `main`; no pull requests. The publisher is Hakeem (GitHub: 2DahardWay).
 
-## Controlling documents (ask the publisher to attach them if not provided)
+## Controlling documents
 
-- **Framework Control Document — Acts Overlap Theology.** Governs all doctrinal content. It overrides mainstream dispensationalism.
-- **Zay-Marie Press Digital Studies Master Standard (v1.13 or later).** Governs study structure, cover, PDF assembly, website package and publication.
-- `Digital_Studies_Relationship_Map` (Markdown). Records each study's distinct subject and its related studies. Check a proposed topic against it before recommending or writing a new study.
+These are kept in the repo at `controlling-documents/` and are the current versions. Read them from there at the start of any topic/overlap check or website-package work — do not ask the publisher to re-attach them. If the publisher sends a newer version, replace the file in `controlling-documents/`, commit it, and note the version bump here.
+
+- **`controlling-documents/Framework_Control_Document_Acts_Overlap.docx`** — Framework Control Document, Acts Overlap Theology. Governs all doctrinal content. It overrides mainstream dispensationalism.
+- **`controlling-documents/Zay-Marie_Press_Digital_Studies_Master_Standard_v1.17.pdf`** — Master Standard v1.17. Governs study structure, cover, PDF assembly, website package and publication (includes §16 Individual Study Preview Selection Standard).
+- **`controlling-documents/Digital_Studies_Relationship_Map.md`** — records each study's distinct subject and its related studies (currently covers Studies 1–45; update it as new studies publish). Check a proposed topic against it before recommending or writing a new study.
 
 ## Approval checkpoints (do not skip)
 

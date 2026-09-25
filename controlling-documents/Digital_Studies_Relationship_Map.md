@@ -1,0 +1,91 @@
+# Digital Studies: Relationship Map for Studies 1–45
+
+This editorial map distinguishes each study's main question from nearby studies and proposes only links that give the reader a concrete next question. It is based on the study PDFs currently available and the published study pages (Studies 1–40 in earlier editions; Studies 41–43 added in a prior edition from their published catalog descriptions and preview pages; Study 44 added in a prior edition; Study 45 added in this edition from its published catalog description, detail page, and preview pages). The website copy should use brief reciprocal links on relevant detail pages; the catalog's curated study paths remain the broader browsing aid. A relationship is a reading route, not a claim that one study is required to understand another.
+
+|Study|Distinct subject|Strong related studies and the next question|
+|-|-|-|
+|1. The Bride of Christ|Traces Israel's bridal imagery and tests proposed identification of the Body as the Bride.|4: How are Israel and the Body distinguished? 26: Whom do Revelation's messages address?|
+|2. The Gospel of the Kingdom|Defines the Kingdom announcement, audience, and promised setting.|20: How does Peter's Pentecost appeal work? 18: How do Peter's and Paul's commissions differ? 43: What is the Gospel of the Grace of God?|
+|3. The Body of Christ and the Tribulation|Addresses whether the Body belongs in the prophetic tribulation.|10: What is Daniel's seventieth week? 29: Whom does the “one taken” passage describe? 7: What is the Day of the Lord?|
+|4. Israel and the Body of Christ|Establishes the broad distinction in origin, identity, covenant, calling, and destiny.|36: How do Jews, Gentiles, and the Church of God relate in 1 Corinthians 10:32? 35: What does “Israel of God” mean? 39: How should the Body learn from Israel's Scriptures?|
+|5. The Heavenly Calling|Maps the Body's whole heavenly calling, including blessings, citizenship, hope, and purpose.|30: What does being seated with Christ mean in Ephesians 2:6? 16: What is the believer's present identity in Christ?|
+|6. The Mystery Revealed Through Paul|Defines the previously hidden Mystery and its revealed content.|11: When did the Body begin? 14: Why is Acts 9 decisive? 18: What was Paul's distinct commission? 43: What gospel did Paul call “my gospel”?|
+|7. The Day of the Lord|Traces the prophetic Day's judgment and Israel's restoration.|8: What does Paul call the Day of Christ? 3: Does the Body enter the Tribulation?|
+|8. The Day of Christ|Interprets Paul's Day-of-Christ expressions and related future hope.|7: How is the prophetic Day of the Lord different? 31: Which judgments concern the Body? 33: How do crowns relate to reward?|
+|9. The Remnant|Follows the preserved believing remnant within Israel.|21: What is Israel's judicial blinding? 13: What do the olive-tree branches mean? 23: Are the 144,000 the whole remnant?|
+|10. Daniel's Seventieth Week|Interprets Daniel 9 and its prophetic audience and period.|3: Where does the Body stand relative to the Tribulation? 7: How does the Day of the Lord encompass judgment and restoration?|
+|11. The Beginning of the Body of Christ|Establishes the Body's beginning in relation to Paul's calling.|14: What in Acts 9 marks that beginning? 6: What is the Mystery revealed through Paul? 43: What gospel places believers into that Body?|
+|12. The New Covenant|Examines Israel's promised restoration under Messiah.|17: How does the Abrahamic covenant retain its own promises? 4: Why does the Body not receive Israel's covenant identity?|
+|13. The Olive Tree and the Body of Christ|Interprets Romans 11's root, natural and wild branches, and participation without identity transfer.|9: How does Israel's remnant fit Romans 11? 17: What covenantal promises lie behind the root? 40: How does Paul use Abraham's seed elsewhere?|
+|14. Acts 9 and the Beginning of Mystery|Reads Paul's calling as a narrative marker during the continuing Prophecy and Mystery overlap.|11: What is the Body's beginning? 18: How do the two apostolic commissions coexist? 38: How should Acts events be read?|
+|15. Faith and Works in James and Paul|Compares James 2 and Romans 4 in their audiences and arguments.|40: How does Paul use Abraham for righteousness by faith? 19: How did Acts 15 address law for Gentiles?|
+|16. The Believer's Identity in Christ|Surveys union, standing, and conduct in the one Body.|37: What does “new creation” mean specifically? 44: How does this settled identity work itself out in the believer's daily walk? 45: What does sanctification, specifically, mean as one member of that identity?|
+|17. The Abrahamic Covenant|Establishes covenant ratification, line, land, nation, and blessing in Genesis.|40: What does Paul infer from the seed promises? 13: What happens in Romans 11's olive tree? 12: How does the later New Covenant differ?|
+|18. Peter and Paul: Distinct Apostolic Commissions|Compares the apostles' audiences, authority, and concurrent ministries.|19: What happened at the Jerusalem Council? 14: Why does Paul's Acts 9 call matter?|
+|19. The Jerusalem Council|Reads Acts 15's circumcision dispute, testimony, decree, and recognition of Gentile ministry.|18: What commissions are being recognized? 15: How do James and Paul address faith and works in distinct settings?|
+|20. Understanding Acts 2:38|Interprets Peter's Pentecost appeal and baptism to Israel in its setting.|2: What is the Kingdom announcement? 34: How do later Spirit fillings in Acts differ from initial reception? 38: Why isn't an Acts event a universal rule?|
+|21. Israel's Judicial Blinding|Traces the corporate hardening through Isaiah, Romans 11, and Acts 28.|9: What happens to the remnant amid corporate unbelief? 13: How does Romans 11 portray Israel's standing?|
+|22. Prayer Under Grace|Distinguishes prayer instruction for the Body from promises spoken in other settings.|39: How can earlier Scripture instruct without transferring its covenant promise? 38: How should Acts experiences inform present expectations?|
+|23. The 144,000|Identifies the named tribal company of Revelation 7 and 14.|9: How is that company distinct from Israel's larger remnant? 26: How are Revelation's earlier church messages situated?|
+|24. The Willful Sin Warning|Reads Hebrews 10:26–31 in its argument and audience.|28: How does Hebrews 6:4–6 pose a distinct warning?|
+|25. The Signs That Followed|Reads Mark 16:16–20 and the purpose of its signs.|38: When does an event in Acts supply present obligation? 34: What are repeated Spirit fillings in Acts?|
+|26. The Seven Churches of Revelation|Interprets the seven messages in their prophetic and audience setting.|23: Who is the later numbered Israelite company in Revelation? 10: What is Daniel's prophetic time frame?|
+|27. Israel's Seven Appointed Feasts|Examines Leviticus 23's feasts in Israel's worship and prophetic context.|12: What distinguishes Israel's promised New Covenant restoration? 17: How do Abrahamic and Mosaic covenant settings differ?|
+|28. The Warning of Hebrews 6:4–6|Reads Hebrews 6's privilege, falling away, and land image within Hebrews.|24: How does Hebrews 10's willful-sin warning differ?|
+|29. One Taken and the Other Left|Interprets Matthew 24 and Luke 17's separation in prophetic context.|3: How is the Body's gathering distinct from this scene? 7: What is the wider prophetic judgment setting?|
+|30. Seated With Christ in Heavenly Places|Examines Ephesians 2:6 and the Body's position and future government in Christ.|5: What is the wider heavenly calling? 16: How does position in Christ shape identity and conduct?|
+|31. The Judgments of Scripture|Classifies judgments by subject, time, standard, purpose, and outcome.|8: What future hope does Paul connect with the Day of Christ? 33: How are crowns and rewards distinguished?|
+|32. Covenant Theology and Dispensational Theology|Compares organizing frameworks and their biblical claims.|4: What scriptural distinction between Israel and the Body is foundational here? 6: What is the Mystery's revelatory history?|
+|33. The Crowns of Scripture|Separates crown imagery, recipients, honor, reward, and authority.|31: Which judgment evaluates service and reward? 8: What does the Day of Christ establish?|
+|34. Filled Again|Explains repeated Spirit fillings in Acts as renewed enablement in their contexts.|20: What Spirit promise is addressed at Pentecost? 38: How do Acts narratives guide present practice? 44: How does this differ from the Body's settled walk by the Spirit?|
+|35. Who Is the Israel of God?|Tests Galatians 6:16, Romans 2:28–29, and “spiritual Israel” as an identity label.|4: What is the broad Israel–Body distinction? 36: How does 1 Corinthians 10:32 name Jews, Gentiles, and the Church? 40: Does seed language itself establish Israelite identity?|
+|36. Jews, Gentiles, and the Church of God|Explains the threefold distinction in 1 Corinthians 10:32 and corporate standing.|4: What is the wider Israel–Body framework? 35: Do other Pauline identity expressions erase it?|
+|37. What Does Paul Mean by “New Creation”?|Examines Christ's accomplished creative act, renewal, and the one new man.|16: How does new creation fit the believer's broader identity? 4: How does new-creation language relate to the Israel–Body distinction? 44: How does this standing work itself out in the present-tense walk? 45: How does new-creation standing differ from sanctification's three senses?|
+|38. Why Acts Is Not a Universal Experience Manual|Tests when narrative events instruct without becoming universal commands.|34: What do repeated Spirit fillings mean? 25: What was the purpose of signs? 39: How should earlier Scripture be applied?|
+|39. The Church's Relationship to Israel's Scriptures|Gives a method for learning from the Old Testament while keeping its audience and covenant claims intact.|38: How does the method differ for Acts narratives? 17: What were the Abrahamic covenant's own terms? 40: How does Paul use that history in argument?|
+|40. Who Is Abraham's Seed?|Follows Paul's specific uses of seed, blessing, faith, and inheritance in Romans and Galatians.|17: What did the covenant originally promise? 13: What does Romans 11's olive tree teach? 39: How can earlier Scripture teach without identity transfer?|
+|41. Kingdom of God or Kingdom of Heaven?|Compares Matthew's phrase with Mark and Luke through Daniel's kingdom from heaven, distinguishing Israel's promised kingdom, God's universal reign, and the Body's heavenly calling.|2: What was the Kingdom announcement to Israel? 5: How does the Body's heavenly calling differ from Israel's kingdom hope?|
+|42. One Baptism|Defines baptism from the text, classifies every water baptism in Acts, and follows Paul's letters to the one baptism that places believers into the Body.|20: How should Peter's Acts 2:38 baptism be read? 38: When does an Acts event become a rule? 25: What of the baptism in Mark 16:16?|
+|43. The Gospel of the Grace of God|Defines Paul's gospel from 1 Corinthians 15 and Romans 3, addressed to all on the same terms, and relates it to the Mystery.|2: How does the Gospel of the Kingdom differ? 6: What is the Mystery revealed through Paul? 11: When did the Body begin?|
+|44. Walking in the Spirit|Defines the believer's present-tense walk by the Spirit against the flesh from Galatians 5 and Romans 8, distinguishing it from the believer's settled identity and from Israel's Acts-era repeated fillings.|16: What is the believer's already-settled identity in Christ? 34: How do the Acts-era repeated fillings differ from the Body's settled indwelling ministry? 37: How does new-creation standing relate to the daily walk?|
+|45. Sanctification Under Grace|Distinguishes three senses of sanctification in Paul's letters — positional (1 Cor. 1:2, 30), practical (1 Thess. 4:3–7; Rom. 6:19, 22), and progressive (2 Cor. 3:18) — and separates the Body's sanctification under grace from Israel's holiness under the Mosaic Law (Lev. 20:7–8).|16: What is the believer's whole identity, of which positional sanctification is one member? 44: How does the flesh/Spirit conflict relate to practical sanctification's command? 37: How does new-creation standing differ from sanctification's three senses?|
+
+## Resource cross-reference: Paul's Missionary Journeys map
+
+The interactive map (paul-missionary-journeys.html) links stops to studies inside each stop's panel, following this map's limit of no more than three contextual links per stop. The same studies appear once in the page's Related Digital Studies section. Each link rests on a passage, event, or letter the study itself treats.
+
+|Map stop|Studies linked|Basis for the link|
+|-|-|-|
+|Damascus (Acts 9)|14, 11, 6|Paul's calling; beginning of the Body; the Mystery revealed through Paul|
+|Jerusalem, first visit (Acts 9:26–29; Gal. 1:18)|18|Paul's fifteen days with Peter; the two commissions side by side|
+|Paphos (Acts 13:6–12)|25, 38, 34|Elymas struck blind (sign); Paul "filled with the Holy Ghost" (13:9)|
+|Antioch of Pisidia (Acts 13:14–52)|18, 34|Local turn (13:46); disciples filled with the Holy Ghost (13:52)|
+|Iconium (Acts 14:1–5)|25, 38|“Signs and wonders” done by their hands (14:3)|
+|Lystra, 1st journey (Acts 14:8–10)|25, 38|Lame man healed (sign)|
+|Jerusalem Council (Acts 15)|19, 18|The Council; recognition of the two ministries (Gal. 2:9)|
+|Lystra, 2nd journey (Acts 16:1–5)|19|Timothy circumcised; the Council's decrees delivered (16:4)|
+|Philippi (Acts 16:12–40)|25, 42, 38|Spirit of divination cast out (sign); household baptisms (16:15, 33)|
+|Thessalonica (Acts 17:1–9)|8, 7, 3|Recipients of 1–2 Thessalonians: Day of Christ, Day of the Lord, the Body and the Tribulation. Study 45 also draws on 1 Thessalonians 4:3–7 (practical sanctification) but is not added here, consistent with this map's limit of three links per stop.|
+|Corinth, 2nd journey (Acts 18:1–17)|18, 36, 42|Local turn (18:6); 1 Corinthians 10:32 written to this church; baptisms (18:8)|
+|Ephesus, 3rd journey (Acts 19)|42, 20, 38|The twelve disciples of John (19:1–7); Acts-era Spirit reception and signs|
+|Macedonia (2 Corinthians written)|37|2 Corinthians 5:17, new creation. Study 45 also draws on 2 Corinthians 3:18 (progressive sanctification) but is not added here, consistent with this map's limit of three links per stop.|
+|Corinth, 3rd journey (Romans written)|13, 40|Romans 11 olive tree; Abraham's seed in Romans|
+|Troas (Acts 20:9–12)|25, 38|Eutychus restored to life (sign)|
+|Miletus (Acts 20:24)|43, 2|"The gospel of the grace of God," distinguished from the Gospel of the Kingdom|
+|Jerusalem, arrest (Acts 21–23)|42, 38|Paul's recounted baptism (22:16); temple purification as accommodation (21:26)|
+|Malta (Acts 28:1–10)|25, 38|Viper and healings (signs)|
+|Rome (Acts 28:16–31)|21, 41, 30|National judicial suspension (28:25–28); preaching the kingdom of God (28:23, 31); Ephesians from Rome|
+
+Stops with no study tie (for example Athens, Berea, Tyre) carry no link rather than a forced one. Studies 44 and 45 have no distinct journey stop of their own and are not added to this map.
+
+## Website implementation status
+
+As of this edition, most study detail pages carry selective scope or related-study guidance; the exact count was not re-verified against the live site for this edition, so it is left unstated rather than guessed. Study 43's detail page carries reciprocal links with Studies 2, 6, and 11. Study 44's detail page carries reciprocal links with Studies 16, 34, and 37, and those three studies' own detail pages were updated with matching reciprocal links back to Study 44. Study 45's detail page carries reciprocal links with Studies 16, 44, and 37. Study 16's own detail page was updated with a matching reciprocal link back to Study 45, replacing its prior link to Study 30 (Study 16 was already at this map's three-link cap, so Study 30's link was swapped out rather than added alongside); Studies 44 and 37 were left unchanged, since both were already at the three-link cap and neither had a weaker link to displace. The Study Connections guide page (study-connections.html) carries entries for all 45 studies without a gap — Study 43's entry, previously missing from that guide, and Study 45's new entry (grouped with Studies 16, 44, and 37 under "Life and standing in Christ") are both live. The related-study guidance on the Study 41 and 42 detail pages has not yet been confirmed for this map. Existing reciprocal explanations on Studies 5 and 30 were retained. New or revised explanations were published in three rounds across Studies 2–4, 6–11, 13–21, 23–26, 28–29, 31, 33–36, 38–39. Studies 37 and 40 already contained relevant guidance. Study 45 was also added to the "The Body of Christ & Grace" curated collection on the catalog page, now a Ten-Study Collection.
+
+Studies 1, 12, 22, and 27 remain without a new related-study box because the catalog can present them on their own without a forced follow-on purchase. Study 32 remains without one while its approved publication master is reconciled with the available review master. The map above identifies possible future routes, not a requirement to place every route on the website.
+
+Keep each page to one short explanation and generally no more than two or three contextual links. Do not turn the catalog cards into a second list of cross-sells.
+
+## Source-version checks
+
+Studies 14 and 32 were available as `DRAFT\_v4\_TOC\_ALIGNED` and `REVIEW\_MASTER` PDFs respectively. Their published page descriptions were also checked. Before quoting or reusing exact interior wording for those two studies in promotional copy, reconcile those files with the approved publication masters. Study 17's newest available file is named `FINAL\_REVIEW`; its covenant scope was checked against the published page. All forty-five subjects have readable PDF content available.
