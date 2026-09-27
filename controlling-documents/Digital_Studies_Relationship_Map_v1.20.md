@@ -1,11 +1,12 @@
 # Digital Studies: Relationship Map for Studies 1–59
 
-**Version 1.19** — controlling edition as of this version. Covers Studies 1–59.
+**Version 1.20** — controlling edition as of this version. Covers Studies 1–59.
 
 ## Version history
 
 | Version | Covers through | Change |
 |-|-|-|
+| 1.20 | Study 59 | Adds Study 59 to the Foundations of Right Division curated collection with publisher approval. It is now ten studies at $47.99 ($59.90 individual value, save $11.91); the primary catalog category and Connections Guide remain as established in v1.19. Broader pricing and bundling will be reviewed after Study 60. |
 | 1.19 | Study 59 | Reclassifies the catalog into five primary subject categories. Right division is the method guiding all studies, not a single category. Study 59 moves from the interpretation shelf to Foundational Distinctions; the website distinguishes catalog categories, curated priced collections, and the Connections Guide. Existing collection membership and pricing stay unchanged. |
 | 1.18 | Study 59 | Adds Study 59 (The Law’s Jurisdiction and the Body of Christ) as the focused jurisdiction question connecting Sinai’s named covenant recipients, Paul’s account of the Law’s function and limits, and the Body’s positive instructions under grace. Distinct from Studies 4 and 36 on corporate identity and categories; its detail page and Connections guide give specific reading routes to Studies 4, 36, 19, 51, 45, and 47. Initial placement in Difficult Passages & Apostolic Distinctions was corrected in v1.19; curated collection pricing remained unchanged. Catalog, guide, printable PDF, page count, library value, and source count advance to 59. |
 | 1.17 | Study 58 | Adds Study 58 (What Is a Dispensation?) as a focused study of entrusted stewardship, distinct from Study 6’s Mystery content, Study 32’s system comparison, and Study 57’s eternal-purpose question. Its detail page and Connections guide lead to Studies 6, 32, 57, and 18; no reciprocal link was imposed on those pages. Adds it to the Foundations of Right Division curated path as its ninth study at $42.99 ($53.91 individual value, save $10.92), following that path’s $5.00 price step, and updates catalog, guide, library value, printable guide, and source count to 58. |
@@ -133,7 +134,7 @@ Right division is the interpretive method guiding the entire library, not an exc
 |Passages & Apostolic Context|15, 18, 19, 20, 24, 25, 28, 29, 34, 38, 39|Particular passages, narrated events, and apostolic actions in their settings.|
 |Doctrinal Terms & Themes|31, 33, 42, 43, 49, 50, 51, 52, 53, 54, 55, 56, 57|Focused doctrinal terms and themes spanning biblical settings.|
 
-Curated collections are recommended reading paths and priced groups; membership can cross catalog categories and is not automatically determined by category. The Study Connections Guide explains the concrete next question that makes two studies useful together. Version 1.19 changes no collection membership or price.
+Curated collections are recommended reading paths and priced groups; membership can cross catalog categories and is not automatically determined by category. The Study Connections Guide explains the concrete next question that makes two studies useful together. Version 1.20 adds Study 59 to the Foundations of Right Division collection as its tenth study; broader pricing and bundling remain scheduled for review after Study 60.
 
 ## Website implementation status
 
