@@ -691,8 +691,58 @@ File: `study-60-the-churches-named-in-scripture.html` · **Website status: PENDI
 5. **Local and Corporate.** Distinguish a local congregation from Paul’s explicit one Body teaching.
 6. **Worked Tests.** Apply the procedure to three disputed identifications.
 
+## Unrelated bug found during this audit — Study 22 (fix separately, not a spoiler issue)
+
+While reading through all 60 studies' "What You'll Study" text side by side, found that **Study
+22's ("Prayer Under Grace") six points are not about prayer at all** — all six paragraph bodies
+are byte-identical copies of Study 21's ("Israel's Judicial Blinding") points, with only the `<h3>`
+titles changed to sound prayer-related. E.g. Study 22 point 1 is titled "Prayer Across Scripture"
+but its text reads "Begin with the prophetic vocabulary of seeing, hearing, resistance, and
+covenant responsibility" — Isaiah-6 hardening language, not prayer. Checked every study for this
+pattern; it is isolated to Studies 21/22 only. This needs its own fix (six new, correct
+descriptions for Study 22) independent of the spoiler retrofit, and should probably happen first
+since it's a plain content error, not a judgment call.
+
+## Preliminary pattern found in the spoiler audit — needs a scope decision before rewriting
+
+A full line-by-line pass of all 60 studies' website text turned up a clear stylistic split:
+
+- **Studies ~1–44** are written almost entirely in process language — "Trace," "Examine,"
+  "Distinguish," "Compare," "Follow," "See how" — and generally do NOT state the study's
+  conclusion outright. Spot-checking these against the rule, most already read as compliant or
+  close to it.
+- **Studies ~45–60** (and isolated earlier points) frequently use a different, declarative pattern
+  — "See why X is Y, not Z" / "Read why X means Y" — that states the interpretive answer as
+  settled fact rather than describing a process to trace. Representative confirmed examples:
+  - **Study 45** (Sanctification), point 2: "See why 1 Corinthians 1:2 and 6:11 describe an
+    accomplished status, not a present moral report." States the conclusion outright — matches
+    the flagged bad-example pattern exactly. Points 4 and 5 do the same.
+  - **Study 41** (Kingdom of God or Kingdom of Heaven?), point 2: "...where both phrases describe
+    one entrance into one kingdom." and point 3: "...names the kingdom's source and authority
+    rather than a kingdom located in heaven." Both hand over the study's actual interpretive
+    answer before the reader traces it.
+  - This same "See why X is Y, not Z" construction recurs across many of Studies 46–56 (Secure in
+    Christ, Giving Under Grace, Election, Circumcision, Sonship and Adoption, Redemption,
+    Justification, and others use it in at least one to three of their six points each).
+
+**Open question for the publisher, before any rewriting starts:** the rule's own wording ("must
+never... give away the doctrinal conclusion, state the interpretive answer outright") reads as
+strict and universal, which would mean essentially all of Studies 45–60 (and scattered points
+elsewhere) need rewriting — a large job. But the rule's origin (the flagged Study 61 example) was
+specifically about *withholding a debated, argued-for identification* (who the male child is) —
+not necessarily about softening every doctrinal-distinction description in an expository study
+where there is no "mystery" being protected. Asked Claude (via chat) to get direction on how
+strictly to apply this before doing the rewrite pass; see the conversation for the answer once
+given, and log the decision here.
+
 ## Changelog
 
 - v1.0 (2026-09-28): File created. Website-side text extracted for all 60
   studies. No studies judged yet. Interior-PDF blocker identified. Study 45's
-  orphaned source DOCX found and flagged.
+  orphaned source DOCX found, flagged, and removed from the repo. Full
+  line-by-line pass completed for the website side of all 60 studies;
+  found and flagged an unrelated Study 22 content bug (six points copied
+  from Study 21), and found a stylistic split (Studies ~45-60 lean on a
+  declarative "See why X is Y" pattern that likely violates the rule more
+  often than Studies 1-44). Raised a scope question to the publisher before
+  starting any rewrites.
