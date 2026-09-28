@@ -154,15 +154,48 @@
   document.addEventListener('click', event => {
     if (!search.contains(event.target) && !suggestions.contains(event.target)) closeSuggestions();
   });
-  const descriptions = {
-    "Kingdom reception": "Explore the reception and growth of the Kingdom message.",
-    "Israel’s response": "Read Jesus’ response to Israel’s hearers in its Gospel setting.",
-    "Mercy and repentance": "Examine mercy and repentance in Jesus’ original encounter.",
-    "Discipleship and stewardship": "Trace responsibility and stewardship in the parable’s own setting.",
-    "Readiness and judgment": "Follow Jesus’ warning and its stated horizon of judgment."
-  };
+  const descriptions = [
+    "Trace Jesus’ four soils from hearing to fruitfulness, letting His explanation govern the seed and each response.",
+    "Follow sowing, unseen growth, and harvest without turning the crop’s stages into a prophetic timetable.",
+    "Compare the mustard seed’s growth and leaven’s spread without assigning hidden meanings to birds or dough.",
+    "Follow the enemy’s sowing and delayed harvest using Jesus’ own identification of the field and reapers.",
+    "Read the treasure and pearl through their distinct discoveries and decisive responses, without inventing hidden symbols.",
+    "Follow the dragnet’s final separation and the trained scribe’s understanding without merging their two images.",
+    "See why the son who first refused then obeyed exposes the leaders’ refusal to believe John.",
+    "Trace the tenants’ refusal, violence, and rejection of the son as judgment on leaders, without replacing Israel with the Body.",
+    "Follow the king’s invitation, rejected messengers, and garment warning without blending Matthew’s feast with Luke’s.",
+    "See how excuses exclude the first guests while others enter the ready feast in Luke’s dinner setting.",
+    "Read the fig tree’s reprieve beside a generation’s complaints, preserving each passage’s separate occasion.",
+    "Hear Jesus answer the fasting question with a bridegroom, cloth, and wineskins without imposing later program labels.",
+    "See how Jesus answers grumbling over His welcome of sinners through loss, finding, repentance, and joy.",
+    "Follow both sons and their father’s welcome, leaving the elder brother’s final choice where Luke leaves it.",
+    "Follow the Samaritan’s concrete mercy as Jesus answers the lawyer’s question, without turning each detail into a symbol.",
+    "Follow a forgiven servant’s refusal to forgive as Jesus answers Peter’s question about repeated forgiveness.",
+    "Hear Jesus answer Simon through two canceled debts and the woman’s love, keeping this dinner distinct from other anointings.",
+    "Contrast two temple prayers and Jesus’ verdict without treating the tax collector’s plea as a formula that earns mercy.",
+    "Compare hearing with doing as two houses face collapse, without assigning every storm to a personal hardship.",
+    "Follow the rich man’s barns and God’s interruption as Jesus answers an inheritance request, distinguishing wealth from life.",
+    "Compare the steward who feeds the household with one who abuses it while awaiting the master’s return.",
+    "Trace unequal entrustments and the master’s reckoning without confusing Matthew’s talents with modern abilities or Luke’s minas.",
+    "Follow a nobleman’s departure and return, distinguishing his servants’ accounts from the citizens’ rejection of his reign.",
+    "Follow the manager’s urgent debt reductions and the master’s limited praise without making dishonesty the lesson.",
+    "Trace the rich man’s reversal and appeal to Abraham without making Lazarus a map of the intermediate state.",
+    "Compare the midnight friend’s request and the widow’s appeal while keeping their needs and conclusions distinct.",
+    "Follow the servant from field to table and hear why completed duty does not put the master in debt.",
+    "See Jesus address status-seeking guests and a host’s invitations without treating the lowest seat as a tactic for honor.",
+    "Follow an unfinished tower and an outnumbered king as Jesus calls the crowds to count discipleship’s cost.",
+    "Hear the first workers’ complaint after equal payment and distinguish the owner’s agreement from his generosity.",
+    "Follow the delayed bridegroom and shut door without turning oil or lamps into a timetable for the Body.",
+    "Trace the Son of Man’s separation and two judgments, retaining Jesus’ wording about ‘the least of these my brothers.’",
+    "Read budding leaves as a sign of nearness without using the fig tree to calculate an exact day.",
+    "Compare the thief, doorkeeper, and returning master as calls to readiness without merging their different plots.",
+    "Hear Jesus answer how many are saved with the urgent narrow door, not a numerical quota."
+  ];
   cards.forEach(item => {
-    item.card.querySelector('.para-cover-enlarge').dataset.tip = `${descriptions[item.group]} ${item.passage} · ${item.group}`;
+    const tip = `${descriptions[item.index]} ${item.passage} · ${item.group}`;
+    const cover = item.card.querySelector('.para-cover-enlarge');
+    cover.dataset.tip = tip;
+    cover.setAttribute('aria-description', tip);
   });
   arrange();
   filter();
