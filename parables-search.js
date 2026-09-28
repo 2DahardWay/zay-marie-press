@@ -215,6 +215,14 @@
     const cover = item.card.querySelector('.para-cover-enlarge');
     cover.dataset.tip = tip;
     cover.setAttribute('aria-description', tip);
+    const details = document.createElement('details');
+    details.className = 'para-card-summary';
+    const label = document.createElement('summary');
+    label.textContent = 'Study at a glance';
+    const description = document.createElement('p');
+    description.textContent = descriptions[item.index];
+    details.append(label, description);
+    item.card.querySelector('.para-passage').after(details);
   });
   syncQuickFilters();
   arrange();
