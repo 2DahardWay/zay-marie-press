@@ -4,6 +4,10 @@
   const count = document.getElementById('parable-count');
   const suggestions = document.getElementById('parable-suggestions');
   const browse = document.getElementById('browse-parables');
+  const sort = document.getElementById('parable-sort');
+  const quickFilters = [...document.querySelectorAll('[data-quick-filter]')];
+  const sortedSection = document.getElementById('parable-sorted');
+  const sortedGrid = sortedSection.querySelector('.para-grid');
   if (!search || !theme || !count || !suggestions || !browse) return;
 
   const groups = [...document.querySelectorAll('.para-group')];
@@ -15,28 +19,52 @@
       group: card.closest('.para-group').dataset.group,
       title: card.querySelector('h3').textContent.trim(),
       passage: card.querySelector('.para-passage').textContent.trim(),
+      index,
+      pages: Number.parseInt(card.querySelector('.para-pages').textContent, 10),
+      price: Number.parseFloat(card.querySelector('.para-card-price').textContent.slice(1)),
+      home: card.parentElement,
       searchText: card.dataset.search.toLowerCase().replace(/\s+/g, ' ').trim()
     };
   });
   const normalize = value => value.toLowerCase().replace(/\s+/g, ' ').trim();
   let choices = [];
   let active = -1;
+  let quick = '';
+  const paired = new Set([2, 4, 5, 10, 12, 25, 27, 28]);
+
+  function arrange() {
+    if (sort.value === 'canonical') {
+      cards.forEach(item => item.home.append(item.card));
+      sortedSection.hidden = true;
+      groups.forEach(group => group.hidden = false);
+      return;
+    }
+    const order = [...cards];
+    if (sort.value === 'theme') order.sort((a, b) => a.group.localeCompare(b.group) || a.index - b.index);
+    if (sort.value === 'length') order.sort((a, b) => a.pages - b.pages || a.index - b.index);
+    if (sort.value === 'price') order.sort((a, b) => a.price - b.price || a.index - b.index);
+    if (sort.value === 'newest') order.reverse();
+    order.forEach(item => sortedGrid.append(item.card));
+    groups.forEach(group => group.hidden = true);
+    sortedSection.hidden = false;
+  }
 
   function filter() {
     const query = normalize(search.value);
     const selectedTheme = theme.value;
-    browse.classList.toggle('search-active', !!query || !!selectedTheme);
+    browse.classList.toggle('search-active', !!query || !!selectedTheme || !!quick);
     let shown = 0;
-    for (const group of groups) {
-      let inGroup = 0;
-      for (const card of group.querySelectorAll('.para-card')) {
-        const item = cards.find(entry => entry.card === card);
-        const visible = (!selectedTheme || item.group === selectedTheme) && (!query || item.searchText.includes(query));
-        card.hidden = !visible;
-        if (visible) { inGroup++; shown++; }
-      }
-      group.hidden = !inGroup;
+    for (const item of cards) {
+      const visible = (!selectedTheme || item.group === selectedTheme) &&
+        (!quick || (quick === 'paired' ? paired.has(item.index) : item.group === quick)) &&
+        (!query || item.searchText.includes(query));
+      item.card.hidden = !visible;
+      if (visible) shown++;
     }
+    if (sort.value === 'canonical') groups.forEach(group => {
+      group.hidden = ![...group.querySelectorAll('.para-card')].some(card => !card.hidden);
+    });
+    else sortedSection.hidden = shown === 0;
     count.textContent = `${shown} edition${shown === 1 ? '' : 's'} shown`;
     return shown;
   }
@@ -114,9 +142,28 @@
       }
     }
   });
-  theme.addEventListener('change', () => { filter(); closeSuggestions(); });
+  theme.addEventListener('change', () => { quick = ''; quickFilters.forEach(button => button.setAttribute('aria-pressed', 'false')); filter(); closeSuggestions(); });
+  sort.addEventListener('change', () => { arrange(); filter(); closeSuggestions(); });
+  quickFilters.forEach(button => button.addEventListener('click', () => {
+    quick = quick === button.dataset.quickFilter ? '' : button.dataset.quickFilter;
+    quickFilters.forEach(candidate => candidate.setAttribute('aria-pressed', String(candidate.dataset.quickFilter === quick)));
+    theme.value = '';
+    filter();
+    closeSuggestions();
+  }));
   document.addEventListener('click', event => {
     if (!search.contains(event.target) && !suggestions.contains(event.target)) closeSuggestions();
   });
+  const descriptions = {
+    "Kingdom reception": "Explore the reception and growth of the Kingdom message.",
+    "Israel’s response": "Read Jesus’ response to Israel’s hearers in its Gospel setting.",
+    "Mercy and repentance": "Examine mercy and repentance in Jesus’ original encounter.",
+    "Discipleship and stewardship": "Trace responsibility and stewardship in the parable’s own setting.",
+    "Readiness and judgment": "Follow Jesus’ warning and its stated horizon of judgment."
+  };
+  cards.forEach(item => {
+    item.card.querySelector('.para-cover-enlarge').dataset.tip = `${descriptions[item.group]} ${item.passage} · ${item.group}`;
+  });
+  arrange();
   filter();
 })();
