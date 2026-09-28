@@ -2,13 +2,15 @@
   const search = document.getElementById('parable-search');
   const theme = document.getElementById('parable-theme');
   const count = document.getElementById('parable-count');
+  const empty = document.getElementById('parable-empty');
+  const reset = document.getElementById('parable-reset');
   const suggestions = document.getElementById('parable-suggestions');
   const browse = document.getElementById('browse-parables');
   const sort = document.getElementById('parable-sort');
   const quickFilters = [...document.querySelectorAll('[data-quick-filter]')];
   const sortedSection = document.getElementById('parable-sorted');
   const sortedGrid = sortedSection.querySelector('.para-grid');
-  if (!search || !theme || !count || !suggestions || !browse) return;
+  if (!search || !theme || !sort || !count || !empty || !reset || !suggestions || !browse) return;
 
   const groups = [...document.querySelectorAll('.para-group')];
   const cards = [...document.querySelectorAll('.para-card')].map((card, index) => {
@@ -67,6 +69,7 @@
     });
     else sortedSection.hidden = shown === 0;
     count.textContent = `${shown} edition${shown === 1 ? '' : 's'} shown`;
+    empty.hidden = shown !== 0;
     return shown;
   }
 
@@ -150,6 +153,17 @@
     filter();
     closeSuggestions();
   }));
+  reset.addEventListener('click', () => {
+    search.value = '';
+    theme.value = '';
+    sort.value = 'canonical';
+    quick = '';
+    quickFilters.forEach(button => button.setAttribute('aria-pressed', 'false'));
+    arrange();
+    filter();
+    closeSuggestions();
+    search.focus();
+  });
   document.addEventListener('click', event => {
     if (!search.contains(event.target) && !suggestions.contains(event.target)) closeSuggestions();
   });
