@@ -35,6 +35,12 @@
   let quick = '';
   const paired = new Set([2, 4, 5, 10, 12, 25, 27, 28]);
 
+  function syncQuickFilters() {
+    quickFilters.forEach(button => button.setAttribute('aria-pressed', String(
+      button.dataset.quickFilter === 'all' ? !quick && !theme.value : button.dataset.quickFilter === quick
+    )));
+  }
+
   function arrange() {
     if (sort.value === 'canonical') {
       cards.forEach(item => item.home.append(item.card));
@@ -144,12 +150,12 @@
       }
     }
   });
-  theme.addEventListener('change', () => { quick = ''; quickFilters.forEach(button => button.setAttribute('aria-pressed', 'false')); filter(); closeSuggestions(); });
+  theme.addEventListener('change', () => { quick = ''; syncQuickFilters(); filter(); closeSuggestions(); });
   sort.addEventListener('change', () => { arrange(); filter(); closeSuggestions(); });
   quickFilters.forEach(button => button.addEventListener('click', () => {
-    quick = quick === button.dataset.quickFilter ? '' : button.dataset.quickFilter;
-    quickFilters.forEach(candidate => candidate.setAttribute('aria-pressed', String(candidate.dataset.quickFilter === quick)));
+    quick = button.dataset.quickFilter === 'all' || quick === button.dataset.quickFilter ? '' : button.dataset.quickFilter;
     theme.value = '';
+    syncQuickFilters();
     filter();
     closeSuggestions();
   }));
@@ -158,7 +164,7 @@
     theme.value = '';
     sort.value = 'canonical';
     quick = '';
-    quickFilters.forEach(button => button.setAttribute('aria-pressed', 'false'));
+    syncQuickFilters();
     arrange();
     filter();
     closeSuggestions();
@@ -210,6 +216,7 @@
     cover.dataset.tip = tip;
     cover.setAttribute('aria-description', tip);
   });
+  syncQuickFilters();
   arrange();
   filter();
 })();
