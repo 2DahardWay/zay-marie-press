@@ -159,15 +159,16 @@ td:first-child{font-weight:800;color:var(--white);width:22%}
   <p>Interactive map: zaymariepress.com/paul-missionary-journeys.html</p>
 </section>
 
-<section id="map" class="wrap">
-  <div class="filterbar">
-    <div class="tabs" role="group" aria-label="Choose a journey" id="tabs"></div>
-    <div class="layers" role="group" aria-label="Map layers">
-      <label><input type="checkbox" id="lyJew" checked> “To the Jew first” markers</label>
-      <label><input type="checkbox" id="lyLet"> Letters written here</label>
-      <label><input type="checkbox" id="lySig"> Signs in Paul's ministry</label>
-    </div>
+<div class="content-wrap">
+<div class="filterbar wrap">
+  <div class="tabs" role="group" aria-label="Choose a journey" id="tabs"></div>
+  <div class="layers" role="group" aria-label="Map layers">
+    <label><input type="checkbox" id="lyJew" checked> “To the Jew first” markers</label>
+    <label><input type="checkbox" id="lyLet"> Letters written here</label>
+    <label><input type="checkbox" id="lySig"> Signs in Paul's ministry</label>
   </div>
+</div>
+<section id="map" class="wrap">
   <div class="stage">
     <div class="mapbox">
       <svg class="map" id="svg" viewBox="0 0 1000 635" role="img" aria-label="Map of the eastern Mediterranean showing Paul's journeys">
@@ -253,6 +254,7 @@ td:first-child{font-weight:800;color:var(--white);width:22%}
     <a href="study-30-seated-with-christ-in-heavenly-places.html"><b>Seated with Christ in Heavenly Places</b><span>Study 30 · Ephesians, from Rome</span></a>
   </div>
 </section>
+</div>
 
 <div class="wrap backwrap"><a class="btn" href="resources.html">&larr; Back to Resources</a></div>
 
