@@ -19,10 +19,8 @@ if (toggle && nav) {
     else if (seriesLink) seriesLink.insertAdjacentElement('afterend', courseLink);
     else nav.appendChild(courseLink);
   }
-  const menuBackdrop = document.createElement('div'); menuBackdrop.className = 'mobile-nav-backdrop'; menuBackdrop.hidden = true; document.body.appendChild(menuBackdrop);
-  const closeMenu = () => { toggle.setAttribute('aria-expanded', 'false'); toggle.textContent = 'MENU'; nav.classList.remove('open'); menuBackdrop.hidden = true; document.body.classList.remove('mobile-menu-open'); };
-  toggle.addEventListener('click', () => { const open = toggle.getAttribute('aria-expanded') === 'true'; toggle.setAttribute('aria-expanded', String(!open)); toggle.textContent = open ? 'MENU' : 'CLOSE'; nav.classList.toggle('open', !open); menuBackdrop.hidden = open; document.body.classList.toggle('mobile-menu-open', !open); });
-  menuBackdrop.addEventListener('click', closeMenu);
+  const closeMenu = () => { toggle.setAttribute('aria-expanded', 'false'); toggle.textContent = 'MENU'; nav.classList.remove('open'); };
+  toggle.addEventListener('click', () => { const open = toggle.getAttribute('aria-expanded') === 'true'; toggle.setAttribute('aria-expanded', String(!open)); toggle.textContent = open ? 'MENU' : 'CLOSE'; nav.classList.toggle('open', !open); });
   nav.addEventListener('click', (event) => { if (event.target.closest('a')) closeMenu(); });
   window.addEventListener('resize', () => { if (window.innerWidth > 820) closeMenu(); });
   document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { closeMenu(); toggle.focus(); } });
