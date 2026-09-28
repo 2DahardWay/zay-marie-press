@@ -273,3 +273,10 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
   .study-method-course-panel{grid-template-columns:1fr;padding:28px}
   .study-method-course-panel .btn{justify-self:start}
 }
+
+/* Parable Strand <-> Digital Studies cross-references (resource-to-study, not counted in the 3-study reciprocal-link cap) */
+.cross-strand-note{background:#f4f2ea;border-left:4px solid #3B6E91;padding:16px 20px;margin:18px 0}
+.cross-strand-note .cross-strand-label{margin:0 0 6px;font:700 .74rem Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#3B6E91}
+.cross-strand-note p{margin:0 0 8px;line-height:1.5}
+.cross-strand-note p:last-child{margin-bottom:0}
+.cross-strand-note a{color:#176b3a;font-weight:700}
