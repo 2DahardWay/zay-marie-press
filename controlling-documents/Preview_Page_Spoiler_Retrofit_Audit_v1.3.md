@@ -977,3 +977,36 @@ violation, and needs the same fix eventually applied to its DOCX-quoted content.
   page swap vs. versioned reissue). Both halves of the original
   Preview-Page Spoiler Retrofit Audit (website + interior) are now
   surveyed; only the interior fixes remain outstanding.
+- v1.3 (2026-09-28): Publisher supplied editable DOCX sources for all 10
+  violating studies (37, 41, 45, 47, 48, 49, 51, 52, 53, 54). All 15
+  violating points rewritten directly in each DOCX (Study 45: all 8 points;
+  the rest: 1-2 points each), applying the same process/textual-markers
+  reframing used on the website side, and delivered to the publisher for
+  review — approved. Along the way: found and fixed a second, independent
+  defect in Studies 47 and 48 — their source DOCX still carried the
+  "[APPROVED COVER TO BE INSERTED HERE AT FINAL ASSEMBLY]" placeholder
+  instead of the actual approved cover art, even though both studies are
+  long since published live with real covers on the website; corrected by
+  inserting the existing approved cover image (already live in `assets/`)
+  as the PDF's first page for both. Final PDFs were converted from the
+  corrected DOCX files in this environment (LibreOffice); this required
+  installing the studies' actual production fonts (EB Garamond, Noto Serif,
+  Gelasio for Georgia, Liberation Serif/Sans) to avoid a font-substitution
+  regression that was caught and fixed before anything was delivered or
+  pushed. Six studies (37, 41, 51, 52, 53, 54) render one page shorter/
+  longer than the publisher's recorded final page count — a LibreOffice
+  reflow/line-wrap artifact from the corrected wording, not a content
+  problem; flagged to the publisher, approval given to proceed. Website
+  fix: regenerated and pushed the "What You Will Learn" preview image
+  (`study-NN-page-3.jpg`) for all 10 studies from the corrected, correctly-
+  fonted PDFs, matching the live site's existing visual style exactly
+  (verified pixel-identical between the push and a fresh independent
+  clone, no broken images/links, live-rendered and visually confirmed) —
+  pushed to `main` (commit `cea1859`). **The website side of this audit
+  (both the "What You'll Study" bullets and the "A Look Inside" preview
+  image) is now fully compliant for all 60 studies.** Outstanding: the
+  publisher's own purchasable interior PDFs (the $5.99 product files) —
+  the corrected final PDFs have been delivered, but a decision on how a
+  corrected interior page reaches anyone who already purchased the old
+  version (silent page swap vs. versioned reissue) has not yet been made,
+  and is a publisher decision, not a website change.
