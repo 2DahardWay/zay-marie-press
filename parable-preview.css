@@ -1,0 +1,9 @@
+.parable-preview-link{display:block;cursor:zoom-in}
+.parable-preview-link:focus-visible{outline:3px solid #b8871c;outline-offset:4px}
+.parable-preview-dialog{border:0;background:transparent;padding:0;max-width:100vw;max-height:100vh;overflow:visible;color:#fff}
+.parable-preview-dialog::backdrop{background:rgba(5,19,14,.9)}
+.parable-preview-dialog-inner{display:flex;flex-direction:column;align-items:center;gap:10px}
+.parable-preview-dialog img{display:block;width:auto;height:auto;max-width:94vw;max-height:88vh;object-fit:contain;background:#fff;box-shadow:0 15px 42px rgba(0,0,0,.35)}
+.parable-preview-close{position:fixed;top:16px;right:18px;z-index:1;width:44px;height:44px;border:0;border-radius:50%;background:#fff;color:#143823;font:30px/1 Arial,sans-serif;cursor:pointer}
+.parable-preview-close:focus-visible{outline:3px solid #b8871c;outline-offset:3px}
+.parable-preview-dialog p{font:600 .85rem Arial,sans-serif;text-align:center;margin:0}
