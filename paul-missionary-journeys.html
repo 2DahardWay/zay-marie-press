@@ -30,6 +30,7 @@ a{color:inherit}
 section{padding:36px 0}
 .section-title{text-align:center;font:700 32px Georgia,serif;color:var(--white);margin:0 0 8px}
 .section-sub{text-align:center;color:#8590a2;margin-bottom:24px}
+.filterbar{position:sticky;top:62px;z-index:15;background:rgba(8,17,32,.96);padding:14px 0 4px;margin-bottom:4px}
 .tabs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:16px}
 .tab{border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:9px 14px;border-radius:999px;font-weight:700;font-size:13px;cursor:pointer;display:flex;align-items:center;gap:8px}
 .tab .sw{width:12px;height:12px;border-radius:50%;display:inline-block}
@@ -88,9 +89,9 @@ td:first-child{font-weight:800;color:var(--white);width:22%}
 .footer strong{color:var(--gold)}
 .print-only{display:none}
 @media(max-width:900px){.stage{grid-template-columns:1fr}.panel{position:static}}
-@media(max-width:760px){.navlinks{display:none}.hero{padding-top:44px}table{font-size:14px;display:block;overflow-x:auto}}
+@media(max-width:760px){.navlinks{display:none}.hero{padding-top:44px}table{font-size:14px;display:block;overflow-x:auto}.filterbar{top:54px}}
 @media print{
- .top,.actions,.tabs,.layers,.stage,.no-print,.studies-sec{display:none!important}
+ .top,.actions,.filterbar,.tabs,.layers,.stage,.no-print,.studies-sec{display:none!important}
  .print-only{display:block}
  body{background:#fff;color:#222;font-size:10.5pt}
  .hero{padding:0 0 10px}.hero h1,.eyebrow{color:#8a620f!important}.hero h2,.section-title{color:#111!important}
@@ -159,11 +160,13 @@ td:first-child{font-weight:800;color:var(--white);width:22%}
 </section>
 
 <section id="map" class="wrap">
-  <div class="tabs" role="group" aria-label="Choose a journey" id="tabs"></div>
-  <div class="layers" role="group" aria-label="Map layers">
-    <label><input type="checkbox" id="lyJew" checked> “To the Jew first” markers</label>
-    <label><input type="checkbox" id="lyLet"> Letters written here</label>
-    <label><input type="checkbox" id="lySig"> Signs in Paul's ministry</label>
+  <div class="filterbar">
+    <div class="tabs" role="group" aria-label="Choose a journey" id="tabs"></div>
+    <div class="layers" role="group" aria-label="Map layers">
+      <label><input type="checkbox" id="lyJew" checked> “To the Jew first” markers</label>
+      <label><input type="checkbox" id="lyLet"> Letters written here</label>
+      <label><input type="checkbox" id="lySig"> Signs in Paul's ministry</label>
+    </div>
   </div>
   <div class="stage">
     <div class="mapbox">
