@@ -18,6 +18,7 @@
       card,
       group: card.closest('.para-group').dataset.group,
       title: card.querySelector('h3').textContent.trim(),
+      page: card.querySelector('h3 a').getAttribute('href'),
       passage: card.querySelector('.para-passage').textContent.trim(),
       index,
       pages: Number.parseInt(card.querySelector('.para-pages').textContent, 10),
@@ -91,17 +92,15 @@
   }
 
   function choose(item) {
-    search.value = item.title;
-    filter();
-    closeSuggestions();
-    item.card.scrollIntoView({behavior: 'smooth', block: 'center'});
-    item.card.focus({preventScroll: true});
+    window.location.assign(item.page);
   }
 
   function showSuggestions() {
     const query = normalize(search.value);
     if (query.length < 2) { closeSuggestions(); return; }
-    choices = cards.filter(item => (!theme.value || item.group === theme.value) && item.searchText.includes(query)).slice(0, 6);
+    choices = cards.filter(item => (!theme.value || item.group === theme.value) &&
+      (!quick || (quick === 'paired' ? paired.has(item.index) : item.group === quick)) &&
+      item.searchText.includes(query)).slice(0, 6);
     if (!choices.length) { closeSuggestions(); return; }
     suggestions.replaceChildren();
     choices.forEach((item, index) => {
@@ -112,7 +111,7 @@
       const title = document.createElement('strong');
       title.textContent = item.title;
       const meta = document.createElement('span');
-      meta.textContent = `${item.passage} · ${item.group}`;
+      meta.textContent = `${item.passage} · ${item.group} · Open study page`;
       option.append(title, meta);
       option.addEventListener('mousedown', event => event.preventDefault());
       option.addEventListener('click', () => choose(item));
