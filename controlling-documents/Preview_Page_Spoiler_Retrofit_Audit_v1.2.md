@@ -5,10 +5,13 @@ standard (Master Standard §17 / CLAUDE.md "Preview-page conclusion-spoiler
 standard") across the 60 studies published before Study 61. Study 61 was built
 compliant from the start and needs no entry here.
 
-Version 1.1 — created 2026-09-28, updated 2026-09-28, after Study 61 published, per the publisher's
+Version 1.2 — created 2026-09-28, updated 2026-09-28, after Study 61 published, per the publisher's
 confirmed sequencing ("do this only as its own scoped, approved task... after
 Study 61 is complete and published"). Bump the version and log changes here as
 the audit proceeds. Mirrors the Master Standard's `_vX.Y` filename convention.
+As of v1.2, both halves of the audit (website and interior PDF) have been surveyed; see the
+"Interior PDF Audit (v1.2)" section below for the interior-PDF pass. No interior-PDF fixes have
+been made yet — that is a separate, not-yet-scoped follow-up (see that section for why).
 
 ## The rule being audited against (verbatim from CLAUDE.md)
 
@@ -34,7 +37,12 @@ company in Revelation 14:1–5."
 Flagged non-example of what this replaces: "Identify the male child of 12:5 as
 the 144,000…" — states the conclusion before the reader begins.
 
-## Scope and known blocker — READ BEFORE CONTINUING
+## Scope and known blocker — READ BEFORE CONTINUING (historical; resolved as of v1.2)
+
+**Update (v1.2): this blocker is resolved.** The publisher supplied Studies 1–60's interior
+production PDFs and the interior-PDF half of the audit is now complete — see "Interior PDF Audit
+(v1.2)" below for the findings. The section immediately below is kept as-written for history; read
+the v1.2 section for current status instead of assuming the blocker below still applies.
 
 Each study has **two** places to check, and they are not equally reachable from
 this repo:
@@ -763,6 +771,172 @@ where there is no "mystery" being protected. Asked Claude (via chat) to get dire
 strictly to apply this before doing the rewrite pass; see the conversation for the answer once
 given, and log the decision here.
 
+## Interior PDF Audit (v1.2)
+
+Source: interior production PDFs for all 60 studies, supplied by the publisher outside this repo
+and worked from a local extraction (first several pages of each PDF, pulled with pdfplumber).
+Methodology is the **same strict standard** used for the website-side pass above (see
+"Methodology used for the website-side pass"), applied by the publisher's confirmed strict
+directive: a bullet is a VIOLATION when it states this study's own specific, resolved
+interpretive/doctrinal conclusion as settled fact, rather than describing the process, textual
+markers, or discipline the reader will use to reach it themselves. Boilerplate Acts
+Overlap/Prophecy-Mystery/Non-Transfer framework restatement and direct textual
+quotation/observation (the passage's own explicit wording) remain COMPLIANT even when
+confident-sounding, per the same two exceptions used on the website side.
+
+**This is a read-only survey.** No interior PDF has been edited. Editable source files (DOCX) for
+Studies 1–60 are not available in this repo or session — only finished PDFs — so fixing any
+violation found here is out of scope for this pass and is left as a separate, not-yet-scoped
+follow-up task once the publisher decides how a corrected interior page should be distributed
+(silent page swap vs. versioned reissue), per the original scope note above.
+
+### Step 1 — Duplicate-file resolutions
+
+Four studies had two candidate interior PDFs in the supplied source set. All four pairs turned out
+to have **identical (or functionally identical) "What You Will Learn" bulleted content**, so the
+choice of canonical file does not change any judgment below — it is recorded here for the record
+only, using the naming hierarchy PRODUCTION_MASTER > FINAL_REVIEW/MASTER_STANDARD_AUDITED >
+FINAL/INTERIOR_REVIEW > PASS1/plain draft names:
+
+- **Study 25.** `Study_25_The_Signs_That_Followed_FINAL_CLEAN_COVER.pdf` vs.
+  `..._BALANCED_FINAL_REVIEW (1).pdf` — bullet text is word-for-word identical between the two.
+  Picked `FINAL_CLEAN_COVER.pdf` as canonical (reads as the cover-finalized production file).
+- **Study 34.** `Study_34_Filled_Again_FINAL (1).pdf` vs.
+  `..._MASTER_STANDARD_AUDITED (2).pdf` — bullet text is word-for-word identical between the two.
+  Picked `MASTER_STANDARD_AUDITED (2).pdf` as canonical (outranks plain "FINAL" per the naming
+  hierarchy; confirmed the content matches anyway).
+- **Study 39.** `..._FINAL_REVIEW.pdf` vs. `..._INTERIOR_REVIEW (1).pdf` — bullet text is
+  word-for-word identical between the two (only the content page number differs: 4 vs. 3, an
+  artifact of a different page count earlier in each file). Picked `FINAL_REVIEW.pdf` as canonical
+  (outranks "INTERIOR_REVIEW" per the naming hierarchy).
+- **Study 51.** `Study_51_PASS1.pdf` vs. `Study_51_Circumcision_PRODUCTION_MASTER.pdf` — bullet
+  text is word-for-word identical between the two. Picked `PRODUCTION_MASTER.pdf` as canonical,
+  consistent with the task's own prior note that this file is "clearly canonical per naming and
+  file size."
+
+### Step 2 — Per-study status (interior PDF, all 60 studies)
+
+Status legend: `COMPLIANT` (no stated conclusions found) · `VIOLATION` (specific bullet(s) quoted).
+Studies not listed with quoted bullets below are COMPLIANT — the extracted "What You Will Learn"
+bullets already use process/trace/distinguish/test language or restate the passage's own explicit
+wording or the public Acts-Overlap/Prophecy-Mystery framework, with no study-specific conclusion
+stated as settled fact.
+
+Studies 1–36, 38–40, 42, 43, 44, 46, 50, 55–60: **COMPLIANT.** (Studies 44 and 46 are worth noting
+specifically: their interior "What You Will Learn" text already reads almost identically to the
+*post-fix* website wording recorded above — e.g. Study 44's "Ground the daily walk in Romans 8:1's
+settled legal fact rather than making the walk the basis of acceptance" restates Romans 8:1's own
+explicit "no condemnation" language rather than an inferred conclusion, so it was judged compliant
+under the direct-textual-observation exception, consistent with how the equivalent website point
+was treated.)
+
+- **Study 37 — What Does Paul Mean by New Creation?** VIOLATION (1 of 8 points). Point: *"explain
+  why 'new creation' describes God's accomplished work rather than the believer's attempt at moral
+  self-reconstruction"* — states the study's interpretive conclusion outright rather than framing
+  it as something to trace or test.
+
+- **Study 41 — Kingdom of God or Kingdom of Heaven?** VIOLATION. This interior page is written as
+  two paragraphs of prose rather than a bulleted list, but it states the same conclusions the
+  website version stated before its 2026-09-28 fix (see Study 41's website row above): *"Matthew's
+  'kingdom of heaven' and the other Gospels' 'kingdom of God' name the same promised kingdom"* and
+  *"[the phrase] describes the kingdom's source and authority rather than its location."* Both hand
+  over the study's actual interpretive answer before the reader traces it — the interior page was
+  never given the same fix the website page received.
+
+- **Study 45 — Sanctification Under Grace.** VIOLATION — all 8 points. **This interior PDF's "What
+  You Will Learn" text is word-for-word identical to the orphaned `.docx` quoted in this tracker's
+  earlier exhibit** (see the "Study 45" entry in the website section above, which quotes the DOCX
+  verbatim). Every point states what a passage means or commands as settled fact rather than a
+  process to trace — e.g. *"Why 1 Corinthians 1:2 and 1:30 call believers 'sanctified' and 'saints'
+  as an already-accomplished fact, before any instruction to grow"* and *"What Romans 6 means when
+  it says the believer's present fruit is 'unto holiness' (6:19, 22) — a result, not a repeated
+  achievement of standing."* This confirms the DOCX was not a stray unrelated draft: it matches the
+  study's actual production interior PDF content exactly, so this is a real, confirmed interior
+  violation, not just a hypothetical one from an orphaned file.
+
+- **Study 47 — Giving Under Grace.** VIOLATION (2 of 9 points). Points: *"What Paul means by 'grace
+  giving' in 2 Corinthians 8–9 — giving that flows from God's grace already received, not from a
+  command imposed"* and *"How 1 Corinthians 16:1–2 establishes an orderly weekly pattern of setting
+  aside, without turning that pattern into a tithe."* Both assert the study's own interpretive
+  conclusion ("not X") as settled fact rather than posing it as something to test or trace; neither
+  is a direct quotation of what the cited verse itself says.
+
+- **Study 48 — The Christian Household.** VIOLATION (1 of 7 points). Point: *"What Paul actually
+  commands husbands in Ephesians 5:25–33 — a standard drawn from Christ's own self-giving love for
+  the church, not a license to rule."* Compare the website's post-fix wording for the same point:
+  "Examine the standard Ephesians 5:25–33 sets for husbands, and test it against a standard of mere
+  authority" — process language that tests rather than asserts. The interior page still has the
+  pre-fix, conclusion-stating wording.
+
+- **Study 49 — The Resurrections of Scripture.** VIOLATION (2 of 7 points). Points: *"The Body of
+  Christ's own resurrection and rapture hope in 1 Thessalonians 4:13–18 and 1 Corinthians
+  15:51–54, revealed as a 'mystery' and tied to glorification in the heavens, not to an earthly
+  kingdom"* and *"Why Ezekiel 37's valley of dry bones is Israel's national restoration typology,
+  not a proof text for individual bodily resurrection, and why confusing the two produces error in
+  both directions."* Compare the website's post-fix wording, which grounds the same points in the
+  text's own language instead ("Revelation 20 separates the resurrection of the just from the
+  resurrection of the unjust by a thousand years"; "the text itself names the dry bones 'the whole
+  house of Israel'") — the interior page asserts the conclusion directly rather than pointing to
+  what the text itself says.
+
+- **Study 51 — Circumcision.** VIOLATION (2 of 6 points). Points: *"Read Paul's argument in Romans
+  4 and Galatians 5–6 that circumcision neither justifies nor disqualifies anyone in Christ"* and
+  *"Examine Colossians 2:11–13's 'circumcision made without hands' as the Body's own distinct,
+  non-fleshly reality."* Compare the website's post-fix wording for the same two points — "test
+  what circumcision does or doesn't establish for anyone in Christ" and "trace what kind of reality
+  it names for the Body" — both turned into process language during the website fix; the interior
+  page still states the answer outright.
+
+- **Study 52 — Sonship and Adoption.** VIOLATION (1 of 6 points). Point: *"Adoption Defined — See
+  huiothesia as a legal placing into the position, rights, and inheritance of a son, distinguished
+  from new birth's gift of a new nature."* Compare the website's post-fix wording — "Examine
+  huiothesia's own legal background, and test how it differs from new birth's gift of a new
+  nature" — the interior page still states the definition and its distinction as settled fact
+  rather than something to test.
+
+- **Study 53 — Redemption.** VIOLATION (2 of 6 points). Points: *"Redemption Defined — See
+  redemption as a price paid to secure a deliverance from bondage, distinguished from forgiveness
+  (the removal of guilt) and from reconciliation (the restoring of relationship)"* and *"Read
+  Romans 3:24, Ephesians 1:7, and Colossians 1:14 for the Body's own redemption, accomplished
+  through Christ's blood, not a nation's deliverance."* Compare the website's post-fix wording for
+  the same two points — "test how it differs from forgiveness and reconciliation" and "trace its
+  stated ground in Christ's blood" — again turned into process language on the website but not in
+  the interior PDF.
+
+- **Study 54 — Justification.** VIOLATION (1 of 6 points). Point: *"Justification Defined — See
+  justification as a legal verdict of righteousness declared by God, distinguished from
+  regeneration (a new nature) and sanctification (a changed life)."* Compare the website's post-fix
+  wording — "Trace justification's own legal vocabulary as a verdict declared by God, and
+  distinguish it from regeneration and sanctification" — same pattern as Studies 52 and 53.
+
+### Summary count
+
+- **Studies with zero interior violations: 50** (Studies 1–36, 38–40, 42, 43, 44, 46, 50, 55–60).
+- **Studies with at least one interior violation: 10** — Studies 37, 41, 45, 47, 48, 49, 51, 52, 53,
+  54. Total individual violating bullets/points across those 10 studies: 14 (37: 1, 41: 2
+  statements in prose form, 45: 8, 47: 2, 48: 1, 49: 2, 51: 2, 52: 1, 53: 2, 54: 1 — note 41 and 45
+  are counted by statement/point above and 45's 8 is exact since every point in that study's list
+  is a violation).
+- Notably, **8 of these 10 studies (41, 45, 47, 48, 49, 51, 52, 53, 54 minus 47, i.e. 41/45/48/49/
+  51/52/53/54) are studies whose *website* "What You'll Study" text was already identified and
+  fixed in the v1.1 pass** — confirming the tracker's original suspicion that interior and website
+  content were likely drafted together and share the same violation pattern. Study 37 and Study 47
+  are the two exceptions: their website text was already judged COMPLIANT in v1.1, but their
+  interior PDFs still carry a violation the website version does not (or no longer does) — so
+  interior and website content are not perfectly mirrored, and each has to be checked on its own
+  rather than assumed from the other's status.
+
+### Study 45 DOCX-vs-PDF comparison
+
+The orphaned `assets/study-45-sanctification-under-grace.docx` (reviewed in v1.0/v1.1, then
+removed from the repo per the publisher's instruction) and the actual production interior PDF
+supplied for this audit (`study-45-sanctification-under-grace.pdf`) contain **exactly the same
+"What You Will Learn in This Study" text, word for word, bullet for bullet** (8 bullets,
+identical wording and order in both). This resolves the open question the removal left behind:
+the DOCX was not an unrelated or superseded draft — it matches the study's real, current interior
+content exactly. Study 45's interior PDF is therefore a confirmed, not merely suspected,
+violation, and needs the same fix eventually applied to its DOCX-quoted content.
+
 ## Changelog
 
 - v1.0 (2026-09-28): File created. Website-side text extracted for all 60
@@ -783,3 +957,23 @@ given, and log the decision here.
   website text reviewed and confirmed already compliant, no changes made.
   Website side of this audit is now COMPLETE. Interior-PDF side remains
   blocked on the publisher supplying Studies 1-60's source PDFs/DOCX.
+- v1.2 (2026-09-28): Publisher supplied Studies 1–60's interior production
+  PDFs. File renamed from v1.1 to v1.2. Resolved the 4 duplicate-file cases
+  (Studies 25, 34, 39, 51) — in all four, the two candidates' bulleted
+  content was identical, so canonical choice made no judgment difference;
+  picked per the naming hierarchy (see Step 1 above). Completed the
+  interior-PDF "What You Will Learn" audit for all 60 studies using the same
+  strict methodology as the website pass: found 10 studies with at least one
+  violation (37, 41, 45, 47, 48, 49, 51, 52, 53, 54; 14 individual violating
+  points/statements total) and 50 studies fully compliant. Confirmed the
+  orphaned `study-45-sanctification-under-grace.docx` (removed from the repo
+  in v1.0) is word-for-word identical to the actual production interior
+  PDF's "What You Will Learn" text — so Study 45's interior violation is
+  confirmed, not hypothetical. This pass is READ-ONLY: no interior PDF was
+  edited, since no editable DOCX/source files are available for any of the
+  60 studies, only finished PDFs — fixing the 10 violating studies' interior
+  pages is left as a separate, not-yet-scoped follow-up task pending the
+  publisher's decision on editable sources and distribution method (silent
+  page swap vs. versioned reissue). Both halves of the original
+  Preview-Page Spoiler Retrofit Audit (website + interior) are now
+  surveyed; only the interior fixes remain outstanding.
