@@ -67,6 +67,8 @@ const digitalStudyMatch=window.location.pathname.match(/\/study-(\d+)-/i);
 const digitalStudyFormat=document.querySelector('.detail-hero .detail-format');
 if(digitalStudyMatch&&digitalStudyFormat){const studyNumber=Number(digitalStudyMatch[1]),pageCount=digitalStudyPageCounts[studyNumber];if(pageCount)digitalStudyFormat.textContent=`Digital PDF · ${pageCount} Pages`;}
 if(digitalStudyMatch){document.querySelectorAll('.detail-button.pending').forEach(button=>{button.textContent='Checkout Coming Soon';button.setAttribute('aria-disabled','true');});}
+/* Study-count wording on non-study pages follows the study list above, so adding a study needs no manual edit. Static text stays as the no-JS fallback. */
+(()=>{const fill=()=>{const n=Math.max(...Object.keys(digitalStudyPageCounts).map(Number)),ones=['','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'],tens=['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'],words=n<20?ones[n]:tens[Math.floor(n/10)]+(n%10?'-'+ones[n%10]:''),cap=words.charAt(0).toUpperCase()+words.slice(1);document.querySelectorAll('[data-study-count]').forEach(el=>{const m=el.dataset.studyCount;el.textContent=m==='words'?words:m==='words-cap'?cap:String(n)})};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fill);else fill()})();
 
 /* Approved Digital Studies catalog: larger real covers, tighter cards, click-to-enlarge preview. */
 if(document.body.classList.contains('digital-studies-page')){
