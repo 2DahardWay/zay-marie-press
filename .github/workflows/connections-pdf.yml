@@ -1,0 +1,27 @@
+name: Rebuild Study Connections Guide PDF
+on:
+  push:
+    branches: [main]
+    paths:
+      - study-connections.html
+      - generate_connections_pdf.py
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y fonts-dejavu-core
+      - run: pip install reportlab lxml
+      - run: python generate_connections_pdf.py
+      - name: Commit updated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/zay-marie-press-study-connections-guide.pdf
+          git diff --cached --quiet || (git commit -m "Auto-rebuild Study Connections Guide PDF" && git push)

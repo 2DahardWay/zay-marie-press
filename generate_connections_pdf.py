@@ -46,8 +46,10 @@ for s in doc.xpath('//section[starts-with(@id,"theme-")]'):
             a=item.xpath('./a')[0];links.append((tx(a),a.get('href'),tx(item.xpath('./p')[0])))
         entries.append((n,name,intro,links))
     themes.append((title,question,entries))
-assert sum(len(t[2]) for t in themes)==60
-story=[Spacer(1,54),P('ZAY-MARIE PRESS  |  DIGITAL STUDIES SERIES','kicker'),P('Study Connections Guide','title'),P('A question-based reading guide to all 60 Digital Studies','subtitle'),HRFlowable(width='100%',thickness=1.5,color=gold,spaceBefore=8,spaceAfter=20),P('Each study answers a defined question. This companion explains what a connected study adds, why that connection helps, and where to read next. Follow the linked titles to preview each study on the website.','intro'),P('Choose a Question','theme')]
+nums_all=sorted(x[0] for t in themes for x in t[2])
+TOTAL=len(nums_all)
+assert nums_all==list(range(1,TOTAL+1)),'guide entries must cover studies 1..N exactly once'
+story=[Spacer(1,54),P('ZAY-MARIE PRESS  |  DIGITAL STUDIES SERIES','kicker'),P('Study Connections Guide','title'),P(f'A question-based reading guide to all {TOTAL} Digital Studies','subtitle'),HRFlowable(width='100%',thickness=1.5,color=gold,spaceBefore=8,spaceAfter=20),P('Each study answers a defined question. This companion explains what a connected study adds, why that connection helps, and where to read next. Follow the linked titles to preview each study on the website.','intro'),P('Choose a Question','theme')]
 for name,q,entries in themes:
     nums=', '.join(str(x[0]) for x in entries)
     story.extend([P(name,'themeindex'),P(f'{q} Studies {nums}.','indexbody')])
