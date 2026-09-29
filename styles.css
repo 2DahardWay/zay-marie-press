@@ -282,3 +282,6 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 .cross-strand-note a{color:#176b3a;font-weight:700}
 
 @media(max-width:380px){.digital-studies-page .study-card{grid-template-columns:120px minmax(0,1fr)!important}.digital-studies-page .study-cover-button,.digital-studies-page .study-cover-thumb{width:120px!important}}
+
+/* Header menu fit between the hamburger breakpoint (820px) and full-width nav (~980px): keep every link, including CONTACT, on screen */
+@media(min-width:821px) and (max-width:990px){.nav{gap:16px}.logo img{height:104px;max-width:230px}.primary-nav{gap:14px;font-size:.72rem;letter-spacing:.04em}}
