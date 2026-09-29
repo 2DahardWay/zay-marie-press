@@ -280,3 +280,5 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 .cross-strand-note p{margin:0 0 8px;line-height:1.5}
 .cross-strand-note p:last-child{margin-bottom:0}
 .cross-strand-note a{color:#176b3a;font-weight:700}
+
+@media(max-width:380px){.digital-studies-page .study-card{grid-template-columns:120px minmax(0,1fr)!important}.digital-studies-page .study-cover-button,.digital-studies-page .study-cover-thumb{width:120px!important}}
