@@ -5,7 +5,7 @@ standard (Master Standard §17 / CLAUDE.md "Preview-page conclusion-spoiler
 standard") across the 60 studies published before Study 61. Study 61 was built
 compliant from the start and needs no entry here.
 
-Version 1.2 — created 2026-09-28, updated 2026-09-28, after Study 61 published, per the publisher's
+Version 1.4 — created 2026-09-28, updated 2026-09-29, after Study 61 published, per the publisher's
 confirmed sequencing ("do this only as its own scoped, approved task... after
 Study 61 is complete and published"). Bump the version and log changes here as
 the audit proceeds. Mirrors the Master Standard's `_vX.Y` filename convention.
@@ -1010,3 +1010,12 @@ violation, and needs the same fix eventually applied to its DOCX-quoted content.
   corrected interior page reaches anyone who already purchased the old
   version (silent page swap vs. versioned reissue) has not yet been made,
   and is a publisher decision, not a website change.
+- v1.4 (2026-09-29): Publisher decision recorded on distribution of the
+  corrected interior PDFs for the 10 retrofitted studies (37, 41, 45, 47,
+  48, 49, 51, 52, 53, 54): SILENT SWAP. The corrected final PDFs replace the
+  files behind the existing $5.99 downloads, with no reissue notice to
+  existing purchasers. This is a change to the product files themselves,
+  which are not stored in this repository (checkout is still "Coming Soon"),
+  so no website change resulted. The publisher performs, or directs, the
+  file swap wherever the purchasable PDFs are hosted. This closes the open
+  distribution decision noted in v1.3.
