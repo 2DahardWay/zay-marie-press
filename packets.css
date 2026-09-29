@@ -11,3 +11,17 @@
 .packet-card.long .pc-title{font-size:clamp(1.9rem,3.4vw,2.6rem)}
 .packet-hub-mark.ot{background:#0b3a96;color:#e2c47c;border-top-color:#b8871c}
 .packet-hub-mark.nt{background:#e3f0d6;color:#0b3a1f;border:1px solid #0f7a55;border-top:4px solid #b8871c}
+
+/* Hub grouped by testament and section */
+.packet-jump{margin:6px 0 0}
+.packet-testament{margin:46px 0 0;padding-bottom:8px;border-bottom:2px solid #b8871c;color:#143823}
+.packet-testament span{font:700 .8rem Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#4a5a4f;margin-left:10px}
+.packet-section{margin:26px 0 0;font:700 .85rem Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#143823}
+.packet-hub-grid{display:grid;grid-template-columns:1fr;gap:0 18px}
+@media(min-width:900px){.packet-hub-grid{grid-template-columns:1fr 1fr}}
+.packet-hub-grid .packet-hub-card{grid-template-columns:96px 1fr auto;gap:16px;padding:16px 18px;margin-top:16px}
+.packet-hub-grid .packet-hub-card h3{font-size:1.15rem;margin:0 0 4px}
+.packet-hub-grid .packet-hub-card p{font-size:.92rem;line-height:1.45}
+.packet-hub-grid .packet-hub-price{font-size:1.15rem}
+.packet-hub-grid .packet-hub-mark{font-size:.6rem;padding:14px 6px;max-width:none}
+@media(max-width:700px){.packet-hub-grid .packet-hub-card{grid-template-columns:1fr;gap:10px}.packet-hub-grid .packet-hub-mark{max-width:160px}}
