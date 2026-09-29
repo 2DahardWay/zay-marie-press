@@ -1,0 +1,12 @@
+/* Doctrinal Packet covers: one typographic template. OT = logo blue, NT = light green. */
+.packet-card{color:#fff;border-top:6px solid #b8871c}
+.packet-card.ot{background:#0b3a96}
+.packet-card.nt{background:#8fc65a;color:#082d45;border-top-color:#082d45}
+.packet-card .pc-testament{font:700 .72rem Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;margin:-14px 0 22px;opacity:.85}
+.packet-card.ot .pc-testament,.packet-card.ot .pc-kick,.packet-card.ot .pc-foot{color:#e2c47c}
+.packet-card.nt .pc-kick,.packet-card.nt .pc-foot,.packet-card.nt .pc-testament{color:#082d45}
+.packet-card.nt .pc-rule{background:#082d45}
+.packet-card.nt .pc-sub{color:#082d45}
+.packet-card.long .pc-title{font-size:clamp(1.9rem,3.4vw,2.6rem)}
+.packet-hub-mark.ot{background:#0b3a96;color:#e2c47c;border-top-color:#b8871c}
+.packet-hub-mark.nt{background:#8fc65a;color:#082d45;border-top-color:#082d45}
