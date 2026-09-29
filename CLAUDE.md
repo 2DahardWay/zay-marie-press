@@ -62,6 +62,7 @@ The priced study-path bundles are separate from the browse sections. Do not chan
 - Fetch `origin/main` and confirm it matches the intended commit.
 - Confirm there are no files at the wrong path: HTML only at the repository root, media only in `assets/`, never `assets/assets`.
 - Render the new page and the catalog locally with Playwright (Chromium is preinstalled), and check that every image and link resolves.
+- After the deploy is live, look at the page visually: take real screenshots of the new study page in the built-in browser, scroll through every section (hero, About, What You'll Study, Key Scriptures, From the Study, A Look Inside, What's Included, buy panel), and confirm the cover, preview images, text, and layout render correctly. Then repeat this at a phone width (about 390px, and 360px and 320px if possible) and confirm nothing overflows sideways, text wraps cleanly, and the cards, preview images, and buttons fit the screen. Do the same for the new catalog card and the new connections-guide entry. Report exactly what was seen, and say plainly anything that could not be viewed.
 - The live site may require a sign-in in Claude's browser; if it cannot be checked, say so and ask the publisher to confirm visually.
 
 ## Other controls
