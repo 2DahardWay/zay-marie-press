@@ -285,3 +285,4 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 
 /* Header menu fit between the hamburger breakpoint (820px) and full-width nav (~980px): keep every link, including CONTACT, on screen */
 @media(min-width:821px) and (max-width:990px){.nav{gap:16px}.logo img{height:104px;max-width:230px}.primary-nav{gap:14px;font-size:.72rem;letter-spacing:.04em}}
+.digital-studies-page .study-card h3,.digital-studies-page .study-card h3 a{overflow-wrap:break-word;word-break:normal}
