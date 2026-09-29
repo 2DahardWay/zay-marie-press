@@ -156,10 +156,53 @@
 
   const grid = root.querySelector('.rl-grid'), search = root.querySelector('.rl-search'), count = root.querySelector('.rl-count');
   const filters = [...root.querySelectorAll('.rl-filter')];
-  let activeCategory='All', lastTrigger=null;
-  const renderCard=r=>{const inside=`<div class="rl-category">${r.category}</div><h3>${r.title}</h3><p>${r.desc}</p><div class="rl-tags">${r.tags.map(t=>`<span class="rl-tag">${t}</span>`).join('')}</div><span class="rl-open">${r.href?'Explore Collection':'Open Resource'} →</span>`;return r.href?`<a class="rl-card rl-card-link" href="${r.href}" aria-label="Explore ${r.title}">${inside}</a>`:`<article class="rl-card" tabindex="0" role="button" data-resource="${r.id}" aria-label="Open ${r.title}">${inside}</article>`;};
-  const render=()=>{const q=(search.value||'').trim().toLowerCase();const visible=resources.filter(r=>(activeCategory==='All'||r.category===activeCategory)&&(!q||[r.title,r.subtitle,r.category,r.desc,...r.tags].join(' ').toLowerCase().includes(q)));count.textContent=`${visible.length} resource${visible.length===1?'':'s'}`;grid.innerHTML=visible.length?visible.map(renderCard).join(''):'<p class="rl-empty">No resources match your search.</p>';};
-  render(); search.addEventListener('input',render); filters.forEach(b=>b.addEventListener('click',()=>{filters.forEach(x=>x.classList.remove('active'));b.classList.add('active');activeCategory=b.dataset.category;render();}));
+  const sortSel = root.querySelector('#rl-sort'), clearBtn = root.querySelector('.rl-clear'), resetBtn = root.querySelector('.rl-reset'), sugg = root.querySelector('#rl-suggestions');
+  const tin = root.querySelector('.rl-tools'), ftog = root.querySelector('.rl-filters-toggle');
+  const ACC = {'Interpretation':'#176b3a','Discipleship':'#b8871c','Doctrine':'#657c9b','Timelines & Charts':'#8a7291','Devotional':'#a7794f'};
+  let activeCategory='All', lastTrigger=null, choice=-1, choices=[];
+  const norm=s=>(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[‘’ʼ]/g,"'").replace(/[“”]/g,'"').replace(/[–—]/g,'-').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
+  const strip=h=>h.replace(/<[^>]*>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&');
+  const esc=t=>t.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  const hi=(t,terms)=>{const ts=terms.filter(x=>x.length>1);if(!ts.length)return t;const re=new RegExp('('+ts.map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')','ig');return t.split(/(<[^>]+>|&[a-z#0-9]+;)/i).map(seg=>/^(<|&)/.test(seg)?seg:seg.replace(re,'<mark>$1</mark>')).join('');};
+  resources.forEach((r,i)=>{r.order=i;let body='';try{if(r.content)body=strip(r.content())}catch(e){}r.f={title:norm(r.title),sub:norm(r.subtitle),tags:norm(r.tags.join(' ')),cat:norm(r.category),desc:norm(r.desc),body:norm(body)};});
+  const W={title:10,sub:6,tags:6,cat:4,desc:3,body:1};
+  const scoreOf=(r,terms)=>{let total=0,front=false;for(const t of terms){let best=0;for(const k in W){if(r.f[k].indexOf(t)>-1){best=Math.max(best,W[k]);}}if(!best)return -1;total+=best;}return total;};
+  const inText=(r,terms)=>terms.some(t=>!['title','sub','tags','cat','desc'].some(k=>r.f[k].indexOf(t)>-1));
+  const renderCard=(r,terms)=>{const c=ACC[r.category]||'#176b3a',inside=`<div class="rl-category">${r.category}</div><h3>${hi(r.title,terms)}</h3><p>${hi(r.desc,terms)}</p><div class="rl-tags">${r.tags.map(t=>`<span class="rl-tag">${hi(t,terms)}</span>`).join('')}</div>${terms.length&&inText(r,terms)?'<div class="rl-textmatch">Matched inside the resource</div>':''}<span class="rl-open">${r.href?'Explore Collection':'Open Resource'} →</span>`,st=`style="--rl-accent:${c}"`;return r.href?`<a class="rl-card rl-card-link" ${st} href="${r.href}" aria-label="Explore ${r.title}">${inside}</a>`:`<article class="rl-card" ${st} tabindex="0" role="button" data-resource="${r.id}" aria-label="Open ${r.title}">${inside}</article>`;};
+  const query=()=>{const q=norm(search.value);return q?q.split(' '):[];};
+  const results=(terms,cat)=>{let list=resources.filter(r=>(cat==='All'||r.category===cat)).map(r=>({r,s:terms.length?scoreOf(r,terms):0})).filter(x=>x.s>=0);
+    const m=sortSel.value;
+    if(m==='title')list.sort((a,b)=>a.r.title.localeCompare(b.r.title));
+    else if(m==='category')list.sort((a,b)=>a.r.category.localeCompare(b.r.category)||a.r.title.localeCompare(b.r.title));
+    else if(terms.length)list.sort((a,b)=>b.s-a.s||a.r.order-b.r.order);
+    else list.sort((a,b)=>a.r.order-b.r.order);
+    return list.map(x=>x.r);};
+  const syncUrl=()=>{try{const u=new URL(location.href);search.value.trim()?u.searchParams.set('q',search.value.trim()):u.searchParams.delete('q');activeCategory!=='All'?u.searchParams.set('cat',activeCategory):u.searchParams.delete('cat');history.replaceState(null,'',u.pathname+u.search+u.hash);}catch(e){}};
+  const closeSugg=()=>{sugg.hidden=true;sugg.innerHTML='';choice=-1;choices=[];search.setAttribute('aria-expanded','false');search.removeAttribute('aria-activedescendant');};
+  const render=()=>{const terms=query(),visible=results(terms,activeCategory),dirty=terms.length>0||activeCategory!=='All'||sortSel.value!=='featured';
+    filters.forEach(b=>{const on=b.dataset.category===activeCategory;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));});
+    count.textContent=dirty&&(terms.length||activeCategory!=='All')?`${visible.length} resource${visible.length===1?'':'s'} shown of ${resources.length}`:`${resources.length} resources · 5 categories`;
+    clearBtn.hidden=!search.value;resetBtn.hidden=!dirty;const dot=root.querySelector('.rl-fdot');if(dot)dot.hidden=!(activeCategory!=='All'||sortSel.value!=='featured');
+    grid.innerHTML=visible.length?visible.map(r=>renderCard(r,terms)).join(''):'<div class="rl-empty"><p><strong>No resources match that search.</strong> Try a single word such as “covenant,” a book name, or a topic such as “timeline.”</p><button type="button" class="rl-reset rl-reset-empty">Clear search and filters</button></div>';
+    syncUrl();};
+  const showSugg=()=>{const terms=query();if(!terms.length||terms.join('').length<2){closeSugg();return;}
+    choices=results(terms,activeCategory).slice(0,6);choice=-1;if(!choices.length){closeSugg();return;}
+    sugg.innerHTML='';choices.forEach((r,i)=>{const li=document.createElement('li');li.id='rl-sugg-'+i;li.setAttribute('role','option');li.innerHTML=`<strong>${hi(esc(r.title),terms)}</strong><span>${esc(r.category)} · ${inText(r,terms)?'Matched inside the resource · ':''}${r.href?'Open collection':'Open resource'}</span>`;li.addEventListener('mousedown',e=>e.preventDefault());li.addEventListener('click',()=>pick(i));sugg.appendChild(li);});
+    sugg.hidden=false;search.setAttribute('aria-expanded','true');};
+  const pick=i=>{const r=choices[i];if(!r)return;closeSugg();if(r.href){location.href=r.href;}else{openResource(r.id,search);}};
+  const reset=()=>{search.value='';activeCategory='All';sortSel.value='featured';closeSugg();render();search.focus();};
+  filters.forEach(b=>{const n=b.dataset.category==='All'?resources.length:resources.filter(r=>r.category===b.dataset.category).length;if(ACC[b.dataset.category])b.style.setProperty('--chip-accent',ACC[b.dataset.category]);b.insertAdjacentHTML('beforeend',`<span class="rl-chip-n">${n}</span>`);b.addEventListener('click',()=>{activeCategory=b.dataset.category;render();showSugg();});});
+  search.addEventListener('input',()=>{render();showSugg();});search.addEventListener('focus',showSugg);
+  search.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!sugg.hidden)closeSugg();else if(search.value){search.value='';render();}return;}
+    if((e.key==='ArrowDown'||e.key==='ArrowUp')&&!sugg.hidden){e.preventDefault();choice=(choice+(e.key==='ArrowDown'?1:-1)+choices.length)%choices.length;[...sugg.children].forEach((li,i)=>li.classList.toggle('active',i===choice));search.setAttribute('aria-activedescendant','rl-sugg-'+choice);}
+    if(e.key==='Enter'){if(choice>=0){e.preventDefault();pick(choice);}else{const v=results(query(),activeCategory);if(query().length&&v.length===1){e.preventDefault();choices=v;pick(0);}}}});
+  sortSel.addEventListener('change',()=>{render();closeSugg();});clearBtn.addEventListener('click',()=>{search.value='';render();closeSugg();search.focus();});
+  root.addEventListener('click',e=>{if(e.target.closest('.rl-reset'))reset();});
+  document.addEventListener('click',e=>{if(!e.target.closest('.rl-combo'))closeSugg();});
+  document.addEventListener('keydown',e=>{if(e.key==='/'&&!/^(INPUT|TEXTAREA|SELECT)$/.test((document.activeElement||{}).tagName)&&panel.hidden){e.preventDefault();search.scrollIntoView({block:'center'});search.focus();search.select();}});
+  ftog.addEventListener('click',()=>{const o=!tin.classList.contains('filters-open');tin.classList.toggle('filters-open',o);ftog.setAttribute('aria-expanded',String(o));});
+  try{const P=new URLSearchParams(location.search);if(P.get('q'))search.value=P.get('q');if(P.get('cat')&&ACC[P.get('cat')])activeCategory=P.get('cat');}catch(e){}
+  render();
 
   const overlay=document.createElement('div');overlay.className='rl-overlay';overlay.hidden=true;
   const panel=document.createElement('aside');panel.className='rl-panel';panel.hidden=true;panel.setAttribute('role','dialog');panel.setAttribute('aria-modal','true');panel.innerHTML='<div class="rl-panel-inner"><button class="rl-close" aria-label="Close resource">×</button><div class="rl-panel-body"></div></div>';
