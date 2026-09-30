@@ -1,4 +1,4 @@
-# Digital Studies vs. PAM Audit — v1.2
+# Digital Studies vs. PAM Audit — v1.3
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
@@ -88,7 +88,7 @@ Others swept (not on the publisher's list):
 |---|---|---|
 | 49 The Resurrections of Scripture | **CONFLICT (fixed, pushed)** | See above. PDF not yet checked. |
 | 69 The Eternal State | Clear (PDF) | PDF read §6.1: Gal 4:26 reported as Paul's contrast of two covenants; not equated with Rev 21. Does not assign it to the Body's heavenly calling, so no conflict with the PAM. |
-| 45 Sanctification Under Grace | Clear | Uses 2 Corinthians 3:18 for the Body. PAM: 2 Cor 3 is new covenant, Prophecy Program; Section 4 keeps Paul's ministry with the Mystery. Low priority PDF spot-check. |
+| 45 Sanctification Under Grace | Clear (DOCX; publisher confirmed) | Uses 2 Corinthians 3:18 for the Body's progressive sanctification (present passive "are changed"). PAM: 2 Cor 3 is new covenant, Prophecy Program; Section 4 keeps Paul's ministry with the Mystery. DOCX read 2026-09-30: 3:18 is used only for the Body's transformation, never for the new covenant; Israel's holiness (Lev. 20:7–8) kept distinct. Publisher reviewed the interior and confirmed no changes needed. Observation only, no conflict: the perfectionism section calls 1 John "the Mystery Program's writings"; the PAM does not assign 1 John, so the Framework is silent. |
 | 27 Israel's Seven Appointed Feasts | Clear | Pentecost kept in Prophecy; Israel's calendar not transferred to the Body. |
 | 1, 4, 6, 24, 32, 50, 53, 67, 71 | Clear | New covenant tied to Israel and Judah throughout. |
 | 2, 3, 8, 15, 17, 21, 22, 23, 30, 31, 33, 39, 47, 51, 54, 56, 61, 63 | Clear | Read where the keyword sweep hit. Judgment Seat, 1 Cor 6:2–3, and 2 Cor 8–9 placed with the Body; Romans 11, Olivet, and the remnant kept with Israel (Studies 23, 61 and 63 treat the remnant as Israel's; Study 50 distinguishes the Romans 11:5 remnant from the Body). Study 22 places John 14:13–14 with the disciples before Pentecost. |
@@ -120,3 +120,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v0.2 (2026-09-30): PDFs read for 19, 29, 34, 35, 40, 42, 59, 62, 65, 66, 69, 70. New conflict: Study 35. All others clear. Study 49 website fix made locally (not pushed).
 - v1.1 (2026-09-30): merged the findings tracker (v0.1/v0.2) into this file. Website pass for all studies plus 12 PDFs. Study 49 fixed and pushed (58fab69). Study 35 conflict ruled by the publisher; revision pending the editable source.
 - v1.2 (2026-09-30): Study 35 review copy made under the publisher's ruling. Study 49 DOCX checked: no "rapture passages" sentence; Study 29 mischaracterisation found and corrected in a review copy on the publisher's approved wording.
+- v1.3 (2026-09-30): Study 45 DOCX read; clear; publisher confirmed no changes needed. Website side of Study 35 wording pushed (7c49838). Preview images for Studies 35 and 49 still to regenerate from final production PDFs.
