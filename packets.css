@@ -25,3 +25,12 @@
 .packet-hub-grid .packet-hub-price{font-size:1.15rem}
 .packet-hub-grid .packet-hub-mark{font-size:.58rem;letter-spacing:.05em;padding:14px 4px;max-width:none;overflow-wrap:normal}
 @media(max-width:700px){.packet-hub-grid .packet-hub-card{grid-template-columns:1fr;gap:10px}.packet-hub-grid .packet-hub-mark{max-width:160px}}
+
+/* Hub search */
+.packet-search{margin:18px 0 0;max-width:520px}
+.packet-search label{display:block;font:700 .8rem Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#143823;margin-bottom:6px}
+.packet-search input{width:100%;box-sizing:border-box;padding:12px 14px;font:1rem Georgia,serif;color:#082d45;background:#fff;border:1px solid #0f7a55;border-radius:4px}
+.packet-search input:focus{outline:2px solid #b8871c;outline-offset:1px}
+.packet-search-none{margin:12px 0 0;color:#082d45}
+.packet-hub-card[hidden],.packet-hub-grid[hidden],.packet-section[hidden]{display:none}
+.packet-testament[hidden]{display:none}
