@@ -1,4 +1,4 @@
-# Digital Studies vs. PAM Audit — v1.4
+# Digital Studies vs. PAM Audit — v1.5
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
@@ -120,6 +120,13 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - **Study 49:** interior PDF rebuilt from the corrected DOCX. The build pipeline was first checked against the publisher's production PDF: all 14 pages matched, so the rebuild is exact except the changed text (pages 6, 7 and 14). The sentence "this study keeps its focus narrower…" was dropped from the "Body's Resurrection" paragraph because keeping it pushed the study to 15 pages. Preview strip now Page 3 (Table of Contents), Page 4 (What You Will Learn), Page 7 (Paul's Own Hope: The Out-Resurrection); page labels now match the PDF footers (previously labelled one lower). Pushed (f4d016e, 2e90854). An earlier note that Study 49's previews needed no change was wrong: the old Page 5 image showed the old Study 29 sentence.
 - The purchasable PDFs are not in the repo. The publisher swaps in the rebuilt files (silent swap decision, 2026-09-29).
 
+## Framework amendment and further-impact sweep (2026-09-30)
+
+- The Framework was amended (e254f48): new "Section 4 (continued)" rulings on Galatians 6:16, remnant vs. Body (identity, not program), and Matthew 24 / Luke 17 "one taken, one left", plus a control line in both §XVII locations. Only Studies 35 and 49 are confirmed affected and both are corrected.
+- **Study 9 (open):** two website lines may need wording review ("Distinguish believing Israel and Kingdom apostleship from the Body of Christ"; "The Remnant During the Acts Overlap — Place the continuing remnant alongside the Body of Christ without merging Prophecy and Mystery"). Its PDF has not been read. Nothing changed.
+- **Study 42 (open, publisher call needed):** PDF lines call Peter's audience "Israel's believing remnant" (1 Pet 1:1) and say the "kingdom of priests" language applies to the believing remnant. Nothing changed.
+- **PDFs not yet read** against the new rulings: 9, 13, 21, 23, 50, 61, 63, 4, 36, 37 (and others not on the earlier list).
+
 ## Changelog
 
 - v0.1 (2026-09-30): first pass on website text only; 1 conflict (Study 49); 7 studies marked unclear pending PDFs (29, 35, 62, 65, 66, 69, 70). No files other than this tracker were created or changed.
@@ -128,3 +135,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.2 (2026-09-30): Study 35 review copy made under the publisher's ruling. Study 49 DOCX checked: no "rapture passages" sentence; Study 29 mischaracterisation found and corrected in a review copy on the publisher's approved wording.
 - v1.3 (2026-09-30): Study 45 DOCX read; clear; publisher confirmed no changes needed. Website side of Study 35 wording pushed (7c49838). Preview images for Studies 35 and 49 still to regenerate from final production PDFs.
 - v1.4 (2026-09-30): Study 35 and Study 49 interiors rebuilt and previews updated (see "Rebuilt interiors and previews"). Study 49 preview labels aligned to PDF footers.
+- v1.5 (2026-09-30): recorded the Framework amendment (e254f48) and the further-impact sweep (Study 9 website lines, Study 42 PDF lines; unread PDFs listed). No study files changed.
