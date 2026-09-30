@@ -1,4 +1,4 @@
-# Digital Studies vs. PAM Audit — v1.6
+# Digital Studies vs. PAM Audit — v1.7
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
@@ -123,9 +123,16 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 ## Framework amendment and further-impact sweep (2026-09-30)
 
 - The Framework was amended (e254f48): new "Section 4 (continued)" rulings on Galatians 6:16, remnant vs. Body (identity, not program), and Matthew 24 / Luke 17 "one taken, one left", plus a control line in both §XVII locations. Only Studies 35 and 49 are confirmed affected and both are corrected.
-- **Study 9 (open):** two website lines may need wording review ("Distinguish believing Israel and Kingdom apostleship from the Body of Christ"; "The Remnant During the Acts Overlap — Place the continuing remnant alongside the Body of Christ without merging Prophecy and Mystery"). Its PDF has not been read. Nothing changed.
+- **Study 9 (RULED 2026-09-30, edits pending the matching DOCX):** PDF read (FINAL34_1). Conflicts with the Gal 6:16 / remnant rulings: (1) section 4, Acts 9–28 ("Israel's remnant remains associated with Prophecy; the Body belongs to the Mystery"; remnant "alongside" the Body); (2) the "What You Will Learn" point "Distinguish believing Israel and Israel's Kingdom apostleship from the Body of Christ" and Study Goal/outline lines; (3) the same two ideas on the website's What You'll Study ("Distinguish believing Israel… from the Body of Christ"; "Place the continuing remnant alongside the Body of Christ…"). Publisher ruling: Israel's prophetic program continues during Acts 9–28, Israel remains Israel by identity, believing Jews are gathered into the Body through Paul's Mystery revelation, and the remnant category is ethnic, not administrative; the future remnant material (scattered, protected, repentant, sealed) stands unchanged. The DOCX supplied is an older draft than the FINAL34_1 PDF (no section 6, no TOC numbers), so no rebuild has been made; the matching DOCX is needed.
 - **Study 42 (RESOLVED 2026-09-30):** publisher ruled that 1 Peter's audience is "Jewish believers scattered abroad (1:1)" with no program label (PAM silent on 1 Peter); three interior edits made (1 Pet 1:1 audience; "Even within Israel's program" replaced by "As Peter himself says, the water itself does not save."; 1 Pet 2:9 "believing remnant" replaced by "Jewish believers"). The Matt. 3:11 / Acts 1:5 table row ("Israel's remnant") stands as the pre-Body prophetic remnant. Interior rebuilt from the DOCX with IBM Plex Serif (production font; rebuild matched the production PDF page-for-page before edits); 15 pages, TOC numbers verified. Website text needed no change. Preview strip changed from PDF pages 4, 6, 8, 9 to PDF pages 3, 4, 8 (labels Page 2, 3, 7), meeting Master Standard §16; `study-42-page-5.jpg` and `-page-8.jpg` removed, `study-42-page-2.jpg` added. The purchasable PDF is swapped in by the publisher.
 - **PDFs not yet read** against the new rulings: 9, 13, 21, 23, 50, 61, 63, 4, 36, 37 (and others not on the earlier list).
+
+## Sweep of the ten remaining PDFs (2026-09-30)
+
+- **Read against the PAM, Section 4 and the 2026-09-30 rulings:** Studies 4, 9, 13, 21, 23, 36, 37, 50, 61, 63.
+- **Clear:** 4, 13, 21, 23, 36, 37 (defers to Study 35 on "the Israel of God"), 61 (its "rest of her offspring" is the Tribulation remnant), 63. None of the ten mentions "one taken, one left".
+- **Study 50 (FIXED 2026-09-30, publisher approved):** 1 Peter 1:1–2 no longer carries a program label (audience: "Jewish believers scattered abroad (1:1)"; "Kingdom Commission" wording removed); "Prophecy-Program election" in section 3.2 became "national election"; "presently marked out" became "marked out" in the Study Summary. Rebuilt from the production DOCX (Liberation fonts; rebuild matched the review-copy PDF page-for-page before edits), 14 pages, TOC verified; only pages 6, 10 and 11 changed. Website needs no change (preview pages 2, 3 and 4 unaffected). The purchasable PDF is swapped in by the publisher.
+- **Study 9:** see above; edits pending the matching DOCX.
 
 ## Changelog
 
@@ -137,3 +144,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.4 (2026-09-30): Study 35 and Study 49 interiors rebuilt and previews updated (see "Rebuilt interiors and previews"). Study 49 preview labels aligned to PDF footers.
 - v1.5 (2026-09-30): recorded the Framework amendment (e254f48) and the further-impact sweep (Study 9 website lines, Study 42 PDF lines; unread PDFs listed). No study files changed.
 - v1.6 (2026-09-30): Study 42 ruled and fixed (see "Study 42 (RESOLVED)"); preview strip set to three pages.
+- v1.7 (2026-09-30): swept Studies 4, 9, 13, 21, 23, 36, 37, 50, 61, 63; Study 50 fixed and approved; Study 9 ruled, edits pending the matching DOCX.
