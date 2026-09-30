@@ -34,3 +34,6 @@
 .packet-search-none{margin:12px 0 0;color:#082d45}
 .packet-hub-card[hidden],.packet-hub-grid[hidden],.packet-section[hidden]{display:none}
 .packet-testament[hidden]{display:none}
+.packet-search-count{margin:10px 0 0;font:700 .85rem Arial,sans-serif;color:#143823}
+.detail-section h2.packet-testament{margin-top:56px}
+.packet-search-count[hidden]{display:none}
