@@ -1,8 +1,8 @@
-# Digital Studies vs. PAM Audit — v1.1
+# Digital Studies vs. PAM Audit — v1.2
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
-Status: IN PROGRESS. Website-text pass done for all studies; 12 interior PDFs read (19, 29, 34, 35, 40, 42, 59, 62, 65, 66, 69, 70). Two conflicts found: Study 49 (fixed and pushed) and Study 35 (publisher ruled 2026-09-30; revision pending the editable source).
+Status: IN PROGRESS. Website-text pass done for all studies; 12 interior PDFs read (19, 29, 34, 35, 40, 42, 59, 62, 65, 66, 69, 70). Conflicts found: Study 49 (website wording fixed and pushed; interior source has a second, related conflict, corrected in a review copy) and Study 35 (publisher ruled 2026-09-30; corrected in a review copy).
 
 ## Rules
 
@@ -103,11 +103,15 @@ DONE. Pushed to `main` as commit `58fab69` with the publisher's approval (2026-0
 
 Galatians 6:16 refers to believing Jews within the Body of Christ, not a separate remnant outside the Body. The PAM wording stands. Believing Jews remain Israel by identity but are not a distinct programmatic group during the present administration. "The remnant is never the Body" refers to identity, not program membership: "remnant" is an ethnic-covenantal category, not an administrative one; believing Jews are gathered into the Body during the Mystery program. Study 35 is to be revised so it does not imply believing Israel exists outside the Body in the present age. It may keep the ethnic distinction (Israel remains Israel) but must affirm these believing Jews belong to the Body and are not a separate prophetic remnant during the current administration.
 
-Revision NOT yet made. Needs the editable source. Places to revise (interior PDF): printed p.3 outcome statement, p.6 §6, p.7 ("faithful remnant of Israel remains visible…"), p.11 summary. Website text withholds the conclusion; check it after the revision.
+Review copy made from the editable DOCX (2026-09-30), 11 edits: goal bullet; Introduction (Acts overlap paragraph); "this rule" paragraph; §6 first and second paragraphs; additive-reading table row; Conclusion; Study Summary (two bullets); review-question answer 5. Israel-vs-Body identity language and the Romans 9–11 remnant passages are unchanged. Pagination unchanged (14). Awaiting publisher review; the production PDF is not in the repo. Website text withholds the conclusion; recheck it after the final PDF.
+
+## Study 49 interior source (DOCX, 2026-09-30)
+
+The "rapture passages" sentence is not in the DOCX (it was website-only). A related conflict was found: the "Body's Resurrection: Caught Up to Meet Him" section said Study 29 "traces this same event in fuller detail", and Guided Further Study called Study 29 "a fuller treatment of the Body's own rapture hope". Study 29 and the PAM (Luke 17 = Kingdom judgment) say otherwise. Publisher approved the fix wording (2026-09-30): "Study 29, 'One Taken and the Other Left,' traces the 'one taken, one left' separation, which this study distinguishes from the Body's resurrection." Applied in both places in a review copy; the sentence "this study keeps its focus narrower…" was dropped from the first place to keep the study at 14 pages. Uses of "rapture hope" for the Body's own event are consistent with the PAM and were left. Awaiting publisher review of the review copy.
 
 ## Decisions still needed from the publisher
 
-1. Send the editable DOCX of Study 35 for the revision, and Study 49's PDF for the sentence check.
+1. Review the Study 35 and Study 49 review copies; confirm they replace the production PDFs (distribution per the 2026-09-29 silent-swap decision).
 2. Which further PDFs to send (45 is the one low-priority spot-check left from the first pass).
 
 ## Changelog
@@ -115,3 +119,4 @@ Revision NOT yet made. Needs the editable source. Places to revise (interior PDF
 - v0.1 (2026-09-30): first pass on website text only; 1 conflict (Study 49); 7 studies marked unclear pending PDFs (29, 35, 62, 65, 66, 69, 70). No files other than this tracker were created or changed.
 - v0.2 (2026-09-30): PDFs read for 19, 29, 34, 35, 40, 42, 59, 62, 65, 66, 69, 70. New conflict: Study 35. All others clear. Study 49 website fix made locally (not pushed).
 - v1.1 (2026-09-30): merged the findings tracker (v0.1/v0.2) into this file. Website pass for all studies plus 12 PDFs. Study 49 fixed and pushed (58fab69). Study 35 conflict ruled by the publisher; revision pending the editable source.
+- v1.2 (2026-09-30): Study 35 review copy made under the publisher's ruling. Study 49 DOCX checked: no "rapture passages" sentence; Study 29 mischaracterisation found and corrected in a review copy on the publisher's approved wording.
