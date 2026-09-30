@@ -1,4 +1,4 @@
-# Digital Studies vs. PAM Audit — v1.16
+# Digital Studies vs. PAM Audit — v1.17
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
@@ -173,6 +173,7 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - **Study 46 (publisher instruction, same day):** preview strip set to pp. 2, 7, 9 (contents; 2 Timothy 2:11-13 and the reward distinction; objection texts and their audiences). This strip no longer includes the What You Will Learn page that section 16 calls for; the publisher chose it after the What You Will Learn page was flagged for stating the goal as why the standing "cannot be undone". The page's wording was then reworded (see next line). Page 7 carries the heading "Reward Can Be Lost; Standing Cannot".
 - **Study 46 What You Will Learn page (section 17):** opening paragraph, eight bullets, Study Goal box, Study Outline paragraph and stage bullets reworded on the publisher's approval so they name the process and the texts traced instead of stating that the standing "cannot be undone". Three bullets were trimmed slightly to keep the same line count (earnest, 2 Timothy 2:11-13, careless-living). Page 3 only; the Introduction on the same page is unchanged. Corrected PDF delivered.
 - **Study 46 site page, "What You'll Study" (section 17, pushed as 83edeb4):** point 3 (The Earnest of the Spirit) reworded; points 4-6 re-headed and reworded because their headings stated the conclusion ("An Unbroken Chain", "Kept by His Faithfulness", "Reward Lost, Standing Kept"). Now: "The Chain in Romans 8", "2 Timothy 2:11-13, Line by Line", "Reward and Standing in 1 Corinthians 3". Points 1 and 2 unchanged. Not changed, outside the section 17 scope of the preview page and "What You'll Study": the page's hero heading and first paragraph, the Key Scriptures cards and the "From the Study" quote. Seen on the live site after deploy.
+- **Study 46 site page, hero and About This Study (publisher-approved, pushed as a986d30):** reworded to describe the process instead of stating the conclusion, and to match the reworded PDF opening. Top hero paragraphs 1 and 2; About heading now "What Holds the Believer's Standing in Christ?" and its first paragraph; "How These Studies Relate" lead sentence ("secure" removed) and the Study 31 line. Seen on the live site: new heading and first paragraph render; old heading and old hero line absent. The publisher's screenshot of the live hero (18:22) shows both hero paragraphs in full with the new wording. Not viewed live: the relate box. Not changed and not checked: What's Included cards ("secure standing", "strongest argument"), Key Scriptures, the "From the Study" quote, the catalog card and the connections guide.
 - Corrected PDFs delivered to the publisher, who swaps the files himself.
 
 ## Changelog
@@ -198,3 +199,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.14 (2026-09-30): Study 48 footer and table of contents fixed; Study 46 preview strip set to pp. 2, 7, 9 at the publisher's direction.
 - v1.15 (2026-09-30): Study 46 What You Will Learn page reworded under section 17 (PDF only; no site change).
 - v1.16 (2026-09-30): Study 46 site page "What You'll Study" points 3-6 reworded under section 17 (pushed 83edeb4); tracker entry added.
+- v1.17 (2026-09-30): Study 46 site hero and About This Study reworded (pushed a986d30); tracker entry added.
