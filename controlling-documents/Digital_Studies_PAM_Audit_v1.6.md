@@ -1,4 +1,4 @@
-# Digital Studies vs. PAM Audit — v1.5
+# Digital Studies vs. PAM Audit — v1.6
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
@@ -124,7 +124,7 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 
 - The Framework was amended (e254f48): new "Section 4 (continued)" rulings on Galatians 6:16, remnant vs. Body (identity, not program), and Matthew 24 / Luke 17 "one taken, one left", plus a control line in both §XVII locations. Only Studies 35 and 49 are confirmed affected and both are corrected.
 - **Study 9 (open):** two website lines may need wording review ("Distinguish believing Israel and Kingdom apostleship from the Body of Christ"; "The Remnant During the Acts Overlap — Place the continuing remnant alongside the Body of Christ without merging Prophecy and Mystery"). Its PDF has not been read. Nothing changed.
-- **Study 42 (open, publisher call needed):** PDF lines call Peter's audience "Israel's believing remnant" (1 Pet 1:1) and say the "kingdom of priests" language applies to the believing remnant. Nothing changed.
+- **Study 42 (RESOLVED 2026-09-30):** publisher ruled that 1 Peter's audience is "Jewish believers scattered abroad (1:1)" with no program label (PAM silent on 1 Peter); three interior edits made (1 Pet 1:1 audience; "Even within Israel's program" replaced by "As Peter himself says, the water itself does not save."; 1 Pet 2:9 "believing remnant" replaced by "Jewish believers"). The Matt. 3:11 / Acts 1:5 table row ("Israel's remnant") stands as the pre-Body prophetic remnant. Interior rebuilt from the DOCX with IBM Plex Serif (production font; rebuild matched the production PDF page-for-page before edits); 15 pages, TOC numbers verified. Website text needed no change. Preview strip changed from PDF pages 4, 6, 8, 9 to PDF pages 3, 4, 8 (labels Page 2, 3, 7), meeting Master Standard §16; `study-42-page-5.jpg` and `-page-8.jpg` removed, `study-42-page-2.jpg` added. The purchasable PDF is swapped in by the publisher.
 - **PDFs not yet read** against the new rulings: 9, 13, 21, 23, 50, 61, 63, 4, 36, 37 (and others not on the earlier list).
 
 ## Changelog
@@ -136,3 +136,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.3 (2026-09-30): Study 45 DOCX read; clear; publisher confirmed no changes needed. Website side of Study 35 wording pushed (7c49838). Preview images for Studies 35 and 49 still to regenerate from final production PDFs.
 - v1.4 (2026-09-30): Study 35 and Study 49 interiors rebuilt and previews updated (see "Rebuilt interiors and previews"). Study 49 preview labels aligned to PDF footers.
 - v1.5 (2026-09-30): recorded the Framework amendment (e254f48) and the further-impact sweep (Study 9 website lines, Study 42 PDF lines; unread PDFs listed). No study files changed.
+- v1.6 (2026-09-30): Study 42 ruled and fixed (see "Study 42 (RESOLVED)"); preview strip set to three pages.
