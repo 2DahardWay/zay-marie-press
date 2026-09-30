@@ -297,6 +297,6 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
   .detail-hero-grid,.acts-hero-grid,.course-hero-grid,.ff-hero-grid,.series-volume-grid{grid-template-columns:minmax(0,1fr)!important}
   h1{font-size:clamp(1.6rem,8.6vw,2.7rem)!important}
   .companion-studies-panel,.resources-next-grid,.resources-next-card{grid-template-columns:minmax(0,1fr)!important}
-  .companion-studies-panel .btn,.resources-next-card .btn,.resources-next-card a{white-space:normal;max-width:100%}
+  .companion-studies-panel .btn,.resources-next-card .btn,.resources-next-card a{white-space:normal!important;max-width:100%}
   .detail-hero-grid>*{min-width:0;max-width:100%!important}
 }
