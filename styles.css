@@ -270,8 +270,8 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 .study-method-course-panel p{max-width:850px;margin:0;line-height:1.55}
 .study-method-course-panel .btn{white-space:nowrap}
 @media(max-width:820px){
-  .study-method-course-panel{grid-template-columns:1fr;padding:28px}
-  .study-method-course-panel .btn{justify-self:start}
+  .study-method-course-panel{grid-template-columns:minmax(0,1fr);padding:28px}
+  .study-method-course-panel .btn{justify-self:start;white-space:normal;max-width:100%;text-align:center}
 }
 
 /* Parable Strand <-> Digital Studies cross-references (resource-to-study, not counted in the 3-study reciprocal-link cap) */

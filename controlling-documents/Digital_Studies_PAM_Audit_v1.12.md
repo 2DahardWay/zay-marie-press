@@ -181,3 +181,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.10 (2026-09-30): website alignment for Studies 11, 14, 18, 20, 38 recorded (Study 18 count, Study 11 image, section 16 preview strips).
 - v1.11 (2026-09-30): Studies 13, 36, 37 second look (clear); Study 25 PDF and preview strip fixed.
 - v1.12 (2026-09-30): nine-PDF sweep recorded (5, 7, 10, 16, 26, 28, 41, 43, 44): doctrine clear; copyright unified; Study 44 footer; section 16 preview strips.
+- v1.12a (2026-09-30): site-wide narrow-screen overflow fixed in styles.css (course-bridge panel button no longer forces the column wider than the phone screen). Not a doctrinal change.
