@@ -19,9 +19,9 @@
 .packet-section{margin:26px 0 0;font:700 .85rem Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#143823}
 .packet-hub-grid{display:grid;grid-template-columns:1fr;gap:0 18px}
 @media(min-width:900px){.packet-hub-grid{grid-template-columns:1fr 1fr}}
-.packet-hub-grid .packet-hub-card{grid-template-columns:96px 1fr auto;gap:16px;padding:16px 18px;margin-top:16px}
+.packet-hub-grid .packet-hub-card{grid-template-columns:116px 1fr auto;gap:16px;padding:16px 18px;margin-top:16px}
 .packet-hub-grid .packet-hub-card h3{font-size:1.15rem;margin:0 0 4px}
 .packet-hub-grid .packet-hub-card p{font-size:.92rem;line-height:1.45}
 .packet-hub-grid .packet-hub-price{font-size:1.15rem}
-.packet-hub-grid .packet-hub-mark{font-size:.6rem;padding:14px 6px;max-width:none}
+.packet-hub-grid .packet-hub-mark{font-size:.58rem;letter-spacing:.05em;padding:14px 4px;max-width:none;overflow-wrap:normal}
 @media(max-width:700px){.packet-hub-grid .packet-hub-card{grid-template-columns:1fr;gap:10px}.packet-hub-grid .packet-hub-mark{max-width:160px}}
