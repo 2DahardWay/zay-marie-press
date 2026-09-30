@@ -146,6 +146,11 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - Corrected PDFs delivered to the publisher, who swaps the purchasable files himself (not in this repo). Nothing on the website changed.
 - **Infrastructure note:** Cloudflare Workers Builds hung at "Initializing build environment" during the platform incident; Study 9 site changes (dad0194, 1b85eb4) were queued again via empty commits (520e979). Live verification of Study 9 is pending a green build.
 
+## Website alignment for Studies 11, 14, 18, 20, 38 (2026-09-30)
+
+- Site language checked against the corrected PDFs: doctrinal wording, page counts, section and question counts all matched except two items. Study 18 said "Six Core Teaching Sections" (PDF has nine) - fixed and live (332802c). Study 11's page-10 preview image showed the pre-correction Conclusion - regenerated and live (332802c).
+- Preview strips brought to Master Standard section 16 (exactly three pages: Table of Contents, What You Will Learn, one further page): new Table of Contents images rendered from the corrected PDFs at 1041x1347 (study-11-page-3, study-14-page-3, study-18-page-3, study-20-page-2, study-38-page-2); kept What You Will Learn plus one substantive page (11: pp. 2, 5; 14: pp. 2, 7; 18: pp. 2, 5; 20: pp. 3, 5; 38: pp. 3, 7); ten surplus preview images removed. Pending publisher approval to push.
+
 ## Changelog
 
 - v0.1 (2026-09-30): first pass on website text only; 1 conflict (Study 49); 7 studies marked unclear pending PDFs (29, 35, 62, 65, 66, 69, 70). No files other than this tracker were created or changed.
@@ -160,3 +165,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 
 - v1.8 (2026-09-30): Study 9 rebuilt and site updated (see Study 9 entry); publisher approved wording, site lines, 16 pages and previews.
 - v1.9 (2026-09-30): six-PDF sweep (11, 12, 14, 18, 20, 38) recorded; corrected PDFs delivered; Cloudflare incident noted. No site files changed.
+- v1.10 (2026-09-30): website alignment for Studies 11, 14, 18, 20, 38 recorded (Study 18 count, Study 11 image, section 16 preview strips).
