@@ -134,6 +134,18 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - **Study 50 (FIXED 2026-09-30, publisher approved):** 1 Peter 1:1–2 no longer carries a program label (audience: "Jewish believers scattered abroad (1:1)"; "Kingdom Commission" wording removed); "Prophecy-Program election" in section 3.2 became "national election"; "presently marked out" became "marked out" in the Study Summary. Rebuilt from the production DOCX (Liberation fonts; rebuild matched the review-copy PDF page-for-page before edits), 14 pages, TOC verified; only pages 6, 10 and 11 changed. Website needs no change (preview pages 2, 3 and 4 unaffected). The purchasable PDF is swapped in by the publisher.
 - **Study 9:** FIXED. Final ruling: the Twelve and Pentecost believers were in Israel’s Prophecy Program through Acts 1–28; after Acts 28 every saved Jew stands in the Body. Interior rebuilt from the FINAL34_1 PDF text (no matching DOCX existed), 16 pages, TOC recalculated, Section 4 / WYWL / Study Goal / outline rewritten; extra approved lines: Key Distinctions bullet 3 and Review Q3. Site: two “What You’ll Study” lines replaced; page count 15→16 (site.js, page copy); previews now Table of Contents (p.3), What You Will Learn (p.2), Acts 9–28 Concurrent Operation (p.8); old pp. 9/12/14 removed. Note: in this PDF WYWL is p.2 and the TOC is p.3.
 
+## Six-PDF sweep and corrections (2026-09-30)
+
+- **Read against the PAM, Section 4 and the 2026-09-30 rulings:** Studies 11, 12, 14, 18, 20, 38 (publisher-supplied PDFs; no DOCX sources exist for 11, 14, 18, 20, 38).
+- **Study 11 (FIXED, publisher approved):** "through Acts 28" added to the Key Distinctions cell ("Believing Kingdom remnant through Acts 28") and to the Conclusion ("…remain within the Prophecy Program through Acts 28; the one Body belongs to the Mystery Program."). Edited directly in the PDF; page-11 table lines compressed ~3% to fit.
+- **Study 12:** acceptable as written; the optional strengthening line was not applied.
+- **Study 14:** doctrinally final; Teaching Outline renumbered 1-10 (PDF edit).
+- **Study 18:** stray TOC line "The page numbers above are synchronized to this rendered review edition." removed (PDF edit).
+- **Study 20:** had no copyright line; one added under the tagline.
+- **All six:** unified copyright line "Copyright © 2026 Alexander S. Marien. All rights reserved. Published by Zay-Marie Press." (Study 12 already carried it.)
+- Corrected PDFs delivered to the publisher, who swaps the purchasable files himself (not in this repo). Nothing on the website changed.
+- **Infrastructure note:** Cloudflare Workers Builds hung at "Initializing build environment" during the platform incident; Study 9 site changes (dad0194, 1b85eb4) were queued again via empty commits (520e979). Live verification of Study 9 is pending a green build.
+
 ## Changelog
 
 - v0.1 (2026-09-30): first pass on website text only; 1 conflict (Study 49); 7 studies marked unclear pending PDFs (29, 35, 62, 65, 66, 69, 70). No files other than this tracker were created or changed.
@@ -147,3 +159,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.7 (2026-09-30): swept Studies 4, 9, 13, 21, 23, 36, 37, 50, 61, 63; Study 50 fixed and approved; Study 9 ruled, edits pending the matching DOCX.
 
 - v1.8 (2026-09-30): Study 9 rebuilt and site updated (see Study 9 entry); publisher approved wording, site lines, 16 pages and previews.
+- v1.9 (2026-09-30): six-PDF sweep (11, 12, 14, 18, 20, 38) recorded; corrected PDFs delivered; Cloudflare incident noted. No site files changed.
