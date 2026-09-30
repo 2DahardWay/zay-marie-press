@@ -1,4 +1,4 @@
-# Digital Studies vs. PAM Audit — v1.8
+# Digital Studies vs. PAM Audit — v1.13
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
@@ -164,6 +164,14 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - **Preview strips (Master Standard section 16):** exactly three cards on each page: Table of Contents, What You Will Learn, one non-thesis page (5: pp. 2, 3, 8 - its contents list runs across pp. 2-3; 7: 3, 2, 6; 10: 3, 2, 4; 16: 3, 2, 5; 26: 2, 3, 6; 28: 2, 3, 5; 41: 2, 3, 4; 43: 2, 3, 4; 44: 2, 3, 7). Images re-rendered from the corrected PDFs at 1041 px wide. Two earlier further-pages that stated the thesis (7 p.9, 28 p.7) were not used.
 - Corrected PDFs delivered to the publisher, who swaps the files himself. Unreferenced old preview images were left in assets/ (optional cleanup).
 
+## Nine-PDF sweep: Studies 46, 48, 52, 55, 57, 58, 60, 64, 68 (2026-09-30)
+
+- **Doctrine:** read against the PAM, Section 4 and the 2026-09-30 rulings. One conflict: **Study 52 section 3.4 (Galatians 3:26-29)** said "Abraham's seed" and "heirs according to the promise" "describe the Body's own adoption". Publisher ruled (Seed is Christ, prophetic fulfillment; believers participate spiritually in Him; no widening of Israel's national sonship; the Body's adoption stays Pauline and Mystery-grounded) and approved replacement wording. Corrected in the PDF (the two affected paragraphs only; same line count, no repagination). Studies 46, 48, 55, 57, 58, 60, 64, 68 are clear. Watch item only: Study 55 Guided Further Study Investigation 5 ("Identify Israel, Gentiles, the present remnant, and future national expectation", Romans 11) is neutral but near the remnant ruling.
+- **Copyright:** unified line plus the "personal study and teaching use" sentence now in all nine: substituted for the old wording in 46, 52, 55, 57, 60, 64, 68; added to 58 (none before) and to 48 (none before; the last page is full, so it is set as two small lines in the bottom margin under the footer). Direct PDF edits; no DOCX sources.
+- **Preview strips (Master Standard section 16):** 52, 58, 60, 64, 68 already compliant. Rebuilt from the corrected PDFs at 1041 x 1347 as exactly three cards: 46 (pp. 2, 3, 8), 48 (pp. 2, 3, 5; p. 5 chosen by the publisher), 55 (pp. 2, 3, 7), 57 (pp. 2, 3, 6). Study 55's earlier labels and file names were one page off the printed footers (TOC shown as "Page 3"); corrected to printed numbers. Old unreferenced images for these four studies removed.
+- **Open, not changed (publisher not yet decided):** Study 48 footer reads "Page N" (series style is "N"); Study 48 table of contents lists Study Goal and Study Outline (Master Standard v1.25 section 5 says they are not TOC entries). Study 46's What You Will Learn page states the study goal as "why the believer's standing ... cannot be undone" - flagged for a section 17 look.
+- Corrected PDFs delivered to the publisher, who swaps the files himself.
+
 ## Changelog
 
 - v0.1 (2026-09-30): first pass on website text only; 1 conflict (Study 49); 7 studies marked unclear pending PDFs (29, 35, 62, 65, 66, 69, 70). No files other than this tracker were created or changed.
@@ -183,3 +191,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.12 (2026-09-30): nine-PDF sweep recorded (5, 7, 10, 16, 26, 28, 41, 43, 44): doctrine clear; copyright unified; Study 44 footer; section 16 preview strips.
 - v1.12a (2026-09-30): site-wide narrow-screen overflow fixed in styles.css (course-bridge panel button no longer forces the column wider than the phone screen). Not a doctrinal change.
 - v1.12b (2026-09-30): narrow-screen safety block added to styles.css (hero titles scale down at <=480px; hero, series and panel grids can shrink). Sideways overflow 29 page-width cases -> 0 in local test of all pages at 320/360/390. Not a doctrinal change.
+- v1.13 (2026-09-30): nine-PDF sweep recorded (46, 48, 52, 55, 57, 58, 60, 64, 68): Study 52 section 3.4 conflict ruled and corrected in the PDF; copyright unified in all nine; section 16 preview strips rebuilt for 46, 48, 55, 57.
