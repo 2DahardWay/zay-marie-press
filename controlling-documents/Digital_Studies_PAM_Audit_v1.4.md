@@ -1,4 +1,4 @@
-# Digital Studies vs. PAM Audit — v1.3
+# Digital Studies vs. PAM Audit — v1.4
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
@@ -114,6 +114,12 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 1. Review the Study 35 and Study 49 review copies; confirm they replace the production PDFs (distribution per the 2026-09-29 silent-swap decision).
 2. Which further PDFs to send (45 is the one low-priority spot-check left from the first pass).
 
+## Rebuilt interiors and previews (2026-09-30)
+
+- **Study 35:** interior PDF rebuilt from the corrected DOCX with Noto Serif (publisher supplied the font); cover page is the original; TOC page numbers verified against the rebuilt pagination; 15 pages. Study Goal box also corrected (no longer lists "the remnant" as a separate category). Website wording pushed (7c49838); preview strip now Page 2 (Table of Contents), Page 3 (What You Will Learn), Page 6 (Galatians page), images cut from the rebuilt PDF (24b1cc3). The old Page 8 and Page 11 previews were removed. The rebuilt PDF differs slightly in page breaks from the earlier production PDF (LibreOffice version).
+- **Study 49:** interior PDF rebuilt from the corrected DOCX. The build pipeline was first checked against the publisher's production PDF: all 14 pages matched, so the rebuild is exact except the changed text (pages 6, 7 and 14). The sentence "this study keeps its focus narrower…" was dropped from the "Body's Resurrection" paragraph because keeping it pushed the study to 15 pages. Preview strip now Page 3 (Table of Contents), Page 4 (What You Will Learn), Page 7 (Paul's Own Hope: The Out-Resurrection); page labels now match the PDF footers (previously labelled one lower). Pushed (f4d016e, 2e90854). An earlier note that Study 49's previews needed no change was wrong: the old Page 5 image showed the old Study 29 sentence.
+- The purchasable PDFs are not in the repo. The publisher swaps in the rebuilt files (silent swap decision, 2026-09-29).
+
 ## Changelog
 
 - v0.1 (2026-09-30): first pass on website text only; 1 conflict (Study 49); 7 studies marked unclear pending PDFs (29, 35, 62, 65, 66, 69, 70). No files other than this tracker were created or changed.
@@ -121,3 +127,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.1 (2026-09-30): merged the findings tracker (v0.1/v0.2) into this file. Website pass for all studies plus 12 PDFs. Study 49 fixed and pushed (58fab69). Study 35 conflict ruled by the publisher; revision pending the editable source.
 - v1.2 (2026-09-30): Study 35 review copy made under the publisher's ruling. Study 49 DOCX checked: no "rapture passages" sentence; Study 29 mischaracterisation found and corrected in a review copy on the publisher's approved wording.
 - v1.3 (2026-09-30): Study 45 DOCX read; clear; publisher confirmed no changes needed. Website side of Study 35 wording pushed (7c49838). Preview images for Studies 35 and 49 still to regenerate from final production PDFs.
+- v1.4 (2026-09-30): Study 35 and Study 49 interiors rebuilt and previews updated (see "Rebuilt interiors and previews"). Study 49 preview labels aligned to PDF footers.
