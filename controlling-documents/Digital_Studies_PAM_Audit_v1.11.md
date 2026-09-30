@@ -151,6 +151,11 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - Site language checked against the corrected PDFs: doctrinal wording, page counts, section and question counts all matched except two items. Study 18 said "Six Core Teaching Sections" (PDF has nine) - fixed and live (332802c). Study 11's page-10 preview image showed the pre-correction Conclusion - regenerated and live (332802c).
 - Preview strips brought to Master Standard section 16 (exactly three pages: Table of Contents, What You Will Learn, one further page): new Table of Contents images rendered from the corrected PDFs at 1041x1347 (study-11-page-3, study-14-page-3, study-18-page-3, study-20-page-2, study-38-page-2); kept What You Will Learn plus one substantive page (11: pp. 2, 5; 14: pp. 2, 7; 18: pp. 2, 5; 20: pp. 3, 5; 38: pp. 3, 7); ten surplus preview images removed. Pending publisher approval to push.
 
+## Second look at 13, 36, 37 and read of Study 25 (2026-09-30)
+
+- **Studies 13, 36, 37:** re-read against the PAM, Section 4 and the 2026-09-30 rulings (remnant, Gal 6:16, Romans 11:25, Eph 2:14). No conflicts; no changes.
+- **Study 25:** doctrine clear (Mark 16 Kingdom commission; signs during the Acts 9-28 overlap; Paul's signs do not transfer the commission). PDF defect fixed by direct edit (no DOCX exists): Review and Discussion Questions were numbered 8-17 and set in a crammed 7.7pt overlay font; now 1-10 in body type. Website preview strip brought to Master Standard section 16: Table of Contents (p.3, new image), What You Will Learn (p.2), Belief, Baptism, and Salvation (p.5); old p.9 and p.13 images removed (p.13 was the Final Synthesis). The purchasable PDF is swapped in by the publisher.
+
 ## Changelog
 
 - v0.1 (2026-09-30): first pass on website text only; 1 conflict (Study 49); 7 studies marked unclear pending PDFs (29, 35, 62, 65, 66, 69, 70). No files other than this tracker were created or changed.
@@ -166,3 +171,4 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.8 (2026-09-30): Study 9 rebuilt and site updated (see Study 9 entry); publisher approved wording, site lines, 16 pages and previews.
 - v1.9 (2026-09-30): six-PDF sweep (11, 12, 14, 18, 20, 38) recorded; corrected PDFs delivered; Cloudflare incident noted. No site files changed.
 - v1.10 (2026-09-30): website alignment for Studies 11, 14, 18, 20, 38 recorded (Study 18 count, Study 11 image, section 16 preview strips).
+- v1.11 (2026-09-30): Studies 13, 36, 37 second look (clear); Study 25 PDF and preview strip fixed.
