@@ -2,6 +2,9 @@
 var input=document.getElementById('packet-search-input'),none=document.getElementById('packet-search-none'),cnt=document.getElementById('packet-search-count');
 if(!input)return;
 input.hidden=false;
+var hdr=document.querySelector('header');
+function setHdr(){var h=hdr?Math.round(hdr.getBoundingClientRect().height):0;var st=hdr?getComputedStyle(hdr).position:'';document.documentElement.style.setProperty('--packet-hdr',(st==='fixed'||st==='sticky'?h:0)+'px');}
+setHdr();window.addEventListener('resize',setHdr);window.addEventListener('load',setHdr);
 var cards=[].slice.call(document.querySelectorAll('.packet-hub-card'));
 var groups=[].slice.call(document.querySelectorAll('.packet-hub-grid'));
 function norm(t){return t.toLowerCase().replace(/[\u2019\u2018']/g,'').replace(/\s+/g,' ').trim();}

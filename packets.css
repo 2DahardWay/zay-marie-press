@@ -37,3 +37,8 @@
 .packet-search-count{margin:10px 0 0;font:700 .85rem Arial,sans-serif;color:#143823}
 .detail-section h2.packet-testament{margin-top:56px}
 .packet-search-count[hidden]{display:none}
+
+/* Sticky search bar */
+.packet-search{position:sticky;top:var(--packet-hdr,0px);z-index:50;max-width:none;margin:18px 0 0;padding:10px 0 12px;background:rgba(255,255,255,.98);border-bottom:1px solid #d8d1bf}
+.packet-search input{max-width:520px}
+.packet-testament,#packets-top{scroll-margin-top:calc(var(--packet-hdr,0px) + 130px)}
