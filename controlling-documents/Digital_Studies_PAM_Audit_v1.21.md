@@ -1,4 +1,4 @@
-# Digital Studies vs. PAM Audit — v1.20
+# Digital Studies vs. PAM Audit — v1.21
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
@@ -247,3 +247,4 @@ All 71 studies get a detailed look, in number order, in batches of 15 (1-15, 16-
 Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB Garamond only (see the typography section); each needs a rebuild from its DOCX when sources are supplied, which is also when the TOC defects above get fixed.
 
 - v1.20 (2026-09-30): Batch 1 results logged for Studies 2, 3, 6 and 8 (all clear against the PAM; TOC defects found in Studies 2 and 8). Local only, not pushed.
+- v1.21 (2026-09-30): Typography decision. After a Study 2 test build, the publisher chose **Roboto** (not EB Garamond) as the one interior typeface for all studies and Doctrinal Packets, past, present and future. Master Standard v1.27 (rebuilt .docx and .pdf in `controlling-documents/`), Framework PAM Rule 6 plus a dated Section 4 (continued) entry, `fonts/` (static Roboto files and build recipe) and CLAUDE.md updated. Study 2 rebuilt in Roboto (15 pages, only Roboto faces embedded, TOC page numbers recomputed and verified, Study Outline entry dropped from the TOC); the publisher swaps the PDF himself. **Consequence:** Study 1's live preview images (page 2, 3, 13) and its delivered PDF are in EB Garamond and must be rebuilt in Roboto for consistency; Study 2's website previews must be re-cut from the Roboto PDF. Both pending the publisher's approval of rendered pages.
