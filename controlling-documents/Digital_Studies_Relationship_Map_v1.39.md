@@ -1,6 +1,6 @@
 # Digital Studies: Relationship Map for Studies 1–71
 
-Version 1.38 — internal editorial record. Covers Studies 1–71. Current collection structure is recorded below.
+Version 1.39 — internal editorial record. Covers Studies 1–71. Current collection structure is recorded below.
 
 ## Current collection decisions
 
@@ -125,19 +125,19 @@ Stops with no study tie (for example Athens, Berea, Tyre) carry no link rather t
 | Malta (Acts 28:1–10) | 25, 38 | Viper and healings (signs) |
 | Rome (Acts 28:16–31) | 21, 41, 30 | National judicial suspension (28:25–28); preaching the kingdom of God (28:23, 31); Ephesians from Rome |
 
-## Catalog classification (v1.19)
+## Catalog classification (v1.19; governed since v1.39 by Digital_Studies_Category_Standard_v1.0.md, which is final)
 
-Right division is the interpretive method guiding the entire library, not an exclusive shelf. Each individual study has one primary catalog category, assigned by its governing question. The current 67 studies are distributed as follows:
+Right division is the interpretive method guiding the entire library, not an exclusive shelf. Each individual study has one primary catalog category, assigned by its governing question. The current 71 studies are distributed as follows:
 
 The eight current six-study thematic collections, their labels, memberships, and pricing appear above. Collection membership can cross primary catalog categories. The Study Connections Guide explains the concrete next question that makes two studies useful together. Study 60 is individually listed and belongs to the Church Identity Collection.
 
 | Primary catalog category | Studies | Scope |
 |---|---|---|
-| Foundational Distinctions | 1, 2, 4, 6, 11, 14, 32, 41, 58, 59 | Governing distinctions about Israel, the Body, Prophecy, Mystery, commissions, and jurisdiction. |
-| Israel, Prophecy & Covenants | 7, 9, 10, 12, 13, 17, 21, 23, 26, 27, 35, 40, 61, 64, 71 | Israel’s identity, covenant promises, and prophetic future. |
-| The Body of Christ & Grace | 3, 5, 8, 16, 22, 30, 36, 37, 44, 45, 46, 47, 48 | The Body’s identity, standing, conduct, and hope. |
-| Passages & Apostolic Context | 15, 18, 19, 20, 24, 25, 28, 29, 34, 38, 39, 60, 62, 63, 65, 66, 67, 68, 70 | Particular passages, narrated events, and apostolic actions in their settings. |
-| Doctrinal Terms & Themes | 31, 33, 42, 43, 49, 50, 51, 52, 53, 54, 55, 56, 57, 69 | Focused doctrinal terms and themes spanning biblical settings. |
+| Foundational Distinctions | 4, 18, 32, 36, 38, 39, 58 | Governing distinctions about Israel, the Body, Prophecy, Mystery, commissions, and jurisdiction. |
+| Israel, Prophecy & Covenants | 2, 7, 9, 10, 12, 13, 17, 21, 23, 26, 27, 35, 40, 41, 61, 64, 71 | Israel’s identity, covenant promises, and prophetic future. |
+| The Body of Christ & Grace | 3, 5, 6, 8, 11, 14, 16, 22, 30, 37, 43, 47, 48, 59 | The Body’s identity, standing, conduct, and hope. |
+| Passages & Apostolic Context | 15, 19, 20, 24, 25, 28, 29, 62, 63, 65, 66, 67, 70 | Particular passages, narrated events, and apostolic actions in their settings. |
+| Doctrinal Terms & Themes | 1, 31, 33, 34, 42, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 60, 68, 69 | Focused doctrinal terms and themes spanning biblical settings. |
 
 ## Historical implementation notes
 
@@ -155,6 +155,7 @@ Studies 14 and 32 were available as DRAFT\_v4\_TOC\_ALIGNED and REVIEW\_MASTER P
 
 This editorial map distinguishes each study's main question from nearby studies and proposes only links that give the reader a concrete next question. It is based on the study PDFs currently available and the published study pages (Studies 1–40 in earlier editions; Studies 41–43 added in a prior edition from their published catalog descriptions and preview pages; Study 44 added in a prior edition; Study 45 added in a prior edition; Study 46 added in a prior edition; Study 47 added in a prior edition from its approved interior draft, cover, and preview pages; Study 48 added in a prior edition from its approved interior draft, cover, and preview pages; Study 49 added in a prior edition from its approved interior draft, cover, and preview pages; Study 50 added in a prior edition from its approved interior draft, cover, and preview pages; Study 51 added in a prior edition from its approved interior draft, cover, and preview pages; Studies 52–56 added in prior editions from their approved interior files and published pages; Study 57 added from its approved production master and published detail and Connections pages; Study 58 added from its approved production master and published detail and Connections pages; Study 59 added from its approved production master and published detail and Connections pages; Study 60 added from its approved production master and published detail and Connections pages; Study 61 added from its published detail and Connections pages). The website copy should use brief reciprocal links on relevant detail pages; the catalog's curated study paths remain the broader browsing aid. A relationship is a reading route, not a claim that one study is required to understand another.
 
+- v1.39  Catalog category rulings (publisher, 2026-10-01).  Adopts the Digital Studies Category Standard v1.0 (separate file) and re-sorts the catalog: 1 Bride of Christ, 34 Filled Again, 44, 45, 46 and 60 Churches Named move to Doctrinal Terms & Themes; 6, 11, 43 and 59 move to The Body of Christ & Grace; 18, 36, 38 and 39 move to Foundational Distinctions; 2 and 41 move to Israel, Prophecy & Covenants; 14 moves to The Body of Christ & Grace; 68 moves to Doctrinal Terms & Themes; 58 stays in Foundational Distinctions. Cover labels re-lettered to match. Counts: Foundational 7, Israel 17, Body 14, Passages 13, Doctrinal 20 (71). Collection memberships unchanged. Corrects the stale “67 studies” count to 71. The ten studies first left open (2, 13, 14, 26, 38, 39, 61, 64, 68, 71) were ruled the same day; 13, 26, 61, 64 and 71 stay in Israel, Prophecy & Covenants.
 - v1.38  Library price.  Publisher-directed 2026-09-29: the Current Library Edition price is $89.99 (previously shown as $149.99), matching CLAUDE.md. The catalog now shows $89.99, value $425.29 for 71 studies, save $335.30, 79%. Earlier history entries that mention $149.99 are left as historical record. No individual-study or collection prices changed.
 - v1.37  Study 71.  Adds Study 71 (The Genealogies of Jesus, “Matthew 1:1–17 and Luke 3:23–38”) to the study table, the “no distinct journey stop” list, and the Israel, Prophecy & Covenants catalog category (cover label ISRAEL, PROPHECY & COVENANTS), and advances the covered range to Studies 1–71. It is distinct from Study 63 (Isaiah’s sign to the house of David; Study 71 reads the lists and does not take up that sign), Study 17 (the Abrahamic Covenant; Study 71 takes only the words of descent), and Study 12 (the New Covenant; Study 71 reads only Jeremiah 22:24–30). Its reading routes lead to Studies 63, 17, and 12; no reciprocal link was added because each candidate neighbour already carries three related links. The publisher approved the doctrinal positions recorded in the study-table row at Checkpoint 1 (2026-09-29). Publisher-approved 2026-09-29 through the interior (Checkpoint 2) and cover (Checkpoint 3). Website package: catalog card, counts, page-count table, sitemap, and Study Connections Guide entry (theme 1, now 21 studies). No prices or collections changed.
 - v1.36  Catalog fix (Study 68).  Moves Study 68 (The Book of Life) from the Doctrinal Terms & Themes catalog category (“Biblical Doctrine” section) to Passages & Apostolic Context, so the catalog matches its cover label (PASSAGES & APOSTOLIC CONTEXT); the catalog card now reads “Study 68 · Digital Study” and sits between Studies 67 and 70. Publisher-approved 2026-09-29. Closes the mismatch noted in v1.33 and v1.34. No study content, prices, counts, or collections changed. Study 69 remains in Doctrinal Terms & Themes with its BIBLICAL DOCTRINE cover.
