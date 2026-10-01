@@ -1,6 +1,6 @@
 # Digital Studies — Catalog Category Standard
 
-Version 1.0 — publisher directive, 2026-10-01. Governs how every Digital Study is classified into one of the five primary catalog categories, and the cover label each category uses. Applies to all current studies and every new study. Each study has exactly one primary category, assigned by its controlling subject. Collections and bundles are separate and unaffected.
+Version 1.1 — publisher directive, 2026-10-01. Governs how every Digital Study is classified into one of the five primary catalog categories, and the cover label each category uses. Applies to all current studies and every new study. Each study has exactly one primary category, assigned by its controlling subject. Collections and bundles are separate and unaffected.
 
 ## Binding force (settled; do not re-ask)
 This Standard is final and in force. The 71 assignments below are fixed rulings, not proposals. Claude does not ask the publisher where a study belongs, and does not reopen an assigned study, unless the publisher himself changes it. For a new study, Claude classifies it by the procedure below, places the card and cover label accordingly, and states the category and the one-line reason in its delivery message so the publisher can overrule. Changes to a ruling come only from the publisher, and are logged here with a version bump.
@@ -24,7 +24,7 @@ If two tests fit, the earlier test wins, except that a study titled by a bare pa
 ## Steps whenever a study is added or its category changes
 1. Set the category by the procedure and state it (with one-line reason) in the delivery message.
 2. Put the catalog card in that category's section of `digital-studies.html`, in number order. The pill counts update themselves from the cards.
-3. Letter the cover label in the category's form (see Cover labels) in the cover's own style.
+3. Letter the cover label with the category's exact name (see Cover labels) in the cover's own style.
 4. Add the study to the matching row of the Relationship Map's category table, bump the Map version and log it.
 5. Add the study to the assignments table in this Standard, bump this Standard's version (rename the file to match) and log it here.
 6. Collections, bundles and prices are separate and are not changed by a category.
@@ -79,7 +79,13 @@ Publisher rulings of 2026-10-01 applied in this version: 1 Bride of Christ → D
 2 Gospel of the Kingdom → Israel & Prophecy (Israel's prophetic gospel, Matt 4:23; 9:35; 24:14; not Pauline, not Body identity). 13 Olive Tree and the Body → Israel & Prophecy (program-driven, not passage-driven; the olive tree is prophetic national Israel and Gentile participation is prophetic privilege, not Body identity). 14 Acts 9 and the Beginning of Mystery → Body of Christ (the historical beginning of the Mystery program). 26 Seven Churches of Revelation, 61 Revelation 12, 64 The Wedding and the Wedding Supper and 71 The Genealogies of Jesus → Israel & Prophecy (the prophetic Kingdom program; Jesus' legal and prophetic qualifications as Israel's Messiah). 38 Why Acts Is Not a Universal Experience Manual and 39 The Church's Relationship to Israel's Scriptures → Foundations (hermeneutical method). 68 The Book of Life → Doctrinal Themes (a cross-program doctrinal concept). No studies remain open for review.
 
 ## Cover labels
-Each cover's upper-right label names its category. Use the shortest accurate form: Foundations = RIGHT DIVISION; Israel & Prophecy = PROPHECY; Body of Christ = BODY OF CHRIST; Passages = PASSAGES; Doctrinal Themes = DOCTRINE. Covers that use the full two-line form (Studies 60–71) use the matching full wording (Doctrinal Themes = BIBLICAL DOCTRINE). When a study changes category, its cover label is re-lettered in the cover's own style (same position, size, color and tracking) and the website jpg, webp and size variants are updated.
+The upper-right label on every cover is the exact name of the study's catalog category. Nothing shorter, nothing older.
+- Single-line covers use the pill names: Foundations = FOUNDATIONS; Israel & Prophecy = ISRAEL & PROPHECY; Body of Christ = BODY OF CHRIST; Passages = PASSAGES; Doctrinal Themes = DOCTRINAL THEMES.
+- Two-line covers (the Studies 60–71 series style) use the catalog heading names: FOUNDATIONAL / DISTINCTIONS; ISRAEL, PROPHECY / & COVENANTS; THE BODY OF CHRIST / & GRACE; PASSAGES & / APOSTOLIC CONTEXT; DOCTRINAL TERMS / & THEMES.
+- New covers use the single-line pill name unless the publisher approves the two-line form.
+- Retired, never used: RIGHT DIVISION, PROPHECY (alone), DOCTRINE, INTERPRETATION, BIBLICAL DOCTRINE, BIBLICAL INTERPRETATION.
+When a study changes category, re-letter its cover in the cover's own style (same position, size, colour and tracking) and update the website jpg, webp, png and size variants. Study 53's label is two lines (DOCTRINAL / THEMES) because its light beam covers the left of a single line.
 
 ## Version history
 - v1.0 (2026-10-01): First edition, declared final and binding by the publisher; includes the decision procedure, precedents and add-a-study steps. Records the publisher's five category rules, the clarifications above, the further rulings on the ten studies first left open (all 71 now ruled) and the 71 current assignments.
+- v1.1 (2026-10-01): Cover labels corrected: the label is the exact category name (FOUNDATIONS, ISRAEL & PROPHECY, BODY OF CHRIST, PASSAGES, DOCTRINAL THEMES; two-line covers use the catalog heading names). RIGHT DIVISION, PROPHECY, DOCTRINE and BIBLICAL DOCTRINE retired. All covers re-lettered.

@@ -125,7 +125,7 @@ Stops with no study tie (for example Athens, Berea, Tyre) carry no link rather t
 | Malta (Acts 28:1–10) | 25, 38 | Viper and healings (signs) |
 | Rome (Acts 28:16–31) | 21, 41, 30 | National judicial suspension (28:25–28); preaching the kingdom of God (28:23, 31); Ephesians from Rome |
 
-## Catalog classification (v1.19; governed since v1.39 by Digital_Studies_Category_Standard_v1.0.md, which is final)
+## Catalog classification (v1.19; governed since v1.39 by Digital_Studies_Category_Standard_v1.1.md, which is final)
 
 Right division is the interpretive method guiding the entire library, not an exclusive shelf. Each individual study has one primary catalog category, assigned by its governing question. The current 71 studies are distributed as follows:
 
