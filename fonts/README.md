@@ -21,3 +21,7 @@ Master Standard v1.27 §8 requires every Digital Study and Doctrinal Packet inte
 ## Table of Contents spacing (Master Standard v1.29)
 
 From Study 6 forward, remove any hand-set `w:spacing` from the Table of Contents entry paragraphs so they take the Normal style (6 pt after, 1.08 line spacing). Studies 1-5 and 9 keep their earlier TOC spacing unless reopened.
+
+## Heading 1 spacing (Master Standard v1.30)
+
+From Study 6 forward, set the Heading 1 style to 12 pt space-before and 8 pt space-after (`w:before="240" w:after="160"` in `styles.xml`); Heading 2 stays 10 pt / 5 pt. Strip any per-paragraph spacing overrides so every heading takes the style value. Studies 1-5 and 9 were built at 14 pt before and are not reopened for this.
