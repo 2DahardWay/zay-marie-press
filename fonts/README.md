@@ -17,3 +17,7 @@ Master Standard v1.27 §8 requires every Digital Study and Doctrinal Packet inte
 6. Run `pdffonts` on the result. Only Roboto-Regular, Roboto-Bold, Roboto-Italic and Roboto-BoldItalic may be embedded.
 
 7. Keep the approved production cover as physical page 1: take it from the existing PDF (remove its unused /Font resources), and append pages 2 onward from the rebuilt PDF with pikepdf. The DOCX cover image can differ from the approved cover.
+
+## Table of Contents spacing (Master Standard v1.29)
+
+From Study 6 forward, remove any hand-set `w:spacing` from the Table of Contents entry paragraphs so they take the Normal style (6 pt after, 1.08 line spacing). Studies 1-5 and 9 keep their earlier TOC spacing unless reopened.
