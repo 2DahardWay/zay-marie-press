@@ -11,6 +11,9 @@ Master Standard v1.27 §8 requires every Digital Study and Doctrinal Packet inte
 1. Install the four files (`~/.fonts`, then `fc-cache -f`).
 2. In the DOCX package, set every `w:rFonts` to `ascii`, `hAnsi`, `eastAsia` and `cs` = "Roboto" in `styles.xml`, `document.xml` and the footer, and set the theme major and minor `a:latin` typeface to "Roboto" so headings do not fall back to Calibri or Cambria.
 3. Replace the Symbol bullet character (U+F0B7) in `numbering.xml` with "•" set in Roboto.
-4. Body text is 9.5 pt (`w:sz` 19 in the document defaults and the List Bullet style) in the Study 2 pilot, which keeps the study at 15 pages. Adjust only if the page-count standard needs it.
+4. Body text is 9 pt: set `w:sz` 18 in the document defaults, the Normal style (if it carries its own size) and the List Bullet style. Studies 1 and 2 were rebuilt at 9 pt and reflow cleanly (14 pages each including the cover). Use the same size for every study.
+4a. Roboto has no glyph for "→" or "□". Replace "→" with "›" and "□" with "[ ]" in the document text so no fallback font is embedded.
 5. Convert with LibreOffice, recompute the Table of Contents page numbers from the rendered PDF, rebuild and re-check.
 6. Run `pdffonts` on the result. Only Roboto-Regular, Roboto-Bold, Roboto-Italic and Roboto-BoldItalic may be embedded.
+
+7. Keep the approved production cover as physical page 1: take it from the existing PDF (remove its unused /Font resources), and append pages 2 onward from the rebuilt PDF with pikepdf. The DOCX cover image can differ from the approved cover.
