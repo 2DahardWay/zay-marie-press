@@ -1,4 +1,4 @@
-# Digital Studies vs. PAM Audit — v1.19
+# Digital Studies vs. PAM Audit — v1.20
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
@@ -234,3 +234,16 @@ All 71 studies get a detailed look, in number order, in batches of 15 (1-15, 16-
 - v1.19 (continued, 2026-09-30): typography finding and one-family pilot on Study 1 recorded; nothing pushed.
 
 - v1.19 (continued, 2026-09-30): Study 1 approved by the publisher ("i approve") and pushed with preview images cut from the one-family EB Garamond PDF. Master Standard v1.26 (Interior Typeface Standard) approved and added to controlling-documents/, replacing v1.25. Framework/PAM Rule 6, the fonts/ folder and the catalog-wide conversion remain open.
+
+## Batch 1 results so far (2026-09-30, interior PDFs read in full)
+
+| Study | PAM / rulings result | Other findings (not PAM) |
+|---|---|---|
+| 2 The Gospel of the Kingdom | Clear. Acts 1–8 Prophecy, Acts 9 Mystery begins, Acts 9–28 Overlap, Acts 28 suspension, Paul "one Pauline apostleship", 1 Cor 15:1–4 as Pauline gospel: all consistent with the Framework and PAM. | TOC lists "Introduction ... 5"; the Introduction is on page 6. Every other TOC page number checks out. TOC also lists Study Outline (not a TOC entry under Master Standard v1.25; pre-v1.25 study, fix only when reopened). No DOCX source. |
+| 3 The Body of Christ and the Tribulation | Clear. Judgment/Day-of-the-Lord assigned to Prophecy; Rapture treated as Mystery (1 Cor 15:51–52, 1 Thess 4); Acts 9–28 Overlap; Acts 28 suspension. No "rapture" language applied to Matthew 24 or Luke 17. | TOC page numbers all verified correct. Interior is 17 PDF pages. |
+| 6 The Mystery Revealed Through Paul | Clear. Rom 11:25 used for Israel's blindness only, not for the Body's fullness; Eph 2:14–16 cited for the one Body without contradicting "abolished for the Body"; Gal 1–2 consistent with Pauline/Mystery stewardship. | TOC page numbers all verified correct. |
+| 8 The Day of Christ | Clear. Judgment Seat applied to the Body (PAM: "Judgment seat — Applies to Body of Christ"); Day of the Lord = Prophecy, Day of Christ = Mystery. | **Defect:** the Table of Contents has no page numbers and ends with the placeholder line "Final page numbers will be inserted during the publisher-grade production pass." Master Standard §5 forbids production placeholders and requires a page number on every line. The Study 8 file the publisher supplied is a "Production Master" file, so the live purchasable PDF should be checked. No DOCX source supplied. |
+
+Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB Garamond only (see the typography section); each needs a rebuild from its DOCX when sources are supplied, which is also when the TOC defects above get fixed.
+
+- v1.20 (2026-09-30): Batch 1 results logged for Studies 2, 3, 6 and 8 (all clear against the PAM; TOC defects found in Studies 2 and 8). Local only, not pushed.
