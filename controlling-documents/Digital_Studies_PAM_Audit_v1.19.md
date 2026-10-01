@@ -1,8 +1,8 @@
-# Digital Studies vs. PAM Audit — v1.18
+# Digital Studies vs. PAM Audit — v1.19
 
 Working tracker and instructions for checking the Digital Studies against the Program Assignment Manual (PAM), §XIX of `Framework_Control_Document_Acts_Overlap.docx`, including its "Section 4 — Publisher Rulings". Same `_vX.Y` convention as the other controlling documents: update the status table and changelog as the audit proceeds, bump the version, and rename the file to match.
 
-Status: IN PROGRESS. Website-text pass done for all studies; 12 interior PDFs read (19, 29, 34, 35, 40, 42, 59, 62, 65, 66, 69, 70). Conflicts found: Study 49 (website wording fixed and pushed; interior source has a second, related conflict, corrected in a review copy) and Study 35 (publisher ruled 2026-09-30; corrected in a review copy).
+Status: IN PROGRESS (batch method, see "Working method"). Website-text pass done for all 71 studies. Interior PDFs read in full: 46 of 71 (45 before 2026-09-30 evening, plus Study 1). Keyword sweep with flagged passages read, not a full read: 10, 41, 43, 44. Conflicts found and fixed: 9, 35, 42, 49, 50, 52. Still unread: 2, 3, 6, 8, 15, 17, 22, 24, 27, 30, 31, 32, 33, 39, 47, 51, 53, 54, 56, 67, 71 (21 studies; PDFs for 2, 3, 6 and 8 received 2026-09-30). Batch 1 (Studies 1-15) in progress; Study 1 read, edits prepared and awaiting push approval.
 
 ## Rules
 
@@ -177,6 +177,34 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - **Study 46 site, remaining places reworded (publisher-approved items 1, 2, 3, 5; pushed as 9ec6a90):** connections-guide entry (summary and Study 31 line, now matching the page); catalog card; Key Scriptures cards for Romans 8:29-30, Romans 8:31-39, 2 Timothy 2:11-13, 1 Corinthians 3:11-15 and Galatians 5:1-6; What's Included cards 1 and 2. **Left as is at the publisher's direction:** the "From the Study" quote and its heading "A Chain With No Human Link". Seen on the live site: catalog card text in the live grid. Checked in page code only: Key Scriptures, What's Included, connections entry. Overflow 0 at 390 and 320 in test frames.
 - Corrected PDFs delivered to the publisher, who swaps the files himself.
 
+## Working method (publisher, 2026-09-30)
+
+All 71 studies get a detailed look, in number order, in batches of 15 (1-15, 16-30, 31-45, 46-60, 61-71), one study at a time: review, report clear / conflict / unclear, then revise one at a time under the approval flow. A study that already went through this is noted and skipped. Batch 1 status:
+
+| Study | Status |
+|---|---|
+| 1 | Read in full 2026-09-30. Doctrine clear. Section 16 / 17 / layout items approved and prepared (see "Study 1"); awaiting "i approve" to push |
+| 2, 3, 6, 8, 15 | Not yet read (PDFs for 2, 3, 6, 8 received; 15 not yet supplied) |
+| 4, 5, 7, 11, 12, 13, 14 | Previously read in full and clear (noted) |
+| 9 | Previously reviewed; conflict fixed. Open item: no recorded live check after the Cloudflare incident (v1.9 note) |
+| 10 | Previously keyword sweep plus flagged passages read (not a full read); noted |
+
+## Study 1 - The Bride of Christ (2026-09-30)
+
+- **Doctrine: CLEAR.** All 14 pages read against the Framework, the PAM and every ruling. The study's Bride identity, New Jerusalem, "not the Bride", Acts 28 "national judicial suspension" and Non-Transfer statements match Framework wording (Eternal-State Architecture; Acts Overlap Non-Transfer Principle). New covenant tied to Israel and Judah (p. 4); Acts 9-28 kept as concurrent programs (p. 8); 2 Cor 11 treated as a pastoral analogy (PAM does not assign it). No remnant, Gal 6:16, "one taken", Rom 11:25 or John 14 content; nothing implies believing Israel outside the Body in the present age.
+- **Section 17 (What You Will Learn page, p. 3), approved wording:** bullet 7 "Distinguish Israel's New Earth/New Jerusalem inheritance from the Body's heavenly inheritance." became "Compare the inheritance language of Revelation 21 with Ephesians 1:3 and 2:6, and learn how identity and inheritance are read together."; bullet 8 "Explain from Scripture why the Acts Overlap framework identifies Israel with the prophetic Bride while preserving the Body of Christ's distinct Mystery identity." became "Test the traditional identification of the Church as the Bride against the passages examined, and explain in your own words what each text does and does not state." Study Outline headings: I became "The Bridal Theme in Israel's Prophetic Scriptures"; II.C "The New Jerusalem and Its Features"; V.D "Identity and Inheritance Compared".
+- **Section 16 (site preview strip):** was pp. 3, 8, 12 (no Table of Contents; p. 8 core exposition; p. 12 carried the Teaching Outline). Now pp. 2 (Table of Contents), 3 (What You Will Learn), 13 (Guided Further Study). Images cut from the rebuilt PDF at 1041 x 1347; old study-01-page-8.jpg and -page-12.jpg removed; card wording matches Studies 11 and 14. Caveat: Investigation 2's closing prompt on p. 13 leans toward the study's reading of Revelation 21; publisher approved p. 13.
+- **Layout (Master Standard v1.25 section 5):** Table of Contents made one flat left-aligned list, with "What You Will Learn in This Study" (p. 3) and "Final Synthesis" (p. 14) added; Review and Discussion Questions restart at 1 (were 12-21).
+- **Rebuild:** from the publisher's DOCX (v16 Final Production Master), 14 pages. EB Garamond was not installed in the workspace and the font download routes are blocked, so the publisher supplied the variable TTFs. Workspace-only copies of those fonts were adjusted (line metrics set to reproduce the production line pitch; old-style numerals as default) and are not in the repo. Check against the production PDF: pp. 4-10 match to within 1 pt; on pp. 11-14 the page-top headings sit 2-8 pt higher than in the production PDF (this LibreOffice drops space-before at a page top), so two lines of Investigation 4 move from p. 14 to p. 13. Section-to-page mapping unchanged; all 24 Table of Contents page numbers verified against the rebuilt pagination. Cover is the original page 1. A word-level diff against the production PDF shows only the approved edits, the two added TOC entries and the question renumbering.
+- **Status:** corrected PDF and updated DOCX delivered to the publisher for review; site changes (study-01 page, 3 images) staged locally, NOT pushed, pending "i approve" after rendered proofs. The purchasable PDF is swapped in by the publisher.
+
+## Typography standardization - pilot (publisher direction, 2026-09-30)
+
+- **Finding:** the interior PDFs do not share one typeface set. Study 1 embeds EB Garamond, Carlito (headings), Caladea Bold (bold) and OpenSymbol (bullets); Study 2 uses Noto Sans for bold; Studies 3, 6 and 8 use Noto Serif and DejaVu Serif. Cause: the DOCX sets EB Garamond only on the Normal style; headings inherit the Word theme's heading font (Calibri) and bold falls back to whatever the converter finds because EB Garamond Bold was not installed. Master Standard v1.25 has no interior typeface rule (only cover and blue-text rules).
+- **Publisher direction:** one family, EB Garamond (Regular, Italic, Bold, Bold Italic), for all studies, past, present and future.
+- **Pilot on Study 1 (proof only, not pushed):** static Bold/Italic/BoldItalic instances generated here from the publisher's variable TTFs; theme fonts, heading styles and bullets set to EB Garamond in the DOCX. Result: PDF embeds EB Garamond Regular and Bold only; 14 pages; text identical to the approved Study 1 set except 4 Table of Contents numbers (5, 8, 9, 10 became 4, 7, 8, 9 because the type is denser) and the bullet glyph; TOC verified. Observation: Investigation 5's heading and "Read:" line fall at the bottom of p. 13 with its questions on p. 14.
+- **Open:** publisher decisions on scope, sources for studies without a DOCX, sequencing with the audit, and the Master Standard amendment (source needed; only the v1.25 PDF is in the repo).
+
 ## Changelog
 
 - v0.1 (2026-09-30): first pass on website text only; 1 conflict (Study 49); 7 studies marked unclear pending PDFs (29, 35, 62, 65, 66, 69, 70). No files other than this tracker were created or changed.
@@ -202,3 +230,7 @@ The "rapture passages" sentence is not in the DOCX (it was website-only). A rela
 - v1.16 (2026-09-30): Study 46 site page "What You'll Study" points 3-6 reworded under section 17 (pushed 83edeb4); tracker entry added.
 - v1.17 (2026-09-30): Study 46 site hero and About This Study reworded (pushed a986d30); tracker entry added.
 - v1.18 (2026-09-30): Study 46 Key Scriptures, What's Included, catalog card and connections entry reworded (pushed 9ec6a90); "From the Study" quote left as is; tracker entry added.
+- v1.19 (2026-09-30): batch method recorded; status line corrected (46 interiors read in full, 4 sweep-only); Study 1 read (doctrine clear), sections 16/17 and layout items approved and prepared, push pending.
+- v1.19 (continued, 2026-09-30): typography finding and one-family pilot on Study 1 recorded; nothing pushed.
+
+- v1.19 (continued, 2026-09-30): Study 1 approved by the publisher ("i approve") and pushed with preview images cut from the one-family EB Garamond PDF. Master Standard v1.26 (Interior Typeface Standard) approved and added to controlling-documents/, replacing v1.25. Framework/PAM Rule 6, the fonts/ folder and the catalog-wide conversion remain open.
