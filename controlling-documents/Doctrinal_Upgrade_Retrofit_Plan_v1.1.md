@@ -1,4 +1,4 @@
-# Doctrinal Upgrade Retrofit Plan — Studies 1–59 — v1.0 (2026-10-02)
+# Doctrinal Upgrade Retrofit Plan — Studies 1–59 — v1.1 (2026-10-02)
 
 Working tracker for correcting published studies to the Framework/PAM v1.1, Master Standard v1.40 (Rules 7–17). Update the status column, bump the version and rename the file as work proceeds (`_vX.Y` convention).
 
@@ -42,10 +42,10 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 ### Tier 6 — verify only (no old-wording signal in the tracker)
 2, 5, 6, 15, 16, 20, 22, 25, 27, 30, 38, 42, 43, 44, 45, 59 and the remainder: read-only pass; expected clear or one conforming line each.
 
-## Decisions needed from the publisher
-1. A replacement for the withdrawn overlap sentence. Proposed standing sentence (to be added to Rule 7): "During the overlap, the circumcision apostleship ministers to Israel under the Prophecy Program, and Paul's gospel forms the Body; the two operate concurrently and never merge, transfer or absorb one another."
-2. For Gal 3: proposed wording "The seed is prophetic fulfillment in Christ; the Body receives blessing through Christ alone, not through participation in the Abrahamic covenant."
-3. Source files for Studies 1–41 and 59 (DOCX preferred), supplied in waves.
+## Decisions (publisher, 2026-10-02) — all approved
+1. Standing overlap sentence: "During the overlap, the circumcision apostleship ministers to Israel under the Prophecy Program, and Paul's gospel forms the Body; the two operate concurrently and never merge, transfer or absorb one another." Used wherever the overlap relationship is stated. Written into Rule 7 (Master Standard v1.41).
+2. Standing Galatians 3 sentence: "The seed is prophetic fulfillment in Christ; the Body receives blessing through Christ alone, not through participation in the Abrahamic covenant." Replaces all older Abrahamic-participation language. Written into Rule 15 (Master Standard v1.41).
+3. Sources: the publisher sends DOCX for Studies 35, 9, 36, 37, 11 and 13 first, then the rest of Studies 1–41 and 59 in waves. Plan approved.
 
 ## Waves
 - Wave 1: 35, 9, 36, 37, 11, 13, 49 (publisher-named and Tier 1/3 core).
