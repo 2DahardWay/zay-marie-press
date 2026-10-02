@@ -24,7 +24,7 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 | 35 Who Is the Israel of God? | Whole subject is Gal 6:16; ruled "within the Body"; website 12 hits | DONE 2026-10-02 (v1.2): interior rebuilt (16 pp, Roboto), website text, catalog card and 3 previews updated; Gal 6:16 = believing Jews within Israel's prophetic identity, Rom 11:1–5 ruling (a), Olive Tree Firewall |
 | 9 The Remnant | "after Acts 28 every saved Jew stands in the Body" ruling; clarifier; Gal 3 | DONE 2026-10-02 (v1.3): interior corrected in place (16 pp, Roboto), website points/card and 3 previews updated |
 | 36 Jews, Gentiles, and the Church of God | Rule 7 origin study; clarifier added | DONE 2026-10-02 (v1.4): interior corrected in place (16 pp, Roboto), website About line, quote and 3 previews updated |
-| 37 What Does Paul Mean by "New Creation"? | Gal 6:16 sentence | pending |
+| 37 What Does Paul Mean by "New Creation"? | Gal 6:16 sentence | DONE 2026-10-02 (v1.5): interior corrected in place (16 pp, Roboto); website, catalog, connections and previews verified clean and unchanged |
 | 49 The Resurrections of Scripture | clarifier ×4 in DOCX | pending |
 | 41 Kingdom of God or Kingdom of Heaven? | clarifier added | pending |
 | 50 Election | clarifier + overlap sentence | pending |
@@ -62,3 +62,4 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 - v1.2 (2026-10-02): Study 35 retrofit complete (review copy and website package approved by publisher). Next: Study 9.
 - v1.3 (2026-10-02): Study 9 retrofit complete. Next: Study 36.
 - v1.4 (2026-10-02): Study 36 retrofit complete. Next: Study 37.
+- v1.5 (2026-10-02): Study 37 retrofit complete (interior only). Next: Study 11.
