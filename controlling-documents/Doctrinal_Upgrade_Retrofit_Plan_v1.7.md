@@ -64,3 +64,4 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 - v1.4 (2026-10-02): Study 36 retrofit complete. Next: Study 37.
 - v1.5 (2026-10-02): Study 37 retrofit complete (interior only). Next: Study 11.
 - v1.6 (2026-10-02): Study 11 retrofit complete. Next: Study 13.
+- v1.7 (2026-10-02): Study 13 retrofit complete (interior 18 pp, Roboto; website Acts 28 card, About line, What's Included page count corrected 15→18, page 5 preview). Wave 1 now complete except Study 49 (Studies 35, 9, 36, 37, 11, 13 done). Next: Study 49 (DOCX from the earlier session) and Wave 2 as sources arrive.
