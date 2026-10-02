@@ -29,7 +29,8 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 | 41 Kingdom of God or Kingdom of Heaven? | clarifier added | DONE 2026-10-02 (v1.11): interior corrected (16 pp, Roboto; publisher scripts for Sections 5, 6, 8, 9, 10 integrated; Romans 11:25 boundary sentence and triad added); website text unchanged, TOC preview (page 2) re-rendered |
 | 50 Election | clarifier + overlap sentence | pending |
 | 55 Reconciled to God | clarifier + overlap sentence | pending |
-| 47 Giving Under Grace; 48 The Christian Household | overlap sentence (3 and 5 hits) | pending |
+| 47 Giving Under Grace | overlap sentence (4 hits) | DONE 2026-10-02 (v1.12): interior corrected (16 pp, Roboto); Romans 15:27 participation sentence added (publisher-approved); website unchanged, previews unchanged |
+| 48 The Christian Household | overlap sentence (5 hits) | pending |
 | 51 Circumcision; 54 Justification; 56 Inheritance; 57 The Eternal Purpose of God; 58 What Is a Dispensation? | overlap sentence (54, 56 also Gal 3) | pending |
 ### Tier 2 — Galatians 3 / Abrahamic participation wording
 40 Who Is Abraham's Seed? (core), 52 Sonship and Adoption, 54, 56 (confirmed in text); 39, 17, 12 and 53 to be read (Abrahamic/covenant participation).
@@ -69,3 +70,4 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 - v1.9 (2026-10-02): Reader-facing wording rule added (Framework Rule 14; Master Standard v1.43): internal labels such as 'firewall' never appear in study text. Study 13 (p. 9) and Studies 35, 9, 36 corrected to plain-language lead-ins; page counts unchanged. Next: Study 49.
 - v1.10 (2026-10-02): Study 49 retrofit complete: withdrawn clarifier removed (Introduction, Section 11, Summary); Revelation 20 and Daniel 12 stated as Prophecy with the Body absent; publisher replacement scripts for Sections 5, 6, 7, 8, 10 and 12 integrated (Section 8 text added after the existing Section 8; 'grafting' sentence made plain per the reader-facing wording rule); 17 pp; website page count and previews 2, 3, 7 updated. Wave 1 complete. Next: Wave 2, Study 47.
 - v1.11 (2026-10-02): Study 41 retrofit complete (Wave 2 order: 41 done; next 47). Withdrawn clarifier removed; Acts 28:31 carries the no-transfer line; Body absent from Revelation; publisher replacement scripts for Sections 5, 6, 8, 9, 10 integrated; Romans 11:25 passing citation carries the boundary sentence plus triad (publisher-approved; no olive-tree bullets since the study does not treat the olive tree). 16 pp; website page count unchanged, preview page 2 re-rendered.
+- v1.12 (2026-10-02): Study 47 retrofit complete: withdrawn overlap sentence replaced by the standing sentence in four places; new Romans 15:27 sentence (participation in blessing, not identity; does not place the Body in Israel's covenants or make it Israel) added to Section 12; 16 pp; website and previews unchanged. Next: Study 48.
