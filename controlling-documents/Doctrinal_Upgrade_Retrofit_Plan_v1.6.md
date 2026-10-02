@@ -63,3 +63,4 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 - v1.3 (2026-10-02): Study 9 retrofit complete. Next: Study 36.
 - v1.4 (2026-10-02): Study 36 retrofit complete. Next: Study 37.
 - v1.5 (2026-10-02): Study 37 retrofit complete (interior only). Next: Study 11.
+- v1.6 (2026-10-02): Study 11 retrofit complete. Next: Study 13.
