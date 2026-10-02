@@ -300,3 +300,6 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
   .companion-studies-panel .btn,.resources-next-card .btn,.resources-next-card a{white-space:normal!important;max-width:100%}
   .detail-hero-grid>*{min-width:0;max-width:100%!important}
 }
+
+/* Very narrow phones (320–340px): tighter catalog card padding and title size so long single words such as "Sanctification" are not split mid-word */
+@media(max-width:340px){.digital-studies-page .study-card{padding:14px!important;gap:12px!important}.digital-studies-page .study-card h3{font-size:1.12rem!important;line-height:1.2}}
