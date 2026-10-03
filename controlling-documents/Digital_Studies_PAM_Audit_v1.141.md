@@ -370,3 +370,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.138 (2026-10-03): Wave 5 website-side fixes: Study 49 and connections guide 'Framework principle' reworded; Study 17 kicker corrected and heading count 15→18; Study 13 buy-panel count 15→19; previews for 52, 53, 55–58 re-rendered at 1041×1562.
 - v1.139 (2026-10-03): Page counts verified from the publisher's PDFs for Studies 2, 14, 15, 16, 18, 59, 60; static page text corrected on 2, 14, 15, 16, 18; site.js 59:16 and 60:18 added; previews 59 and 60 re-rendered at 1041×1562.
 - v1.140 (2026-10-03): Study 14 interior rebuilt (15 pp, 10 pt, Roboto); Rule 18, overlap, Rule 17, Rule 11, Acts 10–11 and Romans 11 boundaries applied; previews 2, 3, 5 re-rendered.
+- v1.141 (2026-10-03): Study 18 interior rebuilt (18 pp, 10 pt, Roboto); Rule 18, overlap, Rule 17, Rule 11, Romans 11 boundaries and Colossians/2 Peter anchor applied; previews 2, 3, 6 re-rendered.
