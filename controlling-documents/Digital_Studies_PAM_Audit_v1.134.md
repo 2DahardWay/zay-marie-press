@@ -363,3 +363,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.131 (2026-10-02): Study 26 retrofitted: internal terms removed (Framework, Framework Control Document, taxonomy, Program Assignment Manual), Revelation standing line, Rev 3:10 and Colossians anchor added; rebuilt to the standard page geometry (16 pp); third preview is PDF page 10.
 - v1.132 (2026-10-02): Study 29 retrofitted: Framework wording removed, Day-of-the-Lord, Matthew 25 nations and 1 Thessalonians/Philippians anchor lines added; rebuilt to the standard page geometry (17 pp); previews 2, 3, 8 re-rendered.
 - v1.133 (2026-10-02): Master Standard v1.48 / CLAUDE.md: body text 10 pt and enforced 10 pt table spacing (first seen as body text touching a KJV table on Study 29). Study 29 review copy v2 built at 10 pt (19 pp); website step pending.
+- v1.134 (2026-10-02): Study 29 v2 live (10 pt body, enforced table spacing; 19 pp); previews 2, 3 and 9; site.js 29:19.
