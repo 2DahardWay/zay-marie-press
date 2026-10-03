@@ -99,3 +99,4 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 - v1.26 (2026-10-02): Study 12 retrofit complete (see row). Next: Study 21 (DOCX from the publisher; owes the full Romans 11 treatment and the full Rule 18 sentence).
 - Note (2026-10-02): Study 12's What's Included heading said '13-Page' (stale, fixed to 15). Studies 14, 15 and 18 still carry a '13-Page In-Depth Biblical Study' heading; check each against its real page count when reached (Wave 5 sweep for 15).
 - v1.27 (2026-10-02): Study 21 retrofit complete (see row). Wave 3 done. Next: Wave 4 starting with Study 46 (source on hand); Studies 14, 18, 43 owe the full Rule 18 sentence.
+- Note (2026-10-02): buy-panel text '[N]-page digital PDF' was stale on Studies 12 (13), 21 (16) and 17 (14); corrected to 15, 17 and 18. Wave 5 sweep: grep every study page for '-page digital PDF', 'N-Page' and 'N Pages' against site.js.
