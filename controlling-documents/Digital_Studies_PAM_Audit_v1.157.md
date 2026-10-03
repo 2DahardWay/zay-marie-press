@@ -386,3 +386,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.154 (2026-10-03): "Acts Overlap" restored to the Study 15 page copy (see Retrofit Plan v1.60).
 - v1.155 (2026-10-03): Studies 59 and 60 rebuilt and published at 20 and 15 pages (see Retrofit Plan v1.61).
 - v1.156 (2026-10-03): Studies 59 and 60 anchor lines and Study 59 page 17 spacing approved as built (see Retrofit Plan v1.62).
+- v1.157 (2026-10-03): Study 12 rebuilt to the current geometry and published at 15 pages (see Retrofit Plan v1.63).
