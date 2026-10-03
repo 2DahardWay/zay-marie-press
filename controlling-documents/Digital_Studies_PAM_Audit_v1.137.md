@@ -366,3 +366,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.134 (2026-10-02): Study 29 v2 live (10 pt body, enforced table spacing; 19 pp); previews 2, 3 and 9; site.js 29:19.
 - v1.135 (2026-10-02): Study 31 retrofitted at 10 pt: Framework/PAM sentence replaced by a Matthew 25 anchor, Acts 28 'not a transfer', Day-of-the-Lord/Revelation/Daniel, Matthew 25 nations, Galatians 3 and four anchor lines added; 18 pp; 'framework' wording removed from the page; previews 2, 3, 5.
 - v1.136 (2026-10-03): Study 32 retrofitted at 10 pt: Hebrews and Revelation 20–22 working-term sentences replaced; overlap, Rule 17, Acts 28 'not a transfer', full Rule 18 and Romans 11 boundaries added; 19 pp; previews 2, 3, 5; site.js 32:19.
+- v1.137 (2026-10-03): Study 33 retrofitted at 10 pt: PAM/Framework paragraph replaced by a reader-facing anchor; Rule 14 line on the twenty-four elders; overlap sentence added; 18 pp; previews 2, 3, 5; site.js 33:18.
