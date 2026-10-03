@@ -379,3 +379,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.147 (2026-10-03): Finished-work web-copy search closed; Study 54, Study 31 and resource-library lines kept by publisher ruling (see plan v1.53).
 - v1.148 (2026-10-03): Rule 19 applied to Studies 12 and 15 (see Retrofit Plan v1.54). Study 31 unchanged by ruling; Study 43 on hold.
 - v1.149 (2026-10-03): Study 43 review copy built (see Retrofit Plan v1.55); Master Standard v1.50 adds the bulleted What You Will Learn rule.
+- v1.150 (2026-10-03): Study 43 retrofitted and live (see Retrofit Plan v1.56).
