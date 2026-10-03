@@ -377,3 +377,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.145 (2026-10-03): Site-wide web-copy fix for the withdrawn shared-saving-ground wording (Studies 12, 15, 43; digital-studies.html; study-connections.html); see plan v1.51.
 - v1.146 (2026-10-03): Study 12 page, its catalog card and the New Testament and New Covenant guide: "Christ’s finished work" replaced by "Christ’s blood" as the New Covenant’s redemptive basis (publisher ruling); see plan v1.52.
 - v1.147 (2026-10-03): Finished-work web-copy search closed; Study 54, Study 31 and resource-library lines kept by publisher ruling (see plan v1.53).
+- v1.148 (2026-10-03): Rule 19 applied to Studies 12 and 15 (see Retrofit Plan v1.54). Study 31 unchanged by ruling; Study 43 on hold.
