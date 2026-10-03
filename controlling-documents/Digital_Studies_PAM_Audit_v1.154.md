@@ -383,3 +383,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.151 (2026-10-03): Study 15 contents-entry fix and Study 12 About-text fix (see Retrofit Plan v1.57); Study 15 cover subtitle raised for the publisher.
 - v1.152 (2026-10-03): Study 15 cover subtitle re-lettered (see Retrofit Plan v1.58); item closed.
 - v1.153 (2026-10-03): Study 15 What You Will Learn bulleted; "Acts Overlap" removed from the Study 15 page copy (see Retrofit Plan v1.59).
+- v1.154 (2026-10-03): "Acts Overlap" restored to the Study 15 page copy (see Retrofit Plan v1.60).
