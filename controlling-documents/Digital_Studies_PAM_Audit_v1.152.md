@@ -381,3 +381,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.149 (2026-10-03): Study 43 review copy built (see Retrofit Plan v1.55); Master Standard v1.50 adds the bulleted What You Will Learn rule.
 - v1.150 (2026-10-03): Study 43 retrofitted and live (see Retrofit Plan v1.56).
 - v1.151 (2026-10-03): Study 15 contents-entry fix and Study 12 About-text fix (see Retrofit Plan v1.57); Study 15 cover subtitle raised for the publisher.
+- v1.152 (2026-10-03): Study 15 cover subtitle re-lettered (see Retrofit Plan v1.58); item closed.
