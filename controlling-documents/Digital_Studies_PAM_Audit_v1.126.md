@@ -355,3 +355,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.123 (2026-10-02): Study 1 retrofitted and brought to the Master Standard conformance audit: overlap, remnant, Rule 18, Acts 28 and Romans 11 wording applied; reader-facing anchors; five boxed callouts, TOC, type, footer and imprint conformed; 14 pp.
 - v1.124 (2026-10-02): Study 1 rebuilt to the later studies' page geometry and type treatment (17 pp); site counts and previews updated.
 - v1.125 (2026-10-02): Study 3 retrofitted: Acts 28 standing wording, overlap sentence, Revelation/Gentiles lines, 'framework' removed, Thessalonians and Philippians anchors; rebuilt to the standard page geometry (16 pp); cover title reduced at the publisher's direction.
+- v1.126 (2026-10-02): Study 7 retrofitted: Revelation/Daniel and Gentiles-in-the-Day lines, Thessalonians anchor, 'framework' wording removed; rebuilt to the standard page geometry (14 pp); approved cover swapped in.
