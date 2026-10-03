@@ -393,3 +393,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.161 (2026-10-03): Study 53 rebuilt at 10 pt, 19 pages (see Retrofit Plan v1.67).
 - v1.162 (2026-10-03): Study 55 rebuilt at 10 pt, 20 pages (see Retrofit Plan v1.68).
 - v1.163 (2026-10-03): Study 56 rebuilt at 10 pt, 20 pages (see Retrofit Plan v1.69).
+- v1.164 (2026-10-03): Study 57 rebuilt at 10 pt, 20 pages (see Retrofit Plan v1.70).
