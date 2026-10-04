@@ -477,3 +477,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.244 (2026-10-04): Study 60 rebuilt at 15 pages (unchanged): Review and Discussion Questions set as a real numbered list (were bullets) at the publisher's approval; v1.51 imprint, callouts and doctrine already conforming (see Retrofit Plan v1.150).
 - v1.245 (2026-10-04): typed-list cleanup: Study 30 rebuilt (18 pages, unchanged) with the three-step grace progression as a real numbered list and preview page 2 re-rendered; Studies 15 and 29 patched in their own DOCX only (hanging indent on the numbered bold lead-ins; no text change; 15 and 19 pages unchanged) and delivered as files, with their website previews left as they were because the live previews came from the publisher's own PDFs (see Retrofit Plan v1.151).
 - v1.246 (2026-10-04): see Retrofit Plan v1.152 (Study 43 two-line Rule 19 wording; Study 50 page copy).
+- v1.247 (2026-10-04): see Retrofit Plan v1.153.
