@@ -448,3 +448,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.216 (2026-10-04): Study 1 rebuilt at 10 pt, 20 pages; WYWL, Study Outline and Teaching Outline conformed; navy Investigation headings set as bold black; Rule 19 and Acts 28 wording conformed; standard v1.51 imprint (see Retrofit Plan v1.122).
 - v1.217 (2026-10-04): Master Standard v1.52 fixes the interior footer as a single centered line; Wave 5 footer item closed (see Retrofit Plan v1.123).
 - v1.218 (2026-10-04): Study 19 Scripture-Tracing converted to a KJV table, 18 pages (see Retrofit Plan v1.124).
+- v1.219 (2026-10-04): Study 20 Scripture-Tracing converted to a KJV table, 18 pages (see Retrofit Plan v1.125).
