@@ -25,5 +25,6 @@ def apply(els):
     rep(els,'Acts 28 is Israel’s national judicial suspension point (not abolition and not a transfer); suspension','At Acts 28 Israel’s Prophecy Program was %s; suspension'%SUSP)
     rep(els,'the national judicial suspension point (not abolition and not a transfer) of Israel’s Prophecy Program within the Acts Overlap.','the national suspension of Israel’s Prophecy Program (%s) within the Acts Overlap.'%SUSP)
     rep(els,'ACTS 28: NATIONAL JUDICIAL SUSPENSION, NOT CANCELLATION','ACTS 28: NATIONALLY SUSPENDED—NOT CANCELED, TRANSFERRED OR ABSORBED')
+    els[:]=[e for e in els if not (P(e) and T(e).strip()=='ZAY-MARIE PRESS DIGITAL STUDIES')]
     runin_extras(els,KEEP); number_outline(els); glyphs(els)
     return els
