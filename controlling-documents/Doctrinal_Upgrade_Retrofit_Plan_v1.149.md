@@ -249,3 +249,4 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 - v1.146 (2026-10-04): hanging-indent fix for typed Review numbering — done: 46 (now 22 pages), 49, 54, 55, 57; open: 9, 35, 48, 58 (58 also lacks the v1.51 imprint); Study 60 uses bullets for Review questions.
 - v1.147 (2026-10-04): Review-numbering fix done for 9, 46, 48, 49, 54, 55, 57 (35 build already correct); open: 58 (also needs v1.51 imprint); Study 60 Review set as bullets (publisher question).
 - v1.148 (2026-10-04): Study 56 rebuilt (20 pages, unchanged) for the typed-numbering defect; open in this list: 62, 63, 64 (Teaching Outline), 15, 29, 30, 58, and Study 60 (Review set as bullets).
+- v1.149 (2026-10-04): batch rebuild of 58, 62, 63, 64 for typed numbering (see Audit v1.243); site.js 58:20, 62:19, 63:17, 64:16. Remaining open: Study 60 Review questions set as bullets (publisher decision).
