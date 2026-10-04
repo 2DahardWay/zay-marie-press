@@ -418,3 +418,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.186 (2026-10-03): Study 69 rebuilt in Roboto at 10 pt, 17 pages; Framework references removed from reader text (see Retrofit Plan v1.92).
 - v1.187 (2026-10-03): Study 70 rebuilt in Roboto at 10 pt, 17 pages; Framework references removed from reader text (see Retrofit Plan v1.93).
 - v1.188 (2026-10-03): Study 71 rebuilt in Roboto at 10 pt, 16 pages; Framework references removed from reader text (see Retrofit Plan v1.94).
+- v1.189 (2026-10-03): Wave 5 website sweep re-run; Study 32 sitemap URL corrected (see Retrofit Plan v1.95).
