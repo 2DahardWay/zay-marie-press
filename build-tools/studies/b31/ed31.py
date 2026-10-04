@@ -23,4 +23,7 @@ def apply(els):
                     if c=='National judicial suspension is not cancellation of promise': r[ci]='National suspension is not cancellation, transfer or absorption of promise'; n+=1
     assert n==1
     runin_extras(els,KEEP); number_outline(els); glyphs(els)
+    rep(els,'At the Cross, sin was judged in Christ; His finished work is the sole ground of the believer’s acceptance.','At the Cross, sin was judged in Christ; in Paul’s gospel His finished work is the sole ground of the Body’s acceptance.')
+    rep(els,'and rest the believer’s acceptance wholly upon the finished work of Christ.','and rest the Body’s acceptance wholly upon the finished work of Christ.')
+    els[:]=[e for e in els if not (P(e) and T(e).strip()=='ZAY-MARIE PRESS DIGITAL STUDIES')]
     return els
