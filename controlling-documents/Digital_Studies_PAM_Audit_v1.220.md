@@ -449,3 +449,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.217 (2026-10-04): Master Standard v1.52 fixes the interior footer as a single centered line; Wave 5 footer item closed (see Retrofit Plan v1.123).
 - v1.218 (2026-10-04): Study 19 Scripture-Tracing converted to a KJV table, 18 pages (see Retrofit Plan v1.124).
 - v1.219 (2026-10-04): Study 20 Scripture-Tracing converted to a KJV table, 18 pages (see Retrofit Plan v1.125).
+- v1.220 (2026-10-04): Held-back KJV table item closed by publisher choice; Studies 21, 25, 28 stay as built (see Retrofit Plan v1.126).
