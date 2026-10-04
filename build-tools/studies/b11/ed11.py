@@ -1,0 +1,25 @@
+from edcommon import *
+KEEP={'STUDY GOAL','INTERPRETIVE CONTROL','ACTS 9 CONTROL','ACTS OVERLAP CONTROL','FINAL CONTROL'}
+def apply(els):
+    setbul(els,'Explain why Acts 2 belongs','Read Acts 2:14–36 closely, marking Peter’s audience, his prophetic citations and the covenant promise to David, and noting which program those markers belong to.')
+    setbul(els,'Explain why the previously hidden Mystery cannot','Trace what Paul says was “kept secret” and “hid in God” (Romans 16:25; Ephesians 3:5, 9), marking the point at which the text says it was revealed.')
+    setbul(els,'Show why Acts 9 marks','Follow Paul’s salvation and calling in Acts 9, 22 and 26, marking the commission he receives and how Paul himself describes its beginning.')
+    setbul(els,'Explain why Acts 9 does not end','Track Peter and the Twelve through Acts 9–15, marking what the text shows them still doing after Paul’s calling.')
+    setbul(els,'Describe Acts 9–28 as','Test the Acts 9–28 record for the two ministries it reports, marking which audience, message and setting belong to each.')
+    rep(els,'the study’s controlling Acts Overlap framework','the Acts Overlap')
+    rep(els,'Davidic framework','Davidic promise')
+    rep(els,'but within this framework it is not','but on this reading it is not')
+    rep(els,'Within the Acts Overlap framework, Acts 9 marks','Within the Acts Overlap, Acts 9 marks')
+    rep(els,'Within this framework, however, Paul’s','On this reading, however, Paul’s')
+    rep(els,'and, within this framework, the historical beginning','and, on this reading, the historical beginning')
+    rep(els,'Within this framework, that event marks the suspension of Israel’s Prophecy Program.','On this reading, that event marks the national suspension of Israel’s Prophecy Program. Acts 28 establishes the suspension boundary; it does not by itself establish any further chronology, and this study does not reconstruct one.')
+    rep(els,'Within the Acts Overlap framework, the Church','Within the Acts Overlap, the Church')
+    rep(els,'within the Acts Overlap framework?','within the Acts Overlap?')
+    rep(els,'and, within this framework, the beginning of the Church','and, on this reading, the beginning of the Church')
+    i=find(els,'This new Body identity does not merge')
+    ins_after_idx(els,i,R17); ins_after_idx(els,i,OVERLAP)
+    app(els,'Acts demonstrates that Paul’s calling did not terminate',"Acts 10–11, the Cornelius account, is a Prophecy Program event inside the overlap; the Gentiles who appear in it belong to prophetic fulfillment, not to the Body, and their presence implies no Body membership.")
+    i=find(els,'The verse does not literally call Paul')
+    ins_after_idx(els,i,'This reading of 1 Timothy rests on the letter’s own audience markers and setting.')
+    finish(els,KEEP)
+    return els

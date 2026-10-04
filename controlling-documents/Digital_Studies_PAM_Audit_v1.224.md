@@ -453,3 +453,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.221 (2026-10-04): Study 58 hero eyebrow set to the standard form (see Retrofit Plan v1.127).
 - v1.222 (2026-10-04): Study 31 rebuilt at 10 pt from the older source with the retrofit re-applied and the line-232 Rule 19 fix, 19 pages (see Retrofit Plan v1.128).
 - v1.223 (2026-10-04): Study 43 rebuilt at 16 pages with two Acts 28 conformings and a new third preview (see Retrofit Plan v1.129).
+- v1.224 (2026-10-04): build-tools/ committed (see Retrofit Plan v1.130).

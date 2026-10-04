@@ -1,0 +1,25 @@
+from edcommon import *
+KEEP={'STUDY GOAL','INTERPRETIVE CONTROL','COVENANT CERTAINTY','DO NOT COLLAPSE THE COVENANTS','OVERLAP CONTROL'}
+def apply(els):
+    setbul(els,'Trace the promises first announced','Read Genesis 12:1–3 clause by clause, marking each promise as stated and who is addressed.')
+    setbul(els,'Explain the covenant-ratification','Read Genesis 15 slowly, marking who acts, who sleeps, and what passes between the pieces.')
+    setbul(els,'Distinguish the covenant’s nation','Sort the nation, land, seed and blessing language across Genesis 12, 13, 15 and 17, marking how each statement adds to the last.')
+    setbul(els,'Trace the covenant line through','Follow Genesis 17, 22, 26 and 28, marking whom each restatement addresses and whom it sets aside.')
+    setbul(els,'Distinguish the Abrahamic Covenant from the later','Compare the Abrahamic promises with the covenant given at Sinai, marking who is addressed, what is established and what is required.')
+    setbul(els,'Explain why Gentile blessing','Trace the nations’ blessing through Genesis 12:3, 18:18, 22:18, 26:4 and 28:14, marking the words that tie it to Abraham and his seed.')
+    setbul(els,'Locate the Abrahamic foundation','Follow how the later covenants and the prophets build on the Abrahamic promises, marking the categories each carries forward.')
+    setbul(els,'Preserve the Abrahamic promises','Read the Acts 9–28 record beside the Abrahamic promises, marking what the text shows for Israel and for the Body in that period.')
+    assert T(els[1]).startswith('The Abrahamic Covenant is one of')
+    els[1]=mk('body',[['By the end of this study, you should be able to:',False,False]])
+    rep(els,'This framework protects both sets','This reading protects both sets')
+    rep(els,'Acts Overlap framework preserve','Acts Overlap preserve')
+    rep(els,'Prophecy is suspended at Acts 28 while Mystery continues.','Israel’s Prophecy Program is nationally suspended at Acts 28—not canceled, transferred or absorbed—while Mystery continues.')
+    rep(els,'Recognize Acts 28 as the suspension point of Prophecy.','Recognize Acts 28 as the national suspension of Israel’s Prophecy Program.')
+    app(els,'This reading protects both sets','Acts 28 establishes the suspension boundary; it does not by itself establish any further chronology, and this study does not reconstruct one.')
+    app(els,'During Acts 9–28, Peter’s Kingdom/Prophecy apostleship',R18S)
+    i=find(els,'The Body of Christ must therefore not be described as replacing')
+    ins_after_idx(els,i,R17); ins_after_idx(els,i,OVERLAP)
+    i=find(els,'The prophets keep the same arrangement')
+    ins_after_idx(els,i,'The seed is prophetic fulfillment in Christ; the Body receives blessing through Christ alone, not through participation in the Abrahamic covenant.')
+    runin_extras(els,KEEP); number_outline(els); glyphs(els)
+    return els
