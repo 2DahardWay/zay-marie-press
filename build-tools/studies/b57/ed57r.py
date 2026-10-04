@@ -25,6 +25,10 @@ def apply(els):
     while els[k]['kind']=='body' and re.match(r'^[IVX]+\.',T(els[k])):
         els[k]=mk('bul',rm_num(els[k]['segs'],r'[IVX]+\.')); k+=1; ng+=1
     assert ng==7,ng
+    ra=[k for k,e in enumerate(els) if P(e) and e['kind']=='h1' and T(e)=='Review and Discussion Questions'][0]; k=ra+1; nq=0
+    while P(els[k]) and els[k]['kind']=='body' and re.match(r'^\d+\.\t',T(els[k])):
+        els[k]=mk('num',rm_num(els[k]['segs'],r'\d+\.')); k+=1; nq+=1
+    assert nq==10,nq
     els[:]=[e for e in els if not (P(e) and T(e).strip()=='ZAY-MARIE PRESS DIGITAL STUDIES')]
     for e in els:
         if P(e):
