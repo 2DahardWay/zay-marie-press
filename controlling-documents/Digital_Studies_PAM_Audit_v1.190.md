@@ -419,3 +419,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.187 (2026-10-03): Study 70 rebuilt in Roboto at 10 pt, 17 pages; Framework references removed from reader text (see Retrofit Plan v1.93).
 - v1.188 (2026-10-03): Study 71 rebuilt in Roboto at 10 pt, 16 pages; Framework references removed from reader text (see Retrofit Plan v1.94).
 - v1.189 (2026-10-03): Wave 5 website sweep re-run; Study 32 sitemap URL corrected (see Retrofit Plan v1.95).
+- v1.190 (2026-10-04): Study 4 rebuilt in Roboto at 10 pt on the current page from the publisher's DOCX, 17 pages (was 18; old 432×648 page retired). Changes: What You Will Learn set as bullets under one lead-in (bullets 3, 4 and 9 reworded as process lines); Rule 19 correction in section 4 (finished-work/saving-efficacy sentences replaced); overlap and Rule 17 sentences added to section 9; section 10 resumption wording softened; outlines numbered 1–N (see Retrofit Plan v1.96).
