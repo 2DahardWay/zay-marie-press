@@ -7,6 +7,7 @@ numpart=d.part.numbering_part.element
 groups=[];cur=[]
 for p in d.paragraphs:
     if p.style.name=='List Number': cur.append(p)
+    elif p.style.name=='List Bullet 2' and cur: pass
     else:
         if cur: groups.append(cur); cur=[]
 if cur: groups.append(cur)
