@@ -24,6 +24,12 @@ def runin_extras(els,keep):
         k+=1
     n=sum(1 for e in els if P(e) and e['kind']=='ctitle'); assert n==5,n
 def number_outline(els):
+    import re as _re
+    for _i,_e in enumerate(els):
+        if _e['type']=='para' and _e['kind']=='h1' and ''.join(s[0] for s in _e['segs'])=='Review and Discussion Questions':
+            _k=_i+1
+            while _k<len(els) and els[_k]['type']=='para' and els[_k]['kind']=='body' and _re.match(r'^\d+\.[\t ]',''.join(s[0] for s in els[_k]['segs'])):
+                _s=[list(x) for x in els[_k]['segs']]; _s[0][0]=_re.sub(r'^\d+\.[\t ]\s*','',_s[0][0]); els[_k]=dict(type='para',kind='num',segs=_s,p=0,x0=0); _k+=1
     sec=None
     for e in els:
         if P(e):
