@@ -401,3 +401,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.169 (2026-10-03): Study 44 rebuilt in Roboto at 10 pt, 19 pages (see Retrofit Plan v1.75).
 - v1.170 (2026-10-03): Study 45 rebuilt in Roboto at 10 pt, 19 pages (see Retrofit Plan v1.76).
 - v1.171 (2026-10-03): Study 47 rebuilt in Roboto at 10 pt, 19 pages (see Retrofit Plan v1.77).
+- v1.172 (2026-10-03): Study 48 rebuilt in Roboto at 10 pt, 18 pages (see Retrofit Plan v1.78).
