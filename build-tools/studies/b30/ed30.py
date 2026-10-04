@@ -9,5 +9,9 @@ def apply(els):
     ins_after_idx(els,i,R17); ins_after_idx(els,i,OVERLAP)
     d=[n for n,e in enumerate(els) if e['type']=='para' and T(e).startswith('First Corinthians 3:8–15 teaches')]
     assert len(d)==2 and T(els[d[0]])==T(els[d[1]]); del els[d[1]]
+    import re as _re
+    for _k,_e in enumerate(els):
+        if P(_e) and _e['kind']=='body' and _re.match(r'^\d+\.[\t ]',T(_e)) and len(T(_e))<120:
+            _s=[list(x) for x in _e['segs']]; _s[0][0]=_re.sub(r'^\d+\.[\t ]\s*','',_s[0][0]); els[_k]=mk('num',_s)
     runin_extras(els,KEEP); number_outline(els); glyphs(els)
     return els

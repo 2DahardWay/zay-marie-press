@@ -251,3 +251,4 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 - v1.148 (2026-10-04): Study 56 rebuilt (20 pages, unchanged) for the typed-numbering defect; open in this list: 62, 63, 64 (Teaching Outline), 15, 29, 30, 58, and Study 60 (Review set as bullets).
 - v1.149 (2026-10-04): batch rebuild of 58, 62, 63, 64 for typed numbering (see Audit v1.243); site.js 58:20, 62:19, 63:17, 64:16. Remaining open: Study 60 Review questions set as bullets (publisher decision).
 - v1.150 (2026-10-04): Study 60 Review questions numbered (publisher approved 2026-10-04); previews 2 and 3 re-rendered; site.js unchanged (60:15). Typed-numbering/Review-format list is now complete.
+- v1.151 (2026-10-04): items 15, 29, 30 handled (30 pushed; 15 and 29 patched DOCX/PDF delivered, site untouched).
