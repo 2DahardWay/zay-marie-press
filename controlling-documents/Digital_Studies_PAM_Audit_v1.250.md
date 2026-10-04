@@ -480,3 +480,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.247 (2026-10-04): see Retrofit Plan v1.153.
 - v1.248 (2026-10-04): see Retrofit Plan v1.154 (Study 1).
 - v1.249 (2026-10-04): see Retrofit Plan v1.155 (Study 31).
+- v1.250 (2026-10-04): see Retrofit Plan v1.156 (Study 40).

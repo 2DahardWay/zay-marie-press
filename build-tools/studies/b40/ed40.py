@@ -25,4 +25,6 @@ def apply(els):
                         r[ci]=c.replace('Gentiles participate spiritually in that blessing.',G3); n+=1
     assert n==1
     runin_extras(els,KEEP); number_outline(els); glyphs(els)
+    rep(els,'those questions are not reconstructed here.','those questions are not reconstructed here. Romans 11:25 is Prophecy Program content occurring during the Mystery administration. Four boundaries govern the Romans 11 reading: the olive tree is prophetic blessing, not the Body; the Gentiles of Romans 11 are prophetic participants, not Body Gentiles; wild branches are not Body members; and grafting changes participation, not identity. Participation is not identity. Blessing is not covenant. Standing is not program membership.')
+    els[:]=[e for e in els if not (P(e) and T(e).strip()=='ZAY-MARIE PRESS DIGITAL STUDIES')]
     return els
