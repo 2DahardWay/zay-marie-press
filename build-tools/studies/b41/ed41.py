@@ -31,4 +31,7 @@ def apply(els):
                     if c2!=c: r[ci]=c2; n+=1
     assert n==2,n
     runin_extras(els,KEEP); number_outline(els); glyphs(els)
+    rep(els,'Acts Overlap Theology supplies the controls for answering carefully.','The overlap of Acts 9–28 supplies the controls for answering carefully.')
+    rep(els,'Acts Overlap Theology governs where these answers differ from Scripture’s own distinctions.','The overlap of Acts 9–28 governs where these answers differ from Scripture’s own distinctions.')
+    els[:]=[e for e in els if not (P(e) and T(e).strip()=='ZAY-MARIE PRESS DIGITAL STUDIES')]
     return els
