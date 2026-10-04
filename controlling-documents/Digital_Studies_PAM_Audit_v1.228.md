@@ -457,3 +457,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.225 (2026-10-04): Study 44 rebuilt with the Acts-era signs ruling applied (see Retrofit Plan v1.131).
 - v1.226 (2026-10-04): Study 48 rebuilt at 20 pages with the section 12 title ruling (see Retrofit Plan v1.132).
 - v1.227 (2026-10-04): Study 50 rebuilt at 20 pages with the Shared Ground and 2 Thessalonians 2:13–14 rulings (see Retrofit Plan v1.133).
+- v1.228 (2026-10-04): Study 47 rebuilt at 20 pages with the Romans 15:27 ruling (see Retrofit Plan v1.134).
