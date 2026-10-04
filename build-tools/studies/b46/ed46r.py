@@ -24,5 +24,10 @@ def apply(els):
         if k>=len(els) or els[k]['kind']!='body' or T(els[k]).startswith('ZAY-MARIE') or els[k]['kind']=='h1': break
     assert ng==6,ng
     rep(els,'The believer’s security is anchored, in this text,','The believer’s security rests, in this text,')
+    import re as _re
+    _ra=[k for k,e in enumerate(els) if P(e) and e['kind']=='h1' and T(e)=='Review and Discussion Questions'][0]; _k=_ra+1; _n=0
+    while P(els[_k]) and els[_k]['kind']=='body' and _re.match(r'^\d+\.\t',T(els[_k])):
+        _s=[list(x) for x in els[_k]['segs']]; _s[0][0]=_re.sub(r'^\d+\.\t','',_s[0][0]); els[_k]=mk('num',_s); _k+=1; _n+=1
+    assert _n>=8,_n
     number_outline(els)
     return els
