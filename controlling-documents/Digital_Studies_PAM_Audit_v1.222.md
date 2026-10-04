@@ -451,3 +451,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.219 (2026-10-04): Study 20 Scripture-Tracing converted to a KJV table, 18 pages (see Retrofit Plan v1.125).
 - v1.220 (2026-10-04): Held-back KJV table item closed by publisher choice; Studies 21, 25, 28 stay as built (see Retrofit Plan v1.126).
 - v1.221 (2026-10-04): Study 58 hero eyebrow set to the standard form (see Retrofit Plan v1.127).
+- v1.222 (2026-10-04): Study 31 rebuilt at 10 pt from the older source with the retrofit re-applied and the line-232 Rule 19 fix, 19 pages (see Retrofit Plan v1.128).
