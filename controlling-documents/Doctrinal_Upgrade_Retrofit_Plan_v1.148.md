@@ -248,3 +248,4 @@ Working tracker for correcting published studies to the Framework/PAM v1.1, Mast
 - v1.145 (2026-10-04): Study 57 rebuilt at 20 pages (publisher approved 2026-10-04): v1.51 imprint; WYWL/Study Outline/Study Summary real bullets, lead-in, Teaching Outline numbered 1-7; doctrine already conforming. Previews 2, 3, 7 re-rendered; site.js unchanged (57:20).
 - v1.146 (2026-10-04): hanging-indent fix for typed Review numbering — done: 46 (now 22 pages), 49, 54, 55, 57; open: 9, 35, 48, 58 (58 also lacks the v1.51 imprint); Study 60 uses bullets for Review questions.
 - v1.147 (2026-10-04): Review-numbering fix done for 9, 46, 48, 49, 54, 55, 57 (35 build already correct); open: 58 (also needs v1.51 imprint); Study 60 Review set as bullets (publisher question).
+- v1.148 (2026-10-04): Study 56 rebuilt (20 pages, unchanged) for the typed-numbering defect; open in this list: 62, 63, 64 (Teaching Outline), 15, 29, 30, 58, and Study 60 (Review set as bullets).
