@@ -463,3 +463,4 @@ Study 15 PDF not yet supplied. Typography: none of Studies 2, 3, 6, 8 is in EB G
 - v1.231 (2026-10-04): Study 7 rebuilt at 15 pages with v1.51 imprint, five process-bullet What You Will Learn, numbered Teaching Outline, 'Study #7' removed (see Retrofit Plan v1.137).
 - v1.232 (2026-10-04): Study 8 rebuilt at 15 pages with v1.51 imprint, five process-bullet What You Will Learn, numbered Teaching Outline, 'Study #8' removed (see Retrofit Plan v1.138).
 - v1.233 (2026-10-04): Study 10 rebuilt at 23 pages with v1.51 imprint, process-bullet What You Will Learn, numbered Teaching Outline, six Acts 28 conformings plus the seventieth-week sequence sentence (see Retrofit Plan v1.139).
+- v1.234 (2026-10-04): Study 2 rebuilt at 17 pages on the current page size: Rule 19 section 9 rewritten, Rule 18 synagogue wording, Acts 28 conformed with Matthew 24:14 sequence sentence, overlap and Rule 17 sentences added, 5 callouts, v1.51 imprint (see Retrofit Plan v1.140).
