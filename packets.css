@@ -42,3 +42,8 @@
 .packet-search{position:sticky;top:var(--packet-hdr,0px);z-index:50;max-width:none;margin:18px 0 0;padding:10px 0 12px;background:rgba(255,255,255,.98);border-bottom:1px solid #d8d1bf}
 .packet-search input{max-width:520px}
 .packet-testament,#packets-top{scroll-margin-top:calc(var(--packet-hdr,0px) + 130px)}
+
+/* Photo tiles (genre images) */
+.gt{position:relative;aspect-ratio:3/2;background-size:cover;background-position:center 30%;border-top:4px solid #b8871c;box-shadow:0 6px 16px rgba(8,45,69,.18);overflow:hidden;display:flex;align-items:flex-end}.gt:before{content:"";position:absolute;inset:0}.gt.ot:before{background:linear-gradient(to top,rgba(8,32,92,.94) 0%,rgba(11,58,150,.62) 34%,rgba(11,58,150,.12) 62%,rgba(11,58,150,.06) 100%)}.gt.nt:before{background:linear-gradient(to top,rgba(8,44,24,.94) 0%,rgba(15,80,45,.62) 34%,rgba(15,80,45,.12) 62%,rgba(15,80,45,.06) 100%)}.gt.scroll{background-size:125%;background-position:center 100%}.gt-cap{position:relative;padding:8px 10px 9px;width:100%;text-align:left;font-family:Arial,sans-serif}.gt-name{font-size:.86rem;font-weight:700;color:#fff;line-height:1.15}.gt-theme{font-size:.68rem;color:#f1e4bd;font-style:italic;line-height:1.2}
+.packet-hub-grid .packet-hub-card{grid-template-columns:168px 1fr auto}
+@media(max-width:700px){.packet-hub-grid .packet-hub-card{grid-template-columns:1fr}.packet-hub-grid .gt-sm{max-width:240px}}
