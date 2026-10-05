@@ -47,3 +47,24 @@
 .gt{position:relative;aspect-ratio:3/2;background-size:cover;background-position:center 30%;border-top:4px solid #b8871c;box-shadow:0 6px 16px rgba(8,45,69,.18);overflow:hidden;display:flex;align-items:flex-end}.gt:before{content:"";position:absolute;inset:0}.gt.ot:before{background:linear-gradient(to top,rgba(8,32,92,.94) 0%,rgba(11,58,150,.62) 34%,rgba(11,58,150,.12) 62%,rgba(11,58,150,.06) 100%)}.gt.nt:before{background:linear-gradient(to top,rgba(8,44,24,.94) 0%,rgba(15,80,45,.62) 34%,rgba(15,80,45,.12) 62%,rgba(15,80,45,.06) 100%)}.gt.scroll{background-size:125%;background-position:center 100%}.gt-cap{position:relative;padding:8px 10px 9px;width:100%;text-align:left;font-family:Arial,sans-serif}.gt-name{font-size:.86rem;font-weight:700;color:#fff;line-height:1.15}.gt-theme{font-size:.68rem;color:#f1e4bd;font-style:italic;line-height:1.2}
 .packet-hub-grid .packet-hub-card{grid-template-columns:168px 1fr auto}
 @media(max-width:700px){.packet-hub-grid .packet-hub-card{grid-template-columns:1fr}.packet-hub-grid .gt-sm{max-width:240px}}
+
+/* Photo covers: genre image across the top, testament-tinted panel below (packet page hero) */
+.packet-card[data-genre]{position:relative;overflow:hidden;isolation:isolate;justify-content:flex-end;background-color:#0a2566;background-size:100% auto;background-repeat:no-repeat;background-position:center top;color:#fff}
+.packet-card.nt[data-genre]{background-color:#0c3a20}
+.packet-card[data-genre]:before{content:"";position:absolute;inset:0;z-index:-1}
+.packet-card.ot[data-genre]:before{background:linear-gradient(to bottom,rgba(10,37,102,.12) 0%,rgba(10,37,102,.18) 30%,rgba(10,37,102,.82) 46%,#0a2566 56%)}
+.packet-card.nt[data-genre]:before{background:linear-gradient(to bottom,rgba(12,58,32,.12) 0%,rgba(12,58,32,.18) 30%,rgba(12,58,32,.82) 46%,#0c3a20 56%)}
+.packet-card.ot[data-genre],.packet-card.nt[data-genre]{border:0;border-top:6px solid #b8871c}
+.packet-card.nt[data-genre] .pc-kick,.packet-card.nt[data-genre] .pc-foot,.packet-card.nt[data-genre] .pc-testament{color:#e2c47c}
+.packet-card.nt[data-genre] .pc-title{color:#fff}
+.packet-card.nt[data-genre] .pc-sub,.packet-card[data-genre] .pc-sub{color:#f1e4bd}
+.packet-card.nt[data-genre] .pc-rule{background:#b8871c}
+.packet-card[data-genre] .pc-kick{margin-bottom:12px}.packet-card[data-genre] .pc-testament{margin:0 0 14px}.packet-card[data-genre] .pc-foot{margin-top:20px}
+.packet-card[data-genre=law]{background-image:url(assets/genre/packet-genre-law.jpg)}
+.packet-card[data-genre=history]{background-image:url(assets/genre/packet-genre-history.jpg)}
+.packet-card[data-genre=poetry]{background-image:url(assets/genre/packet-genre-poetry.jpg)}
+.packet-card[data-genre=prophets]{background-image:url(assets/genre/packet-genre-prophets.jpg)}
+.packet-card[data-genre=gospels]{background-image:url(assets/genre/packet-genre-gospels.jpg)}
+.packet-card[data-genre=letters]{background-image:url(assets/genre/packet-genre-letters.jpg)}
+.packet-card[data-genre=revelation]{background-image:url(assets/genre/packet-genre-revelation.jpg)}
+@media(max-width:410px){.packet-card[data-genre]{aspect-ratio:auto;padding-top:calc((100vw - 36px)*.667 - 6px)}}
