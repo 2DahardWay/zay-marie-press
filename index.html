@@ -23,6 +23,7 @@
 /* Approved homepage open-Bible hero treatment: visual composition retained, spacing tightened */
 .home-hero{position:relative;overflow:hidden;isolation:isolate;padding:58px 0 50px}
 .home-hero::after{content:"";position:absolute;z-index:-1;top:0;right:0;width:28%;height:100%;background-image:url("assets/home-hero-ecclesiastes-bible.jpg");background-repeat:no-repeat;background-position:center right;background-size:cover;opacity:.58;-webkit-mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.08) 22%,rgba(0,0,0,.45) 52%,#000 82%);mask-image:linear-gradient(to right,transparent 0%,rgba(0,0,0,.08) 22%,rgba(0,0,0,.45) 52%,#000 82%)}
+.home-hero::after{transform:rotate(20deg);transform-origin:center center}
 .home-hero>.wrap{position:relative;z-index:1}
 .home-hero h1{font-size:clamp(2rem,4vw,3.15rem);margin-bottom:17px}
 .home-hero .lead{margin-top:0;margin-bottom:11px}
