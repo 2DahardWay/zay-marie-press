@@ -3,7 +3,7 @@
 Version 1.1 — publisher directive, 2026-10-01. Governs how every Digital Study is classified into one of the five primary catalog categories, and the cover label each category uses. Applies to all current studies and every new study. Each study has exactly one primary category, assigned by its controlling subject. Collections and bundles are separate and unaffected.
 
 ## Binding force (settled; do not re-ask)
-This Standard is final and in force. The 71 assignments below are fixed rulings, not proposals. Claude does not ask the publisher where a study belongs, and does not reopen an assigned study, unless the publisher himself changes it. For a new study, Claude classifies it by the procedure below, places the card and cover label accordingly, and states the category and the one-line reason in its delivery message so the publisher can overrule. Changes to a ruling come only from the publisher, and are logged here with a version bump.
+This Standard is final and in force. The 72 assignments below are fixed rulings, not proposals. Claude does not ask the publisher where a study belongs, and does not reopen an assigned study, unless the publisher himself changes it. For a new study, Claude classifies it by the procedure below, places the card and cover label accordingly, and states the category and the one-line reason in its delivery message so the publisher can overrule. Changes to a ruling come only from the publisher, and are logged here with a version bump.
 
 ## Decision procedure for a new study
 Apply the tests in order. The first test that fits decides the category.
@@ -19,7 +19,7 @@ If two tests fit, the earlier test wins, except that a study titled by a bare pa
 - **Kingdom, covenants, Israel's identity, prophecy, Revelation's program, Messiah's credentials** → Israel & Prophecy: 2, 7, 9, 10, 12, 13, 17, 21, 23, 26, 27, 35, 40, 41, 61, 64, 71.
 - **Mystery, Body identity, beginning, standing, hope, instruction** → Body of Christ: 3, 5, 6, 8, 11, 14, 16, 22, 30, 37, 43, 47, 48, 59.
 - **Single-passage walks** → Passages: 15, 19, 20, 24, 25, 28, 29, 62, 63, 65, 66, 67, 70.
-- **One doctrine or term across passages and programs, including the believer's walk, sanctification and security (44, 45, 46)** → Doctrinal Themes: 1, 31, 33, 34, 42, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 60, 68, 69.
+- **One doctrine or term across passages and programs, including the believer's walk, sanctification and security (44, 45, 46)** → Doctrinal Themes: 1, 31, 33, 34, 42, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 60, 68, 69, 72.
 
 ## Steps whenever a study is added or its category changes
 1. Set the category by the procedure and state it (with one-line reason) in the delivery message.
@@ -63,7 +63,7 @@ Note: the small eyebrow on a card ("Digital Study" or "Biblical Doctrine") is co
 - Covenant methodology = Foundations; covenant content = Israel & Prophecy.
 - Studies 44 (Walking in the Spirit), 45 (Sanctification Under Grace) and 46 (Secure in Christ) are Doctrinal Themes, kept by explicit ruling even though grace instruction and "Pauline commands" also appear in the Body rule.
 
-## Current assignments (71 studies)
+## Current assignments (72 studies)
 
 | Category | Studies | Count |
 |---|---|---|
@@ -71,7 +71,7 @@ Note: the small eyebrow on a card ("Digital Study" or "Biblical Doctrine") is co
 | Israel & Prophecy | 2, 7, 9, 10, 12, 13, 17, 21, 23, 26, 27, 35, 40, 41, 61, 64, 71 | 17 |
 | Body of Christ | 3, 5, 6, 8, 11, 14, 16, 22, 30, 37, 43, 47, 48, 59 | 14 |
 | Passages | 15, 19, 20, 24, 25, 28, 29, 62, 63, 65, 66, 67, 70 | 13 |
-| Doctrinal Themes | 1, 31, 33, 34, 42, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 60, 68, 69 | 20 |
+| Doctrinal Themes | 1, 31, 33, 34, 42, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 60, 68, 69, 72 | 21 |
 
 Publisher rulings of 2026-10-01 applied in this version: 1 Bride of Christ → Doctrinal Themes; 6 and 11 → Body of Christ; 18 Peter and Paul → Foundations; 41 Kingdom of God or Kingdom of Heaven → Israel & Prophecy; 34 Filled Again → Doctrinal Themes; 36 Jews, Gentiles and the Church of God → Foundations; 60 Churches Named in Scripture → Doctrinal Themes; 37 New Creation → Body of Christ (unchanged); 43 Gospel of the Grace of God → Body of Christ; 57 Eternal Purpose of God → Doctrinal Themes (unchanged); 44–46 → Doctrinal Themes; 58 → Foundations; 59 → Body of Christ.
 
@@ -89,3 +89,4 @@ When a study changes category, re-letter its cover in the cover's own style (sam
 ## Version history
 - v1.0 (2026-10-01): First edition, declared final and binding by the publisher; includes the decision procedure, precedents and add-a-study steps. Records the publisher's five category rules, the clarifications above, the further rulings on the ten studies first left open (all 71 now ruled) and the 71 current assignments.
 - v1.1 (2026-10-01): Cover labels corrected: the label is the exact category name (FOUNDATIONS, ISRAEL & PROPHECY, BODY OF CHRIST, PASSAGES, DOCTRINAL THEMES; two-line covers use the catalog heading names). RIGHT DIVISION, PROPHECY, DOCTRINE and BIBLICAL DOCTRINE retired. All covers re-lettered.
+- v1.2 (2026-10-05): Study 72 (The Lord’s Supper) added to Doctrinal Themes by the decision procedure (one practice traced across passages and both programs); no existing ruling changed. Counts: Doctrinal Themes 21; 72 studies in all.
