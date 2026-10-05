@@ -68,3 +68,5 @@
 .packet-card[data-genre=letters]{background-image:url(assets/genre/packet-genre-letters.jpg)}
 .packet-card[data-genre=revelation]{background-image:url(assets/genre/packet-genre-revelation.jpg)}
 @media(max-width:410px){.packet-card[data-genre]{aspect-ratio:auto;padding-top:calc((100vw - 36px)*.667 - 6px)}}
+
+.pk-pages{margin:6px 0 28px;padding:20px 24px;background:#f6f7f2;border:1px solid #d8d1bf;border-left:4px solid #176b3a}.pk-pages h3{margin:0 0 10px;color:#143823;font-size:1.1rem}.pk-pages ol{margin:0;padding-left:22px}.pk-pages li{margin:0 0 7px;line-height:1.5}.pk-pages li strong{color:#143823}
