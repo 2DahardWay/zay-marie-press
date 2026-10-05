@@ -12,6 +12,52 @@
   const sortedGrid = sortedSection.querySelector('.para-grid');
   if (!search || !theme || !sort || !count || !empty || !reset || !suggestions || !browse) return;
 
+  const aliases = {
+    "parable-sower.html": "parable of the sower; sower; four soils; seed and the soils; wayside; stony ground; good ground; seed sown",
+    "parable-01-the-growing-seed.html": "seed growing secretly; seed growing by itself; seed growing in secret; earth bears fruit of itself; blade then the ear; the farmer and the seed; patient farmer",
+    "parable-02-the-mustard-seed-and-the-leaven.html": "grain of mustard seed; mustard seed; mustard tree; leaven; yeast; woman and the leaven; woman hid leaven in three measures of meal; birds in the branches",
+    "parable-03-the-wheat-and-the-weeds.html": "wheat and the tares; tares; weeds; the tares of the field; enemy sowed; darnel; wheat and darnel; good seed and weeds",
+    "parable-04-the-hidden-treasure-and-the-pearl.html": "treasure hidden in a field; hidden treasure; pearl of great price; pearl of great value; costly pearl; merchant seeking pearls",
+    "parable-05-the-dragnet-and-the-instructed-scribe.html": "drag net; fishing net; net cast into the sea; good and bad fish; householder; scribe instructed unto the kingdom; things new and old; old and new treasures",
+    "parable-06-the-two-sons.html": "two sons in the vineyard; father and two sons; work in the vineyard today; son who said no then went; son who said I go sir",
+    "parable-07-the-wicked-tenants.html": "absent landlord; the landlord; wicked husbandmen; wicked vinedressers; vineyard tenants; tenant farmers; the vineyard owner; householder who planted a vineyard; rejected cornerstone",
+    "parable-08-the-wedding-banquet.html": "marriage feast; wedding feast; marriage of the king's son; king's son wedding; wedding garment; many are called few are chosen; marriage supper",
+    "parable-09-the-great-banquet.html": "great supper; the great feast; great dinner; man who made a great supper; the invited guests; excuses; invitation to the feast",
+    "parable-10-the-barren-fig-tree-and-the-generation-s-response.html": "barren fig tree; unfruitful fig tree; fig tree in the vineyard; fig tree and the vinedresser; children in the marketplace; piping and dancing; we piped unto you; sit another year; marketplace",
+    "parable-11-the-new-cloth-and-new-wineskins.html": "new wine in old bottles; new wine in old wineskins; new wine and old wineskins; old garment; patch; new patch on old cloth; unshrunk cloth; wineskins; bottles; fasting question; bridegroom's friends",
+    "parable-12-the-lost-sheep-and-the-lost-coin.html": "ten pieces of silver; ten silver coins; lost piece of silver; lost silver; lost drachma; woman with ten coins; ninety and nine; ninety-nine sheep; one hundred sheep; the shepherd and the sheep; lost and found; the lost sheep; the lost coin",
+    "parable-13-the-lost-son-and-the-elder-brother.html": "prodigal son; the prodigal; lost son; two sons; father and two sons; elder brother; older brother; the loving father; the waiting father; pigs; the fatted calf; younger son; far country",
+    "parable-14-the-good-samaritan.html": "samaritan; the samaritan; man who fell among thieves; man who fell among robbers; who is my neighbour; who is my neighbor; priest and levite; jericho road",
+    "parable-15-the-unforgiving-servant.html": "unmerciful servant; merciless servant; wicked servant; unforgiving debtor; ten thousand talents; hundred pence; hundred denarii; forgive seventy times seven; the king and his servants; settling accounts",
+    "parable-16-the-two-debtors.html": "creditor and two debtors; the creditor; two debtors; moneylender; money lender; five hundred pence; fifty pence; five hundred denarii; forgiven much loves much; simon the pharisee; the sinful woman",
+    "parable-17-the-pharisee-and-the-tax-collector.html": "pharisee and the publican; the publican; publican and the pharisee; pharisee and publican; pharisee and the tax gatherer; tax gatherer; two men went up to the temple to pray; god be merciful to me a sinner; two men who prayed",
+    "parable-18-the-wise-and-foolish-builders.html": "two builders; wise and foolish builder; wise man and foolish man; house on the rock; house on the sand; house built on a rock; house built on sand; wise builder; foolish builder; two houses; hearers and doers",
+    "parable-19-the-rich-fool.html": "rich farmer; foolish rich man; the rich man and his barns; rich man and his barns; barns; bigger barns; this night thy soul shall be required; covetousness; the rich landowner",
+    "parable-20-the-faithful-and-unfaithful-servant.html": "faithful and wise servant; faithful and wise steward; wise steward; faithful steward; faithful servant; evil servant; unfaithful steward; unfaithful servant; steward and the master; servant left in charge; the faithful manager; the wise and foolish servant; master returns",
+    "parable-21-the-talents.html": "parable of the talents; talents; talent; the three servants; ten talents; five talents; two talents; one talent; buried talent; servants and the talents; money entrusted to servants; bags of gold; man traveling to a far country; the master and his servants",
+    "parable-22-the-minas.html": "the pounds; pounds; ten pounds; ten minas; mina; pound; nobleman; the nobleman; ten servants; man of noble birth; a certain nobleman; the ten minas; the king and ten servants; i will not have this man to reign over us; bring hither those mine enemies",
+    "parable-23-the-shrewd-manager.html": "shrewd steward; unjust steward; unrighteous steward; dishonest steward; dishonest manager; unfaithful steward; crafty steward; clever manager; the rich man's steward; the steward's debtors; unrighteous mammon; make friends by unrighteous mammon; a hundred measures of oil",
+    "parable-24-the-rich-man-and-lazarus.html": "lazarus and the rich man; lazarus; dives; beggar lazarus; rich man and the beggar; the rich man in hades; the rich man in hell; abraham's bosom; great gulf fixed; the beggar",
+    "parable-25-the-friend-and-the-persistent-widow.html": "friend at midnight; the friend at midnight; persistent friend; importunate friend; three loaves; persistent widow; the persistent widow; importunate widow; unjust judge; the unjust judge; unrighteous judge; judge and the widow; the widow and the judge; parable of the widow; pray always and not faint; ask seek knock",
+    "parable-26-the-unprofitable-servants.html": "unprofitable servant; unprofitable servants; unworthy servants; worthless servants; the servant's duty; servant at the table; servants duty; plowing servant; we have done that which was our duty to do; the servant and his master; master and servant",
+    "parable-27-the-lowest-seat-and-banquet-invitation.html": "lowest seat; the lowest seat; lowest room; the lowest place; best seats; chief seats; chief rooms; places of honor; places of honour; wedding guest; wedding guests; guests invited to a wedding; take the lowest seat; invite the poor; the humble guest; dinner at a pharisee's house; the banquet invitation",
+    "parable-28-the-tower-and-the-warring-king.html": "counting the cost; count the cost; cost of discipleship; tower builder; man building a tower; building a tower; king going to war; warring king; the two kings; king and ten thousand; two kings at war; unfinished tower; tower",
+    "parable-29-the-laborers-in-the-vineyard.html": "workers in the vineyard; laborers in the vineyard; labourers in the vineyard; vineyard workers; vineyard laborers; the eleventh hour; eleventh hour workers; the last shall be first; householder hired laborers; the generous landowner; the landowner; the vineyard owner; a penny a day; denarius a day; equal pay; the day laborers; day laborers",
+    "parable-30-the-ten-virgins.html": "ten bridesmaids; ten maidens; wise and foolish virgins; five wise and five foolish; five wise virgins; five foolish virgins; the virgins; the bridesmaids; the bridegroom; lamps and oil; oil and lamps; the wise virgins; the foolish virgins; midnight cry",
+    "parable-31-the-sheep-and-the-goats.html": "sheep and goats; the last judgment; judgment of the nations; judgement of the nations; the least of these; least of these my brethren; least of these my brothers; son of man in glory; separating the sheep from the goats; i was hungry and ye gave me meat; hungry and thirsty; the final judgment; the judgment seat of the son of man",
+    "parable-32-the-fig-tree-lesson.html": "lesson of the fig tree; lesson from the fig tree; learn a parable of the fig tree; learn a lesson from the fig tree; the budding fig tree; budding fig tree; fig tree puts forth leaves; fig tree and all the trees; fig tree leaves; summer is near; this generation shall not pass; the fig tree; the fig tree and all the trees; olivet; olivet discourse",
+    "parable-33-the-thief-and-watchful-servants.html": "thief in the night; the thief in the night; the thief; watchful servants; the watchful servants; master of the house; goodman of the house; householder and the thief; the doorkeeper; doorkeeper; servants waiting for their master; waiting servants; servants watching; be ye also ready; the master returns from the wedding; watch and be ready; the burglar; the watchful servant; faithful watchers",
+    "parable-34-the-narrow-door.html": "narrow gate; the narrow gate; strait gate; the strait gate; strive to enter in at the strait gate; shut door; the shut door; master of the house shut the door; few be saved; are there few that be saved; the narrow way; the narrow door; narrow and wide gates; wide gate and narrow gate; depart from me ye workers of iniquity"
+  };
+  // Matching: commas or semicolons separate names (any one may match); within a name, every word must appear.
+  const stop = new Set(['the', 'a', 'an', 'of', 'and', 'in', 'to', 'on', 'parable']);
+  const fold = value => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[’'`]s?\b/g, '').replace(/[–—-]/g, ' ').replace(/[^a-z0-9: ]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const words = value => fold(value).split(' ').filter(word => word && !stop.has(word));
+  const matches = (item, query) => query.split(/[,;]+/).map(words).filter(list => list.length).some(list => {
+    if (list.some(word => /\d/.test(word))) return item.folded.includes(list.join(' '));
+    return list.every(word => item.tokens.some(token => token.startsWith(word) || token.startsWith(word.replace(/s$/, ''))));
+  });
   const groups = [...document.querySelectorAll('.para-group')];
   const cards = [...document.querySelectorAll('.para-card')].map((card, index) => {
     card.id = `parable-result-${index + 1}`;
@@ -28,6 +74,11 @@
       home: card.parentElement,
       searchText: card.dataset.search.toLowerCase().replace(/\s+/g, ' ').trim()
     };
+  }).map(item => {
+    const text = item.searchText.replace(item.group.toLowerCase(), '');
+    item.folded = fold(`${text} ${aliases[item.page] || ''}`);
+    item.tokens = item.folded.split(' ');
+    return item;
   });
   const normalize = value => value.toLowerCase().replace(/\s+/g, ' ').trim();
   let choices = [];
@@ -66,7 +117,7 @@
     for (const item of cards) {
       const visible = (!selectedTheme || item.group === selectedTheme) &&
         (!quick || (quick === 'paired' ? paired.has(item.index) : item.group === quick)) &&
-        (!query || item.searchText.includes(query));
+        (!query || matches(item, query));
       item.card.hidden = !visible;
       if (visible) shown++;
     }
@@ -109,7 +160,7 @@
     if (query.length < 2) { closeSuggestions(); return; }
     choices = cards.filter(item => (!theme.value || item.group === theme.value) &&
       (!quick || (quick === 'paired' ? paired.has(item.index) : item.group === quick)) &&
-      item.searchText.includes(query)).slice(0, 6);
+      matches(item, query)).slice(0, 6);
     if (!choices.length) { closeSuggestions(); return; }
     suggestions.replaceChildren();
     choices.forEach((item, index) => {
