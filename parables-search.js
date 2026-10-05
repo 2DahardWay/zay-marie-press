@@ -86,7 +86,23 @@
   let quick = '';
   const paired = new Set([2, 4, 5, 10, 12, 25, 27, 28]);
 
+  const themeNotes = {
+    'Kingdom reception': 'How hearers respond to the Kingdom word.',
+    'Israel’s response': 'Parables addressing Israel’s leaders and nation.',
+    'Mercy and repentance': 'Stories of divine compassion and human return.',
+    'Discipleship and stewardship': 'Parables shaping the disciple’s conduct.',
+    'Readiness and judgment': 'Final accountability and the coming King.',
+    'paired': 'Two story units with distinct plots and limits.'
+  };
+  const themeNote = document.getElementById('parable-theme-note');
+  function showThemeNote() {
+    const key = quick || theme.value;
+    if (!themeNote) return;
+    themeNote.textContent = themeNotes[key] || '';
+    themeNote.hidden = !themeNotes[key];
+  }
   function syncQuickFilters() {
+    showThemeNote();
     quickFilters.forEach(button => button.setAttribute('aria-pressed', String(
       button.dataset.quickFilter === 'all' ? !quick && !theme.value : button.dataset.quickFilter === quick
     )));
