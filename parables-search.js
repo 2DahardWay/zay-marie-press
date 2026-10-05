@@ -291,6 +291,13 @@
     details.append(label, description);
     item.card.querySelector('.para-passage').after(details);
   });
+  const quickRow = document.querySelector('.para-quick');
+  if (quickRow) {
+    const edge = () => quickRow.classList.toggle('at-end', quickRow.scrollLeft + quickRow.clientWidth >= quickRow.scrollWidth - 4);
+    quickRow.addEventListener('scroll', edge, {passive: true});
+    window.addEventListener('resize', edge);
+    edge();
+  }
   syncQuickFilters();
   arrange();
   filter();
