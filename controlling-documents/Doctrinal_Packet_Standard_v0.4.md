@@ -1,4 +1,4 @@
-# Zay-Marie Press Doctrinal Packet Standard — v0.3
+# Zay-Marie Press Doctrinal Packet Standard — v0.4
 
 Status: DRAFT. Only §7 (Preview Rule) has been explicitly approved by the publisher (2026-09-29). The remaining sections are the working draft used to build the Genesis pilot packet and still await the publisher's full review. Doctrinal Packets are a separate product strand from the Digital Studies; this Standard applies to packets only and never to Digital Studies (Master Standard §16 and §17 govern studies).
 
@@ -40,7 +40,7 @@ A Doctrinal Packet is the paid, interpretive companion to a book's free Bible Bo
 ## 5. Design
 - Typography and colors follow the Digital Studies series, including Slate Blue (#3B6E91) table headers with high-contrast light text (Master Standard §13).
 - Blue text is always the established dark navy.
-- No separate art cover. A typographic title block opens page 1. [OPEN: publisher may want a designed cover; the Master Standard's cover system would then need adapting.]
+- Cover (publisher directive, 2026-10-04): page 1 is a genre cover. A photograph chosen for the book's genre fills the top of the page and fades into a dark panel, deep blue for the Old Testament and deep green for the New Testament, carrying the gold "DOCTRINAL PACKET" label, the testament line, the title in white serif, a short gold rule, the italic subtitle, "ZAY-MARIE PRESS" and "Scripture: King James Version". The same genre photographs run on the packet pages and the hub. The cover is page 1, followed by the 4 content pages (5 pages in all). Replaces the earlier typographic title-block cover.
 
 ## 6. Charts
 Charts are drawn as real tables or diagrams, not arrow strings in text. Every packet includes at least one covenant/promise table and one flow or timeline.
@@ -60,3 +60,6 @@ Charts are drawn as real tables or diagrams, not arrow strings in text. Every pa
 
 ## Genesis pilot (built; approved and live 2026-09-29)
 Verses I would quote (KJV, checked by me against a source): Genesis 1:1; 1:26–27; 3:15; 12:1–3; 12:7; 15:6; 15:18; 17:7–8; 22:16–18; 50:20.
+
+## Version note
+v0.4 (2026-10-04): the cover line in §5 now describes the dark genre cover; all 66 packets carry it. Interior pages 2–5 of all 66 packets were retrofitted to the October 2 doctrinal upgrade and the reader-facing wording rule; website preview images were regenerated from them.
