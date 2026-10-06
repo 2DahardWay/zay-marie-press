@@ -1,6 +1,6 @@
 # Theological Commentary Series Standard
 
-Version 1.0 — publisher directive, 2026-10-06 (FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Theological Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
+Version 1.1 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Theological Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
 
 ## Ruled by the publisher (2026-10-06)
 - **Name:** Theological Commentary Series. Each title is a Commentary Volume.
@@ -48,7 +48,14 @@ Version 1.0 — publisher directive, 2026-10-06 (FINAL: the items marked PROPOSE
 ## Workflow per volume
 1. Topic, thesis and outline approved. 2. Interior draft (PDF review copy). 3. Cover. 4. Bibliography and quotation check. 5. Rule-sync if a rule changes. 6. Website preview. 7. Explicit "i approve" before any push.
 
+## Modern scholarly sources (standing rule, publisher directive 2026-10-06)
+- Every Commentary Volume includes 3–5 modern scholarly voices, quoted accurately and fairly. Claude identifies the commentators, fetches their text, verifies it, quotes only what it can confirm, records full bibliographic details, paraphrases fairly where a quotation cannot be verified, and flags every paraphrase for the publisher's review. The publisher supplies no quotations, page numbers or sources.
+- Authorized pool — Revelation: G. K. Beale, Grant Osborne, Robert Mounce, Craig Koester, David Aune, Buist Fanning, Simon Kistemaker. Daniel: Joyce Baldwin, John Goldingay, Tremper Longman III, Stephen Miller, Iain Duguid. Eschatology/Antichrist: Kim Riddlebarger, Michael Vlach, Paul Benware, John Walvoord, Charles Ryrie.
+- Where a quotation is taken from a page that cites the printed work, the bibliography records both. Short and exact; no reconstruction from memory.
+- Volume 1 price: $14.99. A separate series page is approved (preview before any push).
+
 ## Version history
+- v1.1 (2026-10-06): modern scholarly sources standing rule added; Volume 1 price $14.99 and series page approved. Written into the Framework §XX, Master Standard v1.65 and CLAUDE.md in the same pass.
 - v1.0 (2026-10-06): the PROPOSED items (structure, cover, website, rules 9, 10 and 12 scope, internal-only mode declaration, quotation rule, Volume 1 subtitle and 60-page target) confirmed by the publisher; created from the publisher's rulings of 2026-10-06; Framework §XX and Master Standard v1.64 Rule 29 written in the same pass.
 
 ## Volume 1
