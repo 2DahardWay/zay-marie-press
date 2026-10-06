@@ -1,9 +1,9 @@
 # Digital Studies — Catalog Category Standard
 
-Version 1.5 — publisher directive, 2026-10-01 (assignments through Study 75). Governs how every Digital Study is classified into one of the five primary catalog categories, and the cover label each category uses. Applies to all current studies and every new study. Each study has exactly one primary category, assigned by its controlling subject. Collections and bundles are separate and unaffected.
+Version 1.6 — publisher directive, 2026-10-01 (assignments through Study 76). Governs how every Digital Study is classified into one of the five primary catalog categories, and the cover label each category uses. Applies to all current studies and every new study. Each study has exactly one primary category, assigned by its controlling subject. Collections and bundles are separate and unaffected.
 
 ## Binding force (settled; do not re-ask)
-This Standard is final and in force. The 75 assignments below are fixed rulings, not proposals. Claude does not ask the publisher where a study belongs, and does not reopen an assigned study, unless the publisher himself changes it. For a new study, Claude classifies it by the procedure below, places the card and cover label accordingly, and states the category and the one-line reason in its delivery message so the publisher can overrule. Changes to a ruling come only from the publisher, and are logged here with a version bump.
+This Standard is final and in force. The 76 assignments below are fixed rulings, not proposals. Claude does not ask the publisher where a study belongs, and does not reopen an assigned study, unless the publisher himself changes it. For a new study, Claude classifies it by the procedure below, places the card and cover label accordingly, and states the category and the one-line reason in its delivery message so the publisher can overrule. Changes to a ruling come only from the publisher, and are logged here with a version bump.
 
 ## Decision procedure for a new study
 Apply the tests in order. The first test that fits decides the category.
@@ -18,7 +18,7 @@ If two tests fit, the earlier test wins, except that a study titled by a bare pa
 - **Interpretive method, hermeneutical controls, apostolic and church-identity categories** → Foundations: 4, 18, 32, 36, 38, 39, 58.
 - **Kingdom, covenants, Israel's identity, prophecy, Revelation's program, Messiah's credentials** → Israel & Prophecy: 2, 7, 9, 10, 12, 13, 17, 21, 23, 26, 27, 35, 40, 41, 61, 64, 71, 73, 74.
 - **Mystery, Body identity, beginning, standing, hope, instruction** → Body of Christ: 3, 5, 6, 8, 11, 14, 16, 22, 30, 37, 43, 47, 48, 59.
-- **Single-passage walks** → Passages: 15, 19, 20, 24, 25, 28, 29, 62, 63, 65, 66, 67, 70.
+- **Single-passage walks** → Passages: 15, 19, 20, 24, 25, 28, 29, 62, 63, 65, 66, 67, 70, 76.
 - **One doctrine or term across passages and programs, including the believer's walk, sanctification and security (44, 45, 46)** → Doctrinal Themes: 1, 31, 33, 34, 42, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 60, 68, 69, 72, 75.
 
 ## Steps whenever a study is added or its category changes
@@ -63,14 +63,14 @@ Note: the small eyebrow on a card ("Digital Study" or "Biblical Doctrine") is co
 - Covenant methodology = Foundations; covenant content = Israel & Prophecy.
 - Studies 44 (Walking in the Spirit), 45 (Sanctification Under Grace) and 46 (Secure in Christ) are Doctrinal Themes, kept by explicit ruling even though grace instruction and "Pauline commands" also appear in the Body rule.
 
-## Current assignments (75 studies)
+## Current assignments (76 studies)
 
 | Category | Studies | Count |
 |---|---|---|
 | Foundations | 4, 18, 32, 36, 38, 39, 58 | 7 |
 | Israel & Prophecy | 2, 7, 9, 10, 12, 13, 17, 21, 23, 26, 27, 35, 40, 41, 61, 64, 71, 73, 74 | 19 |
 | Body of Christ | 3, 5, 6, 8, 11, 14, 16, 22, 30, 37, 43, 47, 48, 59 | 14 |
-| Passages | 15, 19, 20, 24, 25, 28, 29, 62, 63, 65, 66, 67, 70 | 13 |
+| Passages | 15, 19, 20, 24, 25, 28, 29, 62, 63, 65, 66, 67, 70, 76 | 14 |
 | Doctrinal Themes | 1, 31, 33, 34, 42, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 60, 68, 69, 72, 75 | 22 |
 
 Publisher rulings of 2026-10-01 applied in this version: 1 Bride of Christ → Doctrinal Themes; 6 and 11 → Body of Christ; 18 Peter and Paul → Foundations; 41 Kingdom of God or Kingdom of Heaven → Israel & Prophecy; 34 Filled Again → Doctrinal Themes; 36 Jews, Gentiles and the Church of God → Foundations; 60 Churches Named in Scripture → Doctrinal Themes; 37 New Creation → Body of Christ (unchanged); 43 Gospel of the Grace of God → Body of Christ; 57 Eternal Purpose of God → Doctrinal Themes (unchanged); 44–46 → Doctrinal Themes; 58 → Foundations; 59 → Body of Christ.
@@ -93,3 +93,4 @@ When a study changes category, re-letter its cover in the cover's own style (sam
 - v1.4 (2026-10-05): Study 74 (The Man of Sin) added to Israel & Prophecy by the decision procedure (test 3, prophetic chronology and Revelation’s prophetic program: the final-ruler, abomination and antichrist passages; test 2 does not apply because the passages are not traced across both programs); no existing ruling changed. Counts: Israel & Prophecy 19; 74 studies in all.
 - v1.3 (2026-10-05): Study 73 (The Davidic Covenant) added to Israel & Prophecy by the decision procedure (test 3, covenant content: the promise to David and its echoes in the Psalms, the prophets and the New Testament); no existing ruling changed. Counts: Israel & Prophecy 18; 73 studies in all.
 - v1.5 (2026-10-05): Study 75 (Faith Before the Cross) added to Doctrinal Themes by the decision procedure (test 2, one doctrinal concept, faith and what was believed, traced across passages and across programs; test 3 does not apply because the study is not a prophetic chronology). No existing ruling changed. Counts: Doctrinal Themes 22; 75 studies in all.
+- v1.6 (2026-10-05): Study 76 (Strength to Stand) added to Passages by the decision procedure (one tight passage, Ephesians 6:10–20, walked verse by verse; the parallels in Isaiah and 1 Thessalonians are set beside it and do not make it a theme study). No existing ruling changed. Counts: Passages 14; 76 studies in all.
