@@ -1,9 +1,9 @@
-# Theological Commentary Series Standard
+# Prophetic Commentary Series Standard
 
-Version 1.1 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Theological Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
+Version 1.2 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Prophetic Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
 
 ## Ruled by the publisher (2026-10-06)
-- **Name:** Theological Commentary Series. Each title is a Commentary Volume.
+- **Name:** Prophetic Commentary Series. Each title is a Commentary Volume.
 - **Scope:** one theme per volume.
 - **Length:** 50–70 pages.
 - **Imprint:** Zay-Marie Press.
@@ -35,11 +35,11 @@ Version 1.1 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 5. Objections and replies, with opponents quoted under the rule above.
 6. Conclusion and a one-page restatement of the position.
 7. Bibliography, then the end imprint (Master Standard §10 wording).
-- Page and type geometry follow Master Standard §6 (page 9677 × 14515 twips, Roboto 10 pt, margins, centred footer line "ZAY-MARIE PRESS THEOLOGICAL COMMENTARY SERIES • N"). Callout boxes and tables are allowed in any number and keep the 7615-twip width and 10 pt spacing.
+- Page and type geometry follow Master Standard §6 (page 9677 × 14515 twips, Roboto 10 pt, margins, centred footer line "ZAY-MARIE PRESS PROPHETIC COMMENTARY SERIES, VOLUME V • N", where V is the volume number and N the page number). Callout boxes and tables are allowed in any number and keep the 7615-twip width and 10 pt spacing.
 - Page count 50–70 including the cover.
 
 ## Cover (PROPOSED)
-- Minimalist geometric design. Upper-right label THEOLOGICAL COMMENTARY. Title, subtitle and bottom line "THEOLOGICAL COMMENTARY SERIES". Claude drafts a written cover brief; the publisher supplies the artwork or approves a typographic geometric cover; 1600 × 2400 and 320 × 480 proofs before integration.
+- Upper-right label "VOLUME V" (V is the volume number); title; bottom line "PROPHETIC COMMENTARY SERIES". The Standard's default is a minimalist geometric design; the publisher may approve other artwork per volume (Volume 1: approved painted cover, below). Claude drafts a written cover brief; the publisher supplies the artwork or approves a typographic geometric cover; 1600 × 2400 and 320 × 480 proofs before integration.
 
 ## Website (PROPOSED)
 - A separate series page and one page per volume, listed outside the Digital Studies catalog, bundles and library count. No site change is made until the publisher approves a rendered preview.
@@ -55,8 +55,9 @@ Version 1.1 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 - Volume 1 price: $14.99. A separate series page is approved (preview before any push).
 
 ## Version history
+- v1.2 (2026-10-06): series renamed Prophetic Commentary Series (was Theological Commentary Series) at the publisher's direction; footer line is "ZAY-MARIE PRESS PROPHETIC COMMENTARY SERIES, VOLUME V • N"; cover carries "VOLUME V" at the upper right and "PROPHETIC COMMENTARY SERIES" at the bottom; Volume 1 cover approved. Written into the Framework §XX, Master Standard v1.66 and CLAUDE.md in the same pass. The earlier lines below keep the name in force when they were written.
 - v1.1 (2026-10-06): modern scholarly sources standing rule added; Volume 1 price $14.99 and series page approved. Written into the Framework §XX, Master Standard v1.65 and CLAUDE.md in the same pass.
 - v1.0 (2026-10-06): the PROPOSED items (structure, cover, website, rules 9, 10 and 12 scope, internal-only mode declaration, quotation rule, Volume 1 subtitle and 60-page target) confirmed by the publisher; created from the publisher's rulings of 2026-10-06; Framework §XX and Master Standard v1.64 Rule 29 written in the same pass.
 
 ## Volume 1
-- The Two Riders of Revelation — The Opening, the Consummation, and the Beast Between Them (publisher's wording, 2026-10-06). Target 60 pages.
+- The Two Riders of Revelation — The Opening, the Consummation, and the Beast Between Them (publisher's wording, 2026-10-06). Review draft 58 pages including the cover (rulings: 58–60). Cover approved 2026-10-06: the publisher's painted artwork, with "VOLUME 1" at the upper right, the title "The Two Riders of Revelation" (changed from "The Two Riders in the Book of Revelation" at the publisher's direction) and "PROPHETIC COMMENTARY SERIES" at the bottom.
