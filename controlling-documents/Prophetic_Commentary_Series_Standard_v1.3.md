@@ -1,6 +1,6 @@
 # Prophetic Commentary Series Standard
 
-Version 1.2 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Prophetic Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
+Version 1.3 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Prophetic Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
 
 ## Ruled by the publisher (2026-10-06)
 - **Name:** Prophetic Commentary Series. Each title is a Commentary Volume.
@@ -51,6 +51,7 @@ Version 1.2 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 ## Modern scholarly sources (standing rule, publisher directive 2026-10-06)
 - Every Commentary Volume includes 3–5 modern scholarly voices, quoted accurately and fairly. Claude identifies the commentators, fetches their text, verifies it, quotes only what it can confirm, records full bibliographic details, paraphrases fairly where a quotation cannot be verified, and flags every paraphrase for the publisher's review. The publisher supplies no quotations, page numbers or sources.
 - Authorized pool — Revelation: G. K. Beale, Grant Osborne, Robert Mounce, Craig Koester, David Aune, Buist Fanning, Simon Kistemaker. Daniel: Joyce Baldwin, John Goldingay, Tremper Longman III, Stephen Miller, Iain Duguid. Eschatology/Antichrist: Kim Riddlebarger, Michael Vlach, Paul Benware, John Walvoord, Charles Ryrie.
+- Extension (publisher directive, 2026-10-06, first applied to Volume 1): Claude may also use other well-known modern writers on the book or theme beyond the pool (for example Hendriksen, Ladd and Michaels on Revelation 6), on the same conditions and only where Claude can verify their words directly (identical wording on two or more fetches, or a page that cites the printed work). Modern writers are preferred to older expositors, who are named in a sentence and not quoted at length. A commentary known only through a published review may be described by its general method with the reviewer cited; no view on a passage is attributed to a writer unless checked words state it. No copyrighted commentary text is reproduced beyond short, exact quotations.
 - Where a quotation is taken from a page that cites the printed work, the bibliography records both. Short and exact; no reconstruction from memory.
 - Volume 1 price: $14.99. A separate series page is approved (preview before any push).
 
@@ -61,3 +62,4 @@ Version 1.2 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 
 ## Volume 1
 - The Two Riders of Revelation — The Opening, the Consummation, and the Beast Between Them (publisher's wording, 2026-10-06). Review draft 58 pages including the cover (rulings: 58–60). Cover approved 2026-10-06: the publisher's painted artwork, with "VOLUME 1" at the upper right, the title "The Two Riders of Revelation" (changed from "The Two Riders in the Book of Revelation" at the publisher's direction) and "PROPHETIC COMMENTARY SERIES" at the bottom.
+- v1.3 (2026-10-06): modern-writers extension added to the scholarly-sources rule. Written into the Framework §XX, Master Standard v1.67 and CLAUDE.md in the same pass.
