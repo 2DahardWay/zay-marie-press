@@ -1,0 +1,27 @@
+C = [
+("h1", "1. The LORD as Husband"),
+("p", "Claim: the prophets give the LORD the title of husband to Israel and speak of Israel as his wife. The figure of marriage in the prophets has names, a place and a history, and every later use of the figure must be read in its light. A reader who wants to know who the bride is must first ask to whom the Husband was married, and the prophets answer that question in so many words."),
+("sub", "1.1 The title is the LORD’s own"),
+("p", "Isaiah does not describe a husband who is a second person beside the God of Israel. He gives the title to the one whose other titles are all in the same verse: “For thy Maker is thine husband; the LORD of hosts is his name; and thy Redeemer the Holy One of Israel” (Isaiah 54:5). The Maker, the Husband, the LORD of hosts, the Redeemer and the Holy One of Israel are one speaker. Jeremiah hears the same voice say, “I am married unto you” (Jeremiah 3:14), and Hosea hears it promise that the wife will say, “Ishi,” which is the word for husband (Hosea 2:16). When a later passage speaks of a bridegroom, the reader is entitled to ask whether it is speaking of the same person. The Gospels will answer that it is."),
+("sub", "1.2 The marriage was made in Israel’s history"),
+("p", "The prophets place the marriage in the past, at the beginning of the nation. Jeremiah is told to cry in the ears of Jerusalem the word of the LORD: “I remember thee, the kindness of thy youth, the love of thine espousals, when thou wentest after me in the wilderness” (Jeremiah 2:2). The espousals are the days of the wilderness, after the deliverance from Egypt. In another place the LORD speaks of the covenant he made when he took the fathers by the hand to bring them out of the land of Egypt, and he adds that they broke it, “although I was an husband unto them” (Jeremiah 31:32). Ezekiel tells the story in the form of a parable of a foundling girl, whom the LORD passed by, looked on and covered: “I sware unto thee, and entered into a covenant with thee, saith the Lord GOD, and thou becamest mine” (Ezekiel 16:8)."),
+("p", "Three things follow. The marriage has a date, and the date is the exodus and the wilderness. It has a partner, and the partner is the nation that came out of Egypt. And it has the form of a covenant, with an oath and a possession: the wife is “mine” by covenant. The marriage figure and the covenant are not two things. The wife is the covenant people, and her name is the name of the people to whom the covenant was given."),
+("tbl", "The table follows the title and the marriage through the prophets.", [
+    ("Isa 54:5", "“For thy Maker is thine husband; the LORD of hosts is his name”", "The title of husband belongs to the Maker and Redeemer of Israel"),
+    ("Jer 2:2", "“I remember thee, the kindness of thy youth, the love of thine espousals”", "The espousals are placed in the wilderness, in Israel’s youth"),
+    ("Jer 3:14", "“Turn, O backsliding children, saith the LORD; for I am married unto you”", "The marriage still stands when the children have gone backward"),
+    ("Jer 31:32", "“although I was an husband unto them, saith the LORD”", "The husband speaks of the time of the exodus covenant"),
+    ("Ezek 16:8", "“I sware unto thee, and entered into a covenant with thee, saith the Lord GOD, and thou becamest mine”", "An oath and a covenant make the wife his own"),
+    ("Hos 2:16", "“thou shalt call me Ishi; and shalt call me no more Baali”", "A word of husband replaces a word of master"),
+  ], [0.15, 0.50, 0.35]),
+("sub", "1.3 The wife has names"),
+("p", "The figure is never left unnamed. The woman is called Jerusalem in Jeremiah 2:2, the house of Israel in Jeremiah 3:20, backsliding Israel and her sister Judah in Jeremiah 3:8, and Zion in Isaiah 62:1. A reader who meets “the wife” in a later book is not asked to guess. The same prophets who use the figure tell the reader to whom it refers, and they tell it again and again, in different centuries and to different hearers. This is the pattern the volume follows through the Scriptures: where a figure is named, the name stays with the figure until a passage itself gives it to another."),
+("p", "The point is a matter of method before it is a matter of doctrine. Many readers meet the word bride first in a hymn or a sermon and then carry the meaning back to the prophets. The order of this volume is the reverse. It begins where the figure begins, with the names the prophets give it, and it asks of every later text whether it keeps those names or changes them."),
+("sub", "1.4 What this chapter does not say"),
+("bul", [
+    "It does not say that marriage is the only figure for Israel’s place before God. Israel is also his flock, his vineyard and his son, and each figure has its own passages.",
+    "It does not say anything yet about the Lamb’s wife in Revelation or about the Body of Christ. It only fixes the starting point: the figure begins with the LORD and Israel.",
+    "It does not say that the title of husband was ever given to the LORD for a people other than Israel in the passages above. No passage in this chapter addresses another people as his wife.",
+  ]),
+("call", "Where the argument stands", "The LORD calls himself the husband of Israel, dates the marriage to the exodus and the wilderness, binds it with an oath and a covenant, and names the wife as Jerusalem, Israel, Judah and Zion. Every later bridal text in the prophets takes up this marriage and this wife."),
+]

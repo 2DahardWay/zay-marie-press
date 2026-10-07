@@ -1,0 +1,27 @@
+C = [
+("h1", "15. Using the Bridal Texts Rightly"),
+("p", "Claim: the position does not take anything away from the Body, and it gives a reader more to say than the other reading allows. It lets Ephesians 5 teach what it teaches, it lets Revelation say what it says, and it keeps the Lord’s faithfulness to Israel in view as the pledge of his faithfulness to every promise. This chapter sets out what the position permits a reader to say and what it asks him to leave unsaid."),
+("sub", "15.1 What a reader may say"),
+("bul", [
+    "That the LORD is the husband of Israel and that he has promised to take her again as his wife for ever (Isaiah 54:5; Hosea 2:19).",
+    "That the marriage of the Lamb in Revelation 19 is the fulfillment of that promise and that the city of Revelation 21 carries the names of Israel’s tribes.",
+    "That Christ loved the church and gave himself for it, that he sanctifies and cleanses it, and that he will present it holy (Ephesians 5:25–27).",
+    "That husbands are to love their wives as Christ loved the church, and that wives are to honor their husbands as unto the Lord (Ephesians 5:22–33).",
+    "That Paul was jealous for the loyalty of those he led to Christ and wished to present them to him as a chaste virgin (2 Corinthians 11:2).",
+    "That the Body is one with Christ as a body is with its head, and that no union is nearer.",
+  ]),
+("sub", "15.2 What a reader should leave unsaid"),
+("bul", [
+    "That the church is “the bride of Christ” as if the words stood in the text. The words that stand are the bride, the Lamb’s wife, a city, and the tribes.",
+    "That Israel has been set aside for good. The prophets say that the wife is put away for a small moment and gathered with great mercies (Isaiah 54:7).",
+    "That Paul’s marriage pictures transfer the wife’s covenant to the Body. They teach the Body, and they leave the title where the prophets placed it.",
+    "That those who hold the other reading are careless of Scripture. They are moved by real truths and by shared words, and the right answer to them is the text.",
+  ]),
+("sub", "15.3 Teaching Ephesians 5 to a marriage"),
+("p", "A pastor who holds this position teaches Ephesians 5:22–33 in full and loses nothing. The husband is the head of the wife as Christ is the head of the church, he loves her as his own body, and he gives himself for her as Christ gave himself for the church. The wife honors her husband as the church is subject to Christ. The passage’s force for a marriage rests on the comparison, and the comparison holds whether or not the church is called the bride. The pastor may add that the passage is about the Body and its Head, and that the Lord’s love for the church is the pattern of the husband’s love."),
+("sub", "15.4 Preaching, singing and the long tradition"),
+("p", "Many hymns call the church the bride of Christ, and many congregations sing them in good faith. A pastor who holds this volume’s position need not interrupt the singing. He can teach the text’s own words, say where the hymn goes beyond them, and let the congregation sing the love and the holiness that the hymn rightly expresses. The aim is to teach the Scriptures plainly and not to mock the singing."),
+("sub", "15.5 The pledge of a faithful husband"),
+("p", "The marriage of the Lamb is a reason for confidence for every believer. A husband who took back a wife who had played the harlot with many lovers, who remembered the love of her espousals and who promised her an everlasting covenant is a husband who keeps his word. If the LORD is faithful to Israel in her unfaithfulness, a reader may trust him in every promise he has made. The Body does not need to be the bride to take comfort from the bride’s husband. It needs only to read the prophets and see what kind of Lord it serves."),
+("call", "Where the argument stands", "The position lets Ephesians 5 teach marriage and Christ’s love for the church, lets Revelation name the wife by her tribes, and keeps the Lord’s faithfulness to Israel in view as the pledge of his faithfulness to every promise. It asks a reader to leave unsaid only what the text does not say."),
+]
