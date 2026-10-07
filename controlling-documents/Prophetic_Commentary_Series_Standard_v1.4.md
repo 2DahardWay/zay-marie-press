@@ -72,3 +72,6 @@ Version 1.4 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 
 ## Volume 4
 - Daniel's Seventy Weeks — The Decree, the Cutting Off, the Gap, and the Last Week (Daniel 9:24–27). 50 pages including the cover, $14.99; cover approved 2026-10-06 (publisher's artwork, with the duplicate title line removed at his direction); page at commentary-04-daniels-seventy-weeks.html. Built under the passage-citation rule (v1.4). Publisher rulings: the count begins with the decree of Artaxerxes to Nehemiah (445 B.C.); Messiah is presented at the end of the sixty-nine weeks and cut off after them; the seventieth week is future, after an unmeasured interval; the prince of 9:26 is the covenant-maker of 9:27.
+
+## Volume 5
+- Armageddon and the Winepress — The Gathering, the Campaign, the Coming, and the End of the Two (Revelation 14, 16 and 19; Isaiah 63). 50 pages including the cover, $14.99; cover approved 2026-10-06 (publisher's artwork, used as supplied); page at commentary-05-armageddon-and-the-winepress.html. Last volume of the series.
