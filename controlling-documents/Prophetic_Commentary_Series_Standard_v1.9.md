@@ -1,9 +1,9 @@
-# Prophetic Commentaries Series Standard
+# Prophetic Commentary Series Standard
 
-Version 1.8 — publisher directive, 2026-10-07 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Prophetic Commentaries Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
+Version 1.9 — publisher directive, 2026-10-07 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Prophetic Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
 
 ## Ruled by the publisher (2026-10-06)
-- **Name:** Prophetic Commentaries Series. Each title is a Commentary Volume.
+- **Name:** Prophetic Commentary Series. Each title is a Commentary Volume.
 - **Scope:** one theme per volume.
 - **Length:** 50–70 pages.
 - **Imprint:** Zay-Marie Press.
@@ -35,11 +35,11 @@ Version 1.8 — publisher directive, 2026-10-07 (v1.0 FINAL: the items marked PR
 5. Objections and replies, with opponents quoted under the rule above.
 6. Conclusion and a one-page restatement of the position.
 7. Bibliography, then the end imprint (Master Standard §10 wording).
-- Page and type geometry follow Master Standard §6 (page 9677 × 14515 twips, Roboto 10 pt, margins, centred footer line "ZAY-MARIE PRESS PROPHETIC COMMENTARIES SERIES, VOLUME V • N", where V is the volume number and N the page number). Callout boxes and tables are allowed in any number and keep the 7615-twip width and 10 pt spacing.
+- Page and type geometry follow Master Standard §6 (page 9677 × 14515 twips, Roboto 10 pt, margins, centred footer line "ZAY-MARIE PRESS PROPHETIC COMMENTARY SERIES, VOLUME V • N", where V is the volume number and N the page number). Callout boxes and tables are allowed in any number and keep the 7615-twip width and 10 pt spacing.
 - Page count 50–70 including the cover.
 
 ## Cover (PROPOSED)
-- Upper-right label "VOLUME V" (V is the volume number); title; bottom line "PROPHETIC COMMENTARIES SERIES". The Standard's default is a minimalist geometric design; the publisher may approve other artwork per volume (Volume 1: approved painted cover, below). Claude drafts a written cover brief; the publisher supplies the artwork or approves a typographic geometric cover; 1600 × 2400 and 320 × 480 proofs before integration.
+- Upper-right label "VOLUME V" (V is the volume number); title; bottom line "PROPHETIC COMMENTARY SERIES". The Standard's default is a minimalist geometric design; the publisher may approve other artwork per volume (Volume 1: approved painted cover, below). Claude drafts a written cover brief; the publisher supplies the artwork or approves a typographic geometric cover; 1600 × 2400 and 320 × 480 proofs before integration.
 
 ## Website (PROPOSED)
 - One page per volume, listed outside the Digital Studies catalog, bundles and library count, and shown with every other commentary series on the Commentary Collection page (`commentary.html`). There is no separate page for a series; the old series addresses redirect to the Collection page. No site change is made until the publisher approves a rendered preview.
@@ -86,3 +86,4 @@ Version 1.8 — publisher directive, 2026-10-07 (v1.0 FINAL: the items marked PR
 
 ## Verse-level Scripture index (publisher directive, 2026-10-07; v1.8)
 Every Commentary Volume carries a verse-level Scripture index titled "Where the Passages Are Read" as its last appendix, after any key-passages appendix and before the Bibliography. One row per passage as the volume cites it, in canonical order, covering the Preface, Thesis, chapters and Conclusion (appendices are not indexed). Columns: Passage; Where it is read (section number and page, "ch. N", Preface, Thesis, Conclusion); and, where a key-passages appendix prints the passage in full, that entry's label (the column is omitted if the volume has no such appendix). Page numbers are the footer numbers of the final PDF and are generated from the rendered PDF and the chapter text, never typed by hand. Any change to a volume's text re-runs the index. The volume's website page states the page count and lists the index among the appendices. Master Standard v1.73, Rule 29.
+- v1.9 (2026-10-07): series name returned to Prophetic Commentary Series (singular) at the publisher's direction, reversing v1.6: the footer reads "ZAY-MARIE PRESS PROPHETIC COMMENTARY SERIES, VOLUME V • N" and the cover bottom line "PROPHETIC COMMENTARY SERIES"; the covers of Volumes 1–5 stand as made. Written into CLAUDE.md and Master Standard v1.74 (Rule 29) in the same pass.

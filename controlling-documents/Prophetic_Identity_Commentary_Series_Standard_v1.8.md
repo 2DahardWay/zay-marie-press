@@ -1,6 +1,6 @@
 # Prophetic Identity Commentary Series Standard
 
-Version 1.7 — publisher directive, 2026-10-07. Governs the Prophetic Identity Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentaries Series Standard (v1.8) and shares its layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own; it follows the modern-sources-only rule (Master Standard v1.69) and, from v1.7, the standing verse-level Scripture index rule (Master Standard v1.73, Rule 29): each volume ends its appendices with "Where the Passages Are Read" (current page counts 56, 60, 56, 54 and 52).
+Version 1.8 — publisher directive, 2026-10-07. Governs the Prophetic Identity Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentary Series Standard (v1.9) and shares its layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own; it follows the modern-sources-only rule (Master Standard v1.69) and, from v1.7, the standing verse-level Scripture index rule (Master Standard v1.73, Rule 29): each volume ends its appendices with "Where the Passages Are Read" (current page counts 56, 60, 56, 54 and 52).
 
 ## Ruled by the publisher (2026-10-06)
 - **Name:** Prophetic Identity Commentary Series. Each title is a Commentary Volume.
@@ -51,7 +51,7 @@ Volumes 2–5 follow the same workflow. Where the Framework is silent on a conte
 1. Topic, thesis and outline approved. 2. Interior draft (PDF and DOCX review copy). 3. Cover. 4. Bibliography and quotation check. 5. Rule-sync if a rule changes. 6. Website preview. 7. Explicit "i approve" before any push. The build toolkit is kept in `build-tools/commentary/`.
 
 ## Cover size and numbering
-- Covers follow the commentary cover size in the Prophetic Commentaries Series Standard v1.6: 1600 × 2400 px artwork, 1024 × 1536 px website covers (.jpg and .webp), full-bleed interior cover page. Volume 1's supplied painted cover is 687 × 1024 px and is flagged for a larger original.
+- Covers follow the commentary cover size in the Prophetic Commentary Series Standard v1.9: 1600 × 2400 px artwork, 1024 × 1536 px website covers (.jpg and .webp), full-bleed interior cover page. Volume 1's supplied painted cover is 687 × 1024 px and is flagged for a larger original.
 - Volumes are numbered 1–5 within this series.
 
 ## Version history
@@ -62,3 +62,4 @@ Volumes 2–5 follow the same workflow. Where the Framework is silent on a conte
 - v1.2 (2026-10-07): no separate series page; the series is shown on the Commentary Collection page.
 - v1.1 (2026-10-07): sibling series renamed Prophetic Commentaries Series; cover-size and per-series numbering lines added; no new rule.
 - v1.0 (2026-10-06): series created from the publisher's rulings; Volume 1 interior and supplied cover approved; modern-sources-only rule (Master Standard v1.69) applies.
+- v1.8 (2026-10-07): sibling series name returned to Prophetic Commentary Series (singular) at the publisher's direction; no change to this series.
