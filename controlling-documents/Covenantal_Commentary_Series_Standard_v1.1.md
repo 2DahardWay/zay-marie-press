@@ -1,0 +1,82 @@
+# Covenantal Commentary Series Standard
+
+Version 1.1 — publisher directive, 2026-10-07. Governs the Covenantal Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself (Master Standard v1.75, Rule 29); it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70) and the verse-level Scripture index rule (v1.73).
+
+## Ruled by the publisher (2026-10-07)
+- **Name:** Covenantal Commentary Series. Each title is a Commentary Volume.
+- **Scope:** four volumes, one theme per volume, each argued from the whole canon.
+- **Length:** 50–70 pages including the cover.
+- **Imprint:** Zay-Marie Press.
+- **Translation:** KJV only.
+- **Typeface:** Roboto.
+- **Price:** $14.99 per volume unless the publisher says otherwise.
+- **Footer:** "ZAY-MARIE PRESS COVENANTAL COMMENTARY SERIES, VOLUME V • N" (V = volume number, N = page number; the page number restarts at 1 on the Table of Contents page).
+- **Cover:** "VOLUME V" at the upper right, the title, and "COVENANTAL COMMENTARY SERIES" at the bottom. Artwork is supplied by the publisher from a written cover brief that Claude drafts; Claude sets the typography to match the existing series covers (gold-and-red Trajan-style title).
+- **Catalog placement:** shown on the Commentary Collection page (`commentary.html`) with the other commentary series, kept outside the Digital Studies catalog, bundles and library count. There is no separate series page.
+
+## The four volumes (order ruled by the publisher, 2026-10-07)
+1. The Abrahamic Covenant. Working title and subtitle to be confirmed with the cover; target about 55 pages including the cover.
+2. Abraham's Seed.
+3. Inheritance.
+4. The Eternal Purpose of God.
+
+Volumes are numbered 1–4 within this series. The publisher decides the themes and their order; Claude does not assume them. Each volume's thesis and outline are approved before drafting. Where the Framework is silent on a contested identity point, Claude asks the publisher for a ruling before drafting it.
+
+### Overlap with other work
+Each theme shares a subject with a Digital Study (Study 17, The Abrahamic Covenant; Study 40, Who Is Abraham's Seed; Study 56, Inheritance; Study 57, The Eternal Purpose of God). The studies are Mode 1 and report the text; the volumes are Mode 2 and argue a position. Never apply a volume's conclusions inside a Digital Study. Volumes 1 and 2 also touch Prophetic Identity Commentary Volumes 3 (The New Covenant) and 4 (The Olive Tree); a Covenantal volume cross-refers to them and does not repeat their argument.
+
+## Volume 1 — The Abrahamic Covenant (thesis and rulings approved 2026-10-07)
+**Thesis.** God made one covenant with Abraham, ratified by oath and by his own passing through the pieces (Genesis 15) and confirmed to Isaac and Jacob. It gives Abraham's line a land, a nation, a name and a blessing that reaches the families of the earth. It is unconditional, and neither Sinai nor Israel's failure annuls it. It is fulfilled for redeemed Israel in the Kingdom. The Body is never made a party to it: the Body has Abraham's faith as a pattern, not Abraham's covenant as an inheritance.
+
+**Outline.** Preface; Thesis; ch. 1 the call and the promise (Genesis 12:1–3; 13:14–17); ch. 2 ratification (Genesis 15; 17; 22:15–18); ch. 3 the terms: land, nation, name and blessing, with the borders of Genesis 15:18–21; ch. 4 an oath that cannot be broken (Genesis 15; Hebrews 6:13–18); ch. 5 reaffirmed to Isaac and Jacob and not annulled by Sinai (Galatians 3:15–18); ch. 6 the covenant remembered in Israel's own scriptures (Psalm 105:8–11; Micah 7:20; Luke 1:72–73; Acts 3:25); ch. 7 fulfillment: the land and the blessing in the Kingdom; ch. 8 what the Body has and does not have, under the principle of no transfer; objections and replies; conclusion with a one-page restatement; appendices (key passages in full; "Where the Passages Are Read"); bibliography and end imprint.
+
+**Rulings (publisher, 2026-10-07, on his "i approve" of the proposed thesis, outline and three proposed rulings):**
+1. Galatians 3:7, 29 ("children of Abraham," "Abraham's seed"): Volume 1 carries only the standing sentence — "The seed is prophetic fulfillment in Christ; the Body receives blessing through Christ alone, not through participation in the Abrahamic covenant." The full argument on the seed belongs to Volume 2.
+2. Romans 4 (Abraham as "father of all them that believe"): read as a pattern of faith for the uncircumcised, not enrolment in the covenant. Rule 19 applies: no later revelation is read back into Abraham's faith, and no shared saving ground is stated.
+3. Genesis 12:3 ("all families of the earth"): read as the nations blessed through Israel's restored line in the Kingdom, not as the Body's blessing.
+
+## Mode and rules
+- Mode 2. Rules 7, 11 and 13–19 bind (program boundaries, identity, salvation architecture, Olive Tree boundaries, Israel and the Body, eternal state, reader-facing wording); Rules 9 and 10 apply where a settled ruling is stated and where the review is made; Rules 8, 12 and 20–28 do not bind.
+- The mode label is a working term. It appears in the working notes and file header, never in the volume, the website copy or the previews. A volume opens with a plain statement that it argues a position and defends it from the whole canon.
+- Every identification of an unnamed figure follows the Identity Synthesis Protocol (canonical evidence, symbol consistency, program assignment, prophetic pattern matched, right division kept, Non-Transfer Principle respected).
+- Doctrinal controls: the Body is never Israel or the remnant; the Body participates in no Israelite covenant (Abrahamic, Mosaic, Davidic or New); Romans 11 receives the full Olive Tree treatment where it is read (participation is not identity, blessing is not covenant, standing is not program membership); salvation is by faith in every program and the content of faith is what God revealed within each program, with no shared saving ground (Rule 19); the Galatians 3 standing sentence above governs every treatment of the seed; the Body is absent from Daniel's seventieth week, Revelation and the Day of the Lord.
+- Reader-facing wording: the words Framework, PAM, Program Assignment, Master Standard, rule numbers, firewall, anchor and the mode labels never appear in the volume, the website copy, any preview or any text inside an image. The non-transfer rule is called "the principle of no transfer" and is defined in the text. Check the text and run an OCR pass over every rendered page, the cover and every preview image.
+
+## Quotation and citation (binding)
+- Scripture is quoted from the KJV only, and every quotation is checked against the KJV text (two independent copies compared, merged into a corpus file, and a script tests every quoted string and table row).
+- Cite by passage (book, chapter, verse or section), not by page. A modern writer is quoted only from words actually read in a free full text (text the publisher supplies, the author's own free articles, or a public-domain book); otherwise the position is described in Claude's own words naming author and work, with no quotation marks. The publisher is never asked to buy, borrow or consult a book. Up to five modern voices, no minimum.
+- Modern sources only (Master Standard v1.69, Rule 29): writers of the twentieth century and later; nothing from before 1900 and no church fathers is cited, quoted or listed, even where public domain.
+- Opponents are quoted accurately and answered from the text; no view is attributed to a writer unless words read state it.
+- The bibliography gives author, title, publisher and year, with a one-line flag only where a view is described and not quoted.
+
+## Structure
+1. Cover (page 1), then a Table of Contents. 2. Preface (the plain statement of what the volume argues). 3. Thesis and the passages it rests on. 4. Argument chapters, each opening with its claim and closing with a callout. 5. Objections and replies. 6. Clause-by-clause tables where useful. 7. Conclusion with a one-table restatement. 8. Appendices, the last being "Where the Passages Are Read". 9. Bibliography, then the end imprint (Master Standard §10 wording, including the KJV sentence).
+- Page and type geometry follow Master Standard §6 (page 9677 × 14515 twips, Roboto 10 pt, margins top 864, bottom 1224, sides 1031; H1 Roboto Bold 17 pt navy #1B3350, 12 pt before and 8 pt after; tables and callouts 7615 twips wide with a 100-twip indent; table header fill #3B6E91; callout fill #E3EDF7 with a 1 pt navy border; 10 pt spacing around tables; no blank spacer paragraphs; the cover is a full-bleed section with no footer).
+
+## Verse-level Scripture index (binding, Master Standard v1.73)
+Every volume ends its appendices with "Where the Passages Are Read", after any key-passages appendix and before the Bibliography: one row per passage as the volume cites it, in canonical order, covering the Preface, Thesis, chapters and Conclusion (appendices are not indexed). Columns: Passage; Where it is read (section N.M with page, "ch. N", Preface, Thesis, Conclusion); and, where a key-passages appendix prints the passage in full, that entry's label (omitted if the volume has none). Page numbers are the footer numbers of the final PDF, generated from the rendered PDF and the chapter text, never typed by hand; the index, the Table of Contents and the page count are settled in the same build. Any change to a volume's text re-runs the index. The volume's website page states the page count and lists the index among the appendices.
+
+## Cover size and numbering
+- Artwork and proofs 1600 × 2400 px (2:3); website covers 1024 × 1536 px as .jpg and .webp; the interior cover page full-bleed at 9677 × 14515 twips. Supplied artwork smaller than 1600 × 2400 is flagged to the publisher and a larger original requested.
+- Remove any "Made with AI" badge. Show 1600 × 2400 and 320 × 480 proofs and wait for the publisher's approval before integrating.
+
+## Website
+- One page per volume (no separate series page; the series is shown on the Commentary Collection page), listed outside the Digital Studies catalog. Preview pages: Table of Contents, the Preface, and two pages of argument, rendered from the final PDF. No site change is pushed until the publisher approves a rendered preview and says "i approve". Checkout stays "Coming Soon" until the publisher enables it.
+
+## Workflow per volume
+1. Thesis and outline approved. 2. Interior draft (PDF and DOCX review copy). 3. Cover brief, then typography and proofs. 4. Build with the toolkit (`build-tools/commentary/`), run the index and TOC page-number refresh, check fonts with `pdffonts` and geometry. 5. Bibliography and quotation check. 6. Rule-sync if a rule changes. 7. Website page and previews, rendered preview shown, volume added to `commentary.html`. 8. Explicit "i approve" before any push; then the light live check (origin/main matches the commit, no wrong-path files, every image and link resolves, the page and tile load live, one phone-width overflow check at about 390 px) and delivery of the final PDF and DOCX.
+
+## Objections chapter (binding, Master Standard v1.76)
+Every volume's objections-and-replies chapter (Chapter 9 in Volume 1) is built in two movements and sits at the same place in each volume, after the chapters that make the case and before the Conclusion.
+1. **Fortify.** Cite **two to four** modern writers or scholars (20th century and later) who support the volume's reading. Each is quoted only from words actually read in a free full text, and is placed where his words bear on the passage in question (in the objection replies, or in a short opening section of the chapter).
+2. **Challenge.** State each serious objection in the words of a **named modern writer** who holds the opposite view, set beside the supporting voices on the same passage, and answer it from Scripture. Where an opposing writer says something the volume agrees with, the reply says so. The opposing voices are as many as the objections require.
+3. **Handling.** Extracts are short, checked quote by quote against the source page, and cited by work or section, not by page. A writer whose words cannot be read in free full text is described in Claude's own words naming author and work, with no quotation marks, and the gap goes on the deferred list. Source lists from a secondary summary are leads only, never evidence of what a writer says.
+4. **Closing table.** A table of objection, voiced by, chief reply and chief passages ends the chapter, and the modern works are listed in the Bibliography.
+This replaces "up to five voices, no minimum" for this series only (minimum two and maximum four supporting writers).
+
+### Volume 1 status (2026-10-07)
+Chapter 9 now has both movements: three supporting writers (Harris, Fruchtenbaum, S. Lewis Johnson) and four opposing writers (Wright, Piper, Kline, Horton), each read from a free full text and every extract verified against the page. The chapter says openly where a supporting writer differs from the volume (Fruchtenbaum on the church sharing the covenants' spiritual blessings). Sproul and Robertson were requested but no free full text was found (deferred list v1.6, item 13).
+
+## Version history
+- v1.0 (2026-10-07): series created from the publisher's rulings: four volumes in the order The Abrahamic Covenant, Abraham's Seed, Inheritance, The Eternal Purpose of God; footer, cover, price and placement set; Volume 1 thesis, outline and three rulings recorded. Written into CLAUDE.md and Master Standard v1.75 (Rule 29) in the same pass; the Framework §XX wording is supplied to the publisher.
+- v1.1 (2026-10-07): adds the objections chapter standard (two to four supporting modern writers set beside named modern opponents, each objection answered from Scripture), written with Master Standard v1.76; Volume 1 Chapter 9 built out on the opposing side.
