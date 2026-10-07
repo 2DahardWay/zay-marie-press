@@ -1,6 +1,6 @@
 # Covenantal Commentary Series Standard
 
-Version 1.2 — publisher directive, 2026-10-07. Governs the Covenantal Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself (Master Standard v1.75, Rule 29); it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70) and the verse-level Scripture index rule (v1.73).
+Version 1.3 — publisher directive, 2026-10-07. Governs the Covenantal Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself (Master Standard v1.75, Rule 29); it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70) and the verse-level Scripture index rule (v1.73).
 
 ## Ruled by the publisher (2026-10-07)
 - **Name:** Covenantal Commentary Series. Each title is a Commentary Volume.
@@ -91,6 +91,7 @@ This replaces "up to five voices, no minimum" for this series only (minimum two 
 Chapter 9 now has both movements: three supporting writers (Harris, Fruchtenbaum, S. Lewis Johnson) and four opposing writers (Wright, Piper, Kline, Horton), each read from a free full text and every extract verified against the page. The chapter says openly where a supporting writer differs from the volume (Fruchtenbaum on the church sharing the covenants' spiritual blessings). Sproul and Robertson were requested but no free full text was found (deferred list v1.6, item 13).
 
 ## Version history
+- v1.3 (2026-10-07): Volume 3, Inheritance: interior (55 pages including the cover, nine chapters, Appendices A–F with 51 key passages in full) and supplied cover approved; page `commentary-covenantal-03-inheritance.html`.
 - v1.2 (2026-10-07): Volume 2, Abraham's Seed: thesis, outline and four rulings recorded.
 - v1.0 (2026-10-07): series created from the publisher's rulings: four volumes in the order The Abrahamic Covenant, Abraham's Seed, Inheritance, The Eternal Purpose of God; footer, cover, price and placement set; Volume 1 thesis, outline and three rulings recorded. Written into CLAUDE.md and Master Standard v1.75 (Rule 29) in the same pass; the Framework §XX wording is supplied to the publisher.
 - v1.1 (2026-10-07): adds the objections chapter standard (two to four supporting modern writers set beside named modern opponents, each objection answered from Scripture), written with Master Standard v1.76; Volume 1 Chapter 9 built out on the opposing side.
@@ -101,3 +102,28 @@ Chapter 9 now has both movements: three supporting writers (Harris, Fruchtenbaum
 Interior drafted and built: 50 pages including the cover, nine chapters, Appendices A–F (Appendix E prints 31 key passages in full; Appendix F is the verse-level index), Roboto only. KJV quotations checked against the Gutenberg KJV text (no mismatches); modern-writer quotations checked against free full texts (Wright at ntwrightpage.com, Johnson, Riccardi and Pratt as free PDFs; Piper, Kline and Horton from the Volume 1 notes). Cover: the publisher's painted artwork, enlarged with Upscayl by the publisher and set at 1600 × 2400 (website 1024 × 1536); approved 2026-10-07. Page `commentary-covenantal-02-abrahams-seed.html`, tile on the Commentary Collection, sitemap entry. Checkout stays "Coming Soon".
 
 Deferred to the pre-launch audit: re-read all quoted sources; second KJV copy for cross-checking; Sproul and Robertson still without free full text; Kline is cited from a third-party reproduction.
+
+
+## Volume 3 — Inheritance (thesis, outline and six rulings approved 2026-10-07)
+**Working subtitle.** What Abraham’s Line Was Given to Possess, and Who Receives What.
+
+**Thesis.** The inheritance God promised Abraham is first a land, from the river of Egypt to the Euphrates (Genesis 15:18–21). He gave it to Abraham’s line by oath, not by law (Galatians 3:18), and it is secured by an heir, Christ, who is “heir of all things” (Hebrews 1:2). Israel has held only part of it. The promise is kept when redeemed Israel possesses the land for ever in the Kingdom. The Body of Christ has an inheritance of its own, in Christ and in the heavenly places, received as sons (Ephesians 1:11–14, 18; Colossians 1:12). It does not inherit Israel’s land, and Israel does not inherit the Body’s; neither inheritance is passed to the other (the principle of no transfer).
+
+**Outline.** Preface; Thesis; ch. 1 What “Inheritance” Means; ch. 2 The Land Promised (Genesis 12:7; 13:14–17; 15:7, 18–21; 17:8); ch. 3 Possessed in Part, Promised in Full (Joshua 13:1; 21:43–45; Judges; 1 Kings 4:21; Nehemiah 9:8); ch. 4 Held by Oath, Not by Law (Leviticus 26:40–45; Deuteronomy 30:1–10; Ezekiel 36:24–28; 37:25); ch. 5 The Heir of All Things (Psalm 2:8; Hebrews 1:2; Romans 4:13); ch. 6 The Kingdom Inheritance (Psalm 37; Matthew 5:5; 25:34; Isaiah 60:21; Ezekiel 47:13–48; Amos 9:15); ch. 7 The Hope of the Fathers (Acts 7:5; Hebrews 11:8–16, 39–40; 1 Peter 1:4); ch. 8 The Body’s Inheritance (Romans 8:17; Galatians 3:29; 4:7; Ephesians 1:11–18; Colossians 1:12; 3:24; Titus 3:7); ch. 9 Objections and Replies; Conclusion; Appendices A–F (F the verse index); Bibliography.
+
+**Rulings (publisher, 2026-10-07, on his “i approve”):**
+1. Romans 4:13, “heir of the world”: Abraham’s promise, fulfilled in the Kingdom through Israel’s restored line (Genesis 12:3, as in Volume 1); not an inheritance promised to the Body.
+2. Galatians 3:29, “heirs according to the promise”: the promise of the Spirit and sonship (as ruled in Volume 2), not the land.
+3. Hebrews 11:8–16, the “better country” and the city: the land and city of the Kingdom (Hebrews 12:22; Revelation 21), where the fathers’ hope is fulfilled; the land is not replaced by heaven or turned into an image of heaven.
+4. Matthew 5:5, “inherit the earth,” and 25:34: the Kingdom inheritance of Israel’s believing company.
+5. 1 Peter 1:4, “reserved in heaven for you”: the letter is addressed to the dispersion (1:1); Israel’s believing company, not the Body’s inheritance.
+6. Romans 8:17 and Ephesians 1:11–18, “joint-heirs” and the “inheritance in the saints”: the Body’s, received in Christ, not covenant land.
+
+**Modern voices for Chapter 9.** Supporting: Arnold Fruchtenbaum, Gregory Harris and S. Lewis Johnson (free full texts read for Volume 1). Opposing: N. T. Wright, John Piper, Meredith Kline and Michael Horton (same sources). Gary Burge on the land is described in Claude’s own words only, if at all, unless a free full text is found.
+
+
+## Volume 3 status (2026-10-07)
+
+Interior drafted and built: 55 pages including the cover, nine chapters, Appendices A–F (Appendix E prints 51 key passages in full; Appendix F is the verse-level index), Roboto only. KJV quotations checked against the full KJV text (one lead-in corrected); modern quotations checked against the source notes. The publisher’s supplied cover (2748 × 4096, trimmed to 2:3 and set at 1600 × 2400 and 1024 × 1536) and the website package were approved 2026-10-07. Chapter 9 sets Fruchtenbaum, Harris and Johnson beside Wright, Piper, Kline and Horton; Fruchtenbaum’s statement that the Church enjoys the spiritual blessings of the covenants, not the material ones, is disclosed there as differing from the volume. Cover note: the tablet shows Hebrew-looking letters that are not real Hebrew; the publisher kept it as supplied.
+
+Deferred to the pre-launch audit: the Volume 2 items above also apply to Volume 3; Kline is cited from a third-party reproduction; a script cross-check of Volume 3 against a second KJV copy.
