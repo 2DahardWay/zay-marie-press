@@ -1,4 +1,4 @@
-# Pre-Launch Audit — Deferred Items (v1.3, 2026-10-07)
+# Pre-Launch Audit — Deferred Items (v1.4, 2026-10-07)
 
 Working list for the one full website audit before the site opens to the public (Master Standard v1.72, Section 14, Stage 9). While the site is not public, each push gets the light per-integration check; items below are noticed but not yet fixed, or fixed only in part, and wait for the audit. Add to this list as items are found; bump the version and rename the file as it changes. Working record, not a rule.
 
@@ -9,7 +9,7 @@ Working list for the one full website audit before the site opens to the public 
 - OCR pass over preview images for working terms (Master Standard Section 20, Rule 14).
 
 ## Known items
-1. Larger originals: Prophetic Identity Commentary Series Volumes 1, 2, 3, 4 and 5 covers are 687 × 1024 px, interpolation-upscaled to 1600 × 2400 and 1024 × 1536; replace with 1600 × 2400 originals when the publisher can supply them.
+1. (Closed 2026-10-07, accepted by the publisher) Prophetic Identity Commentary Series Volumes 1–5 covers stay at the supplied 687 × 1024 px, enlarged to 1600 × 2400 and 1024 × 1536. On the site they render at about 387 css px wide (a 1.13× stretch on a 2× screen); only a 3× phone or a printed cover would show softness. Replace only if larger originals are ever generated.
 2. (Closed 2026-10-07) The series name returned to Prophetic Commentary Series, so the existing covers and footers need no re-lettering.
 3. (Closed 2026-10-07) Pre-1900 authors removed from Prophetic Commentary Series Volumes 1, 3, 4 and 5 (Volume 1 is now 65 pages); see the Series Standard v1.10.
 4. Commentary Collection hub ideas offered, not approved: an “Available now” row; price and page count on live tiles; shorter placeholder titles; a notify-me link; a fit-to-screen option in the preview lightbox.
