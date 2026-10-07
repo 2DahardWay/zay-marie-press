@@ -1,6 +1,6 @@
 # Prophetic Commentaries Series Standard
 
-Version 1.7 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Prophetic Commentaries Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
+Version 1.8 — publisher directive, 2026-10-07 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Prophetic Commentaries Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
 
 ## Ruled by the publisher (2026-10-06)
 - **Name:** Prophetic Commentaries Series. Each title is a Commentary Volume.
@@ -82,3 +82,7 @@ Version 1.7 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 
 ## Volume 5
 - Armageddon and the Winepress — The Gathering, the Campaign, the Coming, and the End of the Two (Revelation 14, 16 and 19; Isaiah 63). 50 pages including the cover, $14.99; cover approved 2026-10-06 (publisher's artwork, used as supplied); page at commentary-05-armageddon-and-the-winepress.html. Last volume of the series.
+
+
+## Verse-level Scripture index (publisher directive, 2026-10-07; v1.8)
+Every Commentary Volume carries a verse-level Scripture index titled "Where the Passages Are Read" as its last appendix, after any key-passages appendix and before the Bibliography. One row per passage as the volume cites it, in canonical order, covering the Preface, Thesis, chapters and Conclusion (appendices are not indexed). Columns: Passage; Where it is read (section number and page, "ch. N", Preface, Thesis, Conclusion); and, where a key-passages appendix prints the passage in full, that entry's label (the column is omitted if the volume has no such appendix). Page numbers are the footer numbers of the final PDF and are generated from the rendered PDF and the chapter text, never typed by hand. Any change to a volume's text re-runs the index. The volume's website page states the page count and lists the index among the appendices. Master Standard v1.73, Rule 29.
