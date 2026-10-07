@@ -9,7 +9,7 @@ Working list for the one full website audit before the site opens to the public 
 - OCR pass over preview images for working terms (Master Standard Section 20, Rule 14).
 
 ## Known items
-1. Larger originals: Prophetic Identity Commentary Series Volumes 1 and 2 covers are 687 × 1024 px, interpolation-upscaled to 1600 × 2400 and 1024 × 1536; replace with 1600 × 2400 originals when the publisher can supply them.
+1. Larger originals: Prophetic Identity Commentary Series Volumes 1, 2 and 3 covers are 687 × 1024 px, interpolation-upscaled to 1600 × 2400 and 1024 × 1536; replace with 1600 × 2400 originals when the publisher can supply them.
 2. Prophetic Commentaries Series covers and interior footers still read “PROPHETIC COMMENTARY SERIES”; re-letter to “PROPHETIC COMMENTARIES SERIES” (needs the original art or source files).
 3. Prophetic Commentaries Volume 1 cites authors from before 1900, which the modern-sources-only rule (Master Standard v1.69) does not allow; revise when the volume is reopened.
 4. Commentary Collection hub ideas offered, not approved: an “Available now” row; price and page count on live tiles; shorter placeholder titles; a notify-me link; a fit-to-screen option in the preview lightbox.

@@ -55,6 +55,7 @@ Volumes 2–5 follow the same workflow. Where the Framework is silent on a conte
 - Volumes are numbered 1–5 within this series.
 
 ## Version history
+- v1.4 (2026-10-07): Volume 3 (The New Covenant) interior (50 pages) and supplied cover (687 × 1024 px, flagged for a larger original) approved; page `commentary-identity-03-the-new-covenant.html`; subtitle “Promised to Israel, Ratified at the Cross, Awaiting Its Day”; rulings recorded: one new covenant, made with Israel; ratified at the cross and not carried out in the Acts, awaiting Israel’s restoration; Hebrews read as a letter to Hebrews, the Body having the blood without being a party; no new rule.
 - v1.3 (2026-10-07): Volume 2 (The Remnant) interior and supplied cover approved; rulings recorded; no new rule.
 - v1.2 (2026-10-07): no separate series page; the series is shown on the Commentary Collection page.
 - v1.1 (2026-10-07): sibling series renamed Prophetic Commentaries Series; cover-size and per-series numbering lines added; no new rule.
