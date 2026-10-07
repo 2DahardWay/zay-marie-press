@@ -1,6 +1,6 @@
 # Covenantal Commentary Series Standard
 
-Version 1.1 — publisher directive, 2026-10-07. Governs the Covenantal Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself (Master Standard v1.75, Rule 29); it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70) and the verse-level Scripture index rule (v1.73).
+Version 1.2 — publisher directive, 2026-10-07. Governs the Covenantal Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself (Master Standard v1.75, Rule 29); it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70) and the verse-level Scripture index rule (v1.73).
 
 ## Ruled by the publisher (2026-10-07)
 - **Name:** Covenantal Commentary Series. Each title is a Commentary Volume.
@@ -34,6 +34,19 @@ Each theme shares a subject with a Digital Study (Study 17, The Abrahamic Covena
 1. Galatians 3:7, 29 ("children of Abraham," "Abraham's seed"): Volume 1 carries only the standing sentence — "The seed is prophetic fulfillment in Christ; the Body receives blessing through Christ alone, not through participation in the Abrahamic covenant." The full argument on the seed belongs to Volume 2.
 2. Romans 4 (Abraham as "father of all them that believe"): read as a pattern of faith for the uncircumcised, not enrolment in the covenant. Rule 19 applies: no later revelation is read back into Abraham's faith, and no shared saving ground is stated.
 3. Genesis 12:3 ("all families of the earth"): read as the nations blessed through Israel's restored line in the Kingdom, not as the Body's blessing.
+
+## Volume 2 — Abraham's Seed (thesis, outline and four rulings approved 2026-10-07)
+**Working subtitle.** Who the Seed Is, and Who It Is Not.
+
+**Thesis.** "Seed" in the Abraham promises names a line, and Scripture follows that line: Isaac, Jacob, Israel, David's house and Christ. Christ is the singular Seed in whom the promise is fulfilled (Galatians 3:16). The Body is counted as Abraham's seed only because it belongs to Christ (Galatians 3:29); it receives the blessing through him and not through a place in Israel's covenant. The Body is never made Israel, and no Israelite covenant passes to it.
+
+**Outline.** Preface; Thesis; ch. 1 what "seed" means in Genesis (3:15; 12:7; 13:15–16; 15:5; 17:7; 22:17–18); ch. 2 Isaac and Jacob, the line chosen (Genesis 17:19–21; 21:12; 28:13–14; Romans 9:6–13); ch. 3 Israel as the seed in the prophets (Psalm 105:6; Isaiah 41:8; 44:3; Jeremiah 31:35–37; 33:25–26); ch. 4 the King from the seed (2 Samuel 7:12; Psalm 89:3–4, 36; Luke 1:32–33, 55); ch. 5 the Seed is Christ (Galatians 3:16–19; Acts 3:25–26); ch. 6 "then are ye Abraham's seed" (Galatians 3:26–29; 3:14); ch. 7 Abraham the father of believers (Romans 4:9–17; 9:6–8); ch. 8 who is not the seed (Galatians 6:16; Romans 2:28–29; John 8:33–44); ch. 9 objections and replies (two to four supporting modern writers beside named modern opponents); conclusion; appendices A–F (the last "Where the Passages Are Read"); bibliography.
+
+**Rulings (publisher, 2026-10-07, "i approve" of the outline and the four proposed rulings):**
+1. Galatians 3:29, "heirs according to the promise": the promise is the Spirit (3:14); the standing Galatians 3 sentence governs. It is not the land or the nation.
+2. Galatians 6:16, "the Israel of God": believing Israelites, not the Body.
+3. Romans 4:16, "all the seed": Abraham is father of the uncircumcised as a pattern of faith (as ruled for Romans 4 in Volume 1).
+4. Galatians 4:26, 28: follow the reading in Prophetic Identity Commentary Volume 5 and cross-refer to it, without repeating that argument.
 
 ## Mode and rules
 - Mode 2. Rules 7, 11 and 13–19 bind (program boundaries, identity, salvation architecture, Olive Tree boundaries, Israel and the Body, eternal state, reader-facing wording); Rules 9 and 10 apply where a settled ruling is stated and where the review is made; Rules 8, 12 and 20–28 do not bind.
@@ -78,5 +91,13 @@ This replaces "up to five voices, no minimum" for this series only (minimum two 
 Chapter 9 now has both movements: three supporting writers (Harris, Fruchtenbaum, S. Lewis Johnson) and four opposing writers (Wright, Piper, Kline, Horton), each read from a free full text and every extract verified against the page. The chapter says openly where a supporting writer differs from the volume (Fruchtenbaum on the church sharing the covenants' spiritual blessings). Sproul and Robertson were requested but no free full text was found (deferred list v1.6, item 13).
 
 ## Version history
+- v1.2 (2026-10-07): Volume 2, Abraham's Seed: thesis, outline and four rulings recorded.
 - v1.0 (2026-10-07): series created from the publisher's rulings: four volumes in the order The Abrahamic Covenant, Abraham's Seed, Inheritance, The Eternal Purpose of God; footer, cover, price and placement set; Volume 1 thesis, outline and three rulings recorded. Written into CLAUDE.md and Master Standard v1.75 (Rule 29) in the same pass; the Framework §XX wording is supplied to the publisher.
 - v1.1 (2026-10-07): adds the objections chapter standard (two to four supporting modern writers set beside named modern opponents, each objection answered from Scripture), written with Master Standard v1.76; Volume 1 Chapter 9 built out on the opposing side.
+
+
+## Volume 2 status (2026-10-07)
+
+Interior drafted and built: 50 pages including the cover, nine chapters, Appendices A–F (Appendix E prints 31 key passages in full; Appendix F is the verse-level index), Roboto only. KJV quotations checked against the Gutenberg KJV text (no mismatches); modern-writer quotations checked against free full texts (Wright at ntwrightpage.com, Johnson, Riccardi and Pratt as free PDFs; Piper, Kline and Horton from the Volume 1 notes). Cover: the publisher's painted artwork, enlarged with Upscayl by the publisher and set at 1600 × 2400 (website 1024 × 1536); approved 2026-10-07. Page `commentary-covenantal-02-abrahams-seed.html`, tile on the Commentary Collection, sitemap entry. Checkout stays "Coming Soon".
+
+Deferred to the pre-launch audit: re-read all quoted sources; second KJV copy for cross-checking; Sproul and Robertson still without free full text; Kline is cited from a third-party reproduction.
