@@ -1,6 +1,6 @@
 # Prophetic Identity Commentary Series Standard
 
-Version 1.2 — publisher directive, 2026-10-06. Governs the Prophetic Identity Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentaries Series Standard (v1.7) and shares its layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule, so no rule-sync is needed for it; the modern-sources-only rule it follows is already in CLAUDE.md and Master Standard v1.69.
+Version 1.3 — publisher directive, 2026-10-07. Governs the Prophetic Identity Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentaries Series Standard (v1.7) and shares its layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule, so no rule-sync is needed for it; the modern-sources-only rule it follows is already in CLAUDE.md and Master Standard v1.69.
 
 ## Ruled by the publisher (2026-10-06)
 - **Name:** Prophetic Identity Commentary Series. Each title is a Commentary Volume.
@@ -16,7 +16,7 @@ Version 1.2 — publisher directive, 2026-10-06. Governs the Prophetic Identity 
 
 ## The five volumes
 1. The Bride Identity in Prophecy (title as typed by the publisher; subtitle: The Wife of the LORD, the Wife of the Lamb, and the Marriage Pattern Paul Teaches the Body). Interior approved 2026-10-06; 51 pages including the cover; supplied painted cover approved.
-2. The Remnant.
+2. The Remnant (subtitle: The Preserved Israel of Prophecy, from Elijah’s Seven Thousand to the Kingdom). Interior and supplied cover approved 2026-10-07; 54 pages including the cover; $14.99. Settled rulings: Paul in Romans 11:1 is a historical sign and a member of the Body, not of the remnant, and the remnant of Romans 11:5 is the believing Israelite company of his day; the elect of Matthew 24:22, 24, 31 are Israel’s elect and the gathering of 24:31 is Israel’s regathering; the great multitude of Revelation 7:9 is Gentile tribulation saints, distinct from the remnant, the 144,000 and the Body; the remnant of her seed (Revelation 12:17) is the rest of Israel’s believing company, separate from the male child, who is the 144,000. Page: commentary-identity-02-the-remnant.html.
 3. The New Covenant.
 4. The Olive Tree.
 5. The Eschatological Community (New Jerusalem).
@@ -55,6 +55,7 @@ Volumes 2–5 follow the same workflow. Where the Framework is silent on a conte
 - Volumes are numbered 1–5 within this series.
 
 ## Version history
+- v1.3 (2026-10-07): Volume 2 (The Remnant) interior and supplied cover approved; rulings recorded; no new rule.
 - v1.2 (2026-10-07): no separate series page; the series is shown on the Commentary Collection page.
 - v1.1 (2026-10-07): sibling series renamed Prophetic Commentaries Series; cover-size and per-series numbering lines added; no new rule.
 - v1.0 (2026-10-06): series created from the publisher's rulings; Volume 1 interior and supplied cover approved; modern-sources-only rule (Master Standard v1.69) applies.
