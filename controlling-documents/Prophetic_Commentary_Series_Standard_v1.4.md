@@ -24,7 +24,7 @@ Version 1.4 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 ## Quotation of opponents (binding)
 - A quotation of an opposing author is used only from a source the publisher has supplied or that Claude has checked against the source (author, work, edition and page recorded). Quotations are short and exact, set in quotation marks and credited in the text and the bibliography.
 - A view is attributed to an opponent only where the source states it. No view is put in an opponent's mouth, and no quotation is invented, reconstructed from memory or trimmed so as to change its sense.
-- Where a source cannot be checked, the volume paraphrases the position fairly, names the tradition rather than the author, and the the volume does not open a verification task for the publisher.
+- Where a source cannot be checked, the volume paraphrases the position fairly, names the tradition rather than the author, and the volume does not open a verification task for the publisher.
 - Scripture is quoted from the KJV only, and every quotation is checked against the KJV text.
 
 ## Structure (PROPOSED)
@@ -69,3 +69,6 @@ Version 1.4 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 
 ## Volume 3
 - The Scarlet Beast and the Woman — The Coalition, the Seven Kings and the City That Rides (Revelation 17). 55 pages including the cover, $14.99; cover approved 2026-10-06 (publisher's artwork); page live at commentary-03-scarlet-beast-woman.html. First volume built under the passage-citation rule (v1.4): quotations located by passage, no unconfirmed page numbers.
+
+## Volume 4
+- Daniel's Seventy Weeks — The Decree, the Cutting Off, the Gap, and the Last Week (Daniel 9:24–27). 50 pages including the cover, $14.99; cover approved 2026-10-06 (publisher's artwork, with the duplicate title line removed at his direction); page at commentary-04-daniels-seventy-weeks.html. Built under the passage-citation rule (v1.4). Publisher rulings: the count begins with the decree of Artaxerxes to Nehemiah (445 B.C.); Messiah is presented at the end of the sixty-nine weeks and cut off after them; the seventieth week is future, after an unmeasured interval; the prince of 9:26 is the covenant-maker of 9:27.
