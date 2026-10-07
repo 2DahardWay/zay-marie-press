@@ -19,10 +19,10 @@ if (toggle && nav) {
     else if (seriesLink) seriesLink.insertAdjacentElement('afterend', courseLink);
     else nav.appendChild(courseLink);
   }
-  if (!nav.querySelector('a[href="prophetic-commentary-series.html"]')) {
+  if (!nav.querySelector('a[href="commentary.html"]')) {
     const seriesAnchor = nav.querySelector('a[href="series.html"]');
     const commentaryLink = document.createElement('a');
-    commentaryLink.href = 'prophetic-commentary-series.html';
+    commentaryLink.href = 'commentary.html';
     commentaryLink.textContent = 'COMMENTARY';
     if (seriesAnchor) seriesAnchor.insertAdjacentElement('afterend', commentaryLink); else nav.appendChild(commentaryLink);
   }
