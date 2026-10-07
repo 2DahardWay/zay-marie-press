@@ -1,6 +1,6 @@
 # Prophetic Commentaries Series Standard
 
-Version 1.6 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Prophetic Commentaries Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
+Version 1.7 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PROPOSED were confirmed by the publisher on 2026-10-06). Governs the Prophetic Commentaries Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them.
 
 ## Ruled by the publisher (2026-10-06)
 - **Name:** Prophetic Commentaries Series. Each title is a Commentary Volume.
@@ -42,7 +42,7 @@ Version 1.6 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 - Upper-right label "VOLUME V" (V is the volume number); title; bottom line "PROPHETIC COMMENTARIES SERIES". The Standard's default is a minimalist geometric design; the publisher may approve other artwork per volume (Volume 1: approved painted cover, below). Claude drafts a written cover brief; the publisher supplies the artwork or approves a typographic geometric cover; 1600 × 2400 and 320 × 480 proofs before integration.
 
 ## Website (PROPOSED)
-- A separate series page and one page per volume, listed outside the Digital Studies catalog, bundles and library count. No site change is made until the publisher approves a rendered preview.
+- One page per volume, listed outside the Digital Studies catalog, bundles and library count, and shown with every other commentary series on the Commentary Collection page (`commentary.html`). There is no separate page for a series; the old series addresses redirect to the Collection page. No site change is made until the publisher approves a rendered preview.
 - Preview pages: Table of Contents, the Preface, and one page of argument. The Digital Studies preview-spoiler standard (Master Standard §17) does not apply, because a volume states its thesis.
 
 ## Workflow per volume
@@ -55,13 +55,14 @@ Version 1.6 — publisher directive, 2026-10-06 (v1.0 FINAL: the items marked PR
 - (4) A volume carries up to five modern voices and no minimum; a volume with fewer is complete. The authorized pool names who may be used and does not require any of them. Revelation: G. K. Beale, Grant Osborne, Robert Mounce, Craig Koester, David Aune, Buist Fanning, Simon Kistemaker. Daniel: Joyce Baldwin, John Goldingay, Tremper Longman III, Stephen Miller, Iain Duguid. Eschatology and the Antichrist: Kim Riddlebarger, Michael Vlach, Paul Benware, John Walvoord, Charles Ryrie. Other well-known modern writers (for example Hendriksen, Ladd, Michaels) may be used on the same conditions.
 - (5) The bibliography gives author, title, publisher and year, with a one-line flag only where a quotation is taken from another page that quotes it or where a view is described and not quoted; it carries no list of what was or was not read, and no verification task is opened for the publisher.
 - (6) A commentary known only through a published review is described by its general method with the reviewer cited, and no view is attributed unless words read state it; no copyrighted commentary text is reproduced beyond short, exact quotations. This replaces the earlier requirements to fetch and verify every quotation, to give full details with printed pages, to include 3–5 modern voices, and to flag paraphrases for the publisher’s review.
-- Volume 1 price: $14.99. A separate series page is approved (preview before any push).
+- Volume 1 price: $14.99. Volume pages and the Commentary Collection page are approved (preview before any push).
 
 ## Cover size and numbering (publisher directive, 2026-10-07; applies to every commentary series)
 - **Cover size:** every commentary volume cover in every series uses the size set for this series: artwork and proofs at 1600 × 2400 px (2:3), website covers 1024 × 1536 px as .jpg and .webp, and the interior cover page full-bleed at 9677 × 14515 twips. Supplied artwork smaller than 1600 × 2400 is flagged to the publisher and a larger original requested.
 - **Numbering:** volumes are numbered within their own series (Volume 1 to N), not across the whole collection.
 
 ## Version history
+- v1.7 (2026-10-07): no separate page for each commentary series; the Commentary Collection page carries every series, and each volume page links back to it. The two earlier series addresses redirect to it.
 - v1.6 (2026-10-07): series renamed Prophetic Commentaries Series (was Prophetic Commentary Series) at the publisher's direction: the footer reads "ZAY-MARIE PRESS PROPHETIC COMMENTARIES SERIES, VOLUME V • N" and the cover bottom line "PROPHETIC COMMENTARIES SERIES"; cover-size standard and per-series numbering recorded. The file is renamed Prophetic_Commentaries_Series_Standard_v1.6.md. Earlier entries keep the name in force when they were written. Covers and interiors of Volumes 1–5 are re-lettered when reopened or when the publisher directs.
 - v1.2 (2026-10-06): series renamed Prophetic Commentary Series (was Theological Commentary Series) at the publisher's direction; footer line is "ZAY-MARIE PRESS PROPHETIC COMMENTARY SERIES, VOLUME V • N"; cover carries "VOLUME V" at the upper right and "PROPHETIC COMMENTARY SERIES" at the bottom; Volume 1 cover approved. Written into the Framework §XX, Master Standard v1.66 and CLAUDE.md in the same pass. The earlier lines below keep the name in force when they were written.
 - v1.1 (2026-10-06): modern scholarly sources standing rule added; Volume 1 price $14.99 and series page approved. Written into the Framework §XX, Master Standard v1.65 and CLAUDE.md in the same pass.

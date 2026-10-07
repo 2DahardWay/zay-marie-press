@@ -1,6 +1,6 @@
 # Prophetic Identity Commentary Series Standard
 
-Version 1.1 — publisher directive, 2026-10-06. Governs the Prophetic Identity Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentaries Series Standard (v1.6) and shares its layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule, so no rule-sync is needed for it; the modern-sources-only rule it follows is already in CLAUDE.md and Master Standard v1.69.
+Version 1.2 — publisher directive, 2026-10-06. Governs the Prophetic Identity Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentaries Series Standard (v1.7) and shares its layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule, so no rule-sync is needed for it; the modern-sources-only rule it follows is already in CLAUDE.md and Master Standard v1.69.
 
 ## Ruled by the publisher (2026-10-06)
 - **Name:** Prophetic Identity Commentary Series. Each title is a Commentary Volume.
@@ -12,7 +12,7 @@ Version 1.1 — publisher directive, 2026-10-06. Governs the Prophetic Identity 
 - **Price:** $14.99 (Volume 1), set per volume.
 - **Footer:** "ZAY-MARIE PRESS PROPHETIC IDENTITY COMMENTARY SERIES, VOLUME V • N" (V = volume number, N = page number; the page number restarts at 1 on the Table of Contents page).
 - **Cover:** "VOLUME V" at the upper right, the title, and "PROPHETIC IDENTITY COMMENTARY SERIES" at the bottom. Artwork is supplied by the publisher; Claude drafts a written cover brief when asked.
-- **Catalog placement:** its own series page, kept outside the Digital Studies catalog, bundles and library count, and separate from the Prophetic Commentaries Series page (a link between the two series pages is allowed).
+- **Catalog placement:** shown on the Commentary Collection page (`commentary.html`) with the other commentary series, kept outside the Digital Studies catalog, bundles and library count. There is no separate series page.
 
 ## The five volumes
 1. The Bride Identity in Prophecy (title as typed by the publisher; subtitle: The Wife of the LORD, the Wife of the Lamb, and the Marriage Pattern Paul Teaches the Body). Interior approved 2026-10-06; 51 pages including the cover; supplied painted cover approved.
@@ -44,7 +44,7 @@ Volumes 2–5 follow the same workflow. Where the Framework is silent on a conte
 - Page and type geometry follow Master Standard §6 (page 9677 × 14515 twips, Roboto 10 pt, margins top 864, bottom 1224, sides 1031; H1 Roboto Bold 17 pt navy #1B3350, 12 pt before and 8 pt after; tables and callouts 7615 twips wide with a 100-twip indent; table header fill #3B6E91; callout fill #E3EDF7 with a 1 pt navy border; 10 pt spacing around tables; no blank spacer paragraphs; the cover is a full-bleed section with no footer).
 
 ## Website
-- A series page `prophetic-identity-commentary-series.html` and one page per volume, listed outside the Digital Studies catalog. Preview pages: Table of Contents, the Preface, and two pages of argument, rendered from the final PDF. No site change is pushed until the publisher approves a rendered preview and says "i approve".
+- One page per volume (no separate series page; the series is shown on the Commentary Collection page), listed outside the Digital Studies catalog. Preview pages: Table of Contents, the Preface, and two pages of argument, rendered from the final PDF. No site change is pushed until the publisher approves a rendered preview and says "i approve".
 - Checkout stays "Coming Soon" until the publisher enables it.
 
 ## Workflow per volume
@@ -55,5 +55,6 @@ Volumes 2–5 follow the same workflow. Where the Framework is silent on a conte
 - Volumes are numbered 1–5 within this series.
 
 ## Version history
+- v1.2 (2026-10-07): no separate series page; the series is shown on the Commentary Collection page.
 - v1.1 (2026-10-07): sibling series renamed Prophetic Commentaries Series; cover-size and per-series numbering lines added; no new rule.
 - v1.0 (2026-10-06): series created from the publisher's rulings; Volume 1 interior and supplied cover approved; modern-sources-only rule (Master Standard v1.69) applies.
