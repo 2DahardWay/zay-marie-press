@@ -19,29 +19,22 @@ if (toggle && nav) {
     else if (seriesLink) seriesLink.insertAdjacentElement('afterend', courseLink);
     else nav.appendChild(courseLink);
   }
-  if (!nav.querySelector('a[href="commentary.html"]')) {
-    const seriesAnchor = nav.querySelector('a[href="series.html"]');
-    const commentaryLink = document.createElement('a');
-    commentaryLink.href = 'commentary.html';
-    commentaryLink.textContent = 'COMMENTARY';
-    if (seriesAnchor) seriesAnchor.insertAdjacentElement('afterend', commentaryLink); else nav.appendChild(commentaryLink);
-  }
   if (!nav.querySelector('.nav-group')) {
     const dsLink = nav.querySelector('a[href="digital-studies.html"]');
     if (dsLink) {
       const group = document.createElement('div'); group.className = 'nav-group';
       const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'nav-group-btn'; btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-haspopup', 'true'); btn.innerHTML = 'STUDIES <span aria-hidden="true">\u25BE</span>';
       const sub = document.createElement('div'); sub.className = 'nav-sub';
-      [['digital-studies.html','DIGITAL STUDIES'],['parables.html','PARABLE STUDIES'],['doctrinal-packets.html','DOCTRINAL PACKETS'],['bible-book-summaries.html','BIBLE BOOK SUMMARIES']].forEach(([href,label]) => { const a = (href === 'digital-studies.html') ? dsLink : document.createElement('a'); a.href = href; a.textContent = label; sub.appendChild(a); });
+      [['digital-studies.html','DIGITAL STUDIES'],['commentary.html','COMMENTARY COLLECTION'],['parables.html','PARABLE STUDIES'],['doctrinal-packets.html','DOCTRINAL PACKETS'],['bible-book-summaries.html','BIBLE BOOK SUMMARIES']].forEach(([href,label]) => { const a = (href === 'digital-studies.html') ? dsLink : (nav.querySelector('a[href="' + href + '"]') || document.createElement('a')); a.href = href; a.textContent = label; sub.appendChild(a); });
       group.appendChild(btn); group.appendChild(sub); nav.insertBefore(group, nav.querySelector('a[href="biblical-hermeneutics-course.html"]') || null);
       const setGroup = (open) => { btn.setAttribute('aria-expanded', String(open)); group.classList.toggle('open', open); };
       btn.addEventListener('click', (e) => { e.stopPropagation(); setGroup(btn.getAttribute('aria-expanded') !== 'true'); });
       document.addEventListener('click', (e) => { if (!group.contains(e.target)) setGroup(false); });
       group.addEventListener('keydown', (e) => { if (e.key === 'Escape') { setGroup(false); btn.focus(); } });
       group.addEventListener('focusout', (e) => { if (!group.contains(e.relatedTarget)) setGroup(false); });
-      const groupPages = ['digital-studies','parables','doctrinal-packets','bible-book-summaries'];
+      const groupPages = ['digital-studies','commentary','parables','doctrinal-packets','bible-book-summaries'];
       const here = (window.location.pathname.split('/').pop() || '').replace(/\.html$/, '').toLowerCase();
-      if (groupPages.includes(here) || /^(packet|study|parable)-/.test(here)) btn.classList.add('current-group');
+      if (groupPages.includes(here) || /^(packet|study|parable|commentary)-/.test(here)) btn.classList.add('current-group');
     }
   }
   const closeMenu = () => { toggle.setAttribute('aria-expanded', 'false'); toggle.textContent = 'MENU'; nav.classList.remove('open'); };
@@ -51,7 +44,7 @@ if (toggle && nav) {
   document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { closeMenu(); toggle.focus(); } });
   const normalizePage = (value) => { const clean = (value || '').split('?')[0].split('#')[0].replace(/^.*\//, '').toLowerCase(); if (!clean || clean === 'index.html' || clean === 'index') return 'home'; return clean.replace(/\.html$/, ''); };
   const currentPage = normalizePage(window.location.pathname);
-  const navSectionByPage = {home:'home',books:'books','full-framework':'books','diagnostic-manual':'books',series:'series','digital-studies':'digital-studies','biblical-hermeneutics-course':'biblical-hermeneutics-course',about:'about',resources:'resources','acts-overlap-visual-guide':'resources',contact:'contact',parables:'parables','doctrinal-packets':'doctrinal-packets','bible-book-summaries':'bible-book-summaries'};
+  const navSectionByPage = {home:'home',books:'books','full-framework':'books','diagnostic-manual':'books',series:'series','digital-studies':'digital-studies',commentary:'commentary','biblical-hermeneutics-course':'biblical-hermeneutics-course',about:'about',resources:'resources','acts-overlap-visual-guide':'resources',contact:'contact',parables:'parables','doctrinal-packets':'doctrinal-packets','bible-book-summaries':'bible-book-summaries'};
   const activeSection = navSectionByPage[currentPage];
   if (activeSection) {
     nav.querySelectorAll('a').forEach((link) => { const linkPage = normalizePage(link.getAttribute('href')); const linkSection = navSectionByPage[linkPage] || linkPage; if (linkSection === activeSection) { link.classList.add('current-page'); link.setAttribute('aria-current','page'); } else { link.classList.remove('current-page'); link.removeAttribute('aria-current'); } });
