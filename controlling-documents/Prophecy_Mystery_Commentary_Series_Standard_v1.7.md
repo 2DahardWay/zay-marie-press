@@ -1,6 +1,6 @@
 # Prophecy & Mystery Commentary Series Standard
 
-Version 1.6 — publisher directive, 2026-10-08. Governs the Prophecy & Mystery Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Covenantal Commentary Series Standard (v1.5), the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself; it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70), the verse-level Scripture index rule (v1.73) and the objections chapter standard (v1.76).
+Version 1.7 — publisher directive, 2026-10-08. Governs the Prophecy & Mystery Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Covenantal Commentary Series Standard (v1.5), the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself; it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70), the verse-level Scripture index rule (v1.73) and the objections chapter standard (v1.76).
 
 ## Ruled by the publisher (2026-10-07)
 - **Name:** Prophecy & Mystery Commentary Series. Each title is a Commentary Volume.
@@ -18,7 +18,7 @@ Version 1.6 — publisher directive, 2026-10-08. Governs the Prophecy & Mystery 
 1. Israel & the Body (subtitle Two Programs, Two Identities).
 2. The Mystery Program.
 3. The Kingdom Program.
-4. The Resurrections of Scripture.
+4. The Resurrection Order in Scripture.
 5. Separate Courts (subtitle Who Is Judged Where, and Why Scripture Does Not Merge Them).
 
 Volumes are numbered 1–5 within this series. The publisher decides the themes and their order; each volume's thesis and outline are approved before drafting. Where the Framework is silent on a contested identity point, Claude asks the publisher for a ruling before drafting it.
@@ -87,8 +87,8 @@ Footer and cover bottom line: "PROPHECY & MYSTERY COMMENTARY SERIES". The Commen
 ## Quotation and citation (binding)
 Scripture is KJV only, every quotation checked against the Gutenberg KJV. Cite by passage, not by page. A modern writer is quoted only from words actually read in a free full text; otherwise described in Claude's own words with no quotation marks. Modern sources only (20th century and later). Opponents are quoted accurately and answered from the text; where a supporter says more than the volume, the volume says so. The bibliography gives author, title, publisher and year, with a one-line flag where a view is described and not quoted or a source is a transcript or reprint.
 
-## Volume 4 — The Resurrections of Scripture (thesis, outline and rulings approved 2026-10-08)
-**Title and subtitle.** The Resurrections of Scripture — Christ’s, Israel’s and the Body’s Rising, and the Order Between Them. (Changed 2026-10-08 from “Two Programs, Two Resurrections”, which echoed the subtitle wording of Digital Study 49.)
+## Volume 4 — The Resurrection Order in Scripture (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** The Resurrection Order in Scripture — Christ’s, Israel’s and the Body’s Rising, and the Order Between Them. (Changed 2026-10-08 from “Two Programs, Two Resurrections”, which echoed the subtitle wording of Digital Study 49.)
 
 **Thesis.** Scripture names more than one resurrection, and the passages that name them do not run together: Christ’s, the firstfruits, a rising to a life that does not end; Israel’s, the hope of the prophets and the Lord, with the just raised when the King comes and the rest of the dead after the thousand years; and the Body’s, a secret shown through Paul, in which the dead in Christ are raised and the living changed to meet the Lord in the air. The Body is not in Israel’s first resurrection and Israel is not in the Body’s.
 
@@ -122,3 +122,4 @@ As in the Covenantal Commentary Series Standard (v1.5): cover, Table of Contents
 - v1.4 (2026-10-08): Volume 4 thesis, outline and eleven rulings recorded at the publisher’s "i approve"; cover art received (2748 × 4096, resized to 1600 × 2400 and 1024 × 1536); interior (50 pages) and cover approved, page `commentary-prophecy-mystery-04-the-resurrections-of-scripture.html` and tile added.
 - v1.5 (2026-10-08): Volume 4 subtitle changed to “Christ’s, Israel’s and the Body’s Rising, and the Order Between Them” so that it does not echo Study 49’s title and subtitle; Collection tile blurb reworded; Volume 5 title approved: Separate Courts: Who Is Judged Where, and Why Scripture Does Not Merge Them (thesis, outline and rulings proposed, awaiting approval).
 - v1.6 (2026-10-08): Volume 5 thesis, outline and ten rulings recorded at the publisher’s "i approve"; cover art received (2748 × 4096, resized to 1600 × 2400 and 1024 × 1536; no badge found; the Hebrew-looking lettering on the stone tablet left as supplied); interior (50 pages, 147-row verse index, 51 key passages, every quotation and passage checked against the Gutenberg KJV) and cover approved, page `commentary-prophecy-mystery-05-separate-courts.html` and tile added; the Collection series line reads “5 volumes” and the series blurb adds “the courts of judgment”. Series now five volumes.
+- v1.7 (2026-10-08): Volume 4 retitled “The Resurrection Order in Scripture” at the publisher’s direction (subtitle unchanged). The supplied cover art is unchanged and still carries the earlier lettering “THE RESURRECTIONS OF SCRIPTURE”; the page URL `commentary-prophecy-mystery-04-the-resurrections-of-scripture.html` is unchanged; the interior metadata, volume page, Collection tile and Volume 5 related-reading link carry the new title.
