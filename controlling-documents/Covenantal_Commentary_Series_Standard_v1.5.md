@@ -4,7 +4,7 @@ Version 1.4 — publisher directive, 2026-10-07. Governs the Covenantal Commenta
 
 ## Ruled by the publisher (2026-10-07)
 - **Name:** Covenantal Commentary Series. Each title is a Commentary Volume.
-- **Scope:** four volumes, one theme per volume, each argued from the whole canon.
+- **Scope:** five volumes (four ruled at the series’ creation, a fifth added at the publisher’s request on 2026-10-07), one theme per volume, each argued from the whole canon.
 - **Length:** 50–70 pages including the cover.
 - **Imprint:** Zay-Marie Press.
 - **Translation:** KJV only.
@@ -14,13 +14,14 @@ Version 1.4 — publisher directive, 2026-10-07. Governs the Covenantal Commenta
 - **Cover:** "VOLUME V" at the upper right, the title, and "COVENANTAL COMMENTARY SERIES" at the bottom. Artwork is supplied by the publisher from a written cover brief that Claude drafts; Claude sets the typography to match the existing series covers (gold-and-red Trajan-style title).
 - **Catalog placement:** shown on the Commentary Collection page (`commentary.html`) with the other commentary series, kept outside the Digital Studies catalog, bundles and library count. There is no separate series page.
 
-## The four volumes (order ruled by the publisher, 2026-10-07)
+## The five volumes (order ruled by the publisher, 2026-10-07)
 1. The Abrahamic Covenant. Working title and subtitle to be confirmed with the cover; target about 55 pages including the cover.
 2. Abraham's Seed.
 3. Inheritance.
 4. The Eternal Purpose of God.
+5. The Davidic Covenant (added at the publisher's request, 2026-10-07; subtitle The Throne and the Kingdom).
 
-Volumes are numbered 1–4 within this series. The publisher decides the themes and their order; Claude does not assume them. Each volume's thesis and outline are approved before drafting. Where the Framework is silent on a contested identity point, Claude asks the publisher for a ruling before drafting it.
+Volumes are numbered 1–5 within this series. The publisher decides the themes and their order; Claude does not assume them. Each volume's thesis and outline are approved before drafting. Where the Framework is silent on a contested identity point, Claude asks the publisher for a ruling before drafting it.
 
 ### Overlap with other work
 Each theme shares a subject with a Digital Study (Study 17, The Abrahamic Covenant; Study 40, Who Is Abraham's Seed; Study 56, Inheritance; Study 57, The Eternal Purpose of God). The studies are Mode 1 and report the text; the volumes are Mode 2 and argue a position. Never apply a volume's conclusions inside a Digital Study. Volumes 1 and 2 also touch Prophetic Identity Commentary Volumes 3 (The New Covenant) and 4 (The Olive Tree); a Covenantal volume cross-refers to them and does not repeat their argument.
@@ -91,6 +92,7 @@ This replaces "up to five voices, no minimum" for this series only (minimum two 
 Chapter 9 now has both movements: three supporting writers (Harris, Fruchtenbaum, S. Lewis Johnson) and four opposing writers (Wright, Piper, Kline, Horton), each read from a free full text and every extract verified against the page. The chapter says openly where a supporting writer differs from the volume (Fruchtenbaum on the church sharing the covenants' spiritual blessings). Sproul and Robertson were requested but no free full text was found (deferred list v1.6, item 13).
 
 ## Version history
+- v1.5 (2026-10-07): Volume 5, The Davidic Covenant, added at the publisher's request; thesis, outline and six rulings recorded; interior (50 pages including the cover, nine chapters, Appendices A–F with 30 key passages in full) and supplied cover approved; page `commentary-covenantal-05-the-davidic-covenant.html`; series now five volumes.
 - v1.4 (2026-10-07): Volume 4, The Eternal Purpose of God: thesis, outline and six rulings recorded; interior (50 pages including the cover, nine chapters, Appendices A–F with 31 key passages in full) and supplied cover approved; page `commentary-covenantal-04-the-eternal-purpose-of-god.html`. Series complete.
 - v1.3 (2026-10-07): Volume 3, Inheritance: interior (55 pages including the cover, nine chapters, Appendices A–F with 51 key passages in full) and supplied cover approved; page `commentary-covenantal-03-inheritance.html`.
 - v1.2 (2026-10-07): Volume 2, Abraham's Seed: thesis, outline and four rulings recorded.
@@ -152,3 +154,27 @@ Deferred to the pre-launch audit: the Volume 2 items above also apply to Volume 
 Interior built: 50 pages including the cover, nine chapters, Appendices A–F (Appendix E prints 31 key passages in full; Appendix F is the verse-level index, 133 passages), Roboto only. All 187 KJV quotation strings checked against the full KJV text (one lead-in corrected); every modern quotation matches the verified source notes. Supplied cover approved (2748 × 4096 source, trimmed to 2:3, 1600 × 2400 and 1024 × 1536 versions made). Page and tile live; sitemap entry added.
 
 Deferred to the pre-launch audit: the Volume 2 and 3 items also apply; Kline is cited from a third-party reproduction; a script cross-check of Volume 4 against a second KJV copy; the Gutenberg parse merged no verses (31,102 verses) but its text is the only KJV copy used.
+
+## Volume 5 — The Davidic Covenant (thesis, outline and six rulings approved 2026-10-07)
+
+**Title and subtitle:** The Davidic Covenant — The Throne and the Kingdom.
+
+**Thesis:** God swore to David a house, a throne and a kingdom for ever (2 Samuel 7:12–16; Psalm 89), and the promise stands. The Son of David is Christ, and the throne is his. It is Israel's throne and an earthly one (Jerusalem, over the house of Jacob, Luke 1:32–33), taken up in the Kingdom the prophets describe. The Body's seat is with Christ in the heavenly places; the two are not the same seat and neither is moved to the other.
+
+**Outline:** Preface; Thesis; 1 What God Promised David; 2 By Oath; 3 The Interrupted Throne; 4 The Prophets' Son of David; 5 The Son Announced; 6 The Throne in the Acts; 7 Right Hand and Throne; 8 The Kingdom; 9 Objections and Replies; Conclusion; Appendices A (the covenant at a glance), B (the words for throne and kingdom), C (study questions), D (terms), E (key passages in full), F (verse-level index); Bibliography.
+
+**Rulings:**
+1. 2 Samuel 7:12–16 and 1 Chronicles 17:10–14 are read side by side and the differences reported as written.
+2. The covenant is by oath, unconditional in title; tenure is conditional for given kings (Psalm 89:30–37; 1 Kings 2:4), as the land ruling of Volume 3.
+3. Acts 2:30–36 is read as two statements (God's oath to David; the exaltation at God's right hand); the text does not say the exaltation is David's throne and the volume does not make it so; the Davidic throne belongs to Israel's Kingdom hope.
+4. Acts 15:13–18 (Amos 9:11) is reported as written and is not read as the church being the tabernacle of David rebuilt.
+5. Revelation 3:21 is reported as written: the Lord's present "set down with my Father in his throne" and the promised "to sit with me in my throne" are two thrones, neither identified as the throne of David.
+6. Hebrews 1:5–8 and 8:8–13 are read in their own letter, with the approved Hebrews line.
+
+**Objections chapter voices:** supporting — Andy Woods, S. Lewis Johnson; opposing — N. T. Wright, Meredith Kline, Michael Horton.
+
+## Volume 5 status (2026-10-07)
+
+Interior built: 50 pages including the cover, nine chapters, Appendices A–F (Appendix E prints 30 key passages in full; Appendix F is the verse-level index, 183 rows), Roboto only. KJV quotation strings checked against the full KJV text (three corrected: Acts 2:34, Acts 2:36, Zechariah 6:13); modern quotations match the source notes. Where Woods says more than the volume (Revelation 3:21; the present age; Hebrews 10:12–13; the church and the covenant), Chapter 9 says so. Cover supplied by the publisher (2748 × 4096 px, cropped to 2:3 and resized to 1600 × 2400 and 1024 × 1536) and approved with the content. The list-indent defect for numbered items of 10 and above was fixed in the build code for Volumes 1–5.
+
+Deferred to the pre-launch audit: the Volume 2–4 items also apply; Kline is cited from a third-party reproduction; a script cross-check of Volume 5 against a second KJV copy; Ice and Fruchtenbaum were not read for this volume.

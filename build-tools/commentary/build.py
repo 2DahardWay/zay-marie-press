@@ -244,9 +244,10 @@ class Builder:
         for i, t in enumerate(items, 1):
             par = self.doc.add_paragraph()
             pf = par.paragraph_format
-            pf.left_indent = Twips(360); pf.first_line_indent = Twips(-260)
+            ind, hang = (480, 480) if numbered else (360, 260)
+            pf.left_indent = Twips(ind); pf.first_line_indent = Twips(-hang)
             pf.space_after = Pt(6 if i == n else 0)
-            pf.tab_stops.add_tab_stop(Twips(360))
+            pf.tab_stops.add_tab_stop(Twips(ind))
             lead = ('%d.' % i) if numbered else '•'
             r = par.add_run(lead + '\t'); set_run_font(r, 10)
             add_runs(par, t, 10)
