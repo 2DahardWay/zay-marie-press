@@ -1,6 +1,6 @@
 # Prophecy & Mystery Commentary Series Standard
 
-Version 1.1 — publisher directive, 2026-10-07. Governs the Prophecy & Mystery Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Covenantal Commentary Series Standard (v1.5), the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself; it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70), the verse-level Scripture index rule (v1.73) and the objections chapter standard (v1.76).
+Version 1.2 — publisher directive, 2026-10-07. Governs the Prophecy & Mystery Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Covenantal Commentary Series Standard (v1.5), the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself; it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70), the verse-level Scripture index rule (v1.73) and the objections chapter standard (v1.76).
 
 ## Ruled by the publisher (2026-10-07)
 - **Name:** Prophecy & Mystery Commentary Series. Each title is a Commentary Volume.
@@ -62,6 +62,22 @@ Footer and cover bottom line: "PROPHECY & MYSTERY COMMENTARY SERIES". The Commen
 
 **Cover.** Publisher's art received 2026-10-07 at 1024 × 1536 (undersized; upscaled original requested); "Made with AI" badge and top-right corner to be repaired as in Volume 1.
 
+## Volume 3 — The Kingdom Program (thesis, outline and rulings approved 2026-10-07)
+**Title and subtitle.** The Kingdom Program — Promised to Israel, Earthly, and Still to Come.
+
+**Thesis.** Scripture promises Israel a kingdom: the Davidic King on David's throne at Jerusalem, the nations brought under Israel's restored line. It is earthly and is the subject of the prophets from Genesis to Malachi. John, the Lord and the Twelve announced it as "at hand" (Matthew 3:2; 4:17; 10:5–7). It was rejected by Israel's rulers and offered again in Acts 3:19–21; the offer ran through Acts 1–8, and Israel's program was nationally suspended at Acts 28. The kingdom is still to come: the Tribulation, the return of the King and the thousand years (Matthew 24:14; Revelation 11:15; 19:11–20:6). It is not the church and not the Body's heavenly calling; the Body is not Israel and has no part in Israel's covenants.
+
+**Outline.** Preface; Thesis; ch. 1 what the kingdom is and how Scripture names it; ch. 2 the kingdom in the Law and the Prophets; ch. 3 the Davidic covenant and the throne; ch. 4 the kingdom announced and offered (Gospels); ch. 5 the kingdom offered again (Acts 1–8); ch. 6 the kingdom nationally suspended (Acts 28); ch. 7 the kingdom's return (Tribulation, the King's coming, the thousand years); ch. 8 the kingdom and the Body, where the two are confused; ch. 9 objections and replies (two to four supporting modern writers beside named modern opponents, closing table); conclusion; appendices (the Kingdom at a glance, the words, questions, terms, key passages in full, Where the Passages Are Read); bibliography.
+
+**Rulings (publisher, 2026-10-07, "i approve", all four as recommended):**
+1. The kingdom is offered through Acts 1–8 and Israel's program is nationally suspended at Acts 28; the offer is not withdrawn at Matthew 12.
+2. Colossians 1:13 ("translated us into the kingdom of his dear Son") is deliverance into Christ's own rule, not entry into Israel's Davidic kingdom; the Body has no share in the Davidic kingdom.
+3. Luke 17:21 is "in the midst of you" (the King present); Romans 14:17 describes Spirit-wrought conduct, not the program.
+4. 1 Corinthians 6:9–10, Galatians 5:21 and Ephesians 5:5 ("shall not inherit the kingdom of God") are reported as written in their own settings and are not made warnings that remove Body membership.
+5. (Standing, from Volumes 1–2) The Body is not Israel; Romans 11 under the standing sentences; Rule 18 governs Paul's ministry; Rule 19 the ground of salvation; the Galatians 3 standing sentence governs any treatment of the seed.
+
+**Cover.** Publisher's art received 2026-10-07 (4096 × 6144, true 2:3); "Made with AI" badge and top-right corner to be repaired; the Hebrew lettering on the banners and the stone is decorative pseudo-Hebrew (publisher to decide: leave, blur or replace).
+
 ## Mode and rules
 - Mode 2. Rules 7, 11 and 13–19 bind; Rules 9 and 10 apply where a settled ruling is stated and where the review is made; Rules 8, 12 and 20–28 do not bind. The mode label never appears in anything the reader sees.
 - Every identification follows the Identity Synthesis Protocol; the Body is never Israel or the remnant; the Body participates in no Israelite covenant; Romans 11 receives the full Olive Tree treatment where it is read; the Galatians 3 standing sentence governs every treatment of the seed; Rule 18 governs Paul's synagogue ministry; Rule 19 governs the ground of salvation.
@@ -73,8 +89,9 @@ Scripture is KJV only, every quotation checked against the Gutenberg KJV. Cite b
 ## Structure, index, cover size, website and workflow
 As in the Covenantal Commentary Series Standard (v1.5): cover, Table of Contents, Preface, Thesis, argument chapters (each opening with its claim and closing with a callout), objections and replies (two to four supporting modern writers beside named modern opponents, closing table), Conclusion with a one-table restatement, Appendices A–F (the last "Where the Passages Are Read", generated from the rendered PDF), Bibliography, end imprint. Cover artwork 1600 × 2400 px, website covers 1024 × 1536 (.jpg and .webp). One page per volume, shown on `commentary.html`; no separate series page. No push without a rendered preview and an explicit "i approve"; then the light live check and delivery of the final PDF and DOCX.
 
-**Status.** Volume 2 interior (50 pages, 130-row verse index, 43 key passages) and supplied cover approved 2026-10-07; website page `commentary-prophecy-mystery-02-the-mystery-program.html` previewed for push. Volumes 3 and 4 remain in preparation.
+**Status.** Volume 2 interior (50 pages, 130-row verse index, 43 key passages) and supplied cover approved 2026-10-07; website page `commentary-prophecy-mystery-02-the-mystery-program.html` live. Volume 3 interior (50 pages, 153-row verse index, 57 key passages) and supplied cover approved 2026-10-07 (the Hebrew-looking lettering on the banners and stone block left as supplied; Acts 28:31 reading approved as written under the standing rule on Paul’s synagogue ministry); website page `commentary-prophecy-mystery-03-the-kingdom-program.html` previewed for push. Volume 4 remains in preparation.
 
 ## Version history
 - v1.0 (2026-10-07): series created from the existing Commentary Collection placeholders; Volume 1 thesis, outline, six rulings, footer, cover bottom line and tile-wording change recorded at the publisher's "i approve".
 - v1.1 (2026-10-07): Volume 2 thesis, outline and seven rulings recorded at the publisher's "i approve"; cover art received (first 1024×1536, undersized; replaced by a 4096×6144 original), interior (50 pages) and cover approved, page `commentary-prophecy-mystery-02-the-mystery-program.html` and tile added. Interior additions after review: reading plan at the start of Appendix C and section 9.7, "Three tests a reader can apply".
+- v1.2 (2026-10-07): Volume 3 thesis, outline and four rulings recorded at the publisher's "i approve"; cover art received (4096 × 6144); interior (50 pages) and cover approved, page `commentary-prophecy-mystery-03-the-kingdom-program.html` and tile added.
