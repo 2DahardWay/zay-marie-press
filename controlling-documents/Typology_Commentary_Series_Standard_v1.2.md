@@ -62,8 +62,27 @@ Volumes are numbered 1–5 within this series. Each volume's thesis and outline 
 
 **Status.** Interior approved 2026-10-08 (50 pages including the cover; Appendix E 53 passages; Appendix F 184 rows). Supplied cover approved 2026-10-08 (art 2748 × 4096; “VOLUME 1” on the art re-lettered “VOLUME 2”). Page `commentary-typology-02-prophetic-separation.html`.
 
+## Volume 3 — Priesthood Typology: Aaron, Melchizedek & Christ (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** Priesthood Typology: Aaron, Melchizedek & Christ — Two Orders, One High Priest, and Where the Priesthood Does Not Pass to the Body.
+
+**Thesis.** God appointed Aaron’s house to a priesthood by a perpetual statute. Melchizedek was a real man made like the Son of God, and the LORD swore the Son a priest after Melchizedek’s order (Psalm 110:4; Hebrews 7), from Judah, serving in the heavenly sanctuary. The priesthoods named for a people (Exodus 19:6; Isaiah 61:6; Ezekiel 44; 1 Peter 2:5, 9; Revelation 1:6, 5:10, 20:6) are Israel’s and belong to Israel’s program. The Body has one mediator and access through Him (1 Timothy 2:5; Romans 5:2; Ephesians 2:18; 3:12) and is not called a priesthood.
+
+**Outline.** Preface; Thesis; ch. 1 what a priest is; ch. 2 Aaron’s call and consecration; ch. 3 the garments; ch. 4 offerings and the Day of Atonement; ch. 5 the failures of the Aaronic line; ch. 6 Melchizedek in Genesis 14; ch. 7 Psalm 110 and the oath; ch. 8 Hebrews 5–7 in order; ch. 9 Hebrews 8–10 and the heavenly high priest; ch. 10 the kingdom of priests; ch. 11 the Body and the one mediator; ch. 12 objections and replies; Conclusion; Appendices A–F (A Priests and Priesthoods at a Glance, B The Words, C Questions for Study, D Terms, E The Key Passages in Full, F Where the Passages Are Read); Bibliography.
+
+**Rulings (publisher, 2026-10-08):**
+1. The priesthood language of 1 Peter 2:5, 9 and Revelation 1:6, 5:10 is Israel’s, not the Body’s.
+2. Melchizedek is a real king-priest and a type, not a Christophany.
+3. Hebrews is read on its own audience markers and the Jeremiah 31 covenant (house of Israel and house of Judah); the Body benefits from the blood without being a party to the covenant.
+4. Paul’s sacrifice words (Romans 12:1; 15:16; Philippians 2:17; 4:18) are reported as sacrifice words, not an office of priesthood.
+5. Ezekiel 40–48 is read as Israel’s Kingdom order with a Zadokite priesthood (as in Volume 1), answered against the objection that Hebrews ended it.
+
+**Voices.** Quoted from free full texts: W. A. Criswell and Thomas Ice, who stand with the volume; Hank Hanegraaff and J. V. Fesko, who differ.
+
+**Status.** Interior approved 2026-10-08 (52 pages including the cover; Appendix E 53 passages; Appendix F 190 rows). Supplied cover approved 2026-10-08 (“VOLUME 2” on the art re-lettered “VOLUME 3”). Page `commentary-typology-03-priesthood-typology.html`.
+
 ## Version history
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-10-08 | Series created; Volume 1 thesis, outline, rulings and status recorded. |
 | 1.1 | 2026-10-08 | Volume 2, Prophetic Separation, thesis, outline, rulings, voices and status recorded. |
+| 1.2 | 2026-10-08 | Volume 3, Priesthood Typology, thesis, outline, rulings, voices and status recorded. |
