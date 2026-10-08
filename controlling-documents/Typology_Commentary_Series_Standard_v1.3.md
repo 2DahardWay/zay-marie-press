@@ -80,9 +80,29 @@ Volumes are numbered 1–5 within this series. Each volume's thesis and outline 
 
 **Status.** Interior approved 2026-10-08 (52 pages including the cover; Appendix E 53 passages; Appendix F 190 rows). Supplied cover approved 2026-10-08 (“VOLUME 2” on the art re-lettered “VOLUME 3”). Page `commentary-typology-03-priesthood-typology.html`.
 
+## Volume 4 — Exodus Typology: Passover, Red Sea, Wilderness, and the New Covenant (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** Exodus Typology: Passover, Red Sea, Wilderness, and the New Covenant — Whose redemption is it, and whose covenant?
+
+**Thesis.** God redeemed Israel out of Egypt by blood, water and His own hand, and Scripture returns to that redemption as a pattern: the Passover lamb, the sea and the pillar, the manna and the rock, Sinai, the wilderness failures, and the second exodus the prophets promise. The New Testament names Christ in these (Christ our passover, the Lamb of God, the Rock) and the volume holds those names firm. The Exodus and its covenant are Israel’s; the New Covenant is made with the house of Israel and the house of Judah; the Body is redeemed through the same blood and is shown the wilderness as example and admonition, not enrolled in the covenant.
+
+**Outline.** Preface; Thesis; ch. 1 how Scripture reads the Exodus; ch. 2 Egypt and the plagues; ch. 3 the Passover lamb; ch. 4 the Red Sea and the pillar; ch. 5 manna and the water from the rock; ch. 6 Sinai and the covenant; ch. 7 the wilderness failures; ch. 8 the second exodus in the prophets; ch. 9 the New Covenant against the covenant of the Exodus; ch. 10 Christ our Passover and the Lamb; ch. 11 1 Corinthians 10 and what the Body is shown; ch. 12 objections and replies; Conclusion; Appendices A–F (A The Exodus at a Glance, B The Words, C Questions for Study, D Terms, E The Key Passages in Full, F Where the Passages Are Read); Bibliography.
+
+**Rulings (publisher, 2026-10-08):**
+1. 1 Corinthians 10 is read as examples and warnings written for the Body’s admonition, not enrolment in the covenant of Sinai.
+2. The New Covenant is Israel and Judah’s covenant (Jeremiah 31:31–34; Hebrews 8); the Body benefits from the blood without becoming a party, in the standing cup sentence.
+3. Christ our passover (1 Corinthians 5:7), the Lamb of God (John 1:29) and the rock (1 Corinthians 10:4) are held firm as named types; Luke 22:15–18 keeps the Passover’s fulfilment in the kingdom, and the volume does not say the Supper replaced it.
+4. Matthew 2:15 is reported as written, with the second exodus still promised (Isaiah 11, 43, 52; Jeremiah 16, 23; Ezekiel 20; Hosea 2).
+5. Revelation 12:6, 14 and 15:2–3 take up the Exodus images in Israel’s Tribulation scenes; the Body is not in them.
+6. Galatians 4:22–24 is reported as Paul’s allegory; the Law’s jurisdiction over the Body is left to Study 59.
+
+**Voices.** Quoted from free full texts: Kevin Bauder and W. A. Criswell, who stand with the volume; Richard Pratt Jr. and Keith Mathison, who differ.
+
+**Status.** Interior approved 2026-10-08 (55 pages including the cover; Appendix E 54 passages; Appendix F 233 rows). Supplied cover approved 2026-10-08. Page `commentary-typology-04-exodus-typology.html`.
+
 ## Version history
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-10-08 | Series created; Volume 1 thesis, outline, rulings and status recorded. |
 | 1.1 | 2026-10-08 | Volume 2, Prophetic Separation, thesis, outline, rulings, voices and status recorded. |
 | 1.2 | 2026-10-08 | Volume 3, Priesthood Typology, thesis, outline, rulings, voices and status recorded. |
+| 1.3 | 2026-10-08 | Volume 4, Exodus Typology, thesis, outline, rulings, voices and status recorded. |
