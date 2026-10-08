@@ -44,7 +44,26 @@ Volumes are numbered 1–5 within this series. Each volume's thesis and outline 
 
 **Status.** Interior approved 2026-10-08 (50 pages including the cover; Appendix E 37 passages; Appendix F 212 rows). Supplied cover approved 2026-10-08 (badge removed, "VOLUME 1" lettered). Page `commentary-typology-01-tabernacle-and-temple-typology.html`.
 
+## Volume 2 — Prophetic Separation (One Taken / Tribulation) (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** Prophetic Separation (One Taken / Tribulation) — The Pattern of Separating the Judged from the Kept, and Where “One Taken, One Left” Stands in It.
+
+**Thesis.** Scripture shows God separating the judged from the kept before judgment falls, and shows the pattern more than once: Noah and the ark, Lot and Sodom, Israel in Goshen and the Passover night. In each, the judged are taken away and the kept remain. The Lord ties the pattern to His coming (Matthew 24:37–41; Luke 17:26–37). The volume reads the one taken as removed in judgment and the one left as remaining for the Kingdom, in Israel’s Tribulation setting; it is not the gathering of the Body.
+
+**Outline.** Preface; Thesis; ch. 1 the pattern of separating; ch. 2 Noah and the Flood; ch. 3 Lot and Sodom; ch. 4 Egypt and the Passover; ch. 5 the one taken and the one left, read in order; ch. 6 the wheat and the tares, the net and the virgins; ch. 7 the sheep and the goats; ch. 8 Israel’s sifting; ch. 9 the harvests of the Revelation; ch. 10 what the left inherit; ch. 11 the Body’s removal is a different thing; ch. 12 objections and replies; Conclusion; Appendices A–F (A The Scenes at a Glance, B The Words, C Questions for Study, D Terms, E The Key Passages in Full, F Where the Passages Are Read); Bibliography.
+
+**Rulings (publisher, 2026-10-08):**
+1. The Body’s removal is treated in one short separate chapter (ch. 11), not blended into the scenes.
+2. The scenes are the named set (Noah, Lot, Egypt) plus the Tribulation set (Matthew 24 and Luke 17, wheat and tares, net, virgins, sheep and goats, Israel’s sifting, harvests of the Revelation).
+3. “One taken, one left” is Israel’s Tribulation separation (Kingdom-judgment removal, Prophecy Program), not a rapture text.
+4. The Greek verbs behind “taken” are reported, and the context (Noah) decides the sense.
+5. 1 Thessalonians 4 and 1 Corinthians 15 are read in their own setting, not joined to Matthew 24 and Luke 17.
+
+**Voices.** Quoted from free full texts: Thomas Ice (PreTrib Research Center) and Kevin Sadler (Berean Bible Society), who stand with the volume; John F. Hart (Journal of the Grace Evangelical Society) and Daniel Scarone (Ministry magazine), who differ.
+
+**Status.** Interior approved 2026-10-08 (50 pages including the cover; Appendix E 53 passages; Appendix F 184 rows). Supplied cover approved 2026-10-08 (art 2748 × 4096; “VOLUME 1” on the art re-lettered “VOLUME 2”). Page `commentary-typology-02-prophetic-separation.html`.
+
 ## Version history
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-10-08 | Series created; Volume 1 thesis, outline, rulings and status recorded. |
+| 1.1 | 2026-10-08 | Volume 2, Prophetic Separation, thesis, outline, rulings, voices and status recorded. |
