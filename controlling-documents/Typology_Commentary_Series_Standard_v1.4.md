@@ -99,6 +99,25 @@ Volumes are numbered 1–5 within this series. Each volume's thesis and outline 
 
 **Status.** Interior approved 2026-10-08 (55 pages including the cover; Appendix E 54 passages; Appendix F 233 rows). Supplied cover approved 2026-10-08. Page `commentary-typology-04-exodus-typology.html`.
 
+## Volume 5 — Kingdom Typology: David, Solomon, the Temple, and the Messianic Kingdom (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** Kingdom Typology: David, Solomon, the Temple, and the Messianic Kingdom — The Pattern of the King and the House, and Where It Does Not Pass to the Body.
+
+**Thesis.** Scripture sets two kings side by side as a pattern: David, the shepherd chosen, anointed and refused, who wins the kingdom through conflict, and Solomon, the son of rest who reigns in peace, builds the house and sees the glory fill it. The New Testament names the fulfilment in Christ (Matthew 12:42; Luke 1:32–33; Hebrews 1:5; Revelation 5:5, 22:16). Both types fail in ways the text records, so the pattern is one of promise and contrast, and its full shape is the Messianic Kingdom the prophets describe on the earth, from Jerusalem, over Israel and the nations. The Body is not in the pattern and does not take its throne, temple or kingdom; its seat is with Christ in the heavenly places.
+
+**Outline.** Preface; Thesis; ch. 1 how Scripture builds a pattern of a king; ch. 2 Samuel and the choice of David; ch. 3 the anointed and refused; ch. 4 the warrior-shepherd; ch. 5 David’s failure and the record kept; ch. 6 Solomon: wisdom, peace and the rest given; ch. 7 the house built; ch. 8 Solomon’s failure and the divided kingdom; ch. 9 a greater than Solomon; ch. 10 the Messianic Kingdom; ch. 11 where the pattern stops, and what the Body is shown; ch. 12 objections and replies; Conclusion; Appendices A–F (A The Kings at a Glance, B The Words, C Questions for Study, D Terms, E The Key Passages in Full, F Where the Passages Are Read); Bibliography.
+
+**Rulings (publisher, 2026-10-08):**
+1. “David my servant” (Jeremiah 30:9; Ezekiel 34:23–24, 37:24–25; Hosea 3:5) is reported as written; the volume reports both readings (David raised, or the Son of David under his name) and decides neither.
+2. Solomon is a type with named contrast: peace, wisdom, house and glory are the pattern, and 1 Kings 11 is the contrast that gives “a greater than Solomon” its weight.
+3. Acts 2:30–36 and Revelation 3:21 are reported as written, with no equation of the right hand with David’s throne and no timing for the throne (carried over from the earlier volumes).
+4. Luke 1:32–33 is reported as written, in the future tense, to the house of Jacob; Hebrews 1:5, 8 and 10:12–13 are read on the letter’s own audience and the covenant it quotes and are not joined to David’s throne.
+5. The kingdom temple stays as in Volume 1 (Zechariah 6:12–13; Ezekiel 43:1–7); John 2:19–21 and Matthew 12:6 name the Lord’s body as the greater temple and do not reverse those passages.
+6. The Body is outside the pattern: Ephesians 2:6 and Colossians 3:1–4 (heavenly seat), Colossians 1:13 (the Son’s own kingdom), 1 Corinthians 3:16 and Ephesians 2:21–22 (the Body’s own temple language) and Romans 11 (participation, not identity) are read under the standing sentences.
+
+**Voices.** Quoted from free full texts: John F. Walvoord (The Millennial Kingdom, chapter V) and Andy Woods (The Coming Kingdom, Part 28), who stand with the volume; David J. Riggs (Knollwood Church) and Keith A. Mathison (Tabletalk, 2020), who differ. Mathison’s article does not address the temple, so the temple objection is labelled a common objection.
+
+**Status.** Interior approved 2026-10-08 (51 pages including the cover; Appendix E 68 passages; Appendix F 192 rows). Supplied cover approved 2026-10-08 (2748 × 4096 px, cropped to 2:3). Page `commentary-typology-05-kingdom-typology.html`. The series is complete (five volumes).
+
 ## Version history
 | Version | Date | Change |
 |---|---|---|
@@ -106,3 +125,4 @@ Volumes are numbered 1–5 within this series. Each volume's thesis and outline 
 | 1.1 | 2026-10-08 | Volume 2, Prophetic Separation, thesis, outline, rulings, voices and status recorded. |
 | 1.2 | 2026-10-08 | Volume 3, Priesthood Typology, thesis, outline, rulings, voices and status recorded. |
 | 1.3 | 2026-10-08 | Volume 4, Exodus Typology, thesis, outline, rulings, voices and status recorded. |
+| 1.4 | 2026-10-08 | Volume 5, Kingdom Typology, thesis, outline, rulings, voices and status recorded; series complete. |
