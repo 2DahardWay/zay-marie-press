@@ -1,6 +1,6 @@
 # Covenantal Commentary Series Standard
 
-Version 1.3 — publisher directive, 2026-10-07. Governs the Covenantal Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself (Master Standard v1.75, Rule 29); it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70) and the verse-level Scripture index rule (v1.73).
+Version 1.4 — publisher directive, 2026-10-07. Governs the Covenantal Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. It is modelled on the Prophetic Commentary Series Standard (v1.10) and the Prophetic Identity Commentary Series Standard (v1.8) and shares their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and the Master Standard; nothing here changes them. This Standard records the series and introduces no new rule of its own beyond the series record itself (Master Standard v1.75, Rule 29); it follows the modern-sources-only rule (v1.69), the commentary cover-size and numbering rules (v1.70) and the verse-level Scripture index rule (v1.73).
 
 ## Ruled by the publisher (2026-10-07)
 - **Name:** Covenantal Commentary Series. Each title is a Commentary Volume.
@@ -91,6 +91,7 @@ This replaces "up to five voices, no minimum" for this series only (minimum two 
 Chapter 9 now has both movements: three supporting writers (Harris, Fruchtenbaum, S. Lewis Johnson) and four opposing writers (Wright, Piper, Kline, Horton), each read from a free full text and every extract verified against the page. The chapter says openly where a supporting writer differs from the volume (Fruchtenbaum on the church sharing the covenants' spiritual blessings). Sproul and Robertson were requested but no free full text was found (deferred list v1.6, item 13).
 
 ## Version history
+- v1.4 (2026-10-07): Volume 4, The Eternal Purpose of God: thesis, outline and six rulings recorded; interior (50 pages including the cover, nine chapters, Appendices A–F with 31 key passages in full) and supplied cover approved; page `commentary-covenantal-04-the-eternal-purpose-of-god.html`. Series complete.
 - v1.3 (2026-10-07): Volume 3, Inheritance: interior (55 pages including the cover, nine chapters, Appendices A–F with 51 key passages in full) and supplied cover approved; page `commentary-covenantal-03-inheritance.html`.
 - v1.2 (2026-10-07): Volume 2, Abraham's Seed: thesis, outline and four rulings recorded.
 - v1.0 (2026-10-07): series created from the publisher's rulings: four volumes in the order The Abrahamic Covenant, Abraham's Seed, Inheritance, The Eternal Purpose of God; footer, cover, price and placement set; Volume 1 thesis, outline and three rulings recorded. Written into CLAUDE.md and Master Standard v1.75 (Rule 29) in the same pass; the Framework §XX wording is supplied to the publisher.
@@ -127,3 +128,27 @@ Deferred to the pre-launch audit: re-read all quoted sources; second KJV copy fo
 Interior drafted and built: 55 pages including the cover, nine chapters, Appendices A–F (Appendix E prints 51 key passages in full; Appendix F is the verse-level index), Roboto only. KJV quotations checked against the full KJV text (one lead-in corrected); modern quotations checked against the source notes. The publisher’s supplied cover (2748 × 4096, trimmed to 2:3 and set at 1600 × 2400 and 1024 × 1536) and the website package were approved 2026-10-07. Chapter 9 sets Fruchtenbaum, Harris and Johnson beside Wright, Piper, Kline and Horton; Fruchtenbaum’s statement that the Church enjoys the spiritual blessings of the covenants, not the material ones, is disclosed there as differing from the volume. Cover note: the tablet shows Hebrew-looking letters that are not real Hebrew; the publisher kept it as supplied.
 
 Deferred to the pre-launch audit: the Volume 2 items above also apply to Volume 3; Kline is cited from a third-party reproduction; a script cross-check of Volume 3 against a second KJV copy.
+
+## Volume 4 — The Eternal Purpose of God (thesis, outline and six rulings approved 2026-10-07)
+
+**Title and subtitle:** The Eternal Purpose of God — One Purpose in Christ, and the Two Callings That Serve It.
+
+**Thesis:** God has one purpose, settled before the ages and centred on Christ (Ephesians 3:11). It is served through two distinct callings that are never merged: Israel's (the Abrahamic promises, land, Kingdom, earth) and the Body's (the Mystery hid in God until made known through Paul; the heavenly places). They meet only in Christ's headship over all things in heaven and on earth (Ephesians 1:10; Colossians 1:16–20; 1 Corinthians 15:24–28). Neither absorbs the other (principle of no transfer).
+
+**Outline:** Preface; Thesis; 1 What "Purpose" Means; 2 Purposed in Christ before the Ages; 3 The Purpose through Israel; 4 The Purpose Hidden in God; 5 The Body's Calling; 6 Wisdom Displayed; 7 The Fulness of Times; 8 The End and What Follows; 9 Objections and Replies; Conclusion; Appendices A (at a glance), B (words for purpose), C (study questions), D (terms), E (key passages in full), F (verse index); Bibliography.
+
+**Rulings:**
+1. Ephesians 1:10 "gather together in one" is Christ's headship over heaven and earth together; Israel's earthly Kingdom and the Body's heavenly place both sit under him and neither is absorbed.
+2. Ephesians 3:10–11 is a display of God's wisdom by the Body, not a governing office over the principalities.
+3. The Mystery "hid in God" (Ephesians 3:9; Colossians 1:26): the purpose is older than both callings; the Mystery's content, the Body, was unrevealed until Paul and is not in Old Testament prophecy.
+4. 1 Corinthians 15:24–28: the Kingdom is delivered up to the Father and both callings reach their end in him; not read as one calling turning into the other.
+5. Revelation 21–22: the new earth and city belong to Israel's hope (as in Volume 3); the Body's destiny is heavenly (Colossians 3:4; Philippians 3:20–21).
+6. Romans 8:28–30 and Ephesians 1:4–5: a purpose centred on Christ conforming a people to his image; no doctrine of individual predestination is built from it.
+
+**Objections chapter voices:** supporting — S. Lewis Johnson, Thomas Ice, Michael Riccardi; opposing — John Piper, N. T. Wright, Meredith Kline, Michael Horton.
+
+## Volume 4 status (2026-10-07)
+
+Interior built: 50 pages including the cover, nine chapters, Appendices A–F (Appendix E prints 31 key passages in full; Appendix F is the verse-level index, 133 passages), Roboto only. All 187 KJV quotation strings checked against the full KJV text (one lead-in corrected); every modern quotation matches the verified source notes. Supplied cover approved (2748 × 4096 source, trimmed to 2:3, 1600 × 2400 and 1024 × 1536 versions made). Page and tile live; sitemap entry added.
+
+Deferred to the pre-launch audit: the Volume 2 and 3 items also apply; Kline is cited from a third-party reproduction; a script cross-check of Volume 4 against a second KJV copy; the Gutenberg parse merged no verses (31,102 verses) but its text is the only KJV copy used.
