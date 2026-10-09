@@ -87,10 +87,34 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 
 **Status.** Interior (52 pages including the cover) and supplied cover approved 2026-10-08; page `commentary-acts-02-the-spirit-in-acts.html`. In the finished volume Overmiller and Garland were left out (their wording and full details could not be confirmed); Dean, Dunn (through Buchanan’s review in Churchman 86:1), the Grace to You sermon and the Ligonier/Tabletalk devotional are described without quotation marks, and only Piper is quoted.
 
+## Volume 3 — Paul Called and Sent: Acts 9, 13, 22 and 26 (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** Paul Called and Sent (Acts 9, 13, 22 and 26) — The Three Reports of the Damascus Road, the Sending from Antioch, and the Stewardship Committed to Paul.
+
+**Thesis.** Luke gives Paul’s call three times: narrated in Acts 9, told by Paul to the Jerusalem crowd in Acts 22 and to Agrippa in Acts 26. The sending from Antioch (Acts 13) follows. The volume reads the accounts word for word and records what each adds or omits. It argues that each telling is fitted to its audience, that the commission is the same in all three, and that Antioch’s sending does not make it. The Damascus words do not themselves announce the mystery; Paul says elsewhere that the stewardship was committed to him by revelation (Galatians 1:11–17; Ephesians 3:1–9; Colossians 1:25). Acts 9 is read as the point where that stewardship begins, running beside Israel’s program through Acts 28.
+
+**Outline.** Preface; Thesis; ch. 1 Saul before Damascus (Acts 7:58; 8:1–3; 9:1–2; 22:3–5; 26:9–11; Galatians 1:13–14; 1 Timothy 1:13); ch. 2 the account in Acts 9; ch. 3 Acts 22; ch. 4 Acts 26; ch. 5 the three accounts side by side; ch. 6 the commission clause by clause (9:15; 22:14–15, 21; 26:16–18); ch. 7 Ananias; ch. 8 Antioch (13:1–4) and the opening of the first journey; ch. 9 what Paul says of his call in his letters; ch. 10 what the accounts do not say; ch. 11 objections and replies; Conclusion; appendices A–G (G the generated verse index); bibliography.
+
+**Neighbours and narrower question.** Study 14 (Acts 9 as a narrative marker), Study 18 (the two commissions), Study 43 (the gospel of the grace of God), Prophecy & Mystery Volume 2 (the mystery as a doctrine), Acts Volume 1 (ends at “Saul consenting”) and Acts Volume 4 (Cornelius and the council). This volume asks what each account adds or omits and what that shows about the commission.
+
+**Rulings (publisher, 2026-10-08, “i approve”, all eight as recommended):**
+1. The three accounts are set side by side and every difference is reported, with no invented harmonizing; “heard a voice” (9:7) and “heard not the voice” (22:9) are reported with the Greek case difference noted and no further claim.
+2. “Kings, and the children of Israel” (9:15) is part of the commission as written; Paul’s commission, gospel and apostleship never change, and his synagogue reasoning is audience-specific proclamation to Israel, not a second commission.
+3. The temple trance (22:17–21) is reported where Acts 22 places it; its date against Galatians 1:17–18 is not fixed.
+4. Acts 26:17–18 (“inheritance among them which are sanctified”) is reported as written and kept within Paul’s commission; it is not equated with Israel’s inheritance.
+5. The sending in Acts 13:2–4 is the Holy Ghost’s sending of two men by the church at Antioch; it does not originate Paul’s apostleship (Galatians 1:1).
+6. The turns to the Gentiles in Acts 13:46 and 26:20 are local or audience-specific, not national.
+7. The Damascus words are not read as announcing the mystery; the stewardship’s content is taken from Paul’s letters.
+8. Acts 9 marks where the stewardship begins; Israel’s program stays in force through Acts 28 and the two run side by side without merging.
+
+**Voices (named at drafting, only from free full texts; otherwise described without quotation marks).**
+
+**Status.** Plan approved 2026-10-08; interior in draft; no cover and no website page yet.
+
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
 
 ## Version history
+- v1.5, 2026-10-08: Volume 3 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.4, 2026-10-08: Volume 2 interior (52 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
 - v1.3, 2026-10-08: Volume 2 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.2, 2026-10-08: Volume 1 interior (57 pages) and supplied cover approved; status updated (no new rule; Master Standard stays at v1.78).
