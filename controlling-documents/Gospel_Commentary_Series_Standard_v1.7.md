@@ -1,6 +1,6 @@
 # Gospel Commentary Series Standard
 
-Version 1.6 — cover replaced with new artwork and lettered by Claude (2026-10-09; record only). Version 1.5 — preview-page line added (2026-10-09; record only, rule in Master Standard v1.81). Version 1.4 — Volume 1 interior and supplied cover approved. Version 1.3 — Volume 1 thesis, outline, neighbours and eight rulings approved 2026-10-09 ("i approve"; record only, Master Standard stays at v1.80). Version 1.2 — Volume 5 rulings on John 14:2–3, John 15 and John 17:20–21 approved 2026-10-09 ("adopt yours"; record only, Master Standard stays at v1.80). Version 1.1 — titles and subtitles for Volumes 1–4 approved 2026-10-09 ("i approve" on Claude's recommended wording; record only, no new rule, Master Standard stays at v1.80). Version 1.0 — publisher directive, 2026-10-09 ("i approve" on Claude's recommendation: add the series, built by narrower question and not by a walk through each Gospel, starting from the provisional lineup below). Recorded in Master Standard v1.80 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume titles, order, theses, outlines and rulings are still to be approved one volume at a time. Nothing is on the website yet.
+Version 1.7 — Volume 2 thesis, outline and eight rulings approved (2026-10-09; record only). Version 1.6 — cover replaced with new artwork and lettered by Claude (2026-10-09; record only). Version 1.5 — preview-page line added (2026-10-09; record only, rule in Master Standard v1.81). Version 1.4 — Volume 1 interior and supplied cover approved. Version 1.3 — Volume 1 thesis, outline, neighbours and eight rulings approved 2026-10-09 ("i approve"; record only, Master Standard stays at v1.80). Version 1.2 — Volume 5 rulings on John 14:2–3, John 15 and John 17:20–21 approved 2026-10-09 ("adopt yours"; record only, Master Standard stays at v1.80). Version 1.1 — titles and subtitles for Volumes 1–4 approved 2026-10-09 ("i approve" on Claude's recommended wording; record only, no new rule, Master Standard stays at v1.80). Version 1.0 — publisher directive, 2026-10-09 ("i approve" on Claude's recommendation: add the series, built by narrower question and not by a walk through each Gospel, starting from the provisional lineup below). Recorded in Master Standard v1.80 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume titles, order, theses, outlines and rulings are still to be approved one volume at a time. Nothing is on the website yet.
 
 Governs the Gospel Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. Modelled on the Acts Commentary Series Standard (v1.10) and sharing its layout, quotation and citation rules. The Digital Studies stay under Mode 1 and are never changed by this series.
 
@@ -61,6 +61,30 @@ Alternatives held in reserve: John's signs and "that ye might believe" (20:31); 
 
 **Status.** Plan approved 2026-10-09; interior (54 pages including the cover) approved 2026-10-09; the cover was replaced on 2026-10-09 at the publisher’s request with new publisher artwork (a Galilean hillside above the lake, the Lord seated among his disciples and the multitudes, supplied 2748 × 4096 px, cropped to 2:3 and set at 1600 × 2400 px), lettered by Claude in cream-and-gold serif capitals: “VOLUME 1” at the upper right, “THE SERMON ON THE MOUNT”, “THE KINGDOM’S STANDARD FOR ISRAEL, NOT THE BODY OF CHRIST” and “GOSPEL COMMENTARY SERIES” at the bottom; the first painted cover (mosaic frame) is retired; modern voices used: Constable and Walvoord (supporting), Piper and Crump (opposing); web page live at `commentary-gospel-01-the-sermon-on-the-mount.html`, shown on the Commentary Collection page (`#gospel`) before the Acts series.
 
+## Volume 2 — The Lord’s Ministry to Israel: Sent Only to the Lost Sheep (thesis, outline and rulings approved 2026-10-09)
+
+**Title and subtitle.** The Lord’s Ministry to Israel: Sent Only to the Lost Sheep — Why the Lord’s Earthly Ministry Was to the Nation. About 55 pages.
+
+**Thesis.** Each Gospel reports the Lord, and then the Twelve and the Seventy, sent to Israel: to the lost sheep of the house of Israel, to announce the Kingdom, confirm the promises made to the fathers and call the nation to repent. The meetings with the Canaanite woman, the centurion, the Samaritans and the Greeks are reported as exceptions that show the order and do not abolish it. The Body of Christ is not in the earthly ministry. The volume does not limit the reach of the Cross. Narrower question: what does each Gospel report the Lord and the Twelve being sent to do, and to whom?
+
+**Outline (about 55 pages).** Preface; Thesis (six claims); ch. 1 why he came (Matthew 1:21; 2:6; Luke 1:54–55, 68–75; John 1:11, 31); ch. 2 the shepherd and the lost sheep (Ezekiel 34; Matthew 9:36; 10:6; 15:24); ch. 3 the Twelve sent (Matthew 10; Luke 9; Matthew 19:28); ch. 4 the Seventy and the cities (Luke 10; Matthew 11:20–24); ch. 5 John the Baptist; ch. 6 “a minister of the circumcision” (Romans 15:8–12); chs. 7–10 the exceptions (Canaanite woman, centurion, Samaria, the Greeks and Nazareth); ch. 11 what the Cross changes within the Gospels (Matthew 26:28; Luke 24:46–47; John 12:32); ch. 12 what the volume does not say; ch. 13 reading it today without merging it with the Body; ch. 14 objections and replies (closing table); Conclusion; appendices (scenes at a glance, key words counted, study questions, six-session guide, FAQ, terms, key passages in full, Where the Passages Are Read); Bibliography.
+
+**Neighbours.** Study 2 and Prophecy & Mystery Volume 3 (the Kingdom offered and refused; not restated); Studies 66, 41 and 75; Acts Commentary Volume 1.
+
+**Rulings (publisher, 2026-10-09, “i approve”, all eight as recommended):**
+1. Matthew 15:24 is reported as the Lord’s own answer, with the woman’s “great faith” (15:28) beside it; no shift between programs is drawn.
+2. The centurion and Matthew 8:11–12 are read as the Kingdom’s table with Abraham, Isaac and Jacob: Gentiles come in under Israel’s King, “the children of the kingdom” are warned, the Body is not named.
+3. John 4 reports “salvation is of the Jews” (4:22) and “the Saviour of the world” (4:42) as written, with Matthew 10:5 beside it; Acts 8 is left to the Acts series.
+4. John 12:20–24 is reported as written; the text does not say the Greeks were received and the volume does not say it.
+5. John 10:16 and 11:51–52 (“other sheep”, “children … scattered abroad”): both readings are reported and the question is left open.
+6. Matthew 10:23 is read as the mission to Israel’s cities continuing until the King’s return; the objection is answered in the objections chapter.
+7. Romans 15:8–12 is read as the Lord’s earthly ministry to Israel with the Gentiles rejoicing with Israel; the standing Romans 11 sentences apply (participation is not identity; blessing is not covenant; standing is not program membership).
+8. John 3:16–17 and 1 John 2:2 are reported as written and denied nowhere; salvation is by faith in every case and the content of faith is what had been revealed to that group, with no later revelation read back (Rules 19 and 23 of the Digital Studies are the model; Rule 19 binds).
+
+**Objections chapter.** Two to four modern writers on each side, quoted only from free full texts read; likely supporters Constable, Walvoord, Toussaint; likely opponents Köstenberger, Carson, Piper. Voices fixed at drafting; any not read in full are described without quotation marks.
+
+**Status.** Plan approved 2026-10-09; interior not yet drafted; no cover; nothing on the website.
+
 ## Drafting cautions
 - The Gospels are read as the Lord's ministry to Israel before the Cross; the Body and the Mystery are not read back into them (Rules 13–17).
 - Study 75 and Rule 23 govern faith before the Cross; Rule 19 applies (no later revelation added to earlier believers).
@@ -73,6 +97,7 @@ Alternatives held in reserve: John's signs and "that ye might believe" (20:31); 
 - v1.0, 2026-10-09: series created and recorded (name, scope, provisional five-volume lineup, overlap check, binding rules); Complete Commentary Library price left unruled; recorded in Master Standard v1.80 and CLAUDE.md.
 - v1.1, 2026-10-09: titles and subtitles of Volumes 1–4 approved (subtitles of Volumes 2, 3 and 4 revised as above); Volume 5 held for rulings; record only.
 - v1.2, 2026-10-09: Volume 5 subtitle and the three John rulings approved; record only.
+- v1.7, 2026-10-09: Volume 2 thesis, outline, neighbours and eight rulings recorded; record only.
 - v1.6, 2026-10-09: Volume 1 cover replaced (new artwork, lettering set by Claude); page live; record only.
 - v1.5, 2026-10-09: preview-page line added under Placement; the rule is in Master Standard v1.81.
 - v1.4, 2026-10-09: Volume 1 interior (54 pages) and supplied cover approved; record only.
