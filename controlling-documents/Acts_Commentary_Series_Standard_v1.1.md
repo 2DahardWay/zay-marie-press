@@ -1,6 +1,6 @@
 # Acts Commentary Series Standard
 
-Version 1.0 — publisher directive, 2026-10-08 ("I approve"; name, volume titles and order, and pricing ruled by the publisher). Recorded in Master Standard v1.78 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume theses, outlines and rulings are still to be approved one volume at a time.
+Version 1.1 — publisher directive, 2026-10-08 ("I approve"; name, volume titles and order, and pricing ruled by the publisher; Volume 1 thesis, outline and rulings approved the same day). Recorded in Master Standard v1.78 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume theses, outlines and rulings are still to be approved one volume at a time.
 
 Governs the Acts Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. Modelled on the Prophecy & Mystery and Typology Commentary Series Standards and sharing their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and are never changed by this series.
 
@@ -44,9 +44,30 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 - Mode 2 permits argument and identification; every identification follows the Identity Synthesis Protocol.
 - No internal working term appears in anything the reader sees (Rule 14).
 
+## Volume 1 — Acts 1–8: What the Twelve Were Told, and Did (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** Acts 1–8: What the Twelve Were Told, and Did — The Book's First Eight Chapters Read Scene by Scene, as Israel's Kingdom Offered Again.
+
+**Thesis.** Acts 1–8 reports Israel's prophetic program in motion. The risen King teaches the Twelve for forty days about "the kingdom of God" (1:3). They ask whether he will "restore again the kingdom to Israel" (1:6), and he does not correct the question; he fixes the times as the Father's and gives the commission (1:7–8). Peter preaches to "all the house of Israel" (2:36) and to Israel again at the Temple (3:12–26), where repentance is tied to "the times of refreshing" and the sending of Jesus Christ (3:19–21). The Sanhedrin refuses (4–5), Stephen is stoned (7), and the witness widens to Samaria and the Ethiopian (8), still moving outward from Jerusalem under the commission of 1:8. The Body does not appear in these chapters: the Mystery is not yet revealed, Paul is first seen as an onlooker at 7:58 and a persecutor at 8:1–3, and nothing in chapters 1–8 is Body doctrine or Body practice.
+
+**Outline.** Preface; Thesis; ch. 1 what the Twelve were taught (1:1–11); ch. 2 the question of 1:6 and the answer; ch. 3 Matthias and the twelve thrones (1:12–26); ch. 4 Pentecost (ch. 2); ch. 5 the Temple sermon and the times of refreshing (3:1–4:4); ch. 6 the council and the second warning (4:5–5:42); ch. 7 stewards and Hellenists (ch. 6); ch. 8 Stephen's witness and Israel's history (ch. 7); ch. 9 Samaria, the Ethiopian and Saul (ch. 8); ch. 10 what the chapters do not contain; ch. 11 objections and replies (two to four supporting modern writers beside named opponents, closing table); Conclusion; appendices (the scenes at a glance, key passages in full, Where the Passages Are Read); bibliography.
+
+**Neighbours and narrower question.** Prophecy & Mystery Volume 3 ch. 5 argues the offer as a doctrine; Studies 20 and 65 cover Acts 2:38 and 2:42; Study 34 covers repeated fillings. This volume asks what the text of each scene reports Israel being told, refusing and given time for.
+
+**Rulings (publisher, 2026-10-08, "i approve", all seven as recommended):**
+1. Acts 1–8 is Prophecy only; Acts 8 belongs with Acts 1–7; Saul's first appearance is reported without Mystery content.
+2. Acts 1:6 is reported as written: the Lord does not deny the restoration and withholds only the times.
+3. Acts 3:19–21 is read as Israel's call to repent for the times of refreshing; it is not set beside the Mystery of Romans 16:25 (that comparison belongs to Prophecy & Mystery Volume 2).
+4. Acts 2:38 and 8:14–17 are read in Israel's setting; the Samaria delay is reported and the Spirit's pattern is left to Volume 2.
+5. Stephen's speech (ch. 7) is read as Israel's history indicted; his "standing" at 7:55–56 is reported as written, with no doctrine of the session drawn from it.
+6. The twelve thrones (Luke 22:30; Acts 1:15–26) are Israel's; Matthias's selection is reported without judging its validity.
+7. The standing Romans 11 and Galatians 3 sentences and Rule 19 apply wherever those texts are touched.
+
+**Status.** Plan approved 2026-10-08; interior in draft; no cover and no website page yet.
+
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
 
 ## Version history
+- v1.1, 2026-10-08: Volume 1 thesis, outline, neighbours and seven rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.0, 2026-10-08: name (Acts Commentary Series), five volume titles and order, and pricing ruled by the publisher; recorded in Master Standard v1.78 and CLAUDE.md.
 - v0.1, 2026-10-08: draft created after the overlap check.
