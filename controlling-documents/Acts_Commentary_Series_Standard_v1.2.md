@@ -62,7 +62,7 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 6. The twelve thrones (Luke 22:30; Acts 1:15–26) are Israel's; Matthias's selection is reported without judging its validity.
 7. The standing Romans 11 and Galatians 3 sentences and Rule 19 apply wherever those texts are touched.
 
-**Status.** Plan approved 2026-10-08; interior (57 pages including the cover) and supplied cover approved 2026-10-08; no website page yet. The supplied artwork was 687 × 1024 px (below the 1600 × 2400 standard); it was centre-cropped to 2:3 and enlarged for the interior, and a larger original is to be requested before the website cover is made. The cover subtitle reads “What the Twelve Were Told and Did” (no comma), accepted as supplied.
+**Status.** Plan approved 2026-10-08; interior (57 pages including the cover) and supplied cover approved 2026-10-08; no website page yet. The supplied artwork is 2748 × 4096 px; it was centre-cropped to 2:3 and reduced to 1600 × 2400 (the earlier 687 × 1024 file was replaced the same evening). The cover subtitle reads “What the Twelve Were Told and Did” (no comma), accepted as supplied.
 
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
