@@ -125,12 +125,13 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 7. Acts 12 is reported as the book’s turn from Jerusalem to Antioch, with no doctrine drawn from Peter’s departure (12:17).
 8. The first journey’s “door of faith” (14:27) is reported as written and not equated with Paul’s letters.
 **Voices (named at drafting, only from free full texts; otherwise described without quotation marks).** Likely objections: Acts 15 shows one people of God; Amos is fulfilled in the church now; the decree is a universal moral rule. Opponents named at drafting.
-**Status.** Plan approved 2026-10-08; interior in draft; no cover and no website page yet.
+**Status.** Interior (51 pages including the cover; fifteen chapters, Appendices A–G, Bibliography) and supplied cover approved 2026-10-08; the supplied artwork (2748 × 4096 px) was centre-cropped to 2:3 and reduced to 1600 × 2400; page `commentary-acts-04-cornelius-and-the-council.html`. Voices as drafted: David M. King (Ashland Theological Journal 21), Michael Morrison (Grace Communion archive) and J. Paul Tanner (JETS 55:1, 2012), each described in the volume’s own words without quotation marks; Zimmerman was dropped because his title and text could not be confirmed. Awaiting the publisher’s typed approval of the website push.
 
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
 
 ## Version history
+- v1.8, 2026-10-08: Volume 4 interior (51 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
 - v1.7, 2026-10-08: Volume 4 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.6, 2026-10-08: Volume 3 interior (54 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
 - v1.5, 2026-10-08: Volume 3 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
