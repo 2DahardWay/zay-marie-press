@@ -127,10 +127,28 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 **Voices (named at drafting, only from free full texts; otherwise described without quotation marks).** Likely objections: Acts 15 shows one people of God; Amos is fulfilled in the church now; the decree is a universal moral rule. Opponents named at drafting.
 **Status.** Interior (51 pages including the cover; fifteen chapters, Appendices A–G, Bibliography) and supplied cover approved 2026-10-08; the supplied artwork (2748 × 4096 px) was centre-cropped to 2:3 and reduced to 1600 × 2400; page `commentary-acts-04-cornelius-and-the-council.html`. Voices as drafted: David M. King (Ashland Theological Journal 21), Michael Morrison (Grace Communion archive) and J. Paul Tanner (JETS 55:1, 2012), each described in the volume’s own words without quotation marks; Zimmerman was dropped because his title and text could not be confirmed. Awaiting the publisher’s typed approval of the website push.
 
+## Volume 5 — Acts 28: The Close of the Book (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** Acts 28 — What the Book Reports at Rome, and What It Leaves Unsaid.
+**Thesis.** Acts closes at Rome with Paul calling the chief of the Jews together. He says he is bound "for the hope of Israel" (28:20), expounds "the kingdom of God" (28:23), quotes Isaiah 6:9–10 (28:25–27) and declares that "the salvation of God is sent unto the Gentiles" (28:28). Luke ends with two years in Paul's hired house and no outcome. The volume argues that Acts 28 is the national suspension of Israel's program under Isaiah 6's judicial blinding, not a replacement of Israel by the church and not the beginning of the Body (which began at Acts 9); that the earlier turns to the Gentiles (13:46, 18:6) were local and this one is national; and that the book is silent on Paul's trial, on Israel's restoration and on what follows, which the volume does not fill.
+**Neighbours and narrower question.** Prophecy & Mystery Volumes 1 and 3, Studies 21, 14, 41 and 38, and Acts Volumes 3 and 4. This volume asks what Acts 28 reports and what it does not.
+**Outline.** Preface; Thesis; ch. 1 Melita (28:1–10); ch. 2 the road to Rome (28:11–16); ch. 3 the chief of the Jews and "the hope of Israel" (28:17–22); ch. 4 the day appointed (28:23); ch. 5 Isaiah 6 in Acts 28 beside its other uses; ch. 6 "Be it known therefore unto you" (28:28) beside 13:46 and 18:6; ch. 7 the two years (28:30–31); ch. 8 the letters that name Paul's bonds; ch. 9 Romans 9–11 beside Acts 28; ch. 10 after Acts 28: what continues; ch. 11 what the book leaves unsaid; ch. 12 objections and replies; Conclusion; Appendices A–G (G generated index); Bibliography.
+**Rulings (publisher, 2026-10-08, "i approve", all eight as recommended):**
+1. "The hope of Israel" (28:20), "the kingdom of God" (28:23, 31) and Paul's synagogue-style reasoning are reported as written, as audience-specific proclamation to Israel under the standing wording, not a second gospel and not a change of commission.
+2. Acts 28:25–28 is the national suspension of Israel's program; it is not a transfer or replacement and does not begin the Body.
+3. Isaiah 6:9–10 is read in each of its uses (Matthew 13:14–15, John 12:39–41, Acts 28:26–27, Romans 11:8), each in its own setting, with Isaiah 6:11–13.
+4. The turn in 28:28 is set beside 13:46 and 18:6: the earlier turns are local, this one national, as the Isaiah quotation shows.
+5. The two years (28:30) are reported as written; the volume does not say whether Paul was released or executed and does not date any letter to those years; the letters are reported only for what they say of "bonds".
+6. The Body continues after Acts 28; individuals saved under Paul's gospel from then on enter it; Acts 28 does not announce the mystery.
+7. Romans 11 is read beside Acts 28 under the standing Romans 11 sentences; "blindness in part" is reported as written; Israel's hope is suspended, not cancelled.
+8. Acts 28:28's "they will hear it" and 28:31's "no man forbidding him" are reported without adding any later development.
+**Voices (named at drafting, only from free full texts; otherwise described without quotation marks).** Likely objections: the Body begins at Acts 28; Acts 28 shows Israel replaced by the church; Acts 28:28 is no more final than 13:46 and 18:6. Opponents named at drafting.
+**Status.** Plan approved 2026-10-08; interior in draft; no cover and no website page yet.
+
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
 
 ## Version history
+- v1.9, 2026-10-08: Volume 5 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.8, 2026-10-08: Volume 4 interior (51 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
 - v1.7, 2026-10-08: Volume 4 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.6, 2026-10-08: Volume 3 interior (54 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
