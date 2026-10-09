@@ -1,6 +1,6 @@
 # Gospel Commentary Series Standard
 
-Version 1.2 — Volume 5 rulings on John 14:2–3, John 15 and John 17:20–21 approved 2026-10-09 ("adopt yours"; record only, Master Standard stays at v1.80). Version 1.1 — titles and subtitles for Volumes 1–4 approved 2026-10-09 ("i approve" on Claude's recommended wording; record only, no new rule, Master Standard stays at v1.80). Version 1.0 — publisher directive, 2026-10-09 ("i approve" on Claude's recommendation: add the series, built by narrower question and not by a walk through each Gospel, starting from the provisional lineup below). Recorded in Master Standard v1.80 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume titles, order, theses, outlines and rulings are still to be approved one volume at a time. Nothing is on the website yet.
+Version 1.3 — Volume 1 thesis, outline, neighbours and eight rulings approved 2026-10-09 ("i approve"; record only, Master Standard stays at v1.80). Version 1.2 — Volume 5 rulings on John 14:2–3, John 15 and John 17:20–21 approved 2026-10-09 ("adopt yours"; record only, Master Standard stays at v1.80). Version 1.1 — titles and subtitles for Volumes 1–4 approved 2026-10-09 ("i approve" on Claude's recommended wording; record only, no new rule, Master Standard stays at v1.80). Version 1.0 — publisher directive, 2026-10-09 ("i approve" on Claude's recommendation: add the series, built by narrower question and not by a walk through each Gospel, starting from the provisional lineup below). Recorded in Master Standard v1.80 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume titles, order, theses, outlines and rulings are still to be approved one volume at a time. Nothing is on the website yet.
 
 Governs the Gospel Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. Modelled on the Acts Commentary Series Standard (v1.10) and sharing its layout, quotation and citation rules. The Digital Studies stay under Mode 1 and are never changed by this series.
 
@@ -37,6 +37,29 @@ Closest overlaps: Volume 2 with Prophecy & Mystery Vol 3 and Study 2; Volume 3 w
 
 Alternatives held in reserve: John's signs and "that ye might believe" (20:31); the Gospel accounts of the resurrection. Volumes are numbered 1–5 within the series. Each volume's thesis, outline and rulings are approved before drafting.
 
+## Volume 1 — The Sermon on the Mount: The Kingdom's Standard for Israel (thesis, outline and rulings approved 2026-10-09)
+**Title and subtitle.** The Sermon on the Mount — The Kingdom's Standard for Israel, Not the Body of Christ. About 55 pages.
+
+**Thesis.** Matthew 5–7 opens with the Lord teaching "his disciples" with the multitudes listening (5:1–2; 7:28). Its promises are the Kingdom's (the poor in spirit have "the kingdom of heaven," 5:3; the meek "inherit the earth," 5:5) and its terms are those of Israel's Kingdom before the Cross (gifts at the altar, 5:23–24; the law and the prophets, 5:17–20 and 7:12; "ye shall not enter," 5:20; conditional forgiveness, 6:14–15; the judgment of 7:21–23). The sermon states the standard of the promised Kingdom for those Israel was told to prepare; its terms are program-specific and do not pass to the Body. The Body's conduct is taught in Paul's letters; the two are contrasted and never merged. The volume does not say the sermon's wisdom is false, only that it is not addressed to the Body as its rule.
+
+**Outline (about 55 pages).** Preface; Thesis; ch. 1 setting and audience (4:17–5:2; 7:28–29); ch. 2 the Beatitudes and the Kingdom's promises (5:3–12); ch. 3 salt, light and the law (5:13–20; Study 62 cited as a neighbour); ch. 4 the six "ye have heard" sayings (5:21–48); ch. 5 alms, prayer and fasting, with the Lord's Prayer (6:1–18); ch. 6 treasure, anxiety and "seek ye first the kingdom" (6:19–34); ch. 7 judging, asking and the two ways (7:1–14); ch. 8 the fruit, the "I never knew you" judgment and the two builders (7:15–29); ch. 9 Luke 6:17–49 beside Matthew; ch. 10 what the sermon does not say; ch. 11 what Paul's letters say of the Body's conduct; ch. 12 objections and replies (closing table); Conclusion; appendices (scenes at a glance, key passages in full, Where the Passages Are Read); Bibliography.
+
+**Neighbours and narrower question.** Study 62 (5:17–20 only), Study 59 (the Law's jurisdiction), Study 77 (Romans 13), Prophecy & Mystery Volume 3 and Study 2 (the Kingdom offered to Israel), and the Parable Studies (the builders and similar sayings). This volume asks to whom each part is addressed, and what the text says it is for.
+
+**Rulings (publisher, 2026-10-09, "i approve", all eight as recommended):**
+1. 5:1–2 and 7:28 are reported as written; the disciples are the Lord's followers in Israel before the Cross, and the Body is not read into them.
+2. "The kingdom of heaven" is the Kingdom promised to Israel; 5:5 is the earthly inheritance.
+3. 5:20, 6:12–15 and 7:21–23 are reported as the Kingdom's terms for Israel; never converted into conditions for the Body; faith stays the means of salvation (Rule 19).
+4. 5:31–32, 5:38–42 and the oaths are reported in their setting, with no added doctrine on divorce, war or policing.
+5. The Lord's Prayer (6:9–13) is read as given to the disciples in Israel's setting ("Thy kingdom come"); the volume does not forbid anyone to pray it.
+6. Luke 6:17–49 is set beside Matthew with every difference reported; no claim of the same occasion and no harmonizing.
+7. Ephesians 4–6 and Colossians 3 are set alongside as contrast only, with no merger.
+8. The standing Romans 11 and Galatians 3 sentences apply wherever those texts are touched.
+
+**Objections chapter.** Two to four modern writers who support the thesis beside named opponents, quoted only from free full texts; likely supporters Walvoord, Toussaint, Ryrie; likely opponents Carson, Stott, Wright, Hagner. Voices fixed at drafting; any not read in full are described without quotation marks.
+
+**Status.** Plan approved 2026-10-09; interior not yet drafted; no cover; nothing on the website.
+
 ## Drafting cautions
 - The Gospels are read as the Lord's ministry to Israel before the Cross; the Body and the Mystery are not read back into them (Rules 13–17).
 - Study 75 and Rule 23 govern faith before the Cross; Rule 19 applies (no later revelation added to earlier believers).
@@ -49,3 +72,4 @@ Alternatives held in reserve: John's signs and "that ye might believe" (20:31); 
 - v1.0, 2026-10-09: series created and recorded (name, scope, provisional five-volume lineup, overlap check, binding rules); Complete Commentary Library price left unruled; recorded in Master Standard v1.80 and CLAUDE.md.
 - v1.1, 2026-10-09: titles and subtitles of Volumes 1–4 approved (subtitles of Volumes 2, 3 and 4 revised as above); Volume 5 held for rulings; record only.
 - v1.2, 2026-10-09: Volume 5 subtitle and the three John rulings approved; record only.
+- v1.3, 2026-10-09: Volume 1 thesis, outline, neighbours and eight rulings recorded; record only.
