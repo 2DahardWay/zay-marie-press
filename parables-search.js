@@ -278,10 +278,6 @@
     "Hear Jesus answer how many are saved with the urgent narrow door, not a numerical quota."
   ];
   cards.forEach(item => {
-    const tip = `${descriptions[item.index]} ${item.passage} · ${item.group}`;
-    const cover = item.card.querySelector('.para-cover-enlarge');
-    cover.dataset.tip = tip;
-    cover.setAttribute('aria-description', tip);
     const details = document.createElement('details');
     details.className = 'para-card-summary';
     const label = document.createElement('summary');
