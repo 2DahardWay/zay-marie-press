@@ -1,6 +1,6 @@
 # Gospel Commentary Series Standard
 
-Version 1.0 — publisher directive, 2026-10-09 ("i approve" on Claude's recommendation: add the series, built by narrower question and not by a walk through each Gospel, starting from the provisional lineup below). Recorded in Master Standard v1.80 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume titles, order, theses, outlines and rulings are still to be approved one volume at a time. Nothing is on the website yet.
+Version 1.1 — titles and subtitles for Volumes 1–4 approved 2026-10-09 ("i approve" on Claude's recommended wording; record only, no new rule, Master Standard stays at v1.80). Version 1.0 — publisher directive, 2026-10-09 ("i approve" on Claude's recommendation: add the series, built by narrower question and not by a walk through each Gospel, starting from the provisional lineup below). Recorded in Master Standard v1.80 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume titles, order, theses, outlines and rulings are still to be approved one volume at a time. Nothing is on the website yet.
 
 Governs the Gospel Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. Modelled on the Acts Commentary Series Standard (v1.10) and sharing its layout, quotation and citation rules. The Digital Studies stay under Mode 1 and are never changed by this series.
 
@@ -28,12 +28,12 @@ Governs the Gospel Commentary Series (each title a "Commentary Volume"), written
 
 Closest overlaps: Volume 2 with Prophecy & Mystery Vol 3 and Study 2; Volume 3 with Study 29 and Typology Vol 2; Volume 4 with Study 75. Each volume answers the narrower question below.
 
-## The volumes (provisional lineup; titles and order to be confirmed by the publisher)
-1. **The Sermon on the Mount** — the Kingdom's standard, given to Israel (Matthew 5–7; Luke 6). Narrower question: to whom is each part addressed, and what does the text say it is for? (Study 62 covers only 5:17–20.)
-2. **The Lord's Ministry to Israel** — "sent only to the lost sheep of the house of Israel" (Matthew 10:5–6; 15:24) and Romans 15:8. Narrower question: what does each Gospel report the Lord and the Twelve being sent to do, and to whom?
-3. **The Olivet Discourse** — Matthew 24–25, Mark 13 and Luke 21 set side by side. Narrower question: what does each account say, in order, and what is left open?
-4. **What the Twelve Understood** — the road to the Cross (Luke 18:34; John 20:9; Luke 24). Narrower question: what does each Gospel report the disciples hearing, grasping and missing?
-5. **The Upper Room** — John 13–17. Narrower question: to whom are these promises given, and in what setting? (An uncovered passage; the publisher's ruling is required before the thesis is drafted.)
+## The volumes (titles and subtitles approved 2026-10-09 for Volumes 1–4; Volume 5 held)
+1. **The Sermon on the Mount: The Kingdom's Standard for Israel** — subtitle: *The Kingdom's Standard for Israel, Not the Body of Christ* (cover title: The Sermon on the Mount). Matthew 5–7; Luke 6. Narrower question: to whom is each part addressed, and what does the text say it is for? (Study 62 covers only 5:17–20.)
+2. **The Lord's Ministry to Israel: Sent Only to the Lost Sheep** — subtitle: *Why the Lord's Earthly Ministry Was to the Nation*. Matthew 10:5–6; 15:24; Romans 15:8. Narrower question: what does each Gospel report the Lord and the Twelve being sent to do, and to whom? The objections chapter takes the Samaritan woman, the centurion, the Greeks in John 12 and Luke 4:25–27. Avoid "not universal" wording (it can read as denying the Cross's reach).
+3. **The Olivet Discourse: Israel's Tribulation, Israel's Signs, Israel's King** — subtitle: *The Kingdom Horizon of the King's Last Teaching to His Disciples* ("final public teaching" rejected: the discourse was private, Matthew 24:3; Mark 13:3). Matthew 24–25, Mark 13, Luke 21 side by side; Luke 21 under the standing neutral ruling. Narrower question: what does each account say, in order, and what is left open?
+4. **What the Twelve Understood: The Road to the Cross** — subtitle: *How the Twelve Heard the Prophets, and What Was Not Yet Given* ("Missed the Mystery" rejected as anachronistic; the text says they missed the sufferings before the glory, Luke 18:34; 24:25–27; "…and Missed the Cross" is an acceptable alternative). Narrower question: what does each Gospel report the disciples hearing, grasping and missing?
+5. **The Upper Room** — John 13–17; working subtitle *The King's Last Words to the Twelve Before the Cross* ("His Nation" rejected: the setting is the eleven). Title and subtitle held. Publisher's ruling required before the thesis is drafted on John 14:2–3, the vine in John 15 and John 17:20–21, within Rules 7 and 13–19.
 
 Alternatives held in reserve: John's signs and "that ye might believe" (20:31); the Gospel accounts of the resurrection. Volumes are numbered 1–5 within the series. Each volume's thesis, outline and rulings are approved before drafting.
 
@@ -47,3 +47,4 @@ Alternatives held in reserve: John's signs and "that ye might believe" (20:31); 
 
 ## Version history
 - v1.0, 2026-10-09: series created and recorded (name, scope, provisional five-volume lineup, overlap check, binding rules); Complete Commentary Library price left unruled; recorded in Master Standard v1.80 and CLAUDE.md.
+- v1.1, 2026-10-09: titles and subtitles of Volumes 1–4 approved (subtitles of Volumes 2, 3 and 4 revised as above); Volume 5 held for rulings; record only.
