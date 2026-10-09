@@ -1,6 +1,6 @@
 # Acts Commentary Series Standard
 
-Version 1.1 — publisher directive, 2026-10-08 ("I approve"; name, volume titles and order, and pricing ruled by the publisher; Volume 1 thesis, outline and rulings approved the same day). Recorded in Master Standard v1.78 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume theses, outlines and rulings are still to be approved one volume at a time.
+Version 1.3 — publisher directive, 2026-10-08 ("I approve"; name, volume titles and order, and pricing ruled by the publisher; Volume 1 thesis, outline and rulings approved the same day). Recorded in Master Standard v1.78 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Volume theses, outlines and rulings are still to be approved one volume at a time.
 
 Governs the Acts Commentary Series (each title a "Commentary Volume"), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. Modelled on the Prophecy & Mystery and Typology Commentary Series Standards and sharing their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and are never changed by this series.
 
@@ -64,10 +64,34 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 
 **Status.** Plan approved 2026-10-08; interior (57 pages including the cover) and supplied cover approved 2026-10-08; no website page yet. The supplied artwork is 2748 × 4096 px; it was centre-cropped to 2:3 and reduced to 1600 × 2400 (the earlier 687 × 1024 file was replaced the same evening). The cover subtitle reads “What the Twelve Were Told and Did” (no comma), accepted as supplied.
 
+## Volume 2 — The Spirit in Acts: Pentecost to Ephesus (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** The Spirit in Acts: Pentecost to Ephesus — The Four Reports of the Spirit’s Coming, Read in Order, and What Each Says About Its Audience.
+
+**Thesis.** Acts reports the Spirit’s coming four times: at Jerusalem (ch. 2), Samaria (ch. 8), Caesarea (ch. 10) and Ephesus (ch. 19). The four reports do not follow one order. Jerusalem: the Spirit comes on the Twelve and on Israel as the promise of the Father and Peter’s “this is that” from Joel. Samaria: after a delay, through the apostles’ hands. Caesarea: on Gentiles before baptism, while Peter is still speaking, a sign to the six circumcision brethren (10:45; 11:12, 15–17), “as on us at the beginning.” Ephesus: John’s disciples are baptized in the name of Jesus, Paul lays hands on them, and they speak with tongues and prophesy. The volume argues that the order varies and the book gives no formula, because Acts reports signs in settings and does not lay down a sequence for the Body; that none of the four is the Body’s baptism, indwelling or sealing, which are stated only in Paul’s letters (1 Corinthians 12:13; Ephesians 1:13–14, 4:30); and that the Spirit’s coming in Acts 2, 8 and 10 belongs to Israel’s program while Ephesus is overlap and is reported without assignment to a single program.
+
+**Outline (about 55 pages).** Preface; Thesis; ch. 1 the promise before the coming (Luke 24:49; Acts 1:4–5; John 14:16–17); ch. 2 Pentecost; ch. 3 Peter’s word on the promise (2:38–39); ch. 4 Samaria; ch. 5 Cornelius; ch. 6 “as at the beginning” (11:15–18; 15:7–9); ch. 7 Ephesus; ch. 8 the four scenes side by side; ch. 9 the other fillings, reported only (4:8, 4:31, 9:17, 13:9, 13:52); ch. 10 what Paul’s letters say of the Spirit to the Body; ch. 11 what the chapters do not say; ch. 12 objections and replies; Conclusion; appendices (scenes at a glance, the words, study questions, terms, key passages in full, Where the Passages Are Read); bibliography.
+
+**Neighbours and narrower question.** Studies 20, 34, 38 and 44 and Prophecy & Mystery Volumes 1 and 2 are cited as neighbours; none sets Acts 2, 8, 10 and 19 side by side. This volume asks what order and signs the Spirit’s coming follows in each of the four settings, and what the text says about who was there.
+
+**Rulings (publisher, 2026-10-08, “i approve”, all eight as recommended):**
+1. The four scenes are read in full; the other fillings are listed and reported, with no catalogue of every Spirit text in Acts.
+2. Acts 2 is Prophecy: the “promise of the Father” is the Joel promise; tongues are reported as the languages of Israel’s dispersion (2:5–11) and as a sign; not the Body’s baptism.
+3. Acts 8:14–17: the delay is reported and the apostles’ hands are an apostolic sign; no doctrine of a “second blessing”; not the Body’s baptism.
+4. Acts 10–11 is a Prophecy inclusion event inside the overlap; not the beginning of the Body and not Pauline revelation.
+5. Acts 19:1–7 is overlap: the text is reported, the event is assigned to no single program, and it is not equated with Ephesians 1:13.
+6. Acts’ tongues are held as a sign to Israel (1 Corinthians 1:22; 14:22); 1 Corinthians 13:8–10 is reported as written and the volume does not say when tongues cease.
+7. John 14:16–17 and “shall be in you” are Prophecy and are not read as the Body’s indwelling; the Spirit’s ministry to the Body is kept distinct from his ministry to Israel under the New Covenant.
+8. Peter’s “this is that” (Acts 2:16–21) is reported; the volume treats Pentecost as the first installment of Joel’s promise, because the signs of 2:19–20 are not reported as seen; the standing Galatians 3 sentence applies if Galatians 3:14 is touched.
+
+**Voices (named at drafting from free full texts):** James D. G. Dunn (described, through a published review); Grace to You’s Acts sermon on 2:1–4; John Piper’s 1991 sermon on Acts 8:14–17; Thomas Overmiller; the Ligonier/Tabletalk devotional “The When of Spirit Baptism”; Robert Dean on Acts 8:14–18; Tony Garland on Acts 11:1–18.
+
+**Status.** Plan approved 2026-10-08; interior in draft; no cover and no website page yet.
+
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
 
 ## Version history
+- v1.3, 2026-10-08: Volume 2 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.2, 2026-10-08: Volume 1 interior (57 pages) and supplied cover approved; status updated (no new rule; Master Standard stays at v1.78).
 - v1.1, 2026-10-08: Volume 1 thesis, outline, neighbours and seven rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.0, 2026-10-08: name (Acts Commentary Series), five volume titles and order, and pricing ruled by the publisher; recorded in Master Standard v1.78 and CLAUDE.md.
