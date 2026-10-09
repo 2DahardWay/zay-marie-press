@@ -110,10 +110,28 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 
 **Status.** Interior (54 pages including the cover; fourteen chapters, Appendices A–G, Bibliography) and supplied cover approved 2026-10-08; the supplied artwork (2748 × 4096 px) was centre-cropped to 2:3 and reduced to 1600 × 2400; page `commentary-acts-03-paul-called-and-sent.html`. Three chapters were added to the approved outline to reach the length standard: How Great Things He Must Suffer; From Damascus to Antioch; Before Kings and at Caesar’s Seat (the approved ten chapters were renumbered; the objections chapter is Chapter 14).
 
+## Volume 4 — Cornelius and the Council: Acts 10–15 (thesis, outline and rulings approved 2026-10-08)
+**Title and subtitle.** Cornelius and the Council (Acts 10–15) — What Was Asked at Jerusalem, and Who Answered Which Part.
+**Thesis.** Acts 10–15 reports one question reaching Jerusalem in two forms: Peter’s report on Cornelius (11:1–18) and the claim that Gentile believers must be circumcised and keep the law of Moses (15:1, 5). The council gives no single answer. Four speakers answer four parts: Peter (what God did, 15:7–11), Barnabas and Paul (the signs among the Gentiles, 15:12), James (the Scripture, Amos 9:11–12, with its sequence, 15:13–18) and the letter (four abstentions, sent to named Gentile regions, 15:20, 23–29). The volume does not merge the four answers into one doctrine. The council neither founds the Body nor transfers Israel’s hope; it decides a question inside the overlap, within the sequence James quotes.
+**Neighbours and narrower question.** Volume 2 (the Spirit falling at Caesarea), Study 19 (the Council), Study 18 and Volume 3 (Galatians 1) are cited as neighbours. This volume asks what exactly was asked at Jerusalem and who answered which part.
+**Outline.** Preface; Thesis; ch. 1 Joppa: the vision and Cornelius’s angel; ch. 2 Caesarea: the sermon and what follows; ch. 3 the report at Jerusalem (11:1–18); ch. 4 Antioch and the relief (11:19–30); ch. 5 Herod, James and Peter (Acts 12); ch. 6 the close of the first journey: “the door of faith” (14:19–28); ch. 7 the question brought down (15:1–6); ch. 8 Peter’s word (15:7–11); ch. 9 Barnabas and Paul (15:12); ch. 10 James and Amos (15:13–21); ch. 11 the decree and the letter (15:22–35); ch. 12 Galatians 2 beside Acts 15, and Peter at Antioch; ch. 13 who answered which part; ch. 14 what the chapters do not say; ch. 15 objections and replies; Conclusion; Appendices A–G (G generated); Bibliography.
+**Rulings (publisher, 2026-10-08, “i approve”, all eight as recommended):**
+1. Acts 10–11 is reported as an inclusion event inside the overlap, as in Volumes 1 and 2; Peter’s vision teaches “not to call any man common or unclean” (10:28) and no new doctrine is drawn from it.
+2. Cornelius is reported as written (“a devout man,” alms, 10:2); the volume does not say whether he was saved before Peter came and adds no later revelation to his faith.
+3. Peter’s “we shall be saved, even as they” (15:11) is reported inside his own speech to the circumcision party; the volume states no shared ground of salvation and does not equate the verse with Paul’s gospel.
+4. James’s quotation of Amos 9:11–12 is read as fixing a sequence within Israel’s kingdom hope (the visit, then the return and rebuilding of David’s tabernacle, then the residue seeking), not as describing the Body.
+5. The decree (15:20, 28–29) is a letter from Jerusalem to the Gentile brethren of Antioch, Syria and Cilicia (15:23), with Moses read in the synagogues given as the reason (15:21); it is not a rule for the Body, and Paul’s letters on meats (Romans 14; 1 Corinthians 8–10) are reported without citing it.
+6. Galatians 2:1–10 and Acts 15 are set side by side and the volume does not declare them the same visit; Galatians 2:7–9 is reported as written under the standing rule on Paul’s synagogue ministry.
+7. Acts 12 is reported as the book’s turn from Jerusalem to Antioch, with no doctrine drawn from Peter’s departure (12:17).
+8. The first journey’s “door of faith” (14:27) is reported as written and not equated with Paul’s letters.
+**Voices (named at drafting, only from free full texts; otherwise described without quotation marks).** Likely objections: Acts 15 shows one people of God; Amos is fulfilled in the church now; the decree is a universal moral rule. Opponents named at drafting.
+**Status.** Plan approved 2026-10-08; interior in draft; no cover and no website page yet.
+
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
 
 ## Version history
+- v1.7, 2026-10-08: Volume 4 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.6, 2026-10-08: Volume 3 interior (54 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
 - v1.5, 2026-10-08: Volume 3 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.4, 2026-10-08: Volume 2 interior (52 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
