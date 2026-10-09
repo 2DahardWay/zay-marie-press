@@ -58,7 +58,7 @@ Alternatives held in reserve: John's signs and "that ye might believe" (20:31); 
 
 **Objections chapter.** Two to four modern writers who support the thesis beside named opponents, quoted only from free full texts; likely supporters Walvoord, Toussaint, Ryrie; likely opponents Carson, Stott, Wright, Hagner. Voices fixed at drafting; any not read in full are described without quotation marks.
 
-**Status.** Plan approved 2026-10-09; interior not yet drafted; no cover; nothing on the website.
+**Status.** Plan approved 2026-10-09; interior (54 pages including the cover) and supplied cover approved 2026-10-09; the cover is the publisher’s painted artwork lettered “THE SERMON ON THE MOUNT / THE KINGDOM’S STANDARD FOR ISRAEL, NOT THE BODY OF CHRIST”, “VOLUME 1” at the upper right and “GOSPEL COMMENTARY SERIES” at the bottom (supplied 2748 × 4096 px, cropped to 2:3 and set at 1600 × 2400 px; 1024 × 1536 web covers); modern voices used: Constable and Walvoord (supporting), Piper and Crump (opposing); web page not yet made; nothing on the website.
 
 ## Drafting cautions
 - The Gospels are read as the Lord's ministry to Israel before the Cross; the Body and the Mystery are not read back into them (Rules 13–17).
@@ -72,4 +72,5 @@ Alternatives held in reserve: John's signs and "that ye might believe" (20:31); 
 - v1.0, 2026-10-09: series created and recorded (name, scope, provisional five-volume lineup, overlap check, binding rules); Complete Commentary Library price left unruled; recorded in Master Standard v1.80 and CLAUDE.md.
 - v1.1, 2026-10-09: titles and subtitles of Volumes 1–4 approved (subtitles of Volumes 2, 3 and 4 revised as above); Volume 5 held for rulings; record only.
 - v1.2, 2026-10-09: Volume 5 subtitle and the three John rulings approved; record only.
+- v1.4, 2026-10-09: Volume 1 interior (54 pages) and supplied cover approved; record only.
 - v1.3, 2026-10-09: Volume 1 thesis, outline, neighbours and eight rulings recorded; record only.
