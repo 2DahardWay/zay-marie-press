@@ -250,7 +250,7 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 .support-panel details{border:1px solid #ddd8c9;border-radius:6px;background:#fff;margin:8px 0;overflow:hidden}
 .support-panel summary{list-style:none;cursor:pointer;position:relative;padding:15px 52px 15px 72px;font-family:Georgia,serif;font-size:1.08rem;font-weight:700;color:#173a32}
 .support-panel summary::-webkit-details-marker{display:none}
-.support-panel summary span{position:absolute;left:20px;top:10px;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#89967e;color:#fff;font-weight:400}
+.support-panel summary span{position:absolute;left:20px;top:10px;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#5f6f55;color:#fff;font-weight:400}
 .support-panel summary:after{content:"+";position:absolute;right:20px;top:11px;font:400 27px/1 Arial,sans-serif;color:var(--green)}
 .support-panel details[open] summary:after{content:"–"}
 .support-panel details>p{padding:0 24px 18px 72px;margin:0;color:#35433d}
@@ -315,8 +315,8 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 .nav-group{position:relative;display:flex;align-items:center}
 .nav-group-btn{background:none;border:0;padding:0;margin:0;line-height:inherit;text-transform:none;font:inherit;line-height:inherit;letter-spacing:inherit;color:#1c2922;cursor:pointer}
 .nav-group-btn span{font-size:.7em;margin-left:2px}
-.nav-group-btn.current-group,.nav-group-btn:hover{color:#8a918d}
-.nav-group-btn.current-group{border-bottom:2px solid #8a918d;padding-bottom:5px}
+.nav-group-btn.current-group,.nav-group-btn:hover{color:#5a665f}
+.nav-group-btn.current-group{border-bottom:2px solid #5a665f;padding-bottom:5px}
 .nav-group-btn:focus-visible,.nav-sub a:focus-visible{outline:3px solid #b8871c;outline-offset:3px}
 .nav-sub{display:none;position:absolute;top:100%;left:-18px;z-index:1100;min-width:250px;margin-top:14px;padding:10px 0;background:#fff;border:1px solid var(--line);border-top:3px solid #b8871c;box-shadow:0 12px 28px rgba(15,35,25,.14)}
 .nav-group:hover .nav-sub,.nav-group.open .nav-sub{display:block}

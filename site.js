@@ -48,7 +48,7 @@ if (toggle && nav) {
   const activeSection = navSectionByPage[currentPage];
   if (activeSection) {
     nav.querySelectorAll('a').forEach((link) => { const linkPage = normalizePage(link.getAttribute('href')); const linkSection = navSectionByPage[linkPage] || linkPage; if (linkSection === activeSection) { link.classList.add('current-page'); link.setAttribute('aria-current','page'); } else { link.classList.remove('current-page'); link.removeAttribute('aria-current'); } });
-    const currentNavStyle = document.createElement('style'); currentNavStyle.textContent = `.primary-nav a.current-page{color:#8a918d!important;border-bottom:2px solid #8a918d;padding-bottom:5px}`; document.head.appendChild(currentNavStyle);
+    const currentNavStyle = document.createElement('style'); currentNavStyle.textContent = `.primary-nav a.current-page{color:#5a665f!important;border-bottom:2px solid #5a665f;padding-bottom:5px}`; document.head.appendChild(currentNavStyle);
   }
 }
 

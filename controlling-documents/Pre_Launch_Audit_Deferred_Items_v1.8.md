@@ -1,4 +1,4 @@
-# Pre-Launch Audit — Deferred Items (v1.6, 2026-10-07)
+# Pre-Launch Audit — Deferred Items (v1.8, 2026-10-09)
 
 Working list for the one full website audit before the site opens to the public (Master Standard v1.72, Section 14, Stage 9). While the site is not public, each push gets the light per-integration check; items below are noticed but not yet fixed, or fixed only in part, and wait for the audit. Add to this list as items are found; bump the version and rename the file as it changes. Working record, not a rule.
 
@@ -23,6 +23,7 @@ Working list for the one full website audit before the site opens to the public 
 12. Covenantal Commentary Series: full-KJV checking is done through the publisher's built-in browser (Project Gutenberg eBook 10, parsed in the page; each page load needs a fresh access approval). This is one copy; a second independent copy for the "two copies compared" check is still to be done at the pre-launch audit. The existing `kjv_all.txt` covers only the chapters the first two series cited.
 13. Covenantal Volume 1, Chapter 9 names seven modern writers (supporting: Harris, Fruchtenbaum, S. Lewis Johnson; opposing: Wright, Piper, Kline, Horton), each quoted only from a free full text read in the browser and verified quote by quote. R. C. Sproul and O. Palmer Robertson were on the publisher's list but no free full text of their words on the land could be found (the Ligonier devotional on the promised land carries no author), so neither is quoted. Add them if the publisher supplies the text.
 14. Covenantal Volume 1: the Kline extract (Kingdom Prologue) was read on a third-party site that reproduces it as a block, so it is cited by section, not by page, as the series Standard requires. Check against the printed book and confirm the site's permission before launch. Horton's essay is dated 18 August 2026 and its opening is political; only its exegetical lines are quoted. Re-read all seven sources once at the audit in case a page has changed.
+15. Mail-service signup: the notify-me link is only a mailto to info@zaymariepress.com, so there is no real list. Before launch the publisher chooses and opens a mail-service account (Claude cannot create one); then the mailto in `site.js` is replaced with the service's signup form or endpoint, on the Commentary Collection page and under the Checkout Coming Soon buttons, and the five study pages that do not load `site.js` are fixed so they get it too.
 
 ## 2026-10-07 phone-width sweep (local, Playwright Chromium)
 All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways overflow, 0 load errors (scrollWidth equal to viewport width, and no visible element extending past it). This covers overflow only; section-by-section visual and wording polish remain for the single pre-launch audit.
@@ -34,4 +35,12 @@ All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways ove
 - Collection tile blurbs were shortened to the first sentence or two; the full text stays on each volume page. Series names were left as the Standards fix them.
 - Still for the pre-launch audit: Lighthouse run on the live site; alignment and wording polish; a link-card check of a few share images.
 
-- v1.7, 2026-10-09: improvement pass recorded in the 2026-10-09 section below.
+## 2026-10-09 accessibility pass (local, Playwright Chromium; axe-core could not be installed, so this is a hand-written check)
+- Method: every root HTML page (303) loaded at 1280 px with external requests blocked; each visible text element's colour was compared with its effective background and held to WCAG AA (4.5:1, or 3:1 for large text). Findings over gradients or photos cannot be judged this way and are not counted as passes.
+- Fixed: current-page nav grey (`#8a918d` and `#8a8a84`, 3.2–3.5:1) now `#5a665f` (5.5–6.0:1) in `styles.css`, `site.js` and 21 page-level overrides; Reader Support number circles (white on `#89967e`, 3.12:1) now `#5f6f55` (5.4:1); gold labels and badges on light backgrounds (`.new-badge`, `.dm-status`, the course page's `.course-kicker`, `.method-number` and `.preview-label`, and the Full Framework pillar label, 2.9–3.3:1) now `#8a620f` (4.9–5.5:1). The shared `--gold` and `--course-gold` colours were left alone because they are also used on dark backgrounds, where they pass.
+- Landmark: `paul-missionary-journeys.html` had no `<main>`; one was added around its content.
+- Result after the fixes: 0 contrast failures on solid backgrounds across all 303 pages, 0 load errors. 40 findings remain over gradients or images (dark hero sections and cards with photo or gradient backgrounds, such as the Paul's Missionary Journeys page, the Doctrinal Packet tiles and the author monogram); they need the image-background check below.
+- Still for the pre-launch audit: heading-order skips (`study-connections.html`, `resources.html`); contrast of text over images; a keyboard and screen-reader walk; a real axe or Lighthouse run on the live site; a link-card check of the share images; a real-phone check of the sticky series bar on the Commentary Collection page.
+
+- v1.7, 2026-10-09: improvement pass recorded in the 2026-10-09 section above.
+- v1.8, 2026-10-09: mail-service signup recorded as item 15; accessibility pass and results recorded in the 2026-10-09 accessibility section above; heading brought up to the filename's version.
