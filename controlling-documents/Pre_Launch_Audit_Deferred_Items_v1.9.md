@@ -1,4 +1,4 @@
-# Pre-Launch Audit — Deferred Items (v1.8, 2026-10-09)
+# Pre-Launch Audit — Deferred Items (v1.9, 2026-10-09)
 
 Working list for the one full website audit before the site opens to the public (Master Standard v1.72, Section 14, Stage 9). While the site is not public, each push gets the light per-integration check; items below are noticed but not yet fixed, or fixed only in part, and wait for the audit. Add to this list as items are found; bump the version and rename the file as it changes. Working record, not a rule.
 
@@ -23,7 +23,7 @@ Working list for the one full website audit before the site opens to the public 
 12. Covenantal Commentary Series: full-KJV checking is done through the publisher's built-in browser (Project Gutenberg eBook 10, parsed in the page; each page load needs a fresh access approval). This is one copy; a second independent copy for the "two copies compared" check is still to be done at the pre-launch audit. The existing `kjv_all.txt` covers only the chapters the first two series cited.
 13. Covenantal Volume 1, Chapter 9 names seven modern writers (supporting: Harris, Fruchtenbaum, S. Lewis Johnson; opposing: Wright, Piper, Kline, Horton), each quoted only from a free full text read in the browser and verified quote by quote. R. C. Sproul and O. Palmer Robertson were on the publisher's list but no free full text of their words on the land could be found (the Ligonier devotional on the promised land carries no author), so neither is quoted. Add them if the publisher supplies the text.
 14. Covenantal Volume 1: the Kline extract (Kingdom Prologue) was read on a third-party site that reproduces it as a block, so it is cited by section, not by page, as the series Standard requires. Check against the printed book and confirm the site's permission before launch. Horton's essay is dated 18 August 2026 and its opening is political; only its exegetical lines are quoted. Re-read all seven sources once at the audit in case a page has changed.
-15. Mail-service signup: the notify-me link is only a mailto to info@zaymariepress.com, so there is no real list. Before launch the publisher chooses and opens a mail-service account (Claude cannot create one); then the mailto in `site.js` is replaced with the service's signup form or endpoint, on the Commentary Collection page and under the Checkout Coming Soon buttons, and the five study pages that do not load `site.js` are fixed so they get it too.
+15. Mail-service signup: the notify-me link is only a mailto to info@zaymariepress.com, so there is no real list. Before launch the publisher chooses and opens a mail-service account (Claude cannot create one); then the mailto in `site.js` is replaced with the service's signup form or endpoint, on the Commentary Collection page and under the Checkout Coming Soon buttons.
 
 ## 2026-10-07 phone-width sweep (local, Playwright Chromium)
 All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways overflow, 0 load errors (scrollWidth equal to viewport width, and no visible element extending past it). This covers overflow only; section-by-section visual and wording polish remain for the single pre-launch audit.
@@ -31,7 +31,7 @@ All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways ove
 ## 2026-10-09 improvement pass
 - Phone-width sweep re-run: all 303 root HTML pages at 390, 360 and 320 px, 0 pages with sideways overflow (local Playwright, external requests blocked).
 - Social-preview audit: 272 of 303 pages (every Digital Study, the summaries, the main pages) had no og/twitter tags; 269 now carry og:title, og:description, og:url, og:image (1200×630) and twitter:card, canonicals were added to 195 pages that lacked one, and 80 study share images plus `assets/share-site-default.jpg` were made. 404 and the two redirect pages are skipped on purpose. Not yet tested on a live link-card checker (the shell cannot reach the live site).
-- Notify-me link: appears under the Checkout Coming Soon buttons on pages that load `site.js` (5 study pages do not load it). It is a mailto to info@zaymariepress.com, not a form; a real list needs a mail-service account.
+- Notify-me link: appears under the Checkout Coming Soon buttons on pages that load `site.js` (Studies 19–23 did not load it until 2026-10-09; see v1.9 below). It is a mailto to info@zaymariepress.com, not a form; a real list needs a mail-service account.
 - Collection tile blurbs were shortened to the first sentence or two; the full text stays on each volume page. Series names were left as the Standards fix them.
 - Still for the pre-launch audit: Lighthouse run on the live site; alignment and wording polish; a link-card check of a few share images.
 
@@ -44,3 +44,4 @@ All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways ove
 
 - v1.7, 2026-10-09: improvement pass recorded in the 2026-10-09 section above.
 - v1.8, 2026-10-09: mail-service signup recorded as item 15; accessibility pass and results recorded in the 2026-10-09 accessibility section above; heading brought up to the filename's version.
+- v1.9, 2026-10-09: Studies 19–23 now load `site.js` (they had no Studies dropdown, no notify-me link and a duplicate inline menu handler, which was removed); the other five pages without it (404, two redirect stubs, the Acts Overlap visual guide, Paul's Missionary Journeys) are standalone on purpose.
