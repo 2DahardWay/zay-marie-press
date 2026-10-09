@@ -34,5 +34,4 @@ All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways ove
 - Collection tile blurbs were shortened to the first sentence or two; the full text stays on each volume page. Series names were left as the Standards fix them.
 - Still for the pre-launch audit: Lighthouse run on the live site; alignment and wording polish; a link-card check of a few share images.
 
-## Version history
-- v1.7, 2026-10-09: improvement pass recorded above.
+- v1.7, 2026-10-09: improvement pass recorded in the 2026-10-09 section below.
