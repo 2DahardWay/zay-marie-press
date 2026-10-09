@@ -142,12 +142,13 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 7. Romans 11 is read beside Acts 28 under the standing Romans 11 sentences; "blindness in part" is reported as written; Israel's hope is suspended, not cancelled.
 8. Acts 28:28's "they will hear it" and 28:31's "no man forbidding him" are reported without adding any later development.
 **Voices (named at drafting, only from free full texts; otherwise described without quotation marks).** Likely objections: the Body begins at Acts 28; Acts 28 shows Israel replaced by the church; Acts 28:28 is no more final than 13:46 and 18:6. Opponents named at drafting.
-**Status.** Plan approved 2026-10-08; interior in draft; no cover and no website page yet.
+**Status.** Interior (51 pages including the cover; sixteen chapters, Appendices A–G, Bibliography) and supplied cover approved 2026-10-08; the supplied artwork (2748 × 4096 px) was centre-cropped to 2:3 and reduced to 1600 × 2400; page `commentary-acts-05-acts-28-the-close-of-the-book.html`. Four chapters were added to the planned twelve to reach the length standard (among them The Two Ends of the Book; the objections chapter is Chapter 16). Voices as drafted: Kilgallen, Boesenberg, Welch and Fowler, each described in the volume’s own words without quotation marks and only as far as the free texts state them. Series complete; the Acts bundle card ($54.99) and the 30-volume Complete Commentary Library ($274.99) are on the Collection page with this volume. Awaiting the publisher’s typed approval of the website push.
 
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
 
 ## Version history
+- v1.10, 2026-10-08: Volume 5 interior (51 pages) and supplied cover approved, page slug, voices and status recorded; series complete (record only; Master Standard stays at v1.78).
 - v1.9, 2026-10-08: Volume 5 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.8, 2026-10-08: Volume 4 interior (51 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
 - v1.7, 2026-10-08: Volume 4 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
