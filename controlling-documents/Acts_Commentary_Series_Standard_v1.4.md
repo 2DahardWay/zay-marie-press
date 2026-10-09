@@ -85,12 +85,13 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 
 **Voices (named at drafting from free full texts):** James D. G. Dunn (described, through a published review); Grace to You’s Acts sermon on 2:1–4; John Piper’s 1991 sermon on Acts 8:14–17; Thomas Overmiller; the Ligonier/Tabletalk devotional “The When of Spirit Baptism”; Robert Dean on Acts 8:14–18; Tony Garland on Acts 11:1–18.
 
-**Status.** Plan approved 2026-10-08; interior in draft; no cover and no website page yet.
+**Status.** Interior (52 pages including the cover) and supplied cover approved 2026-10-08; page `commentary-acts-02-the-spirit-in-acts.html`. In the finished volume Overmiller and Garland were left out (their wording and full details could not be confirmed); Dean, Dunn (through Buchanan’s review in Churchman 86:1), the Grace to You sermon and the Ligonier/Tabletalk devotional are described without quotation marks, and only Piper is quoted.
 
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
 
 ## Version history
+- v1.4, 2026-10-08: Volume 2 interior (52 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
 - v1.3, 2026-10-08: Volume 2 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.2, 2026-10-08: Volume 1 interior (57 pages) and supplied cover approved; status updated (no new rule; Master Standard stays at v1.78).
 - v1.1, 2026-10-08: Volume 1 thesis, outline, neighbours and seven rulings recorded (no new rule; Master Standard stays at v1.78).
