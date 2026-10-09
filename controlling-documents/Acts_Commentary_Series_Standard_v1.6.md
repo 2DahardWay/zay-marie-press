@@ -106,14 +106,15 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 7. The Damascus words are not read as announcing the mystery; the stewardship’s content is taken from Paul’s letters.
 8. Acts 9 marks where the stewardship begins; Israel’s program stays in force through Acts 28 and the two run side by side without merging.
 
-**Voices (named at drafting, only from free full texts; otherwise described without quotation marks).**
+**Voices (named at drafting, only from free full texts; otherwise described without quotation marks).** Charles W. Hedrick (JBL 1981), David Huffstutler (Religious Affections, 2020) and Wayne Jackson (Christian Courier), each described in the volume’s own words and attributed only what the text read states; the third objection (the road gave the whole gospel) names no writer.
 
-**Status.** Plan approved 2026-10-08; interior in draft; no cover and no website page yet.
+**Status.** Interior (54 pages including the cover; fourteen chapters, Appendices A–G, Bibliography) and supplied cover approved 2026-10-08; the supplied artwork (2748 × 4096 px) was centre-cropped to 2:3 and reduced to 1600 × 2400; page `commentary-acts-03-paul-called-and-sent.html`. Three chapters were added to the approved outline to reach the length standard: How Great Things He Must Suffer; From Damascus to Antioch; Before Kings and at Caesar’s Seat (the approved ten chapters were renumbered; the objections chapter is Chapter 14).
 
 ## Pricing (ruled 2026-10-08)
 $14.99 per volume; series bundle $54.99 (individually $74.95; save $19.96); with a sixth series the Complete Commentary Library of all 30 volumes is $274.99 (individually $449.70; save $174.71, about 39%; $54.95 less than six bundles). The $274.99 price takes effect on the Commentary Collection page when the Acts Commentary Series is added to it; until then the page shows $229.99 for 25 volumes. Prices may change; a change is made on the page, in the Master Standard §20 Rule 29 pricing paragraph and in CLAUDE.md in the same pass.
 
 ## Version history
+- v1.6, 2026-10-08: Volume 3 interior (54 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
 - v1.5, 2026-10-08: Volume 3 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
 - v1.4, 2026-10-08: Volume 2 interior (52 pages) and supplied cover approved; page, voices and status recorded (no new rule; Master Standard stays at v1.78).
 - v1.3, 2026-10-08: Volume 2 thesis, outline, neighbours and eight rulings recorded (no new rule; Master Standard stays at v1.78).
