@@ -113,3 +113,18 @@ if(document.body.classList.contains('digital-studies-page')){
     @media(max-width:520px){.digital-studies-page .study-card{grid-template-columns:112px minmax(0,1fr);gap:13px;padding:14px}.digital-studies-page .study-cover-button,.digital-studies-page .study-cover-thumb{width:112px}.digital-studies-page .study-card h3{font-size:1.25rem}.digital-studies-page .study-card p{font-size:.94rem}.study-cover-preview{padding:20px}.study-cover-preview img{max-height:84vh;max-width:92vw}}
   `;document.head.appendChild(style);
 }
+
+/* Notify-me link under every "Checkout Coming Soon" button (no form or backend; opens the reader's email app) */
+(function(){
+  var btns=document.querySelectorAll('.detail-buyline .detail-button.pending,.final-offer .detail-button.pending');
+  if(!btns.length)return;
+  var st=document.createElement('style');
+  st.textContent='.notify-link{display:block;margin-top:10px;font:700 .78rem Arial,sans-serif;letter-spacing:.03em;color:#176b3a;text-decoration:underline;text-underline-offset:3px}.final-buy .notify-link{color:#d9e8dd}.detail-buyline{flex-wrap:wrap}';
+  document.head.appendChild(st);
+  [].forEach.call(btns,function(b){
+    var a=document.createElement('a');a.className='notify-link';
+    a.href='mailto:info@zaymariepress.com?subject='+encodeURIComponent('Notify me when checkout opens')+'&body='+encodeURIComponent('Please let me know when checkout opens for: '+document.title.split('|')[0].trim());
+    a.textContent='Notify me when checkout opens';
+    b.parentNode.insertBefore(a,b.nextSibling);
+  });
+})();
