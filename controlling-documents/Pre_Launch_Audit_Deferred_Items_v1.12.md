@@ -1,4 +1,4 @@
-# Pre-Launch Audit — Deferred Items (v1.10, 2026-10-09)
+# Pre-Launch Audit — Deferred Items (v1.12, 2026-10-09)
 
 Working list for the one full website audit before the site opens to the public (Master Standard v1.72, Section 14, Stage 9). While the site is not public, each push gets the light per-integration check; items below are noticed but not yet fixed, or fixed only in part, and wait for the audit. Add to this list as items are found; bump the version and rename the file as it changes. Working record, not a rule.
 
@@ -48,3 +48,4 @@ All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways ove
 - v1.8, 2026-10-09: mail-service signup recorded as item 15; accessibility pass and results recorded in the 2026-10-09 accessibility section above; heading brought up to the filename's version.
 - v1.9, 2026-10-09: Studies 19–23 now load `site.js` (they had no Studies dropdown, no notify-me link and a duplicate inline menu handler, which was removed); the other five pages without it (404, two redirect stubs, the Acts Overlap visual guide, Paul's Missionary Journeys) are standalone on purpose.
 - v1.10, 2026-10-09: study structured data added to all 80 study pages (item 17); eight stale buy-panel page counts recorded (item 16).
+- v1.12, 2026-10-09: publisher note — the website opens to the public at the end of November 2026, so the full audit (390/360/320 px walk, polish, link-card and Lighthouse checks) stays deferred until the site is complete. Commentary Collection page improvements made 2026-10-09 (series numbering, chips, compact comparison table, phone Library strip, bundle grid, FAQ width) were checked by measurement and local render only; the page still needs the eye-level walk and a real-phone check in the final audit. The notify-me link is already a mailto under each Checkout Coming Soon button (item 15 covers a real mailing list).
