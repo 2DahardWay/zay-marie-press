@@ -1,4 +1,4 @@
-# Questions Readers Ask — source list (80 questions, grouped by catalog category)
+# Questions Readers Ask — source list (81 questions, grouped by catalog category)
 
 Each question is worded as a reader would ask it, without stating the study's answer. Format: `N. question → study number title`. One line per study, in catalog-category order. Edit this file, then run build_qra.py.
 
@@ -91,3 +91,4 @@ Each question is worded as a reader would ask it, without stating the study's an
 78. Is the Sabbath for me today? → 78 The Sabbath and Its Meanings
 79. What happens to the dead? What are Sheol, Hades, Gehenna and the lake of fire? → 79 The Realms of the Dead
 80. Was Christ foreordained before the foundation of the world? → 80 The Lamb Foreordained
+81. What does Scripture mean by praying in the Spirit, and is praying in tongues the same thing? → 81 Praying in the Spirit
