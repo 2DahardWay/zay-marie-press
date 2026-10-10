@@ -1,6 +1,6 @@
 # Reader Questions Series Standard
 
-Version 1.1 — Thorn and trumps rulings confirmed; separate Questions page and entry length (two to three interior pages) ruled (2026-10-10). Version 1.0 — Series created (2026-10-10). A record of the series, with the rule in Master Standard v1.90 §20 Rule 31.
+Version 1.2 — Volume format approved from the sample page and recorded (2026-10-10; rule in Master Standard v1.91). Version 1.1 — Thorn and trumps rulings confirmed; separate Questions page and entry length (two to three interior pages) ruled (2026-10-10). Version 1.0 — Series created (2026-10-10). A record of the series, with the rule in Master Standard v1.90 §20 Rule 31.
 
 Governs the Reader Questions Series: short, general questions Christian readers ask about one verse or passage, answered in **Mode 3 (contextual exegesis)** under Master Standard §20 Rule 31. Modes: Digital Studies = Mode 1; Commentary Series = Mode 2; Reader Questions Series = Mode 3. The mode label is a working term and never appears in anything the reader sees (Rule 14).
 
@@ -12,6 +12,9 @@ Governs the Reader Questions Series: short, general questions Christian readers 
 - **Positions:** each question's position is the publisher's ruling, recorded below before drafting. Where unruled, Claude drafts to the nearest settled position and marks it "for ruling".
 - **Sources:** passage citation and modern sources only (Rule 29) for paid entries; KJV text verified word for word from a source before it is published.
 - **Cross-links:** a free page or entry that links a Digital Study says plainly that the study reports the text as written and the entry argues a position.
+
+## Volume format (approved 2026-10-10 from the sample page)
+Roboto only; body 10 pt black (6 pt after, 1.08); entry titles and major headings 17 pt navy bold; sub-headings 12 pt navy bold; the answer in a boxed callout; KJV tables (Verse / KJV text / What to observe) and a readings-compared table with Slate Blue headers and white body rows, full text width, 10 pt before and after; study page size (483.846 × 725.754 pt) and margins; centered footer "ZAY-MARIE PRESS READER QUESTIONS SERIES, VOLUME V • N"; covers 1600 × 2400 with "VOLUME V" upper right and "READER QUESTIONS SERIES" at the bottom. The series name and cover lines are working assumptions until the publisher confirms them. KJV text is checked with `build-tools/commentary/kjvcheck.py` and the browser check.
 
 ## Entry form (full entry)
 1. The answer (one or two plain sentences).
