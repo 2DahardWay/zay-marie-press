@@ -128,3 +128,25 @@ if(document.body.classList.contains('digital-studies-page')){
     b.parentNode.insertBefore(a,b.nextSibling);
   });
 })();
+
+/* Preview lightbox: "Fit to screen" / "Full size" toggle */
+(function(){
+  var lb=document.getElementById('preview-lightbox');
+  if(!lb)return;
+  var st=document.createElement('style');
+  st.textContent='.preview-lightbox-fit{position:fixed;top:18px;right:82px;z-index:10001;height:46px;padding:0 18px;border:1px solid rgba(255,255,255,.65);border-radius:23px;background:rgba(0,0,0,.55);color:#fff;font:700 .78rem Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;display:none}.preview-lightbox.open .preview-lightbox-fit{display:block}.preview-lightbox-fit:hover,.preview-lightbox-fit:focus-visible{background:#fff;color:#143823}.preview-lightbox.fit{align-items:center;overflow:hidden}.preview-lightbox.fit img{width:auto;max-width:100%;height:calc(100vh - 82px);object-fit:contain}@media(max-width:520px){.preview-lightbox-fit{right:76px;padding:0 14px;font-size:.7rem}}';
+  document.head.appendChild(st);
+  var b=document.createElement('button');
+  b.type='button';b.className='preview-lightbox-fit';b.textContent='Fit to screen';
+  b.setAttribute('aria-label','Fit the page to the screen');
+  b.addEventListener('click',function(e){
+    e.stopPropagation();
+    var on=lb.classList.toggle('fit');
+    b.textContent=on?'Full size':'Fit to screen';
+    b.setAttribute('aria-label',on?'Show the page at full size':'Fit the page to the screen');
+  });
+  lb.appendChild(b);
+  new MutationObserver(function(){
+    if(!lb.classList.contains('open')&&lb.classList.contains('fit')){lb.classList.remove('fit');b.textContent='Fit to screen';}
+  }).observe(lb,{attributes:true,attributeFilter:['class']});
+})();
