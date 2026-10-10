@@ -25,16 +25,16 @@ if (toggle && nav) {
       const group = document.createElement('div'); group.className = 'nav-group';
       const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'nav-group-btn'; btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-haspopup', 'true'); btn.innerHTML = 'STUDIES <span aria-hidden="true">\u25BE</span>';
       const sub = document.createElement('div'); sub.className = 'nav-sub';
-      [['digital-studies.html','DIGITAL STUDIES'],['commentary.html','COMMENTARY COLLECTION'],['parables.html','PARABLE STUDIES'],['doctrinal-packets.html','DOCTRINAL PACKETS'],['bible-book-summaries.html','BIBLE BOOK SUMMARIES']].forEach(([href,label]) => { const a = (href === 'digital-studies.html') ? dsLink : (nav.querySelector('a[href="' + href + '"]') || document.createElement('a')); a.href = href; a.textContent = label; sub.appendChild(a); });
+      [['digital-studies.html','DIGITAL STUDIES'],['commentary.html','COMMENTARY COLLECTION'],['parables.html','PARABLE STUDIES'],['doctrinal-packets.html','DOCTRINAL PACKETS'],['bible-book-summaries.html','BIBLE BOOK SUMMARIES'],['questions.html','READER QUESTIONS']].forEach(([href,label]) => { const a = (href === 'digital-studies.html') ? dsLink : (nav.querySelector('a[href="' + href + '"]') || document.createElement('a')); a.href = href; a.textContent = label; sub.appendChild(a); });
       group.appendChild(btn); group.appendChild(sub); nav.insertBefore(group, nav.querySelector('a[href="biblical-hermeneutics-course.html"]') || null);
       const setGroup = (open) => { btn.setAttribute('aria-expanded', String(open)); group.classList.toggle('open', open); };
       btn.addEventListener('click', (e) => { e.stopPropagation(); setGroup(btn.getAttribute('aria-expanded') !== 'true'); });
       document.addEventListener('click', (e) => { if (!group.contains(e.target)) setGroup(false); });
       group.addEventListener('keydown', (e) => { if (e.key === 'Escape') { setGroup(false); btn.focus(); } });
       group.addEventListener('focusout', (e) => { if (!group.contains(e.relatedTarget)) setGroup(false); });
-      const groupPages = ['digital-studies','commentary','parables','doctrinal-packets','bible-book-summaries'];
+      const groupPages = ['digital-studies','commentary','parables','doctrinal-packets','bible-book-summaries','questions'];
       const here = (window.location.pathname.split('/').pop() || '').replace(/\.html$/, '').toLowerCase();
-      if (groupPages.includes(here) || /^(packet|study|parable|commentary)-/.test(here)) btn.classList.add('current-group');
+      if (groupPages.includes(here) || /^(packet|study|parable|commentary|reader-questions)-/.test(here)) btn.classList.add('current-group');
     }
   }
   const closeMenu = () => { toggle.setAttribute('aria-expanded', 'false'); toggle.textContent = 'MENU'; nav.classList.remove('open'); };
@@ -160,3 +160,5 @@ if(document.body.classList.contains('digital-studies-page')){
     if(lb.classList.contains('open'))sync();
   }).observe(lb,{attributes:true,attributeFilter:['class']});
 })();
+
+;(function(){try{const col=[...document.querySelectorAll('.footer-column')].find(c=>{const h=c.querySelector('h3');return h&&h.textContent.trim()==='Studies';});if(!col||col.querySelector('a[href="questions.html"]'))return;const box=col.querySelector('.footer-links-stacked');if(!box)return;box.appendChild(document.createElement('br'));const a=document.createElement('a');a.href='questions.html';a.textContent='Reader Questions';box.appendChild(a);}catch(e){}})();
