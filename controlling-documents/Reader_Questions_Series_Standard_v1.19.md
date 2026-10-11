@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.19 — Question pages and search (2026-10-11; rule in Master Standard v1.105 Rule 31): every question has its own page (`reader-questions-vV-qQQ-<slug>.html`) generated from the volume source with the full entry, a FAQPage structured-data block and previous/next links; volume-page rows link to them; the Questions page has a search of the questions (`assets/reader-questions-index.json`). Generator and wiring scripts are kept in `build-tools/readers-questions/`.
+
 Version 1.18 — End imprint added to every volume (2026-10-11; rule in Master Standard v1.104 Rule 31): “Copyright © 2026 Alexander S. Marien. All rights reserved. Published by Zay-Marie Press. Free for the personal use of the reader; no part may be reproduced or distributed without permission. Scripture quotations are from the King James Version (KJV).”; per-question web pages and a question search approved, to be built and previewed before any push.
 
 Version 1.17 — Free resource (2026-10-11; rule recorded in Master Standard v1.103 Rule 31): every volume is a free PDF with no price and no checkout; the two layers (free short answers, paid full volumes) and the $4.99 price are withdrawn; volume pages keep the short answers and point to the free PDF; attribution check of Volumes 1–5 applied (unverifiable names removed, errors corrected, bibliographies list only works cited; Volume 2 is 30 pages and Volume 3 27). A web page for each question and a question search are held for a later ruling.
