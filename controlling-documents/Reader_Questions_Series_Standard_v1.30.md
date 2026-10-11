@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.30 — Resources page (2026-10-11; recorded in Master Standard v1.116): Jump to row, fact chips, computed counts, a verse-search link and a lighter phone layout; no change to this series.
+
 Version 1.29 — Resources page (2026-10-11; recorded in Master Standard v1.115): the floating Back to top button is smaller and translucent on phones; no change to this series.
 
 Version 1.28 — Resources page (2026-10-11; recorded in Master Standard v1.114): linked verse chips on the Free Reader Questions tile, a New badge on the library card, a floating Back to top button and a library count; no change to this series.
