@@ -144,6 +144,7 @@
       <div class="rl-note"><strong>A Beginning, Not the Entire Method</strong><p>These questions provide a foundation for reading Scripture according to its audience, context, chronology, and divine program. Some passages—particularly during the Acts 9–28 overlap—require a more disciplined analysis.</p></div>
       ${book('Go Deeper with <em>The Diagnostic Manual</em> — COMING SOON<br><span style="font-weight:normal"><em>The Analytical Guide to the Acts Overlap Model</em></span>','The Diagnostic Manual develops the complete method for identifying program, revelatory basis, program markers, chronology, and proper doctrinal application throughout Acts.','diagnostic-manual.html')}`}
   ];
+  const rlTop=[26,22,20];resources.sort((a,b)=>{const x=rlTop.indexOf(a.id),y=rlTop.indexOf(b.id);return (x<0?99:x)-(y<0?99:y);});
 
   const devotionalDays = {
     1:['You Are in Christ','The believer’s fundamental identity is no longer determined by the old life but by his or her position in Christ.','2 Corinthians 5:17; Ephesians 1:3–7','Thank God for the new identity He has given you in Christ. Ask Him to help you think and live from that position.'],

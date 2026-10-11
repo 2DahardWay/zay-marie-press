@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.23 — Resources page (2026-10-11; recorded in Master Standard v1.109): a Free Reader Questions featured tile, a sixth Continue Your Study option, first place in the Resource Library order and a starting-points line; no change to this series.
+
 Version 1.22 — Resources page (2026-10-11; recorded in Master Standard v1.108): the “Continue Your Study” section lists the Commentary Collection and the Doctrinal Packets; no change to this series.
 
 Version 1.21 — Resource Library (2026-10-11; rule in Master Standard v1.107 Rule 31): one “Reader Questions” card in the Resource Library (Interpretation), linking to the Questions page; questions and volumes are not listed individually there.
