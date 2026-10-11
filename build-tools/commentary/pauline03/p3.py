@@ -1,0 +1,27 @@
+C = [
+("h1", "3. “In the Form of God” and “Equal with God”"),
+("p", "Claim: the two phrases speak of Christ before the servant’s form was taken. They do not state his nature in a definition, but they say that before he took the form of a servant he was in the form of God, and that being equal with God was not something he had to seize."),
+("sub", "3.1 What the verse says"),
+("p", "The KJV reads, “Who, being in the form of God, thought it not robbery to be equal with God” (Philippians 2:6). Two points of grammar are plain in English. First, the being in the form of God is stated as already so when the thinking takes place. He did not become equal with God by taking the form of a servant, and he did not lose the form of God by taking it, for the next verse adds the servant’s form to what is there: “and took upon him the form of a servant” (Philippians 2:7). Second, the equality with God is the subject of a thought: he “thought it not robbery.” The sentence says something about his attitude toward the equality. It does not say that the equality was in doubt."),
+("p", "Thomas Constable reads the verse the same way as to time: “The Son of God’s pre-incarnate state is quite clearly in view here.” The volume agrees with the sentence. The “being” belongs to the time before the incarnation, and the word “form” is used of both the first state and the second. The English does not say that the two forms are the same kind of thing. It says only that he was in the one and took the other."),
+("sub", "3.2 “Form” in the second clause"),
+("p", "The same word is used of the servant: “the form of a servant.” That cannot mean a costume only, since the next clause adds “was made in the likeness of men” and the next “found in fashion as a man.” The passage uses three words for the second state: form, likeness and fashion. It uses one word for the first. The volume does not say that the first word has the full range of the second, and it does not say that it has less. It reports that the passage uses the word and does not define it."),
+("sub", "3.3 “Robbery” and “equal with God”"),
+("p", "“Robbery” is the King James rendering of a word whose sense has been argued. The English reads as though equality were something he might have grasped and did not. The volume notes that the English can be read in two ways: that equality was his and he did not cling to it, or that equality was something he did not reach for. In either reading the clause says the same thing about the state: he was in the form of God, and to be equal with God was not a prize he needed to take. The sentence does not say that he became equal with God at some later time. Before the servant’s form, he was in the form of God."),
+("p", "Constable states the point about time and nature briefly: “Jesus did not cease to be God when He became a man.” The sentence is his comment on verse 7, and the volume reports it there. It agrees that the verse says nothing about ceasing."),
+("sub", "3.4 The word “equal”"),
+("p", "“Equal with God” is Paul’s phrase, and the sentence needs no later word to be read. In a letter whose readers keep the Scriptures of Israel, it would be a strange thing to say of a creature. Isaiah 45:21 has the LORD say, “there is no God else beside me; a just God and a Saviour; there is none beside me.” Paul, who knew that sentence, writes of one who is equal with God. The volume does not claim that Paul had Isaiah 45:21 before him at 2:6. It claims that the two sentences stand together, and that Paul chose to write the later one without softening the claim."),
+("ctbl", "The two phrases of Philippians 2:6.", [
+    ("The phrase", "What it says", "What it leaves unsaid"),
+    ("“in the form of God”", "Christ was in the form of God before taking the form of a servant", "What “form” means beyond the passage; whether it is nature, glory or both"),
+    ("“equal with God”", "To be equal with God was not a thing he thought to seize", "Whether the equality is of rank, of nature, or of both; the sentence states that it was his state"),
+  ], [0.28, 0.38, 0.34]),
+("sub", "3.5 What the volume takes from the chapter"),
+("bul", [
+    "The verse speaks of Christ before the servant’s form: he was in the form of God.",
+    "“Equal with God” is Paul’s phrase, and it is stated of him and not of a creature.",
+    "The same word “form” is used for both states, and the passage does not define it.",
+    "The verse does not say how the one who was in the form of God is the one who took the form of a servant.",
+  ]),
+("p", "The next verse goes on to what he did: he made himself of no reputation. It is the verse most often argued over, and the next chapter takes it with the name given at the end."),
+]

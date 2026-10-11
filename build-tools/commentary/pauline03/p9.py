@@ -1,0 +1,27 @@
+C = [
+("h1", "9. Romans 9:5 in Its Setting"),
+("p", "Claim: Romans 9:5 stands in a passage about Israel, and it names Christ in the last clause of a list of Israel’s privileges. The volume reads the verse in that setting, reports the question of punctuation fairly, and reads the sentence as the King James Version has it."),
+("sub", "9.1 The setting"),
+("p", "The chapter opens with Paul’s grief: “I have great heaviness and continual sorrow in my heart” (Romans 9:2). It is for “my brethren, my kinsmen according to the flesh” (Romans 9:3). The letter has been addressed to Rome, but chapters 9 to 11 turn to Israel, and the passage is read as addressed to Israel and as concerning Israel. It is not a passage on how the Body is saved, and the volume does not use it as one."),
+("p", "Paul then lists what belongs to the Israelites: “to whom pertaineth the adoption, and the glory, and the covenants, and the giving of the law, and the service of God, and the promises” (Romans 9:4). The list ends with a further clause: “Whose are the fathers, and of whom as concerning the flesh Christ came, who is over all, God blessed for ever. Amen” (Romans 9:5)."),
+("sub", "9.2 What the verse says"),
+("p", "Two things are said of Christ in the verse, and they are set side by side. The first is “as concerning the flesh Christ came,” and the second is “who is over all, God blessed for ever.” The first limits his coming to the flesh and to the line of the fathers. The second says that he is over all, and calls him God, blessed for ever. The two statements together are the same pair that Romans 1:3 and 1:4 give: of the seed of David according to the flesh, and declared to be the Son of God with power."),
+("sub", "9.3 The question of punctuation"),
+("p", "The earliest Greek texts had little punctuation, and editors have put a stop in the verse at different places. One way reads the clause “who is over all, God blessed for ever” as describing Christ, as the King James Version has it. The other puts a stop after “flesh Christ came” and takes the rest as a separate sentence of praise to God, who is over all. The volume reads the verse as the King James Version has it, and notes that the question is a question of where a stop falls and not of what the words say. The volume’s thesis does not rest on this verse. If the other punctuation is preferred, the sayings of Philippians, Colossians, 1 Timothy and Titus stand as before."),
+("ctbl", "Romans 9:4, 5 and what it says of Israel and of Christ.", [
+    ("The clause", "What it says", "What it leaves unsaid"),
+    ("“to whom pertaineth the adoption, and the glory, and the covenants”", "These belong to the Israelites", "Whether they pass to anyone else; the passage says to whom they pertain"),
+    ("“and the giving of the law, and the service of God, and the promises”", "The law, the service and the promises belong to them", "How the promises are fulfilled; Romans 11 treats that"),
+    ("“Whose are the fathers”", "The fathers are theirs", "Which fathers; the verse says the fathers"),
+    ("“of whom as concerning the flesh Christ came”", "As to the flesh, Christ came from them", "What Christ was apart from the flesh; the next clause bears on it"),
+    ("“who is over all, God blessed for ever. Amen”", "He is over all, God blessed for ever", "Whether the clause is of Christ, or a praise to God; see 9.3"),
+  ], [0.34, 0.33, 0.33]),
+("sub", "9.4 What the volume takes from the chapter"),
+("bul", [
+    "The verse is part of a list of the privileges of Israel, and it is read as addressed to Israel.",
+    "It says of Christ that he came from the fathers according to the flesh, and that he is over all, God blessed for ever.",
+    "The punctuation question is real, and the volume reads the verse as the King James Version has it.",
+    "No part of the thesis rests on this verse alone.",
+  ]),
+("p", "The verse has the shape the other sayings have: a flesh and a more than flesh, named together by Paul. The two passages that follow say the same of him in different words."),
+]
