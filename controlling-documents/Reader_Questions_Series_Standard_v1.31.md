@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.31 — Resources page (2026-10-11; recorded in Master Standard v1.117): clickable fact chips, a Bible Book Summaries featured tile, a lighter starting-points line and swipe rows on phones; no change to this series.
+
 Version 1.30 — Resources page (2026-10-11; recorded in Master Standard v1.116): Jump to row, fact chips, computed counts, a verse-search link and a lighter phone layout; no change to this series.
 
 Version 1.29 — Resources page (2026-10-11; recorded in Master Standard v1.115): the floating Back to top button is smaller and translucent on phones; no change to this series.
