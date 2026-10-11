@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.25 — Resources page (2026-10-11; recorded in Master Standard v1.111): a Back to top button at the bottom of the page; no change to this series.
+
 Version 1.24 — Resources page (2026-10-11; recorded in Master Standard v1.110): the Reader Questions card carries the tags “5 volumes”, “50 questions” and “Free PDF”, the Digital Studies and Bible Book Summaries pages point to the series, and the Resources page carries a facts line and structured data; no change to this series.
 
 Version 1.23 — Resources page (2026-10-11; recorded in Master Standard v1.109): a Free Reader Questions featured tile, a sixth Continue Your Study option, first place in the Resource Library order and a starting-points line; no change to this series.
