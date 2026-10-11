@@ -1,6 +1,6 @@
 # Pauline Doctrine Series Standard
 
-Version 1.1 — Approved by the publisher, 2026-10-11 ("i approve"); pricing ruled the same day ("same pricing as the commentary series"). Recorded in Master Standard v1.124 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Version 1.0 — draft, 2026-10-11. Volume theses, outlines and rulings are still to be approved one volume at a time. Nothing is on the website yet.
+Version 1.3 — Volume 1 thesis, outline and eight rulings approved (2026-10-11; record only). Version 1.2 — Volume 1 closer check and a correction to the Romans drafting caution (2026-10-11; record only). Version 1.1 — Approved by the publisher, 2026-10-11 ("i approve"); pricing ruled the same day ("same pricing as the commentary series"). Recorded in Master Standard v1.124 §20 Rule 29 and CLAUDE.md in the same pass; the Framework §XX wording is supplied to the publisher for his copy. Version 1.0 — draft, 2026-10-11. Volume theses, outlines and rulings are still to be approved one volume at a time. Nothing is on the website yet.
 
 Governs the Pauline Doctrine Series (each title a "Volume"; the shared working term "Commentary Volume" is used for build tooling only), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. Modelled on the Acts Commentary Series Standard (v1.10) and the Gospel Commentary Series Standard (v1.19) and sharing their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and are never changed by this series.
 
@@ -29,7 +29,7 @@ A text search of the study, volume, packet and parable pages found no commentary
 
 | Subject | Existing work | What it carries |
 |---|---|---|
-| Adam and Christ | incidental mentions only | no study or volume is built on Romans 5:12–21 or 1 Corinthians 15:21–22, 45–49 |
+| Adam and Christ | Study 49 (The Resurrections of Scripture); Prophecy & Mystery Volume 4; Doctrinal Packet on Romans; Readers Question Series Volume 2 | 1 Corinthians 15:20–23, 35–49 and 51–54 read for the order and company of the resurrections (Volume 4 reads 15:23 narrowly as the Body's own order); Romans 5:12–21 named as one key passage among several in the Packet; "baptized for the dead" (15:29). No study, volume or Packet is built on the two Adam passages or sets the two heads side by side |
 | The Cross in Paul's letters | Study 53 (Redemption); Study 54 (Justification); Study 55 (Reconciled to God) | the price and bondage; the righteous verdict and its ground (Romans 4:25); enmity, reconciliation and the ambassadors' appeal |
 | The Person of Christ | Study 52 (Sonship and Adoption); Study 55 (light) | the two sonships by adoption; Christ's person touched only in passing |
 | The Assembly in Order | Study 72 (The Lord's Supper); Study 81 (Praying in the Spirit); Study 33 (Crowns); Doctrinal Packets on 1 Corinthians, 1 and 2 Timothy and Titus | the Supper and 1 Corinthians 10–11; the tongues and prayer passages of 1 Corinthians 12–14; Paul's letters taken as key passages in five pages |
@@ -37,7 +37,7 @@ A text search of the study, volume, packet and parable pages found no commentary
 | Romans 6–7, old man and new (Digital Study afterwards) | Studies 37, 45, 42 | new creation; the three senses of sanctification; the one baptism |
 | Romans 1–3 (Digital Study afterwards) | Studies 54, 43, 35 | justification; the gospel of the grace of God; the identity labels |
 
-**Neighbours Claude adds beyond the handoff list, to be confirmed in each volume's closer check (not yet read in full):** Prophecy & Mystery Volume 4 (1 Corinthians 15:23 read narrowly as the Body's own order) for Volume 1; Covenantal Volume 2 (Galatians 3) and Study 12 (the New Covenant's ratifying blood) for Volume 2; Prophecy & Mystery Volume 3 (Colossians 1:13) for Volume 3; Acts Commentary Volume 2 and Studies 38 and 42 (tongues, Acts as non-manual, the one baptism of Ephesians 4:5) for Volume 4; Study 44 (Walking in the Spirit) and Study 59 (the Law's jurisdiction) for Volume 5.
+**Neighbours Claude adds beyond the handoff list.** For Volume 1, confirmed from the site pages and the Prophecy & Mystery Standard on 2026-10-11 (the study PDFs themselves are still not in the repo): Study 49, Prophecy & Mystery Volume 4 (ruling 6, 1 Corinthians 15:23 read narrowly as the Body's own order), the Romans Doctrinal Packet and Readers Question Series Volume 2. For the other volumes, to be confirmed in each volume's closer check (not yet read in full): Covenantal Volume 2 (Galatians 3) and Study 12 (the New Covenant's ratifying blood) for Volume 2; Prophecy & Mystery Volume 3 (Colossians 1:13) for Volume 3; Acts Commentary Volume 2 and Studies 38 and 42 (tongues, Acts as non-manual, the one baptism of Ephesians 4:5) for Volume 4; Study 44 (Walking in the Spirit) and Study 59 (the Law's jurisdiction) for Volume 5.
 
 Closest overlaps: Volume 2 with Studies 53, 54 and 55 (three words, three studies; this volume asks about the Cross itself, not the vocabulary of its benefits); Volume 4 with Studies 72 and 81 and the three Packets; Volume 5 with Studies 36, 77 and 78. Each volume answers the narrower question below.
 
@@ -58,9 +58,32 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 
 These are built by the Master Standard and the Digital Studies workflow, not by this Standard; each is classified by the Category Standard's decision procedure at the time.
 
+## Volume 1 — Adam and Christ (thesis, outline and rulings approved 2026-10-11)
+**Title and subtitle.** Adam and Christ — The Two Heads in Romans 5 and 1 Corinthians 15, and What Each Passage Answers. About 55 pages.
+
+**Thesis.** Paul sets Adam and Christ side by side twice, and the two passages do not answer the same question. Romans 5:12–21 asks how sin, death and righteousness reached "all men". The parallel of one man's trespass and one man's obedience is universal anthropology, and its scope clauses are read inside Paul's own sentences, including "they which receive" (5:17). 1 Corinthians 15:21–22 and 45–49 ask how the dead are raised and with what body: the first man and the last Adam, the natural and then the spiritual, the earthy and the heavenly image. The volume argues that "in Adam" and "in Christ" name two headships with different membership, that the two passages are not one doctrine said twice, and that neither one enrols Israel's covenants in either head.
+
+**Outline (about 55 pages).** Preface; Thesis; ch. 1 why Paul sets two men side by side (Romans 5:12; 1 Corinthians 15:21); ch. 2 Romans 5 in its place (1:18–5:11); ch. 3 "by one man sin entered" (5:12–14); ch. 4 "the figure of him that was to come" (5:14); ch. 5 offence and gift (5:15–17); ch. 6 one trespass, one righteousness (5:18–19); ch. 7 the law entered, grace did much more abound (5:20–21); ch. 8 1 Corinthians 15 in its place: the gospel and the denial (15:1–20); ch. 9 "in Adam all die… in Christ" and the order (15:21–28); ch. 10 sown and raised (15:35–44); ch. 11 the first man and the last Adam (15:45–49); ch. 12 flesh and blood, and the close (15:50–58); ch. 13 the two passages side by side; ch. 14 what the passages do not say; ch. 15 objections and replies (two to four modern writers who fortify the thesis beside named modern writers who hold the opposite view, closing table); Conclusion; appendices (the passages at a glance, the key words, key passages in full, Where the Passages Are Read); Bibliography. Chapters are added or merged at drafting to reach 50–70 pages.
+
+**Neighbours and narrower question.** Study 49 and Prophecy & Mystery Volume 4 (the order and company of the resurrections; 1 Corinthians 15:23 read narrowly as the Body's own order); the Romans Doctrinal Packet (Romans 5:12–21 as one key passage); Study 59 (the Law's jurisdiction); Study 80 (Genesis 3:15 and the foreordaining passages); Readers Question Series Volume 2 (1 Corinthians 15:29). This volume asks what Paul says each head does for those who are in him, and how the two passages differ in what they answer.
+
+**Rulings (publisher, 2026-10-11, "i approve", all eight as recommended):**
+1. Romans 5:12–21 is read as universal anthropology and assigned to no program; Rule 19 applies wherever faith is named.
+2. "All" and "many" (5:12, 15, 18–19) are reported clause by clause; the volume does not claim every person is justified, since 5:17 says "receive" and the means is set elsewhere in Romans.
+3. The Augustinian, federal and realist readings of 5:12 appear in the objections chapter; the volume builds no doctrine of inherited guilt beyond the text.
+4. 1 Corinthians 15:23 follows Prophecy & Mystery Volume 4 ruling 6 (the Body's own order); Study 49 is cited, not restated.
+5. 1 Corinthians 15:45–49 is read as the Body's resurrection body (Prophecy & Mystery Volume 4 ruling 11, heavenly glorification); 15:50 is reported without assigning the Body to the Kingdom program.
+6. Genesis 1–3 appears only as the background Paul draws on (Genesis 2:7 in 15:45); nothing is said on creation dating or on Genesis 3:15 (Study 80's ground).
+7. Romans 5:13–14 and 5:20 are reported beside the Law's jurisdiction (Study 59, cited); the standing Galatians 3 sentence applies if Galatians 3 is touched.
+8. If Romans 9–11 is touched, Rule 32 and the Romans 11 triad apply; "two humanities" never means Israel and the Body (Rule 17).
+
+**Voices (named at drafting, only from free full texts read; otherwise described without quotation marks).** Likely objections: Romans 5 teaches inherited guilt; "all" means every person is saved; the last Adam makes the church the new Israel; the two passages teach one headship said twice. Candidate writers: Murray, Cranfield, Moo, Wright, Gaffin, Thiselton; none read yet, and no view is attributed to any of them until read.
+
+**Status.** Plan approved 2026-10-11; interior not yet drafted; no cover; no website page.
+
 ## Drafting cautions
 - Mode 2 permits argument and identification; every identification follows the Identity Synthesis Protocol. Nothing in this series is read back into a Digital Study.
-- Paul's letters are addressed to the Body, but a volume that touches Romans 9–11 reads it as addressed to Israel (Rule 32); Romans 10:9–10 is not used as a Body salvation passage; Romans 11 carries the standing triad. **Romans 5:12–21** and **Romans 6** are Body passages; Israel's covenant language is not imported into them.
+- Romans is written during the Acts 9–28 overlap and carries both Mystery revelation and Israel's prophetic future, so each passage is assigned only as the Framework assigns it: **Romans 5:12–21 is universal anthropology** (it applies to all humanity and is not program-specific, so it is neither a Body passage nor an Israel passage); **Romans 6:3** is the Spirit's baptism into the Body (not water baptism, not Acts 2); **Romans 9–11** is read as addressed to Israel (Rule 32); Romans 10:9–10 is not used as a Body salvation passage; Romans 11 carries the standing triad. In 1 Corinthians, 6:9–10 and 15:50 (Kingdom inheritance language used morally) are reported without assigning the Body to the Kingdom program, and 13:8–10 is reported as written with no program assignment.
 - Galatians 3 appears wherever touched (Volume 2 on Galatians 3:13) with the standing sentence; the seed, the Abrahamic blessing and Israel's covenants are left to Covenantal Volume 2 and cited, not restated.
 - Rule 19 applies wherever faith and its content are discussed: salvation is by faith, the content is what God revealed within each program, and no shared saving ground is stated; Adam and Christ (Volume 1) and the Cross (Volume 2) are the volumes where this is most easily broken.
 - Rule 18 applies wherever Paul's synagogue reasoning or his customs are mentioned; Rule 17 wherever the remnant and the Body are set side by side; Rule 11 wherever Acts 9–28 fillings or signs are touched (Volume 4).
@@ -82,5 +105,7 @@ $14.99 per volume, the same as the other commentary series. Series bundle $54.99
 Rule 29 amendment written into CLAUDE.md and Master Standard v1.124 (DOCX and PDF, logged in §22). The Framework §XX wording is supplied to the publisher for his copy. Website work for each volume follows the Gospel pattern: volume page, eighth series block (`#pauline`), series strip, bundle card, Library box (price $364.99 when the series is added), four preview pages, Related Reading box (v1.89), sitemap, and neighbouring study pages checked for the volume (up to three per box).
 
 ## Version history
+- v1.3, 2026-10-11: Volume 1 thesis, outline, neighbours and eight rulings recorded; record only, Master Standard stays at v1.124.
+- v1.2, 2026-10-11: Volume 1 closer check recorded in the overlap table; drafting caution on Romans corrected to the Framework (Romans 5:12–21 is universal anthropology, not a Body passage); record only, Master Standard stays at v1.124.
 - v1.1, 2026-10-11: approved by the publisher; pricing ruled (bundle $54.99; 40-volume Library $364.99); rule recorded in Master Standard v1.124 and CLAUDE.md.
 - v1.0, 2026-10-11: series created as a draft after the handoff rulings (name, placement, order, topic-based shape); scope wording, five volumes with narrower questions, overlap table, drafting cautions and rulings-to-ask proposed by Claude for approval; pricing left unruled; no rule recorded yet.
