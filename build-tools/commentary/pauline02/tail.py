@@ -15,7 +15,7 @@ CONC = [
     ("Does one passage explain the others?", "No; each is complete in its passage", "Chapters 13 to 15"),
   ], [0.30, 0.46, 0.24]),
 ("p", "The volume asks to be tested. A reader who disagrees may take any row of the table and look for the verse that overturns it. If the verse is there, the position must change. If it is not, the position stands on what the text says. In either case the reader will have read the passages on the Cross with the right question in hand, which is what each of them was written to answer."),
-("p", "The volume has tried to be fair to the readings it opposes. Thomas Constable sees, in the passages he comments on, the substitution, the sacrifice, the record and the triumph, and he is right to see them. Where he adds an extent or an identification that the sentences do not state, the volume has declined to add it and has said where it parts company. The One of whom all the passages speak is the Lord Jesus Christ, who “gave himself for our sins” (Galatians 1:4), and the reader who comes away holding the sentences more closely has gained what the volume set out to give."),
+("p", "The volume has tried to be fair to the readings it opposes. Constable, Piper and Wright each see, in the passages they comment on, some of what Paul names, the substitution, the sacrifice, the record and the triumph, and each is right to see it. Where one of them adds an extent, an identification or a single story that the sentences do not state, the volume has declined to add it and has said where it parts company. The One of whom all the passages speak is the Lord Jesus Christ, who “gave himself for our sins” (Galatians 1:4), and the reader who comes away holding the sentences more closely has gained what the volume set out to give."),
 ]
 
 APP = [
@@ -87,6 +87,8 @@ BIB = [
 ("bib", "Constable, Thomas L. //Notes on Romans//. 2026 Edition. Sonic Light (soniclight.com). Free full text. Quoted from the notes on Romans 3:25."),
 ("bib", "Constable, Thomas L. //Notes on Colossians//. 2026 Edition. Sonic Light (soniclight.com). Free full text. Quoted from the notes on Colossians 2:11–15."),
 ("bib", "Constable, Thomas L. //Notes on 2 Corinthians//. 2026 Edition. Sonic Light (soniclight.com). Free full text. Quoted from the notes on 2 Corinthians 5:14."),
+("bib", "Piper, John. //Christ Redeemed Us from the Curse of the Law//. Sermon on Galatians 3:10–14, April 10, 1983. Desiring God (desiringgod.org). Free full text. Quoted from the sermon."),
+("bib", "Wright, N. T. //Saving the World, Revealing the Glory: Atonement Then and Now//. Lecture, St Mellitus College, London, October 17, 2016. NTWrightPage (ntwrightpage.com). Free full text. Quoted from the lecture."),
 ("bib", "Zay-Marie Press. //Study 12: The New Covenant//. Cited, not restated."),
 ("bib", "Zay-Marie Press. //Study 42: One Baptism//. Cited, not restated."),
 ("bib", "Zay-Marie Press. //Study 53: Redemption//. Cited, not restated."),
