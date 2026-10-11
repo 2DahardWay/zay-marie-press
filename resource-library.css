@@ -117,3 +117,5 @@ mark{background:#f6e3a8;color:inherit;padding:0 1px}
 .rl-field label{font-size:.76rem;margin-bottom:3px}.rl-filters{margin:8px 0 6px}
 .rl-status{flex-wrap:wrap;margin-top:4px}.rl-count{font-size:.76rem}.rl-reset{padding:5px 10px;font-size:.68rem}}
 @media(prefers-reduced-motion:reduce){.rl-filter{transition:none}.rl-filter:hover{transform:none}}
+
+.rl-more{grid-column:1/-1;display:flex;justify-content:center;margin:6px 0 0}.rl-more-btn{background:#176536;color:#fff;border:0;border-radius:4px;min-height:46px;padding:11px 26px;font:700 .85rem 'Montserrat',Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;cursor:pointer}.rl-more-btn:hover{background:#0f4f29}.rl-more-btn:focus-visible{outline:3px solid #b8871c;outline-offset:3px}
