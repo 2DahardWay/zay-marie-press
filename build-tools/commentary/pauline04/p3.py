@@ -1,0 +1,28 @@
+C = [
+("h1", "3. One Body, Many Members"),
+("p", "Claim: the ground Paul gives for the Body’s gifts in 1 Corinthians 12 is that the Body is one and has many members, each set by God where he pleased. The chapter is about the need members have of one another, and its instruction about order follows from that need."),
+("sub", "3.1 The Body and the Spirit"),
+("p", "Paul opens the argument with the unity of the Spirit’s giving: “there are diversities of gifts, but the same Spirit” (1 Corinthians 12:4), “differences of administrations, but the same Lord” (12:5), “diversities of operations, but it is the same God which worketh all in all” (12:6). The giving is “to every man to profit withal” (12:7), and “all these worketh that one and the selfsame Spirit, dividing to every man severally as he will” (12:11). The ground is already stated in the first verses. The gifts differ, the Giver is one, and each is given for the profit of the whole."),
+("sub", "3.2 One body, many members"),
+("p", "The illustration follows. “For as the body is one, and hath many members, and all the members of that one body, being many, are one body: so also is Christ” (1 Corinthians 12:12). It is made specific at once: “For by one Spirit are we all baptized into one body, whether we be Jews or Gentiles, whether we be bond or free” (12:13). The volume reads the verse as the Body’s own formation by the Spirit, as Study 42 does, and does not take up the baptism question here. What matters for the order of the assembly is the next point. “the body is not one member, but many” (12:14), and what is true of the body is true of the assembly."),
+("sub", "3.3 The members need one another"),
+("p", "Paul answers two opposite mistakes. The first is the member who thinks it does not belong: “If the foot shall say, Because I am not the hand, I am not of the body; is it therefore not of the body?” (12:15). The second is the member that thinks it has no need of another: “the eye cannot say unto the hand, I have no need of thee” (12:21). Then comes the reason God has ordered it so: “God hath tempered the body together, having given more abundant honour to that part which lacked: That there should be no schism in the body; but that the members should have the same care one for another” (12:24, 25)."),
+("p", "The ground of the instruction is therefore twofold. God has “set the members every one of them in the body, as it hath pleased him” (12:18), so the placing is his. And the purpose of the placing is “no schism” and “the same care one for another.” A member’s place is not the member’s own to choose and not a ranking of worth. The weaker members are “necessary” (12:22), and the less honourable receive “more abundant honour” (12:23)."),
+("sub", "3.4 “Now ye are the body of Christ”"),
+("p", "The chapter turns on a single sentence: “Now ye are the body of Christ, and members in particular” (12:27). The sentence gives the assembly its character. The Corinthians are the Body in the character of a company of members, and each has a place. Paul then lists what God has set “in the church” (12:28), and the next chapters take up that list and the question of whether it is a list of offices. Here it is enough to say that the list follows the ground. It is introduced as God’s setting, not the church’s choosing."),
+("ctbl", "The grounds given in 1 Corinthians 12.", [
+    ("Verse", "What is said", "The ground it gives"),
+    ("12:4–6", "Diversities of gifts, administrations and operations", "The same Spirit, the same Lord, the same God"),
+    ("12:7, 11", "A manifestation is given to every man", "“to profit withal”; the Spirit divides “as he will”"),
+    ("12:18", "God set the members in the body", "“as it hath pleased him”"),
+    ("12:22–24", "The feebler members are necessary", "“God hath tempered the body together”"),
+    ("12:25", "The purpose of the tempering", "“no schism in the body”; the same care one for another"),
+  ], [0.14, 0.42, 0.44]),
+("sub", "3.5 What the volume takes from the chapter"),
+("bul", [
+    "The Body is one and has many members, and the gifts differ while the Giver is one.",
+    "God set the members in the body as it pleased him, so the placing is his and not a ranking.",
+    "The purpose is no schism and the same care one for another.",
+    "The chapter gives a ground for the Body’s gifts, and it does not by itself give a list of offices.",
+  ]),
+]

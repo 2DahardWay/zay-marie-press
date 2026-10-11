@@ -1,0 +1,27 @@
+C = [
+("h1", "2. The Assembly as Paul Names It"),
+("p", "Claim: Paul calls the gathered Body “the church of God” in a place and “the churches of God” in all places, and he treats the assembly as one local company that is also part of the Body of Christ. The instructions that follow are given to it in that character."),
+("sub", "2.1 The church of God at Corinth"),
+("p", "The letter is addressed “Unto the church of God which is at Corinth, to them that are sanctified in Christ Jesus, called to be saints, with all that in every place call upon the name of Jesus Christ our Lord, both theirs and ours” (1 Corinthians 1:2). Two things are said at once. The company at Corinth is a church, and it is addressed together with all who call on the name of the Lord everywhere. Paul does not treat the Corinthians as a separate body from those others. He says that what he teaches them he teaches “every where in every church” (1 Corinthians 4:17), and that he ordains the same “in all churches” (1 Corinthians 7:17)."),
+("sub", "2.2 Where the church meets"),
+("p", "The assemblies Paul names are small enough to meet in a house. He sends greetings to “the church that is in their house” (Romans 16:5), to “Nymphas, and the church which is in his house” (Colossians 4:15) and to “the church in thy house” (Philemon 2). The word “church” is also used of the gathering itself: “when ye come together in the church” (1 Corinthians 11:18). The volume uses “the assembly” for the gathered company in these passages, and notes that Paul’s word is the one the King James Version renders “church.”"),
+("sub", "2.3 One Body, many places"),
+("p", "Paul says to the Corinthians, “Now ye are the body of Christ, and members in particular” (1 Corinthians 12:27). The phrase does not say that Corinth is the whole Body. It says that the Corinthians are the Body of Christ in the character in which he is addressing them, and that each is a member. Elsewhere the Body is spoken of without a place: “one body, and one Spirit” (Ephesians 4:4). The volume follows the Digital Study on the identification of an assembly, which asks how a given use of the word is to be fixed in its setting (Study 60), and does not repeat it. What this volume needs from the point is narrower. The Body is one, the places are many, and Paul’s instructions about order are given to the place, on the ground that the place is the Body’s own gathering."),
+("sub", "2.4 What Paul does not say here"),
+("p", "Paul does not say that a church needs a single leader to be a church, and he does not give a name to the arrangement of a number of churches under one. He writes to Philippi “with the bishops and deacons” (Philippians 1:1), in the plural, and he tells Titus to “ordain elders in every city” (Titus 1:5). He does not say how a church that had no elder yet was to order itself, and the volume does not guess. The next chapters take up what he does say, beginning with the Body’s gifts."),
+("ctbl", "How Paul names the gathered Body in the passages the volume reads.", [
+    ("Passage", "The name", "What it tells us"),
+    ("1 Corinthians 1:2", "“the church of God which is at Corinth”", "A local company, addressed with all who call on the Lord’s name"),
+    ("1 Corinthians 11:16", "“the churches of God”", "Churches in the plural; a common practice among them"),
+    ("1 Corinthians 14:33", "“all churches of the saints”", "The same order is the order of all"),
+    ("Romans 16:5; Colossians 4:15; Philemon 2", "“the church that is in their house”", "The assembly meets in a house"),
+    ("1 Timothy 3:15", "“the house of God, which is the church of the living God”", "The church is spoken of as God’s house"),
+  ], [0.28, 0.34, 0.38]),
+("sub", "2.5 What the volume takes from the chapter"),
+("bul", [
+    "Paul addresses a local church as “the church of God” and as part of all who call on the Lord.",
+    "The assembly he names meets in a house, and the word “church” is also used of the gathering.",
+    "The Body is one and the places are many, and his instructions are given to the place.",
+    "Paul gives no name to an arrangement of churches under one leader.",
+  ]),
+]

@@ -1,0 +1,28 @@
+C = [
+("h1", "4. The Ascended Christ’s Gifts"),
+("p", "Claim: Ephesians 4:7–16 gives a second ground for the Body’s gifts. They are given by the ascended Christ for the edifying of the body, and the passage says what the gifts are for before it says who they are."),
+("sub", "4.1 The unity first"),
+("p", "Paul opens the chapter with a charge to keep “the unity of the Spirit in the bond of peace” (Ephesians 4:3), and he gives the unity its seven ones: “There is one body, and one Spirit, even as ye are called in one hope of your calling; One Lord, one faith, one baptism, One God and Father of all” (Ephesians 4:4–6). The gifts are introduced after the unity, and in answer to it. “But unto every one of us is given grace according to the measure of the gift of Christ” (Ephesians 4:7). The measure is Christ’s, and the giving is to every one."),
+("sub", "4.2 He ascended, and gave"),
+("p", "The giving is set at a point in his history: “When he ascended up on high, he led captivity captive, and gave gifts unto men” (Ephesians 4:8). The parenthesis that follows says that the one who ascended is the one who first descended, and that he ascended “far above all heavens, that he might fill all things” (Ephesians 4:10). The volume does not take up the quotation of the psalm that Paul uses here. It reports what the passage says: the gifts are the ascended Christ’s, and they are given to men."),
+("p", "Thomas Constable puts the order of events in a sentence the volume agrees with as a report: “After Jesus Christ ascended, He gave, as Victor over death, gifts to the church that enabled it to function.” The ground, in Paul’s sentence, is the Christ who ascended. It is not the church’s need alone."),
+("sub", "4.3 For what the gifts are given"),
+("p", "Paul states the purpose in three clauses: “For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ” (Ephesians 4:12). The clauses are the reason for the gifts, and the gifts of verse 11 are given to bring them about. The next verses name the end: “Till we all come in the unity of the faith, and of the knowledge of the Son of God” (Ephesians 4:13), “That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine” (Ephesians 4:14), and “speaking the truth in love, may grow up into him in all things, which is the head, even Christ” (Ephesians 4:15)."),
+("sub", "4.4 The whole body fitly joined"),
+("p", "The sentence closes on the Body’s own working: “From whom the whole body fitly joined together and compacted by that which every joint supplieth, according to the effectual working in the measure of every part, maketh increase of the body unto the edifying of itself in love” (Ephesians 4:16). The ground here is not an office but a working. Every joint supplies something, and every part works in its measure. The giving of verse 11 serves that working and does not replace it."),
+("ctbl", "Ephesians 4:7–16 in its parts.", [
+    ("Verses", "What is said", "What is left unsaid"),
+    ("4:7", "Grace is given to every one, according to the measure of the gift of Christ", "How the measure is determined"),
+    ("4:8–10", "He ascended and gave gifts; he who descended is the one who ascended", "The relation of the gifts to the psalm Paul quotes; the volume reports Paul’s sentence"),
+    ("4:11", "He gave some apostles, prophets, evangelists, pastors and teachers", "Whether these are offices; chapter 5 takes this up"),
+    ("4:12", "For the perfecting of the saints, the work of the ministry, the edifying of the body", "Whether the “ministry” is that of the gifted men alone or of the saints too"),
+    ("4:13–16", "Unity, growth, and the whole body’s working in love", "A date by which the end is reached; “till we all come” is reported as written"),
+  ], [0.14, 0.46, 0.40]),
+("sub", "4.5 What the volume takes from the chapter"),
+("bul", [
+    "The gifts of Ephesians 4 are the ascended Christ’s, given to every one according to the measure of his gift.",
+    "Their stated purpose is the perfecting of the saints, the work of the ministry and the edifying of the body.",
+    "The passage ends on the whole body’s working, in which every joint and part has its share.",
+    "It does not say that the gifts are offices, or by what date the end is reached.",
+  ]),
+]

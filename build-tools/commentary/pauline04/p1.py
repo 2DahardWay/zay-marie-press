@@ -1,0 +1,28 @@
+C = [
+("h1", "1. The Four Questions"),
+("p", "Claim: the volume asks the same four questions of every instruction Paul gives about the assembly, and it answers each from the passage and from no other. The questions are who is told, in what setting, what is to be done, and on what ground. The fourth is the one that matters most, because it is the one most often supplied from somewhere else."),
+("sub", "1.1 Who is told, and in what setting"),
+("p", "Paul’s instructions about the assembly are not addressed to the same people. Some are addressed to a church. “Unto the church of God which is at Corinth” (1 Corinthians 1:2) is the address of the letter that holds the most of them, and the instructions about the gathering are given to its members: “when ye come together, every one of you hath a psalm” (1 Corinthians 14:26). Others are addressed to a man Paul had sent to set a church in order. “For this cause left I thee in Crete, that thou shouldest set in order the things that are wanting, and ordain elders in every city” (Titus 1:5). Timothy is told how to “behave thyself in the house of God” (1 Timothy 3:15). The first kind is spoken to the assembly. The second is spoken to a delegate about the assembly. The volume keeps the two apart, because an instruction to Titus about elders is not an instruction to the Cretan church about what it may do without Titus."),
+("p", "The setting is the second half of the same question. Paul says plainly when a passage is about the meeting. He writes “when ye come together in the church” (1 Corinthians 11:18) and “If therefore the whole church be come together into one place” (1 Corinthians 14:23). Where a passage names no meeting, the volume does not supply one. A word about overseers in 1 Timothy 3 is about the office. A word about silence in 1 Corinthians 14:34 is about “the churches.”"),
+("sub", "1.2 What is to be done"),
+("p", "Some instructions are commands, some are descriptions and some are Paul’s own judgment, and he marks the difference. In 1 Corinthians 7 he says of the unmarried, “I speak this by permission, and not of commandment” (1 Corinthians 7:6), and of the virgins, “I have no commandment of the Lord: yet I give my judgment” (1 Corinthians 7:25). In the same letter he says of his writing on the meeting, “the things that I write unto you are the commandments of the Lord” (1 Corinthians 14:37). The volume reports which kind of statement each passage is, using Paul’s own marks, and it does not raise a judgment to a commandment or lower a commandment to a judgment."),
+("sub", "1.3 On what ground"),
+("p", "The ground is the reason Paul gives. The volume treats it as part of the instruction. A command to cover the head with a stated reason, “because of the angels” (1 Corinthians 11:10), is a different thing from the same command with a different reason. A passage that gives a ground from creation does not become a passage grounded in local custom because another passage in the same letter appeals to custom, and the reverse. The volume therefore lists, for each instruction, the ground Paul states, and where he states none it says that none is stated."),
+("ctbl", "The four questions applied to four instructions.", [
+    ("Instruction", "Who, and where", "What is to be done", "On what ground"),
+    ("“Let all things be done decently and in order” (1 Corinthians 14:40)", "The Corinthian church, when it comes together", "The meeting is to be orderly", "“God is not the author of confusion, but of peace” (14:33)"),
+    ("“ordain elders in every city” (Titus 1:5)", "Titus, a delegate, in Crete", "Elders are to be appointed", "Stated through the qualifications that follow (1:6–9)"),
+    ("“Let the woman learn in silence” (1 Timothy 2:11)", "Timothy, about the house of God", "Women are to learn in silence and not to teach or usurp authority over the man", "“Adam was first formed, then Eve” (2:13)"),
+    ("“put away from among yourselves that wicked person” (1 Corinthians 5:13)", "The Corinthian church, gathered", "A man who had his father’s wife is to be put away", "“a little leaven leaveneth the whole lump” (5:6)"),
+  ], [0.28, 0.22, 0.26, 0.24]),
+("sub", "1.4 What the questions do not do"),
+("p", "The four questions do not decide, by themselves, whether an instruction binds a church today. They show what Paul says. The volume does argue, in the chapters on men and women, that two of the grounds Paul names are not local, and it gives its reasons there. It does not argue from a modern church’s needs, and it does not read a later arrangement back into Paul, whether a single pastor, a bishop over many churches, or a vote of the members. Each of those may or may not be defensible. None of them is Paul’s own sentence, and the volume reports only what his sentences say."),
+("sub", "1.5 What the volume takes from the chapter"),
+("bul", [
+    "Four questions are put to every instruction: who is told, in what setting, what is to be done, and on what ground.",
+    "Instructions to a church and instructions to a delegate about a church are kept apart.",
+    "Paul marks commandment, permission and judgment, and the volume reports the mark.",
+    "The ground is part of the instruction, and a ground is not carried from one passage to another.",
+  ]),
+("p", "The next chapter asks who the assembly is, in Paul’s words, before the instructions to it are read."),
+]
