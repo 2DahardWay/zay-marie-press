@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.22 — Resources page (2026-10-11; recorded in Master Standard v1.108): the “Continue Your Study” section lists the Commentary Collection and the Doctrinal Packets; no change to this series.
+
 Version 1.21 — Resource Library (2026-10-11; rule in Master Standard v1.107 Rule 31): one “Reader Questions” card in the Resource Library (Interpretation), linking to the Questions page; questions and volumes are not listed individually there.
 
 Version 1.20 — Navigation (2026-10-11; rule in Master Standard v1.106 Rule 31): the Reader Questions page sits in a Resources menu in the site navigation, no longer in the Studies menu; the footer link is in the Explore column under Resources.
