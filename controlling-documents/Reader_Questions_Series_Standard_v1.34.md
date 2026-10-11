@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.34 — Resources page (2026-10-11; recorded in Master Standard v1.120): the Featured Tools tiles show one full tile at a time on phones; no change to this series.
+
 Version 1.33 — Resources page (2026-10-11; recorded in Master Standard v1.119): the Continue Your Study swipe row no longer shows a sliver of the previous card on phones; no change to this series.
 
 Version 1.32 — Resources page (2026-10-11; recorded in Master Standard v1.118): the Continue Your Study cards show one full card at a time on phones; no change to this series.
