@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.28 — Resources page (2026-10-11; recorded in Master Standard v1.114): linked verse chips on the Free Reader Questions tile, a New badge on the library card, a floating Back to top button and a library count; no change to this series.
+
 Version 1.27 — Resources page (2026-10-11; recorded in Master Standard v1.113): the Back to top fallback asks for an explicit instant jump; no change to this series.
 
 Version 1.26 — Resources page (2026-10-11; recorded in Master Standard v1.112): the Back to top button falls back to an instant jump where smooth scrolling does not run; no change to this series.
