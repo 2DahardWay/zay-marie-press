@@ -187,13 +187,13 @@ HTML=f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta name=
 <div class="intro"><p>When the King returns, Scripture describes wars He fights, judgments He holds and a kingdom He opens. This map puts them in order, shows who stands at each one and who is being judged, and marks where the order is Scripture’s own and where it is a reading. Choose any station below to open it.</p>
 <p>This guide argues a position, and says so. The map begins at the end of the Tribulation. The Body of Christ is shown only at its own judgment seat, before; it is not at the events of the Coming, which belong to Israel and the nations. Each passage carries a tag:</p></div>
 <div class="legend"><span><span class="tag t-S">Stated</span> the verse says it</span><span><span class="tag t-C">Shown by the context</span> the surrounding passage shows it</span><span><span class="tag t-I">Inferred</span> the map’s own reading, joining passages</span></div>
-<div class="actions"><a class="btn" href="#map">Open the Map</a><button class="btn alt" onclick="window.print()">Print the Whole Map</button></div></div>
+<div class="actions"><a class="btn" href="#map">Open the Map</a><button class="btn alt" onclick="window.print()">Print the Whole Map</button><a class="btn alt" href="jesus-ministry-map.html">The Lord’s Ministry Route Map</a></div></div>
 <section id="map"><div class="wrap"><h2 class="section-title">The Map</h2><p class="section-sub">Top to bottom is the order. Two grey stations stand outside the nine events of the Coming.</p><div class="filter" id="filter"></div><div class="route" id="route"></div><div class="detail" id="detail" hidden aria-live="polite"></div></div></section>
 <section id="matrix-sec"><div class="wrap"><h2 class="section-title">Who Is Where</h2><p class="section-sub">Every participant at every station. Tap a station number to open it, or a name to follow that participant on the map.</p><div class="tw" id="matrix"></div></div></section>
 <section id="judgments"><div class="wrap"><h2 class="section-title">The Judgments at a Glance</h2><p class="section-sub">Five separate courts, each with its own seat, people and ground.</p><div class="tw" id="glance"></div></div></section>
 <section id="limits"><div class="wrap"><h2 class="section-title">What the Map Does Not Claim</h2><p class="section-sub">Where Scripture gives no order, no length or no identification, the map says so instead of filling it in.</p><div class="nc"><ul id="nc"></ul></div></div></section>
 <div class="wrap" id="printall"></div></main>
-<div class="footer"><strong>Zay-Marie Press</strong> · A free resource · Scripture quotations are from the King James Version (KJV). · <a href="resources.html">Back to Resources</a></div>
+<div class="footer"><strong>Zay-Marie Press</strong> · A free resource · Scripture quotations are from the King James Version (KJV). · <a href="resources.html">Back to Resources</a> · <a href="jesus-ministry-map.html">The Lord’s Ministry Route Map</a></div>
 <script>{JS}</script></body></html>"""
 open('second-coming-map.html','w',encoding='utf-8').write(HTML)
 print(len(HTML))

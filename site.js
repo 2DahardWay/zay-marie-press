@@ -44,7 +44,7 @@ if (toggle && nav) {
       const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'nav-group-btn'; btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-haspopup', 'true'); btn.innerHTML = 'RESOURCES <span aria-hidden="true">\u25BE</span>';
       const sub = document.createElement('div'); sub.className = 'nav-sub';
       const qLink = document.createElement('a'); qLink.href = 'questions.html'; qLink.textContent = 'READER QUESTIONS';
-      const resNext = resLink.nextElementSibling; resLink.textContent = 'RESOURCES'; const smLink = document.createElement('a'); smLink.href = 'second-coming-map.html'; smLink.textContent = 'SECOND COMING MAP'; sub.appendChild(resLink); sub.appendChild(qLink); sub.appendChild(smLink);
+      const resNext = resLink.nextElementSibling; resLink.textContent = 'RESOURCES'; const smLink = document.createElement('a'); smLink.href = 'second-coming-map.html'; smLink.textContent = 'SECOND COMING MAP'; sub.appendChild(resLink); sub.appendChild(qLink); const jmLink = document.createElement('a'); jmLink.href = 'jesus-ministry-map.html'; jmLink.textContent = 'MINISTRY ROUTE MAP'; sub.appendChild(smLink); sub.appendChild(jmLink);
       group.appendChild(btn); group.appendChild(sub); nav.insertBefore(group, resNext);
       const setGroup = (open) => { btn.setAttribute('aria-expanded', String(open)); group.classList.toggle('open', open); };
       btn.addEventListener('click', (e) => { e.stopPropagation(); setGroup(btn.getAttribute('aria-expanded') !== 'true'); });
@@ -52,7 +52,7 @@ if (toggle && nav) {
       group.addEventListener('keydown', (e) => { if (e.key === 'Escape') { setGroup(false); btn.focus(); } });
       group.addEventListener('focusout', (e) => { if (!group.contains(e.relatedTarget)) setGroup(false); });
       const here = (window.location.pathname.split('/').pop() || '').replace(/\.html$/, '').toLowerCase();
-      if (['resources','questions','acts-overlap-visual-guide','second-coming-map'].includes(here) || /^reader-questions-/.test(here)) btn.classList.add('current-group');
+      if (['resources','questions','acts-overlap-visual-guide','second-coming-map','jesus-ministry-map'].includes(here) || /^reader-questions-/.test(here)) btn.classList.add('current-group');
     }
   }
   const closeMenu = () => { toggle.setAttribute('aria-expanded', 'false'); toggle.textContent = 'MENU'; nav.classList.remove('open'); };
