@@ -1,0 +1,2 @@
+# Second Coming Map build recipe
+`content.py` holds every station (text, roles, passages); `gen.py` pulls KJV text from a KJV JSON corpus (`D` path in `kjv.py`, the aruljohn/bible-kjv clone) and checks that every quoted phrase appears in that station's passages, writing `data.json`; `page.py` writes `second-coming-map.html`. Run `python3 gen.py && python3 page.py`, then copy the page to the repository root. A change to a station is made in `content.py` and the page regenerated.
