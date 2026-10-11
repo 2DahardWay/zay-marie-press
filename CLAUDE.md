@@ -171,6 +171,7 @@ The priced study-path bundles are separate from the browse sections. Do not chan
 
 **Until the pre-launch audit is complete (Master Standard v1.72 and later), the light per-integration check applies:** the origin/main match, the wrong-path file check, a local render with every image and link resolving, the live page and tile loading, and one phone-width overflow check. The full visual walk below is run in the one pre-launch audit; report each check as observed. Defects in shared code are still fixed at once.
 
+- Live-site checks (environment note, 2026-10-11): the cloud shell cannot reach zaymariepress.com (curl returns 403 or an empty body, which looks like "no matches"), so never use curl or grep on the live site as evidence. Check the live page only with the built-in browser tools (`navigate`, then `get_page_text` or a screenshot), wait about 100 seconds after a push for the deploy, and say plainly when something was read as text and not seen.
 - Fetch `origin/main` and confirm it matches the intended commit.
 - Confirm there are no files at the wrong path: HTML only at the repository root, media only in `assets/`, never `assets/assets`.
 - Render the new page and the catalog locally with Playwright (Chromium is preinstalled), and check that every image and link resolves.
