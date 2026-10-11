@@ -1,0 +1,27 @@
+C = [
+("h1", "14. The Passages Side by Side"),
+("p", "Claim: set side by side, Paul’s passages on the Cross share a subject and a few words, and they differ in the problem, in the means and in the result. This chapter sets them in order and says what they share and where they differ. It is the volume’s argument in a compact form, and each point can be tested against the text."),
+("sub", "14.1 What the passages share"),
+("bul", [
+    "They share a subject. In every passage the subject is the death of Christ, and in several it is joined with his resurrection (Romans 4:25; 6:4; 2 Corinthians 5:15).",
+    "They share a speaker and, in most, a first person plural. Paul writes “we,” “us” and “our” and, in some, “you.”",
+    "They share the language of grace. Redemption is “according to the riches of his grace” (Ephesians 1:7); justification is “freely by his grace” (Romans 3:24); “I do not frustrate the grace of God” (Galatians 2:21).",
+    "They share a direction. In each the Cross is for those who are the writer’s readers, and the passages do not say that the Cross was only for them.",
+  ]),
+("sub", "14.2 Where they differ"),
+("ctbl", "What differs from passage to passage.", [
+    ("Passage", "The problem", "The means", "The result"),
+    ("Romans 3:21–26", "The righteousness of God to be declared", "A propitiation through faith in his blood", "God just and the justifier of him which believeth in Jesus"),
+    ("Romans 5:6–11", "Ungodliness and enmity", "The death of the Son", "Reconciled; saved from wrath"),
+    ("Galatians 3:10–14", "The curse of the law", "Christ made a curse for us", "The blessing of Abraham on the Gentiles; the promise of the Spirit through faith"),
+    ("2 Corinthians 5:14–21", "Life lived to self; trespasses", "One died for all; the sin-making of 5:21", "The living live to him; reconciliation; the righteousness of God in him"),
+    ("Romans 6; Colossians 2:20; 3:3", "The service of sin; the rudiments of the world", "Crucified with him; dead with Christ", "Freed from sin; a life hid with Christ"),
+    ("Colossians 2:13–15", "A record against us; principalities and powers", "Blotting out, nailing to the cross, spoiling", "Forgiveness; no judging by ordinances"),
+    ("Ephesians 2:13–16", "Distance and enmity", "The blood; the flesh; the cross", "Both made nigh; peace; one new man"),
+  ], [0.22, 0.24, 0.26, 0.28]),
+("sub", "14.3 The pattern in the table"),
+("p", "Reading down the second column, the problems are: the righteousness of God, enmity and ungodliness, a curse, living to self, the service of sin, a record and the powers, distance and enmity. Two of them are close (enmity in Romans 5 and Ephesians 2). The rest are distinct. Reading down the third column, the means are: a propitiation, a death, a curse borne, a death for all, a crucifixion with, a blotting out, a blood and a flesh. Reading down the fourth, the results are: God just and the justifier, reconciliation, blessing and Spirit, a life to him, freedom, forgiveness, peace. Every column varies."),
+("p", "It is therefore not accurate to say that Paul has one account of the Cross and uses different words for it. If he had one account, the problem would be the same, and the means would be the same, and only the vocabulary would vary. But the problems vary, and the means vary with them. It is also not accurate to say that Paul has rival accounts. In no passage does he deny another. The proper report is that he describes the Cross as the answer to more than one need, and each description is complete in its passage."),
+("sub", "14.4 Two checks"),
+("p", "Two checks make the pattern firm. First, in no passage is one of the other problems named as the problem. In Galatians 3 the problem is the curse, and Paul does not write there of enmity. In Ephesians 2 the problem is enmity, and Paul does not write there of the curse. Second, where a passage names more than one problem, the passage says so. Colossians 2 names a record and powers, and the passage joins them with its participles. The pattern is therefore not an artefact of choosing passages that happen to differ."),
+]

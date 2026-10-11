@@ -1,0 +1,31 @@
+import kjvlib as k
+def blk(book, ch, a, b):
+    return '  '.join('**%d** %s' % (v, k.V[(book, ch, v)]) for v in range(a, b + 1))
+APPF = [
+("h1", "Appendix D. The Key Passages in Full"),
+("p", "The passages on which the volume turns are given here in full, so that a reader can test the argument against the whole text and not only against the verses quoted in the chapters. Verse numbers are in bold."),
+("sub", "D.1 1 Corinthians 15:1–4"),
+("p", blk('1Cor', 15, 1, 4)),
+("sub", "D.2 Romans 3:21–26"),
+("p", blk('Rom', 3, 21, 26)),
+("sub", "D.3 Romans 5:6–11"),
+("p", blk('Rom', 5, 6, 11)),
+("sub", "D.4 Galatians 3:10–14"),
+("p", blk('Gal', 3, 10, 14)),
+("sub", "D.5 2 Corinthians 5:14–21"),
+("p", blk('2Cor', 5, 14, 21)),
+("sub", "D.6 Romans 6:1–11"),
+("p", blk('Rom', 6, 1, 11)),
+("sub", "D.7 Colossians 2:13–17"),
+("p", blk('Col', 2, 13, 17)),
+("sub", "D.8 Ephesians 2:13–16"),
+("p", blk('Eph', 2, 13, 16)),
+("sub", "D.9 Colossians 1:19–22"),
+("p", blk('Col', 1, 19, 22)),
+("sub", "D.10 Galatians 2:19–21"),
+("p", blk('Gal', 2, 19, 21)),
+("sub", "D.11 1 Corinthians 1:17–25"),
+("p", blk('1Cor', 1, 17, 25)),
+("sub", "D.12 Colossians 3:1–4"),
+("p", blk('Col', 3, 1, 4)),
+]
