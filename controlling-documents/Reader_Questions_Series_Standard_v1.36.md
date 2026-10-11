@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.36 — Resources page (2026-10-11; recorded in Master Standard v1.122): the Resource Library opens with non-featured cards and the hero-to-tools gap is trimmed on desktop; no change to this series.
+
 Version 1.35 — Bible Book Summaries page (2026-10-11; recorded in Master Standard v1.121): the filter bar stays pinned as the reader scrolls; no change to this series.
 
 Version 1.34 — Resources page (2026-10-11; recorded in Master Standard v1.120): the Featured Tools tiles show one full tile at a time on phones; no change to this series.
