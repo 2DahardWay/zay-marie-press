@@ -156,13 +156,13 @@ These are built by the Master Standard and the Digital Studies workflow, not by 
 ## Volume 5 — Liberty, Conscience and the Walk (thesis, outline and rulings approved 2026-10-11)
 **Title and subtitle.** Liberty, Conscience and the Walk — What Governs the Believer Where Paul Gives No Command, and How He Sets Liberty Against the Weaker Brother's Conscience. About 55 pages.
 
-**Narrower question.** Where Paul gives no command, what governs the believer's conduct, and how does he set liberty against another believer's conscience? The volume does not take up the Law's jurisdiction (Study 59), the flesh and the Spirit as a walk (Study 44), the Sabbath passages (Study 78), Romans 13 (Study 77), the three groups of 1 Corinthians 10:32 (Study 36) or circumcision (Studies 19 and 51).
+**Narrower question.** Where Paul gives no command, what governs the believer's conduct, and how does he set liberty against another believer's conscience? The volume does not take up the Law's jurisdiction (Study 59), the flesh and the Spirit as a walk (Study 44), the Sabbath passages (Study 78), Romans 13 (Study 77), the three groups of 1 Corinthians 10:32 (Study 36) or circumcision (Study 51) or the Jerusalem Council (Study 19).
 
 **Thesis.** Paul does not give a rule for every case. Where he commands, there is no liberty (1 Corinthians 5; 6:9–10; Galatians 5:19–21). Where he leaves a matter open (meats, drink, days) he gives limits: receive the one who differs (Romans 14:1–12); no stumbling block (Romans 14:13–21; 1 Corinthians 8); not the table of devils (1 Corinthians 10:14–22); liberty not an occasion to the flesh (Galatians 5:13). The passages answer different questions and are not merged into one rule such as "do all to the glory of God."
 
 **Outline (about 55 pages).** Preface; Thesis; ch. 1 the five questions; ch. 2 where Paul commands and where he leaves it open; ch. 3 Romans 14:1–12; ch. 4 Romans 14:13–23; ch. 5 Romans 15:1–7; ch. 6 1 Corinthians 8; ch. 7 1 Corinthians 9; ch. 8 1 Corinthians 10:1–22; ch. 9 1 Corinthians 10:23–33; ch. 10 Galatians 5:1–15; ch. 11 Galatians 5:16–26 (read for its limits; the walk left to Study 44); ch. 12 Colossians 2:8–23; ch. 13 conscience in Paul's letters; ch. 14 "all things are lawful"; ch. 15 the grounds side by side; ch. 16 what Paul leaves unsaid; ch. 17 objections and replies; Conclusion; Appendices A–E; Bibliography.
 
-**Closer check (2026-10-11, from site pages and Standards; study PDFs are not in the repo).** Study 36 takes 1 Corinthians 10:32; Study 77 Romans 13; Study 78 the Sabbath passages including Romans 14:5–6 and Colossians 2:16–17; Study 59 the Law's jurisdiction; Study 44 Galatians 5:16–26 as the walk in the Spirit; Studies 19 and 51 circumcision; no study, volume or Packet is built on liberty and the weaker brother's conscience.
+**Closer check (2026-10-11, from site pages and Standards; study PDFs are not in the repo).** Study 36 takes 1 Corinthians 10:32; Study 77 Romans 13; Study 78 the Sabbath passages including Romans 14:5–6 and Colossians 2:16–17; Study 59 the Law's jurisdiction; Study 44 Galatians 5:16–26 as the walk in the Spirit; Study 51 circumcision and Study 19 the Jerusalem Council (Acts 15, with the decree); no study, volume or Packet is built on liberty and the weaker brother's conscience.
 
 **Rulings (publisher, 2026-10-11, "i approve", all as recommended):**
 1. Method: one passage, one question, asked as in Volume 4; no modern practice read back into Paul.
@@ -175,7 +175,9 @@ These are built by the Master Standard and the Digital Studies workflow, not by 
 8. Scope: Paul's letters only; no author from before 1900; Rule 32 if Romans 10 or 11 comes up.
 9. Objections chapter: at least three modern writers from free full texts read by Claude; a view with no free full text is stated as a tradition's, no writer named.
 
-**Status.** Thesis, outline and rulings approved; drafting begins. Build files in `build-tools/commentary/pauline05/`.
+**Voices (read in full, free texts, 2026-10-11).** Constable (expository notes on Romans 14, 1 Corinthians 8 and 10, Galatians 5, Colossians 2), Piper (two Desiring God messages on Romans 14), Jon English Lee (Paul and the Sabbath, Founders Ministries) and Elijah Baidoo (Journal of AIIAS African Theological Association 9.1); each quotation checked against the page text on two fetches.
+
+**Status.** Thesis, outline and rulings approved; interior drafted for review (59 pages with the cover; seventeen chapters, five appendices, 185-row verse index); not yet approved; no cover yet. Build files in `build-tools/commentary/pauline05/`.
 
 ## Drafting cautions
 - Mode 2 permits argument and identification; every identification follows the Identity Synthesis Protocol. Nothing in this series is read back into a Digital Study.

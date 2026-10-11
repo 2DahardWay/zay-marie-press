@@ -1,0 +1,27 @@
+C = [
+("h1", "1. The Five Questions"),
+("p", "Claim: Paul writes about liberty in four letters, and the passages answer different questions. A reader who asks the same five questions of each can see what each says and where it stops."),
+("sub", "1.1 Why five questions"),
+("p", "The passages on liberty are often gathered into one lesson: a Christian is free, but must be careful of others. The lesson is true as far as it goes. It leaves out that the passages are written to different churches, about different matters, and that they give different reasons. Romans 14 is written to believers in Rome, about the eating of herbs and the keeping of days. 1 Corinthians 8 to 10 is written to believers in Corinth, about meat offered to idols. Galatians 5 is written to believers who were being turned to circumcision and the law. Colossians 2 is written to believers who were being judged by others in meat, in drink and in days. If the passages are read as one, the differences are lost. The volume therefore asks the same questions of each, and sets the answers side by side in chapter 15."),
+("ctbl", "The five questions.", [
+    ("Question", "What it asks", "Where the answer is found"),
+    ("1. Does Paul command?", "Is the matter commanded, forbidden or left open in the passage itself?", "The verbs of the passage"),
+    ("2. What limit does he give?", "Where the matter is open, what does he tell the believer to do or not do?", "The imperatives"),
+    ("3. To whom is the limit owed?", "To God, to a brother, to an unbeliever, or to the believer’s own conscience?", "The persons named"),
+    ("4. What ground does he state?", "What reason does Paul give, in his own words?", "The “for” and “because” clauses"),
+    ("5. What does he leave unsaid?", "What would a reader expect to be settled that the passage does not settle?", "The silence of the passage"),
+  ], [0.26, 0.48, 0.26]),
+("sub", "1.2 What the questions do not do"),
+("p", "The questions do not ask what a church has made of the passage. They do not ask what the believer in any later century ought to do about a custom Paul never names. The volume does not read a modern practice back into Paul or take a modern practice out of him. If the question is whether a believer should drink wine, watch a film or keep a day of the week, the volume asks what Paul says and where he stops, and it does not supply the answer for the case he does not mention."),
+("sub", "1.3 One sentence is not the rule"),
+("p", "“Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God” (1 Corinthians 10:31) is the verse most often used as the single rule of liberty. It is a true sentence. It stands at the end of a passage in which Paul has given four separate instructions about meat offered to idols, and it is followed by “Give none offence” (1 Corinthians 10:32). The volume reads it in its place, in chapter 9. It does not read it as a rule that settles the matters the earlier verses settle. A rule that said only “do all to the glory of God” would not tell a Corinthian whether to eat what was sold in the shambles, and Paul does tell him: “Whatsoever is sold in the shambles, that eat, asking no question for conscience sake” (1 Corinthians 10:25)."),
+("sub", "1.4 Whom the passages are written to"),
+("p", "Every passage in the volume is written by Paul to believers: “to all that be in Rome, beloved of God, called to be saints” (Romans 1:7); “unto the church of God which is at Corinth” (1 Corinthians 1:2); “unto the churches of Galatia” (Galatians 1:2); “to the saints and faithful brethren in Christ which are at Colosse” (Colossians 1:2). The volume reads each as it is addressed. Where a passage names a group within the church, as Romans 14 names “him that is weak in the faith,” the volume reports what the text says of the group and does not say who the group was beyond that, for reasons given in chapter 3."),
+("sub", "1.5 What the volume takes from the method"),
+("bul", [
+    "Five questions are asked of every passage, and the answers are set side by side in chapter 15.",
+    "No modern practice is read into Paul, and no silence of Paul is made into a rule.",
+    "“Do all to the glory of God” is read in its place and is not made the single rule of liberty.",
+    "Each passage is read as addressed to the believers named in its opening verses.",
+  ]),
+]
