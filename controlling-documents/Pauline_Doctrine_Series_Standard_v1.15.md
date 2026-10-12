@@ -54,7 +54,7 @@ Volumes are numbered 1–5 within the series. Each volume's thesis, outline and 
 - **Marriage and Singleness** (1 Corinthians 7) — incidental mentions only elsewhere.
 - **Suffering and Glory** (Romans 8:17–39; 2 Corinthians 4) — incidental mentions only elsewhere.
 - **The Sin of the World and the Conscience** (Romans 1–3) — keep clear of Studies 54 and 43 (and 35).
-- **The Old Man and the New** (Romans 6–7; Ephesians 4; Colossians 3) — needs a narrower question to stay off Studies 37 and 45 (and 42); Volume 2's treatment of Romans 6 is a further neighbour.
+- **The Old Man and the New** — WITHDRAWN by the publisher, 2026-10-11: not to be pursued; no Study is planned for it. (Original notes follow for the record.) (Romans 6–7; Ephesians 4; Colossians 3) — needs a narrower question to stay off Studies 37 and 45 (and 42); Volume 2's treatment of Romans 6 is a further neighbour.
 
 These are built by the Master Standard and the Digital Studies workflow, not by this Standard; each is classified by the Category Standard's decision procedure at the time.
 
@@ -217,3 +217,4 @@ Rule 29 amendment written into CLAUDE.md and Master Standard v1.124 (DOCX and PD
 - v1.2, 2026-10-11: Volume 1 closer check recorded in the overlap table; drafting caution on Romans corrected to the Framework (Romans 5:12–21 is universal anthropology, not a Body passage); record only, Master Standard stays at v1.124.
 - v1.1, 2026-10-11: approved by the publisher; pricing ruled (bundle $54.99; 40-volume Library $364.99); rule recorded in Master Standard v1.124 and CLAUDE.md.
 - v1.0, 2026-10-11: series created as a draft after the handoff rulings (name, placement, order, topic-based shape); scope wording, five volumes with narrower questions, overlap table, drafting cautions and rulings-to-ask proposed by Claude for approval; pricing left unruled; no rule recorded yet.
+- v1.15, 2026-10-11: the fourth later Digital Study, The Old Man and the New, withdrawn at the publisher's direction and not to be pursued; record only, Master Standard stays at v1.133.
