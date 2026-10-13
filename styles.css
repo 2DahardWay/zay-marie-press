@@ -312,7 +312,7 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 @media(max-width:340px){.digital-studies-page .study-card{padding:14px!important;gap:12px!important}.digital-studies-page .study-card h3{font-size:.92rem!important;line-height:1.2}}
 
 /* STUDIES dropdown */
-.nav-group{position:relative;display:flex;align-items:center}
+.nav-group{position:relative;display:flex;align-items:flex-start}
 .nav-group-btn{background:none;border:0;padding:0;margin:0;line-height:inherit;text-transform:none;font:inherit;line-height:inherit;letter-spacing:inherit;color:#1c2922;cursor:pointer}
 .nav-group-btn span{font-size:.7em;margin-left:2px}
 .nav-group-btn.current-group,.nav-group-btn:hover{color:#5a665f}
