@@ -54,7 +54,7 @@ def blocks_html(blocks):
     return "\n".join(h)
 
 def interior_html(toc_pages):
-    toc = "".join(f"<div class='toc'><span>{n}. {t}</span><i></i><span>{toc_pages.get(n, '00')}</span></div>" for n, t, _ in mod.SECTIONS)
+    toc = "".join(f"<div class='toc'><span>{n}. {t}</span><i>{'.'*220}</i><span>{toc_pages.get(n, '00')}</span></div>" for n, t, _ in mod.SECTIONS)
     body = "".join(f"<h1 id='s{n}'>{n}. {t}</h1>{blocks_html(bl)}" for n, t, bl in mod.SECTIONS)
     return f"""<!doctype html><meta charset=utf-8><style>
 @page{{size:483.846pt 725.754pt;margin:43.2pt 51.55pt 61.2pt 51.55pt;@bottom-center{{content:"ZAY-MARIE PRESS BIBLE COMPANION SERIES • " counter(page);font:400 8pt Roboto;color:#000}}}}
@@ -64,7 +64,7 @@ def interior_html(toc_pages):
 .title{{font:700 24pt/1.12 Roboto;color:{NAVY};margin:0 0 6pt}}.subtitle{{font:italic 12pt/1.25 Roboto;margin:0 0 12pt}}
 .rule{{height:2pt;background:{GOLD};margin:0 0 12pt}}
 .toch{{font:700 12pt Roboto;color:{NAVY};margin:10pt 0 6pt}}
-.toc{{display:flex;align-items:baseline;margin:0 0 6pt;line-height:1.08}}.toc i{{flex:1;border-bottom:1pt dotted #000;margin:0 4pt;transform:translateY(-2pt)}}
+.toc{{display:flex;align-items:baseline;margin:0 0 6pt;line-height:1.08}}.toc i{{flex:1;min-width:0;overflow:hidden;white-space:nowrap;direction:rtl;text-align:left;font-style:normal;letter-spacing:3pt;margin:0 5pt;color:#000}}
 .sub{{margin:5pt 0 1pt;break-after:avoid}}h1+.sub{{margin-top:0}}
 ul,ol{{margin:0 0 6pt;padding-left:22pt}}li{{margin:0 0 4pt}}ul li:last-child,ol li:last-child{{margin-bottom:0}}ol.roman{{list-style:upper-roman}}
 .box{{background:#EAF1F8;border:1pt solid {NAVY};padding:7pt 9pt;margin:10pt 0;break-inside:avoid}}.bt{{font:700 10pt Roboto;letter-spacing:.04em;color:{NAVY};margin:0 0 4pt}}.box p{{margin:0}}
