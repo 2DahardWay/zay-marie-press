@@ -112,3 +112,11 @@ S(10, "Teaching Outline for Romans",
      "The Remnant, the Olive Tree, and Israel’s Future (Ch. 11) — God has not cast away His people. <i>(Rom. 11:1–5, 17–26)</i>",
      "The Renewed Walk (12:1–15:13) — Transformation, love, order, and mutual acceptance. <i>(Rom. 12:1–2; 13:8–10; 14:1)</i>",
      "Closing Greetings and the Mystery (15:14–16:27) — Paul’s ministry and the doxology. <i>(Rom. 16:25–26)</i>"))
+
+S(11, "Companion Usage and Study Suggestions",
+  H("How to Use This Companion in Personal Study"),
+  P("This Companion is designed to walk alongside you as you read Romans, helping you see both the way the letter carries two programs and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and truths deepen your understanding. The Program-Safe Applications will guide your heart toward faith, freedom in Christ, and love, drawn from what Romans says to believers and from universal truths, without turning Israel’s covenant formula into the Body’s calling."),
+  H("How to Use This Companion in Small Groups or Classes"),
+  P("This Companion provides a clear, structured framework that makes teaching Romans simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the table to help your group see which truths speak to the Body, which belong to Israel in chapters 9–11, and which hold for all people, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
+  H("How This Companion Fits Within the Acts Overlap Theology Series"),
+  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap framework, Romans was written during the overlap and carries both: the Body’s standing in Christ and Israel’s election and future. This Companion shows you how to keep each in its place while drawing out the truths that apply to all believers in every age."))

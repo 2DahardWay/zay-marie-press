@@ -25,7 +25,7 @@ if (toggle && nav) {
       const group = document.createElement('div'); group.className = 'nav-group';
       const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'nav-group-btn'; btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-haspopup', 'true'); btn.innerHTML = 'STUDIES <span aria-hidden="true">\u25BE</span>';
       const sub = document.createElement('div'); sub.className = 'nav-sub';
-      [['digital-studies.html','DIGITAL STUDIES'],['commentary.html','COMMENTARY COLLECTION'],['parables.html','PARABLE STUDIES'],['doctrinal-packets.html','BIBLE COMPANION SERIES'],['bible-book-summaries.html','BIBLE BOOK SUMMARIES']].forEach(([href,label]) => { const a = (href === 'digital-studies.html') ? dsLink : (nav.querySelector('a[href="' + href + '"]') || document.createElement('a')); a.href = href; a.textContent = label; sub.appendChild(a); });
+      [['digital-studies.html','DIGITAL STUDIES'],['commentary.html','COMMENTARY COLLECTION'],['parables.html','PARABLE STUDIES'],['doctrinal-packets.html','BIBLE BOOK COMPANION SERIES'],['bible-book-summaries.html','BIBLE BOOK SUMMARIES']].forEach(([href,label]) => { const a = (href === 'digital-studies.html') ? dsLink : (nav.querySelector('a[href="' + href + '"]') || document.createElement('a')); a.href = href; a.textContent = label; sub.appendChild(a); });
       group.appendChild(btn); group.appendChild(sub); nav.insertBefore(group, nav.querySelector('a[href="biblical-hermeneutics-course.html"]') || null);
       const setGroup = (open) => { btn.setAttribute('aria-expanded', String(open)); group.classList.toggle('open', open); };
       btn.addEventListener('click', (e) => { e.stopPropagation(); setGroup(btn.getAttribute('aria-expanded') !== 'true'); });

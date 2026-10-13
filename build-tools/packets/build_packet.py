@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a Bible Companion (new ten-section structure) as a PDF: genre cover + Roboto interior.
+"""Build a Bible Book Companion (new ten-section structure) as a PDF: genre cover + Roboto interior.
 Usage: python3 build_packet.py <content_module> <out_dir>
 Interior page 483.846 x 725.754 pt, margins per Master Standard 1.47; Roboto only; cover is an image page."""
 import sys, importlib, subprocess, re, os, json
@@ -26,8 +26,8 @@ h1{{font-size:124px;line-height:1.04;margin:0 0 30px;font-weight:700}}.rule{{wid
 .sub{{font-style:italic;font-size:44px;line-height:1.38;color:#dbe6ee}}
 .foot{{position:absolute;left:0;right:0;bottom:70px}}.foot b{{display:block;font:700 28px Arial,sans-serif;letter-spacing:.24em;color:#e2c47c;margin-bottom:12px}}.foot span{{font:24px Arial,sans-serif;letter-spacing:.12em;color:#cfe0ec}}</style>
 <div class=ph></div><div class=fade></div><div class=bar></div>
-<div class=t><div class=k>BIBLE COMPANION SERIES</div><div class=tt>{mod.TESTAMENT}</div><h1>{mod.BOOK}</h1><div class=rule></div><div class=sub>{mod.SUBTITLE}</div></div>
-<div class=foot><b>ZAY-MARIE PRESS</b><span>Scripture: King James Version</span></div>"""
+<div class=t><div class=k>BIBLE BOOK COMPANION SERIES</div><div class=tt>{mod.TESTAMENT}</div><h1>{mod.BOOK}</h1><div class=rule></div><div class=sub>{mod.SUBTITLE}</div></div>
+<div class=foot><b>ZAY-MARIE PRESS</b></div>"""
     Path("/tmp/_cover.html").write_text(html)
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={"width":1200,"height":1800}); pg.goto("file:///tmp/_cover.html"); pg.wait_for_timeout(500)
@@ -57,7 +57,7 @@ def interior_html(toc_pages):
     toc = "".join(f"<div class='toc'><span>{n}. {t}</span><i>{'.'*220}</i><span>{toc_pages.get(n, '00')}</span></div>" for n, t, _ in mod.SECTIONS)
     body = "".join(f"<h1 id='s{n}'>{n}. {t}</h1>{blocks_html(bl)}" for n, t, bl in mod.SECTIONS)
     return f"""<!doctype html><meta charset=utf-8><style>
-@page{{size:483.846pt 725.754pt;margin:43.2pt 51.55pt 61.2pt 51.55pt;@bottom-center{{content:"ZAY-MARIE PRESS BIBLE COMPANION SERIES • " counter(page);font:400 8pt Roboto;color:#000}}}}
+@page{{size:483.846pt 725.754pt;margin:43.2pt 51.55pt 61.2pt 51.55pt;@bottom-center{{content:"ZAY-MARIE PRESS BIBLE BOOK COMPANION SERIES • " counter(page);font:400 8pt Roboto;color:#000}}}}
 *{{box-sizing:border-box}}body{{margin:0;font:400 10pt/1.08 Roboto;color:#000}}
 #s10{{break-before:page}}p{{margin:0 0 6pt}}h1{{font:700 17pt/1.15 Roboto;color:{NAVY};margin:12pt 0 8pt;break-after:avoid}}
 .kicker{{font:700 9pt Roboto;letter-spacing:.12em;color:{NAVY};margin:0 0 6pt}}
@@ -71,7 +71,7 @@ ul,ol{{margin:0 0 6pt;padding-left:22pt}}li{{margin:0 0 4pt}}ul li:last-child,ol
 table{{break-inside:avoid;width:100%;border-collapse:collapse;margin:10pt 0;table-layout:fixed}}th{{background:{SLATE};color:#fff;font:700 9pt Roboto;text-align:left;padding:4pt 5pt;border:.75pt solid {SLATE}}}
 td{{font:400 9pt/1.15 Roboto;padding:4pt 5pt;border:.75pt solid #9bb0c2;vertical-align:top;background:#fff}}tr{{break-inside:avoid}}thead{{display:table-header-group}}
 </style><body>
-<div class=kicker>ZAY-MARIE PRESS | BIBLE COMPANIONS</div><div class=title>Bible Companion — {mod.BOOK}</div><div class=subtitle>{mod.SUBTITLE}</div><div class=rule></div>
+<div class=kicker>ZAY-MARIE PRESS | BIBLE BOOK COMPANIONS</div><div class=title>Bible Book Companion — {mod.BOOK}</div><div class=subtitle>{mod.SUBTITLE}</div><div class=rule></div>
 <div class=toch>Table of Contents</div>{toc}
 {body}"""
 

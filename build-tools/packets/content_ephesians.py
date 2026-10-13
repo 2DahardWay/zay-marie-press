@@ -1,4 +1,4 @@
-# Ephesians: DRAFT of the New Testament variant of the Bible Companion structure (for publisher approval).
+# Ephesians: DRAFT of the New Testament variant of the Bible Book Companion structure (for publisher approval).
 BOOK = "Ephesians"
 TESTAMENT = "New Testament"
 GENRE = "letters"
@@ -113,3 +113,11 @@ S(10, "Teaching Outline for Ephesians",
      "Walking in Love, Light, and Wisdom (5:1–21) — Imitating God, living as children of light, and being filled with the Spirit. <i>(Eph. 5:1–2, 8, 15–21)</i>",
      "The Christian Household (5:22–6:9) — Marriage, parents and children, servants and masters. <i>(Eph. 5:22–33; 6:1–9)</i>",
      "Standing in the Whole Armour of God (6:10–24) — Strength in the Lord, the armour, and prayer. <i>(Eph. 6:10–20)</i>"))
+
+S(11, "Companion Usage and Study Suggestions",
+  H("How to Use This Companion in Personal Study"),
+  P("This Companion is designed to walk alongside you as you read Ephesians, helping you see both the mystery revealed through Paul and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and truths deepen your understanding. The Program-Safe Applications will guide your heart toward grace, unity, and a walk worthy of your calling, drawn from what Ephesians itself says to the Body of Christ without borrowing Israel’s covenant commands."),
+  H("How to Use This Companion in Small Groups or Classes"),
+  P("This Companion provides a clear, structured framework that makes teaching Ephesians simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, mystery-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish what Ephesians reveals about the Body’s calling from truths that hold for all people, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
+  H("How This Companion Fits Within the Acts Overlap Theology Series"),
+  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap framework, Ephesians stands in the mystery revealed through Paul and speaks directly to the Body of Christ, while also stating truths that shape Christian character in every age. This Companion shows you how to honor the book’s own setting while drawing out the principles that apply to all believers."))

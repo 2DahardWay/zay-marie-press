@@ -1,4 +1,4 @@
-# 1 Chronicles: content for the new Bible Companion structure (text as supplied by the publisher, 2026-10-13).
+# 1 Chronicles: content for the new Bible Book Companion structure (text as supplied by the publisher, 2026-10-13).
 BOOK = "1 Chronicles"
 TESTAMENT = "Old Testament"
 GENRE = "history"
@@ -109,3 +109,11 @@ S(10, "Teaching Outline for 1 Chronicles",
      "David’s Victories and Failures (Chs. 18–21) — David’s military triumphs expand Israel’s borders; his census brings judgment and mercy. <i>(1 Chr. 18:6; 1 Chr. 21:7–14)</i>",
      "Temple Preparation and National Organization (Chs. 22–27) — David prepares materials, assigns Levites, priests, musicians, gatekeepers, and organizes national service for the future Temple. <i>(1 Chr. 22:5; 1 Chr. 23:28–32)</i>",
      "David’s Final Charge, Prayer, and Solomon’s Coronation (Chs. 28–29) — David commissions Solomon, prays over the nation, leads offerings, and Israel anoints Solomon king. <i>(1 Chr. 28:9; 1 Chr. 29:10–22)</i>"))
+
+S(11, "Companion Usage and Study Suggestions",
+  H("How to Use This Companion in Personal Study"),
+  P("This Companion is designed to walk alongside you as you read 1 Chronicles, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward devotion, worship, and humility without confusing Israel’s covenant commands with the Body of Christ’s calling today."),
+  H("How to Use This Companion in Small Groups or Classes"),
+  P("This Companion provides a clear, structured framework that makes teaching 1 Chronicles simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
+  H("How This Companion Fits Within the Acts Overlap Theology Series"),
+  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap framework, 1 Chronicles stands firmly in Israel’s covenant story, yet it still reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age."))
