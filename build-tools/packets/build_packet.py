@@ -59,7 +59,7 @@ def interior_html(toc_pages):
     return f"""<!doctype html><meta charset=utf-8><style>
 @page{{size:483.846pt 725.754pt;margin:43.2pt 51.55pt 61.2pt 51.55pt;@bottom-center{{content:"ZAY-MARIE PRESS BIBLE BOOK COMPANION SERIES • " counter(page);font:400 8pt Roboto;color:#000}}}}
 *{{box-sizing:border-box}}body{{margin:0;font:400 10pt/1.08 Roboto;color:#000}}
-#s10{{break-before:page}}p{{margin:0 0 6pt}}h1{{font:700 17pt/1.15 Roboto;color:{NAVY};margin:12pt 0 8pt;break-after:avoid}}
+p{{margin:0 0 6pt}}h1{{font:700 17pt/1.15 Roboto;color:{NAVY};margin:12pt 0 8pt;break-after:avoid}}
 .kicker{{font:700 9pt Roboto;letter-spacing:.12em;color:{NAVY};margin:0 0 6pt}}
 .title{{font:700 24pt/1.12 Roboto;color:{NAVY};margin:0 0 6pt}}.subtitle{{font:italic 12pt/1.25 Roboto;margin:0 0 12pt}}
 .rule{{height:2pt;background:{GOLD};margin:0 0 12pt}}
@@ -87,7 +87,7 @@ def page_map(pdf):
     for pg in range(1, n+1):
         txt = subprocess.run(["pdftotext", "-f", str(pg), "-l", str(pg), "-layout", str(pdf), "-"], capture_output=True, text=True).stdout
         for num, t, _ in mod.SECTIONS:
-            if num not in res and re.search(rf"^\s*{num}\. {re.escape(t)}\s*$", txt, re.M):
+            if num not in res and re.search(rf"^\s*{num}\. " + r"\s+".join(map(re.escape, t.split())) + r"\s*$", txt, re.M):
                 res[num] = pg
     return res
 

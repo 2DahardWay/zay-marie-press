@@ -1,122 +1,16 @@
-# DRAFT for publisher approval.
-BOOK = "Romans"
-TESTAMENT = "New Testament"
-GENRE = "letters"
-SUBTITLE = "Sin, Grace, Israel’s Future, and the Walk of the Body"
-SECTIONS = []
-def S(n, t, *blocks): SECTIONS.append((n, t, list(blocks)))
-P = lambda x: ("p", x)
-L = lambda *xs: ("ul", list(xs))
-H = lambda x: ("h3", x)
-TBL = lambda head, rows, widths: ("table", head, rows, widths)
-OL = lambda *xs: ("ol", list(xs))
-OLR = lambda *xs: ("olr", list(xs))
-BOX = lambda lead, text: ("box", lead, text)
-
-S(1, "Book Overview (Program-Aware)",
-  P("Romans is Paul’s letter “to all that be in Rome, beloved of God, called to be saints” (Rom. 1:7). He writes as “an apostle, separated unto the gospel of God,” to set out the gospel he preaches, the condition of Jew and Gentile alike, righteousness by faith, and the walk that follows (Rom. 1:1, 16–17; 3:9, 22). The letter was written during the Acts 9–28 overlap, and Paul addresses Israel directly in chapters 9–11 (Rom. 9:3–4; 10:1; 11:1)."),
-  BOX("Program Identity:", "Romans carries both programs. Chapters 1–8 and 12–16 speak to the Body in the Mystery Program (Rom. 16:25–26), while chapters 9–11 are addressed to Israel and concern Israel’s election and future in the Prophecy Program."))
-
-S(2, "Narrative Flow of Romans",
-  H("Movement 1 — The Gospel and the Guilt of the World (1:1–3:20)"),
-  P("Paul announces the gospel as the power of God unto salvation, then shows Gentile and Jew alike under sin (Rom. 1:16–17; 3:9–19)."),
-  H("Movement 2 — Righteousness by Faith (3:21–5:21)"),
-  P("Righteousness comes by faith in Jesus Christ, illustrated by Abraham, with peace with God and the contrast of Adam and Christ (Rom. 3:21–26; 4:1–5; 5:1, 12–21)."),
-  H("Movement 3 — Life in Christ and the Spirit (Chs. 6–8)"),
-  P("Believers are baptized into Christ, freed from sin’s dominion, and led by the Spirit, with no condemnation and no separation from the love of God (Rom. 6:3–4; 8:1, 14, 38–39)."),
-  H("Movement 4 — Israel’s Election, Stumbling, and Future (Chs. 9–11)"),
-  P("Paul addresses Israel’s privileges, its present unbelief, the remnant, the olive tree, and the promise that all Israel shall be saved (Rom. 9:3–5; 10:1; 11:5, 17–24, 26)."),
-  H("Movement 5 — The Walk of Believers (12:1–16:27)"),
-  P("Paul calls for a renewed mind, love, order, and mutual acceptance, and closes with the revelation of the mystery (Rom. 12:1–2; 13:8–10; 14:1; 16:25–26)."))
-
-S(3, "Program Themes in Romans",
-  H("1. The Gospel Paul Preaches"),
-  P("The gospel is the power of God unto salvation to every one that believeth (Rom. 1:16; 16:25)."),
-  H("2. Universal Guilt and Justification by Faith"),
-  P("All have sinned and are justified freely by His grace through the redemption that is in Christ Jesus (Rom. 3:23–24)."),
-  H("3. Union with Christ"),
-  P("Believers are baptized into Jesus Christ and walk in newness of life (Rom. 6:3–4)."),
-  H("4. Israel’s Election and Future"),
-  P("Israel’s adoption, covenants, and promises remain, and God has not cast away His people (Rom. 9:4–5; 11:1–2, 29)."),
-  H("5. The Mystery Revealed"),
-  P("The closing doxology speaks of the revelation of the mystery kept secret since the world began (Rom. 16:25–26)."))
-
-S(4, "Christ in Romans: Fulfillment and Revelation",
-  H("1. The Seed of David, Declared the Son of God"),
-  P("Christ is made of the seed of David according to the flesh and declared the Son of God by the resurrection from the dead (Rom. 1:3–4)."),
-  H("2. The Propitiation"),
-  P("God set forth Christ as a propitiation through faith in His blood (Rom. 3:25)."),
-  H("3. The Second Adam"),
-  P("As by one man sin entered, so by the obedience of one many are made righteous (Rom. 5:12, 19)."),
-  H("4. Risen and Interceding"),
-  P("Christ died, rose again, and is at the right hand of God making intercession (Rom. 8:34)."),
-  H("5. The End of the Law for Righteousness"),
-  P("Christ is the end of the law for righteousness to every one that believeth (Rom. 10:4)."))
-
-S(5, "Israel in Romans",
-  P("Romans 9–11 is addressed to Israel and concerns Israel. It is read in that setting and not as a passage on how the Body is saved:"),
-  L("Israel’s privileges: the adoption, the glory, the covenants, the law, the service, and the promises (Rom. 9:4–5).",
-    "A remnant according to the election of grace in the present time (Rom. 11:5).",
-    "The olive tree is prophetic blessing and not the Body of Christ. Participation is not identity. Blessing is not covenant. Standing is not program membership (Rom. 11:17–24).",
-    "Israel’s future restoration: “all Israel shall be saved” (Rom. 11:26).",
-    "Romans 10:9–10 is Israel’s covenantal formula drawn from Deuteronomy 30:14 (Rom. 10:8); the Body is saved by belief in the gospel Paul preached (1 Cor. 15:1–4; Eph. 2:8–9)."),
-  P("Concurrency is operational, not transformational."))
-
-S(6, "Body-of-Christ Distinctions",
-  P("Romans teaches the Body’s standing in Christ in chapters 1–8 and 12–16:"),
-  L("justification by faith apart from works of the law", "baptism into Christ by the Spirit, not water baptism", "life in the Spirit and no condemnation", "the revelation of the mystery through Paul’s gospel", "the believer’s walk of love, order, and mutual acceptance"),
-  P("It does not make the Body Israel, place the Body in Israel’s covenants, or turn Romans 9–11 into the Body’s calling."))
-
-S(7, "Program-Specific Truths Table",
-  TBL(["Category", "Truth Revealed in Romans", "Program Identity", "Scripture"], [
-    ["Justification by Faith", "Righteousness comes by faith in Christ, apart from the works of the law.", "Body of Christ (Pauline) Truth", "Rom. 3:21–28"],
-    ["Baptism into Christ", "Believers are baptized into Jesus Christ by the Spirit.", "Body of Christ (Pauline) Truth", "Rom. 6:3–4"],
-    ["The Mystery", "The mystery kept secret since the world began is now made manifest.", "Body of Christ (Pauline) Truth", "Rom. 16:25–26"],
-    ["Israel’s Privileges", "Adoption, glory, covenants, law, service, and promises belong to Israel.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 9:4–5"],
-    ["The Remnant", "A remnant according to the election of grace.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 11:5"],
-    ["Israel’s Restoration", "All Israel shall be saved when the Deliverer comes out of Sion.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 11:26–27"],
-    ["Israel’s Covenantal Formula", "Confession and belief drawn from Deuteronomy 30:14.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 10:8–10"],
-    ["The Olive Tree", "Prophetic blessing in which Gentiles participate without becoming Israel.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 11:17–24"],
-  ], [22, 43, 17, 18]))
-
-S(8, "Universal Truths Table (All People, All Time)",
-  TBL(["Universal Truth", "Description", "Scripture"], [
-    ["Universal Sin", "All have sinned and come short of the glory of God.", "Rom. 3:23"],
-    ["Adam and Christ", "Death passed upon all through Adam, and grace abounds through Christ.", "Rom. 5:12–21"],
-    ["God’s Love", "God commended His love toward us in that Christ died for us.", "Rom. 5:8"],
-    ["God’s Righteous Judgment", "God will render to every man according to his deeds.", "Rom. 2:6"],
-    ["God’s Goodness", "The goodness of God leads to repentance.", "Rom. 2:4"],
-    ["God’s Sovereign Mercy", "God has mercy on whom He will have mercy.", "Rom. 9:15–16"],
-    ["Overcoming Evil with Good", "Be not overcome of evil, but overcome evil with good.", "Rom. 12:21"],
-    ["Love Fulfils the Law’s Duty to Neighbour", "Love worketh no ill to his neighbour.", "Rom. 13:8–10"],
-  ], [30, 46, 24]))
-
-S(9, "Program-Safe Application Grid",
-  BOX("Why This Section Exists", "The tables in Sections 7 and 8 separate what Romans says to the Body, what it says to Israel, and what holds for all people. This section applies the Body’s own instructions and the universal truths. It does not apply Israel’s covenant formula or kingdom promises to the Body."),
-  P("Drawn from Romans’ instructions to believers and from universal truths. The Body of Christ should:"),
-  OL("<b>Trust the gospel</b> — It is the power of God unto salvation (Rom. 1:16).",
-     "<b>Rest in justification by faith</b> — Righteousness is received, not earned (Rom. 3:24; 4:5).",
-     "<b>Know its freedom</b> — There is no condemnation to those in Christ (Rom. 8:1).",
-     "<b>Walk in newness of life</b> — Reckon yourselves dead to sin and alive to God (Rom. 6:4, 11).",
-     "<b>Be transformed</b> — Renew the mind rather than conform to the world (Rom. 12:1–2).",
-     "<b>Overcome evil with good</b> — Live peaceably with all men (Rom. 12:18–21).",
-     "<b>Love one another</b> — Love is the fulfilling of the law’s duty to neighbour (Rom. 13:8–10).",
-     "<b>Receive one another</b> — Accept the weak in faith without quarrelling (Rom. 14:1; 15:7)."))
-
-S(10, "Teaching Outline for Romans",
-  P("<i>Teacher-ready, movement-based outline</i>"),
-  OLR("The Gospel and Human Guilt (1:1–3:20) — Paul’s gospel and the condition of Gentile and Jew. <i>(Rom. 1:16–17; 3:9–19)</i>",
-     "Righteousness by Faith (3:21–5:21) — Justification, Abraham, peace with God, and Adam and Christ. <i>(Rom. 3:21–26; 4:1–5; 5:1, 12–21)</i>",
-     "Freedom in Christ and the Spirit (Chs. 6–8) — Baptism into Christ, sin’s dominion broken, no condemnation. <i>(Rom. 6:3–4; 8:1, 14, 38–39)</i>",
-     "Israel’s Election and Stumbling (Chs. 9–10) — Privileges, unbelief, and Israel’s covenantal setting. <i>(Rom. 9:3–5; 10:1–10)</i>",
-     "The Remnant, the Olive Tree, and Israel’s Future (Ch. 11) — God has not cast away His people. <i>(Rom. 11:1–5, 17–26)</i>",
-     "The Renewed Walk (12:1–15:13) — Transformation, love, order, and mutual acceptance. <i>(Rom. 12:1–2; 13:8–10; 14:1)</i>",
-     "Closing Greetings and the Mystery (15:14–16:27) — Paul’s ministry and the doxology. <i>(Rom. 16:25–26)</i>"))
-
-S(11, "Companion Usage and Study Suggestions",
-  H("How to Use This Companion in Personal Study"),
-  P("This Companion is designed to walk alongside you as you read Romans, helping you see both the way the letter carries two programs and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and truths deepen your understanding. The Program-Safe Applications will guide your heart toward faith, freedom in Christ, and love, drawn from what Romans says to believers and from universal truths, without turning Israel’s covenant formula into the Body’s calling."),
-  H("How to Use This Companion in Small Groups or Classes"),
-  P("This Companion provides a clear, structured framework that makes teaching Romans simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the table to help your group see which truths speak to the Body, which belong to Israel in chapters 9–11, and which hold for all people, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
-  H("How This Companion Fits Within the Acts Overlap Theology Series"),
-  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap framework, Romans was written during the overlap and carries both: the Body’s standing in Christ and Israel’s election and future. This Companion shows you how to keep each in its place while drawing out the truths that apply to all believers in every age."))
+# Built from the publisher's revised template example.
+BOOK = 'Romans'
+TESTAMENT = 'New Testament'
+GENRE = 'letters'
+SUBTITLE = 'The Gospel of Grace, Righteousness by Faith, and the Architecture of the Body of Christ'
+SECTIONS = [(1, 'Book Setting & Program Identity', [('p', 'This section introduces you to the book by explaining who wrote it, who received it, and what was happening when it was written. It also shows you which of God’s programs the book belongs to — Israel’s prophetic program or the Body of Christ’s mystery program. Knowing the setting and the program identity helps you read the book in its proper context and understand how its teachings fit into the larger story of Scripture.'), ('p', 'Romans is a letter written by <b>Paul</b>, “a servant of Jesus Christ, called to be an apostle” (Rom. 1:1), addressed to believers in Rome (Rom. 1:7). Paul had not yet visited them (Rom. 1:10–13) but wrote to establish them in sound doctrine (Rom. 1:11). The letter explains the gospel of Christ (Rom. 1:16), righteousness by faith (Rom. 3:21–26), the believer’s new life (Rom. 6–8), Israel’s prophetic future (Rom. 9–11), and practical Christian living (Rom. 12–15).'), ('p', 'Romans belongs to the <b>Body of Christ (Pauline) program</b>, grounded in the revelation of the mystery (Rom. 16:25), addressed to Gentiles (Rom. 11:13), and centered on justification by faith apart from the law (Rom. 3:28).')]),
+(2, 'Narrative Flow of Romans', [('p', 'This section gives you a simple walkthrough of how the book unfolds. Instead of diving into details right away, it shows the major movements in the letter — how Paul begins, how his doctrine develops, and how the letter builds toward its final practical instructions. Seeing the flow of the book helps you understand the big picture before you study the individual passages.'), ('h3', 'Movement 1 — Condemnation (Chs. 1–3)'), ('p', 'Gentiles are guilty (Rom. 1:18–32). Jews are guilty (Rom. 2:1–29). All are guilty (Rom. 3:9–20).'), ('h3', 'Movement 2 — Justification (Chs. 3–5)'), ('p', 'Righteousness is by faith in Christ (Rom. 3:21–26). Abraham is the example (Rom. 4:1–5). Believers have peace with God (Rom. 5:1).'), ('h3', 'Movement 3 — Sanctification (Chs. 6–8)'), ('p', 'Dead to sin (Rom. 6:6–11). Dead to the law (Rom. 7:4). Alive in the Spirit (Rom. 8:1–14). Nothing can separate us from God’s love (Rom. 8:38–39).'), ('h3', 'Movement 4 — Israel’s Future (Chs. 9–11)'), ('p', 'Israel’s past election (Rom. 9). Israel’s present unbelief (Rom. 10). Israel’s future restoration (Rom. 11:26–29).'), ('h3', 'Movement 5 — Practical Christian Living (Chs. 12–15)'), ('p', 'Living sacrifice (Rom. 12:1–2). Love fulfills the law (Rom. 13:8–10). Receive one another (Rom. 15:7).'), ('h3', 'Movement 6 — Closing Greetings (Ch. 16)'), ('p', 'Personal greetings (Rom. 16:1–16). Warning against false teachers (Rom. 16:17–18). The mystery revealed (Rom. 16:25–27).')]),
+(3, 'Program Themes in Romans', [('p', 'This section highlights the major ideas Paul emphasizes in this book — the big doctrinal themes that shape how the Body of Christ should think and live. These themes are not verse-by-verse explanations; they are the book’s main emphases, the repeated ideas Paul wants believers to carry forward. Seeing these themes together helps you understand the book’s message before you look at the individual truths in the tables.'), ('ol', ['<b>Righteousness by Faith</b> — “The just shall live by faith” (Rom. 1:17).', '<b>All Are Guilty</b> — “All have sinned” (Rom. 3:23).', '<b>Justification by Grace</b> — “Being justified freely by his grace” (Rom. 3:24).', '<b>Union with Christ</b> — “Buried with him… raised with him” (Rom. 6:4–5).', '<b>Life in the Spirit</b> — “The Spirit of life” (Rom. 8:2).', '<b>Israel’s Future</b> — “All Israel shall be saved” (Rom. 11:26).', '<b>Living Sacrifice</b> — “Present your bodies a living sacrifice” (Rom. 12:1).'])]),
+(4, 'Christ in Romans', [('p', 'This section gathers what the letter teaches about Christ — who He is, what He has done, and how Paul presents Him to the church. These statements help you see the book’s Christ-centered focus before you study the doctrinal truths in detail. By collecting these verses together, you get a clear picture of how Romans lifts up Christ as Redeemer, Justifier, Lord, and the One who intercedes for us.'), ('ol', ['<b>Redeemer</b> — “In whom we have redemption” (Rom. 3:24).', '<b>Propitiation</b> — Christ is the propitiation for sins (Rom. 3:25).', '<b>Justifier</b> — He justifies the believer (Rom. 3:26).', '<b>Risen Lord</b> — “Raised again for our justification” (Rom. 4:25).', '<b>Head of the Body</b> — “One body in Christ” (Rom. 12:5).', '<b>Intercessor</b> — Christ intercedes for us (Rom. 8:34).'])]),
+(5, 'The Church, the Law, and Israel in Romans', [('p', 'This section helps you see how Romans speaks about the church, the law, and Israel without mixing their programs. Paul explains the believer’s relationship to the law, the church’s identity, and Israel’s prophetic future. By gathering these points together, this section shows you how to read Romans in its own setting — as a Body-of-Christ letter — while recognizing what it says (and does not say) about Israel’s program.'), ('ul', ['Believers are <b>not under the law</b> (Rom. 6:14).', 'The law’s purpose is to reveal sin (Rom. 3:20).', 'The church is “one body in Christ” (Rom. 12:5).', 'Israel’s promises remain intact (Rom. 11:26–29).', 'Paul is the apostle of the Gentiles (Rom. 11:13).', 'The letter does <b>not</b> place believers under Israel’s covenants.'])]),
+(6, 'Body-of-Christ Distinctions', [('p', 'This section highlights the teachings in Romans that belong uniquely to the Body of Christ — truths Paul gives to the church in this present age. These points show what is distinctively Pauline in the letter: justification by faith, freedom from the law, life in the Spirit, and the revelation of the mystery. By gathering these together, this section helps you see how Romans contributes to the doctrine and order of the Body of Christ without borrowing from Israel’s prophetic program.'), ('ul', ['Justification apart from the law (Rom. 3:28).', 'Believers dead to sin (Rom. 6:6–11).', 'Believers dead to the law (Rom. 7:4).', 'Life in the Spirit (Rom. 8:1–14).', 'The Body of Christ (Rom. 12:5).', 'The revelation of the mystery (Rom. 16:25).'])]),
+(7, 'Truths Table: What Romans Says', [('p', 'This table gathers the key statements, instructions, and teachings in Romans and shows which ones belong to the Body of Christ. Each row lists a truth from the letter, explains what it says, and identifies its program identity based on Paul’s audience and setting. This helps you see, at a glance, what Romans teaches directly to the church today and keeps those truths separate from universal principles or reports that apply more broadly.'), ('table', ['Category', 'Truth Revealed in Romans', 'Program Identity', 'Scripture'], [['All Are Guilty', 'All have sinned', 'Body of Christ (Pauline) Truth', 'Rom. 3:23'], ['Justification', 'Justified freely by grace', 'Body of Christ (Pauline) Truth', 'Rom. 3:24'], ['Propitiation', 'Christ is the propitiation', 'Body of Christ (Pauline) Truth', 'Rom. 3:25'], ['Dead to Sin', 'Crucified with Christ', 'Body of Christ (Pauline) Truth', 'Rom. 6:6'], ['Dead to Law', 'Delivered from the law', 'Body of Christ (Pauline) Truth', 'Rom. 7:4'], ['Life in Spirit', 'No condemnation', 'Body of Christ (Pauline) Truth', 'Rom. 8:1'], ['Body of Christ', 'One body in Christ', 'Body of Christ (Pauline) Truth', 'Rom. 12:5'], ['Mystery', 'Revelation of the mystery', 'Body of Christ (Pauline) Truth', 'Rom. 16:25']], [20, 38, 26, 16])]),
+(8, 'Universal Truths Table (All People, All Time)', [('p', 'This table gathers the truths in Romans that apply to everyone, not just the Body of Christ. These are principles rooted in God’s character — things that hold true across all programs and all ages. By separating these universal truths from Paul’s program-specific instructions, this section helps you see what Romans teaches all believers everywhere and what it teaches the church in its own setting.'), ('table', ['Universal Truth', 'Description', 'Scripture'], [['God Is Good', 'God’s goodness leads to repentance', 'Rom. 2:4'], ['All Need Salvation', 'All have sinned', 'Rom. 3:23'], ['God Loves Us', 'Christ died for us', 'Rom. 5:8'], ['Peace with God', 'Justified by faith', 'Rom. 5:1'], ['No Condemnation', 'For those in Christ', 'Rom. 8:1'], ['God Works for Good', 'All things work together', 'Rom. 8:28'], ['Nothing Separates Us', 'From God’s love', 'Rom. 8:38–39']], [26, 50, 24])]),
+(9, 'Program-Safe Application Grid', [('p', 'This section shows how to apply the teachings of Romans without mixing programs. The applications come directly from Paul’s instructions to the Body of Christ and from the universal truths that apply to everyone. By keeping the applications tied to what the letter actually says — and not borrowing commands from Israel’s covenants or prophetic program — this grid helps you respond to Romans in a way that is faithful to its setting, clear, and safe.'), ('ol', ['<b>Trust Christ Alone</b> — Justified by faith (Rom. 3:28).', '<b>Walk in Newness of Life</b> — Dead to sin (Rom. 6:11).', '<b>Live by the Spirit</b> — Walk in the Spirit (Rom. 8:4).', '<b>Rest in God’s Love</b> — Nothing separates us (Rom. 8:38–39).', '<b>Serve the Body</b> — Many members, one body (Rom. 12:4–5).', '<b>Love Sincerely</b> — Let love be without hypocrisy (Rom. 12:9).', '<b>Submit to Authorities</b> — Ordained of God (Rom. 13:1).', '<b>Receive One Another</b> — As Christ received us (Rom. 15:7).'])]),
+(10, 'Teaching Outline for Romans', [('p', 'This outline gives you a teacher-ready structure for presenting the book. It follows the narrative movements and highlights the major themes, making it easy to teach Romans in classes, small groups, or personal study.'), ('olr', ['Condemnation (Rom. 1–3)', 'Justification (Rom. 3–5)', 'Sanctification (Rom. 6–8)', 'Israel’s Future (Rom. 9–11)', 'Practical Living (Rom. 12–15)', 'Closing Greetings &amp; Mystery (Rom. 16)'])]),
+(11, 'Companion Usage and Study Suggestions', [('h3', 'How to Use This Companion in Personal Study'), ('p', 'This Companion is designed to walk alongside you as you read Romans, helping you see both the way the letter carries two programs and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and truths deepen your understanding. The Program-Safe Applications will guide your heart toward faith, freedom in Christ, and love, drawn from what Romans says to believers and from universal truths, without turning Israel’s covenant formula into the Body’s calling.'), ('h3', 'How to Use This Companion in Small Groups or Classes'), ('p', 'This Companion provides a clear, structured framework that makes teaching Romans simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the table to help your group see which truths speak to the Body, which belong to Israel in chapters 9–11, and which hold for all people, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation.'), ('h3', 'How This Companion Fits Within the Acts Overlap Theology Series'), ('p', 'This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap framework, Romans was written during the overlap and carries both: the Body’s standing in Christ and Israel’s election and future. This Companion shows you how to keep each in its place while drawing out the truths that apply to all believers in every age.')])]

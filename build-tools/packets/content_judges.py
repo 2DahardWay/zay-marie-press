@@ -1,99 +1,16 @@
-# DRAFT for publisher approval.
-BOOK = "Judges"
-TESTAMENT = "Old Testament"
-GENRE = "history"
-SUBTITLE = "Deliverers Raised Up, Israel’s Repeated Failure, and the Need of a King"
-SECTIONS = []
-def S(n, t, *blocks): SECTIONS.append((n, t, list(blocks)))
-P = lambda x: ("p", x)
-L = lambda *xs: ("ul", list(xs))
-H = lambda x: ("h3", x)
-TBL = lambda head, rows, widths: ("table", head, rows, widths)
-OL = lambda *xs: ("ol", list(xs))
-OLR = lambda *xs: ("olr", list(xs))
-BOX = lambda lead, text: ("box", lead, text)
-ISR = 'Israel / Kingdom / Prophecy Explicit Truth'
-
-S(1, "Book Overview (Program-Aware)",
-  P('Judges covers the time after Joshua, when “there arose another generation after them, which knew not the LORD” (Judg. 2:10). It records a repeating pattern: Israel does evil, the LORD gives them into the hand of enemies, they cry out, and the LORD raises up a deliverer (Judg. 2:11, 16; 3:9; 6:1). The book names Othniel, Deborah, Gideon, Jephthah and Samson, and closes with the words that “every man did that which was right in his own eyes” (Judg. 21:25).'),
-  BOX("Program Identity:", 'This book belongs entirely to the Prophecy Program, where Israel is God’s covenant nation in the land, its judges raised up by the LORD to deliver it (Judg. 2:1, 16).'))
-
-S(2, "Narrative Flow of Judges",
-  H('Movement 1 — Unfinished Conquest and Decline (Chs. 1–3)'),
-  P('Israel asks who shall go up first, the angel of the LORD speaks at Bochim, the next generation does not know the LORD, and Othniel is raised up (Judg. 1:1; 2:1, 10–11; 3:9).'),
-  H('Movement 2 — Deborah and Gideon (Chs. 4–8)'),
-  P('Deborah judges Israel, the LORD sends Gideon against Midian, reduces his army, and Gideon refuses to rule (Judg. 4:4; 6:12, 14; 7:2, 7; 8:23).'),
-  H('Movement 3 — Abimelech, Jephthah, and Samson (Chs. 9–16)'),
-  P('The Spirit of the LORD comes on Jephthah and on Samson, who was to begin to deliver Israel from the Philistines (Judg. 11:29; 13:5; 14:6; 16:30).'),
-  H('Movement 4 — Israel Without a King (Chs. 17–21)'),
-  P('The book closes in idolatry and violence, with the verdict that there was no king in Israel (Judg. 17:6; 21:25).'))
-
-S(3, "Prophecy-Program Themes in Judges",
-  H('1. The Cycle'),
-  P('“The children of Israel did evil in the sight of the LORD, and served Baalim” (Judg. 2:11).'),
-  H('2. The LORD Raises Up Judges'),
-  P('“The LORD raised up judges, which delivered them out of the hand of those that spoiled them” (Judg. 2:16).'),
-  H('3. The Covenant Remembered'),
-  P('“I will never break my covenant with you” (Judg. 2:1).'),
-  H('4. The LORD Saves by Few'),
-  P('“By the three hundred men that lapped will I save you” (Judg. 7:7).'),
-  H('5. The LORD Rules'),
-  P('“The LORD shall rule over you” (Judg. 8:23).'),
-  H('6. No King in Israel'),
-  P('“In those days there was no king in Israel, but every man did that which was right in his own eyes” (Judg. 17:6).'))
-
-S(4, "Christ in Judges: The Prophetic Trajectory",
-  H('1. The Deliverer Pattern'),
-  P('The judges deliver Israel from enemies for a time (Judg. 2:16, 18), within Israel’s own history in the land.'),
-  H('2. The Call for a King'),
-  P('The closing verses state that there was no king in Israel (Judg. 21:25), and 1 Samuel takes up that question.'),
-  H('3. The LORD as Israel’s Ruler'),
-  P('Gideon’s answer, “the LORD shall rule over you” (Judg. 8:23), is reported as written.'))
-
-S(5, "Israel’s Identity in Judges",
-  P("Judges reinforces Israel’s:"),
-  L('covenant with the LORD who will “never break” it (Judg. 2:1)', 'cycle of sin, oppression, cry and deliverance (Judg. 2:11, 16; 3:9)', 'judges raised up by the LORD (Judg. 2:16, 18)', 'call to be ruled by the LORD (Judg. 8:23)', 'life in the land without a king (Judg. 21:25)'),
-  P("All content belongs exclusively to the Prophecy Program."))
-
-S(6, "Body-of-Christ Distinctions",
-  P("Judges does not teach:"),
-  L("Body-of-Christ identity", "heavenly inheritance", "Pauline doctrine", "Mystery revelation", "Spirit baptism into one Body", "non-covenantal standing", "church worship structure"),
-  P('Its judges, enemies, land and cycle of deliverance belong exclusively to Israel.'))
-
-S(7, "Program-Specific Truths Table",
-  TBL(["Category", "Truth Revealed in Judges", "Program Identity", "Scripture"], [
-    ['The Covenant Held', '“I will never break my covenant with you.”', ISR, 'Judg. 2:1'],
-    ['A Generation That Knew Not', '“another generation after them, which knew not the LORD.”', ISR, 'Judg. 2:10'],
-    ['Judges Raised Up', '“the LORD raised up judges, which delivered them out of the hand of those that spoiled them.”', ISR, 'Judg. 2:16'],
-    ['Othniel the Deliverer', '“the LORD raised up a deliverer to the children of Israel.”', ISR, 'Judg. 3:9'],
-    ['Deborah the Prophetess', '“Deborah, a prophetess… she judged Israel at that time.”', ISR, 'Judg. 4:4'],
-    ['Gideon Sent', '“Go in this thy might, and thou shalt save Israel from the hand of the Midianites.”', ISR, 'Judg. 6:14'],
-    ['The LORD Ruling', '“the LORD shall rule over you.”', ISR, 'Judg. 8:23'],
-    ['Samson Appointed', '“he shall begin to deliver Israel out of the hand of the Philistines.”', ISR, 'Judg. 13:5'],
-    ['The Spirit on Jephthah', '“Then the Spirit of the LORD came upon Jephthah.”', ISR, 'Judg. 11:29'],
-    ['No King in Israel', '“In those days there was no king in Israel.”', ISR, 'Judg. 21:25'],
-  ], [20, 34, 26, 20]))
-
-S(8, "Universal Truths Table (All People, All Time)",
-  TBL(["Universal Truth", "Description", "Scripture"], [
-    ['God Hears Their Cry', '“when the children of Israel cried unto the LORD, the LORD raised up a deliverer.”', 'Judg. 3:9'],
-    ['Salvation Is the LORD’s', '“lest Israel vaunt themselves against me, saying, Mine own hand hath saved me.”', 'Judg. 7:2'],
-    ['The LORD Is With the Faithful', '“The LORD is with thee, thou mighty man of valour.”', 'Judg. 6:12'],
-  ], [28, 48, 24]))
-
-S(9, "Program-Safe Application Grid",
-  BOX("Why This Section Exists", 'The tables in Sections 7 and 8 help us see clearly what belongs to Israel alone and what truths apply to all people in all ages. This section gently shows how those universal truths can shape our walk with God today. These are not Israel’s covenant deliverance or the judges’ office; they are timeless truths rooted in God’s character.'),
-  P('Drawn only from universal truths, never from Israel’s covenant, land or kingdom. The Body of Christ should:'),
-  OL('<b>Cry out to the LORD</b> — He hears (Judg. 3:9).', '<b>Give Him the credit for salvation</b> — It is not our own hand (Judg. 7:2).', '<b>Trust His presence</b> — The LORD is with His servants (Judg. 6:12).'))
-
-S(10, "Teaching Outline for Judges",
-  P("<i>Teacher-ready, movement-based outline</i>"),
-  OLR('Unfinished Conquest (Chs. 1–3) — The new generation. <i>(Judg. 2:1, 10–11; 3:9)</i>', 'Deborah and Gideon (Chs. 4–8) — Deliverers raised up. <i>(Judg. 4:4; 6:14; 7:2, 7; 8:23)</i>', 'Jephthah and Samson (Chs. 9–16) — The Spirit and the Philistines. <i>(Judg. 11:29; 13:5; 16:30)</i>', 'Without a King (Chs. 17–21) — Every man right in his own eyes. <i>(Judg. 17:6; 21:25)</i>'))
-
-S(11, "Companion Usage and Study Suggestions",
-  H("How to Use This Companion in Personal Study"),
-  P("This Companion is designed to walk alongside you as you read Judges, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward humility, repentance, and trust without confusing Israel’s covenant commands with the Body of Christ’s calling today."),
-  H("How to Use This Companion in Small Groups or Classes"),
-  P("This Companion provides a clear, structured framework that makes teaching Judges simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
-  H("How This Companion Fits Within the Acts Overlap Theology Series"),
-  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Judges stands firmly in Israel’s covenant story, yet it still reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age."))
+# Built from the publisher's revised template example.
+BOOK = 'Judges'
+TESTAMENT = 'Old Testament'
+GENRE = 'history'
+SUBTITLE = 'Deliverers Raised Up, Israel’s Repeated Failure, and the Need of a King'
+SECTIONS = [(1, 'Book Setting & Program Identity', [('p', 'This section introduces you to the book by explaining who wrote it, who received it, and what was happening when it was written. It also shows you which of God’s programs the book belongs to — Israel’s prophetic program or the Body of Christ’s mystery program. Knowing the setting and the program identity helps you read the book in its proper context and understand how its teachings fit into the larger story of Scripture.'), ('p', 'Judges recounts Israel’s life in the land after Joshua’s death (Judg. 1:1), during a time when “there was no king in Israel” and “every man did that which was right in his own eyes” (Judg. 17:6; 21:25). The book records repeated cycles of sin (Judg. 2:11), oppression (Judg. 2:14), crying out (Judg. 3:9), and deliverance through judges raised up by the Lord (Judg. 2:16). It reveals Israel’s covenant relationship with God (Judg. 2:1–5), their failures, and God’s faithfulness in sending deliverers.'), ('box', 'Program Identity:', 'Judges belongs to Israel’s Prophecy Program, rooted in the Abrahamic, Mosaic, and land covenants (cf. Judg. 2:1, where the Angel of the LORD recalls the covenant oath).')]),
+(2, 'Narrative Flow of Judges', [('p', 'This section gives you a simple walkthrough of how the book unfolds. Instead of diving into details right away, it shows the major movements in the book — how Israel’s story develops, how the cycles repeat, and how the narrative builds toward its closing chapters. Seeing the flow of the book helps you understand the big picture before you study the individual passages.'), ('h3', 'Movement 1 — Israel’s Failure to Drive Out the Nations (Chs. 1–2)'), ('p', 'Israel does not fully possess the land (Judg. 1:27–36). The Angel of the LORD rebukes them for covenant unfaithfulness (Judg. 2:1–5).'), ('h3', 'Movement 2 — The Cycles of the Judges (Chs. 3–16)'), ('p', 'Israel sins (Judg. 3:7), is oppressed (Judg. 3:8), cries out (Judg. 3:9), and God raises judges to deliver them (Judg. 2:16). Major judges include Othniel (Judg. 3:9–11), Ehud (Judg. 3:15–30), Deborah (Judg. 4–5), Gideon (Judg. 6–8), Jephthah (Judg. 11–12), and Samson (Judg. 13–16).'), ('h3', 'Movement 3 — The Collapse of National Morality (Chs. 17–21)'), ('p', 'Idolatry (Judg. 17:3–6), civil war (Judg. 20:12–48), and moral chaos reveal Israel’s deep spiritual decline. The refrain “there was no king in Israel” frames the closing chapters (Judg. 21:25).')]),
+(3, 'Program Themes in Judges', [('p', 'This section highlights the major ideas emphasized in the book — the big doctrinal themes that shape how Israel should think and live under the covenants. These themes are not verse-by-verse explanations; they are the book’s main emphases, the repeated ideas God wants Israel to carry forward. Seeing these themes together helps you understand the book’s message before you look at the individual truths in the tables.'), ('ol', ['Covenant Faithfulness — Israel’s obedience brings rest; disobedience brings oppression (Judg. 2:11–15).', 'The Lord Raises Deliverers — God raises judges to save Israel (Judg. 2:16).', 'Cycles of Sin and Mercy — Israel repeatedly turns from God, and God repeatedly shows mercy (Judg. 3:7–11).', 'The Danger of Idolatry — Idolatry leads to national ruin (Judg. 2:17).', 'Leadership in Crisis — God empowers leaders in times of national need (Judg. 6:12–14).', '“No King in Israel” — The refrain highlights Israel’s need for righteous leadership (Judg. 21:25).'])]),
+(4, 'Christ in Judges', [('p', 'This section gathers what the book teaches about Christ — through foreshadowing, typology, and prophetic anticipation. These statements help you see the book’s Christ-centered trajectory before you study the doctrinal truths in detail. By collecting these points together, you get a clear picture of how Judges anticipates Christ as Deliverer, Righteous Judge, and the One who brings lasting rest.'), ('ol', ['Christ Foreshadowed as Deliverer — The judges prefigure Christ’s ultimate deliverance (Judg. 2:16).', 'Christ Foreshadowed as Righteous Judge — God’s Spirit empowers judges (Judg. 3:10; 6:34), anticipating Christ’s perfect rule.', 'Christ Foreshadowed as King — The refrain “no king in Israel” anticipates Israel’s need for the true King (Judg. 21:25).', 'Christ Foreshadowed in Mercy — God’s repeated deliverance points to Christ’s greater salvation (Judg. 3:9; 10:16).'])]),
+(5, 'Israel, the Law, and the Covenants in Judges', [('p', 'This section helps you see how Judges speaks about Israel, the law, and the covenants without mixing programs. The book operates entirely within Israel’s prophetic and covenant framework. By gathering these points together, this section shows you how to read Judges in its own setting — as an Israel-program book — while recognizing what it says (and does not say) about covenant obedience, national identity, and God’s promises.'), ('ul', ['Israel’s disobedience brings covenant discipline (Judg. 2:11–15).', 'God raises judges according to His covenant faithfulness (Judg. 2:16).', 'The law is the standard for Israel’s obedience (cf. Judg. 2:17).', 'The Angel of the LORD recalls the covenant oath (Judg. 2:1).', 'The book does not address the Body of Christ or the Mystery program.'])]),
+(6, 'Israel-Program Distinctions', [('p', 'This section highlights the teachings in Judges that belong uniquely to Israel’s prophetic program — truths rooted in the covenants, national identity, land promises, and God’s dealings with Israel as a nation. By gathering these together, this section helps you see how Judges contributes to Israel’s covenant story without borrowing from the Body-of-Christ program.'), ('ul', ['Covenant obedience brings blessing; disobedience brings oppression (Judg. 2:11–15).', 'God raises national deliverers (Judg. 2:16).', 'Israel’s land inheritance is central (Judg. 1:27–36).', 'Idolatry brings national ruin (Judg. 2:17).', 'Leadership is Spirit-empowered for national deliverance (Judg. 3:10; 6:34).', 'Israel’s need for a righteous king is emphasized (Judg. 21:25).'])]),
+(7, 'Truths Table: What Judges Says', [('p', 'This table gathers the key statements, instructions, and teachings in Judges and shows which ones belong to Israel’s prophetic program. Each row lists a truth from the book, explains what it says, and identifies its program identity based on Israel’s covenant setting. This helps you see, at a glance, what Judges teaches directly to Israel and keeps those truths separate from universal principles that apply more broadly.'), ('table', ['Category', 'Truth Revealed in Judges', 'Program Identity', 'Scripture'], [['Covenant Discipline', 'Disobedience brings oppression', 'Israel / Kingdom / Prophecy Explicit Truth', 'Judg. 2:11–15'], ['Deliverance', 'The Lord raises judges', 'Israel / Kingdom / Prophecy Explicit Truth', 'Judg. 2:16'], ['Idolatry', 'Idolatry leads to ruin', 'Israel / Kingdom / Prophecy Explicit Truth', 'Judg. 2:17'], ['Leadership', 'God empowers deliverers', 'Israel / Kingdom / Prophecy Explicit Truth', 'Judg. 3:10; 6:34']], [20, 38, 26, 16])]),
+(8, 'Universal Truths Table (All People, All Time)', [('p', 'This table gathers the truths in Judges that apply to everyone, not just Israel. These are principles rooted in God’s character — things that hold true across all programs and all ages. By separating these universal truths from Israel’s covenant-specific instructions, this section helps you see what Judges teaches all believers everywhere and what it teaches Israel in its own setting.'), ('table', ['Universal Truth', 'Description', 'Scripture'], [['God is Faithful', 'God hears and delivers', 'Judg. 2:16; 3:9'], ['Idolatry Destroys', 'Idolatry leads to moral collapse', 'Judg. 2:17'], ['God Raises Leaders', 'God empowers those He calls', 'Judg. 3:10; 6:12']], [26, 50, 24])]),
+(9, 'Program-Safe Application Grid', [('p', 'This section shows how to apply the teachings of Judges without mixing programs. The applications come from Israel’s covenant story and from universal truths that apply to everyone. By keeping the applications tied to what the book actually says — and not borrowing commands from Israel’s covenants for the Body of Christ — this grid helps you respond to Judges in a way that is faithful to its setting, clear, and safe.'), ('ol', ['Reject Idolatry — Idolatry destroys spiritual life (Judg. 2:17).', 'Trust God’s Deliverance — God hears and delivers His people (Judg. 3:9).', 'Value Godly Leadership — God raises leaders for His purposes (Judg. 6:12–14).', 'Guard Against Moral Drift — Spiritual compromise leads to collapse (Judg. 17:6).', 'Remember God’s Faithfulness — God remains faithful even when His people fail (Judg. 2:16).'])]),
+(10, 'Teaching Outline for Judges', [('p', 'This outline gives you a teacher-ready structure for presenting the book. It follows the narrative movements and highlights the major themes, making it easy to teach Judges in classes, small groups, or personal study.'), ('olr', ['Israel’s Failure to Drive Out the Nations (Judg. 1–2)', 'The Cycles of the Judges (Judg. 3–16)', 'Gideon, Jephthah, and Samson — Major Deliverers (Judg. 6–16)', 'The Collapse of National Morality (Judg. 17–21)', '“No King in Israel” — The Need for Righteous Leadership (Judg. 21:25)'])]),
+(11, 'Companion Usage and Study Suggestions', [('h3', 'How to Use This Companion in Personal Study'), ('p', 'This Companion is designed to walk alongside you as you read Judges, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward humility, repentance, and trust without confusing Israel’s covenant commands with the Body of Christ’s calling today.'), ('h3', 'How to Use This Companion in Small Groups or Classes'), ('p', 'This Companion provides a clear, structured framework that makes teaching Judges simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation.'), ('h3', 'How This Companion Fits Within the Acts Overlap Theology Series'), ('p', 'This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Judges stands firmly in Israel’s covenant story, yet it still reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age.')])]
