@@ -35,12 +35,12 @@ h1{{font-size:124px;line-height:1.04;margin:0 0 30px;font-weight:700}}.rule{{wid
 
 def esc(s): return s  # content is trusted markup (<b>, <i>)
 
-def blocks_html(blocks):
+def blocks_html(blocks, bold_sub=False):
     h = []
     for b in blocks:
         k = b[0]
         if k == "p": h.append(f"<p>{b[1]}</p>")
-        elif k == "h3": h.append(f"<p class='sub'>{b[1]}</p>")
+        elif k == "h3": h.append(f"<p class='sub'>{'<b>'+b[1]+'</b>' if bold_sub else b[1]}</p>")
         elif k == "ul": h.append("<ul>" + "".join(f"<li>{x}</li>" for x in b[1]) + "</ul>")
         elif k == "ol": h.append("<ol>" + "".join(f"<li>{x}</li>" for x in b[1]) + "</ol>")
         elif k == "olr": h.append("<ol class='roman'>" + "".join(f"<li>{x}</li>" for x in b[1]) + "</ol>")
@@ -55,7 +55,7 @@ def blocks_html(blocks):
 
 def interior_html(toc_pages):
     toc = "".join(f"<div class='toc'><span>{n}. {t}</span><i>{'.'*220}</i><span>{toc_pages.get(n, '00')}</span></div>" for n, t, _ in mod.SECTIONS)
-    body = "".join(f"<h1 id='s{n}'>{n}. {t}</h1>{blocks_html(bl)}" for n, t, bl in mod.SECTIONS)
+    body = "".join(f"<h1 id='s{n}'>{n}. {t}</h1>{blocks_html(bl, n == 11)}" for n, t, bl in mod.SECTIONS)
     return f"""<!doctype html><meta charset=utf-8><style>
 @page{{size:483.846pt 725.754pt;margin:43.2pt 51.55pt 61.2pt 51.55pt;@bottom-center{{content:"ZAY-MARIE PRESS BIBLE BOOK COMPANION SERIES • " counter(page);font:400 8pt Roboto;color:#000}}}}
 *{{box-sizing:border-box}}body{{margin:0;font:400 10pt/1.08 Roboto;color:#000}}
