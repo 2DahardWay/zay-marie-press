@@ -7,7 +7,7 @@ from pathlib import Path
 from PIL import Image
 from playwright.sync_api import sync_playwright
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-MODS={'genesis':'genesis','exodus':'exodus','leviticus':'leviticus','numbers':'numbers','deuteronomy':'deuteronomy','joshua':'joshua','judges':'judges','ruth':'ruth','1-samuel':'1samuel','2-samuel':'2samuel','1-chronicles':'1chr','1-kings':'1kings','2-chronicles':'2chronicles','2-kings':'2kings','ezra':'ezra','nehemiah':'nehemiah','esther':'esther','job':'job','psalms':'psalms','proverbs':'proverbs'}
+MODS={'genesis':'genesis','exodus':'exodus','leviticus':'leviticus','numbers':'numbers','deuteronomy':'deuteronomy','joshua':'joshua','judges':'judges','ruth':'ruth','1-samuel':'1samuel','2-samuel':'2samuel','1-chronicles':'1chr','1-kings':'1kings','2-chronicles':'2chronicles','2-kings':'2kings','ezra':'ezra','nehemiah':'nehemiah','esther':'esther','job':'job','psalms':'psalms','proverbs':'proverbs','matthew':'matthew','mark':'mark','luke':'luke','john':'john','acts':'acts'}
 def overlay(base, slug, out, pw):
     """Book title + subtitle (from the content module) over the sky inside the frame; the supplied bottom band is untouched."""
     m=importlib.import_module('content_'+MODS[slug]); fs=min(150,int(1120/(len(m.BOOK)*0.82)))
