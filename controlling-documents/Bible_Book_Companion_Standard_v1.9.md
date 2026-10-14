@@ -1,4 +1,4 @@
-# Zay-Marie Press Bible Book Companion Standard — v1.8
+# Zay-Marie Press Bible Book Companion Standard — v1.9
 
 Status: working standard, approved piece by piece by the publisher on 2026-10-13. It replaces the Doctrinal Packet Standard (v0.4, five-page format). The Bible Book Companion Series is a separate product strand from the Digital Studies; this Standard governs companions only (Master Standard §16 and §17 govern studies).
 
@@ -97,3 +97,5 @@ v1.6 (2026-10-13): adds the non-program-assigned books ruling to §3b (Master St
 v1.7 (2026-10-13): adds the two-class ruling to §3b (Master Standard v1.142): Program-Specific Truth (Israel / Kingdom / Prophecy Explicit Truth or Body of Christ (Pauline) Truth) and Universal Truth only; A, B, Text Only and General Christian Truth retired; greetings inherit the book’s program; row rulings for the Johns; all 66 books.
 
 v1.8 (2026-10-13): confirms the two-class ruling (Master Standard v1.143): the closings of 2 and 3 John stay Israel, Hebrews, James and the Peters stay Israel, Revelation is all Israel; Jude and Revelation built.
+
+v1.9 (2026-10-13): records Genesis (7 pages), Exodus (6), Leviticus (7), Numbers (6) and Deuteronomy (7), built in the new format under the two-class ruling (Master Standard v1.144); no new rule.
