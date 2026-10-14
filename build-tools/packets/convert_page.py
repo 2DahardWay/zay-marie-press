@@ -12,7 +12,7 @@ tmp=tempfile.mkdtemp()
 subprocess.run(['pdftoppm','-f','2','-l','2','-r','200','-jpeg','-jpegopt','quality=88','-scale-to-x','1041','-scale-to-y','1560',pdf,tmp+'/pv'],check=True)
 shutil.copy(glob.glob(tmp+'/pv-*.jpg')[0],f'assets/companion-{slug}-page-1.jpg')
 # subtitle from the PDF builder content
-mod={}; exec(open(f'build-tools/packets/content_{slug.replace("1-chronicles","1chr")}.py',encoding='utf-8').read().split('SECTIONS = []')[0],mod)
+mod={}; exec(open(f'build-tools/packets/content_{("1chr" if slug=="1-chronicles" else slug.replace("-",""))}.py',encoding='utf-8').read().split('SECTIONS = []')[0],mod)
 sub=mod['SUBTITLE']
 old=re.search(r'detail-subtitle">([^<]*)',s).group(1)
 s=s.replace(old,sub)
@@ -37,5 +37,6 @@ s=s.replace('ABOUT THIS PACKET','ABOUT THIS COMPANION').replace('A Focused Packe
 new=f'<div class="detail-cover"><picture><source srcset="assets/companion-{slug}-cover.webp" type="image/webp"><img src="assets/companion-{slug}-cover.jpg" alt="{name} Bible Book Companion cover"></picture></div>'
 s=re.sub(r'<div class="packet-card.*?<div class="pc-foot">Zay-Marie Press</div></div>',new,s,count=1,flags=re.S)
 s=s.replace('This packet follows','This companion follows').replace('This packet surveys the whole book','This companion follows the whole book').replace('this packet stays','this companion stays').replace('; the packet ','; the companion ').replace('A packet sits between','A companion sits between').replace(' through its key passages in five pages;',' through its eleven sections;')
+s=re.sub(r'<div class="pk-sample">.*?pk-sample-note">[^<]*</p></div>','',s,flags=re.S)
 open(f,'w',encoding='utf-8').write(s)
 print(slug,n,'old-format leftovers:',[k for k in ('five-page','5 Pages','Preview the Packet','packet-card','Doctrinal') if k in s])
