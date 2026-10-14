@@ -1,103 +1,16 @@
-# DRAFT for publisher approval.
-BOOK = "Joel"
-TESTAMENT = "Old Testament"
-GENRE = "prophets"
-SUBTITLE = "The Locusts, the Day of the LORD, and the Spirit Poured Out"
-SECTIONS = []
-def S(n, t, *blocks): SECTIONS.append((n, t, list(blocks)))
-P = lambda x: ("p", x)
-L = lambda *xs: ("ul", list(xs))
-H = lambda x: ("h3", x)
-TBL = lambda head, rows, widths: ("table", head, rows, widths)
-OL = lambda *xs: ("ol", list(xs))
-OLR = lambda *xs: ("olr", list(xs))
-BOX = lambda lead, text: ("box", lead, text)
-ISR = 'Israel / Kingdom / Prophecy Explicit Truth'
-
-S(1, "Book Overview (Program-Aware)",
-  P('Joel is “the word of the LORD that came to Joel the son of Pethuel” (Joel 1:1). It speaks of a plague of locusts, calls for the trumpet in Zion and for a turning to the LORD, promises that the LORD will pour out His spirit, and speaks of the great and terrible day of the LORD, the gathering of the nations, and Judah dwelling for ever (Joel 1:15; 2:1, 12–13, 28–32; 3:2, 20).'),
-  BOX("Program Identity:", 'This book belongs entirely to the Prophecy Program, where the LORD speaks to Zion, Judah and Jerusalem about the day of the LORD, deliverance in Zion, and the nations gathered before Him (Joel 2:1, 32; 3:1–2, 17, 20).'))
-
-S(2, "Narrative Flow of Joel",
-  H('Movement 1 — The Locusts and the Day at Hand (Ch. 1)'),
-  P('The land is stripped, and the prophet cries, “the day of the LORD is at hand” (Joel 1:15).'),
-  H('Movement 2 — The Trumpet and the Turning (Ch. 2:1–17)'),
-  P('The trumpet is blown in Zion, and the people are told to rend the heart and not the garments (Joel 2:1, 11–13).'),
-  H('Movement 3 — Restoration and the Spirit (Ch. 2:18–32)'),
-  P('The LORD promises to restore the years the locust hath eaten and to pour out His spirit (Joel 2:25, 28–32).'),
-  H('Movement 4 — The Nations in the Valley (Ch. 3:1–16)'),
-  P('The LORD will bring again the captivity of Judah and Jerusalem and gather all nations (Joel 3:1–2, 14, 16).'),
-  H('Movement 5 — Judah Shall Dwell for Ever (Ch. 3:17–21)'),
-  P('The LORD dwells in Zion, and Jerusalem is holy (Joel 3:17, 20).'))
-
-S(3, "Prophecy-Program Themes in Joel",
-  H('1. The Day at Hand'),
-  P('“The day of the LORD is at hand, and as a destruction from the Almighty shall it come” (Joel 1:15).'),
-  H('2. The Trumpet in Zion'),
-  P('“Blow ye the trumpet in Zion, and sound an alarm in my holy mountain” (Joel 2:1).'),
-  H('3. Turn With the Heart'),
-  P('“Rend your heart, and not your garments, and turn unto the LORD your God” (Joel 2:13).'),
-  H('4. Years Restored'),
-  P('“I will restore to you the years that the locust hath eaten” (Joel 2:25).'),
-  H('5. The Spirit Poured Out'),
-  P('“I will pour out my spirit upon all flesh” (Joel 2:28).'),
-  H('6. Deliverance in Zion'),
-  P('“In mount Zion and in Jerusalem shall be deliverance” (Joel 2:32).'),
-  H('7. Judah Dwells'),
-  P('“Judah shall dwell for ever, and Jerusalem from generation to generation” (Joel 3:20).'))
-
-S(4, "Christ in Joel: The Prophetic Trajectory",
-  H('1. The Outpouring'),
-  P('Peter quotes Joel 2:28–32 at Pentecost (Acts 2:16–21); the passage is reported as written.'),
-  H('2. Deliverance Named'),
-  P('“Whosoever shall call on the name of the LORD shall be delivered” is given with “in mount Zion and in Jerusalem shall be deliverance” (Joel 2:32).'),
-  H('3. The Day of the LORD'),
-  P('The great and terrible day of the LORD is described in Joel 2:11, 31 and 3:14.'))
-
-S(5, "Israel’s Identity in Joel",
-  P("Joel reinforces Israel’s:"),
-  L('Zion and Jerusalem as the place of the LORD’s word and deliverance (Joel 2:1, 32)', 'Judah and Jerusalem and the captivity brought again (Joel 3:1)', 'the nations gathered for the LORD’s people and heritage Israel (Joel 3:2)', 'Judah dwelling for ever (Joel 3:20)'),
-  P("All content belongs exclusively to the Prophecy Program."))
-
-S(6, "Body-of-Christ Distinctions",
-  P("Joel does not teach:"),
-  L("Body-of-Christ identity", "heavenly inheritance", "Pauline doctrine", "Mystery revelation", "Spirit baptism into one Body", "non-covenantal standing", "church worship structure"),
-  P('Its day of the LORD, outpouring, deliverance in Zion and gathering of the nations belong exclusively to Israel; its words on the LORD’s grace are also given to all who hear them.'))
-
-S(7, "Program-Specific Truths Table",
-  TBL(["Category", "Truth Revealed in Joel", "Program Identity", "Scripture"], [
-    ['The Day at Hand', '“the day of the LORD is at hand, and as a destruction from the Almighty shall it come.”', ISR, 'Joel 1:15'],
-    ['The Trumpet in Zion', '“Blow ye the trumpet in Zion, and sound an alarm in my holy mountain.”', ISR, 'Joel 2:1'],
-    ['Years Restored', '“I will restore to you the years that the locust hath eaten.”', ISR, 'Joel 2:25'],
-    ['The Spirit Poured Out', '“I will pour out my spirit upon all flesh.”', ISR, 'Joel 2:28'],
-    ['The Great Day', '“before the great and the terrible day of the LORD come.”', ISR, 'Joel 2:31'],
-    ['Deliverance in Zion', '“in mount Zion and in Jerusalem shall be deliverance.”', ISR, 'Joel 2:32'],
-    ['The Captivity Brought Again', '“I shall bring again the captivity of Judah and Jerusalem.”', ISR, 'Joel 3:1'],
-    ['The Nations Gathered', '“I will also gather all nations, and will bring them down into the valley of Jehoshaphat.”', ISR, 'Joel 3:2'],
-    ['Hope of His People', '“the LORD will be the hope of his people.”', ISR, 'Joel 3:16'],
-    ['The LORD in Zion', '“I am the LORD your God dwelling in Zion, my holy mountain.”', ISR, 'Joel 3:17'],
-    ['Judah Dwells for Ever', '“Judah shall dwell for ever, and Jerusalem from generation to generation.”', ISR, 'Joel 3:20'],
-  ], [20, 34, 26, 20]))
-
-S(8, "Universal Truths Table (All People, All Time)",
-  TBL(["Universal Truth", "Description", "Scripture"], [
-    ['A Torn Heart', '“rend your heart, and not your garments, and turn unto the LORD your God.”', 'Joel 2:13'],
-    ['Gracious and Merciful', '“he is gracious and merciful, slow to anger, and of great kindness.”', 'Joel 2:13'],
-  ], [28, 48, 24]))
-
-S(9, "Program-Safe Application Grid",
-  BOX("Why This Section Exists", 'The tables in Sections 7 and 8 help us see clearly what belongs to Israel alone and what truths apply to all people in all ages. This section gently shows how those universal truths can shape our walk with God today. These are not Israel’s day of the LORD, Zion or the outpouring; they are timeless truths rooted in God’s character.'),
-  P('Drawn only from universal truths, never from Israel’s covenant, land or kingdom. The Body of Christ should:'),
-  OL('<b>Turn with the heart</b> — Rend the heart, not the garments (Joel 2:13).', '<b>Rely on His grace</b> — Gracious and merciful, slow to anger (Joel 2:13).'))
-
-S(10, "Teaching Outline for Joel",
-  P("<i>Teacher-ready, movement-based outline</i>"),
-  OLR('The Locusts and the Day at Hand (Ch. 1) — A land stripped. <i>(Joel 1:15)</i>', 'The Trumpet and the Turning (Ch. 2:1–17) — Rend the heart. <i>(Joel 2:1, 11–13)</i>', 'Restoration and the Spirit (Ch. 2:18–32) — Years restored. <i>(Joel 2:25, 28–32)</i>', 'The Nations in the Valley (Ch. 3:1–16) — Captivity brought again. <i>(Joel 3:1–2, 16)</i>', 'Judah Shall Dwell for Ever (Ch. 3:17–21) — The LORD in Zion. <i>(Joel 3:17, 20)</i>'))
-
-S(11, "Companion Usage and Study Suggestions",
-  H("How to Use This Companion in Personal Study"),
-  P("This Companion is designed to walk alongside you as you read Joel, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward repentance, reverence, and trust in the LORD’s kindness without confusing Israel’s covenant commands with the Body of Christ’s calling today."),
-  H("How to Use This Companion in Small Groups or Classes"),
-  P("This Companion provides a clear, structured framework that makes teaching Joel simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
-  H("How This Companion Fits Within the Acts Overlap Theology Series"),
-  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Joel stands firmly in Israel’s covenant story, yet it still reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age."))
+# Converted to the revised ten-section template (plus section 11); content and tables carried from the previous version.
+BOOK = 'Joel'
+TESTAMENT = 'Old Testament'
+GENRE = 'prophets'
+SUBTITLE = 'The Locusts, the Day of the LORD, and the Spirit Poured Out'
+SECTIONS = [(1, 'Book Setting & Program Identity', [('p', 'This section introduces you to the book by explaining who wrote it, who received it, and what was happening when it was written. It also shows you which of God’s programs the book belongs to — Israel’s prophetic program or the Body of Christ’s mystery program. Knowing the setting and the program identity helps you read the book in its proper context and understand how its teachings fit into the larger story of Scripture.'), ('p', 'Joel is “the word of the LORD that came to Joel the son of Pethuel” (Joel 1:1). It speaks of a plague of locusts, calls for the trumpet in Zion and for a turning to the LORD, promises that the LORD will pour out His spirit, and speaks of the great and terrible day of the LORD, the gathering of the nations, and Judah dwelling for ever (Joel 1:15; 2:1, 12–13, 28–32; 3:2, 20).'), ('box', 'Program Identity:', 'This book belongs entirely to the Prophecy Program, where the LORD speaks to Zion, Judah and Jerusalem about the day of the LORD, deliverance in Zion, and the nations gathered before Him (Joel 2:1, 32; 3:1–2, 17, 20).')]),
+(2, 'Narrative Flow of Joel', [('p', 'This section gives you a simple walkthrough of how the book unfolds. Instead of diving into details right away, it shows the major movements in the book — how its message begins, how it develops, and how it builds toward its close. Seeing the flow of the book helps you understand the big picture before you study the individual passages.'), ('h3', 'Movement 1 — The Locusts and the Day at Hand (Ch. 1)'), ('p', 'The land is stripped, and the prophet cries, “the day of the LORD is at hand” (Joel 1:15).'), ('h3', 'Movement 2 — The Trumpet and the Turning (Ch. 2:1–17)'), ('p', 'The trumpet is blown in Zion, and the people are told to rend the heart and not the garments (Joel 2:1, 11–13).'), ('h3', 'Movement 3 — Restoration and the Spirit (Ch. 2:18–32)'), ('p', 'The LORD promises to restore the years the locust hath eaten and to pour out His spirit (Joel 2:25, 28–32).'), ('h3', 'Movement 4 — The Nations in the Valley (Ch. 3:1–16)'), ('p', 'The LORD will bring again the captivity of Judah and Jerusalem and gather all nations (Joel 3:1–2, 14, 16).'), ('h3', 'Movement 5 — Judah Shall Dwell for Ever (Ch. 3:17–21)'), ('p', 'The LORD dwells in Zion, and Jerusalem is holy (Joel 3:17, 20).')]),
+(3, 'Program Themes in Joel', [('p', 'This section highlights the major ideas emphasized in the book — the big doctrinal themes that shape how Israel should think and live under the covenants. These themes are not verse-by-verse explanations; they are the book’s main emphases, the repeated ideas God wants Israel to carry forward. Seeing these themes together helps you understand the book’s message before you look at the individual truths in the tables.'), ('ol', ['<b>The Day at Hand</b> — “The day of the LORD is at hand, and as a destruction from the Almighty shall it come” (Joel 1:15).', '<b>The Trumpet in Zion</b> — “Blow ye the trumpet in Zion, and sound an alarm in my holy mountain” (Joel 2:1).', '<b>Turn With the Heart</b> — “Rend your heart, and not your garments, and turn unto the LORD your God” (Joel 2:13).', '<b>Years Restored</b> — “I will restore to you the years that the locust hath eaten” (Joel 2:25).', '<b>The Spirit Poured Out</b> — “I will pour out my spirit upon all flesh” (Joel 2:28).', '<b>Deliverance in Zion</b> — “In mount Zion and in Jerusalem shall be deliverance” (Joel 2:32).', '<b>Judah Dwells</b> — “Judah shall dwell for ever, and Jerusalem from generation to generation” (Joel 3:20).'])]),
+(4, 'Christ in Joel', [('p', 'This section gathers what the book teaches about Christ — through foreshadowing, typology, and prophetic anticipation. These statements help you see the book’s Christ-centered trajectory before you study the doctrinal truths in detail. By collecting these points together, you get a clear picture of how Joel points to Christ.'), ('ol', ['<b>The Outpouring</b> — Peter quotes Joel 2:28–32 at Pentecost (Acts 2:16–21); the passage is reported as written.', '<b>Deliverance Named</b> — “Whosoever shall call on the name of the LORD shall be delivered” is given with “in mount Zion and in Jerusalem shall be deliverance” (Joel 2:32).', '<b>The Day of the LORD</b> — The great and terrible day of the LORD is described in Joel 2:11, 31 and 3:14.'])]),
+(5, 'Israel, the Law, and the Covenants in Joel', [('p', 'This section helps you see how Joel speaks about Israel, the law, and the covenants without mixing programs. Joel operates within Israel’s prophetic framework. By gathering these points together, this section shows you how to read Joel in its own setting — as an Israel-program book — while recognizing what it says (and does not say) about the Body of Christ.'), ('p', 'Joel reinforces Israel’s:'), ('ul', ['Zion and Jerusalem as the place of the LORD’s word and deliverance (Joel 2:1, 32)', 'Judah and Jerusalem and the captivity brought again (Joel 3:1)', 'the nations gathered for the LORD’s people and heritage Israel (Joel 3:2)', 'Judah dwelling for ever (Joel 3:20)']), ('p', 'All content belongs exclusively to the Prophecy Program.')]),
+(6, 'Israel-Program Distinctions', [('p', 'This section highlights the teachings in Joel that belong uniquely to Israel’s prophetic program — truths rooted in prophecy, covenant promises, national identity, and God’s dealings with Israel. By gathering these together, this section helps you see how Joel contributes to Israel’s story without borrowing from the Body-of-Christ program.'), ('ul', ['The Day at Hand — “the day of the LORD is at hand, and as a destruction from the Almighty shall it come.” (Joel 1:15).', 'The Trumpet in Zion — “Blow ye the trumpet in Zion, and sound an alarm in my holy mountain.” (Joel 2:1).', 'Years Restored — “I will restore to you the years that the locust hath eaten.” (Joel 2:25).', 'The Spirit Poured Out — “I will pour out my spirit upon all flesh.” (Joel 2:28).', 'The Great Day — “before the great and the terrible day of the LORD come.” (Joel 2:31).', 'Deliverance in Zion — “in mount Zion and in Jerusalem shall be deliverance.” (Joel 2:32).', 'The Captivity Brought Again — “I shall bring again the captivity of Judah and Jerusalem.” (Joel 3:1).', 'The Nations Gathered — “I will also gather all nations, and will bring them down into the valley of Jehoshaphat.” (Joel 3:2).', 'Hope of His People — “the LORD will be the hope of his people.” (Joel 3:16).', 'The LORD in Zion — “I am the LORD your God dwelling in Zion, my holy mountain.” (Joel 3:17).', 'Judah Dwells for Ever — “Judah shall dwell for ever, and Jerusalem from generation to generation.” (Joel 3:20).'])]),
+(7, 'Truths Table: What Joel Says', [('p', 'This table gathers the key statements, instructions, and teachings in Joel and shows which ones belong to Israel’s prophetic program. Each row lists a truth from the book, explains what it says, and identifies its program identity based on Israel’s covenant setting. This helps you see, at a glance, what Joel teaches directly to Israel and keeps those truths separate from universal principles that apply more broadly.'), ('table', ['Category', 'Truth Revealed in Joel', 'Program Identity', 'Scripture'], [['The Day at Hand', '“the day of the LORD is at hand, and as a destruction from the Almighty shall it come.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 1:15'], ['The Trumpet in Zion', '“Blow ye the trumpet in Zion, and sound an alarm in my holy mountain.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 2:1'], ['Years Restored', '“I will restore to you the years that the locust hath eaten.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 2:25'], ['The Spirit Poured Out', '“I will pour out my spirit upon all flesh.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 2:28'], ['The Great Day', '“before the great and the terrible day of the LORD come.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 2:31'], ['Deliverance in Zion', '“in mount Zion and in Jerusalem shall be deliverance.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 2:32'], ['The Captivity Brought Again', '“I shall bring again the captivity of Judah and Jerusalem.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 3:1'], ['The Nations Gathered', '“I will also gather all nations, and will bring them down into the valley of Jehoshaphat.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 3:2'], ['Hope of His People', '“the LORD will be the hope of his people.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 3:16'], ['The LORD in Zion', '“I am the LORD your God dwelling in Zion, my holy mountain.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 3:17'], ['Judah Dwells for Ever', '“Judah shall dwell for ever, and Jerusalem from generation to generation.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Joel 3:20']], [20, 34, 26, 20])]),
+(8, 'Universal Truths Table (All People, All Time)', [('p', 'This table gathers the truths in Joel that apply to everyone, not just Israel. These are principles rooted in God’s character — things that hold true across all programs and all ages. By separating these universal truths from Israel’s covenant-specific instructions, this section helps you see what Joel teaches all believers everywhere and what it teaches Israel in its own setting.'), ('table', ['Universal Truth', 'Description', 'Scripture'], [['A Torn Heart', '“rend your heart, and not your garments, and turn unto the LORD your God.”', 'Joel 2:13'], ['Gracious and Merciful', '“he is gracious and merciful, slow to anger, and of great kindness.”', 'Joel 2:13']], [28, 48, 24])]),
+(9, 'Program-Safe Application Grid', [('p', 'This section shows how to apply the teachings of Joel without mixing programs. The applications come from Israel’s covenant story and from universal truths that apply to everyone. By keeping the applications tied to what the book actually says — and not borrowing commands from Israel’s covenants for the Body of Christ — this grid helps you respond to Joel in a way that is faithful to its setting, clear, and safe.'), ('ol', ['<b>Turn with the heart</b> — Rend the heart, not the garments (Joel 2:13).', '<b>Rely on His grace</b> — Gracious and merciful, slow to anger (Joel 2:13).'])]),
+(10, 'Teaching Outline for Joel', [('p', 'This outline gives you a teacher-ready structure for presenting the book. It follows the narrative movements and highlights the major themes, making it easy to teach Joel in classes, small groups, or personal study.'), ('olr', ['The Locusts and the Day at Hand (Ch. 1) — A land stripped. <i>(Joel 1:15)</i>', 'The Trumpet and the Turning (Ch. 2:1–17) — Rend the heart. <i>(Joel 2:1, 11–13)</i>', 'Restoration and the Spirit (Ch. 2:18–32) — Years restored. <i>(Joel 2:25, 28–32)</i>', 'The Nations in the Valley (Ch. 3:1–16) — Captivity brought again. <i>(Joel 3:1–2, 16)</i>', 'Judah Shall Dwell for Ever (Ch. 3:17–21) — The LORD in Zion. <i>(Joel 3:17, 20)</i>'])]),
+(11, 'Companion Usage and Study Suggestions', [('h3', 'How to Use This Companion in Personal Study'), ('p', 'This Companion is designed to walk alongside you as you read Joel, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward repentance, reverence, and trust in the LORD’s kindness without confusing Israel’s covenant commands with the Body of Christ’s calling today.'), ('h3', 'How to Use This Companion in Small Groups or Classes'), ('p', 'This Companion provides a clear, structured framework that makes teaching Joel simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation.'), ('h3', 'How This Companion Fits Within the Acts Overlap Theology Series'), ('p', 'This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Joel stands firmly in Israel’s covenant story, yet it still reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age.')])]

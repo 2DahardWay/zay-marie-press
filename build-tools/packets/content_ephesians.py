@@ -1,123 +1,16 @@
-# Ephesians: DRAFT of the New Testament variant of the Bible Book Companion structure (for publisher approval).
-BOOK = "Ephesians"
-TESTAMENT = "New Testament"
-GENRE = "letters"
-SUBTITLE = "The Mystery, the One Body, and the Walk Worthy of the Calling"
-SECTIONS = []
-def S(n, t, *blocks): SECTIONS.append((n, t, list(blocks)))
-P = lambda x: ("p", x)
-L = lambda *xs: ("ul", list(xs))
-H = lambda x: ("h3", x)
-TBL = lambda head, rows, widths: ("table", head, rows, widths)
-OL = lambda *xs: ("ol", list(xs))
-OLR = lambda *xs: ("olr", list(xs))
-BOX = lambda lead, text: ("box", lead, text)
-
-S(1, "Book Overview (Program-Aware)",
-  P("Ephesians is a letter from Paul, “an apostle of Jesus Christ by the will of God,” written as “the prisoner of the Lord” to “the saints which are at Ephesus, and to the faithful in Christ Jesus” (Eph. 1:1; 3:1; 4:1). Its readers are Gentile believers who were once “aliens from the commonwealth of Israel” and are now “in Christ Jesus” (Eph. 2:11–13). Paul writes from imprisonment (Eph. 6:20) to explain the mystery committed to him, the Body’s heavenly position in Christ, and the walk that fits that calling (Eph. 3:1–9; 4:1)."),
-  BOX("Program Identity:", "Ephesians belongs to the Mystery Program: the revelation given to Paul concerning the Body of Christ, a calling hid in God from the beginning of the world and made known through Paul’s ministry (Eph. 3:2–9; Rom. 16:25–26)."))
-
-S(2, "Narrative Flow of Ephesians",
-  H("Movement 1 — Blessed in Heavenly Places (Ch. 1)"),
-  P("Paul blesses God for every spiritual blessing in Christ, chosen “before the foundation of the world,” redeemed, sealed, and given an inheritance, then prays that the readers know the hope of His calling (Eph. 1:3–14, 18–19)."),
-  H("Movement 2 — Dead, Made Alive, and Brought Near (Ch. 2)"),
-  P("Dead in trespasses, the readers are saved by grace through faith, raised and seated in Christ, and brought near by His blood, with Jew and Gentile made one in one body (Eph. 2:1–10, 13–18)."),
-  H("Movement 3 — The Mystery Made Known (Ch. 3)"),
-  P("Paul describes the dispensation of the grace of God given to him, the mystery not made known in other ages, and prays that Christ dwell in their hearts by faith (Eph. 3:2–9, 14–19)."),
-  H("Movement 4 — One Body and Its Walk (Chs. 4–5)"),
-  P("The readers are to walk worthy of their calling, keep the unity of the Spirit, grow through the gifts Christ gave, put off the old man, and walk in love, light, and wisdom (Eph. 4:1–6, 11–16, 22–24; 5:1–2, 8, 15)."),
-  H("Movement 5 — The Household and the Armour (5:22–6:24)"),
-  P("Paul addresses wives and husbands, children and parents, servants and masters, then calls the readers to stand in the whole armour of God (Eph. 5:22–6:9; 6:10–18)."))
-
-S(3, "Mystery-Program Themes in Ephesians",
-  H("1. The Mystery Committed to Paul"),
-  P("The mystery was hid in God and made known by revelation to Paul, whose ministry is a stewardship of grace for the Gentiles (Eph. 3:2–5, 9; Col. 1:25–26)."),
-  H("2. One New Man, One Body"),
-  P("Christ makes Jew and Gentile one in a single new man and reconciles both to God in one body by the cross (Eph. 2:15–16; 3:6)."),
-  H("3. Seated in Heavenly Places"),
-  P("The Body’s position and blessing are in the heavenlies in Christ, not in earthly kingdom promises (Eph. 1:3; 2:6)."),
-  H("4. Grace Through Faith"),
-  P("Salvation is the gift of God, by grace through faith, not of works (Eph. 2:8–9)."),
-  H("5. Unity and Growth in Christ"),
-  P("Christ gives gifts to build the Body into a perfect man, in love, each part working together (Eph. 4:7–16)."))
-
-S(4, "Christ in Ephesians: Fulfillment and Revelation",
-  H("1. The Head of the Body"),
-  P("God gave Christ to be head over all things to the church, which is His body (Eph. 1:22–23; 5:23)."),
-  H("2. The Redeemer by His Blood"),
-  P("Redemption through His blood and the forgiveness of sins are according to the riches of His grace (Eph. 1:7; 2:13)."),
-  H("3. Our Peace"),
-  P("Christ is our peace, who made both one and reconciled them to God by the cross (Eph. 2:14–16)."),
-  H("4. The Giver of Gifts"),
-  P("The ascended Christ gave gifts to men for the work of the ministry and the edifying of the body (Eph. 4:8–12)."),
-  H("5. The Bridegroom Pattern for Marriage"),
-  P("Paul sets Christ’s love for the church beside the husband’s love for his wife and calls it a great mystery concerning Christ and the church (Eph. 5:25–32)."))
-
-S(5, "Israel and the Body in Ephesians",
-  P("Ephesians mentions Israel to describe where the Gentile readers once stood, not to make them Israel:"),
-  L("They were “aliens from the commonwealth of Israel, and strangers from the covenants of promise” (Eph. 2:12).",
-    "Christ abolished in His flesh the enmity, “the law of commandments contained in ordinances,” to make in Himself one new man (Eph. 2:14–15).",
-    "The Gentiles are “fellowheirs, and of the same body, and partakers of his promise in Christ by the gospel” (Eph. 3:6).",
-    "The letter never calls the Body Israel and never places it under Israel’s covenants."),
-  P("This reading rests on the letter’s own audience markers and setting."))
-
-S(6, "Body-of-Christ Distinctions",
-  P("Ephesians teaches:"),
-  L("the Body’s heavenly identity and position in Christ", "the mystery revealed through Paul", "one new man from Jew and Gentile", "standing by grace through faith, apart from works", "the Spirit’s sealing and the unity of the Spirit", "a calling and inheritance in the heavenlies"),
-  P("It does not give Israel’s covenant promises, earthly kingdom, Temple worship, or national commands to the Body."))
-
-S(7, "Program-Specific Truths Table",
-  TBL(["Category", "Truth Revealed in Ephesians", "Program Identity", "Scripture"], [
-    ["The Mystery", "A dispensation of grace committed to Paul and hid until revealed to him.", "Body of Christ (Pauline) Truth", "Eph. 3:2–9"],
-    ["One Body", "Jew and Gentile are made one body in Christ.", "Body of Christ (Pauline) Truth", "Eph. 2:15–16; 3:6"],
-    ["Heavenly Blessing", "Every spiritual blessing is in heavenly places in Christ.", "Body of Christ (Pauline) Truth", "Eph. 1:3"],
-    ["Heavenly Seat", "Believers are raised up and made to sit together in heavenly places.", "Body of Christ (Pauline) Truth", "Eph. 2:6"],
-    ["Headship of Christ", "Christ is head over all things to the church, His body.", "Body of Christ (Pauline) Truth", "Eph. 1:22–23"],
-    ["Sealing of the Spirit", "Believers are sealed with the Holy Spirit of promise.", "Body of Christ (Pauline) Truth", "Eph. 1:13; 4:30"],
-    ["Wall Abolished", "The enmity of the law of commandments is abolished for the Body.", "Body of Christ (Pauline) Truth", "Eph. 2:14–15"],
-    ["Gifts for the Body", "Christ’s gifts build up the Body to maturity.", "Body of Christ (Pauline) Truth", "Eph. 4:11–13"],
-    ["Walk Worthy", "The Body’s conduct flows from its calling.", "Body of Christ (Pauline) Truth", "Eph. 4:1; 5:1–2"],
-    ["Unity of the Spirit", "One body, one Spirit, one hope, one Lord, one faith, one baptism.", "Body of Christ (Pauline) Truth", "Eph. 4:3–6"],
-  ], [22, 43, 17, 18]))
-
-S(8, "Universal Truths Table (All People, All Time)",
-  TBL(["Universal Truth", "Description", "Scripture"], [
-    ["God’s Grace", "Salvation is God’s gift, not earned.", "Eph. 2:8–9"],
-    ["God’s Love and Mercy", "God is rich in mercy and great in love.", "Eph. 2:4"],
-    ["Truth Spoken in Love", "Truth is to be spoken in love.", "Eph. 4:15"],
-    ["Honest Speech", "Put away lying and speak truth with your neighbour.", "Eph. 4:25"],
-    ["Controlled Anger", "Do not let the sun go down on your wrath.", "Eph. 4:26"],
-    ["Kindness and Forgiveness", "Be kind and forgive, as God forgave.", "Eph. 4:32"],
-    ["Honor in the Family", "Children are to obey and honor parents.", "Eph. 6:1–3"],
-    ["Honest Labor", "Work as unto the Lord, not merely to please men.", "Eph. 6:5–8"],
-  ], [30, 46, 24]))
-
-S(9, "Program-Safe Application Grid",
-  BOX("Why This Section Exists", "The tables in Sections 7 and 8 separate what Ephesians reveals about the Body’s calling from truths that hold for all people in all ages. Because Ephesians is addressed to the Body, its conduct instructions apply to the Body directly, and this section shows how they shape daily life. They do not turn Israel’s covenant commands or kingdom promises into the Body’s obligations."),
-  P("Drawn from Ephesians’ own instructions to believers. The Body of Christ should:"),
-  OL("<b>Rest in grace</b> — Salvation is God’s gift, not our achievement (Eph. 2:8–9).",
-     "<b>Know its position</b> — We are blessed and seated in Christ (Eph. 1:3; 2:6).",
-     "<b>Keep the unity of the Spirit</b> — Bear with one another in love (Eph. 4:2–3).",
-     "<b>Speak truth in love</b> — Grow together in Christ (Eph. 4:15, 25).",
-     "<b>Put off the old and put on the new</b> — Walk as renewed in the spirit of the mind (Eph. 4:22–24).",
-     "<b>Forgive as forgiven</b> — Kindness and tenderheartedness reflect God’s mercy (Eph. 4:32).",
-     "<b>Honor Christ in the home</b> — Love, submission, obedience, and nurture (Eph. 5:22–6:4).",
-     "<b>Stand in the armour of God</b> — Be strong in the Lord and pray with perseverance (Eph. 6:10–18)."))
-
-S(10, "Teaching Outline for Ephesians",
-  P("<i>Teacher-ready, movement-based outline</i>"),
-  OLR("Every Spiritual Blessing in Christ (Ch. 1) — God’s purpose, redemption, sealing, and the prayer for understanding. <i>(Eph. 1:3–14, 15–23)</i>",
-     "From Death to Life, and One Body (Ch. 2) — Saved by grace, seated in Christ, and brought near by His blood. <i>(Eph. 2:1–10, 11–22)</i>",
-     "The Mystery and the Prayer for Strength (Ch. 3) — Paul’s stewardship and the Gentiles as fellowheirs of the same body. <i>(Eph. 3:1–13, 14–21)</i>",
-     "Walking Worthy of the Calling (Ch. 4) — Unity, gifts, maturity, and the old and new man. <i>(Eph. 4:1–16, 17–32)</i>",
-     "Walking in Love, Light, and Wisdom (5:1–21) — Imitating God, living as children of light, and being filled with the Spirit. <i>(Eph. 5:1–2, 8, 15–21)</i>",
-     "The Christian Household (5:22–6:9) — Marriage, parents and children, servants and masters. <i>(Eph. 5:22–33; 6:1–9)</i>",
-     "Standing in the Whole Armour of God (6:10–24) — Strength in the Lord, the armour, and prayer. <i>(Eph. 6:10–20)</i>"))
-
-S(11, "Companion Usage and Study Suggestions",
-  H("How to Use This Companion in Personal Study"),
-  P("This Companion is designed to walk alongside you as you read Ephesians, helping you see both the mystery revealed through Paul and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and truths deepen your understanding. The Program-Safe Applications will guide your heart toward grace, unity, and a walk worthy of your calling, drawn from what Ephesians itself says to the Body of Christ without borrowing Israel’s covenant commands."),
-  H("How to Use This Companion in Small Groups or Classes"),
-  P("This Companion provides a clear, structured framework that makes teaching Ephesians simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, mystery-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish what Ephesians reveals about the Body’s calling from truths that hold for all people, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
-  H("How This Companion Fits Within the Acts Overlap Theology Series"),
-  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap framework, Ephesians stands in the mystery revealed through Paul and speaks directly to the Body of Christ, while also stating truths that shape Christian character in every age. This Companion shows you how to honor the book’s own setting while drawing out the principles that apply to all believers."))
+# Converted to the revised ten-section template (plus section 11); content and tables carried from the previous version.
+BOOK = 'Ephesians'
+TESTAMENT = 'New Testament'
+GENRE = 'letters'
+SUBTITLE = 'The Mystery, the One Body, and the Walk Worthy of the Calling'
+SECTIONS = [(1, 'Book Setting & Program Identity', [('p', 'This section introduces you to the book by explaining who wrote it, who received it, and what was happening when it was written. It also shows you which of God’s programs the book belongs to — Israel’s prophetic program or the Body of Christ’s mystery program. Knowing the setting and the program identity helps you read the book in its proper context and understand how its teachings fit into the larger story of Scripture.'), ('p', 'Ephesians is a letter from Paul, “an apostle of Jesus Christ by the will of God,” written as “the prisoner of the Lord” to “the saints which are at Ephesus, and to the faithful in Christ Jesus” (Eph. 1:1; 3:1; 4:1). Its readers are Gentile believers who were once “aliens from the commonwealth of Israel” and are now “in Christ Jesus” (Eph. 2:11–13). Paul writes from imprisonment (Eph. 6:20) to explain the mystery committed to him, the Body’s heavenly position in Christ, and the walk that fits that calling (Eph. 3:1–9; 4:1).'), ('box', 'Program Identity:', 'Ephesians belongs to the Mystery Program: the revelation given to Paul concerning the Body of Christ, a calling hid in God from the beginning of the world and made known through Paul’s ministry (Eph. 3:2–9; Rom. 16:25–26).')]),
+(2, 'Narrative Flow of Ephesians', [('p', 'This section gives you a simple walkthrough of how the book unfolds. Instead of diving into details right away, it shows the major movements in the letter — how Paul begins, how his instructions develop, and how the letter builds toward its close. Seeing the flow of the book helps you understand the big picture before you study the individual passages.'), ('h3', 'Movement 1 — Blessed in Heavenly Places (Ch. 1)'), ('p', 'Paul blesses God for every spiritual blessing in Christ, chosen “before the foundation of the world,” redeemed, sealed, and given an inheritance, then prays that the readers know the hope of His calling (Eph. 1:3–14, 18–19).'), ('h3', 'Movement 2 — Dead, Made Alive, and Brought Near (Ch. 2)'), ('p', 'Dead in trespasses, the readers are saved by grace through faith, raised and seated in Christ, and brought near by His blood, with Jew and Gentile made one in one body (Eph. 2:1–10, 13–18).'), ('h3', 'Movement 3 — The Mystery Made Known (Ch. 3)'), ('p', 'Paul describes the dispensation of the grace of God given to him, the mystery not made known in other ages, and prays that Christ dwell in their hearts by faith (Eph. 3:2–9, 14–19).'), ('h3', 'Movement 4 — One Body and Its Walk (Chs. 4–5)'), ('p', 'The readers are to walk worthy of their calling, keep the unity of the Spirit, grow through the gifts Christ gave, put off the old man, and walk in love, light, and wisdom (Eph. 4:1–6, 11–16, 22–24; 5:1–2, 8, 15).'), ('h3', 'Movement 5 — The Household and the Armour (5:22–6:24)'), ('p', 'Paul addresses wives and husbands, children and parents, servants and masters, then calls the readers to stand in the whole armour of God (Eph. 5:22–6:9; 6:10–18).')]),
+(3, 'Program Themes in Ephesians', [('p', 'This section highlights the major ideas Paul emphasizes in this book — the big doctrinal themes that shape how the Body of Christ should think and live. These themes are not verse-by-verse explanations; they are the book’s main emphases, the repeated ideas Paul wants believers to carry forward. Seeing these themes together helps you understand the book’s message before you look at the individual truths in the tables.'), ('ol', ['<b>The Mystery Committed to Paul</b> — The mystery was hid in God and made known by revelation to Paul, whose ministry is a stewardship of grace for the Gentiles (Eph. 3:2–5, 9; Col. 1:25–26).', '<b>One New Man, One Body</b> — Christ makes Jew and Gentile one in a single new man and reconciles both to God in one body by the cross (Eph. 2:15–16; 3:6).', '<b>Seated in Heavenly Places</b> — The Body’s position and blessing are in the heavenlies in Christ, not in earthly kingdom promises (Eph. 1:3; 2:6).', '<b>Grace Through Faith</b> — Salvation is the gift of God, by grace through faith, not of works (Eph. 2:8–9).', '<b>Unity and Growth in Christ</b> — Christ gives gifts to build the Body into a perfect man, in love, each part working together (Eph. 4:7–16).'])]),
+(4, 'Christ in Ephesians', [('p', 'This section gathers what the letter teaches about Christ — who He is, what He has done, and how Paul presents Him to the church. These statements help you see the book’s Christ-centered focus before you study the doctrinal truths in detail. By collecting these verses together, you get a clear picture of how Ephesians lifts up Christ.'), ('ol', ['<b>The Head of the Body</b> — God gave Christ to be head over all things to the church, which is His body (Eph. 1:22–23; 5:23).', '<b>The Redeemer by His Blood</b> — Redemption through His blood and the forgiveness of sins are according to the riches of His grace (Eph. 1:7; 2:13).', '<b>Our Peace</b> — Christ is our peace, who made both one and reconciled them to God by the cross (Eph. 2:14–16).', '<b>The Giver of Gifts</b> — The ascended Christ gave gifts to men for the work of the ministry and the edifying of the body (Eph. 4:8–12).', '<b>The Bridegroom Pattern for Marriage</b> — Paul sets Christ’s love for the church beside the husband’s love for his wife and calls it a great mystery concerning Christ and the church (Eph. 5:25–32).'])]),
+(5, 'The Church, the Law, and Israel in Ephesians', [('p', 'This section helps you see how Ephesians speaks about the church, the law, and Israel without mixing their programs. By gathering these points together, this section shows you how to read Ephesians in its own setting — as a Body-of-Christ letter — while recognizing what it says (and does not say) about Israel’s program.'), ('p', 'Ephesians mentions Israel to describe where the Gentile readers once stood, not to make them Israel:'), ('ul', ['They were “aliens from the commonwealth of Israel, and strangers from the covenants of promise” (Eph. 2:12).', 'Christ abolished in His flesh the enmity, “the law of commandments contained in ordinances,” to make in Himself one new man (Eph. 2:14–15).', 'The Gentiles are “fellowheirs, and of the same body, and partakers of his promise in Christ by the gospel” (Eph. 3:6).', 'The letter never calls the Body Israel and never places it under Israel’s covenants.']), ('p', 'This reading rests on the letter’s own audience markers and setting.')]),
+(6, 'Body-of-Christ Distinctions', [('p', 'This section highlights the teachings in Ephesians that belong uniquely to the Body of Christ — truths Paul gives to the church in this present age. By gathering these together, this section helps you see how Ephesians contributes to the doctrine and order of the Body of Christ without borrowing from Israel’s prophetic program.'), ('p', 'Ephesians teaches:'), ('ul', ['the Body’s heavenly identity and position in Christ', 'the mystery revealed through Paul', 'one new man from Jew and Gentile', 'standing by grace through faith, apart from works', 'the Spirit’s sealing and the unity of the Spirit', 'a calling and inheritance in the heavenlies']), ('p', 'It does not give Israel’s covenant promises, earthly kingdom, Temple worship, or national commands to the Body.')]),
+(7, 'Truths Table: What Ephesians Says', [('p', 'This table gathers the key statements, instructions, and teachings in Ephesians and shows which ones belong to the Body of Christ. Each row lists a truth from the letter, explains what it says, and identifies its program identity based on Paul’s audience and setting. This helps you see, at a glance, what Ephesians teaches directly to the church today and keeps those truths separate from universal principles or reports that apply more broadly.'), ('table', ['Category', 'Truth Revealed in Ephesians', 'Program Identity', 'Scripture'], [['The Mystery', 'A dispensation of grace committed to Paul and hid until revealed to him.', 'Body of Christ (Pauline) Truth', 'Eph. 3:2–9'], ['One Body', 'Jew and Gentile are made one body in Christ.', 'Body of Christ (Pauline) Truth', 'Eph. 2:15–16; 3:6'], ['Heavenly Blessing', 'Every spiritual blessing is in heavenly places in Christ.', 'Body of Christ (Pauline) Truth', 'Eph. 1:3'], ['Heavenly Seat', 'Believers are raised up and made to sit together in heavenly places.', 'Body of Christ (Pauline) Truth', 'Eph. 2:6'], ['Headship of Christ', 'Christ is head over all things to the church, His body.', 'Body of Christ (Pauline) Truth', 'Eph. 1:22–23'], ['Sealing of the Spirit', 'Believers are sealed with the Holy Spirit of promise.', 'Body of Christ (Pauline) Truth', 'Eph. 1:13; 4:30'], ['Wall Abolished', 'The enmity of the law of commandments is abolished for the Body.', 'Body of Christ (Pauline) Truth', 'Eph. 2:14–15'], ['Gifts for the Body', 'Christ’s gifts build up the Body to maturity.', 'Body of Christ (Pauline) Truth', 'Eph. 4:11–13'], ['Walk Worthy', 'The Body’s conduct flows from its calling.', 'Body of Christ (Pauline) Truth', 'Eph. 4:1; 5:1–2'], ['Unity of the Spirit', 'One body, one Spirit, one hope, one Lord, one faith, one baptism.', 'Body of Christ (Pauline) Truth', 'Eph. 4:3–6']], [22, 43, 17, 18])]),
+(8, 'Universal Truths Table (All People, All Time)', [('p', 'This table gathers the truths in Ephesians that apply to everyone, not just the Body of Christ. These are principles rooted in God’s character — things that hold true across all programs and all ages. By separating these universal truths from Paul’s program-specific instructions, this section helps you see what Ephesians teaches all believers everywhere and what it teaches the church in its own setting.'), ('table', ['Universal Truth', 'Description', 'Scripture'], [['God’s Grace', 'Salvation is God’s gift, not earned.', 'Eph. 2:8–9'], ['God’s Love and Mercy', 'God is rich in mercy and great in love.', 'Eph. 2:4'], ['Truth Spoken in Love', 'Truth is to be spoken in love.', 'Eph. 4:15'], ['Honest Speech', 'Put away lying and speak truth with your neighbour.', 'Eph. 4:25'], ['Controlled Anger', 'Do not let the sun go down on your wrath.', 'Eph. 4:26'], ['Kindness and Forgiveness', 'Be kind and forgive, as God forgave.', 'Eph. 4:32'], ['Honor in the Family', 'Children are to obey and honor parents.', 'Eph. 6:1–3'], ['Honest Labor', 'Work as unto the Lord, not merely to please men.', 'Eph. 6:5–8']], [30, 46, 24])]),
+(9, 'Program-Safe Application Grid', [('p', 'This section shows how to apply the teachings of Ephesians without mixing programs. The applications come directly from Paul’s instructions to the Body of Christ and from the universal truths that apply to everyone. By keeping the applications tied to what the letter actually says — and not borrowing commands from Israel’s covenants or prophetic program — this grid helps you respond to Ephesians in a way that is faithful to its setting, clear, and safe.'), ('ol', ['<b>Rest in grace</b> — Salvation is God’s gift, not our achievement (Eph. 2:8–9).', '<b>Know its position</b> — We are blessed and seated in Christ (Eph. 1:3; 2:6).', '<b>Keep the unity of the Spirit</b> — Bear with one another in love (Eph. 4:2–3).', '<b>Speak truth in love</b> — Grow together in Christ (Eph. 4:15, 25).', '<b>Put off the old and put on the new</b> — Walk as renewed in the spirit of the mind (Eph. 4:22–24).', '<b>Forgive as forgiven</b> — Kindness and tenderheartedness reflect God’s mercy (Eph. 4:32).', '<b>Honor Christ in the home</b> — Love, submission, obedience, and nurture (Eph. 5:22–6:4).', '<b>Stand in the armour of God</b> — Be strong in the Lord and pray with perseverance (Eph. 6:10–18).'])]),
+(10, 'Teaching Outline for Ephesians', [('p', 'This outline gives you a teacher-ready structure for presenting the book. It follows the narrative movements and highlights the major themes, making it easy to teach Ephesians in classes, small groups, or personal study.'), ('olr', ['Every Spiritual Blessing in Christ (Ch. 1) — God’s purpose, redemption, sealing, and the prayer for understanding. <i>(Eph. 1:3–14, 15–23)</i>', 'From Death to Life, and One Body (Ch. 2) — Saved by grace, seated in Christ, and brought near by His blood. <i>(Eph. 2:1–10, 11–22)</i>', 'The Mystery and the Prayer for Strength (Ch. 3) — Paul’s stewardship and the Gentiles as fellowheirs of the same body. <i>(Eph. 3:1–13, 14–21)</i>', 'Walking Worthy of the Calling (Ch. 4) — Unity, gifts, maturity, and the old and new man. <i>(Eph. 4:1–16, 17–32)</i>', 'Walking in Love, Light, and Wisdom (5:1–21) — Imitating God, living as children of light, and being filled with the Spirit. <i>(Eph. 5:1–2, 8, 15–21)</i>', 'The Christian Household (5:22–6:9) — Marriage, parents and children, servants and masters. <i>(Eph. 5:22–33; 6:1–9)</i>', 'Standing in the Whole Armour of God (6:10–24) — Strength in the Lord, the armour, and prayer. <i>(Eph. 6:10–20)</i>'])]),
+(11, 'Companion Usage and Study Suggestions', [('h3', 'How to Use This Companion in Personal Study'), ('p', 'This Companion is designed to walk alongside you as you read Ephesians, helping you see both the mystery revealed through Paul and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and truths deepen your understanding. The Program-Safe Applications will guide your heart toward grace, unity, and a walk worthy of your calling, drawn from what Ephesians itself says to the Body of Christ without borrowing Israel’s covenant commands.'), ('h3', 'How to Use This Companion in Small Groups or Classes'), ('p', 'This Companion provides a clear, structured framework that makes teaching Ephesians simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, mystery-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish what Ephesians reveals about the Body’s calling from truths that hold for all people, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation.'), ('h3', 'How This Companion Fits Within the Acts Overlap Theology Series'), ('p', 'This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap framework, Ephesians stands in the mystery revealed through Paul and speaks directly to the Body of Christ, while also stating truths that shape Christian character in every age. This Companion shows you how to honor the book’s own setting while drawing out the principles that apply to all believers.')])]

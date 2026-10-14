@@ -1,4 +1,4 @@
-# Zay-Marie Press Bible Book Companion Standard — v1.18
+# Zay-Marie Press Bible Book Companion Standard — v1.19
 
 Status: working standard, approved piece by piece by the publisher on 2026-10-13. It replaces the Doctrinal Packet Standard (v0.4, five-page format). The Bible Book Companion Series is a separate product strand from the Digital Studies; this Standard governs companions only (Master Standard §16 and §17 govern studies).
 
@@ -14,18 +14,18 @@ A Bible Book Companion is the paid, interpretive companion to a book's free Bibl
 - Length is whatever the eleven sections need, cover included (1 Chronicles 6 pages, Ephesians 7, Romans 6). The page count is one number everywhere: hero buyline, What's Included, buy panel, meta description.
 - Naming: title "Bible Book Companion — [Book]"; a subtitle chosen per book.
 
-## 3. Structure (publisher's template, 2026-10-13)
+## 3. Structure (publisher's template, revised 2026-10-14 from his five examples: Romans, Matthew, 1 Timothy, Revelation, Judges)
 Interior page 1 opens with the kicker "ZAY-MARIE PRESS | BIBLE BOOK COMPANIONS", the title, the subtitle, a gold rule and a Table of Contents with real dot leaders aligned to the right edge. Then, in this order:
-1. Book Overview (Program-Aware), with a boxed Program Identity statement.
-2. Narrative Flow (three to seven movements).
-3. Program Themes: "Prophecy-Program Themes" for Old Testament books; "Mystery-Program Themes" or "Program Themes" for New Testament books as the book requires.
-4. Christ in [Book]: the prophetic trajectory (Old Testament) or fulfillment and revelation (New Testament).
-5. Israel's Identity in [Book] (Old Testament); "Israel and the Body in [Book]" (New Testament, where the book addresses the question; Romans: "Israel in Romans").
-6. Body-of-Christ Distinctions.
-7. Program-Specific Truths Table (Israel-Specific rows for Old Testament books; Body-Specific and Israel-Specific rows as the book requires; Slate Blue header, four columns: Category, Truth, Program Identity, Scripture).
+1. Book Setting & Program Identity: a short plain-language intro paragraph, the setting (who wrote it, who received it, what was happening), then a boxed Program Identity statement.
+2. Narrative Flow of [Book] (three to seven movements, each a bold "Movement N — Title (Chs.)" line and a short line of what happens with references).
+3. Program Themes in [Book]: a numbered list, each item a bold lead, a dash and a line with its reference.
+4. Christ in [Book]: a numbered list in the same form.
+5. Israel, the Law, and the Covenants in [Book] (Israel-program books); The Church, the Law, and Israel in [Book] (Body books and books that mix both programs).
+6. Israel-Program Distinctions (bullets built from the book's own Truths Table rows); Body-of-Christ Distinctions for Body books. Job, which has no program-specific rows, keeps its "does not teach" list.
+7. Truths Table: What [Book] Says (Slate Blue header, four columns: Category, Truth Revealed in [Book], Program Identity, Scripture; Program Identity carries only the two-class labels).
 8. Universal Truths Table (All People, All Time): three columns.
-9. Program-Safe Application Grid: a "Why This Section Exists" box and eight applications, each a bold lead-in and a short pastoral line. Old Testament books draw only from the universal truths. Where a book is addressed to the Body, the applications may also draw on the book's own instructions to believers, and the box says so in plain words; Israel's covenant commands or kingdom promises never become the Body's obligations.
-10. Teaching Outline: five to eight movements in roman numerals with Scripture references, plain weight.
+9. Program-Safe Application Grid: an intro paragraph and a numbered list of applications, each a bold lead-in and a short line.
+10. Teaching Outline for [Book]: an intro paragraph, then five to eight movements in roman numerals with Scripture references, plain weight; it flows on from section 9 and does not start a new page.
 11. Companion Usage and Study Suggestions (placed last, closes the companion): three headings, each with one paragraph: How to Use This Companion in Personal Study; How to Use This Companion in Small Groups or Classes; How This Companion Fits Within the Acts Overlap Theology Series. For 1 Chronicles the paragraphs are the publisher's own text (with regular hyphens and the section name "Program-Safe Application Grid"); for other books they follow the same three-paragraph pattern, adapted to the book's program placement and approved with the book.
 
 Bold is limited to headings, table headers, box titles and the lead-ins in section 9. Body text, item lines, the teaching outline and section 11 are regular weight.
@@ -117,3 +117,5 @@ v1.16 (2026-10-14): records Zechariah, Malachi, Matthew, Mark and Luke (7, 6, 7,
 v1.17 (2026-10-14): records Jonah, John and Acts (6, 7 and 7 pages with the cover), completing the 66; no new rule.
 
 v1.18 (2026-10-14): Key Scriptures cards regenerated on all 66 pages, "five pages" wording removed, full KJV check with Ephesians 1:1 and Philemon 8 corrected, subtitles and Universal rows approved; no new rule.
+
+v1.19 (2026-10-14): template revised from the publisher's five examples: new section titles, an intro paragraph on every section, numbered lists in sections 3, 4 and 9, section 6 for Israel books built from the Truths Table, section 11 kept last, no forced page break before the Teaching Outline; two-class labels unchanged (v1.142); table integrity check (`build-tools/packets/check_tables.py`) on every rebuild; applied to all 66; Master Standard v1.154.

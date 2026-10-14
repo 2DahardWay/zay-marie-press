@@ -1,118 +1,16 @@
-# DRAFT for publisher approval.
-BOOK = "Psalms"
-TESTAMENT = "Old Testament"
-GENRE = "poetry"
-SUBTITLE = "Israel’s Songbook of Praise, Lament, and the Coming King"
-SECTIONS = []
-def S(n, t, *blocks): SECTIONS.append((n, t, list(blocks)))
-P = lambda x: ("p", x)
-L = lambda *xs: ("ul", list(xs))
-H = lambda x: ("h3", x)
-TBL = lambda head, rows, widths: ("table", head, rows, widths)
-OL = lambda *xs: ("ol", list(xs))
-OLR = lambda *xs: ("olr", list(xs))
-BOX = lambda lead, text: ("box", lead, text)
-ISR = 'Israel / Kingdom / Prophecy Explicit Truth'
-
-S(1, "Book Overview (Program-Aware)",
-  P('Psalms is the songbook of Israel in five books of prayer, praise, lament and trust. It opens with the blessed man who delights “in the law of the LORD” (Ps. 1:2), speaks of the king set “upon my holy hill of Zion” (Ps. 2:6), carries the songs of David, the songs of the temple and of the exile, and closes in praise (Ps. 89:3; 137:1; 145:3).'),
-  BOX("Program Identity:", 'This book is Israel’s songbook, built around Zion, David’s throne, the covenant, the law and the land, and it also speaks of God to all who hear it (Ps. 2:6; 89:3; 147:19).'))
-
-S(2, "Narrative Flow of Psalms",
-  H('Movement 1 — The Blessed Man and the King (Pss. 1–41)'),
-  P('The way of the righteous and the way of the wicked is set out, and the LORD sets His king upon Zion (Ps. 1:1–2; 2:6; 23:1; 32:1).'),
-  H('Movement 2 — Songs of Zion and Lament (Pss. 42–72)'),
-  P('Songs of the sanctuary and of the king, and a prayer that his dominion be from sea to sea (Ps. 46:1; 51:10; 72:8).'),
-  H('Movement 3 — The Covenant and the Hard Questions (Pss. 73–89)'),
-  P('The testimony in Jacob is recalled and the covenant with David is sworn (Ps. 78:5; 87:2; 89:3, 34).'),
-  H('Movement 4 — The LORD Reigns (Pss. 90–106)'),
-  P('The LORD is God from everlasting, and the nations are told that He reigns (Ps. 90:2; 96:10; 102:13; 105:8).'),
-  H('Movement 5 — Praise and the Word (Pss. 107–150)'),
-  P('The LORD sits at the right hand, the word is a lamp, Zion is remembered, and the book closes in praise (Ps. 110:1; 119:105; 137:1; 145:3; 147:2; 149:2).'))
-
-S(3, "Prophecy-Program Themes in Psalms",
-  H('1. The Law of the LORD'),
-  P('“His delight is in the law of the LORD; and in his law doth he meditate day and night” (Ps. 1:2).'),
-  H('2. The King on Zion'),
-  P('“Yet have I set my king upon my holy hill of Zion” (Ps. 2:6).'),
-  H('3. The Covenant with David'),
-  P('“I have made a covenant with my chosen, I have sworn unto David my servant” (Ps. 89:3).'),
-  H('4. The Throne Sworn'),
-  P('“The LORD hath sworn in truth unto David; he will not turn from it” (Ps. 132:11).'),
-  H('5. Zion Favoured'),
-  P('“Thou shalt arise, and have mercy upon Zion: for the time to favour her, yea, the set time, is come” (Ps. 102:13).'),
-  H('6. The Outcasts Gathered'),
-  P('“The LORD doth build up Jerusalem: he gathereth together the outcasts of Israel” (Ps. 147:2).'),
-  H('7. His Word to Jacob'),
-  P('“He sheweth his word unto Jacob, his statutes and his judgments unto Israel” (Ps. 147:19).'))
-
-S(4, "Christ in Psalms: The Prophetic Trajectory",
-  H('1. The Son'),
-  P('“Thou art my Son; this day have I begotten thee” (Ps. 2:7) is quoted in the New Testament (Acts 13:33; Heb. 1:5).'),
-  H('2. The Forsaken One'),
-  P('“My God, my God, why hast thou forsaken me?” (Ps. 22:1) is quoted by the Lord on the cross (Matt. 27:46).'),
-  H('3. The Holy One'),
-  P('“Thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption” (Ps. 16:10) is quoted in Acts (Acts 2:27; 13:35).'),
-  H('4. The Right Hand'),
-  P('“The LORD said unto my Lord, Sit thou at my right hand” (Ps. 110:1) is quoted by the Lord and in the New Testament (Matt. 22:44; Heb. 1:13).'),
-  H('5. The Stone'),
-  P('“The stone which the builders refused is become the head stone of the corner” (Ps. 118:22) is quoted by the Lord (Matt. 21:42).'))
-
-S(5, "Israel’s Identity in Psalms",
-  P("Psalms reinforces Israel’s:"),
-  L('the covenant sworn to David (Ps. 89:3; 132:11)', 'Zion as the place of the LORD’s king and favour (Ps. 2:6; 102:13)', 'the testimony and law given to Jacob (Ps. 78:5; 147:19)', 'the outcasts of Israel gathered (Ps. 147:2)', 'the LORD’s choice of Jacob and Israel (Ps. 135:4)'),
-  P("All content belongs exclusively to the Prophecy Program."))
-
-S(6, "Body-of-Christ Distinctions",
-  P("Psalms does not teach:"),
-  L("Body-of-Christ identity", "heavenly inheritance", "Pauline doctrine", "Mystery revelation", "Spirit baptism into one Body", "non-covenantal standing", "church worship structure"),
-  P('Its covenant with David, its law, its Zion and its temple worship belong exclusively to Israel; its songs of praise and trust are also given to all who hear them.'))
-
-S(7, "Program-Specific Truths Table",
-  TBL(["Category", "Truth Revealed in Psalms", "Program Identity", "Scripture"], [
-    ['The King on Zion', '“Yet have I set my king upon my holy hill of Zion.”', ISR, 'Ps. 2:6'],
-    ['The Son', '“Thou art my Son; this day have I begotten thee.”', ISR, 'Ps. 2:7'],
-    ['The King’s Dominion', '“He shall have dominion also from sea to sea.”', ISR, 'Ps. 72:8'],
-    ['The Testimony in Jacob', '“he established a testimony in Jacob, and appointed a law in Israel.”', ISR, 'Ps. 78:5'],
-    ['The Gates of Zion', '“The LORD loveth the gates of Zion more than all the dwellings of Jacob.”', ISR, 'Ps. 87:2'],
-    ['The Covenant with David', '“I have made a covenant with my chosen, I have sworn unto David my servant.”', ISR, 'Ps. 89:3'],
-    ['The Covenant Unbroken', '“My covenant will I not break, nor alter the thing that is gone out of my lips.”', ISR, 'Ps. 89:34'],
-    ['The Set Time for Zion', '“Thou shalt arise, and have mercy upon Zion.”', ISR, 'Ps. 102:13'],
-    ['The Chosen People', '“the LORD hath chosen Jacob unto himself, and Israel for his peculiar treasure.”', ISR, 'Ps. 135:4'],
-    ['The Throne Sworn', '“The LORD hath sworn in truth unto David; he will not turn from it.”', ISR, 'Ps. 132:11'],
-    ['The Outcasts Gathered', '“he gathereth together the outcasts of Israel.”', ISR, 'Ps. 147:2'],
-    ['Word to Jacob', '“He sheweth his word unto Jacob, his statutes and his judgments unto Israel.”', ISR, 'Ps. 147:19'],
-  ], [20, 34, 26, 20]))
-
-S(8, "Universal Truths Table (All People, All Time)",
-  TBL(["Universal Truth", "Description", "Scripture"], [
-    ['The Blessed Man', '“Blessed is the man that walketh not in the counsel of the ungodly.”', 'Ps. 1:1'],
-    ['The Heavens Declare', '“The heavens declare the glory of God; and the firmament sheweth his handywork.”', 'Ps. 19:1'],
-    ['The Shepherd', '“The LORD is my shepherd; I shall not want.”', 'Ps. 23:1'],
-    ['The Earth Is the LORD’s', '“The earth is the LORD’s, and the fulness thereof.”', 'Ps. 24:1'],
-    ['A Present Help', '“God is our refuge and strength, a very present help in trouble.”', 'Ps. 46:1'],
-    ['A Clean Heart', '“Create in me a clean heart, O God; and renew a right spirit within me.”', 'Ps. 51:10'],
-    ['From Everlasting', '“from everlasting to everlasting, thou art God.”', 'Ps. 90:2'],
-    ['Merciful and Gracious', '“The LORD is merciful and gracious, slow to anger, and plenteous in mercy.”', 'Ps. 103:8'],
-    ['Forgiveness', '“there is forgiveness with thee, that thou mayest be feared.”', 'Ps. 130:4'],
-    ['A Lamp', '“Thy word is a lamp unto my feet, and a light unto my path.”', 'Ps. 119:105'],
-    ['Fearfully Made', '“I am fearfully and wonderfully made.”', 'Ps. 139:14'],
-    ['Great Is the LORD', '“Great is the LORD, and greatly to be praised; and his greatness is unsearchable.”', 'Ps. 145:3'],
-  ], [28, 48, 24]))
-
-S(9, "Program-Safe Application Grid",
-  BOX("Why This Section Exists", 'The tables in Sections 7 and 8 help us see clearly what belongs to Israel alone and what truths apply to all people in all ages. This section gently shows how those universal truths can shape our walk with God today. These are not Israel’s covenant with David, law or Zion; they are timeless truths rooted in God’s character.'),
-  P('Drawn only from universal truths, never from Israel’s covenant, land or kingdom. The Body of Christ should:'),
-  OL('<b>Delight in His word</b> — A lamp unto my feet (Ps. 119:105).', '<b>See the Creator in creation</b> — The heavens declare His glory (Ps. 19:1).', '<b>Rest in His care</b> — The LORD is my shepherd (Ps. 23:1).', '<b>Run to Him in trouble</b> — A very present help (Ps. 46:1).', '<b>Pray for a clean heart</b> — Create in me a clean heart (Ps. 51:10).', '<b>Rely on His mercy</b> — Merciful, gracious and slow to anger (Ps. 103:8).', '<b>Take forgiveness seriously</b> — With thee is forgiveness (Ps. 130:4).', '<b>Praise the greatness of the LORD</b> — His greatness is unsearchable (Ps. 145:3).'))
-
-S(10, "Teaching Outline for Psalms",
-  P("<i>Teacher-ready, movement-based outline</i>"),
-  OLR('The Blessed Man and the King (Pss. 1–41) — Two ways and the king on Zion. <i>(Ps. 1:1–2; 2:6; 23:1)</i>', 'Songs of Zion and Lament (Pss. 42–72) — Refuge, repentance and the king’s dominion. <i>(Ps. 46:1; 51:10; 72:8)</i>', 'The Covenant and the Hard Questions (Pss. 73–89) — Jacob’s testimony and David’s covenant. <i>(Ps. 78:5; 89:3, 34)</i>', 'The LORD Reigns (Pss. 90–106) — From everlasting to everlasting. <i>(Ps. 90:2; 102:13)</i>', 'Praise and the Word (Pss. 107–150) — The word, Zion remembered, and the closing praise. <i>(Ps. 119:105; 137:1; 145:3; 147:2)</i>'))
-
-S(11, "Companion Usage and Study Suggestions",
-  H("How to Use This Companion in Personal Study"),
-  P("This Companion is designed to walk alongside you as you read Psalms, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward worship, trust, and honest prayer without confusing Israel’s covenant commands with the Body of Christ’s calling today."),
-  H("How to Use This Companion in Small Groups or Classes"),
-  P("This Companion provides a clear, structured framework that makes teaching Psalms simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
-  H("How This Companion Fits Within the Acts Overlap Theology Series"),
-  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Psalms stands firmly in Israel’s covenant story, yet it still reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age."))
+# Converted to the revised ten-section template (plus section 11); content and tables carried from the previous version.
+BOOK = 'Psalms'
+TESTAMENT = 'Old Testament'
+GENRE = 'poetry'
+SUBTITLE = 'Israel’s Songbook of Praise, Lament, and the Coming King'
+SECTIONS = [(1, 'Book Setting & Program Identity', [('p', 'This section introduces you to the book by explaining who wrote it, who received it, and what was happening when it was written. It also shows you which of God’s programs the book belongs to — Israel’s prophetic program or the Body of Christ’s mystery program. Knowing the setting and the program identity helps you read the book in its proper context and understand how its teachings fit into the larger story of Scripture.'), ('p', 'Psalms is the songbook of Israel in five books of prayer, praise, lament and trust. It opens with the blessed man who delights “in the law of the LORD” (Ps. 1:2), speaks of the king set “upon my holy hill of Zion” (Ps. 2:6), carries the songs of David, the songs of the temple and of the exile, and closes in praise (Ps. 89:3; 137:1; 145:3).'), ('box', 'Program Identity:', 'This book is Israel’s songbook, built around Zion, David’s throne, the covenant, the law and the land, and it also speaks of God to all who hear it (Ps. 2:6; 89:3; 147:19).')]),
+(2, 'Narrative Flow of Psalms', [('p', 'This section gives you a simple walkthrough of how the book unfolds. Instead of diving into details right away, it shows the major movements in the book — how its message begins, how it develops, and how it builds toward its close. Seeing the flow of the book helps you understand the big picture before you study the individual passages.'), ('h3', 'Movement 1 — The Blessed Man and the King (Pss. 1–41)'), ('p', 'The way of the righteous and the way of the wicked is set out, and the LORD sets His king upon Zion (Ps. 1:1–2; 2:6; 23:1; 32:1).'), ('h3', 'Movement 2 — Songs of Zion and Lament (Pss. 42–72)'), ('p', 'Songs of the sanctuary and of the king, and a prayer that his dominion be from sea to sea (Ps. 46:1; 51:10; 72:8).'), ('h3', 'Movement 3 — The Covenant and the Hard Questions (Pss. 73–89)'), ('p', 'The testimony in Jacob is recalled and the covenant with David is sworn (Ps. 78:5; 87:2; 89:3, 34).'), ('h3', 'Movement 4 — The LORD Reigns (Pss. 90–106)'), ('p', 'The LORD is God from everlasting, and the nations are told that He reigns (Ps. 90:2; 96:10; 102:13; 105:8).'), ('h3', 'Movement 5 — Praise and the Word (Pss. 107–150)'), ('p', 'The LORD sits at the right hand, the word is a lamp, Zion is remembered, and the book closes in praise (Ps. 110:1; 119:105; 137:1; 145:3; 147:2; 149:2).')]),
+(3, 'Program Themes in Psalms', [('p', 'This section highlights the major ideas emphasized in the book — the big doctrinal themes that shape how Israel should think and live under the covenants. These themes are not verse-by-verse explanations; they are the book’s main emphases, the repeated ideas God wants Israel to carry forward. Seeing these themes together helps you understand the book’s message before you look at the individual truths in the tables.'), ('ol', ['<b>The Law of the LORD</b> — “His delight is in the law of the LORD; and in his law doth he meditate day and night” (Ps. 1:2).', '<b>The King on Zion</b> — “Yet have I set my king upon my holy hill of Zion” (Ps. 2:6).', '<b>The Covenant with David</b> — “I have made a covenant with my chosen, I have sworn unto David my servant” (Ps. 89:3).', '<b>The Throne Sworn</b> — “The LORD hath sworn in truth unto David; he will not turn from it” (Ps. 132:11).', '<b>Zion Favoured</b> — “Thou shalt arise, and have mercy upon Zion: for the time to favour her, yea, the set time, is come” (Ps. 102:13).', '<b>The Outcasts Gathered</b> — “The LORD doth build up Jerusalem: he gathereth together the outcasts of Israel” (Ps. 147:2).', '<b>His Word to Jacob</b> — “He sheweth his word unto Jacob, his statutes and his judgments unto Israel” (Ps. 147:19).'])]),
+(4, 'Christ in Psalms', [('p', 'This section gathers what the book teaches about Christ — through foreshadowing, typology, and prophetic anticipation. These statements help you see the book’s Christ-centered trajectory before you study the doctrinal truths in detail. By collecting these points together, you get a clear picture of how Psalms points to Christ.'), ('ol', ['<b>The Son</b> — “Thou art my Son; this day have I begotten thee” (Ps. 2:7) is quoted in the New Testament (Acts 13:33; Heb. 1:5).', '<b>The Forsaken One</b> — “My God, my God, why hast thou forsaken me?” (Ps. 22:1) is quoted by the Lord on the cross (Matt. 27:46).', '<b>The Holy One</b> — “Thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption” (Ps. 16:10) is quoted in Acts (Acts 2:27; 13:35).', '<b>The Right Hand</b> — “The LORD said unto my Lord, Sit thou at my right hand” (Ps. 110:1) is quoted by the Lord and in the New Testament (Matt. 22:44; Heb. 1:13).', '<b>The Stone</b> — “The stone which the builders refused is become the head stone of the corner” (Ps. 118:22) is quoted by the Lord (Matt. 21:42).'])]),
+(5, 'Israel, the Law, and the Covenants in Psalms', [('p', 'This section helps you see how Psalms speaks about Israel, the law, and the covenants without mixing programs. Psalms operates within Israel’s prophetic framework. By gathering these points together, this section shows you how to read Psalms in its own setting — as an Israel-program book — while recognizing what it says (and does not say) about the Body of Christ.'), ('p', 'Psalms reinforces Israel’s:'), ('ul', ['the covenant sworn to David (Ps. 89:3; 132:11)', 'Zion as the place of the LORD’s king and favour (Ps. 2:6; 102:13)', 'the testimony and law given to Jacob (Ps. 78:5; 147:19)', 'the outcasts of Israel gathered (Ps. 147:2)', 'the LORD’s choice of Jacob and Israel (Ps. 135:4)']), ('p', 'All content belongs exclusively to the Prophecy Program.')]),
+(6, 'Israel-Program Distinctions', [('p', 'This section highlights the teachings in Psalms that belong uniquely to Israel’s prophetic program — truths rooted in prophecy, covenant promises, national identity, and God’s dealings with Israel. By gathering these together, this section helps you see how Psalms contributes to Israel’s story without borrowing from the Body-of-Christ program.'), ('ul', ['The King on Zion — “Yet have I set my king upon my holy hill of Zion.” (Ps. 2:6).', 'The Son — “Thou art my Son; this day have I begotten thee.” (Ps. 2:7).', 'The King’s Dominion — “He shall have dominion also from sea to sea.” (Ps. 72:8).', 'The Testimony in Jacob — “he established a testimony in Jacob, and appointed a law in Israel.” (Ps. 78:5).', 'The Gates of Zion — “The LORD loveth the gates of Zion more than all the dwellings of Jacob.” (Ps. 87:2).', 'The Covenant with David — “I have made a covenant with my chosen, I have sworn unto David my servant.” (Ps. 89:3).', 'The Covenant Unbroken — “My covenant will I not break, nor alter the thing that is gone out of my lips.” (Ps. 89:34).', 'The Set Time for Zion — “Thou shalt arise, and have mercy upon Zion.” (Ps. 102:13).', 'The Chosen People — “the LORD hath chosen Jacob unto himself, and Israel for his peculiar treasure.” (Ps. 135:4).', 'The Throne Sworn — “The LORD hath sworn in truth unto David; he will not turn from it.” (Ps. 132:11).', 'The Outcasts Gathered — “he gathereth together the outcasts of Israel.” (Ps. 147:2).', 'Word to Jacob — “He sheweth his word unto Jacob, his statutes and his judgments unto Israel.” (Ps. 147:19).'])]),
+(7, 'Truths Table: What Psalms Says', [('p', 'This table gathers the key statements, instructions, and teachings in Psalms and shows which ones belong to Israel’s prophetic program. Each row lists a truth from the book, explains what it says, and identifies its program identity based on Israel’s covenant setting. This helps you see, at a glance, what Psalms teaches directly to Israel and keeps those truths separate from universal principles that apply more broadly.'), ('table', ['Category', 'Truth Revealed in Psalms', 'Program Identity', 'Scripture'], [['The King on Zion', '“Yet have I set my king upon my holy hill of Zion.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 2:6'], ['The Son', '“Thou art my Son; this day have I begotten thee.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 2:7'], ['The King’s Dominion', '“He shall have dominion also from sea to sea.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 72:8'], ['The Testimony in Jacob', '“he established a testimony in Jacob, and appointed a law in Israel.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 78:5'], ['The Gates of Zion', '“The LORD loveth the gates of Zion more than all the dwellings of Jacob.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 87:2'], ['The Covenant with David', '“I have made a covenant with my chosen, I have sworn unto David my servant.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 89:3'], ['The Covenant Unbroken', '“My covenant will I not break, nor alter the thing that is gone out of my lips.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 89:34'], ['The Set Time for Zion', '“Thou shalt arise, and have mercy upon Zion.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 102:13'], ['The Chosen People', '“the LORD hath chosen Jacob unto himself, and Israel for his peculiar treasure.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 135:4'], ['The Throne Sworn', '“The LORD hath sworn in truth unto David; he will not turn from it.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 132:11'], ['The Outcasts Gathered', '“he gathereth together the outcasts of Israel.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 147:2'], ['Word to Jacob', '“He sheweth his word unto Jacob, his statutes and his judgments unto Israel.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Ps. 147:19']], [20, 34, 26, 20])]),
+(8, 'Universal Truths Table (All People, All Time)', [('p', 'This table gathers the truths in Psalms that apply to everyone, not just Israel. These are principles rooted in God’s character — things that hold true across all programs and all ages. By separating these universal truths from Israel’s covenant-specific instructions, this section helps you see what Psalms teaches all believers everywhere and what it teaches Israel in its own setting.'), ('table', ['Universal Truth', 'Description', 'Scripture'], [['The Blessed Man', '“Blessed is the man that walketh not in the counsel of the ungodly.”', 'Ps. 1:1'], ['The Heavens Declare', '“The heavens declare the glory of God; and the firmament sheweth his handywork.”', 'Ps. 19:1'], ['The Shepherd', '“The LORD is my shepherd; I shall not want.”', 'Ps. 23:1'], ['The Earth Is the LORD’s', '“The earth is the LORD’s, and the fulness thereof.”', 'Ps. 24:1'], ['A Present Help', '“God is our refuge and strength, a very present help in trouble.”', 'Ps. 46:1'], ['A Clean Heart', '“Create in me a clean heart, O God; and renew a right spirit within me.”', 'Ps. 51:10'], ['From Everlasting', '“from everlasting to everlasting, thou art God.”', 'Ps. 90:2'], ['Merciful and Gracious', '“The LORD is merciful and gracious, slow to anger, and plenteous in mercy.”', 'Ps. 103:8'], ['Forgiveness', '“there is forgiveness with thee, that thou mayest be feared.”', 'Ps. 130:4'], ['A Lamp', '“Thy word is a lamp unto my feet, and a light unto my path.”', 'Ps. 119:105'], ['Fearfully Made', '“I am fearfully and wonderfully made.”', 'Ps. 139:14'], ['Great Is the LORD', '“Great is the LORD, and greatly to be praised; and his greatness is unsearchable.”', 'Ps. 145:3']], [28, 48, 24])]),
+(9, 'Program-Safe Application Grid', [('p', 'This section shows how to apply the teachings of Psalms without mixing programs. The applications come from Israel’s covenant story and from universal truths that apply to everyone. By keeping the applications tied to what the book actually says — and not borrowing commands from Israel’s covenants for the Body of Christ — this grid helps you respond to Psalms in a way that is faithful to its setting, clear, and safe.'), ('ol', ['<b>Delight in His word</b> — A lamp unto my feet (Ps. 119:105).', '<b>See the Creator in creation</b> — The heavens declare His glory (Ps. 19:1).', '<b>Rest in His care</b> — The LORD is my shepherd (Ps. 23:1).', '<b>Run to Him in trouble</b> — A very present help (Ps. 46:1).', '<b>Pray for a clean heart</b> — Create in me a clean heart (Ps. 51:10).', '<b>Rely on His mercy</b> — Merciful, gracious and slow to anger (Ps. 103:8).', '<b>Take forgiveness seriously</b> — With thee is forgiveness (Ps. 130:4).', '<b>Praise the greatness of the LORD</b> — His greatness is unsearchable (Ps. 145:3).'])]),
+(10, 'Teaching Outline for Psalms', [('p', 'This outline gives you a teacher-ready structure for presenting the book. It follows the narrative movements and highlights the major themes, making it easy to teach Psalms in classes, small groups, or personal study.'), ('olr', ['The Blessed Man and the King (Pss. 1–41) — Two ways and the king on Zion. <i>(Ps. 1:1–2; 2:6; 23:1)</i>', 'Songs of Zion and Lament (Pss. 42–72) — Refuge, repentance and the king’s dominion. <i>(Ps. 46:1; 51:10; 72:8)</i>', 'The Covenant and the Hard Questions (Pss. 73–89) — Jacob’s testimony and David’s covenant. <i>(Ps. 78:5; 89:3, 34)</i>', 'The LORD Reigns (Pss. 90–106) — From everlasting to everlasting. <i>(Ps. 90:2; 102:13)</i>', 'Praise and the Word (Pss. 107–150) — The word, Zion remembered, and the closing praise. <i>(Ps. 119:105; 137:1; 145:3; 147:2)</i>'])]),
+(11, 'Companion Usage and Study Suggestions', [('h3', 'How to Use This Companion in Personal Study'), ('p', 'This Companion is designed to walk alongside you as you read Psalms, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward worship, trust, and honest prayer without confusing Israel’s covenant commands with the Body of Christ’s calling today.'), ('h3', 'How to Use This Companion in Small Groups or Classes'), ('p', 'This Companion provides a clear, structured framework that makes teaching Psalms simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation.'), ('h3', 'How This Companion Fits Within the Acts Overlap Theology Series'), ('p', 'This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Psalms stands firmly in Israel’s covenant story, yet it still reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age.')])]

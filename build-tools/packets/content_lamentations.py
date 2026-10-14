@@ -1,103 +1,16 @@
-# DRAFT for publisher approval.
-BOOK = "Lamentations"
-TESTAMENT = "Old Testament"
-GENRE = "prophets"
-SUBTITLE = "The Fallen City, the Mercies of the LORD, and the Prayer for Return"
-SECTIONS = []
-def S(n, t, *blocks): SECTIONS.append((n, t, list(blocks)))
-P = lambda x: ("p", x)
-L = lambda *xs: ("ul", list(xs))
-H = lambda x: ("h3", x)
-TBL = lambda head, rows, widths: ("table", head, rows, widths)
-OL = lambda *xs: ("ol", list(xs))
-OLR = lambda *xs: ("olr", list(xs))
-BOX = lambda lead, text: ("box", lead, text)
-ISR = 'Israel / Kingdom / Prophecy Explicit Truth'
-
-S(1, "Book Overview (Program-Aware)",
-  P('Lamentations is five laments over Jerusalem after its fall. The city “sit solitary, that was full of people” (Lam. 1:1), the LORD’s anger is described, and in the middle of the book the speaker recalls, “It is of the LORD’s mercies that we are not consumed” (Lam. 3:22). The book closes with a prayer, “Turn thou us unto thee, O LORD” (Lam. 5:21).'),
-  BOX("Program Identity:", 'This book belongs entirely to the Prophecy Program: it mourns Jerusalem, its sanctuary and its people after the exile and prays for their turning (Lam. 1:1; 4:1; 5:1, 21). Its words of mercy and hope are also placed in the Universal Truths Table.'))
-
-S(2, "Narrative Flow of Lamentations",
-  H('Movement 1 — Jerusalem Sits Solitary (Ch. 1)'),
-  P('The city is a widow and weeps, and there is none to comfort her (Lam. 1:1).'),
-  H('Movement 2 — The LORD’s Anger (Ch. 2)'),
-  P('The LORD has cast down the daughter of Zion, and the prophet mourns.'),
-  H('Movement 3 — Hope in the LORD’s Mercies (Ch. 3)'),
-  P('In the midst of affliction the speaker recalls that the LORD’s mercies are new every morning (Lam. 3:22–26, 32–33, 40).'),
-  H('Movement 4 — The Sanctuary Stones (Ch. 4)'),
-  P('The gold is dimmed and the stones of the sanctuary are poured out (Lam. 4:1).'),
-  H('Movement 5 — Remember and Renew (Ch. 5)'),
-  P('The people pray for the LORD’s remembrance and for renewal (Lam. 5:1, 19, 21).'))
-
-S(3, "Prophecy-Program Themes in Lamentations",
-  H('1. The Lonely City'),
-  P('“How doth the city sit solitary, that was full of people!” (Lam. 1:1).'),
-  H('2. Mercies Not Consumed'),
-  P('“It is of the LORD’s mercies that we are not consumed, because his compassions fail not” (Lam. 3:22).'),
-  H('3. New Every Morning'),
-  P('“They are new every morning: great is thy faithfulness” (Lam. 3:23).'),
-  H('4. The LORD as Portion'),
-  P('“The LORD is my portion, saith my soul; therefore will I hope in him” (Lam. 3:24).'),
-  H('5. Quiet Waiting'),
-  P('“It is good that a man should both hope and quietly wait for the salvation of the LORD” (Lam. 3:26).'),
-  H('6. Search and Return'),
-  P('“Let us search and try our ways, and turn again to the LORD” (Lam. 3:40).'),
-  H('7. Renewal as of Old'),
-  P('“Turn thou us unto thee, O LORD, and we shall be turned; renew our days as of old” (Lam. 5:21).'))
-
-S(4, "Christ in Lamentations: The Prophetic Trajectory",
-  H('1. The Weeping Prophet'),
-  P('Lamentations is placed after Jeremiah in the English Bible and takes up the fall of Jerusalem; the book names no author and is reported as written.'),
-  H('2. The Man of Sorrows'),
-  P('The book speaks of affliction borne; the New Testament does not quote it, and no passage is built on it here.'),
-  H('3. Mercy in Judgment'),
-  P('The LORD’s compassion stands beside His anger in the same chapters (Lam. 3:32–33).'))
-
-S(5, "Israel’s Identity in Lamentations",
-  P("Lamentations reinforces Israel’s:"),
-  L('Jerusalem and its people as the subject of the laments (Lam. 1:1; 5:1)', 'the sanctuary and its stones (Lam. 4:1)', 'the prayer for the LORD’s turning of His people (Lam. 5:21)'),
-  P("All content belongs exclusively to the Prophecy Program."))
-
-S(6, "Body-of-Christ Distinctions",
-  P("Lamentations does not teach:"),
-  L("Body-of-Christ identity", "heavenly inheritance", "Pauline doctrine", "Mystery revelation", "Spirit baptism into one Body", "non-covenantal standing", "church worship structure"),
-  P('Its laments over Jerusalem, the sanctuary and Israel’s exile belong exclusively to Israel; its words on the LORD’s mercy are also given to all who hear them.'))
-
-S(7, "Program-Specific Truths Table",
-  TBL(["Category", "Truth Revealed in Lamentations", "Program Identity", "Scripture"], [
-    ['The City Solitary', '“How doth the city sit solitary, that was full of people!”', ISR, 'Lam. 1:1'],
-    ['The Sanctuary Stones', '“the stones of the sanctuary are poured out in the top of every street.”', ISR, 'Lam. 4:1'],
-    ['Remember Us', '“Remember, O LORD, what is come upon us: consider, and behold our reproach.”', ISR, 'Lam. 5:1'],
-    ['Renew Our Days', '“Turn thou us unto thee, O LORD, and we shall be turned; renew our days as of old.”', ISR, 'Lam. 5:21'],
-  ], [20, 34, 26, 20]))
-
-S(8, "Universal Truths Table (All People, All Time)",
-  TBL(["Universal Truth", "Description", "Scripture"], [
-    ['Mercies', '“It is of the LORD’s mercies that we are not consumed, because his compassions fail not.”', 'Lam. 3:22'],
-    ['Faithfulness', '“They are new every morning: great is thy faithfulness.”', 'Lam. 3:23'],
-    ['The LORD My Portion', '“The LORD is my portion, saith my soul; therefore will I hope in him.”', 'Lam. 3:24'],
-    ['The LORD Is Good', '“The LORD is good unto them that wait for him, to the soul that seeketh him.”', 'Lam. 3:25'],
-    ['Quiet Waiting', '“It is good that a man should both hope and quietly wait for the salvation of the LORD.”', 'Lam. 3:26'],
-    ['Compassion After Grief', '“though he cause grief, yet will he have compassion according to the multitude of his mercies.”', 'Lam. 3:32'],
-    ['He Afflicts Not Willingly', '“he doth not afflict willingly nor grieve the children of men.”', 'Lam. 3:33'],
-    ['Search and Return', '“Let us search and try our ways, and turn again to the LORD.”', 'Lam. 3:40'],
-    ['The LORD Remains', '“Thou, O LORD, remainest for ever; thy throne from generation to generation.”', 'Lam. 5:19'],
-  ], [28, 48, 24]))
-
-S(9, "Program-Safe Application Grid",
-  BOX("Why This Section Exists", 'The tables in Sections 7 and 8 help us see clearly what belongs to Israel alone and what truths apply to all people in all ages. This section gently shows how those universal truths can shape our walk with God today. These are not Israel’s laments over Jerusalem or its sanctuary; they are timeless truths rooted in God’s character.'),
-  P('Drawn only from universal truths, never from Israel’s covenant, land or kingdom. The Body of Christ should:'),
-  OL('<b>Lament honestly</b> — Bring the grief to the LORD (Lam. 5:1).', '<b>Rest in His mercies</b> — They are not consumed (Lam. 3:22).', '<b>Count on His faithfulness</b> — New every morning (Lam. 3:23).', '<b>Hope in Him as portion</b> — The LORD is my portion (Lam. 3:24).', '<b>Wait quietly</b> — It is good to hope and wait (Lam. 3:26).', '<b>Examine your ways</b> — Search, try and turn again (Lam. 3:40).', '<b>Remember He remains</b> — His throne endures (Lam. 5:19).'))
-
-S(10, "Teaching Outline for Lamentations",
-  P("<i>Teacher-ready, movement-based outline</i>"),
-  OLR('Jerusalem Sits Solitary (Ch. 1) — The city mourned. <i>(Lam. 1:1)</i>', 'The LORD’s Anger (Ch. 2) — The daughter of Zion cast down.', 'Hope in the LORD’s Mercies (Ch. 3) — New every morning. <i>(Lam. 3:22–26, 32–33, 40)</i>', 'The Sanctuary Stones (Ch. 4) — The dim gold. <i>(Lam. 4:1)</i>', 'Remember and Renew (Ch. 5) — The closing prayer. <i>(Lam. 5:1, 19, 21)</i>'))
-
-S(11, "Companion Usage and Study Suggestions",
-  H("How to Use This Companion in Personal Study"),
-  P("This Companion is designed to walk alongside you as you read Lamentations, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward honest lament, patience, and hope in the LORD’s mercies without confusing Israel’s covenant commands with the Body of Christ’s calling today."),
-  H("How to Use This Companion in Small Groups or Classes"),
-  P("This Companion provides a clear, structured framework that makes teaching Lamentations simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
-  H("How This Companion Fits Within the Acts Overlap Theology Series"),
-  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Lamentations stands firmly in Israel’s covenant story, yet it still reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age."))
+# Converted to the revised ten-section template (plus section 11); content and tables carried from the previous version.
+BOOK = 'Lamentations'
+TESTAMENT = 'Old Testament'
+GENRE = 'prophets'
+SUBTITLE = 'The Fallen City, the Mercies of the LORD, and the Prayer for Return'
+SECTIONS = [(1, 'Book Setting & Program Identity', [('p', 'This section introduces you to the book by explaining who wrote it, who received it, and what was happening when it was written. It also shows you which of God’s programs the book belongs to — Israel’s prophetic program or the Body of Christ’s mystery program. Knowing the setting and the program identity helps you read the book in its proper context and understand how its teachings fit into the larger story of Scripture.'), ('p', 'Lamentations is five laments over Jerusalem after its fall. The city “sit solitary, that was full of people” (Lam. 1:1), the LORD’s anger is described, and in the middle of the book the speaker recalls, “It is of the LORD’s mercies that we are not consumed” (Lam. 3:22). The book closes with a prayer, “Turn thou us unto thee, O LORD” (Lam. 5:21).'), ('box', 'Program Identity:', 'This book belongs entirely to the Prophecy Program: it mourns Jerusalem, its sanctuary and its people after the exile and prays for their turning (Lam. 1:1; 4:1; 5:1, 21). Its words of mercy and hope are also placed in the Universal Truths Table.')]),
+(2, 'Narrative Flow of Lamentations', [('p', 'This section gives you a simple walkthrough of how the book unfolds. Instead of diving into details right away, it shows the major movements in the book — how its message begins, how it develops, and how it builds toward its close. Seeing the flow of the book helps you understand the big picture before you study the individual passages.'), ('h3', 'Movement 1 — Jerusalem Sits Solitary (Ch. 1)'), ('p', 'The city is a widow and weeps, and there is none to comfort her (Lam. 1:1).'), ('h3', 'Movement 2 — The LORD’s Anger (Ch. 2)'), ('p', 'The LORD has cast down the daughter of Zion, and the prophet mourns.'), ('h3', 'Movement 3 — Hope in the LORD’s Mercies (Ch. 3)'), ('p', 'In the midst of affliction the speaker recalls that the LORD’s mercies are new every morning (Lam. 3:22–26, 32–33, 40).'), ('h3', 'Movement 4 — The Sanctuary Stones (Ch. 4)'), ('p', 'The gold is dimmed and the stones of the sanctuary are poured out (Lam. 4:1).'), ('h3', 'Movement 5 — Remember and Renew (Ch. 5)'), ('p', 'The people pray for the LORD’s remembrance and for renewal (Lam. 5:1, 19, 21).')]),
+(3, 'Program Themes in Lamentations', [('p', 'This section highlights the major ideas emphasized in the book — the big doctrinal themes that shape how Israel should think and live under the covenants. These themes are not verse-by-verse explanations; they are the book’s main emphases, the repeated ideas God wants Israel to carry forward. Seeing these themes together helps you understand the book’s message before you look at the individual truths in the tables.'), ('ol', ['<b>The Lonely City</b> — “How doth the city sit solitary, that was full of people!” (Lam. 1:1).', '<b>Mercies Not Consumed</b> — “It is of the LORD’s mercies that we are not consumed, because his compassions fail not” (Lam. 3:22).', '<b>New Every Morning</b> — “They are new every morning: great is thy faithfulness” (Lam. 3:23).', '<b>The LORD as Portion</b> — “The LORD is my portion, saith my soul; therefore will I hope in him” (Lam. 3:24).', '<b>Quiet Waiting</b> — “It is good that a man should both hope and quietly wait for the salvation of the LORD” (Lam. 3:26).', '<b>Search and Return</b> — “Let us search and try our ways, and turn again to the LORD” (Lam. 3:40).', '<b>Renewal as of Old</b> — “Turn thou us unto thee, O LORD, and we shall be turned; renew our days as of old” (Lam. 5:21).'])]),
+(4, 'Christ in Lamentations', [('p', 'This section gathers what the book teaches about Christ — through foreshadowing, typology, and prophetic anticipation. These statements help you see the book’s Christ-centered trajectory before you study the doctrinal truths in detail. By collecting these points together, you get a clear picture of how Lamentations points to Christ.'), ('ol', ['<b>The Weeping Prophet</b> — Lamentations is placed after Jeremiah in the English Bible and takes up the fall of Jerusalem; the book names no author and is reported as written.', '<b>The Man of Sorrows</b> — The book speaks of affliction borne; the New Testament does not quote it, and no passage is built on it here.', '<b>Mercy in Judgment</b> — The LORD’s compassion stands beside His anger in the same chapters (Lam. 3:32–33).'])]),
+(5, 'Israel, the Law, and the Covenants in Lamentations', [('p', 'This section helps you see how Lamentations speaks about Israel, the law, and the covenants without mixing programs. Lamentations operates within Israel’s prophetic framework. By gathering these points together, this section shows you how to read Lamentations in its own setting — as an Israel-program book — while recognizing what it says (and does not say) about the Body of Christ.'), ('p', 'Lamentations reinforces Israel’s:'), ('ul', ['Jerusalem and its people as the subject of the laments (Lam. 1:1; 5:1)', 'the sanctuary and its stones (Lam. 4:1)', 'the prayer for the LORD’s turning of His people (Lam. 5:21)']), ('p', 'All content belongs exclusively to the Prophecy Program.')]),
+(6, 'Israel-Program Distinctions', [('p', 'This section highlights the teachings in Lamentations that belong uniquely to Israel’s prophetic program — truths rooted in prophecy, covenant promises, national identity, and God’s dealings with Israel. By gathering these together, this section helps you see how Lamentations contributes to Israel’s story without borrowing from the Body-of-Christ program.'), ('ul', ['The City Solitary — “How doth the city sit solitary, that was full of people!” (Lam. 1:1).', 'The Sanctuary Stones — “the stones of the sanctuary are poured out in the top of every street.” (Lam. 4:1).', 'Remember Us — “Remember, O LORD, what is come upon us: consider, and behold our reproach.” (Lam. 5:1).', 'Renew Our Days — “Turn thou us unto thee, O LORD, and we shall be turned; renew our days as of old.” (Lam. 5:21).'])]),
+(7, 'Truths Table: What Lamentations Says', [('p', 'This table gathers the key statements, instructions, and teachings in Lamentations and shows which ones belong to Israel’s prophetic program. Each row lists a truth from the book, explains what it says, and identifies its program identity based on Israel’s covenant setting. This helps you see, at a glance, what Lamentations teaches directly to Israel and keeps those truths separate from universal principles that apply more broadly.'), ('table', ['Category', 'Truth Revealed in Lamentations', 'Program Identity', 'Scripture'], [['The City Solitary', '“How doth the city sit solitary, that was full of people!”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Lam. 1:1'], ['The Sanctuary Stones', '“the stones of the sanctuary are poured out in the top of every street.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Lam. 4:1'], ['Remember Us', '“Remember, O LORD, what is come upon us: consider, and behold our reproach.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Lam. 5:1'], ['Renew Our Days', '“Turn thou us unto thee, O LORD, and we shall be turned; renew our days as of old.”', 'Israel / Kingdom / Prophecy Explicit Truth', 'Lam. 5:21']], [20, 34, 26, 20])]),
+(8, 'Universal Truths Table (All People, All Time)', [('p', 'This table gathers the truths in Lamentations that apply to everyone, not just Israel. These are principles rooted in God’s character — things that hold true across all programs and all ages. By separating these universal truths from Israel’s covenant-specific instructions, this section helps you see what Lamentations teaches all believers everywhere and what it teaches Israel in its own setting.'), ('table', ['Universal Truth', 'Description', 'Scripture'], [['Mercies', '“It is of the LORD’s mercies that we are not consumed, because his compassions fail not.”', 'Lam. 3:22'], ['Faithfulness', '“They are new every morning: great is thy faithfulness.”', 'Lam. 3:23'], ['The LORD My Portion', '“The LORD is my portion, saith my soul; therefore will I hope in him.”', 'Lam. 3:24'], ['The LORD Is Good', '“The LORD is good unto them that wait for him, to the soul that seeketh him.”', 'Lam. 3:25'], ['Quiet Waiting', '“It is good that a man should both hope and quietly wait for the salvation of the LORD.”', 'Lam. 3:26'], ['Compassion After Grief', '“though he cause grief, yet will he have compassion according to the multitude of his mercies.”', 'Lam. 3:32'], ['He Afflicts Not Willingly', '“he doth not afflict willingly nor grieve the children of men.”', 'Lam. 3:33'], ['Search and Return', '“Let us search and try our ways, and turn again to the LORD.”', 'Lam. 3:40'], ['The LORD Remains', '“Thou, O LORD, remainest for ever; thy throne from generation to generation.”', 'Lam. 5:19']], [28, 48, 24])]),
+(9, 'Program-Safe Application Grid', [('p', 'This section shows how to apply the teachings of Lamentations without mixing programs. The applications come from Israel’s covenant story and from universal truths that apply to everyone. By keeping the applications tied to what the book actually says — and not borrowing commands from Israel’s covenants for the Body of Christ — this grid helps you respond to Lamentations in a way that is faithful to its setting, clear, and safe.'), ('ol', ['<b>Lament honestly</b> — Bring the grief to the LORD (Lam. 5:1).', '<b>Rest in His mercies</b> — They are not consumed (Lam. 3:22).', '<b>Count on His faithfulness</b> — New every morning (Lam. 3:23).', '<b>Hope in Him as portion</b> — The LORD is my portion (Lam. 3:24).', '<b>Wait quietly</b> — It is good to hope and wait (Lam. 3:26).', '<b>Examine your ways</b> — Search, try and turn again (Lam. 3:40).', '<b>Remember He remains</b> — His throne endures (Lam. 5:19).'])]),
+(10, 'Teaching Outline for Lamentations', [('p', 'This outline gives you a teacher-ready structure for presenting the book. It follows the narrative movements and highlights the major themes, making it easy to teach Lamentations in classes, small groups, or personal study.'), ('olr', ['Jerusalem Sits Solitary (Ch. 1) — The city mourned. <i>(Lam. 1:1)</i>', 'The LORD’s Anger (Ch. 2) — The daughter of Zion cast down.', 'Hope in the LORD’s Mercies (Ch. 3) — New every morning. <i>(Lam. 3:22–26, 32–33, 40)</i>', 'The Sanctuary Stones (Ch. 4) — The dim gold. <i>(Lam. 4:1)</i>', 'Remember and Renew (Ch. 5) — The closing prayer. <i>(Lam. 5:1, 19, 21)</i>'])]),
+(11, 'Companion Usage and Study Suggestions', [('h3', 'How to Use This Companion in Personal Study'), ('p', 'This Companion is designed to walk alongside you as you read Lamentations, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward honest lament, patience, and hope in the LORD’s mercies without confusing Israel’s covenant commands with the Body of Christ’s calling today.'), ('h3', 'How to Use This Companion in Small Groups or Classes'), ('p', 'This Companion provides a clear, structured framework that makes teaching Lamentations simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation.'), ('h3', 'How This Companion Fits Within the Acts Overlap Theology Series'), ('p', 'This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Lamentations stands firmly in Israel’s covenant story, yet it still reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age.')])]

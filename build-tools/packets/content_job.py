@@ -1,99 +1,16 @@
-# DRAFT for publisher approval.
-BOOK = "Job"
-TESTAMENT = "Old Testament"
-GENRE = "poetry"
-SUBTITLE = "Suffering, Counsel, and the Answer from the Whirlwind"
-SECTIONS = []
-def S(n, t, *blocks): SECTIONS.append((n, t, list(blocks)))
-P = lambda x: ("p", x)
-L = lambda *xs: ("ul", list(xs))
-H = lambda x: ("h3", x)
-TBL = lambda head, rows, widths: ("table", head, rows, widths)
-OL = lambda *xs: ("ol", list(xs))
-OLR = lambda *xs: ("olr", list(xs))
-BOX = lambda lead, text: ("box", lead, text)
-ISR = 'Israel / Kingdom / Prophecy Explicit Truth'
-
-S(1, "Book Overview (Program-Aware)",
-  P('Job is set “in the land of Uz,” where a man named Job was “perfect and upright, and one that feared God, and eschewed evil” (Job 1:1). The book moves from the scenes before the LORD and Job’s losses, through the long speeches of Job and his friends, to Elihu, to the LORD’s answer “out of the whirlwind,” and to Job’s restoration (Job 1:6, 21; 38:1; 42:10).'),
-  BOX("Program Identity:", 'This book is set in the land of Uz. It names no covenant with Israel, no land promise, no tabernacle and no priesthood, and it speaks of God to man as man. Its truths are placed in the Universal Truths Table (Job 1:1).'))
-
-S(2, "Narrative Flow of Job",
-  H('Movement 1 — The Scenes and the Losses (Chs. 1–2)'),
-  P('The sons of God present themselves before the LORD, Satan comes among them, and Job loses his goods and his children and is struck with sores (Job 1:6, 12, 21; 2:10).'),
-  H('Movement 2 — Job and His Friends (Chs. 3–31)'),
-  P('Job laments, and Eliphaz, Bildad and Zophar answer in three rounds while Job holds fast to his case (Job 5:17; 9:2; 14:14; 19:25–27).'),
-  H('Movement 3 — Elihu (Chs. 32–37)'),
-  P('Elihu speaks after the three friends, and says that “God is great, and we know him not” (Job 36:26).'),
-  H('Movement 4 — The LORD Answers (Chs. 38–41)'),
-  P('The LORD answers Job out of the whirlwind with questions about the earth and its creatures (Job 38:1, 4, 7).'),
-  H('Movement 5 — Job Restored (Ch. 42)'),
-  P('Job answers the LORD, prays for his friends, and the LORD gives him twice as much as before (Job 42:2, 5–6, 7, 10).'))
-
-S(3, "Themes in Job",
-  H('1. The Upright Man'),
-  P('“There was a man in the land of Uz, whose name was Job” (Job 1:1).'),
-  H('2. The Lord Gave and Took'),
-  P('“The LORD gave, and the LORD hath taken away; blessed be the name of the LORD” (Job 1:21).'),
-  H('3. The Question of Justice'),
-  P('“How should man be just with God?” (Job 9:2).'),
-  H('4. A Redeemer Who Lives'),
-  P('“I know that my redeemer liveth, and that he shall stand at the latter day upon the earth” (Job 19:25).'),
-  H('5. Tried as Gold'),
-  P('“When he hath tried me, I shall come forth as gold” (Job 23:10).'),
-  H('6. The LORD’s Answer'),
-  P('“Where wast thou when I laid the foundations of the earth?” (Job 38:4).'),
-  H('7. Seeing God'),
-  P('“I have heard of thee by the hearing of the ear: but now mine eye seeth thee” (Job 42:5).'))
-
-S(4, "Christ in Job: The Prophetic Trajectory",
-  H('1. The Redeemer'),
-  P('Job’s words, “I know that my redeemer liveth” (Job 19:25), are reported as written, and the book does not say how much Job understood by them.'),
-  H('2. The Mediator Sought'),
-  P('Job’s question, “How should man be just with God?” (Job 9:2), is reported as written.'),
-  H('3. The Prayer for the Friends'),
-  P('The LORD accepts Job as the one who shall pray for his friends (Job 42:8).'))
-
-S(5, "Israel’s Identity in Job",
-  P("Job does not speak of Israel’s covenant, land, tabernacle or priesthood. Its man is set in the land of Uz (Job 1:1), and the book is read as speaking of God to man as man."),
-  P("No content in this book is assigned to the Prophecy Program."))
-
-S(6, "Body-of-Christ Distinctions",
-  P("Job does not teach:"),
-  L("Body-of-Christ identity", "heavenly inheritance", "Pauline doctrine", "Mystery revelation", "Spirit baptism into one Body", "non-covenantal standing", "church worship structure"),
-  P('Job does not mention Israel’s covenants, land, priesthood or kingdom, and nothing in it is taught as the Body of Christ’s calling.'))
-
-S(7, "Program-Specific Truths Table",
-  P('Job is set in the land of Uz and names no covenant, land, tabernacle or priesthood of Israel (Job 1:1). No verse in the book is labeled as Israel’s program truth. Every truth the book reveals is placed in the Universal Truths Table (Section 8).'))
-
-S(8, "Universal Truths Table (All People, All Time)",
-  TBL(["Universal Truth", "Description", "Scripture"], [
-    ['God Rules and Gives', '“the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.”', 'Job 1:21'],
-    ['Receiving Good and Evil', '“shall we receive good at the hand of God, and shall we not receive evil?”', 'Job 2:10'],
-    ['The Question of Man and God', '“how should man be just with God?”', 'Job 9:2'],
-    ['Wisdom and Strength', '“With him is wisdom and strength, he hath counsel and understanding.”', 'Job 12:13'],
-    ['Hope Beyond Death', '“If a man die, shall he live again?”', 'Job 14:14'],
-    ['A Redeemer Lives', '“I know that my redeemer liveth.”', 'Job 19:25'],
-    ['Seeing God', '“yet in my flesh shall I see God.”', 'Job 19:26'],
-    ['Tried as Gold', '“when he hath tried me, I shall come forth as gold.”', 'Job 23:10'],
-    ['God Is Great', '“God is great, and we know him not.”', 'Job 36:26'],
-    ['Creation Is His', '“Where wast thou when I laid the foundations of the earth?”', 'Job 38:4'],
-    ['Nothing Withheld', '“no thought can be withholden from thee.”', 'Job 42:2'],
-  ], [28, 48, 24]))
-
-S(9, "Program-Safe Application Grid",
-  BOX("Why This Section Exists", 'The tables in Sections 7 and 8 help us see clearly what belongs to Israel alone and what truths apply to all people in all ages. This section gently shows how those universal truths can shape our walk with God today. These are not Israel’s covenant commands; they are timeless truths rooted in God’s character.'),
-  P('Drawn only from universal truths, never from Israel’s covenant, land or kingdom. The Body of Christ should:'),
-  OL('<b>Bless His name in loss</b> — The LORD gave and took away (Job 1:21).', '<b>Receive good and evil from God</b> — Without sin with the lips (Job 2:10).', '<b>Hold hope beyond death</b> — A redeemer liveth (Job 19:25–26).', '<b>Trust the trial</b> — He will bring forth as gold (Job 23:10).', '<b>Remember the Creator</b> — He laid the foundations of the earth (Job 38:4).', '<b>Know God by sight and not by report</b> — Now mine eye seeth thee (Job 42:5).'))
-
-S(10, "Teaching Outline for Job",
-  P("<i>Teacher-ready, movement-based outline</i>"),
-  OLR('The Scenes and the Losses (Chs. 1–2) — The upright man and his trial. <i>(Job 1:1, 21; 2:10)</i>', 'Job and His Friends (Chs. 3–31) — Counsel, complaint and hope. <i>(Job 9:2; 14:14; 19:25–26; 23:10)</i>', 'Elihu (Chs. 32–37) — God is great. <i>(Job 36:26)</i>', 'The LORD Answers (Chs. 38–41) — The whirlwind. <i>(Job 38:1, 4)</i>', 'Job Restored (Ch. 42) — Seeing God and the double portion. <i>(Job 42:2, 5–6, 10)</i>'))
-
-S(11, "Companion Usage and Study Suggestions",
-  H("How to Use This Companion in Personal Study"),
-  P("This Companion is designed to walk alongside you as you read Job, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward trust, humility, and reverence before God without confusing Israel’s covenant commands with the Body of Christ’s calling today."),
-  H("How to Use This Companion in Small Groups or Classes"),
-  P("This Companion provides a clear, structured framework that makes teaching Job simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
-  H("How This Companion Fits Within the Acts Overlap Theology Series"),
-  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Job stands outside Israel’s covenant story, and it reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age."))
+# Converted to the revised ten-section template (plus section 11); content and tables carried from the previous version.
+BOOK = 'Job'
+TESTAMENT = 'Old Testament'
+GENRE = 'poetry'
+SUBTITLE = 'Suffering, Counsel, and the Answer from the Whirlwind'
+SECTIONS = [(1, 'Book Setting & Program Identity', [('p', 'This section introduces you to the book by explaining who wrote it, who received it, and what was happening when it was written. It also shows you which of God’s programs the book belongs to — Israel’s prophetic program or the Body of Christ’s mystery program. Knowing the setting and the program identity helps you read the book in its proper context and understand how its teachings fit into the larger story of Scripture.'), ('p', 'Job is set “in the land of Uz,” where a man named Job was “perfect and upright, and one that feared God, and eschewed evil” (Job 1:1). The book moves from the scenes before the LORD and Job’s losses, through the long speeches of Job and his friends, to Elihu, to the LORD’s answer “out of the whirlwind,” and to Job’s restoration (Job 1:6, 21; 38:1; 42:10).'), ('box', 'Program Identity:', 'This book is set in the land of Uz. It names no covenant with Israel, no land promise, no tabernacle and no priesthood, and it speaks of God to man as man. Its truths are placed in the Universal Truths Table (Job 1:1).')]),
+(2, 'Narrative Flow of Job', [('p', 'This section gives you a simple walkthrough of how the book unfolds. Instead of diving into details right away, it shows the major movements in the book — how its message begins, how it develops, and how it builds toward its close. Seeing the flow of the book helps you understand the big picture before you study the individual passages.'), ('h3', 'Movement 1 — The Scenes and the Losses (Chs. 1–2)'), ('p', 'The sons of God present themselves before the LORD, Satan comes among them, and Job loses his goods and his children and is struck with sores (Job 1:6, 12, 21; 2:10).'), ('h3', 'Movement 2 — Job and His Friends (Chs. 3–31)'), ('p', 'Job laments, and Eliphaz, Bildad and Zophar answer in three rounds while Job holds fast to his case (Job 5:17; 9:2; 14:14; 19:25–27).'), ('h3', 'Movement 3 — Elihu (Chs. 32–37)'), ('p', 'Elihu speaks after the three friends, and says that “God is great, and we know him not” (Job 36:26).'), ('h3', 'Movement 4 — The LORD Answers (Chs. 38–41)'), ('p', 'The LORD answers Job out of the whirlwind with questions about the earth and its creatures (Job 38:1, 4, 7).'), ('h3', 'Movement 5 — Job Restored (Ch. 42)'), ('p', 'Job answers the LORD, prays for his friends, and the LORD gives him twice as much as before (Job 42:2, 5–6, 7, 10).')]),
+(3, 'Program Themes in Job', [('p', 'This section highlights the major ideas emphasized in the book — the big doctrinal themes that shape how Job should be read within its own setting. These themes are not verse-by-verse explanations; they are the book’s main emphases, the repeated ideas the book wants readers to carry forward. Seeing these themes together helps you understand the book’s message before you look at the individual truths in the tables.'), ('ol', ['<b>The Upright Man</b> — “There was a man in the land of Uz, whose name was Job” (Job 1:1).', '<b>The Lord Gave and Took</b> — “The LORD gave, and the LORD hath taken away; blessed be the name of the LORD” (Job 1:21).', '<b>The Question of Justice</b> — “How should man be just with God?” (Job 9:2).', '<b>A Redeemer Who Lives</b> — “I know that my redeemer liveth, and that he shall stand at the latter day upon the earth” (Job 19:25).', '<b>Tried as Gold</b> — “When he hath tried me, I shall come forth as gold” (Job 23:10).', '<b>The LORD’s Answer</b> — “Where wast thou when I laid the foundations of the earth?” (Job 38:4).', '<b>Seeing God</b> — “I have heard of thee by the hearing of the ear: but now mine eye seeth thee” (Job 42:5).'])]),
+(4, 'Christ in Job', [('p', 'This section gathers what the book teaches about Christ — who He is, what He has done, and how He is presented. These statements help you see the book’s Christ-centered focus before you study the doctrinal truths in detail. By collecting these verses together, you get a clear picture of how Job presents Christ.'), ('ol', ['<b>The Redeemer</b> — Job’s words, “I know that my redeemer liveth” (Job 19:25), are reported as written, and the book does not say how much Job understood by them.', '<b>The Mediator Sought</b> — Job’s question, “How should man be just with God?” (Job 9:2), is reported as written.', '<b>The Prayer for the Friends</b> — The LORD accepts Job as the one who shall pray for his friends (Job 42:8).'])]),
+(5, 'Israel, the Law, and the Covenants in Job', [('p', 'This section helps you see how Job speaks about Israel, the law, and the covenants without mixing programs. By gathering these points together, this section shows you how to read Job in its own setting — a man in the land of Uz — while recognizing what it says (and does not say).'), ('p', 'Job does not speak of Israel’s covenant, land, tabernacle or priesthood. Its man is set in the land of Uz (Job 1:1), and the book is read as speaking of God to man as man.'), ('p', 'No content in this book is assigned to the Prophecy Program.')]),
+(6, 'Body-of-Christ Distinctions', [('p', 'This section lists what the Body of Christ teaches that Job does not contain, so that nothing is read into the book that the text does not say.'), ('p', 'Job does not teach:'), ('ul', ['Body-of-Christ identity', 'heavenly inheritance', 'Pauline doctrine', 'Mystery revelation', 'Spirit baptism into one Body', 'non-covenantal standing', 'church worship structure']), ('p', 'Job does not mention Israel’s covenants, land, priesthood or kingdom, and nothing in it is taught as the Body of Christ’s calling.')]),
+(7, 'Truths Table: What Job Says', [('p', 'This section explains how Job is classified by program. Because the book is set in the land of Uz and names no covenant, land, tabernacle, or priesthood of Israel, it carries no program-specific rows; its truths appear in the Universal Truths Table that follows.'), ('p', 'Job is set in the land of Uz and names no covenant, land, tabernacle or priesthood of Israel (Job 1:1). No verse in the book is labeled as Israel’s program truth. Every truth the book reveals is placed in the Universal Truths Table (Section 8).')]),
+(8, 'Universal Truths Table (All People, All Time)', [('p', 'This table gathers the truths in Job that apply to everyone, not just Israel. These are principles rooted in God’s character — things that hold true across all programs and all ages. By separating these universal truths from Israel’s covenant-specific instructions, this section helps you see what Job teaches all believers everywhere and what it teaches Israel in its own setting.'), ('table', ['Universal Truth', 'Description', 'Scripture'], [['God Rules and Gives', '“the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.”', 'Job 1:21'], ['Receiving Good and Evil', '“shall we receive good at the hand of God, and shall we not receive evil?”', 'Job 2:10'], ['The Question of Man and God', '“how should man be just with God?”', 'Job 9:2'], ['Wisdom and Strength', '“With him is wisdom and strength, he hath counsel and understanding.”', 'Job 12:13'], ['Hope Beyond Death', '“If a man die, shall he live again?”', 'Job 14:14'], ['A Redeemer Lives', '“I know that my redeemer liveth.”', 'Job 19:25'], ['Seeing God', '“yet in my flesh shall I see God.”', 'Job 19:26'], ['Tried as Gold', '“when he hath tried me, I shall come forth as gold.”', 'Job 23:10'], ['God Is Great', '“God is great, and we know him not.”', 'Job 36:26'], ['Creation Is His', '“Where wast thou when I laid the foundations of the earth?”', 'Job 38:4'], ['Nothing Withheld', '“no thought can be withholden from thee.”', 'Job 42:2']], [28, 48, 24])]),
+(9, 'Program-Safe Application Grid', [('p', 'This section shows how to apply the teachings of Job without mixing programs. The applications come from the universal truths that apply to everyone. By keeping the applications tied to what the book actually says, this grid helps you respond to Job in a way that is faithful to its setting, clear, and safe.'), ('ol', ['<b>Bless His name in loss</b> — The LORD gave and took away (Job 1:21).', '<b>Receive good and evil from God</b> — Without sin with the lips (Job 2:10).', '<b>Hold hope beyond death</b> — A redeemer liveth (Job 19:25–26).', '<b>Trust the trial</b> — He will bring forth as gold (Job 23:10).', '<b>Remember the Creator</b> — He laid the foundations of the earth (Job 38:4).', '<b>Know God by sight and not by report</b> — Now mine eye seeth thee (Job 42:5).'])]),
+(10, 'Teaching Outline for Job', [('p', 'This outline gives you a teacher-ready structure for presenting the book. It follows the narrative movements and highlights the major themes, making it easy to teach Job in classes, small groups, or personal study.'), ('olr', ['The Scenes and the Losses (Chs. 1–2) — The upright man and his trial. <i>(Job 1:1, 21; 2:10)</i>', 'Job and His Friends (Chs. 3–31) — Counsel, complaint and hope. <i>(Job 9:2; 14:14; 19:25–26; 23:10)</i>', 'Elihu (Chs. 32–37) — God is great. <i>(Job 36:26)</i>', 'The LORD Answers (Chs. 38–41) — The whirlwind. <i>(Job 38:1, 4)</i>', 'Job Restored (Ch. 42) — Seeing God and the double portion. <i>(Job 42:2, 5–6, 10)</i>'])]),
+(11, 'Companion Usage and Study Suggestions', [('h3', 'How to Use This Companion in Personal Study'), ('p', 'This Companion is designed to walk alongside you as you read Job, helping you see both the prophetic structure of the book and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and universal truths deepen your understanding. The Program-Safe Applications will guide your heart toward trust, humility, and reverence before God without confusing Israel’s covenant commands with the Body of Christ’s calling today.'), ('h3', 'How to Use This Companion in Small Groups or Classes'), ('p', 'This Companion provides a clear, structured framework that makes teaching Job simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, prophecy-program themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group distinguish Israel’s covenant identity from universal principles, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation.'), ('h3', 'How This Companion Fits Within the Acts Overlap Theology Series'), ('p', 'This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap Theology Series, Job stands outside Israel’s covenant story, and it reveals universal truths that shape Christian character today. This Companion shows you how to honor the book’s prophetic context while drawing out the timeless principles that apply to all believers in every age.')])]

@@ -28,9 +28,9 @@ h1{{font-size:124px;line-height:1.04;margin:0 0 30px;font-weight:700}}.rule{{wid
 <div class=ph></div><div class=fade></div><div class=bar></div>
 <div class=t><div class=k>BIBLE BOOK COMPANION SERIES</div><div class=tt>{mod.TESTAMENT}</div><h1>{mod.BOOK}</h1><div class=rule></div><div class=sub>{mod.SUBTITLE}</div></div>
 <div class=foot><b>ZAY-MARIE PRESS</b></div>"""
-    Path("/tmp/_cover.html").write_text(html)
+    Path(f"/tmp/_cover_{slug}.html").write_text(html)
     with sync_playwright() as p:
-        b = p.chromium.launch(); pg = b.new_page(viewport={"width":1200,"height":1800}); pg.goto("file:///tmp/_cover.html"); pg.wait_for_timeout(500)
+        b = p.chromium.launch(); pg = b.new_page(viewport={"width":1200,"height":1800}); pg.goto(f"file:///tmp/_cover_{slug}.html"); pg.wait_for_timeout(500)
         pg.screenshot(path=str(path)); b.close()
 
 def esc(s): return s  # content is trusted markup (<b>, <i>)
@@ -76,9 +76,9 @@ td{{font:400 9pt/1.15 Roboto;padding:4pt 5pt;border:.75pt solid #9bb0c2;vertical
 {body}"""
 
 def render(html, pdf):
-    Path("/tmp/_int.html").write_text(html)
+    Path(f"/tmp/_int_{slug}.html").write_text(html)
     with sync_playwright() as p:
-        b = p.chromium.launch(); pg = b.new_page(); pg.goto("file:///tmp/_int.html"); pg.wait_for_timeout(700)
+        b = p.chromium.launch(); pg = b.new_page(); pg.goto(f"file:///tmp/_int_{slug}.html"); pg.wait_for_timeout(700)
         pg.pdf(path=str(pdf), prefer_css_page_size=True, print_background=True, display_header_footer=False); b.close()
 
 def page_map(pdf):
@@ -99,7 +99,7 @@ pm2 = page_map(tmp)
 assert pm == pm2, (pm, pm2)
 cov = out / f"{slug}-cover.png"; cover_png(cov)
 final = out / f"doctrinal-packet-{slug}.pdf"
-coverpdf = out / "_cover.pdf"
+coverpdf = out / f"_cover_{slug}.pdf"
 from PIL import Image
 Image.open(cov).convert("RGB").save(coverpdf, "PDF", resolution=1200/6.7200)
 c = pikepdf.open(coverpdf); i = pikepdf.open(tmp)

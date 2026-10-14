@@ -1,118 +1,16 @@
-# DRAFT for publisher approval.
-BOOK = "Philippians"
-TESTAMENT = "New Testament"
-GENRE = "letters"
-SUBTITLE = "Joy in Christ, the Mind of Christ, and the Prize of the Calling"
-SECTIONS = []
-def S(n, t, *blocks): SECTIONS.append((n, t, list(blocks)))
-P = lambda x: ("p", x)
-L = lambda *xs: ("ul", list(xs))
-H = lambda x: ("h3", x)
-TBL = lambda head, rows, widths: ("table", head, rows, widths)
-OL = lambda *xs: ("ol", list(xs))
-OLR = lambda *xs: ("olr", list(xs))
-BOX = lambda lead, text: ("box", lead, text)
-
-S(1, "Book Overview (Program-Aware)",
-  P("Philippians is a letter from “Paul and Timotheus, the servants of Jesus Christ, to all the saints in Christ Jesus which are at Philippi, with the bishops and deacons” (Phil. 1:1). Paul writes from imprisonment (Phil. 1:7, 13) to thank the believers for their gift, to report on his circumstances, and to urge them to stand fast in one spirit and to have the mind of Christ (Phil. 1:27; 2:5; 4:10–18)."),
-  BOX("Program Identity:", "Philippians is a letter from Paul to believers at Philippi, written from prison. This reading rests on the letter’s own audience markers and setting."))
-
-S(2, "Narrative Flow of Philippians",
-  H("Movement 1 — Thanksgiving and Paul’s Circumstances (Ch. 1)"),
-  P("Paul gives thanks, prays for the believers’ love to abound, and reports that his bonds have furthered the gospel (Phil. 1:3–11, 12–14)."),
-  H("Movement 2 — The Mind of Christ (Ch. 2)"),
-  P("Paul urges lowliness of mind, sets Christ’s humbling and exaltation before them, and commends Timothy and Epaphroditus (Phil. 2:3–11, 19–30)."),
-  H("Movement 3 — Knowing Christ and Pressing On (Ch. 3)"),
-  P("Paul counts his former standing as loss for the knowledge of Christ and presses toward the mark, noting that “our conversation is in heaven” (Phil. 3:4–14, 20)."),
-  H("Movement 4 — Peace, Contentment, and Thanks (Ch. 4)"),
-  P("Paul calls for rejoicing and prayer, describes what to think on, speaks of contentment, and acknowledges the Philippians’ gift (Phil. 4:4–9, 11–13, 15–18)."))
-
-S(3, "Program Themes in Philippians",
-  H("1. Joy in Christ"),
-  P("Paul rejoices in the gospel’s progress and calls the believers to “rejoice in the Lord alway” (Phil. 1:18; 4:4)."),
-  H("2. The Mind of Christ"),
-  P("“Let this mind be in you, which was also in Christ Jesus,” who humbled Himself and was exalted (Phil. 2:5–11)."),
-  H("3. Knowing Christ"),
-  P("Paul counts all things loss for the excellency of the knowledge of Christ Jesus his Lord (Phil. 3:7–10)."),
-  H("4. A Heavenly Citizenship"),
-  P("“Our conversation is in heaven; from whence also we look for the Saviour” (Phil. 3:20)."),
-  H("5. Peace and Contentment"),
-  P("The peace of God keeps hearts and minds, and Paul has learned in whatsoever state he is to be content (Phil. 4:7, 11)."))
-
-S(4, "Christ in Philippians: Fulfillment and Revelation",
-  H("1. Christ the Servant"),
-  P("Christ took upon Himself the form of a servant and became obedient unto death, even the death of the cross (Phil. 2:7–8)."),
-  H("2. Christ Exalted"),
-  P("God has highly exalted Him and given Him a name above every name, so that every knee shall bow (Phil. 2:9–11)."),
-  H("3. Christ Our Righteousness"),
-  P("Paul desires to be found in Christ, having the righteousness which is of God by faith (Phil. 3:9)."),
-  H("4. Christ the Saviour from Heaven"),
-  P("Believers look for the Saviour, the Lord Jesus Christ, who shall change their vile body (Phil. 3:20–21)."))
-
-S(5, "Paul’s Jewish Background in Philippians",
-  P("Philippians records Paul’s own Jewish background and what he counts of it:"),
-  L("Paul lists his credentials: circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, an Hebrew of the Hebrews (Phil. 3:5).",
-    "He counts what was gain to him as loss for Christ (Phil. 3:7–8).",
-    "He desires the righteousness which is of God by faith, not his own righteousness of the law (Phil. 3:9).",
-    "The letter does not address the readers as Israel and does not list Israel’s covenants as their own."),
-  P("This reading rests on the letter’s own audience markers and setting."))
-
-S(6, "Distinctions in Philippians",
-  P("Philippians teaches believers:"),
-  L("to stand fast in one spirit and to have the mind of Christ", "to count all things loss for the knowledge of Christ", "to await the Saviour from heaven", "to be anxious for nothing and to pray with thanksgiving"),
-  P("It does not mention Israel’s covenants, kingdom promises, or Temple worship as the readers’ own."))
-
-S(7, "Truths Table: What Philippians Says",
-  P('Program Identity shows where a truth belongs. “Body of Christ (Pauline) Truth” marks a statement, command, warning or instruction given to the Body of Christ through Paul.'),
-  TBL(["Category", "Truth Revealed in Philippians", "Program Identity", "Scripture"], [
-    ["Heavenly Citizenship", "Believers’ conversation is in heaven, and they look for the Saviour.", "Body of Christ (Pauline) Truth", "Phil. 3:20"],
-    ["Righteousness by Faith", "The righteousness which is of God by faith, not of the law.", "Body of Christ (Pauline) Truth", "Phil. 3:9"],
-    ["Change at Christ’s Coming", "The Lord Jesus Christ shall change our vile body.", "Body of Christ (Pauline) Truth", "Phil. 3:21"],
-    ["Bishops and Deacons", "The letter greets the saints with the bishops and deacons.", "Body of Christ (Pauline) Truth", "Phil. 1:1"],
-    ["Partnership in the Gospel", "The Philippians’ fellowship in the gospel and their gift.", "Body of Christ (Pauline) Truth", "Phil. 1:5; 4:15–16"],
-    ["Paul’s Imprisonment", "Paul’s bonds are in Christ and have furthered the gospel.", "Body of Christ (Pauline) Truth", "Phil. 1:12–14"],
-    ["Paul’s Hebrew Credentials", "Paul’s background is reported and counted as loss.", "Body of Christ (Pauline) Truth", "Phil. 3:4–8"],
-    ["Names Written in the Book of Life", "Paul’s fellow labourers have their names in the book of life.", "Body of Christ (Pauline) Truth", "Phil. 4:3"],
-  ], [20, 36, 26, 18]))
-
-S(8, "Universal Truths Table (All People, All Time)",
-  TBL(["Universal Truth", "Description", "Scripture"], [
-    ["Every Knee Shall Bow", "At the name of Jesus every knee shall bow.", "Phil. 2:10–11"],
-    ["Humility", "In lowliness of mind let each esteem others better than themselves.", "Phil. 2:3"],
-    ["God at Work in Us", "God worketh in you both to will and to do of his good pleasure.", "Phil. 2:13"],
-    ["Pressing On", "Forgetting what is behind, press toward the mark.", "Phil. 3:13–14"],
-    ["Prayer Without Anxiety", "Be careful for nothing; make requests known with thanksgiving.", "Phil. 4:6"],
-    ["The Peace of God", "The peace of God shall keep hearts and minds.", "Phil. 4:7"],
-    ["Things to Think On", "Whatsoever things are true, honest, just, pure, lovely, of good report.", "Phil. 4:8"],
-    ["Contentment", "In whatsoever state, to be content.", "Phil. 4:11"],
-  ], [30, 46, 24]))
-
-S(9, "Program-Safe Application Grid",
-  BOX("Why This Section Exists", "The tables in Sections 7 and 8 separate what Philippians says to its readers from truths that hold for all people. Because the letter is addressed to believers, its own instructions apply to them directly. They do not turn Israel’s covenant commands into the readers’ obligations."),
-  P("Drawn from Philippians’ instructions to believers and from universal truths. Believers should:"),
-  OL("<b>Rejoice in the Lord</b> — Joy does not wait for easy circumstances (Phil. 4:4).",
-     "<b>Have the mind of Christ</b> — Walk in humility and service (Phil. 2:3–5).",
-     "<b>Stand fast in one spirit</b> — Strive together for the faith of the gospel (Phil. 1:27).",
-     "<b>Count Christ above all</b> — Let knowing Him outweigh every earthly gain (Phil. 3:8).",
-     "<b>Press toward the mark</b> — Forget what is behind and reach forward (Phil. 3:13–14).",
-     "<b>Pray without anxiety</b> — Bring every request with thanksgiving (Phil. 4:6).",
-     "<b>Think on what is good</b> — Fill the mind with what is true and lovely (Phil. 4:8).",
-     "<b>Learn contentment</b> — Rest in the Lord’s supply (Phil. 4:11–13, 19)."))
-
-S(10, "Teaching Outline for Philippians",
-  P("<i>Teacher-ready, movement-based outline</i>"),
-  OLR("Partners in the Gospel (1:1–11) — Greeting, thanksgiving, and prayer. <i>(Phil. 1:1–11)</i>",
-     "Bonds That Advance the Gospel (1:12–30) — Paul’s circumstances and the call to stand fast. <i>(Phil. 1:12–14, 27)</i>",
-     "The Mind of Christ (2:1–18) — Humility, Christ’s humbling and exaltation, and shining as lights. <i>(Phil. 2:3–11, 15)</i>",
-     "Timothy and Epaphroditus (2:19–30) — Two faithful servants. <i>(Phil. 2:19–30)</i>",
-     "Knowing Christ (Ch. 3) — Paul’s loss and gain, the mark, and the heavenly citizenship. <i>(Phil. 3:7–14, 20–21)</i>",
-     "Peace and Right Thinking (4:1–9) — Rejoice, pray, and think on what is good. <i>(Phil. 4:4–9)</i>",
-     "Contentment and Thanks (4:10–23) — The gift, contentment, and God’s supply. <i>(Phil. 4:11–13, 18–19)</i>"))
-
-S(11, "Companion Usage and Study Suggestions",
-  H("How to Use This Companion in Personal Study"),
-  P("This Companion is designed to walk alongside you as you read Philippians, helping you see both the letter’s own setting and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and truths deepen your understanding. The Program-Safe Applications will guide your heart toward joy, humility, and contentment, drawn from what Philippians itself says to believers."),
-  H("How to Use This Companion in Small Groups or Classes"),
-  P("This Companion provides a clear, structured framework that makes teaching Philippians simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group see what the letter says to its readers and what holds for all people, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation."),
-  H("How This Companion Fits Within the Acts Overlap Theology Series"),
-  P("This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap framework, Philippians is a letter from Paul to believers at Philippi, read on its own audience markers and setting. This Companion shows you how to honor the book’s own setting while drawing out the principles that apply to all believers in every age."))
+# Converted to the revised ten-section template (plus section 11); content and tables carried from the previous version.
+BOOK = 'Philippians'
+TESTAMENT = 'New Testament'
+GENRE = 'letters'
+SUBTITLE = 'Joy in Christ, the Mind of Christ, and the Prize of the Calling'
+SECTIONS = [(1, 'Book Setting & Program Identity', [('p', 'This section introduces you to the book by explaining who wrote it, who received it, and what was happening when it was written. It also shows you which of God’s programs the book belongs to — Israel’s prophetic program or the Body of Christ’s mystery program. Knowing the setting and the program identity helps you read the book in its proper context and understand how its teachings fit into the larger story of Scripture.'), ('p', 'Philippians is a letter from “Paul and Timotheus, the servants of Jesus Christ, to all the saints in Christ Jesus which are at Philippi, with the bishops and deacons” (Phil. 1:1). Paul writes from imprisonment (Phil. 1:7, 13) to thank the believers for their gift, to report on his circumstances, and to urge them to stand fast in one spirit and to have the mind of Christ (Phil. 1:27; 2:5; 4:10–18).'), ('box', 'Program Identity:', 'Philippians is a letter from Paul to believers at Philippi, written from prison. This reading rests on the letter’s own audience markers and setting.')]),
+(2, 'Narrative Flow of Philippians', [('p', 'This section gives you a simple walkthrough of how the book unfolds. Instead of diving into details right away, it shows the major movements in the letter — how Paul begins, how his instructions develop, and how the letter builds toward its close. Seeing the flow of the book helps you understand the big picture before you study the individual passages.'), ('h3', 'Movement 1 — Thanksgiving and Paul’s Circumstances (Ch. 1)'), ('p', 'Paul gives thanks, prays for the believers’ love to abound, and reports that his bonds have furthered the gospel (Phil. 1:3–11, 12–14).'), ('h3', 'Movement 2 — The Mind of Christ (Ch. 2)'), ('p', 'Paul urges lowliness of mind, sets Christ’s humbling and exaltation before them, and commends Timothy and Epaphroditus (Phil. 2:3–11, 19–30).'), ('h3', 'Movement 3 — Knowing Christ and Pressing On (Ch. 3)'), ('p', 'Paul counts his former standing as loss for the knowledge of Christ and presses toward the mark, noting that “our conversation is in heaven” (Phil. 3:4–14, 20).'), ('h3', 'Movement 4 — Peace, Contentment, and Thanks (Ch. 4)'), ('p', 'Paul calls for rejoicing and prayer, describes what to think on, speaks of contentment, and acknowledges the Philippians’ gift (Phil. 4:4–9, 11–13, 15–18).')]),
+(3, 'Program Themes in Philippians', [('p', 'This section highlights the major ideas Paul emphasizes in this book — the big doctrinal themes that shape how the Body of Christ should think and live. These themes are not verse-by-verse explanations; they are the book’s main emphases, the repeated ideas Paul wants believers to carry forward. Seeing these themes together helps you understand the book’s message before you look at the individual truths in the tables.'), ('ol', ['<b>Joy in Christ</b> — Paul rejoices in the gospel’s progress and calls the believers to “rejoice in the Lord alway” (Phil. 1:18; 4:4).', '<b>The Mind of Christ</b> — “Let this mind be in you, which was also in Christ Jesus,” who humbled Himself and was exalted (Phil. 2:5–11).', '<b>Knowing Christ</b> — Paul counts all things loss for the excellency of the knowledge of Christ Jesus his Lord (Phil. 3:7–10).', '<b>A Heavenly Citizenship</b> — “Our conversation is in heaven; from whence also we look for the Saviour” (Phil. 3:20).', '<b>Peace and Contentment</b> — The peace of God keeps hearts and minds, and Paul has learned in whatsoever state he is to be content (Phil. 4:7, 11).'])]),
+(4, 'Christ in Philippians', [('p', 'This section gathers what the letter teaches about Christ — who He is, what He has done, and how Paul presents Him to the church. These statements help you see the book’s Christ-centered focus before you study the doctrinal truths in detail. By collecting these verses together, you get a clear picture of how Philippians lifts up Christ.'), ('ol', ['<b>Christ the Servant</b> — Christ took upon Himself the form of a servant and became obedient unto death, even the death of the cross (Phil. 2:7–8).', '<b>Christ Exalted</b> — God has highly exalted Him and given Him a name above every name, so that every knee shall bow (Phil. 2:9–11).', '<b>Christ Our Righteousness</b> — Paul desires to be found in Christ, having the righteousness which is of God by faith (Phil. 3:9).', '<b>Christ the Saviour from Heaven</b> — Believers look for the Saviour, the Lord Jesus Christ, who shall change their vile body (Phil. 3:20–21).'])]),
+(5, 'The Church, the Law, and Israel in Philippians', [('p', 'This section helps you see how Philippians speaks about the church, the law, and Israel without mixing their programs. By gathering these points together, this section shows you how to read Philippians in its own setting — as a Body-of-Christ letter — while recognizing what it says (and does not say) about Israel’s program.'), ('p', 'Philippians records Paul’s own Jewish background and what he counts of it:'), ('ul', ['Paul lists his credentials: circumcised the eighth day, of the stock of Israel, of the tribe of Benjamin, an Hebrew of the Hebrews (Phil. 3:5).', 'He counts what was gain to him as loss for Christ (Phil. 3:7–8).', 'He desires the righteousness which is of God by faith, not his own righteousness of the law (Phil. 3:9).', 'The letter does not address the readers as Israel and does not list Israel’s covenants as their own.']), ('p', 'This reading rests on the letter’s own audience markers and setting.')]),
+(6, 'Body-of-Christ Distinctions', [('p', 'This section highlights the teachings in Philippians that belong uniquely to the Body of Christ — truths Paul gives to the church in this present age. By gathering these together, this section helps you see how Philippians contributes to the doctrine and order of the Body of Christ without borrowing from Israel’s prophetic program.'), ('p', 'Philippians teaches believers:'), ('ul', ['to stand fast in one spirit and to have the mind of Christ', 'to count all things loss for the knowledge of Christ', 'to await the Saviour from heaven', 'to be anxious for nothing and to pray with thanksgiving']), ('p', 'It does not mention Israel’s covenants, kingdom promises, or Temple worship as the readers’ own.')]),
+(7, 'Truths Table: What Philippians Says', [('p', 'This table gathers the key statements, instructions, and teachings in Philippians and shows which ones belong to the Body of Christ. Each row lists a truth from the letter, explains what it says, and identifies its program identity based on Paul’s audience and setting. This helps you see, at a glance, what Philippians teaches directly to the church today and keeps those truths separate from universal principles or reports that apply more broadly.'), ('p', 'Program Identity shows where a truth belongs. “Body of Christ (Pauline) Truth” marks a statement, command, warning or instruction given to the Body of Christ through Paul.'), ('table', ['Category', 'Truth Revealed in Philippians', 'Program Identity', 'Scripture'], [['Heavenly Citizenship', 'Believers’ conversation is in heaven, and they look for the Saviour.', 'Body of Christ (Pauline) Truth', 'Phil. 3:20'], ['Righteousness by Faith', 'The righteousness which is of God by faith, not of the law.', 'Body of Christ (Pauline) Truth', 'Phil. 3:9'], ['Change at Christ’s Coming', 'The Lord Jesus Christ shall change our vile body.', 'Body of Christ (Pauline) Truth', 'Phil. 3:21'], ['Bishops and Deacons', 'The letter greets the saints with the bishops and deacons.', 'Body of Christ (Pauline) Truth', 'Phil. 1:1'], ['Partnership in the Gospel', 'The Philippians’ fellowship in the gospel and their gift.', 'Body of Christ (Pauline) Truth', 'Phil. 1:5; 4:15–16'], ['Paul’s Imprisonment', 'Paul’s bonds are in Christ and have furthered the gospel.', 'Body of Christ (Pauline) Truth', 'Phil. 1:12–14'], ['Paul’s Hebrew Credentials', 'Paul’s background is reported and counted as loss.', 'Body of Christ (Pauline) Truth', 'Phil. 3:4–8'], ['Names Written in the Book of Life', 'Paul’s fellow labourers have their names in the book of life.', 'Body of Christ (Pauline) Truth', 'Phil. 4:3']], [20, 36, 26, 18])]),
+(8, 'Universal Truths Table (All People, All Time)', [('p', 'This table gathers the truths in Philippians that apply to everyone, not just the Body of Christ. These are principles rooted in God’s character — things that hold true across all programs and all ages. By separating these universal truths from Paul’s program-specific instructions, this section helps you see what Philippians teaches all believers everywhere and what it teaches the church in its own setting.'), ('table', ['Universal Truth', 'Description', 'Scripture'], [['Every Knee Shall Bow', 'At the name of Jesus every knee shall bow.', 'Phil. 2:10–11'], ['Humility', 'In lowliness of mind let each esteem others better than themselves.', 'Phil. 2:3'], ['God at Work in Us', 'God worketh in you both to will and to do of his good pleasure.', 'Phil. 2:13'], ['Pressing On', 'Forgetting what is behind, press toward the mark.', 'Phil. 3:13–14'], ['Prayer Without Anxiety', 'Be careful for nothing; make requests known with thanksgiving.', 'Phil. 4:6'], ['The Peace of God', 'The peace of God shall keep hearts and minds.', 'Phil. 4:7'], ['Things to Think On', 'Whatsoever things are true, honest, just, pure, lovely, of good report.', 'Phil. 4:8'], ['Contentment', 'In whatsoever state, to be content.', 'Phil. 4:11']], [30, 46, 24])]),
+(9, 'Program-Safe Application Grid', [('p', 'This section shows how to apply the teachings of Philippians without mixing programs. The applications come directly from Paul’s instructions to the Body of Christ and from the universal truths that apply to everyone. By keeping the applications tied to what the letter actually says — and not borrowing commands from Israel’s covenants or prophetic program — this grid helps you respond to Philippians in a way that is faithful to its setting, clear, and safe.'), ('ol', ['<b>Rejoice in the Lord</b> — Joy does not wait for easy circumstances (Phil. 4:4).', '<b>Have the mind of Christ</b> — Walk in humility and service (Phil. 2:3–5).', '<b>Stand fast in one spirit</b> — Strive together for the faith of the gospel (Phil. 1:27).', '<b>Count Christ above all</b> — Let knowing Him outweigh every earthly gain (Phil. 3:8).', '<b>Press toward the mark</b> — Forget what is behind and reach forward (Phil. 3:13–14).', '<b>Pray without anxiety</b> — Bring every request with thanksgiving (Phil. 4:6).', '<b>Think on what is good</b> — Fill the mind with what is true and lovely (Phil. 4:8).', '<b>Learn contentment</b> — Rest in the Lord’s supply (Phil. 4:11–13, 19).'])]),
+(10, 'Teaching Outline for Philippians', [('p', 'This outline gives you a teacher-ready structure for presenting the book. It follows the narrative movements and highlights the major themes, making it easy to teach Philippians in classes, small groups, or personal study.'), ('olr', ['Partners in the Gospel (1:1–11) — Greeting, thanksgiving, and prayer. <i>(Phil. 1:1–11)</i>', 'Bonds That Advance the Gospel (1:12–30) — Paul’s circumstances and the call to stand fast. <i>(Phil. 1:12–14, 27)</i>', 'The Mind of Christ (2:1–18) — Humility, Christ’s humbling and exaltation, and shining as lights. <i>(Phil. 2:3–11, 15)</i>', 'Timothy and Epaphroditus (2:19–30) — Two faithful servants. <i>(Phil. 2:19–30)</i>', 'Knowing Christ (Ch. 3) — Paul’s loss and gain, the mark, and the heavenly citizenship. <i>(Phil. 3:7–14, 20–21)</i>', 'Peace and Right Thinking (4:1–9) — Rejoice, pray, and think on what is good. <i>(Phil. 4:4–9)</i>', 'Contentment and Thanks (4:10–23) — The gift, contentment, and God’s supply. <i>(Phil. 4:11–13, 18–19)</i>'])]),
+(11, 'Companion Usage and Study Suggestions', [('h3', 'How to Use This Companion in Personal Study'), ('p', 'This Companion is designed to walk alongside you as you read Philippians, helping you see both the letter’s own setting and the timeless truths rooted in God’s character. Use it slowly, chapter by chapter, letting the narrative movements, themes, and truths deepen your understanding. The Program-Safe Applications will guide your heart toward joy, humility, and contentment, drawn from what Philippians itself says to believers.'), ('h3', 'How to Use This Companion in Small Groups or Classes'), ('p', 'This Companion provides a clear, structured framework that makes teaching Philippians simple and accessible. Each section gives you ready-to-use material: narrative movements for overview, themes for doctrinal clarity, universal truths for discussion, and a pastoral teaching outline for weekly lessons. Use the tables to help your group see what the letter says to its readers and what holds for all people, and use the Program-Safe Application Grid to foster meaningful, Christ-centered conversation.'), ('h3', 'How This Companion Fits Within the Acts Overlap Theology Series'), ('p', 'This Companion is part of a larger series designed to help believers read every book of Scripture without blurring God’s prophetic program for Israel and His mystery program for the Body of Christ. Within the Acts Overlap framework, Philippians is a letter from Paul to believers at Philippi, read on its own audience markers and setting. This Companion shows you how to honor the book’s own setting while drawing out the principles that apply to all believers in every age.')])]
