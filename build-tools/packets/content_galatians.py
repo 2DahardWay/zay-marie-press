@@ -64,14 +64,14 @@ S(6, "Body-of-Christ Distinctions",
 
 S(7, "Program-Specific Truths Table",
   TBL(["Category", "Truth Revealed in Galatians", "Program Identity", "Scripture"], [
-    ["Paul’s Gospel", "The gospel came to Paul by the revelation of Jesus Christ.", "Body-Specific", "Gal. 1:11–12"],
-    ["Justification by Faith", "A man is justified by the faith of Jesus Christ, not by works of the law.", "Body-Specific", "Gal. 2:16"],
-    ["Crucified with Christ", "Christ lives in the believer.", "Body-Specific", "Gal. 2:20"],
-    ["Sons Through Faith", "Believers are children of God by faith in Christ Jesus.", "Body-Specific", "Gal. 3:26; 4:6"],
-    ["Liberty in Christ", "Believers stand fast in the liberty Christ gave.", "Body-Specific", "Gal. 5:1"],
-    ["A New Creature", "Neither circumcision nor uncircumcision counts; a new creature does.", "Body-Specific", "Gal. 6:15"],
-    ["The Seed", "The promise to Abraham’s seed is fulfilled in Christ.", "Prophetic Fulfillment", "Gal. 3:16"],
-    ["The Israel of God", "Believing Jews within Israel’s prophetic identity, not members of the Body.", "Israel-Specific", "Gal. 6:16"],
+    ["Paul’s Gospel", "The gospel came to Paul by the revelation of Jesus Christ.", "Body of Christ (Pauline) Truth", "Gal. 1:11–12"],
+    ["Justification by Faith", "A man is justified by the faith of Jesus Christ, not by works of the law.", "Body of Christ (Pauline) Truth", "Gal. 2:16"],
+    ["Crucified with Christ", "Christ lives in the believer.", "Body of Christ (Pauline) Truth", "Gal. 2:20"],
+    ["Sons Through Faith", "Believers are children of God by faith in Christ Jesus.", "Body of Christ (Pauline) Truth", "Gal. 3:26; 4:6"],
+    ["Liberty in Christ", "Believers stand fast in the liberty Christ gave.", "Body of Christ (Pauline) Truth", "Gal. 5:1"],
+    ["A New Creature", "Neither circumcision nor uncircumcision counts; a new creature does.", "Body of Christ (Pauline) Truth", "Gal. 6:15"],
+    ["The Seed", "The promise to Abraham’s seed is fulfilled in Christ.", "Israel / Kingdom / Prophecy Explicit Truth", "Gal. 3:16"],
+    ["The Israel of God", "Believing Jews within Israel’s prophetic identity, not members of the Body.", "Israel / Kingdom / Prophecy Explicit Truth", "Gal. 6:16"],
   ], [22, 43, 17, 18]))
 
 S(8, "Universal Truths Table (All People, All Time)",

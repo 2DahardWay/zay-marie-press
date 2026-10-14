@@ -66,17 +66,17 @@ S(6, "Body-of-Christ Distinctions",
   L("Christ as head of the body, the church", "the mystery of Christ in you, the hope of glory", "completeness in Christ and risen life with Him", "the new man in whom there is neither Greek nor Jew", "a walk above, in the things of Christ"),
   P("It does not give Israel’s covenants, earthly kingdom, or Temple worship to the Body."))
 
-S(7, "Body-Specific Truths Table (Program-Specific)",
+S(7, "Program-Specific Truths Table",
   TBL(["Category", "Truth Revealed in Colossians", "Program Identity", "Scripture"], [
-    ["The Mystery", "The mystery hid from ages is now made manifest to His saints.", "Body-Specific", "Col. 1:26"],
-    ["Christ in You", "Christ in you, the hope of glory.", "Body-Specific", "Col. 1:27"],
-    ["Head of the Body", "Christ is head of the body, the church.", "Body-Specific", "Col. 1:18"],
-    ["Completeness", "Believers are complete in Christ.", "Body-Specific", "Col. 2:10"],
-    ["Circumcision Without Hands", "The putting off of the body of the sins of the flesh.", "Body-Specific", "Col. 2:11"],
-    ["Risen with Christ", "Believers are risen with Christ and their life is hid with Him in God.", "Body-Specific", "Col. 3:1–3"],
-    ["Appearing in Glory", "Believers shall appear with Christ in glory.", "Body-Specific", "Col. 3:4"],
-    ["The New Man", "Neither Greek nor Jew, circumcision nor uncircumcision.", "Body-Specific", "Col. 3:10–11"],
-    ["Paul’s Stewardship", "Paul was made a minister according to the dispensation given to him.", "Body-Specific", "Col. 1:25"],
+    ["The Mystery", "The mystery hid from ages is now made manifest to His saints.", "Body of Christ (Pauline) Truth", "Col. 1:26"],
+    ["Christ in You", "Christ in you, the hope of glory.", "Body of Christ (Pauline) Truth", "Col. 1:27"],
+    ["Head of the Body", "Christ is head of the body, the church.", "Body of Christ (Pauline) Truth", "Col. 1:18"],
+    ["Completeness", "Believers are complete in Christ.", "Body of Christ (Pauline) Truth", "Col. 2:10"],
+    ["Circumcision Without Hands", "The putting off of the body of the sins of the flesh.", "Body of Christ (Pauline) Truth", "Col. 2:11"],
+    ["Risen with Christ", "Believers are risen with Christ and their life is hid with Him in God.", "Body of Christ (Pauline) Truth", "Col. 3:1–3"],
+    ["Appearing in Glory", "Believers shall appear with Christ in glory.", "Body of Christ (Pauline) Truth", "Col. 3:4"],
+    ["The New Man", "Neither Greek nor Jew, circumcision nor uncircumcision.", "Body of Christ (Pauline) Truth", "Col. 3:10–11"],
+    ["Paul’s Stewardship", "Paul was made a minister according to the dispensation given to him.", "Body of Christ (Pauline) Truth", "Col. 1:25"],
   ], [22, 43, 17, 18]))
 
 S(8, "Universal Truths Table (All People, All Time)",

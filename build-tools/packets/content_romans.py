@@ -69,14 +69,14 @@ S(6, "Body-of-Christ Distinctions",
 
 S(7, "Program-Specific Truths Table",
   TBL(["Category", "Truth Revealed in Romans", "Program Identity", "Scripture"], [
-    ["Justification by Faith", "Righteousness comes by faith in Christ, apart from the works of the law.", "Body-Specific", "Rom. 3:21–28"],
-    ["Baptism into Christ", "Believers are baptized into Jesus Christ by the Spirit.", "Body-Specific", "Rom. 6:3–4"],
-    ["The Mystery", "The mystery kept secret since the world began is now made manifest.", "Body-Specific", "Rom. 16:25–26"],
-    ["Israel’s Privileges", "Adoption, glory, covenants, law, service, and promises belong to Israel.", "Israel-Specific", "Rom. 9:4–5"],
-    ["The Remnant", "A remnant according to the election of grace.", "Israel-Specific", "Rom. 11:5"],
-    ["Israel’s Restoration", "All Israel shall be saved when the Deliverer comes out of Sion.", "Israel-Specific", "Rom. 11:26–27"],
-    ["Israel’s Covenantal Formula", "Confession and belief drawn from Deuteronomy 30:14.", "Israel-Specific", "Rom. 10:8–10"],
-    ["The Olive Tree", "Prophetic blessing in which Gentiles participate without becoming Israel.", "Israel-Specific", "Rom. 11:17–24"],
+    ["Justification by Faith", "Righteousness comes by faith in Christ, apart from the works of the law.", "Body of Christ (Pauline) Truth", "Rom. 3:21–28"],
+    ["Baptism into Christ", "Believers are baptized into Jesus Christ by the Spirit.", "Body of Christ (Pauline) Truth", "Rom. 6:3–4"],
+    ["The Mystery", "The mystery kept secret since the world began is now made manifest.", "Body of Christ (Pauline) Truth", "Rom. 16:25–26"],
+    ["Israel’s Privileges", "Adoption, glory, covenants, law, service, and promises belong to Israel.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 9:4–5"],
+    ["The Remnant", "A remnant according to the election of grace.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 11:5"],
+    ["Israel’s Restoration", "All Israel shall be saved when the Deliverer comes out of Sion.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 11:26–27"],
+    ["Israel’s Covenantal Formula", "Confession and belief drawn from Deuteronomy 30:14.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 10:8–10"],
+    ["The Olive Tree", "Prophetic blessing in which Gentiles participate without becoming Israel.", "Israel / Kingdom / Prophecy Explicit Truth", "Rom. 11:17–24"],
   ], [22, 43, 17, 18]))
 
 S(8, "Universal Truths Table (All People, All Time)",
