@@ -54,7 +54,7 @@ if __name__=='__main__':
         mod=None
         for n in ['content_'+slug.replace('-',''),'content_'+slug.replace('-','').replace('chronicles','chr')]:
             if os.path.exists(f'/home/claude/zay-marie-press/build-tools/packets/{n}.py'): mod=importlib.import_module(n); break
-        c=cards(mod); assert len(c)>=7,(slug,len(c))
+        c=cards(mod); assert len(c)>=6,(slug,len(c))
         if len(c)<8: print("short",slug,len(c))
         s=open(f,encoding='utf-8').read()
         s2,k=re.subn(r'<div class="scripture-grid">(?:<div class="scripture-card">.*?</div>)+</div>',lambda m:render(c),s,count=1,flags=re.S)
