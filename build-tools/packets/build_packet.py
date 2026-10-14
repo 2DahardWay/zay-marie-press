@@ -15,6 +15,10 @@ OT = mod.TESTAMENT == "Old Testament"
 PANEL = "#082d45" if OT else "#0b3a24"
 
 def cover_png(path):
+    art = os.environ.get("ART")
+    if art and (Path(art) / f"{slug}-1600.jpg").exists():  # individual cover art (apply_cover_art.py), full page, no overlay
+        from PIL import Image as _I
+        _I.open(Path(art) / f"{slug}-1600.jpg").convert("RGB").save(path); return
     photo = (ROOT / f"assets/genre/packet-genre-{mod.GENRE}.jpg").as_uri()
     html = f"""<meta charset=utf-8><style>*{{margin:0;box-sizing:border-box}}body{{width:1200px;height:1800px;background:{PANEL};position:relative;overflow:hidden;font-family:Georgia,'DejaVu Serif',serif;color:#fff;text-align:center}}
 .ph{{position:absolute;left:0;top:0;width:1200px;height:1020px;background:url('{photo}') center/cover}}
@@ -101,7 +105,7 @@ cov = out / f"{slug}-cover.png"; cover_png(cov)
 final = out / f"doctrinal-packet-{slug}.pdf"
 coverpdf = out / f"_cover_{slug}.pdf"
 from PIL import Image
-Image.open(cov).convert("RGB").save(coverpdf, "PDF", resolution=1200/6.7200)
+Image.open(cov).convert("RGB").save(coverpdf, "PDF", resolution=Image.open(cov).size[0]/6.7200)
 c = pikepdf.open(coverpdf); i = pikepdf.open(tmp)
 c.pages[0].MediaBox = [0, 0, 483.846, 725.754]
 dst = pikepdf.Pdf.new(); dst.pages.append(c.pages[0])
