@@ -35,6 +35,8 @@ Working list for the one full website audit before the site opens to the public 
 24. (Added 2026-10-13) `books.html` Book 1 facts line says “236 pages · 6 × 9 in · 21 chapters · Appendices A–U” and “Written for pastors, teachers, students and serious Bible readers” (audience line borrowed from the Book 2 blurb; confirm it suits Book 1). If the proofreading revision pass changes the page count, chapter count or appendices, update the facts line (and the Full Framework page if it carries the same figures) in the same pass. The “Notify me when it is available” link on that page is a mailto only; replace it when a real mail list exists (item 15).
 25. (Added 2026-10-13) `books.html` now carries a schema.org Book JSON-LD block for The Full Framework with three editions (paperback, hardback, EPUB; ISBNs, prices) marked “ComingSoon”, and `numberOfPages` 236. At launch, or after the proofreading revision pass: change availability to the real state per edition, confirm the page count, and add each edition’s own purchase URL. The “While You Wait” cards (Reader Questions, Second Coming Map, Bible Book Summaries) and the five-volume strip on the same page also follow the audit: re-check their wording and links when Book 2 gets a date or the library counts change.
 
+26. (Added 2026-10-14) `about.html` product-card counts: Digital Studies and Reader Questions are now filled in from `site.js` and `assets/reader-questions-index.json` (typed numbers are the fallback); the Commentary (40) and Bible Book Companion (66) counts are set by hand and need updating when a volume or companion is added. Also at launch: add the author photo in place of the ASM monogram when supplied.
+
 ## 2026-10-07 phone-width sweep (local, Playwright Chromium)
 All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways overflow, 0 load errors (scrollWidth equal to viewport width, and no visible element extending past it). This covers overflow only; section-by-section visual and wording polish remain for the single pre-launch audit.
 
@@ -66,3 +68,4 @@ All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways ove
 - v1.19, 2026-10-13: item 23 added (Series page merged into Books & Series).
 - v1.20, 2026-10-13: item 24 added (Book 1 facts line and notify link on the Books & Series page).
 - v1.21, 2026-10-13: item 25 added (Books page structured data, five-volume strip and While You Wait cards).
+- v1.22, 2026-10-14: item 26 added (About page counts and author photo).
