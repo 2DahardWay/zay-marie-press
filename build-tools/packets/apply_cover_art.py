@@ -7,7 +7,7 @@ from pathlib import Path
 from PIL import Image
 from playwright.sync_api import sync_playwright
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-MODS={'genesis':'genesis','exodus':'exodus','leviticus':'leviticus','numbers':'numbers','deuteronomy':'deuteronomy','joshua':'joshua','judges':'judges','ruth':'ruth','1-samuel':'1samuel','2-samuel':'2samuel','1-chronicles':'1chr','1-kings':'1kings','2-chronicles':'2chronicles','2-kings':'2kings','ezra':'ezra','nehemiah':'nehemiah'}
+MODS={'genesis':'genesis','exodus':'exodus','leviticus':'leviticus','numbers':'numbers','deuteronomy':'deuteronomy','joshua':'joshua','judges':'judges','ruth':'ruth','1-samuel':'1samuel','2-samuel':'2samuel','1-chronicles':'1chr','1-kings':'1kings','2-chronicles':'2chronicles','2-kings':'2kings','ezra':'ezra','nehemiah':'nehemiah','esther':'esther','job':'job','psalms':'psalms','proverbs':'proverbs'}
 def overlay(base, slug, out, pw):
     """Book title + subtitle (from the content module) over the sky inside the frame; the supplied bottom band is untouched."""
     m=importlib.import_module('content_'+MODS[slug]); fs=min(150,int(1120/(len(m.BOOK)*0.82)))
@@ -16,7 +16,7 @@ def overlay(base, slug, out, pw):
 .bg{{position:absolute;inset:0;background:url('{base.as_uri()}') center/100% 100%}}
 .in{{position:absolute;left:150px;top:146px;width:1300px;height:760px;background:linear-gradient(180deg,rgba(9,13,22,.88) 0%,rgba(9,13,22,.74) 45%,rgba(9,13,22,0) 100%)}}
 .t{{position:absolute;left:210px;right:210px;top:206px;text-shadow:0 3px 14px rgba(0,0,0,.7)}}
-h1{{font-size:{fs}px;line-height:1.04;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-variant-numeric:lining-nums;font-feature-settings:'lnum' 1;padding-left:.08em;color:#d9ad5e;background:linear-gradient(180deg,#fbeab8 5%,#e0b25c 50%,#b7832f 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 3px 8px rgba(0,0,0,.65))}}.rule{{width:170px;height:6px;background:#d8b25a;margin:26px auto 28px}}
+h1{{font-size:{fs}px;line-height:1.04;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-variant-numeric:lining-nums;font-feature-settings:'lnum' 1;padding-left:.08em;color:#d9ad5e;background:linear-gradient(180deg,#fbeab8 5%,#e0b25c 50%,#b7832f 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;text-shadow:none;filter:drop-shadow(0 3px 8px rgba(0,0,0,.65))}}.rule{{width:170px;height:6px;background:#d8b25a;margin:26px auto 28px}}
 .sub{{font-size:35px;line-height:1.55;letter-spacing:.13em;text-transform:uppercase;color:#ead9ad;text-wrap:balance;max-width:1000px;margin:0 auto}}</style>
 <div class=bg></div><div class=in></div><div class=t><h1>{title}</h1><div class=rule></div><div class=sub>{m.SUBTITLE}</div></div>"""
     h=out.with_suffix('.html'); h.write_text(html)
