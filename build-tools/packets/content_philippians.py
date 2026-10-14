@@ -63,16 +63,17 @@ S(6, "Distinctions in Philippians",
   P("It does not mention Israel’s covenants, kingdom promises, or Temple worship as the readers’ own."))
 
 S(7, "Truths Table: What Philippians Says",
+  P('Program Identity shows how each passage is classified. “Addressed to Believers (Identity / Doctrine)” marks teaching for believers. “Addressed to Believers (Warnings / Corrections)” marks warnings, corrections, exhortations, and future conditions believers must prepare for. “Text Only” marks a passage with no instructional force, such as a greeting or a background statement.'),
   TBL(["Category", "Truth Revealed in Philippians", "Program Identity", "Scripture"], [
-    ["Heavenly Citizenship", "Believers’ conversation is in heaven, and they look for the Saviour.", "Addressed to Believers", "Phil. 3:20"],
-    ["Righteousness by Faith", "The righteousness which is of God by faith, not of the law.", "Addressed to Believers", "Phil. 3:9"],
-    ["Change at Christ’s Coming", "The Lord Jesus Christ shall change our vile body.", "Addressed to Believers", "Phil. 3:21"],
-    ["Bishops and Deacons", "The letter greets the saints with the bishops and deacons.", "Addressed to Believers", "Phil. 1:1"],
-    ["Partnership in the Gospel", "The Philippians’ fellowship in the gospel and their gift.", "Addressed to Believers", "Phil. 1:5; 4:15–16"],
-    ["Paul’s Imprisonment", "Paul’s bonds are in Christ and have furthered the gospel.", "Report", "Phil. 1:12–14"],
-    ["Paul’s Hebrew Credentials", "Paul’s background is reported and counted as loss.", "Report", "Phil. 3:4–8"],
-    ["Names Written in the Book of Life", "Paul’s fellow labourers have their names in the book of life.", "Report", "Phil. 4:3"],
-  ], [24, 41, 17, 18]))
+    ["Heavenly Citizenship", "Believers’ conversation is in heaven, and they look for the Saviour.", "Addressed to Believers (Identity / Doctrine)", "Phil. 3:20"],
+    ["Righteousness by Faith", "The righteousness which is of God by faith, not of the law.", "Addressed to Believers (Identity / Doctrine)", "Phil. 3:9"],
+    ["Change at Christ’s Coming", "The Lord Jesus Christ shall change our vile body.", "Addressed to Believers (Identity / Doctrine)", "Phil. 3:21"],
+    ["Bishops and Deacons", "The letter greets the saints with the bishops and deacons.", "Text Only", "Phil. 1:1"],
+    ["Partnership in the Gospel", "The Philippians’ fellowship in the gospel and their gift.", "Addressed to Believers (Identity / Doctrine)", "Phil. 1:5; 4:15–16"],
+    ["Paul’s Imprisonment", "Paul’s bonds are in Christ and have furthered the gospel.", "Addressed to Believers (Warnings / Corrections)", "Phil. 1:12–14"],
+    ["Paul’s Hebrew Credentials", "Paul’s background is reported and counted as loss.", "Addressed to Believers (Warnings / Corrections)", "Phil. 3:4–8"],
+    ["Names Written in the Book of Life", "Paul’s fellow labourers have their names in the book of life.", "Addressed to Believers (Warnings / Corrections)", "Phil. 4:3"],
+  ], [20, 36, 26, 18]))
 
 S(8, "Universal Truths Table (All People, All Time)",
   TBL(["Universal Truth", "Description", "Scripture"], [

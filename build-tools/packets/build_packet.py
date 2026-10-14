@@ -68,7 +68,7 @@ def interior_html(toc_pages):
 .sub{{margin:5pt 0 1pt;break-after:avoid}}h1+.sub{{margin-top:0}}
 ul,ol{{margin:0 0 6pt;padding-left:22pt}}li{{margin:0 0 4pt}}ul li:last-child,ol li:last-child{{margin-bottom:0}}ol.roman{{list-style:upper-roman}}
 .box{{background:#EAF1F8;border:1pt solid {NAVY};padding:7pt 9pt;margin:10pt 0;break-inside:avoid}}.bt{{font:700 10pt Roboto;letter-spacing:.04em;color:{NAVY};margin:0 0 4pt}}.box p{{margin:0}}
-table{{break-inside:avoid;width:100%;border-collapse:collapse;margin:10pt 0;table-layout:fixed}}th{{background:{SLATE};color:#fff;font:700 9pt Roboto;text-align:left;padding:4pt 5pt;border:.75pt solid {SLATE}}}
+table{{width:100%;border-collapse:collapse;margin:10pt 0;table-layout:fixed}}th{{background:{SLATE};color:#fff;font:700 9pt Roboto;text-align:left;padding:4pt 5pt;border:.75pt solid {SLATE}}}
 td{{font:400 9pt/1.15 Roboto;padding:4pt 5pt;border:.75pt solid #9bb0c2;vertical-align:top;background:#fff}}tr{{break-inside:avoid}}thead{{display:table-header-group}}
 </style><body>
 <div class=kicker>ZAY-MARIE PRESS | BIBLE BOOK COMPANIONS</div><div class=title>Bible Book Companion — {mod.BOOK}</div><div class=subtitle>{mod.SUBTITLE}</div><div class=rule></div>

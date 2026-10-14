@@ -1,4 +1,4 @@
-# Zay-Marie Press Bible Book Companion Standard — v1.0
+# Zay-Marie Press Bible Book Companion Standard — v1.1
 
 Status: working standard, approved piece by piece by the publisher on 2026-10-13. It replaces the Doctrinal Packet Standard (v0.4, five-page format). The Bible Book Companion Series is a separate product strand from the Digital Studies; this Standard governs companions only (Master Standard §16 and §17 govern studies).
 
@@ -35,6 +35,25 @@ Bold is limited to headings, table headers, box titles and the lead-ins in secti
 - Each companion is drafted by Claude and approved by the publisher before anything is pushed. Nothing is pushed without the publisher's explicit "i approve" after a rendered preview.
 - Rollout: Ephesians, 1 Chronicles and Romans were built and published first (2026-10-13). The other 63 books keep their earlier pages until each is rebuilt in the new format, in batches approved by the publisher.
 
+## 3b. Passage classification (publisher directive, 2026-10-13; Master Standard v1.136)
+Three labels, used in the Program Identity column of the Truths Table, and no others for books the Framework does not assign. A. “Addressed to Believers (Identity / Doctrine)”: the verse teaches Body-of-Christ doctrine, defines Christian identity, explains salvation, grace, hope, inheritance, conduct or church order, or gives direct instruction to believers (for example Titus 2:11–14; 2 Tim. 1:9; 3:16). B. “Addressed to Believers (Warnings / Corrections)”: the verse warns believers, corrects false teaching, identifies threats inside the church, instructs leaders to silence, avoid, rebuke or guard against certain people or doctrines, describes future conditions believers must prepare for, or gives conditional statements about perseverance, reward or endurance (for example Titus 1:10, 1:14; 2 Tim. 2:12, 3:1). These verses are addressed to the Body of Christ and are never “Text Only.” C. “Text Only”: the verse is purely narrative, reports an event without instruction, quotes a saying without applying it, mentions a group without warning the church, or states a fact without directing believers to respond (historical references, travel notes, greetings, background statements); it is rare in epistles.
+
+B versus C. If a verse tells Titus or Timothy what to do, it is B; warnings and corrections are instructions, not neutral text. If it identifies false teachers, it is B, even where the group is Jewish (circumcision, fables). If it describes future conditions believers must prepare for, it is B. If it contains a conditional promise or threat, it is B. “Text Only” is used only where the verse has no instructional force.
+
+Israel-Specific. A verse is never classified “Israel-Specific” unless it explicitly references Israel’s covenants, land, Temple, priesthood or prophetic kingdom, is part of Israel’s prophetic program, and is not addressed to the Body of Christ. Titus and 2 Timothy contain no Israel-specific doctrinal commands.
+
+Body-of-Christ doctrine. A verse is classified as Body doctrine (A) when it teaches grace, salvation, church leadership, sound doctrine, Christian conduct, perseverance, hope, Scripture’s authority, the gospel or the believer’s identity.
+
+Standing sentence. “Do not label warnings, corrections, future conditions, or identification of false teachers as ‘Text Only.’ These are direct apostolic instructions addressed to the Body of Christ and must be labeled ‘Addressed to Believers (Warnings / Corrections).’” The rule is retroactive: every companion already built is brought to it. In books the Framework assigns to a program (Ephesians, Colossians, Galatians, Romans, 1 and 2 Corinthians) the program labels Body-Specific, Israel-Specific and Prophetic Fulfillment stand beside label B. Hebrews and James, whose audiences the letters name (Hebrews 8; James 1:1), are held for the publisher’s ruling on how these labels apply, and keep their present labels until he rules.
+
+Mandatory classification rule. “Never classify a verse as ‘Text Only’ if Paul uses it to instruct, warn, exhort, encourage, correct, strengthen, or guide believers — even if the verse is not a doctrinal identity marker. ‘Text Only’ may only be used when the verse has zero instructional force (pure narrative, greetings, travel notes, background statements).” Applied 2026-10-13: Philippians 1:12–14 and 4:3 and Philemon 9 (the appeal) moved from Text Only to Warnings / Corrections; bare greetings and addresses (Philippians 1:1, Philemon 2, James 1:1) stay Text Only; Hebrews is held for the publisher’s ruling.
+
+Hebrews and James ruling (2026-10-13; the Text Only treatment is superseded by the Israel-addressed books ruling below). Hebrews is written to Hebrew believers within Israel’s prophetic and covenant setting, and James is addressed to “the twelve tribes which are scattered abroad” (James 1:1); neither letter is addressed to the Body of Christ. Their exhortations, warnings, priesthood and covenant language, perseverance warnings, faith-and-works argument, rich/poor warnings and healing instructions are not addressed to the Body and do not transfer to it. Every row in Hebrews and in James stays “Text Only” unless a verse expresses a universal truth (for example God’s faithfulness or character); neither letter receives “Warnings / Corrections” (or “Identity / Doctrine”) labels, and Body-Specific is never applied to Hebrews or James. Program labels stay in the books the Framework assigns: Body-Specific (Romans, Galatians, Ephesians, Colossians, 1 and 2 Corinthians, 1 and 2 Timothy, Titus, Philemon); Israel-Specific (Old Testament prophecy books, Gospels as appropriate, Acts 1–8, Hebrews, James, Revelation as appropriate); Prophetic Fulfillment (prophecy books, Gospels, Acts 1–8, Revelation as appropriate). Applied 2026-10-13: James’s table moved to Text Only throughout; Hebrews already stood as written. Two points are open for the publisher: the label for a universal-truth verse in Hebrews or James, and how Body-Specific for the Pastoral Letters and Philemon sits beside labels A and B.
+
+Israel-addressed books ruling (2026-10-13; supersedes the Text Only treatment in the Hebrews and James ruling of v1.138). Where a book is addressed to Israel (Hebrews, James, 1 and 2 Peter, Jude, portions of Revelation and portions of the Gospels), every doctrinal statement, exhortation, warning, command and instruction is labeled “Israel / Kingdom / Prophecy Explicit Truth” in the Program Identity column; these verses are never “Text Only,” and they are not addressed to the Body of Christ and do not transfer to it. “Text Only” is reserved for neutral narrative, greetings, travel notes and background statements. Program identity is decided by audience and covenant context, not by canonical placement: appearing in the New Testament does not make a truth apply to the Body. Applied 2026-10-13: all 8 rows of Hebrews and the 7 doctrinal rows of James carry the new label; James 1:1 (the address to the twelve tribes) was left Text Only and is corrected by the audience-marker ruling below. Open for the publisher: how Body-Specific for the Pastoral Letters and Philemon sits beside labels A and B.
+
+Audience-marker ruling (2026-10-13; completes the Israel-addressed books ruling of v1.139). James 1:1 is not a neutral greeting. It is the audience marker that establishes the entire program identity of the book. Any verse that names Israel as the audience is program-identity content and must be labeled “Israel / Kingdom / Prophecy Explicit Truth,” not “Text Only.” Applied 2026-10-13: James 1:1 now carries the Israel label, and Philemon 2 (“the church in thy house”), which names the Body of Christ as the audience, now carries “Addressed to Believers (Identity / Doctrine)”.
+
 ## 4. Scripture
 KJV throughout. Verse text is checked against a KJV source, never quoted from memory. The cover carries no translation line (removed at the publisher's direction, 2026-10-13).
 
@@ -54,3 +73,13 @@ Each book page (`packet-<slug>.html`): hero with the real cover and the buyline 
 
 ## Version note
 v1.0 (2026-10-13): created from the Doctrinal Packet Standard v0.4 at the publisher's direction: new name; the publisher's eleven-section structure replaces the five-page format; one-page preview; cover without the translation line; footer renamed. Sections of v0.4 that no longer apply (five pages, anchor texts, logic chain, cross-reference network, the two-view preview) stay in the repository history only.
+
+v1.1 (2026-10-13): adds §3b, the passage classification rule (Master Standard v1.136), applied retroactively to the companions built so far.
+
+v1.2 (2026-10-13): adds the mandatory classification rule to §3b (Master Standard v1.137).
+
+v1.3 (2026-10-13): adds the Hebrews and James ruling to §3b (Master Standard v1.138).
+
+v1.4 (2026-10-13): adds the Israel-addressed books ruling to §3b (Master Standard v1.139).
+
+v1.5 (2026-10-13): adds the audience-marker ruling to §3b (Master Standard v1.140).
