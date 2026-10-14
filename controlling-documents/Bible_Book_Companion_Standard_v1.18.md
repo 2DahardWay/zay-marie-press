@@ -1,4 +1,4 @@
-# Zay-Marie Press Bible Book Companion Standard — v1.17
+# Zay-Marie Press Bible Book Companion Standard — v1.18
 
 Status: working standard, approved piece by piece by the publisher on 2026-10-13. It replaces the Doctrinal Packet Standard (v0.4, five-page format). The Bible Book Companion Series is a separate product strand from the Digital Studies; this Standard governs companions only (Master Standard §16 and §17 govern studies).
 
@@ -115,3 +115,5 @@ v1.15 (2026-10-14): records Micah, Nahum, Habakkuk, Zephaniah and Haggai (6 page
 v1.16 (2026-10-14): records Zechariah, Malachi, Matthew, Mark and Luke (7, 6, 7, 6 and 7 pages with the cover); no new rule.
 
 v1.17 (2026-10-14): records Jonah, John and Acts (6, 7 and 7 pages with the cover), completing the 66; no new rule.
+
+v1.18 (2026-10-14): Key Scriptures cards regenerated on all 66 pages, "five pages" wording removed, full KJV check with Ephesians 1:1 and Philemon 8 corrected, subtitles and Universal rows approved; no new rule.

@@ -14,7 +14,7 @@ OLR = lambda *xs: ("olr", list(xs))
 BOX = lambda lead, text: ("box", lead, text)
 
 S(1, "Book Overview (Program-Aware)",
-  P("Ephesians is a letter from Paul, “the apostle of Jesus Christ by the will of God,” written as “the prisoner of the Lord” to “the saints which are at Ephesus, and to the faithful in Christ Jesus” (Eph. 1:1; 3:1; 4:1). Its readers are Gentile believers who were once “aliens from the commonwealth of Israel” and are now “in Christ Jesus” (Eph. 2:11–13). Paul writes from imprisonment (Eph. 6:20) to explain the mystery committed to him, the Body’s heavenly position in Christ, and the walk that fits that calling (Eph. 3:1–9; 4:1)."),
+  P("Ephesians is a letter from Paul, “an apostle of Jesus Christ by the will of God,” written as “the prisoner of the Lord” to “the saints which are at Ephesus, and to the faithful in Christ Jesus” (Eph. 1:1; 3:1; 4:1). Its readers are Gentile believers who were once “aliens from the commonwealth of Israel” and are now “in Christ Jesus” (Eph. 2:11–13). Paul writes from imprisonment (Eph. 6:20) to explain the mystery committed to him, the Body’s heavenly position in Christ, and the walk that fits that calling (Eph. 3:1–9; 4:1)."),
   BOX("Program Identity:", "Ephesians belongs to the Mystery Program: the revelation given to Paul concerning the Body of Christ, a calling hid in God from the beginning of the world and made known through Paul’s ministry (Eph. 3:2–9; Rom. 16:25–26)."))
 
 S(2, "Narrative Flow of Ephesians",
