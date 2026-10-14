@@ -1,4 +1,4 @@
-# Zay-Marie Press Bible Book Companion Standard — v1.12
+# Zay-Marie Press Bible Book Companion Standard — v1.13
 
 Status: working standard, approved piece by piece by the publisher on 2026-10-13. It replaces the Doctrinal Packet Standard (v0.4, five-page format). The Bible Book Companion Series is a separate product strand from the Digital Studies; this Standard governs companions only (Master Standard §16 and §17 govern studies).
 
@@ -105,3 +105,5 @@ v1.10 (2026-10-13): records Joshua, Judges, Ruth, 1 Samuel and 2 Samuel (6 pages
 v1.11 (2026-10-13): records 1 Kings, 2 Kings, 2 Chronicles, Ezra and Nehemiah (6 pages each with the cover), built in the new format under the two-class ruling (Master Standard v1.146); no new rule.
 
 v1.12 (2026-10-13): records Esther, Job, Psalms, Proverbs and Ecclesiastes (6, 6, 7, 6 and 6 pages with the cover), built in the new format under the two-class ruling (Master Standard v1.147); Job carries no Section 7 rows because it names no Israelite covenant, land, tabernacle or priesthood; no new rule.
+
+v1.13 (2026-10-14): records Song of Solomon, Isaiah, Jeremiah, Lamentations and Ezekiel (6, 7, 6, 6 and 6 pages with the cover), built in the new format under the two-class ruling (Master Standard v1.148); no new rule.
