@@ -8,6 +8,7 @@ from PIL import Image
 from playwright.sync_api import sync_playwright
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 asis=set(sys.argv[sys.argv.index('--asis')+1].split(',')) if '--asis' in sys.argv else set()
+foot=set(sys.argv[sys.argv.index('--footer')+1].split(',')) if '--footer' in sys.argv else set()  # lettered/framed covers: add only the bottom series line, on the ledge inside the frame
 def overlay(base, slug, out, pw):
     m=importlib.import_module('content_'+slug.replace('-','')); fs=min(150,int(1250/(len(m.BOOK)*0.82)))
     title=re.sub(r'^(\d)',r'<span style="font-family:Bitstream Charter,Caladea,serif">\1</span>',m.BOOK)
@@ -26,6 +27,17 @@ h1{{font-size:{fs}px;line-height:1.04;font-weight:700;letter-spacing:.08em;text-
     pg.screenshot(path=str(out.with_suffix('.png'))); pg.close()
     Image.open(out.with_suffix('.png')).convert('RGB').save(out,quality=93)
     h.unlink(); out.with_suffix('.png').unlink()
+def footer(base,out,br):
+    html=f"""<meta charset=utf-8><style>*{{margin:0}}body{{width:1600px;height:2400px;position:relative;overflow:hidden;font-family:'GFS Baskerville','Libre Baskerville',Georgia,serif;text-align:center}}
+.bg{{position:absolute;inset:0;background:url('{base.as_uri()}') center/100% 100%}}
+.g{{position:absolute;left:110px;right:110px;top:2020px;height:270px;background:linear-gradient(180deg,rgba(8,6,6,0) 0%,rgba(8,6,6,.62) 45%,rgba(8,6,6,.62) 80%,rgba(8,6,6,0) 100%)}}
+.b{{position:absolute;left:0;right:0;top:2128px;text-transform:uppercase;font-weight:700}}
+.b1{{font-size:29px;letter-spacing:.16em;color:#e9d29a;text-shadow:0 2px 8px rgba(0,0,0,.9)}}.b2{{font-size:38px;letter-spacing:.16em;color:#f4e6bf;margin-top:12px;text-shadow:0 2px 8px rgba(0,0,0,.9)}}</style>
+<div class=bg></div><div class=g></div><div class=b><div class=b1>Bible Book Companion Series</div><div class=b2>Zay-Marie Press</div></div>"""
+    h=out.with_suffix('.html'); h.write_text(html)
+    pg=br.new_page(viewport={'width':1600,'height':2400}); pg.goto(h.as_uri()); pg.wait_for_timeout(400)
+    pg.screenshot(path=str(out.with_suffix('.png'))); pg.close()
+    Image.open(out.with_suffix('.png')).convert('RGB').save(out,quality=93); h.unlink(); out.with_suffix('.png').unlink()
 ROOT=Path(__file__).resolve().parents[2]; art=Path(sys.argv[1])
 def to23(im):
     w,h=im.size; tw=round(h*2/3)
@@ -37,6 +49,7 @@ for f in sorted(art.glob('*')):
     slug=f.stem; im=to23(Image.open(f).convert('RGB'))
     raw=art/f'{slug}-raw.jpg'; im.resize((1600,2400),Image.LANCZOS).save(raw,quality=95)
     if slug in asis: Image.open(raw).save(art/f'{slug}-1600.jpg',quality=93)
+    elif slug in foot: footer(raw, art/f'{slug}-1600.jpg', br)
     else: overlay(raw, slug, art/f'{slug}-1600.jpg', br)
     w=Image.open(art/f'{slug}-1600.jpg').resize((1024,1536),Image.LANCZOS)
     w.save(ROOT/f'assets/companion-{slug}-cover.jpg',quality=88); w.save(ROOT/f'assets/companion-{slug}-cover.webp',quality=85)
