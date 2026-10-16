@@ -1,6 +1,6 @@
 # Prophets Series Standard
 
-Version 1.3 — 2026-10-15. Records Volume 1's closer check, thesis, outline and seven rulings at the publisher's approval (a record only; no new rule, so the Master Standard stays at v1.159). v1.2 registered the series (four volumes, Volume 4 conditional; the name The Prophets Series; the pricing). Items still marked proposed or pending remain unruled, and each later volume's title, subtitle, thesis, outline and rulings are approved one volume at a time.
+Version 1.4 — 2026-10-15. Records Volume 1's page budget, the chapter 6 ruling and the modern voices verified so far (a record only; the Master Standard stays at v1.159). v1.3 recorded Volume 1's closer check, thesis, outline and seven rulings; v1.2 registered the series. Items still marked proposed or pending remain unruled, and each later volume's title, subtitle, thesis, outline and rulings are approved one volume at a time.
 
 Governs the Prophets Series (each title a "Volume"; the shared working term "Commentary Volume" is used for build tooling only), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. Modelled on the Pauline Doctrine Series Standard (v1.15), the Gospel Commentary Series Standard (v1.19) and the Acts Commentary Series Standard (v1.10), and sharing their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and are never changed by this series.
 
@@ -107,4 +107,18 @@ Record the series in Master Standard §20 Rule 29 (DOCX bump to v1.159, both fil
 5. 1 Kings 22:23: the lying spirit is judgment on Ahab after he refused Micaiah's word (as Prophetic Vol 2).
 6. Ezekiel 33:13–16: the "righteousness and life" language is read in Israel's setting and is never made the Body's ground of salvation.
 7. Hebrews 1:1 and 2 Peter 1:19–21 are cited on the prophets' mode of speaking, each letter on its own audience markers, with no program assigned beyond that.
+
+### Volume 1: page budget, chapter 6 ruling and voices (publisher approval, 2026-10-15)
+
+**Chapter 6 ruling (publisher, 2026-10-15).** Chapter 6 uses the conclusions of the Covenantal and Prophetic Identity volumes on the sworn covenants, points to them, and does not re-argue the covenants. Its own position is that the prophets mark a sworn word by its own wording (Numbers 23:19; Isaiah 54:9–10; 55:10–11; Malachi 3:6).
+
+**Page budget (estimate for the outline stage, modelled on Covenantal Vol 5 and Pauline Vol 3, 50 pages each).** Cover and Table of Contents 2; Preface, Thesis and passages 3; chapters 1–4 four pages each (16); chapter 5 five; chapter 6 three; chapter 7 four; chapter 8 (objections and replies) five; Conclusion 1; appendices 11–13 (at a glance, terms, study questions, key passages in full, Where the Passages Are Read, bibliography). Total 50–52, narrowly above the floor, chapter 6 the thinnest. If drafting runs short, the fallbacks are a chapter on the prophets' claims to be sent (Isaiah 6; Jeremiah 1; Ezekiel 2), which no neighbour treats, or a side-by-side table of the tests in the appendices; the publisher is told before any is used.
+
+**Modern voices verified so far (read in a free full text, 2026-10-15; named only for the position stated).**
+- Claude Mariottini (Emeritus Professor of Old Testament, Northern Baptist Seminary; blog post, 9 December 2008): no firm criteria for telling a true prophet from a false one at the moment of speaking; fulfilment (Deuteronomy 18:22) confirms afterwards. Opposing voice on the strictness of the tests (chapters 3, 4).
+- Wilhelm J. Wessels (*Journal for Semitics* 26/1, 2017, free PDF): the rival prophets of Jeremiah 23:9–15 are known false by their conduct and because the LORD did not send them (23:21). Supports chapter 2; does not treat 23:16–22.
+- Janick Fortier (*Discerning Between True and False Prophets in Jeremiah*, MTS thesis, Trinity Western University, 2022, free PDF): criteria of person and message, which "do not eliminate all doubts" but are "useful enough to inspire confidence"; Hananiah (Jeremiah 28) treated in chapter 2 of the thesis. Read through its first part only; the closing 15,684 characters and the Deuteronomy 13 treatment are not yet read.
+- James A. Diamond (University of Waterloo; TheTorah.com, 20 August 2020): the lying spirit of 1 Kings 22 works on what Ahab already wanted to believe ("the lying spirit that enticed him to this folly was himself"); Deuteronomy 18's test is of no use to a king who must decide before the outcome. Partly fortifies ruling 5 and partly objects to a strict reading of Deuteronomy 18:22 (chapter 4).
+- Mamahit and Widodo, "Jeremiah's Prophetic Authenticity" (*Old Testament Essays* 37/2, 2024): abstract only (fulfilled predictions an unreliable test; faithfulness to the Deuteronomic covenant the mark); the free full text could not be reached, so the volume does not quote it and names it only if it is read.
+Rejected as not on point or not free: Norman Brown (1975, paywalled), J. G. McConville (1991, does not treat the tests), Yitzhak Peleg on Jonah (does not treat the forty days as conditional prophecy). **Gap:** no verified modern voice yet for Jonah's unfulfilled forty days or for the sworn word; a chapter with none describes the position in the author's own words and names no one.
 
