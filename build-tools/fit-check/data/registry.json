@@ -2370,6 +2370,21 @@
   "key_passages": 8
  },
  {
+  "id": "V-prophets-3",
+  "type": "Commentary Volume",
+  "mode": 2,
+  "series": "The Prophets Series",
+  "n": 3,
+  "title": "The Nations Judged",
+  "subtitle": "The Grounds, the Terms, and the Endings the LORD Gave Each Nation",
+  "slug": "commentary-prophets-03-the-nations-judged.html",
+  "pages": 60,
+  "price": "$14.99",
+  "question": "It is the third volume of The Prophets Series, each volume of which is built around one narrower question the prophets raise themselves, not a walk through the prophetic books. Volume 1 asks how the prophets say a word of the LORD is known, and Volume 2 asks what they condemned in Israel’s worship; this volume asks what each oracle against a nation says of its own ground, term and ending.",
+  "source": "page",
+  "key_passages": 8
+ },
+ {
   "id": "V-typology-1",
   "type": "Commentary Volume",
   "mode": 2,

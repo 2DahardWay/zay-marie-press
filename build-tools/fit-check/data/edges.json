@@ -1268,6 +1268,13 @@
  },
  {
   "from": "S31",
+  "to_slug": "commentary-prophets-03-the-nations-judged.html",
+  "list": "Commentary Series",
+  "note": "Argues that each oracle against a nation names its own ground, term and ending, some closed, some part-fulfilled and some open; Study 31 sets the judgments of Scripture side by side and does not argue that sorting.",
+  "to": "V-prophets-3"
+ },
+ {
+  "from": "S31",
   "to_slug": "parable-31-the-sheep-and-the-goats.html",
   "list": "Parable Studies",
   "note": "Narrates one of the judgments this study classifies; read it to see that judgment in its own setting.",
@@ -4789,6 +4796,13 @@
  },
  {
   "from": "V-prophetic-5",
+  "to_slug": "commentary-prophets-03-the-nations-judged.html",
+  "list": "Commentary Series",
+  "note": "The oracles against the nations, tied by the cup of Jeremiah 25 to a day; this volume takes the campaign of Armageddon and the winepress and leaves the oracles there.",
+  "to": "V-prophets-3"
+ },
+ {
+  "from": "V-prophetic-5",
   "to_slug": "packet-revelation.html",
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of Revelation through its key passages; read it for the book’s own structure before this volume’s argument.",
@@ -6566,6 +6580,69 @@
   "to": "C-Jer"
  },
  {
+  "from": "V-prophets-3",
+  "to_slug": "study-31-the-judgments-of-scripture.html",
+  "list": "Digital Studies",
+  "note": "Sets the judgments of Scripture side by side as the passages state them; this volume argues what each oracle against a nation says of its own ground, term and ending.",
+  "to": "S31"
+ },
+ {
+  "from": "V-prophets-3",
+  "to_slug": "study-07-the-day-of-the-lord.html",
+  "list": "Digital Studies",
+  "note": "Reads the day of the LORD through judgment and restoration; this volume takes Joel 3 and Zephaniah 3:8 only as they tie the oracles to a day.",
+  "to": "S07"
+ },
+ {
+  "from": "V-prophets-3",
+  "to_slug": "study-27-israels-seven-appointed-feasts.html",
+  "list": "Digital Studies",
+  "note": "Reads the feast of tabernacles inside Leviticus 23; this volume reads Zechariah 14:16–19 only for the nations that go up to keep it.",
+  "to": "S27"
+ },
+ {
+  "from": "V-prophets-3",
+  "to_slug": "commentary-05-armageddon-and-the-winepress.html",
+  "list": "Commentary Series",
+  "note": "Argues the gathering, the campaign and the coming of Revelation 14, 16 and 19 and Isaiah 63; this volume reads Edom and the cup only as the oracles tie them to a day and leaves that campaign there.",
+  "to": "V-prophetic-5"
+ },
+ {
+  "from": "V-prophets-3",
+  "to_slug": "commentary-prophecy-mystery-05-separate-courts.html",
+  "list": "Commentary Series",
+  "note": "Argues the separate courts of judgment, the living nations of Matthew 25 among them; this volume reads the oracles against the nations and sets Joel 3 and Zephaniah 3:8 into no court.",
+  "to": "V-prophecy-mystery-5"
+ },
+ {
+  "from": "V-prophets-3",
+  "to_slug": "commentary-prophecy-mystery-03-the-kingdom-program.html",
+  "list": "Commentary Series",
+  "note": "Argues the Kingdom promised to Israel on the earth; this volume reads the open clauses of the oracles as nations blessed through that restored line.",
+  "to": "V-prophecy-mystery-3"
+ },
+ {
+  "from": "V-prophets-3",
+  "to_slug": "packet-isaiah.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Isaiah through its key passages.",
+  "to": "C-Isa"
+ },
+ {
+  "from": "V-prophets-3",
+  "to_slug": "packet-jeremiah.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Jeremiah through its key passages.",
+  "to": "C-Jer"
+ },
+ {
+  "from": "V-prophets-3",
+  "to_slug": "packet-ezekiel.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Ezekiel through its key passages.",
+  "to": "C-Ezek"
+ },
+ {
   "from": "V-typology-1",
   "to_slug": "study-27-israels-seven-appointed-feasts.html",
   "list": "Digital Studies",
@@ -7635,6 +7712,13 @@
   "list": "Commentary Series",
   "note": "A volume in the Commentary Collection whose argument draws on Ezekiel; this companion stays within the book.",
   "to": "V-prophets-1"
+ },
+ {
+  "from": "C-Ezek",
+  "to_slug": "commentary-prophets-03-the-nations-judged.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on Ezekiel; this companion stays within the book.",
+  "to": "V-prophets-3"
  },
  {
   "from": "C-Ezra",
