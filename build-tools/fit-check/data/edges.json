@@ -4670,6 +4670,13 @@
  },
  {
   "from": "V-prophetic-2",
+  "to_slug": "commentary-prophets-04-elijah-must-first-come.html",
+  "list": "Commentary Series",
+  "note": "Argues who the genuine Elijah is whom Malachi says will be sent, and whether the promise has been met; this volume argues the false prophet of Revelation 13 as the counterfeit and does not argue the genuine prophet.",
+  "to": "V-prophets-4"
+ },
+ {
+  "from": "V-prophetic-2",
   "to_slug": "packet-revelation.html",
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of Revelation through its key passages; read it for the book’s own structure before this volume’s argument.",
@@ -5416,6 +5423,13 @@
   "list": "Commentary Series",
   "note": "The kingdom promised to Israel, argued across the whole canon.",
   "to": "V-prophecy-mystery-3"
+ },
+ {
+  "from": "V-gospel-2",
+  "to_slug": "commentary-prophets-04-elijah-must-first-come.html",
+  "list": "Commentary Series",
+  "note": "Argues who the Elijah is that Malachi says will be sent, and whether the promise has been met; this volume argues the Lord’s ministry to Israel and reads John’s errand only within it.",
+  "to": "V-prophets-4"
  },
  {
   "from": "V-gospel-2",
@@ -6641,6 +6655,62 @@
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of Ezekiel through its key passages.",
   "to": "C-Ezek"
+ },
+ {
+  "from": "V-prophets-4",
+  "to_slug": "study-07-the-day-of-the-lord.html",
+  "list": "Digital Studies",
+  "note": "Reads the day of the LORD through judgment and restoration; this volume asks only who is sent before it and whether that promise has been met.",
+  "to": "S07"
+ },
+ {
+  "from": "V-prophets-4",
+  "to_slug": "study-75-faith-before-the-cross.html",
+  "list": "Digital Studies",
+  "note": "Records what each person before the Cross is said to have believed, John among them; this volume reads John 1 and 3 only for what John says of himself and of the one he is sent before.",
+  "to": "S75"
+ },
+ {
+  "from": "V-prophets-4",
+  "to_slug": "commentary-02-beast-false-prophet.html",
+  "list": "Commentary Series",
+  "note": "Argues the false prophet of Revelation 13 as the counterfeit of Elijah; this volume asks only who the genuine prophet is.",
+  "to": "V-prophetic-2"
+ },
+ {
+  "from": "V-prophets-4",
+  "to_slug": "commentary-acts-01-what-the-twelve-were-told-and-did.html",
+  "list": "Commentary Series",
+  "note": "Argues the apostles’ question in Acts 1:6 and the times of restitution in Acts 3:21; this volume cites Acts 3:21 only beside the Lord’s “restore all things.”",
+  "to": "V-acts-1"
+ },
+ {
+  "from": "V-prophets-4",
+  "to_slug": "commentary-gospel-02-the-lords-ministry-to-israel.html",
+  "list": "Commentary Series",
+  "note": "Argues the Lord’s ministry to Israel, John’s errand included; this volume asks only what Gabriel, John and the Lord each say of Elias.",
+  "to": "V-gospel-2"
+ },
+ {
+  "from": "V-prophets-4",
+  "to_slug": "packet-malachi.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Malachi through its key passages.",
+  "to": "C-Mal"
+ },
+ {
+  "from": "V-prophets-4",
+  "to_slug": "packet-matthew.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Matthew through its key passages.",
+  "to": "C-Matt"
+ },
+ {
+  "from": "V-prophets-4",
+  "to_slug": "packet-luke.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Luke through its key passages.",
+  "to": "C-Luke"
  },
  {
   "from": "V-typology-1",
@@ -8195,6 +8265,13 @@
   "list": "Digital Studies",
   "note": "Follow the book of life; the companion stays within Malachi.",
   "to": "S68"
+ },
+ {
+  "from": "C-Mal",
+  "to_slug": "commentary-prophets-04-elijah-must-first-come.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on Malachi; this companion stays within the book.",
+  "to": "V-prophets-4"
  },
  {
   "from": "C-Mark",
