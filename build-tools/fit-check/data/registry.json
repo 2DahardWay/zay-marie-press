@@ -2355,6 +2355,21 @@
   "key_passages": 8
  },
  {
+  "id": "V-prophets-2",
+  "type": "Commentary Volume",
+  "mode": 2,
+  "series": "The Prophets Series",
+  "n": 2,
+  "title": "What the Prophets Condemned",
+  "subtitle": "The Worshipers, the Worship, and the Offerings the LORD Appointed",
+  "slug": "commentary-prophets-02-what-the-prophets-condemned.html",
+  "pages": 57,
+  "price": "$14.99",
+  "question": "It is the second volume of The Prophets Series, each volume of which is built around one narrower question the prophets raise themselves, not a walk through the prophetic books. Volume 1 asks how the prophets say a word of the LORD is known; this volume asks what they condemned in Israel’s worship.",
+  "source": "page",
+  "key_passages": 8
+ },
+ {
   "id": "V-typology-1",
   "type": "Commentary Volume",
   "mode": 2,

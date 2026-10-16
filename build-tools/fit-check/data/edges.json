@@ -2304,6 +2304,13 @@
  },
  {
   "from": "S59",
+  "to_slug": "commentary-prophets-02-what-the-prophets-condemned.html",
+  "list": "Commentary Series",
+  "note": "Argues what the prophets condemned in Israel’s worship and what they left standing; Study 59 reports where the Law’s jurisdiction stands and draws no rule for the Body from the prophets’ charges.",
+  "to": "V-prophets-2"
+ },
+ {
+  "from": "S59",
   "to_slug": "parable-14-the-good-samaritan.html",
   "list": "Parable Studies",
   "note": "Shows the Law’s neighbor-standard in its own setting; read it alongside this study’s account of the Law’s jurisdiction.",
@@ -3008,6 +3015,13 @@
   "list": "Commentary Series",
   "note": "Argues what Paul leaves to conscience and the separate limits on liberty, reading Romans 14:5 and Colossians 2:16 in that setting; Study 78 reports the Sabbath passages as written and draws no conclusion on a day for the Body.",
   "to": "V-pauline-5"
+ },
+ {
+  "from": "S78",
+  "to_slug": "commentary-prophets-02-what-the-prophets-condemned.html",
+  "list": "Commentary Series",
+  "note": "Argues what each prophet condemns in Israel’s worship, reading Isaiah 58 and 66 for the fast and the house; Study 78 reports the Sabbath passages as written and leaves the day to itself.",
+  "to": "V-prophets-2"
  },
  {
   "from": "S79",
@@ -4824,6 +4838,13 @@
  },
  {
   "from": "V-acts-1",
+  "to_slug": "commentary-prophets-02-what-the-prophets-condemned.html",
+  "list": "Commentary Series",
+  "note": "Argues what Amos, Isaiah and the other prophets condemn in their own books; this volume reads Stephen’s use of Amos and Isaiah in Acts 7.",
+  "to": "V-prophets-2"
+ },
+ {
+  "from": "V-acts-1",
   "to_slug": "packet-acts.html",
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of Acts through its key passages; read it for the book’s own structure before this volume’s argument.",
@@ -6482,6 +6503,69 @@
   "to": "C-Ezek"
  },
  {
+  "from": "V-prophets-2",
+  "to_slug": "study-24-the-willful-sin-warning.html",
+  "list": "Digital Studies",
+  "note": "Reads Hebrews 10:26 and the “no more sacrifice” of 10:18 in the letter’s own setting; this volume reads Hebrews 10:1–10 only as the same verdict the prophets give on the offerings.",
+  "to": "S24"
+ },
+ {
+  "from": "V-prophets-2",
+  "to_slug": "study-78-the-sabbath-and-its-meanings.html",
+  "list": "Digital Studies",
+  "note": "Reports the Sabbath passages as written, Isaiah 58:13 and 66:23 among them; this volume reads Isaiah 58 and 66 for the fast and the house and leaves the day to that study.",
+  "to": "S78"
+ },
+ {
+  "from": "V-prophets-2",
+  "to_slug": "study-59-the-laws-jurisdiction-and-the-body-of-christ.html",
+  "list": "Digital Studies",
+  "note": "Reports where the Law’s jurisdiction stands; this volume asks what the prophets condemned and what they left standing in Israel’s worship, and draws no rule for the Body.",
+  "to": "S59"
+ },
+ {
+  "from": "V-prophets-2",
+  "to_slug": "commentary-typology-01-tabernacle-and-temple-typology.html",
+  "list": "Commentary Series",
+  "note": "Argues the pattern of the tabernacle and the Kingdom temple of Ezekiel 40–48; this volume reads the prophets’ charges against the worship in that house and leaves the pattern there.",
+  "to": "V-typology-1"
+ },
+ {
+  "from": "V-prophets-2",
+  "to_slug": "commentary-typology-03-priesthood-typology.html",
+  "list": "Commentary Series",
+  "note": "Argues the priesthood and its fulfilment; this volume reads Malachi’s charge against the priests and leaves the typology there.",
+  "to": "V-typology-3"
+ },
+ {
+  "from": "V-prophets-2",
+  "to_slug": "commentary-acts-01-what-the-twelve-were-told-and-did.html",
+  "list": "Commentary Series",
+  "note": "Argues Stephen’s use of Amos 5:25–27 and Isaiah 66:1–2 in Acts 7; this volume reads the same prophets in their own books.",
+  "to": "V-acts-1"
+ },
+ {
+  "from": "V-prophets-2",
+  "to_slug": "packet-isaiah.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Isaiah through its key passages.",
+  "to": "C-Isa"
+ },
+ {
+  "from": "V-prophets-2",
+  "to_slug": "packet-amos.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Amos through its key passages.",
+  "to": "C-Amos"
+ },
+ {
+  "from": "V-prophets-2",
+  "to_slug": "packet-jeremiah.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Jeremiah through its key passages.",
+  "to": "C-Jer"
+ },
+ {
   "from": "V-typology-1",
   "to_slug": "study-27-israels-seven-appointed-feasts.html",
   "list": "Digital Studies",
@@ -6648,6 +6732,13 @@
   "list": "Commentary Series",
   "note": "The first volume of this series, on the pattern shown in the mount.",
   "to": "V-typology-1"
+ },
+ {
+  "from": "V-typology-3",
+  "to_slug": "commentary-prophets-02-what-the-prophets-condemned.html",
+  "list": "Commentary Series",
+  "note": "Argues what each prophet condemns in Israel’s worship, Malachi’s charge against the priests among them; this volume argues the priesthood and its fulfilment.",
+  "to": "V-prophets-2"
  },
  {
   "from": "V-typology-3",
@@ -7301,6 +7392,13 @@
   "to": "S09"
  },
  {
+  "from": "C-Amos",
+  "to_slug": "commentary-prophets-02-what-the-prophets-condemned.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on Amos; this companion stays within the book.",
+  "to": "V-prophets-2"
+ },
+ {
   "from": "C-Col",
   "to_slug": "study-06-the-mystery-revealed-through-paul.html",
   "list": "Digital Studies",
@@ -7735,6 +7833,13 @@
   "to": "V-acts-5"
  },
  {
+  "from": "C-Isa",
+  "to_slug": "commentary-prophets-02-what-the-prophets-condemned.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on Isaiah; this companion stays within the book.",
+  "to": "V-prophets-2"
+ },
+ {
   "from": "C-Jas",
   "to_slug": "study-15-faith-and-works-in-james-and-paul.html",
   "list": "Digital Studies",
@@ -7775,6 +7880,13 @@
   "list": "Commentary Series",
   "note": "A volume in the Commentary Collection whose argument draws on Jeremiah; this companion stays within the book.",
   "to": "V-prophets-1"
+ },
+ {
+  "from": "C-Jer",
+  "to_slug": "commentary-prophets-02-what-the-prophets-condemned.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on Jeremiah; this companion stays within the book.",
+  "to": "V-prophets-2"
  },
  {
   "from": "C-Job",

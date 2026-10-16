@@ -1,6 +1,6 @@
-# Fit Check Map v1.2
+# Fit Check Map v1.3
 
-Version 1.2. Internal editorial record, approved by the publisher 2026-10-15. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
+Version 1.3. Internal editorial record, approved by the publisher 2026-10-16. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
 ## 1. How to use it
 
 1. Name the passage(s) and the one narrower question. 2. Run `python3 -I build-tools/fit-check/fitcheck.py "<passage>"` and read Sections 5 and 6 below. 3. Read the neighbours' own question in Section 4 (and the PDF when the grade is argued). 4. State the verdict: clear, fit by mode, fit by narrower question, overlap (needs a different question), or duplicate. 5. Check the series arc (Section 3) if a volume is proposed.
@@ -17,7 +17,7 @@ Depth grades come from counts in the publisher's PDFs (argued = named 4+ times, 
 | Bible Book Companion | 66 | PDF |
 | Bible Book Summary (free) | 66 | page |
 | Reader Question | 50 | page |
-| Commentary Volume | 41 | PDF |
+| Commentary Volume | 42 | PDF |
 | Parable Study | 35 | Word file |
 | Free Resource (library) | 21 | library entry |
 | Free Resource | 7 | page |
@@ -112,13 +112,14 @@ Depth grades come from counts in the publisher's PDFs (argued = named 4+ times, 
 - Vol 4: The Resurrection Order in Scripture — 50 pp
 - Vol 5: Separate Courts — 50 pp
 
-**The Prophets Series** (1 volume)
+**The Prophets Series** (2 volumes)
 
-*Arc:* Questions the prophets raise themselves, one narrow question per volume: how the prophets spoke (Vol 1; built), what they condemned (Vol 2), the nations judged (Vol 3), Elijah must first come (Vol 4, conditional).
+*Arc:* Questions the prophets raise themselves, one narrow question per volume: how the prophets spoke (Vol 1; built), what they condemned (Vol 2; built), the nations judged (Vol 3), Elijah must first come (Vol 4, conditional).
 
-*Neighbours (from the series Standard and the Prefaces):* Vol 1 shares passages with Study 75 (1 Peter 1:10–12), Study 67 (Psalm 110:4), Study 73 (Psalm 89), Covenantal Vol 5 (the sworn covenant), Prophetic Vol 2 (the false prophet of Revelation 13) and Acts Vol 1 (the prophet like Moses); it reads Deuteronomy 13 and 18, Jeremiah 23 and 28, 1 Kings 22 and Jonah where no other product argues them. The Standard holds the overlap table for Vols 2–4.
+*Neighbours (from the series Standard and the Prefaces):* Vol 1 shares passages with Study 75 (1 Peter 1:10–12), Study 67 (Psalm 110:4), Study 73 (Psalm 89), Covenantal Vol 5 (the sworn covenant), Prophetic Vol 2 (the false prophet of Revelation 13) and Acts Vol 1 (the prophet like Moses); it reads Deuteronomy 13 and 18, Jeremiah 23 and 28, 1 Kings 22 and Jonah where no other product argues them. Vol 2 shares Hebrews 10:1–10 with Study 24 and Typology Vols 1 and 3, Isaiah 58 and 66 with Study 78, and Amos 5:25–27 and Isaiah 66:1–2 (as Acts 7 quotes them) with Acts Vol 1; it reads Isaiah 1, Amos 5, Hosea 6, Micah 6, Jeremiah 6 and 7 and Malachi 1 and 2 where no other product argues them. The Standard holds the overlap table for Vols 3–4.
 
 - Vol 1: How the Prophets Spoke — 51 pp
+- Vol 2: What the Prophets Condemned — 57 pp
 
 **Typology Commentary** (5 volumes)
 
@@ -169,14 +170,14 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-prophecy-mystery-1 | Israel & the Body | 37 |
 | V-prophecy-mystery-2 | The Mystery Program | 35 |
 | V-prophecy-mystery-3 | The Kingdom Program | 26 |
-| V-covenantal-4 | The Eternal Purpose of God | 25 |
 | V-acts-5 | Acts 28 | 25 |
+| V-covenantal-4 | The Eternal Purpose of God | 25 |
 | V-identity-5 | The Eschatological Community | 22 |
 | V-identity-4 | The Olive Tree | 20 |
 | S38 | Why Acts Is Not a Universal Experience Manual | 19 |
 | V-identity-3 | The New Covenant | 18 |
 | V-acts-3 | Paul Called and Sent | 18 |
-| V-acts-2 | The Spirit in Acts | 17 |
+| V-identity-2 | The Remnant | 17 |
 | S41 | Kingdom of God orKingdom of Heaven? | 17 |
 
 ## 4. Register (every item, one line)
@@ -241,7 +242,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | S56 | Digital Study | Inheritance | 20 | 5 |
 | S57 | Digital Study | The Eternal Purpose of God | 20 | 8 |
 | S58 | Digital Study | What Is a Dispensation? | 20 | 7 |
-| S59 | Digital Study | The Law’s Jurisdiction and the Body of Christ | 20 | 9 |
+| S59 | Digital Study | The Law’s Jurisdiction and the Body of Christ | 20 | 10 |
 | S60 | Digital Study | The Churches Named in Scripture | 15 | 5 |
 | S61 | Digital Study | Revelation 12 | 14 | 6 |
 | S62 | Digital Study | Matthew 5:17–20 | 19 | 5 |
@@ -260,7 +261,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | S75 | Digital Study | Faith Before the Cross | 16 | 6 |
 | S76 | Digital Study | Strength to Stand | 16 | 4 |
 | S77 | Digital Study | The Believer and Government | 16 | 4 |
-| S78 | Digital Study | The Sabbath and Its Meanings | 16 | 4 |
+| S78 | Digital Study | The Sabbath and Its Meanings | 16 | 5 |
 | S79 | Digital Study | The Realms of the Dead | 16 | 5 |
 | S80 | Digital Study | The Lamb Foreordained | 16 | 5 |
 | S81 | Digital Study | Praying in the Spirit | 16 | 6 |
@@ -309,7 +310,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-prophetic-3 | Commentary Volume | The Scarlet Beast and the Woman | 59 | 6 |
 | V-prophetic-4 | Commentary Volume | Daniel’s Seventy Weeks | 55 | 5 |
 | V-prophetic-5 | Commentary Volume | Armageddon and the Winepress | 55 | 7 |
-| V-acts-1 | Commentary Volume | Acts 1–8 | 57 | 6 |
+| V-acts-1 | Commentary Volume | Acts 1–8 | 57 | 7 |
 | V-acts-2 | Commentary Volume | The Spirit in Acts | 52 | 7 |
 | V-acts-3 | Commentary Volume | Paul Called and Sent | 54 | 7 |
 | V-acts-4 | Commentary Volume | Cornelius and the Council | 51 | 7 |
@@ -340,9 +341,10 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-prophecy-mystery-4 | Commentary Volume | The Resurrection Order in Scripture | 50 | 9 |
 | V-prophecy-mystery-5 | Commentary Volume | Separate Courts | 50 | 11 |
 | V-prophets-1 | Commentary Volume | How the Prophets Spoke | 51 | 9 |
+| V-prophets-2 | Commentary Volume | What the Prophets Condemned | 57 | 9 |
 | V-typology-1 | Commentary Volume | Tabernacle & Temple Typology | 50 | 8 |
 | V-typology-2 | Commentary Volume | Prophetic Separation | 50 | 11 |
-| V-typology-3 | Commentary Volume | Priesthood Typology: Aaron, Melchizedek & Christ | 52 | 7 |
+| V-typology-3 | Commentary Volume | Priesthood Typology: Aaron, Melchizedek & Christ | 52 | 8 |
 | V-typology-4 | Commentary Volume | Exodus Typology | 55 | 7 |
 | V-typology-5 | Commentary Volume | Kingdom Typology | 51 | 7 |
 | QV1 | Reader Questions Volume | Reader Questions | 28 | 8 |
@@ -365,7 +367,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 
 ## 4b. Narrower questions (each item's own statement)
 
-92 of 162 studies, parables and volumes state a narrower question in so many words (marked **stated**). For the 70 that do not (35 parables, 24 volumes, 11 studies) a one-line question was drafted from the item's own text (marked *drafted, for review*) and is not yet approved.
+93 of 163 studies, parables and volumes state a narrower question in so many words (marked **stated**). For the 70 that do not (35 parables, 24 volumes, 11 studies) a one-line question was drafted from the item's own text (marked *drafted, for review*) and is not yet approved.
 
 | ID | Title | Narrower question | Basis |
 |---|---|---|---|
@@ -526,6 +528,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-prophecy-mystery-4 | The Resurrection Order in Scripture | What are the resurrections of Scripture, whose are they, and in what order do they fall? | *drafted, for review* |
 | V-prophecy-mystery-5 | Separate Courts | Who is judged, where, by whom, and for what? | *drafted, for review* |
 | V-prophets-1 | How the Prophets Spoke | It is the first volume of The Prophets Series, each volume of which is built around one narrower question the prophets raise themselves, not a walk through the prophetic books. | **stated** |
+| V-prophets-2 | What the Prophets Condemned | It is the second volume of The Prophets Series, each volume of which is built around one narrower question the prophets raise themselves, not a walk through the prophetic books. | **stated** |
 | V-typology-1 | Tabernacle & Temple Typology | What did the tabernacle and temple pattern shown in the mount point to in Christ, and where does it not pass to the Body? | *drafted, for review* |
 | V-typology-2 | Prophetic Separation | Whose scene is “the one taken and the other left,” and where does the pattern of separating the judged from the kept end? | *drafted, for review* |
 | V-typology-3 | Priesthood Typology: Aaron, Melchizedek & Christ | How do the priesthoods of Aaron and Melchizedek stand to Christ, and does the Body hold a priesthood? | *drafted, for review* |
@@ -599,7 +602,7 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 | Romans 6 | 7 | S16, S42, S45, S46, S59, S62, V-pauline-2 |
 | 1 Thessalonians 4 | 7 | S03, S07, S29, S45, S49, S59, V-gospel-3 |
 
-132 chapters in all; top 60 shown.
+133 chapters in all; top 60 shown.
 
 ## 6. Gaps (chapters no study, volume or parable argues, reports or lists as key)
 
@@ -625,23 +628,22 @@ Companions, summaries and reader questions are not counted, because they read a 
 | Nehemiah | 3–8, 10–12 | 13 |
 | Esther | 1–10 | 10 |
 | Job | 1–18, 20–38, 40–42 | 42 |
-| Psalms | 1, 3–5, 7–15, 19–22, 25–31, 34–36, 38–40, 42–44, 46–47, 50, 53–68, 70–71, 73–75, 77, 79, 82, 84–86, 88, 90–95, 97–102, 104, 107–109, 112–113, 116, 119–127, 129–131, 133–135, 137–140, 142–144, 146–150 | 150 |
+| Psalms | 1, 3–5, 7–15, 19–22, 25–31, 34–36, 38–39, 42–44, 46–47, 53–68, 70–71, 73–75, 77, 79, 82, 84–86, 88, 90–95, 97–102, 104, 107–109, 112–113, 116, 119–127, 129–131, 133–135, 137–140, 142–144, 146–150 | 150 |
 | Proverbs | 1–2, 4–20, 22–31 | 31 |
 | Ecclesiastes | 1–8, 10–12 | 12 |
 | Song of Solomon | 1–8 | 8 |
-| Isaiah | 3, 12, 15–18, 20, 24, 30–31, 33, 36, 39, 58, 64 | 66 |
-| Jeremiah | 1, 5–6, 8, 10, 12–15, 17, 19–21, 24, 27, 35, 37–41, 43–49, 52 | 52 |
+| Isaiah | 3, 12, 15–18, 20, 24, 30–31, 33, 36, 39, 64 | 66 |
+| Jeremiah | 1, 5, 8, 10, 12–15, 19–21, 24, 27, 35, 37–41, 43–49, 52 | 52 |
 | Lamentations | 1, 3–5 | 5 |
 | Ezekiel | 1–5, 7–8, 15, 17, 19, 22, 25–26, 29–31, 35, 41–42 | 48 |
 | Daniel | 1, 6 | 12 |
-| Hosea | 4–5, 7–9, 12 | 14 |
-| Amos | 1–2, 4, 6–8 | 9 |
+| Hosea | 7, 9, 12 | 14 |
+| Amos | 2, 6 | 9 |
 | Obadiah | 1 | 1 |
 | Jonah | 1–2 | 4 |
-| Micah | 1, 6 | 7 |
+| Micah | 1 | 7 |
 | Nahum | 1–2 | 3 |
 | Habakkuk | 1 | 3 |
-| Zechariah | 7 | 14 |
 | Matthew | 14 | 28 |
 | Mark | 3, 12 | 16 |
 | John | 9, 21 | 21 |
@@ -654,16 +656,16 @@ Companions, summaries and reader questions are not counted, because they read a 
 
 ## 7. Relationships
 
-1250 Related Reading links were read from the website pages (1250 resolve to a mapped item). Links are cross-references; they say a neighbour exists, not what the neighbour argues. The per-item neighbour notes are in `build-tools/fit-check/data/edges.json`.
+1266 Related Reading links were read from the website pages (1266 resolve to a mapped item). Links are cross-references; they say a neighbour exists, not what the neighbour argues. The per-item neighbour notes are in `build-tools/fit-check/data/edges.json`.
 
 Related Reading links by product family (rows link to columns):
 
 | From \ To | Study | Volume | Parable | Companion | Reader Q | Summary | Other |
 |---|---|---|---|---|---|---|---|
-| Study | 263 | 148 | 23 | 30 | 0 | 0 | 0 |
-| Volume | 123 | 89 | 10 | 90 | 0 | 0 | 0 |
+| Study | 263 | 150 | 23 | 30 | 0 | 0 | 0 |
+| Volume | 126 | 94 | 10 | 93 | 0 | 0 | 0 |
 | Parable | 24 | 10 | 105 | 51 | 0 | 0 | 0 |
-| Companion | 139 | 57 | 3 | 44 | 0 | 0 | 0 |
+| Companion | 139 | 60 | 3 | 44 | 0 | 0 | 0 |
 | Reader Q | 15 | 10 | 2 | 14 | 0 | 0 | 0 |
 | Summary | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Other | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -678,10 +680,9 @@ Related Reading links by product family (rows link to columns):
 
 ## 8b. Planned series items (not yet built; no PDFs to grade)
 
-**The Prophets Series** (ninth commentary series, registered 2026-10-15 in Master Standard v1.159; Standard `Prophets_Series_Standard_v1.6.md`). Volume 1, How the Prophets Spoke, is built and in the map above (51 pages with the cover). Volumes 2–4 are planned; Volume 4 is conditional. Passage lists and neighbour notes are in the Standard; the chapter-level tables include these volumes once their PDFs exist. Until then, look up a prophetic passage with `fitcheck.py` and read the Standard before proposing anything near them.
+**The Prophets Series** (ninth commentary series, registered 2026-10-15 in Master Standard v1.159; Standard `Prophets_Series_Standard_v1.8.md`). Volumes 1 and 2, How the Prophets Spoke (51 pages with the cover) and What the Prophets Condemned (57 pages), are built and in the map above. Volumes 3 and 4 are planned; Volume 4 is conditional. Passage lists and neighbour notes are in the Standard; the chapter-level tables include these volumes once their PDFs exist. Until then, look up a prophetic passage with `fitcheck.py` and read the Standard before proposing anything near them.
 | Planned item | Narrower question (provisional; the publisher approves each volume's title, thesis and outline) |
 |---|---|
-| Prophets Vol 2, What the Prophets Condemned | What does each prophet condemn, in whose worship, and what does he leave standing? |
 | Prophets Vol 3, The Nations Judged | Which oracles does Scripture itself report fulfilled, which does it hold open, and what does each say it rests on? (Babylon stays with Prophetic Commentary Vol 3; Edom with Vol 5.) |
 | Prophets Vol 4, Elijah Must First Come (conditional) | What do Malachi 3:1 and 4:5–6 promise, how do the Gospels answer, and what does the text say of a further coming? (Dropped if the outline's realistic page count with cover is under 50.) |
 
@@ -689,9 +690,10 @@ Related Reading links by product family (rows link to columns):
 
 | Version | Date | Change |
 |---|---|---|
-| 1.0 | 2026-10-15 | First build from the website pages and the publisher's PDFs (86 studies, 40 commentary volumes, 35 parables, 66 companions, 66 summaries, 5 reader-question volumes and 50 questions, resources and maps, the Full Framework). Replaces the Digital Studies Relationship Map v1.54, carried forward whole in the Appendix. |
+| 1.0 | 2026-10-16 | First build from the website pages and the publisher's PDFs (86 studies, 40 commentary volumes, 35 parables, 66 companions, 66 summaries, 5 reader-question volumes and 50 questions, resources and maps, the Full Framework). Replaces the Digital Studies Relationship Map v1.54, carried forward whole in the Appendix. |
 | 1.1 | 2026-10-15 | Adds Section 8b, Planned series: The Prophets Series (four volumes, Volume 4 conditional) with each volume's provisional narrower question, ahead of any PDF. No grades changed. |
 | 1.2 | 2026-10-15 | Adds The Prophets Series Volume 1, How the Prophets Spoke (51 pages with the cover), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists Volumes 2–4 only. Related Reading links added both ways with Studies 67, 73 and 75, Prophetic Commentary Vol 2, Acts Vol 1 and the Jeremiah, Deuteronomy and Ezekiel companions. |
+| 1.3 | 2026-10-16 | Adds The Prophets Series Volume 2, What the Prophets Condemned (57 pages with the cover), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists Volumes 3–4 only. Related Reading links added both ways with Study 59, Study 78, Typology Commentary Vol 3, Acts Vol 1 and the Isaiah, Jeremiah and Amos companions. |
 
 ## Appendix. Digital Studies Relationship Map v1.54 (carried forward whole)
 

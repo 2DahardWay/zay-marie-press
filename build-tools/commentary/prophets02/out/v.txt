@@ -1,0 +1,2519 @@
+Table of Contents
+Preface................................................................................................................................ 2
+Thesis.................................................................................................................................. 3
+1. The Earlier Voices...........................................................................................................3
+2. Isaiah 1: The Crowded House........................................................................................ 7
+3. Amos: Bethel, Gilgal and the Feast Days.....................................................................10
+4. Hosea and Micah: Mercy, and Not Sacrifice...............................................................14
+5. Jeremiah: The Temple Sermon and the Hardest Sentence.......................................18
+6. The Fast, the House and the Question from Bethel....................................................21
+7. Malachi: The Priests and the Pleasant Offering.........................................................25
+8. Hebrews 10: The Same Verdict from the Other Side..................................................28
+9. Objections and Replies................................................................................................. 31
+Conclusion........................................................................................................................ 35
+Appendix A. The Indictments at a Glance.......................................................................37
+Appendix B. Key Words....................................................................................................38
+Appendix C. Questions for Study..................................................................................... 39
+Appendix D. The Key Passages in Full............................................................................ 40
+Appendix E. Where the Passages Are Read....................................................................47
+Bibliography...................................................................................................................... 55
+
+
+
+
+                          ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 1
+Preface
+This volume argues a position. It does not collect what churches say about the
+prophets and sacrifice and leave the reader to choose. It says what the author
+believes the prophets themselves teach about the worship of Israel, it gives the
+evidence from their own sentences, and it answers the strongest objections in the
+objectors’ words, so that a reader who disagrees knows exactly where.
+The question is narrow, and the prophets raise it. Samuel asks it of a king: “Hath the
+LORD as great delight in burnt offerings and sacrifices, as in obeying the voice of the
+LORD?” (1 Samuel 15:22). Isaiah has the LORD say of a crowded temple, “To what
+purpose is the multitude of your sacrifices unto me?” (Isaiah 1:11). Amos has him say,
+“I hate, I despise your feast days” (Amos 5:21). Hosea has him say, “For I desired
+mercy, and not sacrifice” (Hosea 6:6). Many readers have taken these sentences to
+mean that the LORD, through his prophets, set aside the sacrifices he had
+commanded. Others have taken them to mean that he cared only for the heart and
+nothing for the altar. The volume asks what each prophet condemns, in whose
+worship, and what he leaves standing.
+The position is this. The prophets condemn the worshipers and the way they worship,
+and they never condemn the worship the LORD commanded. In every indictment the
+offerings are named as Israel’s own, brought to the LORD’s house at the LORD’s
+appointment. The charge falls on what the worshiper does outside the house and on
+what he thinks the offering buys. The sentence is judgment on the house and the
+people, and not abolition of the order. The remedy the prophets name is turning back,
+and the offerings reappear in their own hope of a purified people. The sentences that
+seem to say otherwise, “mercy, and not sacrifice” and “I spake not unto your fathers …
+concerning burnt offerings,” are statements of rank. They say what the LORD asked
+first and what he asks above all.
+Three things about the method. First, the volume reads the King James Version only,
+and every Scripture quotation is checked word for word against it. Second, each
+chapter opens with a claim, reads its passages in order, and closes with a short table
+and a list of what the volume takes from the passage, so that the reader can see what
+has been argued and test it. Third, where modern writers are named, they are named
+for a position the author has read in a free text, and where an objection is stated, it is
+stated as the objector would state it and then answered from the verses.
+The volume does not take up what its neighbours argue. The Kingdom temple of
+Ezekiel 40–48 and the sacrifices written there are read in Typology Commentary
+Volume 1; the priesthood of Aaron and Melchizedek in Typology Commentary Volume
+3; the scope of the phrase the law or the prophets in Study 62 and the Law’s
+jurisdiction in Study 59; the Sabbath of Isaiah 58:13 and 66:23 in Study 78; Malachi
+3:8–12 on giving in Study 47; and Stephen’s use of Amos 5:25–27 in Acts
+Commentary Volume 1. This volume cites them and does not repeat them. It reads
+Hebrews 10:5–10 inside Israel’s line, on the letter’s own audience markers and the
+covenant it quotes, and builds no doctrine for the Body of Christ from the prophets’
+charges. The charges were spoken to Israel about Israel’s worship, and the volume
+keeps them there.
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 2
+Thesis
+The prophets condemn the worshipers and the way they worship, never the worship
+the LORD commanded. Where a passage names no sentence of abolition, the volume
+says so and builds none.
+The thesis in four statements.
+
+ Statem    What it says                                           Where it is argued
+ ent
+ 1         The offerings the prophets condemn are named as        Chapters 1, 2 and 3
+           the LORD’s own appointment, brought by Israel to
+           the LORD’s house; the charge is never that the
+           LORD did not command them.
+ 2         The charge falls on the worshiper’s conduct and        Chapters 2, 3 and 5
+           on what he thinks the offering buys; the indictment
+           is of the people who bring and the way they bring.
+ 3         “Mercy, and not sacrifice” and “I spake not …          Chapters 4, 5 and 6
+           concerning burnt offerings” are statements of
+           rank; the sentence is judgment on the house and
+           the people, not abolition, and the remedy is to turn
+           back.
+ 4         The offerings reappear in the prophets’ own hope;      Chapters 7 and 8
+           Hebrews 10 gives the same verdict from the other
+           side, that the Law’s sacrifices never took sins
+           away, inside Israel’s line.
+
+A reader may test the thesis in one move. Take any prophetic condemnation of
+worship and ask four questions of it in order: whose offering is it, what does the LORD
+say against it, what does he do about it, and what does he leave standing? If a prophet
+anywhere says the order itself is wrong, or that the LORD never commanded it, the
+thesis fails. If each indictment instead names the offering as Israel’s own, charges the
+worshiper, and sentences the house and people while holding the way back open, the
+thesis stands, and the reader will have seen why the prophets can say hard things
+about sacrifice and yet speak of the offerings of a purified people.
+
+
+1. The Earlier Voices
+Claim: before any writing prophet speaks against the sacrifices, a prophet and a king
+speak from inside the Law, and what they say sets the pattern the later prophets
+follow. Samuel sets obedience above sacrifice and then goes back with the king to
+the place of worship. David says the LORD did not desire sacrifice and offering, and
+then says what he delights to do. Asaph hears the LORD say he will not reprove Israel
+for its sacrifices, and then hears him reprove the worshipers. In none of the passages
+is the order abolished.
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 3
+1.1 Saul at Gilgal
+The earliest sentence in the series is spoken to a king who has kept part of a
+command. The LORD had sent Saul to “utterly destroy the sinners the Amalekites” (1
+Samuel 15:18). Saul comes back with the best of the sheep and oxen, and Samuel
+hears them: “What meaneth then this bleating of the sheep in mine ears, and the
+lowing of the oxen which I hear?” (1 Samuel 15:14). Saul says the people spared the
+best “to sacrifice unto the LORD thy God” (1 Samuel 15:15), and again, of the chief of
+the spoil, “to sacrifice unto the LORD thy God in Gilgal” (1 Samuel 15:21).
+The offering Saul describes is real. It is a sacrifice to the LORD, at a place of sacrifice,
+from the best of the flock. The text does not say the offering would have been
+wrongly made if it had been made in obedience. It says the animals were taken
+against a command, and the pretext for the taking was the offering. Saul’s sentence is
+the first form of a mistake the prophets will name again and again: that the offering
+can be brought as a payment to cover what the worshiper has done.
+1.2 To obey is better than sacrifice
+Samuel answers with a question and a statement. “Hath the LORD as great delight in
+burnt offerings and sacrifices, as in obeying the voice of the LORD? Behold, to obey is
+better than sacrifice, and to hearken than the fat of rams” (1 Samuel 15:22). The
+grammar of the sentence is a comparison. Burnt offerings and sacrifices are named
+as things in which the LORD has delight. Obedience is set above them. The verse
+does not say that the LORD has no delight in sacrifice. It says he has more delight in
+the voice being obeyed.
+The next verse names what Saul has done in the terms of the Law’s gravest sins. “For
+rebellion is as the sin of witchcraft, and stubbornness is as iniquity and idolatry.
+Because thou hast rejected the word of the LORD, he hath also rejected thee from
+being king” (1 Samuel 15:23). The charge is the rejection of the word of the LORD. The
+sacrifice is not what is rejected. Saul himself confesses in the following verse, “I have
+sinned: for I have transgressed the commandment of the LORD, and thy words” (1
+Samuel 15:24), and he asks Samuel to “turn again with me, that I may worship the
+LORD” (1 Samuel 15:25).
+Samuel first refuses, then goes. “I will not return with thee: for thou hast rejected the
+word of the LORD, and the LORD hath rejected thee from being king over Israel” (1
+Samuel 15:26). But the chapter says a few verses later that “Samuel turned again
+after Saul; and Saul worshipped the LORD” (1 Samuel 15:31). The prophet who has
+just said obedience is better than sacrifice goes back with the king to the place of
+worship. He does not take the king’s worship to be void. He takes the king’s rule to be
+forfeited. The sentence of 15:22 is therefore a statement of rank inside a worship the
+prophet shares, and the pattern is already set: the offering stands, the man who
+brings it in disobedience is judged.
+1.3 David: sacrifice and offering thou didst not desire
+The Psalms add two voices from within the same order. In the fortieth psalm David
+says, “Sacrifice and offering thou didst not desire; mine ears hast thou opened: burnt
+offering and sin offering hast thou not required” (Psalm 40:6). The sentence names
+four kinds of offering, sacrifice, offering, burnt offering and sin offering, and says the
+LORD did not desire or require them. The next two verses give what he did desire.
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 4
+“Then said I, Lo, I come: in the volume of the book it is written of me, I delight to do thy
+will, O my God: yea, thy law is within my heart” (Psalm 40:7, 8).
+The psalm sets the offerings beside the law. What is placed within the heart is the
+law, and the delight is in doing the will of God. The singer does not repudiate the
+book. He says it is written of him, and the law is within his heart. The sentence of
+verse 6 is the “not … but” that the volume will meet again at Hosea 6:6 and Jeremiah
+7:22: not these offerings as the thing the LORD wants, but the will done from the
+heart. The psalm goes on, in verses 9 and 10, to the public declaration of what the
+singer has done: “I have preached righteousness in the great congregation: lo, I have
+not refrained my lips, O LORD, thou knowest” (Psalm 40:9). The great congregation is
+Israel assembled for worship, and the psalmist speaks there.
+The wording of verse 6, “mine ears hast thou opened,” is the sentence Hebrews 10
+will quote in a different form. Chapter 8 reads that quotation. For now it is enough to
+say that Psalm 40:6 in the King James Version says what it says, and that the volume
+builds on no difference of wording.
+1.4 Asaph: I will not reprove thee for thy sacrifices
+The fiftieth psalm is the clearest of the earlier voices on what the LORD leaves
+standing. God speaks as judge (Psalm 50:6), and he begins with his people: “Gather
+my saints together unto me; those that have made a covenant with me by sacrifice”
+(Psalm 50:5). The people are defined by a covenant made by sacrifice, and the LORD
+says so before he reproves them. Then comes the address: “Hear, O my people, and I
+will speak; O Israel, and I will testify against thee: I am God, even thy God” (Psalm
+50:7).
+The first thing the LORD says is what he does not charge. “I will not reprove thee for
+thy sacrifices or thy burnt offerings, to have been continually before me” (Psalm 50:8).
+The sentence is an explicit statement that the sacrifices and burnt offerings,
+continually before him, are not the ground of the reproof. What follows is a rebuke of
+a mistaken idea of what the sacrifices are. “I will take no bullock out of thy house, nor
+he goats out of thy folds. For every beast of the forest is mine, and the cattle upon a
+thousand hills” (Psalm 50:9, 10). “If I were hungry, I would not tell thee: for the world is
+mine, and the fulness thereof. Will I eat the flesh of bulls, or drink the blood of goats?”
+(Psalm 50:12, 13).
+The LORD does not say he has given no sacrifices. He says he does not need them as
+a man needs food, and that the people must not think of the offering as something
+they supply to him. In its place he names thank-offering and vow: “Offer unto God
+thanksgiving; and pay thy vows unto the most High: and call upon me in the day of
+trouble: I will deliver thee, and thou shalt glorify me” (Psalm 50:14, 15). Thanksgiving
+and vows are the language of the sacrifices of peace and of vows in Israel’s worship,
+and the LORD asks for them. The closing verse of the psalm says the same: “Whoso
+offereth praise glorifieth me: and to him that ordereth his conversation aright will I
+shew the salvation of God” (Psalm 50:23).
+The second half of the psalm turns to the worshiper who recites the covenant and
+lives otherwise. “But unto the wicked God saith, What hast thou to do to declare my
+statutes, or that thou shouldest take my covenant in thy mouth? Seeing thou hatest
+instruction, and castest my words behind thee” (Psalm 50:16, 17). The list is of
+conduct, theft, adultery, deceit and slander (Psalm 50:18–20), and the LORD adds,
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 5
+“These things hast thou done, and I kept silence; thou thoughtest that I was altogether
+such an one as thyself: but I will reprove thee, and set them in order before thine eyes”
+(Psalm 50:21). The charge is a misjudgment of the LORD, that he is such a one as the
+worshiper, and it rests on the worshiper’s life, not on the altar.
+1.5 David again: a broken spirit, then the walls, then the offerings
+The fifty-first psalm is David’s confession after his sin, and it contains the sentence
+most often quoted against the altar. “For thou desirest not sacrifice; else would I give
+it: thou delightest not in burnt offering” (Psalm 51:16). It follows a prayer for
+cleansing, “Wash me throughly from mine iniquity, and cleanse me from my sin”
+(Psalm 51:2), and an acknowledgment that the sin is “against thee, thee only” (Psalm
+51:4). The singer says that if sacrifice would answer, he would give it. He comes with
+no offering. What he brings is stated in the next verse. “The sacrifices of God are a
+broken spirit: a broken and a contrite heart, O God, thou wilt not despise” (Psalm
+51:17).
+Verses 18 and 19 are the sentences that decide how verse 16 is read. “Do good in thy
+good pleasure unto Zion: build thou the walls of Jerusalem. Then shalt thou be
+pleased with the sacrifices of righteousness, with burnt offering and whole burnt
+offering: then shall they offer bullocks upon thine altar” (Psalm 51:18, 19). The psalm
+that said the LORD does not delight in burnt offering ends by saying that when Zion is
+blessed and Jerusalem’s walls are built, the LORD will be pleased with burnt offering
+and whole burnt offering, and bullocks will be offered on his altar. The same singer, in
+the same psalm, says both. The only reading that keeps both is the reading of rank
+and of order: the offering is not what covers a sin of this kind, and it is received with
+pleasure when it is offered by those who have come with a broken heart and in a
+restored city.
+The volume reports verses 18 and 19 as written. It does not say when the walls are
+built or which altar is meant, and it builds nothing on the time. It says what the psalm
+says: the singer expects burnt offering and bullocks upon the altar to please the
+LORD.
+The earlier voices in four passages.
+
+ Passage           What is said against the            What is left standing
+                   offering
+ 1 Samuel          Obedience is better than            Burnt offerings and sacrifices
+ 15:22             sacrifice; the fat of rams is not   are named as things in which
+                   what the LORD delights in           the LORD has delight; Samuel
+                   above his voice                     returns with Saul and Saul
+                                                       worships (15:31)
+ Psalm 40:6        Sacrifice, offering, burnt          The book and the law, and the
+                   offering and sin offering are not   delight to do his will, stand; the
+                   what the LORD desired or            singer declares righteousness
+                   required                            in the great congregation
+                                                       (40:7–10)
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 6
+ Passage          What is said against the            What is left standing
+                  offering
+ Psalm 50:8–      The LORD does not need the          “I will not reprove thee for thy
+ 15               beasts as food; the offering is     sacrifices”; thanksgiving and
+                  not a supply to him                 vows are asked; the charge falls
+                                                      on the wicked worshiper
+                                                      (50:16–21)
+ Psalm 51:16–     The LORD does not delight in        When Zion is blessed and the
+ 19               burnt offering for this sin; a      walls built, the LORD is pleased
+                  broken spirit is the sacrifice      with burnt offering and bullocks
+                                                      on his altar (51:18, 19)
+
+1.6 What the volume takes from the passages
+ • Samuel, David and Asaph speak from inside the Law and the worship of Israel;
+   none of them stands outside it to condemn it.
+ • Each sentence against sacrifice is a sentence of rank or of misuse: obedience
+   above the fat of rams, the will done from the heart above the four offerings, the
+   thank-offering and the vow above the supposed food of the altar, a broken spirit
+   above a sacrifice that cannot cover this sin.
+ • Psalm 50:8 states in so many words what the LORD does not charge: “I will not
+   reprove thee for thy sacrifices.”
+ • Psalm 51:18, 19 and 1 Samuel 15:31 show the offerings and the worship still
+   standing in the same passages.
+ • The pattern is set before the writing prophets: the sentence falls on the one who
+   brings, in disobedience or in the thought that the LORD is such an one as himself.
+
+
+2. Isaiah 1: The Crowded House
+Claim: the first chapter of Isaiah is the longest and plainest indictment of worship in
+the prophets, and it condemns neither the offerings nor the appointed times. It
+condemns a people whose hands are full of blood coming to a house the LORD has
+already said he is weary of seeing them tread. It names the remedy in nine
+commands, offers to reason with them, and ends with a purged and restored city. The
+order of worship is the setting of the charge from the first verse to the last.
+2.1 The setting: Judah and Jerusalem
+The chapter says whom it is about before it says anything about worship. “The vision
+of Isaiah the son of Amoz, which he saw concerning Judah and Jerusalem in the days
+of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah” (Isaiah 1:1). The LORD has
+“nourished and brought up children, and they have rebelled against me” (Isaiah 1:2).
+The nation is “laden with iniquity,” a people who “have forsaken the LORD” (Isaiah
+1:4). The land is desolate and the cities burned (Isaiah 1:7). Verse 9 says that “except
+the LORD of hosts had left unto us a very small remnant,” Judah would have been like
+Sodom and Gomorrah.
+The next verse takes the names from the verse before. “Hear the word of the LORD, ye
+rulers of Sodom; give ear unto the law of our God, ye people of Gomorrah” (Isaiah
+1:10). Judah’s rulers are called rulers of Sodom, and the prophet’s message is called
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 7
+the law of our God. The word the prophet speaks is set beside the law, not against it.
+What follows is not a new teaching about what God wants in place of what he
+commanded. It is the application of what God commanded to those who handle it
+wrongly.
+2.2 The multitude of your sacrifices
+The first question is about quantity. “To what purpose is the multitude of your
+sacrifices unto me? saith the LORD: I am full of the burnt offerings of rams, and the
+fat of fed beasts; and I delight not in the blood of bullocks, or of lambs, or of he goats”
+(Isaiah 1:11). Three things in the sentence are worth marking. The sacrifices are
+called “your sacrifices unto me,” offerings brought to him. The sentence speaks of a
+multitude: the problem is the pile, and the idea in the pile. And the verb is “delight,” the
+same verb Samuel used when he asked whether the LORD had as great delight in
+burnt offerings as in obeying his voice (1 Samuel 15:22). The comparison of rank is in
+the background again. The LORD says he has more than enough of these and delights
+in none of them as they are brought.
+The second question is about the one who requires. “When ye come to appear before
+me, who hath required this at your hand, to tread my courts?” (Isaiah 1:12). The
+question can be misread as a denial that the LORD commanded anything. It is not
+that. The Law had appointed the courts, the offerings and the coming to appear. The
+question is who has required this at their hand: this treading, this coming, in this state.
+The sentence asks whether the LORD requires of men the visit of men with blood on
+their hands. The courts are “my courts.” The LORD does not disown the house. He
+speaks of it as his own.
+2.3 The appointed times named and refused
+Verses 13 and 14 run through the calendar. “Bring no more vain oblations; incense is
+an abomination unto me; the new moons and sabbaths, the calling of assemblies, I
+cannot away with; it is iniquity, even the solemn meeting. Your new moons and your
+appointed feasts my soul hateth: they are a trouble unto me; I am weary to bear them”
+(Isaiah 1:13, 14). The oblation, the incense, the new moons, the sabbaths, the
+assemblies and the feasts are the Law’s own list. The LORD calls them vain, an
+abomination, a trouble and a weariness in the hands of this people. The phrase “your
+appointed feasts” is the plainest evidence in the passage that these are the appointed
+times. The word “appointed” belongs to the Law’s own vocabulary for the feasts, and
+it is used here against the way the people keep them.
+The text gives the reason in verse 13: “it is iniquity, even the solemn meeting.” The
+meeting and the iniquity are joined. The LORD says he cannot away with the assembly
+of those who bring iniquity into it. The prophet is not saying that assembling is
+iniquity. He is saying that a solemn meeting held by those who hold on to wickedness
+is itself made iniquity by the joining. The next verses say what the iniquity is.
+2.4 The hands and the prayers
+“And when ye spread forth your hands, I will hide mine eyes from you: yea, when ye
+make many prayers, I will not hear: your hands are full of blood” (Isaiah 1:15). The
+offering is joined here to prayer, and the LORD hides his eyes from the one and does
+not hear the other. The reason is in the last clause: “your hands are full of blood.” The
+hands that are spread forth in prayer and that bring the sacrifice are the hands that
+have shed it in the street. Verse 17 names the shape of the sin in the city: the
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 8
+oppressed, the fatherless and the widow are the ones whose cause is neglected, and
+verse 23 says that the princes “judge not the fatherless, neither doth the cause of the
+widow come unto them.”
+The text offers two things the prophet could have said and did not say. He did not say
+that the hands should stop offering. He did not say that prayer is useless. He said that
+these hands and these prayers are not heard, and then he told them what to do about
+it.
+2.5 Wash you: the nine commands
+Verses 16 and 17 are the turn of the chapter. “Wash you, make you clean; put away
+the evil of your doings from before mine eyes; cease to do evil; learn to do well; seek
+judgment, relieve the oppressed, judge the fatherless, plead for the widow” (Isaiah
+1:16, 17). Count the verbs: wash, make clean, put away, cease, learn, seek, relieve,
+judge, plead. They are commands of conduct, and none of them is a command to
+stop sacrificing or to stop keeping the feasts. The washing is a washing of the doings
+“from before mine eyes.” The prophet joins the language of cleansing to the language
+of justice: what makes the worshiper clean is the putting away of evil and the doing of
+justice for those with no one to speak for them.
+The remedy is also an offer. “Come now, and let us reason together, saith the LORD:
+though your sins be as scarlet, they shall be as white as snow; though they be red like
+crimson, they shall be as wool” (Isaiah 1:18). The LORD invites argument and
+promises cleansing. Then the two ways are set out: “If ye be willing and obedient, ye
+shall eat the good of the land: but if ye refuse and rebel, ye shall be devoured with the
+sword: for the mouth of the LORD hath spoken it” (Isaiah 1:19, 20). The conditional
+word is the one Volume 1 traced in the prophets’ rule for announced judgment and
+blessing. The people’s response decides what the LORD does.
+2.6 The city purged and restored
+The chapter ends with a verdict on the city and a promise for it. “How is the faithful
+city become an harlot! it was full of judgment; righteousness lodged in it; but now
+murderers” (Isaiah 1:21). The silver has become dross and the wine is mixed with
+water (Isaiah 1:22). The LORD will “turn my hand upon thee, and purely purge away thy
+dross, and take away all thy tin” (Isaiah 1:25). Then he will “restore thy judges as at
+the first, and thy counsellors as at the beginning: afterward thou shalt be called, The
+city of righteousness, the faithful city” (Isaiah 1:26). The chapter ends where it began,
+with Zion: “Zion shall be redeemed with judgment, and her converts with
+righteousness” (Isaiah 1:27).
+The sentence of the chapter on the house is therefore a purging and a restoring, and
+the pattern is the one the earlier voices set. The offerings are not the dross. The
+judges, the counsellors and the princes who love gifts are. When the city is restored it
+is called the city of righteousness, and nothing in the chapter says that the house, the
+feasts or the offerings will not be part of that city. The chapter is silent on that, and
+the volume does not fill the silence. It says only that nothing in Isaiah 1 proposes an
+end of the order, and that the whole chapter is addressed to Judah and Jerusalem, in
+the days of four named kings.
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 9
+Isaiah 1 in five movements.
+
+ Verses      What is said                           What it shows
+ 1:1–9       The vision concerns Judah and          The audience is Judah in the
+             Jerusalem; the nation is desolate; a   days of named kings; the
+             very small remnant remains             setting is judgment already
+                                                    begun
+ 1:10–15     Sacrifices, oblations, incense, new    The list is the Law’s own; the
+             moons, sabbaths, assemblies and        LORD refuses it from these
+             feasts are refused; prayer is not      hands, and calls the courts “my
+             heard; the hands are full of blood     courts”
+ 1:16–17     Wash you; cease to do evil; learn to   Nine commands of conduct;
+             do well; seek judgment; relieve,       none is a command to stop the
+             judge, plead                           offerings
+ 1:18–20     Come and reason; scarlet to snow;      A conditional word, spoken by
+             willing and obedient, or refuse and    the mouth of the LORD, to a
+             rebel                                  people that can turn
+ 1:21–31     The faithful city is an harlot; the    The sentence is a purging and a
+             LORD will purge the dross, restore     restoring of the city, not an
+             the judges, redeem Zion with           abolishing of its worship
+             judgment
+
+2.7 What the volume takes from the passage
+ • Isaiah 1:10 calls the prophet’s message the law of our God; the condemnation is
+   spoken as an application of the Law, not as its replacement.
+ • The things the LORD refuses in verses 11–14, the sacrifices, oblations, incense,
+   new moons, sabbaths, assemblies and feasts, are the Law’s own list; the LORD
+   calls the feasts “your appointed feasts” and the house “my courts.”
+ • The reason is stated in the passage: “it is iniquity, even the solemn meeting,” and
+   “your hands are full of blood.”
+ • The remedy is nine commands of conduct and an offer to reason; no command in
+   the chapter is to stop offering.
+ • The chapter ends with the LORD purging the city and restoring it, and it says
+   nothing of abolishing the order within it.
+
+
+3. Amos: Bethel, Gilgal and the Feast Days
+Claim: Amos is the sharpest of the prophets on feasts and offerings, and he speaks to
+the northern kingdom at the sanctuaries its king had set up. His charge is double. The
+altar at Bethel and the feast Jeroboam devised were not the worship the LORD
+commanded, and the people who kept the feasts and brought the offerings, wherever
+they brought them, trampled the poor. His remedy is to seek the LORD and let justice
+run down like waters, and he gives no sentence that the order the LORD gave Israel
+was a mistake.
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 10
+3.1 A man of Tekoa speaking to the north
+The book opens with the man and the place. “The words of Amos, who was among
+the herdmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of
+Judah, and in the days of Jeroboam the son of Joash king of Israel, two years before
+the earthquake” (Amos 1:1). Tekoa is in Judah and the king named first is Judah’s.
+The subject is Israel, the northern kingdom. The first thing Amos says in the LORD’s
+name points south: “The LORD will roar from Zion, and utter his voice from
+Jerusalem” (Amos 1:2). The prophet sends his word from Jerusalem to the north.
+That direction matters for what follows, because the sanctuary he goes against is not
+Jerusalem’s.
+The origin of the northern sanctuaries is given in the First Book of Kings. Jeroboam
+feared that if the people went up “to do sacrifice in the house of the LORD at
+Jerusalem,” their hearts would turn back to Rehoboam (1 Kings 12:27). So the king
+“made two calves of gold,” saying, “It is too much for you to go up to Jerusalem” (1
+Kings 12:28). He set one in Bethel and the other in Dan (1 Kings 12:29). He “made an
+house of high places, and made priests of the lowest of the people, which were not of
+the sons of Levi” (1 Kings 12:31). He “ordained a feast in the eighth month, on the
+fifteenth day of the month, like unto the feast that is in Judah” and offered upon the
+altar at Bethel, “even in the month which he had devised of his own heart” (1 Kings
+12:32, 33). Every element of the northern worship is named as the king’s own: the
+place, the calves, the priests, the month. The text says in so many words that the
+month was devised of his own heart.
+Amos meets the result in the last chapters of the book. Amaziah, the priest of Bethel,
+tells him, “prophesy not again any more at Bethel: for it is the king’s chapel, and it is
+the king’s court” (Amos 7:13). The priest’s own words say what Bethel was: the king’s
+chapel. The LORD had foretold it: “I will also visit the altars of Bethel: and the horns of
+the altar shall be cut off, and fall to the ground” (Amos 3:14). The volume reads the
+altars of Bethel as the altars Jeroboam made, not as the altar at Jerusalem, and the
+prophet’s sentence against them is a sentence against a worship the LORD did not
+command.
+3.2 Come to Bethel, and transgress
+Amos 4:4, 5 is the prophet’s irony. “Come to Bethel, and transgress; at Gilgal multiply
+transgression; and bring your sacrifices every morning, and your tithes after three
+years: and offer a sacrifice of thanksgiving with leaven, and proclaim and publish the
+free offerings: for this liketh you, O ye children of Israel, saith the Lord GOD.” The
+commands are in the form of a call to worship and mean the opposite. At Bethel, the
+call is to transgress. At Gilgal, to multiply transgression. The sacrifices, the tithes, the
+thank-offering and the free offerings are real, and the people bring them with zeal,
+every morning and on the third year. The reason is in the last clause: “for this liketh
+you.” The worship is what pleases the worshipers.
+The next verses show what the LORD did while they offered. “And I also have given
+you cleanness of teeth in all your cities, and want of bread in all your places: yet have
+ye not returned unto me, saith the LORD” (Amos 4:6). The sentence is repeated
+across the chapter as a refrain of judgments that did not turn them. The offering was
+brought and the LORD was not returned to. Verse 12 closes the chapter: “prepare to
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 11
+meet thy God, O Israel.” The offering at the wrong altar and the return of the heart are
+set side by side, and the first is no substitute for the second.
+3.3 Seek me, and not Bethel
+Chapter 5 turns the irony into command. “For thus saith the LORD unto the house of
+Israel, Seek ye me, and ye shall live: but seek not Bethel, nor enter into Gilgal, and pass
+not to Beersheba: for Gilgal shall surely go into captivity, and Bethel shall come to
+nought” (Amos 5:4, 5). The LORD names the places he does not want sought and sets
+himself in their place. The sentence is not a command to stop worshiping. It is a
+command to seek him, and it names three sanctuaries of the north and the south of
+the divided country, Bethel, Gilgal and Beersheba, as the places that are not the
+seeking. The same call is repeated: “Seek the LORD, and ye shall live; lest he break out
+like fire in the house of Joseph” (Amos 5:6).
+The charge that goes with it is of conduct. The people “turn judgment to wormwood,
+and leave off righteousness in the earth” (Amos 5:7). They “hate him that rebuketh in
+the gate” (Amos 5:10). Their “treading is upon the poor,” and they take “burdens of
+wheat” from him (Amos 5:11). They “afflict the just, they take a bribe, and they turn
+aside the poor in the gate from their right” (Amos 5:12). The remedy is stated twice:
+“Seek good, and not evil, that ye may live: and so the LORD, the God of hosts, shall be
+with you, as ye have spoken” (Amos 5:14), and “Hate the evil, and love the good, and
+establish judgment in the gate: it may be that the LORD God of hosts will be gracious
+unto the remnant of Joseph” (Amos 5:15).
+3.4 I hate, I despise your feast days
+Verses 18 to 20 speak to those who desire the day of the LORD and are told it is
+darkness, not light. Immediately after comes the most quoted sentence of the
+prophet. “I hate, I despise your feast days, and I will not smell in your solemn
+assemblies. Though ye offer me burnt offerings and your meat offerings, I will not
+accept them: neither will I regard the peace offerings of your fat beasts. Take thou
+away from me the noise of thy songs; for I will not hear the melody of thy viols. But let
+judgment run down as waters, and righteousness as a mighty stream” (Amos 5:21–
+24).
+The list is complete: feast days, solemn assemblies, burnt offerings, meat offerings,
+peace offerings, songs and viols. Most are named with the pronoun: “your” feast days,
+“your” meat offerings, “your” fat beasts. The pronoun does the work in the same way
+as in Isaiah’s “your appointed feasts.” These are the feasts as this people keep them.
+The LORD does not say that burnt offerings are a sin. He says that he will not accept
+them from these hands, and that what he wants instead is a flow: “let judgment run
+down as waters, and righteousness as a mighty stream.” A stream is a thing that
+keeps running. The prophet asks that justice be as constant in Israel as the water in a
+river, and he sets that constancy against the constancy of the feasts.
+The Sabbath and the new moon appear again in chapter 8. Amos reports the speech
+of the merchants. “When will the new moon be gone, that we may sell corn? and the
+sabbath, that we may set forth wheat, making the ephah small, and the shekel great,
+and falsifying the balances by deceit? That we may buy the poor for silver, and the
+needy for a pair of shoes” (Amos 8:5, 6). The merchants keep the new moon and the
+sabbath, and they do not like it. They count the hours until they can cheat again. The
+days are observed, and the heart is elsewhere. The sentence is a charge against the
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 12
+dealers, and it takes the days of rest for granted as days the people kept. The Sabbath
+is not argued here; its place in the Law and in the prophets is left to Study 78.
+3.5 Have ye offered unto me sacrifices in the wilderness?
+The question of Amos 5:25 is the one most often quoted to show that the LORD never
+wanted sacrifices. “Have ye offered unto me sacrifices and offerings in the wilderness
+forty years, O house of Israel? But ye have borne the tabernacle of your Moloch and
+Chiun your images, the star of your god, which ye made to yourselves. Therefore will I
+cause you to go into captivity beyond Damascus, saith the LORD, whose name is The
+God of hosts” (Amos 5:25–27).
+The question has the form of a rhetorical question, and readers differ on the answer it
+expects. The volume reads it with the verse that follows, which says that the people
+carried the tabernacle of Moloch and the images of their own star-god in the
+wilderness. The question does not ask whether the sacrifices were commanded in the
+wilderness. It asks whether the offerings were offered “unto me,” to the LORD, by a
+people who carried other gods in the same camp. The sentence pairs the offering
+with the idols, and the pairing is the charge. The captivity “beyond Damascus” is the
+sentence on the whole worship, the offerings and the idols together, and the sentence
+falls on the worshipers.
+Stephen quotes Amos 5:25–27 in Acts 7:42, 43 in a speech to the council, and the use
+is read in Acts Commentary Volume 1; this volume does not repeat it. What Amos
+himself says is enough for the present argument. He puts the wilderness sacrifices in
+question because of the idols that went with them. He does not say that the Law’s
+order was a mistake, and he does not say the offerings had been forbidden.
+Amos in six passages.
+
+ Passage          What the LORD says against it          What stands
+ Amos 3:14;       The altars of Bethel are to be cut     The altar at Jerusalem is not
+ 7:13             off; Bethel is the king’s chapel       the altar charged; the voice
+                                                         goes out from Zion (1:2)
+ Amos 4:4, 5      Come to Bethel and transgress;         The offerings are real and
+                  the sacrifices and free offerings      zealous; the LORD’s refrain is
+                  are what “liketh you”                  that they have not returned to
+                                                         him (4:6)
+ Amos 5:4–6       Seek not Bethel, Gilgal or             Seek ye me, and ye shall live
+                  Beersheba
+ Amos 5:21–24     I hate, I despise your feast days; I   Let judgment run down as
+                  will not accept your burnt             waters; the pronoun “your”
+                  offerings                              limits the charge to how they
+                                                         keep them
+ Amos 8:5, 6      The merchants keep the new             The days are taken for
+                  moon and the sabbath and count         granted as days the people
+                  the hours until they can cheat         kept
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 13
+ Passage          What the LORD says against it        What stands
+ Amos 5:25–27     Did ye offer unto me in the          The charge is the idols beside
+                  wilderness, bearing Moloch and       the offerings; the captivity
+                  Chiun?                               falls on the worshipers
+
+3.6 What the volume takes from the passages
+ • Amos speaks to the northern kingdom, from Tekoa, with the LORD roaring from
+   Zion.
+ • The altar at Bethel, the calves, the priests and the month were the king’s own
+   devising (1 Kings 12:26–33); Amos’s sentence against Bethel is a sentence
+   against a worship the LORD did not command.
+ • The feasts and offerings of Amos 5:21–23 are named as “your” feasts and “your”
+   offerings, in the hands of those who afflict the just and take a bribe.
+ • The remedy is to seek the LORD and to establish judgment in the gate; nothing in
+   the book commands an end to the order the LORD gave Israel.
+ • Amos 5:25–27 pairs the wilderness offerings with the idols carried beside them,
+   and the charge falls on the people who brought both.
+
+
+4. Hosea and Micah: Mercy, and Not Sacrifice
+Claim: Hosea 6:6 and Micah 6:6–8 are the two sentences most often read as the
+prophets’ rejection of sacrifice, and each is a statement of rank inside a charge
+against the worshipers. Hosea’s verse is built as a pair of lines that interpret each
+other, and the second line says “more than.” Micah’s verse answers a worshiper who
+asks how much he must bring by naming what the LORD has already shown, and the
+verses after it return to false weights and deceit. Neither prophet proposes that the
+offerings cease. Hosea lists the loss of sacrifice among the judgments, and Micah
+asks for justice, mercy and humility as the walk of a man who comes.
+4.1 Hosea’s controversy: no truth, nor mercy, nor knowledge of God
+Hosea opens his indictment with a word that will return in chapter 6. “Hear the word
+of the LORD, ye children of Israel: for the LORD hath a controversy with the inhabitants
+of the land, because there is no truth, nor mercy, nor knowledge of God in the land”
+(Hosea 4:1). The three missing things are truth, mercy and the knowledge of God. The
+next verse lists the conduct: “By swearing, and lying, and killing, and stealing, and
+committing adultery, they break out, and blood toucheth blood” (Hosea 4:2). The
+LORD’s controversy is the same lawsuit Isaiah and Micah bring, and its first count is
+the absence of mercy and of the knowledge of God, the pair that stands again in
+Hosea 6:6.
+The priests are charged next. “My people are destroyed for lack of knowledge:
+because thou hast rejected knowledge, I will also reject thee, that thou shalt be no
+priest to me: seeing thou hast forgotten the law of thy God, I will also forget thy
+children” (Hosea 4:6). The prophet does not say the priesthood is wrong. He says this
+priest has rejected knowledge and forgotten the law and will be no priest to the LORD.
+The next verses speak of the priests in the same terms: “They eat up the sin of my
+people, and they set their heart on their iniquity” (Hosea 4:8). Many readers take the
+verse to mean that the priests profit from the sin offerings and so want the people to
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 14
+sin. The volume reads it so, with the note that the verse does not itself name the sin
+offering, and in either case it is a charge against the priests.
+The worship at the high places is charged separately. “They sacrifice upon the tops of
+the mountains, and burn incense upon the hills, under oaks and poplars and elms,
+because the shadow thereof is good” (Hosea 4:13). The reason the verse gives is that
+the shadow is good. The place is chosen for the worshipers’ comfort, and it is a place
+the LORD had not appointed. Hosea 5:6 adds a sentence that no later reading can
+soften: “They shall go with their flocks and with their herds to seek the LORD; but they
+shall not find him; he hath withdrawn himself from them.” The LORD is not found by
+the flocks and herds that are brought to seek him. The offerings are not what he is
+withholding.
+4.2 Hosea 6:1–7: the sentence in its place
+Chapter 6 opens with Israel’s own words of return. “Come, and let us return unto the
+LORD: for he hath torn, and he will heal us; he hath smitten, and he will bind us up.
+After two days will he revive us: in the third day he will raise us up, and we shall live in
+his sight” (Hosea 6:1, 2). The LORD does not take the words as a turning. “O Ephraim,
+what shall I do unto thee? O Judah, what shall I do unto thee? for your goodness is as
+a morning cloud, and as the early dew it goeth away” (Hosea 6:4). The word the King
+James Version renders “goodness” in this verse is the same word it renders “mercy”
+in verse 6. The people’s goodness vanishes like the morning mist. What the LORD
+wants is a goodness that does not.
+Verse 6 follows. “For I desired mercy, and not sacrifice; and the knowledge of God
+more than burnt offerings” (Hosea 6:6). The verse is two lines, and they are a pair. The
+first says mercy and not sacrifice. The second says the knowledge of God more than
+burnt offerings. The second line is the key to the first. It uses “more than,” the
+language of comparison, and so shows how the pair is to be read: mercy over
+sacrifice, the knowledge of God over burnt offerings. The same pairing of “not” and
+“more than” appears in the earlier voices (1 Samuel 15:22, “to obey is better than
+sacrifice”). The volume reads the verse as a statement of rank and not of abolition.
+Verse 7 states the reason. “But they like men have transgressed the covenant: there
+have they dealt treacherously against me” (Hosea 6:7). The offence is the broken
+covenant. The sacrifices are named as the thing mercy outranks; the covenant is
+named as the thing broken. Hosea 8:12 adds, “I have written to him the great things of
+my law, but they were counted as a strange thing.” The people have the law in writing
+and treat it as foreign.
+4.3 My offerings, and the loss of sacrifice
+Two further sentences in Hosea show what the LORD leaves standing. The first is in
+chapter 8. “Because Ephraim hath made many altars to sin, altars shall be unto him to
+sin. … They sacrifice flesh for the sacrifices of mine offerings, and eat it; but the LORD
+accepteth them not; now will he remember their iniquity, and visit their sins: they shall
+return to Egypt” (Hosea 8:11, 13). The LORD calls them “the sacrifices of mine
+offerings.” He does not disown the offerings, and he does not accept the worshipers.
+The charge is the making of many altars to sin, and the sentence is a return to Egypt.
+The second is in chapter 3, in the account of what the exile will take. “For the children
+of Israel shall abide many days without a king, and without a prince, and without a
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 15
+sacrifice, and without an image, and without an ephod, and without teraphim:
+afterward shall the children of Israel return, and seek the LORD their God, and David
+their king; and shall fear the LORD and his goodness in the latter days” (Hosea 3:4, 5).
+The list mixes things the LORD gave Israel and things he condemned, and the volume
+does not sort it. It reports one thing without comment: sacrifice is named among the
+losses, with king and prince, and the return that follows is a return to the LORD and to
+David their king. The prophet who says the LORD desired mercy and not sacrifice also
+counts the absence of sacrifice as part of the judgment.
+The last chapter gives the people their words. “O Israel, return unto the LORD thy God;
+for thou hast fallen by thine iniquity. Take with you words, and turn to the LORD: say
+unto him, Take away all iniquity, and receive us graciously: so will we render the
+calves of our lips” (Hosea 14:1, 2). The word “calves” is the offering, and the offering
+is lips: the praise of a pardoned people. Even here, the language is the language of
+sacrifice.
+4.4 The words in Matthew
+Matthew twice has the Lord quote Hosea 6:6. When the Pharisees ask why he eats
+with publicans and sinners, he answers, “go ye and learn what that meaneth, I will
+have mercy, and not sacrifice: for I am not come to call the righteous, but sinners to
+repentance” (Matthew 9:13). Again, when the disciples pluck ears of corn on the
+sabbath, he says, “if ye had known what this meaneth, I will have mercy, and not
+sacrifice, ye would not have condemned the guiltless” (Matthew 12:7). In both, the
+Lord is speaking to Pharisees in Israel about how the Law is to be kept, and in both he
+sends them to Hosea. In the second, he has just said that “the priests in the temple
+profane the sabbath, and are blameless” (Matthew 12:5), and that “in this place is one
+greater than the temple” (Matthew 12:6). The Lord takes the temple service for
+granted as a service in which priests are blameless.
+The volume reports both quotations in their settings and argues neither. Study 78
+reads Matthew 12 for the Sabbath and Typology Commentary Volume 5 reports it in
+its treatment of the kingdom. For the present argument the point is small and
+sufficient: in both places the Lord quotes the verse the way the prophet used it, as a
+rule of rank, and he does not use it to end the temple service.
+4.5 Micah’s lawsuit
+Micah’s sixth chapter is another controversy. “Hear ye, O mountains, the LORD’s
+controversy, and ye strong foundations of the earth: for the LORD hath a controversy
+with his people, and he will plead with Israel” (Micah 6:2). The LORD’s first words are a
+question to the people: “O my people, what have I done unto thee? and wherein have I
+wearied thee? testify against me” (Micah 6:3). He recites what he did: “I brought thee
+up out of the land of Egypt, and redeemed thee out of the house of servants; and I
+sent before thee Moses, Aaron, and Miriam” (Micah 6:4). The case rests on the
+LORD’s faithfulness, and the people are asked to remember Balak and Balaam, “that
+ye may know the righteousness of the LORD” (Micah 6:5).
+Then the worshiper speaks. “Wherewith shall I come before the LORD, and bow
+myself before the high God? shall I come before him with burnt offerings, with calves
+of a year old? Will the LORD be pleased with thousands of rams, or with ten
+thousands of rivers of oil? shall I give my firstborn for my transgression, the fruit of
+my body for the sin of my soul?” (Micah 6:6, 7). The questions climb: a burnt offering,
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 16
+a calf of a year old, thousands of rams, ten thousands of rivers of oil, a firstborn. The
+worshiper asks how much will be enough. The question assumes that the offering is a
+payment sized to the offence, and that more of it will purchase more.
+The prophet’s answer does not say the offerings should stop. “He hath shewed thee,
+O man, what is good; and what doth the LORD require of thee, but to do justly, and to
+love mercy, and to walk humbly with thy God?” (Micah 6:8). The answer is that the
+LORD has already shown what is good, and that what he requires is three things in the
+walk of a man. The verse is silent about the offerings. It does not say they are not
+required. It says that the thing the worshiper is asking for, the price, is not in the
+account. The walk is. The verses after it return to the city: “Are there yet the treasures
+of wickedness in the house of the wicked, and the scant measure that is abominable?
+Shall I count them pure with the wicked balances, and with the bag of deceitful
+weights?” (Micah 6:10, 11). The answer of verse 8 is followed at once by the false
+weights, and the offerings of verses 6 and 7 are the thing meant to cover them.
+Hosea and Micah in five passages.
+
+ Passage         What is said against the offering    What is left standing
+ Hosea 4:1–      No mercy nor knowledge of God;       The priesthood is charged, not
+ 13              priests who have rejected            abolished (4:6); the high places
+                 knowledge; sacrifice on the hills    are charged, not the house
+                 for the shadow
+ Hosea 5:6       They go with flocks and herds to     The LORD has withdrawn
+                 seek the LORD, and do not find       himself; the offerings are not
+                 him                                  what he withholds
+ Hosea 6:6       Mercy, and not sacrifice; the        A pair of lines; the second says
+                 knowledge of God more than           “more than”; the reason is the
+                 burnt offerings                      broken covenant (6:7)
+ Hosea 8:11–     Many altars to sin; “the             The offerings are named as the
+ 13              sacrifices of mine offerings” are    LORD’s; the people are not
+                 not accepted                         accepted
+ Hosea 3:4, 5;   Many days without a king, a          Afterward they return and seek
+ 14:2            prince, a sacrifice                  the LORD and David their king;
+                                                      “the calves of our lips”
+ Micah 6:6–8     The price of offerings cannot be     What the LORD requires is to do
+                 set by the thousands of rams or      justly, love mercy and walk
+                 the firstborn                        humbly; the verses that follow
+                                                      return to false weights
+
+4.6 What the volume takes from the passages
+ • Hosea 6:6 is two lines; the second, “the knowledge of God more than burnt
+   offerings,” shows that the first is a statement of rank.
+ • The first count of the LORD’s controversy in Hosea 4:1 is the absence of mercy
+   and of the knowledge of God, and the reason of Hosea 6:7 is the broken
+   covenant.
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 17
+ • The LORD calls the offerings that he does not accept “the sacrifices of mine
+   offerings” (Hosea 8:13), and the loss of sacrifice is listed among the judgments
+   (Hosea 3:4).
+ • Micah 6:6–8 answers a worshiper who asks how much to bring by naming what
+   the LORD has shown, and the verses that follow return to false weights.
+ • Matthew 9:13 and 12:7 are reported in their settings as the Lord’s use of Hosea’s
+   sentence in Israel, and the volume builds nothing on them beyond that.
+
+
+5. Jeremiah: The Temple Sermon and the
+Hardest Sentence
+Claim: Jeremiah’s sermon at the gate of the LORD’s house is the fullest statement of
+what the prophets say about worship by those who trust the house, and it holds a
+sentence that seems to deny that the LORD ever commanded sacrifices. Read with
+the verses around it and with Exodus 19, that sentence is a statement of rank: the first
+word at the Exodus was obedience. Jeremiah himself speaks of burnt offerings,
+sacrifices of praise and sacrifices continually in the house of the LORD in the days of
+restoration. His judgment falls on a house trusted as a charm, and the pattern of
+Shiloh is the sentence.
+5.1 Incense from Sheba
+The first sentence is in chapter 6. “Hear, O earth: behold, I will bring evil upon this
+people, even the fruit of their thoughts, because they have not hearkened unto my
+words, nor to my law, but rejected it” (Jeremiah 6:19). The charge is first of all that the
+people have not hearkened and have rejected the law. Then comes the question about
+the offerings: “To what purpose cometh there to me incense from Sheba, and the
+sweet cane from a far country? your burnt offerings are not acceptable, nor your
+sacrifices sweet unto me” (Jeremiah 6:20).
+The incense came from far away and was costly, and the sweet cane was a rare
+spice. The people spared no expense for the house. The LORD says the burnt
+offerings are not acceptable and the sacrifices are not sweet to him. The offerings are
+the people’s: “your burnt offerings,” “your sacrifices.” The reason is in verse 19, which
+comes before the verse and gives the ground of it: the law rejected. The next verse
+says what follows, “I will lay stumblingblocks before this people” (Jeremiah 6:21). The
+sentence on the offerings is a sentence on those who reject the law in the same
+house in which they bring incense.
+5.2 The sermon at the gate
+Chapter 7 gives the setting of the sermon in the opening verses. “Stand in the gate of
+the LORD’s house, and proclaim there this word, and say, Hear the word of the LORD,
+all ye of Judah, that enter in at these gates to worship the LORD” (Jeremiah 7:2). The
+audience is the worshipers entering to worship. The message is conditional: “Amend
+your ways and your doings, and I will cause you to dwell in this place” (Jeremiah 7:3).
+The next verse names the false confidence. “Trust ye not in lying words, saying, The
+temple of the LORD, The temple of the LORD, The temple of the LORD, are these”
+(Jeremiah 7:4). The repetition is the prophet’s way of quoting a chant. The people say
+the name of the house three times as if the name protected them. The prophet calls it
+“lying words, that cannot profit” (Jeremiah 7:8). The condition is repeated: “if ye
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 18
+throughly amend your ways and your doings; if ye throughly execute judgment
+between a man and his neighbour; if ye oppress not the stranger, the fatherless, and
+the widow, and shed not innocent blood in this place, neither walk after other gods to
+your hurt: then will I cause you to dwell in this place, in the land that I gave to your
+fathers, for ever and ever” (Jeremiah 7:5–7).
+The LORD does not say the house is wrong, and he does not say the people should
+stay away from it. He says that dwelling in the place depends on how they live in it.
+The “for ever and ever” belongs to the conditional word of Jeremiah 18:7–10, read in
+Volume 1, and it is not a sworn word.
+5.3 A den of robbers
+Then the charge: “Will ye steal, murder, and commit adultery, and swear falsely, and
+burn incense unto Baal, and walk after other gods whom ye know not; and come and
+stand before me in this house, which is called by my name, and say, We are delivered
+to do all these abominations?” (Jeremiah 7:9, 10). The picture is of a worshiper who
+sins and then comes to stand in the house, and who says that the standing there
+delivers him to go on. The house is “called by my name” twice in two verses. The
+LORD claims it. Then the question: “Is this house, which is called by my name,
+become a den of robbers in your eyes? Behold, even I have seen it, saith the LORD”
+(Jeremiah 7:11). A den is where robbers go to hide between robberies. The house has
+become the place where the people hide from the consequences of what they do
+outside it.
+5.4 Shiloh
+The sentence is in the pattern of a precedent. “But go ye now unto my place which
+was in Shiloh, where I set my name at the first, and see what I did to it for the
+wickedness of my people Israel” (Jeremiah 7:12). Shiloh was the place where the
+LORD had set his name first. The ark was there in the days of Eli and Samuel. The
+LORD says it was destroyed for the wickedness of his people. Therefore, “will I do
+unto this house, which is called by my name, wherein ye trust, and unto the place
+which I gave to you and to your fathers, as I have done to Shiloh. And I will cast you
+out of my sight, as I have cast out all your brethren, even the whole seed of Ephraim”
+(Jeremiah 7:14, 15).
+The precedent shows what the sentence on a house is. A house in which the LORD’s
+name was set at the first can be abandoned for the wickedness of the people who
+trust it. The sentence is not that houses of worship are wrong. It is that the house
+cannot protect those who use it as a shelter. Jeremiah 26 gives the same sermon in a
+narrative form: “Then will I make this house like Shiloh, and will make this city a curse
+to all the nations of the earth” (Jeremiah 26:6). The priests and prophets and all the
+people take Jeremiah and say, “Thou shalt surely die” (Jeremiah 26:8). Volume 1
+reads the end of that chapter, where the elders recall Micah and the princes say that
+Jeremiah is not worthy to die (Jeremiah 26:16).
+5.5 Put your burnt offerings unto your sacrifices, and eat flesh
+The next section is the one that has been read most often as a denial of the
+sacrifices. It begins with a command that is plainly ironic. “Thus saith the LORD of
+hosts, the God of Israel; Put your burnt offerings unto your sacrifices, and eat flesh”
+(Jeremiah 7:21). A burnt offering is wholly burned and not eaten. A sacrifice, a peace
+offering, is partly eaten by the offerer. The LORD says to put the burnt offerings with
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 19
+the sacrifices and eat all the flesh. The command takes away the line between what is
+the LORD’s and what is the offerer’s. He tells the people that if their offerings are no
+more than meat, they may eat it. The sentence is the same as Isaiah’s: nothing the
+LORD sees in them is a gift to him.
+Then verses 22 and 23. “For I spake not unto your fathers, nor commanded them in
+the day that I brought them out of the land of Egypt, concerning burnt offerings or
+sacrifices: but this thing commanded I them, saying, Obey my voice, and I will be your
+God, and ye shall be my people: and walk ye in all the ways that I have commanded
+you, that it may be well unto you” (Jeremiah 7:22, 23).
+Three observations. First, the sentence says what the LORD commanded the fathers:
+“Obey my voice, and I will be your God, and ye shall be my people.” That is the
+covenant formula, and it is found at the first meeting at Sinai: “Now therefore, if ye will
+obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto
+me above all people” (Exodus 19:5). The words “obey my voice” are the opening
+condition of the covenant. The sacrifices, the tabernacle and the feasts come after
+them. Jeremiah 7:22 says that in the day of the Exodus and in the first words the
+LORD spoke to the fathers, the word was obedience. The offerings came as the ways
+of the obedient people. Jeremiah is saying what the LORD said first.
+Second, a flat reading is impossible. The prophet’s own book speaks of burnt
+offerings, sacrifices and meat offerings in the city of the LORD’s promise. The first
+passage is conditional on the city’s hearkening and on its keeping the sabbath
+(Jeremiah 17:24), and it reads: “And they shall come from the cities of Judah …
+bringing burnt offerings, and sacrifices, and meat offerings, and incense, and bringing
+sacrifices of praise, unto the house of the LORD” (Jeremiah 17:26). In another chapter
+the LORD promises that the voice of joy shall be heard again, “and of them that shall
+bring the sacrifice of praise into the house of the LORD” (Jeremiah 33:11), and that
+“the priests the Levites” shall not want a man “to offer burnt offerings, and to kindle
+meat offerings, and to do sacrifice continually” (Jeremiah 33:18). The same prophet
+cannot mean that the LORD never wanted burnt offerings and sacrifices. The volume
+reports these verses as written and does not argue the covenants they sit beside,
+which are read in the Covenantal and Prophetic Identity series.
+Third, the idiom is the same as in Hosea and Psalm 40. A not-but sentence of rank
+can say not this but that when it means this above all, and not this alone. The
+comparison here is with the fathers at the Exodus: the first word to them was not a
+code of sacrifice but a call to obey. The phrase “in the day that I brought them out”
+covers the season of the Exodus. The Passover kept in that season was a sacrifice
+(Exodus 12), and so the sentence, taken as a flat denial, would contradict the story it
+appeals to. It is the rank of the first word that the prophet states.
+A contrast in the same chapter fixes the usage. At Tophet in the valley of Hinnom the
+people “burn their sons and their daughters in the fire; which I commanded them not,
+neither came it into my heart” (Jeremiah 7:31). Here the LORD says he did not
+command a thing, and means that it is foreign to him. If verse 22 said the same of
+burnt offerings, it would put the sacrifices of Leviticus on a level with the burning of
+children, and no one reads Jeremiah that way. The two sentences are different. In
+verse 22 the LORD says the first word was obedience, and in verse 31 he says the
+thing never came into his heart.
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 20
+Jeremiah 6–7 in six passages.
+
+ Passage            What the LORD says                      What it shows
+ Jeremiah 6:19,     The law is rejected; the burnt          The offerings are “your”
+ 20                 offerings are not acceptable nor        offerings; the ground is the
+                    the sacrifices sweet                    law rejected
+ Jeremiah 7:2–      Amend your ways, and I will cause       A conditional word at the
+ 7                  you to dwell in this place              gate of the house
+ Jeremiah 7:4,      “The temple of the LORD” three          The house is trusted as a
+ 8–11               times is lying words; the house is a    shelter by those who sin
+                    den of robbers in their eyes            outside it
+ Jeremiah           Go to Shiloh and see what I did to it   The sentence on a house is
+ 7:12–15                                                    judgment on those who use
+                                                            it; a precedent, not an
+                                                            abolition
+ Jeremiah           Put your burnt offerings unto your      The first word at the Exodus
+ 7:21–23            sacrifices; I spake not concerning      was obedience (Exodus
+                    them, but said Obey my voice            19:5); a statement of rank
+ Jeremiah 7:31      The burning of children at Tophet I     The LORD says elsewhere
+                    commanded not, neither came it          that he did not command a
+                    into my heart                           thing and means that it is
+                                                            foreign to him
+
+5.6 What the volume takes from the passages
+ • Jeremiah 6:19 gives the ground of the verdict on the offerings: the people have
+   rejected the law.
+ • The sermon at the gate is a conditional word, addressed to those who enter the
+   house to worship, and it names the house as the LORD’s: “called by my name.”
+ • The sentence on the house is the precedent of Shiloh, a judgment on a house
+   trusted as a shelter by those who steal, murder and swear falsely.
+ • Jeremiah 7:22, 23 states what the LORD said first, “Obey my voice” (Exodus 19:5);
+   it is read as a statement of rank and not as a denial that the offerings were
+   commanded.
+ • Jeremiah 17:26 (the city that hearkens) and 33:11, 18 (the return of the captivity)
+   speak of burnt offerings, sacrifices of praise and sacrifice continually in the house
+   of the LORD.
+
+
+6. The Fast, the House and the Question from
+Bethel
+Claim: three late passages test the thesis against the observances that are not
+sacrifices. Isaiah 58 condemns a fast kept by people who exact all their labours.
+Isaiah 66:1–4 condemns the offerings of those who chose their own ways, and Isaiah
+56:7 and 66:20 say the offerings of a gathered people shall be accepted on his altar
+
+
+
+                  ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 21
+and brought to his holy mountain. Zechariah 7 answers men who ask whether to go
+on with a fast, and the answer is that the fast was not kept to the LORD, and chapter 8
+turns the fasts into feasts.
+6.1 Isaiah 58: a fast the LORD has not chosen
+Isaiah 58 begins by telling the prophet to cry aloud and “shew my people their
+transgression” (Isaiah 58:1). What follows is a description of religious people. “Yet
+they seek me daily, and delight to know my ways, as a nation that did righteousness,
+and forsook not the ordinance of their God: they ask of me the ordinances of justice;
+they take delight in approaching to God” (Isaiah 58:2). The description is not ironical
+about the seeking. They seek daily and delight in approaching God. The LORD says
+they are a nation that appears to do righteousness. The people complain: “Wherefore
+have we fasted, say they, and thou seest not? wherefore have we afflicted our soul,
+and thou takest no knowledge?” (Isaiah 58:3).
+The LORD’s answer takes up the fast. “Behold, in the day of your fast ye find pleasure,
+and exact all your labours. Behold, ye fast for strife and debate, and to smite with the
+fist of wickedness” (Isaiah 58:3, 4). The fast is a day on which they afflict themselves
+and press their workers. The LORD asks, “Is it such a fast that I have chosen? a day
+for a man to afflict his soul? is it to bow down his head as a bulrush, and to spread
+sackcloth and ashes under him?” (Isaiah 58:5). The sentence uses the forms of the
+fast, the bowed head, the sackcloth and the ashes, and asks whether this is what he
+chose. The answer is no, and the next verse says what he chose. “Is not this the fast
+that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and
+to let the oppressed go free, and that ye break every yoke? Is it not to deal thy bread to
+the hungry, and that thou bring the poor that are cast out to thy house?” (Isaiah 58:6,
+7).
+The pattern is the same as in the first chapter of the book. The observance is real and
+the people are zealous. The LORD asks for justice to the oppressed as the thing the
+observance was meant to carry. The promise follows: “Then shall thy light break forth
+as the morning, and thine health shall spring forth speedily” (Isaiah 58:8), and “Then
+shalt thou call, and the LORD shall answer; thou shalt cry, and he shall say, Here I am”
+(Isaiah 58:9). The people who complained that the LORD did not see are told that he
+will answer when they do justice. The chapter then turns to the sabbath in verses 13
+and 14. Study 78 reads those verses with the other passages on the Sabbath, and this
+volume leaves them there.
+6.2 Isaiah 66:1–4: the house and the man who trembles
+The last chapter of Isaiah asks a question about the house. “Thus saith the LORD, The
+heaven is my throne, and the earth is my footstool: where is the house that ye build
+unto me? and where is the place of my rest? For all those things hath mine hand
+made, and all those things have been, saith the LORD: but to this man will I look, even
+to him that is poor and of a contrite spirit, and trembleth at my word” (Isaiah 66:1, 2).
+The LORD does not need a house, because heaven is his throne and earth his
+footstool. He looks to a man, and the man is poor, contrite and one who trembles at
+his word. Stephen quotes verses 1 and 2 in Acts 7:49, 50, and that use is read in Acts
+Commentary Volume 1.
+Verse 3 is the hardest sentence in the book on offerings. “He that killeth an ox is as if
+he slew a man; he that sacrificeth a lamb, as if he cut off a dog’s neck; he that offereth
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 22
+an oblation, as if he offered swine’s blood; he that burneth incense, as if he blessed an
+idol. Yea, they have chosen their own ways, and their soul delighteth in their
+abominations” (Isaiah 66:3). The sentence has four pairs, an ox and a man, a lamb
+and a dog’s neck, an oblation and swine’s blood, incense and an idol. In each pair the
+offering is set beside an abomination. The next clause says who the offerers are.
+“Yea, they have chosen their own ways.” Verse 4 completes it: “because when I called,
+none did answer; when I spake, they did not hear: but they did evil before mine eyes,
+and chose that in which I delighted not” (Isaiah 66:4).
+The volume reads the verse as a statement about the man who offers while he has
+chosen his own ways. The four pairs do not say the offering is itself a killing; they say
+the offering of such a man is as the abomination set beside it. The same book, ten
+chapters earlier, says of the sons of the stranger who join themselves to the LORD
+that “their burnt offerings and their sacrifices shall be accepted upon mine altar; for
+mine house shall be called an house of prayer for all people” (Isaiah 56:7). The altar is
+named as “mine altar,” and the offerings are accepted. The two verses cannot be read
+as the same man at the same altar. The man of 56:7 has joined himself to the LORD
+and keeps his covenant (Isaiah 56:6). The man of 66:3 has chosen his own ways.
+The close of the chapter confirms the point. The LORD says of a day to come that
+“they shall bring all your brethren for an offering unto the LORD out of all nations … to
+my holy mountain Jerusalem, saith the LORD, as the children of Israel bring an
+offering in a clean vessel into the house of the LORD. And I will also take of them for
+priests and for Levites, saith the LORD” (Isaiah 66:20, 21). The offering in a clean
+vessel, the house of the LORD, priests and Levites are named in the same chapter, as
+part of what the LORD will do. Verse 23 speaks of new moon and sabbath, and it is
+left to Study 78. The volume reports verses 20 and 21 as written. It does not say when
+they are fulfilled, and it leaves the temple of Ezekiel 40–48 to Typology Commentary
+Volume 1.
+6.3 Zechariah 7: did ye at all fast unto me?
+Zechariah treats the question after the exile. The setting is given exactly: “in the fourth
+year of king Darius, … the fourth day of the ninth month” (Zechariah 7:1). Men have
+been sent “unto the house of God” with a question for the priests and the prophets:
+“Should I weep in the fifth month, separating myself, as I have done these so many
+years?” (Zechariah 7:2, 3). They ask whether to continue a fast for the destruction of
+the house. The question is an honest one, and the answer is not a yes or a no.
+The word comes back as a question to all the people and to the priests. “When ye
+fasted and mourned in the fifth and seventh month, even those seventy years, did ye
+at all fast unto me, even to me? And when ye did eat, and when ye did drink, did not ye
+eat for yourselves, and drink for yourselves?” (Zechariah 7:5, 6). The question puts the
+fast and the meal on the same footing: both were for themselves. The LORD does not
+say that fasting is wrong. He says the fast was not unto him. Then he points back to
+the former prophets: “Should ye not hear the words which the LORD hath cried by the
+former prophets, when Jerusalem was inhabited and in prosperity?” (Zechariah 7:7).
+The words of the former prophets are quoted. “Execute true judgment, and shew
+mercy and compassions every man to his brother: and oppress not the widow, nor the
+fatherless, the stranger, nor the poor; and let none of you imagine evil against his
+brother in your heart” (Zechariah 7:9, 10). The charge is that they refused to hearken:
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 23
+“they made their hearts as an adamant stone, lest they should hear the law, and the
+words which the LORD of hosts hath sent in his spirit by the former prophets:
+therefore came a great wrath from the LORD of hosts” (Zechariah 7:12). The prophet
+reads the whole line of the former prophets as one message, and the message is
+justice, mercy and truth to the brother, joined to the law. The sentence on the people
+was exile.
+Zechariah 8 gives the outcome. “The fast of the fourth month, and the fast of the fifth,
+and the fast of the seventh, and the fast of the tenth, shall be to the house of Judah
+joy and gladness, and cheerful feasts; therefore love the truth and peace” (Zechariah
+8:19). The fasts are not abolished; they are turned into feasts. The transformation is
+the LORD’s doing, and the condition is the same as in every prophet: love the truth and
+peace. The prophet who answers the question about the fast closes by promising that
+the fasts will turn into gladness.
+Isaiah 58, Isaiah 56 and 66, and Zechariah 7 and 8.
+
+ Passage            What is said against the               What is left standing
+                    observance
+ Isaiah 58:2–7      A fast kept for strife, with labours   The fast he chose is justice to
+                    exacted; the bowed head and            the oppressed; the LORD will
+                    sackcloth are not the fast the         answer, “Here I am” (58:9)
+                    LORD chose
+ Isaiah 66:1–4      A house cannot contain him; the        He looks to the poor man of a
+                    offering of those who chose their      contrite spirit who trembles at
+                    own ways is as an abomination          his word
+ Isaiah 56:6, 7     None against; the sons of the          “Their burnt offerings and
+                    stranger who join themselves to        their sacrifices shall be
+                    the LORD                               accepted upon mine altar”
+ Isaiah 66:20,      None against                           An offering in a clean vessel
+ 21                                                        in the house of the LORD;
+                                                           priests and Levites
+ Zechariah          Did ye at all fast unto me, even to    The question about the fast is
+ 7:5–14             me? They refused the law and the       answered by the former
+                    former prophets                        prophets’ message of justice
+                                                           and mercy
+ Zechariah 8:19     None against                           The four fasts shall be to the
+                                                           house of Judah joy and
+                                                           gladness, and cheerful feasts
+
+6.4 What the volume takes from the passages
+ • Isaiah 58 and Zechariah 7 take the observances of fasting seriously enough to
+   ask whose they are; both give the same answer: justice to the oppressed and
+   mercy to the brother is what the observance was meant to carry.
+
+
+
+
+                  ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 24
+ • Isaiah 66:3 is read as a statement about the man who offers having chosen his
+   own ways, and it is set beside Isaiah 56:7 and 66:20, 21, where the offerings of a
+   gathered people are accepted and brought to the house.
+ • Zechariah 8:19 turns the fasts into cheerful feasts; the answer to a question
+   about observance is a promise about gladness.
+ • None of the three passages commands an end to an order the LORD gave Israel;
+   each asks whose the observance is.
+ • The Sabbath of Isaiah 58:13 and 66:23 and Stephen’s use of Isaiah 66:1, 2 are left
+   to Study 78 and Acts Commentary Volume 1.
+
+
+7. Malachi: The Priests and the Pleasant Offering
+Claim: Malachi is the last of the prophets, and he is the one who complains most that
+the offerings are poor. His charge against the priests is that they bring the blind, the
+lame and the sick to an altar the LORD calls his own. He asks for a better offering, not
+for none. He ends with a promise that the sons of Levi will be purified so that they
+may offer an offering in righteousness, and that the offering of Judah and Jerusalem
+shall be pleasant to the LORD as in the days of old. If any prophet were going to say
+that the order of sacrifice had come to an end, it would be here, and it is the prophet
+who says the opposite.
+7.1 O priests, that despise my name
+The charge opens with a question about honour. “A son honoureth his father, and a
+servant his master: if then I be a father, where is mine honour? and if I be a master,
+where is my fear? saith the LORD of hosts unto you, O priests, that despise my name”
+(Malachi 1:6). The audience is the priests, and the charge is contempt for the name.
+The priests reply, “Wherein have we despised thy name?” The word of the LORD is
+that they offer “polluted bread upon mine altar” (Malachi 1:7). The altar is “mine altar.”
+The table is “the table of the LORD,” which the priests call contemptible. The house,
+the altar and the table are the LORD’s, and the complaint is about what the priests put
+on them.
+7.2 The blind, the lame and the sick
+The offence is stated in detail. “And if ye offer the blind for sacrifice, is it not evil? and
+if ye offer the lame and sick, is it not evil? offer it now unto thy governor; will he be
+pleased with thee, or accept thy person? saith the LORD of hosts” (Malachi 1:8). The
+comparison is with a governor. A man would not bring a blind animal to the governor
+of the province and expect to be received. The priests bring to the altar what they
+would not bring to a man. The LORD is a great King (Malachi 1:14). The weight of the
+charge is that the offering is treated as a thing of no account, to be filled with
+whatever is to hand.
+Verse 13 supplies the attitude. “Ye said also, Behold, what a weariness is it! and ye
+have snuffed at it, saith the LORD of hosts; and ye brought that which was torn, and
+the lame, and the sick; thus ye brought an offering: should I accept this of your hand?
+saith the LORD” (Malachi 1:13). The priests find the service a weariness and sniff at it.
+They bring what is torn, lame and sick. The LORD asks whether he should accept it.
+Verse 14 turns to the worshiper: “But cursed be the deceiver, which hath in his flock a
+male, and voweth, and sacrificeth unto the LORD a corrupt thing: for I am a great King,
+saith the LORD of hosts, and my name is dreadful among the heathen” (Malachi 1:14).
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 25
+A man who has a male in his flock, vows it, and then offers a corrupt thing instead is a
+deceiver. The vow is the language of Psalm 50:14, and the curse falls on the man who
+does not pay it.
+7.3 Who would shut the doors?
+The strongest sentence is in verse 10. “Who is there even among you that would shut
+the doors for nought? neither do ye kindle fire on mine altar for nought. I have no
+pleasure in you, saith the LORD of hosts, neither will I accept an offering at your hand”
+(Malachi 1:10). The LORD wishes that someone among the priests would shut the
+doors of the house. He says they do not kindle fire on his altar for nothing: they take a
+living by it. The sentence does not say the doors should be shut for ever. It says that
+offerings of this kind, from these priests, would be better not offered, and it is an
+appeal to the priests to stop.
+The next verse is the most difficult in the book for any reader. “For from the rising of
+the sun even unto the going down of the same my name shall be great among the
+Gentiles; and in every place incense shall be offered unto my name, and a pure
+offering: for my name shall be great among the heathen, saith the LORD of hosts”
+(Malachi 1:11). The volume reports the verse as written and draws three small
+conclusions. The sentence is a statement of what shall be, as the King James Version
+puts it, in the future. It contrasts a pure offering with the polluted bread of verse 7.
+And it speaks of the LORD’s name among the Gentiles in language like that of Isaiah
+66:19–21. The volume does not say when this is, and it does not read the verse as a
+description of the Body of Christ. It stands in Israel’s prophetic line, with the hope of a
+purified offering, and says what the LORD says: his name will be great among the
+nations, and a pure offering will be given.
+7.4 The covenant of Levi
+Chapter 2 repeats the charge to the priests and sets it in the covenant. “And now, O ye
+priests, this commandment is for you. If ye will not hear, and if ye will not lay it to
+heart, to give glory unto my name, saith the LORD of hosts, I will even send a curse
+upon you, and I will curse your blessings” (Malachi 2:1, 2). The sentence is severe: “I
+will corrupt your seed, and spread dung upon your faces, even the dung of your
+solemn feasts” (Malachi 2:3). The solemn feasts are named as the priests’ own, and
+the sentence turns them to shame.
+The covenant explains why the offence is so great. “My covenant was with him of life
+and peace; and I gave them to him for the fear wherewith he feared me, and was
+afraid before my name. The law of truth was in his mouth, and iniquity was not found
+in his lips: he walked with me in peace and equity, and did turn many away from
+iniquity” (Malachi 2:5, 6). The priest at his best is a teacher: “the priest’s lips should
+keep knowledge, and they should seek the law at his mouth: for he is the messenger
+of the LORD of hosts” (Malachi 2:7). The priests of Malachi’s day have departed out of
+the way, caused many to stumble at the law, and corrupted the covenant of Levi
+(Malachi 2:8). The charge is not that Levi’s office is false. It is that the sons of Levi
+have fallen from it, and the covenant is the standard by which they are measured.
+7.5 The refiner, and an offering in righteousness
+The third chapter begins with the coming of a messenger and the LORD to his temple;
+Volume 4 reads those two messengers and the verses around them. The verses that
+follow belong to this volume. The coming is a day of testing: “But who may abide the
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 26
+day of his coming? and who shall stand when he appeareth? for he is like a refiner’s
+fire, and like fullers’ soap” (Malachi 3:2). Then the purpose is stated. “And he shall sit
+as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them
+as gold and silver, that they may offer unto the LORD an offering in righteousness.
+Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the
+days of old, and as in former years” (Malachi 3:3, 4).
+Three things are plain in the two verses. The object of the refining is the sons of Levi,
+the priests whose offerings were polluted. The purpose of the refining is “that they
+may offer unto the LORD an offering in righteousness.” And the result is that the
+offering of Judah and Jerusalem shall be “pleasant unto the LORD, as in the days of
+old, and as in former years.” The prophet who charged the priests with offering the
+blind and the lame ends by promising the offering that pleases. He does not promise
+an end to the order. He promises its purification. The verse that follows lists the sins
+that bring him near to judgment: sorcerers, adulterers, false swearers, those who
+oppress the hireling, the widow, the fatherless and the stranger (Malachi 3:5). The list
+is conduct. The sins of verse 5 are the sins of the earlier prophets.
+Malachi 3:6 gives the ground on which the sons of Jacob are not consumed: “For I am
+the LORD, I change not; therefore ye sons of Jacob are not consumed.” Volume 1 read
+that verse among the sworn words. It is cited here only to mark that Malachi’s hope
+for the offering and his word about the LORD’s constancy stand together in the same
+chapter.
+The book ends with an instruction. “Remember ye the law of Moses my servant, which
+I commanded unto him in Horeb for all Israel, with the statutes and judgments”
+(Malachi 4:4). The last charge of the prophets is to remember the law given at Horeb,
+with its statutes and judgments. Volume 4 reads the verse that follows. In this volume
+it is enough to note what the final prophet asks: not that Israel leave the Law behind,
+but that it remember it.
+Malachi in five passages.
+
+ Passage            What the LORD says against it         What stands
+ Malachi 1:6, 7     The priests despise his name and      “Mine altar”; “the table of the
+                    offer polluted bread; the table is    LORD”
+                    called contemptible
+ Malachi 1:8,       The blind, the lame, the sick and     The offering is asked; it must
+ 13, 14             the torn are offered; the deceiver    be fit for a great King
+                    who vows a male and offers a
+                    corrupt thing is cursed
+ Malachi 1:10       Better that someone shut the          An appeal to the priests; no
+                    doors than that fire be kindled on    sentence of abolition
+                    the altar for nought
+ Malachi 2:1–9      The priests have departed out of      The covenant with Levi was of
+                    the way and corrupted the             life and peace; the priest is
+                    covenant of Levi                      the messenger of the LORD of
+                                                          hosts (2:7)
+
+
+
+
+                  ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 27
+ Passage            What the LORD says against it        What stands
+ Malachi 3:3, 4     None against                         The sons of Levi purified,
+                                                         offering an offering in
+                                                         righteousness; the offering of
+                                                         Judah and Jerusalem
+                                                         pleasant as in the days of old
+
+7.6 What the volume takes from the passages
+ • Malachi’s whole complaint is that the offerings are poor; he asks for a fit offering,
+   and he says that a priest’s lips should keep knowledge.
+ • The altar, the table and the doors belong to the LORD in the language of the book:
+   “mine altar,” “the table of the LORD.”
+ • Malachi 1:10 wishes that the doors were shut rather than that the fire be kindled
+   for nought, and it is an appeal to the priests and not a sentence of abolition.
+ • Malachi 1:11 is reported as written, a promise that his name will be great among
+   the Gentiles and a pure offering given, and it is placed in Israel’s prophetic line
+   without a date.
+ • Malachi 3:3, 4 promises the sons of Levi purified and the offering of Judah and
+   Jerusalem pleasant as in the days of old; the last prophet closes by telling Israel
+   to remember the law of Moses.
+
+
+8. Hebrews 10: The Same Verdict from the Other
+Side
+Claim: the letter to the Hebrews takes up the sentence of Psalm 40 and says, in its
+own argument, what the prophets had been saying about the offerings: they were
+never the means by which sins are taken away. It does not say the prophets abolished
+them. It says that the offerings of the Law were a shadow and could not take away
+sins, that the psalm sets the will done against them, and that Christ’s offering of his
+body once for all does what they could not. The letter is read inside Israel’s line, on its
+own audience markers and the covenant it quotes, and builds nothing for the Body
+from it.
+8.1 Where the letter stands
+This reading rests on the letter’s own audience markers and on the covenant it quotes
+(Jeremiah 31:31–34), which belongs to the house of Israel and the house of Judah,
+the Body benefiting from Christ’s blood without being the covenant party. The letter
+speaks of the priests who “offer gifts according to the law” (Hebrews 8:4), of Moses
+and the tabernacle (Hebrews 8:5), and of a new covenant made with Israel (Hebrews
+8:8–12 quotes it). It is addressed to men who know the sacrifices and have a high
+priest in view. Study 24 reads the letter’s warning and its sacrificial argument, and
+Typology Commentary Volumes 1 and 3 read the shadow and the priesthood. This
+chapter asks one narrower question: how does the letter take up the psalm’s
+sentence on the offerings, and what does it make of it?
+
+
+
+
+                  ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 28
+8.2 The Law’s sacrifices: a shadow that could not take away sins
+The tenth chapter begins with a verdict on the Law’s offerings. “For the law having a
+shadow of good things to come, and not the very image of the things, can never with
+those sacrifices which they offered year by year continually make the comers
+thereunto perfect. For then would they not have ceased to be offered? because that
+the worshippers once purged should have had no more conscience of sins. But in
+those sacrifices there is a remembrance again made of sins every year. For it is not
+possible that the blood of bulls and of goats should take away sins” (Hebrews 10:1–
+4).
+The sentence is flat, and it does not say the sacrifices were wrong. It says what they
+could not do. The repetition of the sacrifices, year by year, is the proof: a thing that
+took sin away would not need to be repeated. The writer’s argument is that the Law’s
+sacrifices were a shadow and a yearly remembrance of sins. This is a statement
+about their power, and it is made inside the covenant the sacrifices belonged to. The
+same writer says elsewhere that the Law’s sacrifices were a figure “imposed on them
+until the time of reformation” (Hebrews 9:10), and that the high priests of Israel “serve
+unto the example and shadow of heavenly things” (Hebrews 8:5).
+The prophets had said much the same from the other side. When Isaiah asks, “To
+what purpose is the multitude of your sacrifices unto me?” (Isaiah 1:11), and Psalm
+51:16 says, “thou delightest not in burnt offering,” the prophets are saying that the
+offerings do not do the thing the worshipers hope they do. Hebrews 10:4 says it in a
+sentence: the blood of bulls and goats cannot take away sins. The two statements
+agree, and they are made for different reasons. The prophets say it to people who are
+using the offering to cover their sins. The letter says it to people who are asking what
+the offerings were for.
+8.3 The quotation of Psalm 40
+The letter then quotes the psalm. “Wherefore when he cometh into the world, he saith,
+Sacrifice and offering thou wouldest not, but a body hast thou prepared me: in burnt
+offerings and sacrifices for sin thou hast had no pleasure. Then said I, Lo, I come (in
+the volume of the book it is written of me,) to do thy will, O God” (Hebrews 10:5–7).
+Psalm 40:6–8, as chapter 1 read it, says: “Sacrifice and offering thou didst not desire;
+mine ears hast thou opened: burnt offering and sin offering hast thou not required.
+Then said I, Lo, I come: in the volume of the book it is written of me, I delight to do thy
+will, O my God.”
+Two things differ in the English. Where the psalm has “mine ears hast thou opened,”
+the letter has “a body hast thou prepared me.” And the psalm’s “burnt offering and sin
+offering hast thou not required” stands in the letter as “in burnt offerings and
+sacrifices for sin thou hast had no pleasure.” The volume reports both wordings as
+they stand in the King James Version and builds no theory on the difference. The
+speaker is the same in both: the one who says, Lo, I come, and says that it is written
+of him in the volume of the book. The letter introduces the words with “when he
+cometh into the world, he saith,” and so reads the psalm as the speech of the one
+who comes. The volume reports that reading.
+What the quotation shares with the psalm is the sentence of rank. The psalm sets the
+offerings against the will done, and so does the letter. In the letter’s next verses the
+four named offerings are those of the psalm: “Above when he said, Sacrifice and
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 29
+offering and burnt offerings and offering for sin thou wouldest not, neither hadst
+pleasure therein; which are offered by the law” (Hebrews 10:8). The phrase “which are
+offered by the law” is the letter’s gloss on the four. It tells the reader that the offerings
+the psalm names are the Law’s offerings, and that the “not” of the psalm applies to
+them.
+8.4 The first and the second
+Verse 9 is the verse that causes the difficulty. “Then said he, Lo, I come to do thy will,
+O God. He taketh away the first, that he may establish the second.” The first is the set
+of offerings that the psalm said the LORD did not desire. The second is the will done.
+The writer reads the psalm as announcing that what the LORD wanted was never the
+offerings in themselves and that the one who comes does the will. Verse 10 then says
+what the will accomplished: “By the which will we are sanctified through the offering
+of the body of Jesus Christ once for all.”
+The volume reads the verse as follows. The letter says that Christ’s offering does
+what the offerings of the Law could not do: it takes sins away. In that sense he takes
+away the first, as the means by which sin is dealt with, and establishes the second,
+the will done and the body offered once for all. The verse does not say that the
+prophets set the offerings aside. It says that what the psalm already said, that the
+offerings were not the thing the LORD desired and required, comes to its point in the
+one who says, Lo, I come. The prophets’ sentences are not abolished by the letter, and
+they are not made false. They are brought to the one they pointed toward.
+The verses that follow say the same thing in the letter’s own terms. “And every priest
+standeth daily ministering and offering oftentimes the same sacrifices, which can
+never take away sins: but this man, after he had offered one sacrifice for sins for ever,
+sat down on the right hand of God” (Hebrews 10:11, 12). “For by one offering he hath
+perfected for ever them that are sanctified” (Hebrews 10:14). The letter calls the Holy
+Ghost a witness to this, and it quotes the covenant of Jeremiah 31: “This is the
+covenant that I will make with them after those days, saith the Lord, I will put my laws
+into their hearts, and in their minds will I write them; and their sins and iniquities will I
+remember no more” (Hebrews 10:15–17). Verse 18 ends the argument: “Now where
+remission of these is, there is no more offering for sin.” Study 24 reads that finality in
+detail, and the volume cites it.
+8.5 What the letter does not say
+It does not say that the prophets condemned the Law’s sacrifices as sinful. The
+prophets’ sentences were about how the worshipers used them, and the letter’s are
+about what they could do. It does not say that burnt offerings will never be offered
+again. Hebrews 10:18 speaks of offering for sin, and the sentence is about remission
+of sins. Typology Commentary Volume 1 reads Ezekiel 40–48 as a Kingdom temple
+with memorial offerings, and nothing in this volume argues against that reading:
+offerings that never took away sins can be offered as a remembrance without taking
+them away. The volume does not argue the point, and cites the Typology volume.
+Nor does the letter say anything of the Body of Christ in these verses. It speaks of
+those whom the covenant of Jeremiah 31 concerns, and it holds the Body at a
+distance in the standing sentence given above. The blood of Christ is the ground, and
+the Body remembers it. The Body is not the party to the covenant the letter quotes.
+The prophets’ charges are in this volume read as charges brought against Israel’s
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 30
+worship; the letter’s verdict is read as a verdict inside Israel’s line, and nothing in
+either is made a charge against, or a rule for, the worship of the Body.
+Psalm 40 and Hebrews 10 side by side.
+
+ Point                Psalm 40:6–8                       Hebrews 10:5–10
+ The offerings        Sacrifice, offering, burnt         Sacrifice, offering, burnt
+ named                offering, sin offering             offerings, sacrifices for sin;
+                                                         “which are offered by the law”
+ What is said of      “Thou didst not desire … hast      “Thou wouldest not … thou hast
+ them                 thou not required”                 had no pleasure”
+ The body and         “Mine ears hast thou opened”       “A body hast thou prepared me”
+ the ears
+ The speaker          “Then said I, Lo, I come”          “When he cometh into the
+                                                         world, he saith”
+ What is set          “I delight to do thy will, O my    “to do thy will, O God”; “He
+ against the          God: yea, thy law is within my     taketh away the first, that he
+ offerings            heart”                             may establish the second”
+
+8.6 What the volume takes from the passages
+ • Hebrews 10:1–4 says what the Law’s sacrifices could not do: they were a
+   shadow, repeated year by year, and could not take away sins.
+ • The letter quotes Psalm 40 and says the offerings named are those “offered by
+   the law”; the volume reports the two wordings of the clause on the body and the
+   ears without a theory.
+ • Hebrews 10:9 is read as the letter’s argument that the will done takes the place of
+   the offerings as the means of dealing with sin; it does not say the prophets
+   abolished the offerings.
+ • The letter and the prophets agree that the offerings were never the thing that took
+   sins away, and they say it to different people for different reasons.
+ • The letter is read inside Israel’s line; nothing in it is made a charge against, or a
+   rule for, the Body, and Ezekiel 40–48 is left to Typology Commentary Volume 1.
+
+
+9. Objections and Replies
+Claim: the volume’s reading, that the prophets condemn the worshipers and the way
+they worship and never the worship the LORD commanded, answers the objections
+best made against it, and where an objector is right the volume says so. Modern
+writers who support parts of the argument are named beside those who press against
+it. A writer is quoted only where the author has read the words in a free text. Where a
+position is known to the author only because another writer or an abstract reports it,
+the volume says so, names the report, and puts no quotation marks around the
+position.
+
+
+
+
+                   ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 31
+9.1 Who agrees, and where the volume differs
+Four modern writers hold, in their own ways, that the prophets did not reject sacrifice
+as such. Göran Eidevall, who teaches Old Testament at Uppsala, writes in an article of
+2018 that his study “refutes the view that prophets like Amos and Jeremiah rejected
+all sacrifices” (Religions 9, no. 12, article titled Reciprocity and the Risk of Rejection).
+He reads their cult-critical oracles as bound to particular situations. In a short piece of
+2017 for Yale University Press he calls the opposite picture of the prophets
+“anachronistic” Blessing Boloje, writing on Micah 6:6–8 in Old Testament Essays in
+2019, concludes that “Micah’s message is not a rejection of ritual but maintaining the
+right priorities.” Alphonso Groenewald, in HTS Teologiese Studies in 2019, reads Amos
+5:21–24 and Isaiah 1:10–20 in the same direction, and quotes another scholar’s
+sentence that “The problem indeed is the lack of social ethics of the community of
+the faithful and not with the rituals themselves.” Matt Lynch, in a blog post of 2017 on
+the WTC Theology blog, writes that “It’s important to remember that the prophets
+were rhetoricians” and he notes that Jeremiah himself says sacrifices will be restored
+(Jeremiah 33:18).
+The volume agrees with them on the conclusion and differs on the method. Eidevall
+and Lynch read the strong sentences as situational or rhetorical: said for an occasion,
+or to provoke. The volume reads them, wherever the wording allows, as the Hebrew
+idiom of rank, this more than that, and finds in each the same two things: the
+offerings are named as the LORD’s own appointment, and the charge falls on the
+worshiper. That is a narrower claim than rhetoric, and a reader who prefers the
+rhetorical reading loses nothing in the conclusion.
+9.2 Objection: the prophets rejected sacrifice itself
+This is the strongest opposing position, and it has a long history in the study of the
+prophets. John Barton, in The Prophets and the Cult (in Temple and Worship in Biblical
+Israel, edited by John Day, 2007), holds, according to an abstract of the chapter
+published by the Temple Studies Group, that a handful of passages, among them
+Micah 6:6, Amos 5:25, Jeremiah 2:1–3, Jeremiah 7:22 and Psalm 50, are hostile to
+sacrificial activity in itself and not only to sacrifice offered by the unrepentant. The
+volume knows Barton’s chapter only through that abstract and describes it in its own
+words. Eidevall reports that Barton also describes Amos as an anti-ritualist (in The
+Theology of the Book of Amos, 2012), and he reports that Paul Volz, in 1937, argued
+from five observations that Amos and Jeremiah wanted the cult abolished.
+Groenewald reports that William McKane (1982) and Ronald Hendel (1995) read the
+prophets as setting the ethical against the ritual. The volume has read none of these
+works; it describes the positions as these two writers report them.
+Reply. Barton’s five passages are each read in the chapters before this one, and the
+reply is the reading. Micah 6:6–8 is a series of questions put by the worshiper,
+answered by “what doth the LORD require of thee” (Micah 6:8), with no sentence
+abolishing the offerings (chapter 4). Amos 5:25 is a question that is itself contested
+(chapter 3). Jeremiah 7:22 is read against Exodus 19:5, Jeremiah 7:23 and Jeremiah
+33:18 (chapter 5). Jeremiah 2:1–3 praises Israel’s love in the wilderness and calls
+Israel “holiness unto the LORD, and the firstfruits of his increase”; it does not mention
+an offering and so cannot be hostile to one. Psalm 50 says, “I will not reprove thee for
+thy sacrifices or thy burnt offerings, to have been continually before me” (Psalm 50:8),
+and then says what he does not need and what he asks (chapter 1). The volume
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 32
+grants that the sentences read alone can sound like abolition. It holds that they do not
+read so in their contexts.
+Volz’s five observations, as Eidevall reports them, can each be met from the text. That
+the critique reached the central sanctuaries is true of Amos’s Bethel, which was the
+king’s own chapel (Amos 7:13), and Eidevall notes that Amos never charges the
+Jerusalem cult; Jeremiah’s charge falls on those who trust the house, not on the
+house’s offerings (chapter 5). That the prophets proposed no reform fits a message
+that said the day of judgment was fixed; but Jeremiah 7:3 sets the condition, “Amend
+your ways and your doings, and I will cause you to dwell in this place,” and Isaiah
+1:16–20 offers the same. That they idealized the past is what Jeremiah 7:22, 23 and
+Amos 5:25 are said to show, and chapters 3 and 5 read both. That priests persecuted
+them is true, but the charge against Amos was conspiracy and the foretelling of the
+king’s death and the people’s exile (Amos 7:10, 11), not the abolition of offerings. That
+some oracles imply total rejection is the very point at issue, and the chapters read
+each of them.
+9.3 Objection: ritual has little value; ethics is the whole matter
+A second objection grants that the prophets did not abolish the cult and holds that
+they saw little worth in it. Boloje and Groenewald, in Scriptura in 2015, propose that
+“these prophets could not see the importance of rituals for the improvement of ethical
+life,” and say this criticism “lies at the heart of the controversy between the prophets
+and the priest.” They add that the cult was acceptable where it served ethical living.
+Groenewald, in 2019, reports that Hendel holds the classical prophets contrasted the
+ethical with the ritual. The objection is that the prophets valued the offerings so little
+that the volume’s emphasis on what they left standing makes too much of it.
+Reply. The volume grants that the prophets demanded conduct and that offerings
+without it are refused: Boloje himself says rituals without ethical behaviour are
+worthless, and the volume has said the same of Isaiah 1, Amos 5 and Jeremiah 7. But
+the prophets do not say the offerings are of little value. They call them “mine
+offerings” (Hosea 8:13), they say the LORD will “require” them in the land (Ezekiel
+20:40), and Malachi charges the priests for offering what a governor would refuse,
+which treats the offering as a matter of weight (Malachi 1:8). A man who thinks an
+offering of little value does not object to a blind lamb. The charge is that the offering
+was brought by the unrepentant and brought in a state that dishonored the one it was
+brought to. That makes them of great value, not little.
+9.4 Objection: Ezekiel 20:25–26 says the LORD gave bad laws
+The hardest text comes from a prophet. “Wherefore I gave them also statutes that
+were not good, and judgments whereby they should not live; and I polluted them in
+their own gifts, in that they caused to pass through the fire all that openeth the womb,
+that I might make them desolate, to the end that they might know that I am the LORD”
+(Ezekiel 20:25, 26). Hyam Maccoby, in an article in the Journal of Textual Reasoning in
+1999, reports that modern Jewish commentators led by Moshe Greenberg have taken
+the verses to say that Ezekiel accuses God of giving bad laws, among them a law of
+firstborn sacrifice. Maccoby rejects that. “The notion of a God who deliberately gives
+bad laws is surely nonsensical,” he writes, and he reads the verses as Ezekiel’s report
+of what the rebels said: “Ezekiel represents the rebels as attributing the new teaching
+to Yahweh himself.”
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 33
+Reply. The volume and Maccoby differ on how the verses work and agree on what
+they cannot do. Maccoby takes the statutes that were not good as the rebels’ claim;
+the volume reads them as a judicial giving-over, in the order of the chapter. The
+statutes by which a man lives are the ones given first, and Israel “walked not in my
+statutes” (Ezekiel 20:11, 13, 21). Then comes “Wherefore I gave them also statutes
+that were not good” (Ezekiel 20:25), a consequence of the refusal. The next verse
+names the practice, the burning of the firstborn, and Jeremiah 7:31 says of the
+burning of children that the LORD “commanded them not, neither came it into my
+heart.” Whichever reading is taken, the verses are not a repudiation of the offerings,
+because the same chapter promises that in his holy mountain “there will I require your
+offerings, and the firstfruits of your oblations, with all your holy things” (Ezekiel
+20:40). The volume does not rest its case on choosing between Maccoby’s reading
+and its own.
+9.5 Objection: Hebrews 10 shows the prophets were right to reject sacrifice
+The objection takes Hebrews 10:8, 9 as a ruling that the offerings were taken away,
+and concludes that the prophets were announcing their end. No writer is named for it;
+it is stated in the author’s words. Reply. Chapter 8 read the passage. The letter says
+the Law’s sacrifices could not take away sins and that Christ’s offering does. It does
+not say the prophets abolished the offerings, and it does not say their charges were
+charges against the offerings. What it shares with the prophets is a verdict about their
+power, and what it adds is a person.
+9.6 Objection: are the churches’ rites condemned too?
+The objection asks whether those who keep a rite today stand under the prophets’
+charge. No writer is named for it. Reply. The volume does not say so. The prophets’
+charges are brought against Israel’s worship, in Israel’s land, at the house the LORD
+appointed. Nothing in the chapters was a rule for the Body, and nothing was a charge
+against it. The volume holds that the Body is in no Israelite covenant and states no
+critique of Christian ritual. A reader who wants to ask what the prophets’ pattern
+shows about any worship is free to ask it, and the volume has not answered.
+The objections and the replies in one table.
+
+ Objection                  Held by                   Reply in one line
+ The prophets rejected      Barton (2007), as an      Each of Barton’s passages is
+ sacrifice itself           abstract of his chapter   read in its context; none
+                            reports; Volz, McKane     abolishes the offerings
+                            and Hendel, as Eidevall
+                            and Groenewald report
+ Ritual has little value;   Boloje and Groenewald     The offerings are “mine
+ ethics is the matter       (2015); Hendel, as        offerings” and are “required”;
+                            Groenewald reports        the charge is the worshiper, not
+                                                      the worth
+ Ezekiel 20:25–26 says      Greenberg and others,     Not a repudiation of the
+ the LORD gave bad          as Maccoby reports;       offerings; the chapter promises
+ laws                       Maccoby opposes           them (Ezekiel 20:40)
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 34
+ Objection                 Held by                    Reply in one line
+ Hebrews 10 shows the      none named                 The letter’s verdict is about
+ prophets were right to                               their power; the prophets are
+ reject sacrifice                                     not made to abolish them
+ The churches’ rites are   none named                 Not said; the charges are
+ condemned too                                        Israel’s and nothing here is a
+                                                      rule for the Body
+
+9.7 What the volume takes from the replies
+ • Eidevall, Boloje, Groenewald and Lynch agree that the prophets did not reject
+   sacrifice as such; the volume differs from the first and last in reading the
+   sentences as rank rather than situation or rhetoric.
+ • The strongest opposing voice, Barton, is answered passage by passage; the
+   volume knows his chapter only through an abstract and says so.
+ • The volume grants that the prophets demanded conduct and refused offerings
+   without it, and holds that they never treated the offerings as of little worth.
+ • Ezekiel 20:25, 26 is read in the chapter’s order, with its closing promise of the
+   offerings; the volume differs from Maccoby on how the verses work and agrees
+   with him that they do not repudiate the offerings.
+ • The volume states no critique of Christian ritual and assigns the prophets’
+   charges to the worship they were brought against.
+
+
+Conclusion
+The volume began with a plain statement: it argues a position. The position is that the
+prophets condemn the worshipers and the way they worship, and never the worship
+the LORD commanded. It has tried to show that from the prophets’ own sentences.
+Saul is told that to obey is better than sacrifice (1 Samuel 15:22), and the same
+chapter shows him offering what the LORD had said to destroy. The psalms say the
+LORD did not desire the offerings and still look to the day when bullocks are offered
+on his altar (Psalm 51:19). Isaiah names the sacrifices, the new moons and the
+appointed feasts as the Law’s own and refuses them from hands full of blood, and his
+remedy is nine commands of conduct (Isaiah 1:10–17). Amos charges Bethel and
+Gilgal, which Jeroboam devised, and the feasts that “your” hands keep. Hosea and
+Micah set mercy and the knowledge of God above the offering. Jeremiah stands at
+the gate of the house and tells the people that the house will go as Shiloh went if they
+do not amend their ways. Isaiah, Zechariah and Malachi bring the fast, the house and
+the priests under the same charge. And each of them, in his own hope, names the
+offerings among the things restored.
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 35
+The position in one table.
+
+ Question                 The position                            Chief passages
+ What do the prophets     They are named as the LORD’s            Isa 1:11–13; Jer 6:20;
+ say of the offerings?    appointment, and refused from           Amos 5:21–22
+                          these hands
+ What is the charge?      The worshiper’s conduct, his idols      Isa 1:15–17; Jer 7:9–
+                          and his use of the house                11; Amos 5:12, 24
+ How are the              As the idiom of rank: this more         Hos 6:6; Jer 7:22, 23;
+ sentences to be          than that, not this and nothing else    1 Sam 15:22
+ read?
+ What is the sentence     Judgment on those who use it, as        Jer 7:12–15; Isa
+ on the house?            at Shiloh; not abolition                66:1–4
+ What is the remedy?      Turn, wash, do justly; and the          Isa 1:16–20; Mic 6:8;
+                          offerings follow                        Hos 14:1–2
+ What stands in the       Offerings accepted, priests purified,   Isa 56:7; 66:20, 21;
+ hope?                    an offering in righteousness            Jer 33:18; Ezek
+                                                                  20:40; Mal 3:3, 4
+ What does Hebrews        The same verdict on their power,        Ps 40:6–8; Heb 10:1–
+ 10 add?                  and a person; no abolition by the       10
+                          prophets
+
+The volume asks to be tested. A reader who disagrees may take any row of the table
+and look for the verse that overturns it. If the verse is there, the position must change.
+If it is not, the position stands on what the text says.
+The volume has tried to be fair to the readings it opposes. It has granted that the
+prophets’ sentences are strong, that Ezekiel 20:25, 26 is hard, and that Amos 5:25 can
+be read more than one way. It has named Barton as the strongest voice against it and
+answered his passages one by one, and it has said where it knows a writer’s position
+only through a report. Eidevall, Boloje, Groenewald and Lynch agree with its
+conclusion, and the volume has said where it differs from them in method. If the
+volume has pressed past an objection unfairly, the verses will show it. The volume
+has stated no critique of Christian ritual and has made no rule for the Body from the
+charges it reads.
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 36
+Appendix A. The Indictments at a Glance
+What each prophet charges, and what he leaves standing.
+
+ Prophet and        Charged                  Left standing            In the hope
+ passage
+ Isaiah 1:10–       Hands full of blood;     The Law’s offerings      The city purged
+ 20                 the offerings, feasts    are named as the         and restored
+                    and prayers of those     LORD’s; the remedy is    (1:25–27)
+                    who do not wash          conduct
+ Amos 4:4, 5;       The worship at Bethel    The pronoun is           Seek me, and ye
+ 5:21–27            and Gilgal; feasts       “your”; no word          shall live (5:4)
+                    kept alongside           against the altar at
+                    injustice                Jerusalem
+ Hosea 6:6;         No mercy nor             “Mine offerings” are     Return, and the
+ 8:11–13            knowledge of God;        named as the LORD’s      calves of our lips
+                    altars multiplied for                             (3:5; 14:2)
+                    sin
+ Micah 6:6–8        A people who think       The question is what     Do justly, love
+                    the price of the         the LORD requires        mercy, walk
+                    offering settles the                              humbly
+                    case
+ Jeremiah 6:20;     Trust in the house;      The house is the         Offerings brought
+ 7:1–23             theft, murder,           LORD’s; the word at      to the house
+                    adultery and idols;      the Exodus was           (17:26; 33:18)
+                    the law rejected         obedience
+ Isaiah 58;         A fast for strife; the   The man of a contrite    Offerings
+ 66:1–4             offering of those who    spirit who trembles at   accepted on my
+                    chose their own ways     his word                 altar (56:7); an
+                                                                      offering in a clean
+                                                                      vessel (66:20)
+ Zechariah 7        A fast kept for          The question is          The fasts become
+                    themselves               answered by the          joy and gladness
+                                             former prophets’         (8:19)
+                                             message
+ Malachi 1:6–       Polluted bread and       “Mine altar”; “the       The sons of Levi
+ 14; 2:1–9          unfit animals; priests   table of the LORD”       purified; an
+                    who departed from                                 offering in
+                    the covenant of Levi                              righteousness
+                                                                      (3:3, 4)
+
+
+
+
+                  ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 37
+Appendix B. Key Words
+The King James Version is the text of the volume. The words below are given in
+Roman letters for readers who wish to see what stands behind the English. Nothing in
+the argument depends on a rendering other than the King James rendering.
+Words in the passages on the offerings.
+
+ Word          KJV           Where                       Note
+               renders
+ zebach        sacrifice     1 Samuel 15:22; Psalm       An offering of slaughter;
+                             40:6; Hosea 6:6; Jeremiah   the word in the prophets’
+                             7:22                        strongest sentences
+ olah          burnt         Psalm 51:16; Isaiah 1:11;   The offering that goes up;
+               offering      Jeremiah 7:22; Hosea 6:6    named in the Law’s own
+                                                         list
+ minchah       offering;     Psalm 40:6; Isaiah 1:13;    A gift offering; the word
+               oblation      Amos 5:22; Malachi 1:10,    of Malachi’s “pure
+                             3:3                         offering”
+ chesed        mercy         Hosea 6:6; Micah 6:8        Loving-kindness, faithful
+                                                         love; set beside the
+                                                         knowledge of God
+ atsarah       solemn        Isaiah 1:13; Amos 5:21      A day of gathering; one of
+               assembly                                  the appointed times
+ tsom          fast          Isaiah 58:3–6; Zechariah    The act and the day; the
+                             7:5; 8:19                   matter of the question
+                                                         from Bethel
+ thysia,       sacrifice,    Hebrews 10:5, 8             The Greek words behind
+ prosphora     offering                                  the quotation of Psalm 40
+ soma          body          Hebrews 10:5, 10            The word the letter uses
+                                                         where the psalm has
+                                                         “ears”
+
+
+
+
+               ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 38
+Appendix C. Questions for Study
+The questions may be used alone or in a group. Each can be answered from the text,
+and the chapter that bears on it is given in brackets.
+1.    What does Samuel say to Saul in 1 Samuel 15:22? What had Saul done with the
+      spoil? [1]
+2.    How does Psalm 50 say the LORD does and does not need the offerings? What
+      does he say of thanksgiving? [1]
+3.    What does Psalm 51:16–19 say of burnt offering? What follows in verse 19? [1]
+4.    Which items in Isaiah 1:11–14 belong to the Law’s own list? What does the
+      LORD call them? [2]
+5.    What are the nine commands of Isaiah 1:16, 17? Is any of them a command to
+      stop the offerings? [2]
+6.    Who devised the worship at Bethel, according to 1 Kings 12:26–33? How does
+      this bear on Amos 4:4? [3]
+7.    What does the pronoun “your” do in Amos 5:21–23? [3]
+8.    How does Amos 5:25 stand if read as a question? What are the readings of it?
+      [3, 9]
+9.    What are the two clauses of Hosea 6:6, and what does “more than” do to the
+      first? [4]
+10.   What does Micah’s lawsuit conclude in 6:8? [4]
+11.   What are the three “lying words” of Jeremiah 7:4? What does the LORD say of
+      Shiloh? [5]
+12.   How does Jeremiah 7:22 read beside Exodus 19:5 and Jeremiah 7:23? [5]
+13.   What fast does the LORD choose in Isaiah 58:6, 7? [6]
+14.   What does Zechariah 7:5 ask of the fasts? How does 8:19 answer it? [6]
+15.   What are the faults of the priests in Malachi 1:6–14? What does Malachi 3:3, 4
+      promise? [7]
+16.   What does Hebrews 10:4 say of the blood of bulls and goats? What does verse 9
+      say is taken away and established? [8]
+17.   Why does the volume read Ezekiel 20:25, 26 with Ezekiel 20:40? [9]
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 39
+Appendix D. The Key Passages in Full
+The passages on which the volume turns are given here in full, so that a reader can
+test the argument against the whole text and not only against the verses quoted in the
+chapters. Verse numbers are in bold. A row of dots marks a gap between verses.
+D.1 1 Samuel 15:17–26
+17 And Samuel said, When thou wast little in thine own sight, wast thou not made the
+head of the tribes of Israel, and the LORD anointed thee king over Israel? 18 And the
+LORD sent thee on a journey, and said, Go and utterly destroy the sinners the
+Amalekites, and fight against them until they be consumed. 19 Wherefore then didst
+thou not obey the voice of the LORD, but didst fly upon the spoil, and didst evil in the
+sight of the LORD? 20 And Saul said unto Samuel, Yea, I have obeyed the voice of the
+LORD, and have gone the way which the LORD sent me, and have brought Agag the
+king of Amalek, and have utterly destroyed the Amalekites. 21 But the people took of
+the spoil, sheep and oxen, the chief of the things which should have been utterly
+destroyed, to sacrifice unto the LORD thy God in Gilgal. 22 And Samuel said, Hath the
+LORD as great delight in burnt offerings and sacrifices, as in obeying the voice of the
+LORD? Behold, to obey is better than sacrifice, and to hearken than the fat of rams.
+23 For rebellion is as the sin of witchcraft, and stubbornness is as iniquity and
+idolatry. Because thou hast rejected the word of the LORD, he hath also rejected thee
+from being king. 24 And Saul said unto Samuel, I have sinned: for I have transgressed
+the commandment of the LORD, and thy words: because I feared the people, and
+obeyed their voice. 25 Now therefore, I pray thee, pardon my sin, and turn again with
+me, that I may worship the LORD. 26 And Samuel said unto Saul, I will not return with
+thee: for thou hast rejected the word of the LORD, and the LORD hath rejected thee
+from being king over Israel.
+D.2 Psalm 40:6–8; 50:7–15
+6 Sacrifice and offering thou didst not desire; mine ears hast thou opened: burnt
+offering and sin offering hast thou not required. 7 Then said I, Lo, I come: in the
+volume of the book it is written of me, 8 I delight to do thy will, O my God: yea, thy law
+is within my heart. … 7 Hear, O my people, and I will speak; O Israel, and I will testify
+against thee: I am God, even thy God. 8 I will not reprove thee for thy sacrifices or thy
+burnt offerings, to have been continually before me. 9 I will take no bullock out of thy
+house, nor he goats out of thy folds. 10 For every beast of the forest is mine, and the
+cattle upon a thousand hills. 11 I know all the fowls of the mountains: and the wild
+beasts of the field are mine. 12 If I were hungry, I would not tell thee: for the world is
+mine, and the fulness thereof. 13 Will I eat the flesh of bulls, or drink the blood of
+goats? 14 Offer unto God thanksgiving; and pay thy vows unto the most High: 15
+And call upon me in the day of trouble: I will deliver thee, and thou shalt glorify me.
+D.3 Psalm 51:16–19
+16 For thou desirest not sacrifice; else would I give it: thou delightest not in burnt
+offering. 17 The sacrifices of God are a broken spirit: a broken and a contrite heart, O
+God, thou wilt not despise. 18 Do good in thy good pleasure unto Zion: build thou the
+walls of Jerusalem. 19 Then shalt thou be pleased with the sacrifices of
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 40
+righteousness, with burnt offering and whole burnt offering: then shall they offer
+bullocks upon thine altar.
+D.4 Isaiah 1:10–20
+10 Hear the word of the LORD, ye rulers of Sodom; give ear unto the law of our God, ye
+people of Gomorrah. 11 To what purpose is the multitude of your sacrifices unto me?
+saith the LORD: I am full of the burnt offerings of rams, and the fat of fed beasts; and I
+delight not in the blood of bullocks, or of lambs, or of he goats. 12 When ye come to
+appear before me, who hath required this at your hand, to tread my courts? 13 Bring
+no more vain oblations; incense is an abomination unto me; the new moons and
+sabbaths, the calling of assemblies, I cannot away with; it is iniquity, even the solemn
+meeting. 14 Your new moons and your appointed feasts my soul hateth: they are a
+trouble unto me; I am weary to bear them. 15 And when ye spread forth your hands, I
+will hide mine eyes from you: yea, when ye make many prayers, I will not hear: your
+hands are full of blood. 16 Wash you, make you clean; put away the evil of your
+doings from before mine eyes; cease to do evil; 17 Learn to do well; seek judgment,
+relieve the oppressed, judge the fatherless, plead for the widow. 18 Come now, and
+let us reason together, saith the LORD: though your sins be as scarlet, they shall be as
+white as snow; though they be red like crimson, they shall be as wool. 19 If ye be
+willing and obedient, ye shall eat the good of the land: 20 But if ye refuse and rebel, ye
+shall be devoured with the sword: for the mouth of the LORD hath spoken it.
+D.5 1 Kings 12:26–33
+26 And Jeroboam said in his heart, Now shall the kingdom return to the house of
+David: 27 If this people go up to do sacrifice in the house of the LORD at Jerusalem,
+then shall the heart of this people turn again unto their lord, even unto Rehoboam king
+of Judah, and they shall kill me, and go again to Rehoboam king of Judah. 28
+Whereupon the king took counsel, and made two calves of gold, and said unto them, It
+is too much for you to go up to Jerusalem: behold thy gods, O Israel, which brought
+thee up out of the land of Egypt. 29 And he set the one in Bethel, and the other put he
+in Dan. 30 And this thing became a sin: for the people went to worship before the
+one, even unto Dan. 31 And he made an house of high places, and made priests of
+the lowest of the people, which were not of the sons of Levi. 32 And Jeroboam
+ordained a feast in the eighth month, on the fifteenth day of the month, like unto the
+feast that is in Judah, and he offered upon the altar. So did he in Bethel, sacrificing
+unto the calves that he had made: and he placed in Bethel the priests of the high
+places which he had made. 33 So he offered upon the altar which he had made in
+Bethel the fifteenth day of the eighth month, even in the month which he had devised
+of his own heart; and ordained a feast unto the children of Israel: and he offered upon
+the altar, and burnt incense.
+D.6 Amos 4:4, 5; 5:21–27
+4 Come to Bethel, and transgress; at Gilgal multiply transgression; and bring your
+sacrifices every morning, and your tithes after three years: 5 And offer a sacrifice of
+thanksgiving with leaven, and proclaim and publish the free offerings: for this liketh
+you, O ye children of Israel, saith the Lord GOD. … 21 I hate, I despise your feast days,
+and I will not smell in your solemn assemblies. 22 Though ye offer me burnt offerings
+and your meat offerings, I will not accept them: neither will I regard the peace
+offerings of your fat beasts. 23 Take thou away from me the noise of thy songs; for I
+will not hear the melody of thy viols. 24 But let judgment run down as waters, and
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 41
+righteousness as a mighty stream. 25 Have ye offered unto me sacrifices and
+offerings in the wilderness forty years, O house of Israel? 26 But ye have borne the
+tabernacle of your Moloch and Chiun your images, the star of your god, which ye
+made to yourselves. 27 Therefore will I cause you to go into captivity beyond
+Damascus, saith the LORD, whose name is The God of hosts.
+D.7 Hosea 6:1–6; 14:1–3
+1 Come, and let us return unto the LORD: for he hath torn, and he will heal us; he hath
+smitten, and he will bind us up. 2 After two days will he revive us: in the third day he
+will raise us up, and we shall live in his sight. 3 Then shall we know, if we follow on to
+know the LORD: his going forth is prepared as the morning; and he shall come unto us
+as the rain, as the latter and former rain unto the earth. 4 O Ephraim, what shall I do
+unto thee? O Judah, what shall I do unto thee? for your goodness is as a morning
+cloud, and as the early dew it goeth away. 5 Therefore have I hewed them by the
+prophets; I have slain them by the words of my mouth: and thy judgments are as the
+light that goeth forth. 6 For I desired mercy, and not sacrifice; and the knowledge of
+God more than burnt offerings. … 1 O Israel, return unto the LORD thy God; for thou
+hast fallen by thine iniquity. 2 Take with you words, and turn to the LORD: say unto
+him, Take away all iniquity, and receive us graciously: so will we render the calves of
+our lips. 3 Asshur shall not save us; we will not ride upon horses: neither will we say
+any more to the work of our hands, Ye are our gods: for in thee the fatherless findeth
+mercy.
+D.8 Micah 6:6–8
+6 Wherewith shall I come before the LORD, and bow myself before the high God? shall
+I come before him with burnt offerings, with calves of a year old? 7 Will the LORD be
+pleased with thousands of rams, or with ten thousands of rivers of oil? shall I give my
+firstborn for my transgression, the fruit of my body for the sin of my soul? 8 He hath
+shewed thee, O man, what is good; and what doth the LORD require of thee, but to do
+justly, and to love mercy, and to walk humbly with thy God?
+D.9 Jeremiah 6:19, 20; 7:1–11
+19 Hear, O earth: behold, I will bring evil upon this people, even the fruit of their
+thoughts, because they have not hearkened unto my words, nor to my law, but
+rejected it. 20 To what purpose cometh there to me incense from Sheba, and the
+sweet cane from a far country? your burnt offerings are not acceptable, nor your
+sacrifices sweet unto me. … 1 The word that came to Jeremiah from the LORD,
+saying, 2 Stand in the gate of the LORD'S house, and proclaim there this word, and
+say, Hear the word of the LORD, all ye of Judah, that enter in at these gates to worship
+the LORD. 3 Thus saith the LORD of hosts, the God of Israel, Amend your ways and
+your doings, and I will cause you to dwell in this place. 4 Trust ye not in lying words,
+saying, The temple of the LORD, The temple of the LORD, The temple of the LORD, are
+these. 5 For if ye throughly amend your ways and your doings; if ye throughly execute
+judgment between a man and his neighbour; 6 If ye oppress not the stranger, the
+fatherless, and the widow, and shed not innocent blood in this place, neither walk
+after other gods to your hurt: 7 Then will I cause you to dwell in this place, in the land
+that I gave to your fathers, for ever and ever. 8 Behold, ye trust in lying words, that
+cannot profit. 9 Will ye steal, murder, and commit adultery, and swear falsely, and
+burn incense unto Baal, and walk after other gods whom ye know not; 10 And come
+and stand before me in this house, which is called by my name, and say, We are
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 42
+delivered to do all these abominations? 11 Is this house, which is called by my name,
+become a den of robbers in your eyes? Behold, even I have seen it, saith the LORD.
+D.10 Jeremiah 7:12–15, 21–23, 31
+12 But go ye now unto my place which was in Shiloh, where I set my name at the first,
+and see what I did to it for the wickedness of my people Israel. 13 And now, because
+ye have done all these works, saith the LORD, and I spake unto you, rising up early and
+speaking, but ye heard not; and I called you, but ye answered not; 14 Therefore will I
+do unto this house, which is called by my name, wherein ye trust, and unto the place
+which I gave to you and to your fathers, as I have done to Shiloh. 15 And I will cast
+you out of my sight, as I have cast out all your brethren, even the whole seed of
+Ephraim. … 21 Thus saith the LORD of hosts, the God of Israel; Put your burnt
+offerings unto your sacrifices, and eat flesh. 22 For I spake not unto your fathers, nor
+commanded them in the day that I brought them out of the land of Egypt, concerning
+burnt offerings or sacrifices: 23 But this thing commanded I them, saying, Obey my
+voice, and I will be your God, and ye shall be my people: and walk ye in all the ways
+that I have commanded you, that it may be well unto you. … 31 And they have built
+the high places of Tophet, which is in the valley of the son of Hinnom, to burn their
+sons and their daughters in the fire; which I commanded them not, neither came it
+into my heart.
+D.11 Isaiah 58:1–7
+1 Cry aloud, spare not, lift up thy voice like a trumpet, and shew my people their
+transgression, and the house of Jacob their sins. 2 Yet they seek me daily, and
+delight to know my ways, as a nation that did righteousness, and forsook not the
+ordinance of their God: they ask of me the ordinances of justice; they take delight in
+approaching to God. 3 Wherefore have we fasted, say they, and thou seest not?
+wherefore have we afflicted our soul, and thou takest no knowledge? Behold, in the
+day of your fast ye find pleasure, and exact all your labours. 4 Behold, ye fast for
+strife and debate, and to smite with the fist of wickedness: ye shall not fast as ye do
+this day, to make your voice to be heard on high. 5 Is it such a fast that I have
+chosen? a day for a man to afflict his soul? is it to bow down his head as a bulrush,
+and to spread sackcloth and ashes under him? wilt thou call this a fast, and an
+acceptable day to the LORD? 6 Is not this the fast that I have chosen? to loose the
+bands of wickedness, to undo the heavy burdens, and to let the oppressed go free,
+and that ye break every yoke? 7 Is it not to deal thy bread to the hungry, and that thou
+bring the poor that are cast out to thy house? when thou seest the naked, that thou
+cover him; and that thou hide not thyself from thine own flesh?
+D.12 Isaiah 56:6, 7; 66:1–4, 20, 21
+6 Also the sons of the stranger, that join themselves to the LORD, to serve him, and to
+love the name of the LORD, to be his servants, every one that keepeth the sabbath
+from polluting it, and taketh hold of my covenant; 7 Even them will I bring to my holy
+mountain, and make them joyful in my house of prayer: their burnt offerings and their
+sacrifices shall be accepted upon mine altar; for mine house shall be called an house
+of prayer for all people. … 1 Thus saith the LORD, The heaven is my throne, and the
+earth is my footstool: where is the house that ye build unto me? and where is the
+place of my rest? 2 For all those things hath mine hand made, and all those things
+have been, saith the LORD: but to this man will I look, even to him that is poor and of a
+contrite spirit, and trembleth at my word. 3 He that killeth an ox is as if he slew a
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 43
+man; he that sacrificeth a lamb, as if he cut off a dog’s neck; he that offereth an
+oblation, as if he offered swine’s blood; he that burneth incense, as if he blessed an
+idol. Yea, they have chosen their own ways, and their soul delighteth in their
+abominations. 4 I also will choose their delusions, and will bring their fears upon
+them; because when I called, none did answer; when I spake, they did not hear: but
+they did evil before mine eyes, and chose that in which I delighted not. … 20 And they
+shall bring all your brethren for an offering unto the LORD out of all nations upon
+horses, and in chariots, and in litters, and upon mules, and upon swift beasts, to my
+holy mountain Jerusalem, saith the LORD, as the children of Israel bring an offering in
+a clean vessel into the house of the LORD. 21 And I will also take of them for priests
+and for Levites, saith the LORD.
+D.13 Zechariah 7:4–14; 8:19
+4 Then came the word of the LORD of hosts unto me, saying, 5 Speak unto all the
+people of the land, and to the priests, saying, When ye fasted and mourned in the fifth
+and seventh month, even those seventy years, did ye at all fast unto me, even to me?
+6 And when ye did eat, and when ye did drink, did not ye eat for yourselves, and drink
+for yourselves? 7 Should ye not hear the words which the LORD hath cried by the
+former prophets, when Jerusalem was inhabited and in prosperity, and the cities
+thereof round about her, when men inhabited the south and the plain? 8 And the word
+of the LORD came unto Zechariah, saying, 9 Thus speaketh the LORD of hosts,
+saying, Execute true judgment, and shew mercy and compassions every man to his
+brother: 10 And oppress not the widow, nor the fatherless, the stranger, nor the poor;
+and let none of you imagine evil against his brother in your heart. 11 But they refused
+to hearken, and pulled away the shoulder, and stopped their ears, that they should not
+hear. 12 Yea, they made their hearts as an adamant stone, lest they should hear the
+law, and the words which the LORD of hosts hath sent in his spirit by the former
+prophets: therefore came a great wrath from the LORD of hosts. 13 Therefore it is
+come to pass, that as he cried, and they would not hear; so they cried, and I would not
+hear, saith the LORD of hosts: 14 But I scattered them with a whirlwind among all the
+nations whom they knew not. Thus the land was desolate after them, that no man
+passed through nor returned: for they laid the pleasant land desolate. … 19 Thus
+saith the LORD of hosts; The fast of the fourth month, and the fast of the fifth, and the
+fast of the seventh, and the fast of the tenth, shall be to the house of Judah joy and
+gladness, and cheerful feasts; therefore love the truth and peace.
+D.14 Malachi 1:6–14
+6 A son honoureth his father, and a servant his master: if then I be a father, where is
+mine honour? and if I be a master, where is my fear? saith the LORD of hosts unto
+you, O priests, that despise my name. And ye say, Wherein have we despised thy
+name? 7 Ye offer polluted bread upon mine altar; and ye say, Wherein have we
+polluted thee? In that ye say, The table of the LORD is contemptible. 8 And if ye offer
+the blind for sacrifice, is it not evil? and if ye offer the lame and sick, is it not evil? offer
+it now unto thy governor; will he be pleased with thee, or accept thy person? saith the
+LORD of hosts. 9 And now, I pray you, beseech God that he will be gracious unto us:
+this hath been by your means: will he regard your persons? saith the LORD of hosts.
+10 Who is there even among you that would shut the doors for nought? neither do ye
+kindle fire on mine altar for nought. I have no pleasure in you, saith the LORD of hosts,
+neither will I accept an offering at your hand. 11 For from the rising of the sun even
+
+
+
+                  ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 44
+unto the going down of the same my name shall be great among the Gentiles; and in
+every place incense shall be offered unto my name, and a pure offering: for my name
+shall be great among the heathen, saith the LORD of hosts. 12 But ye have profaned
+it, in that ye say, The table of the LORD is polluted; and the fruit thereof, even his meat,
+is contemptible. 13 Ye said also, Behold, what a weariness is it! and ye have snuffed
+at it, saith the LORD of hosts; and ye brought that which was torn, and the lame, and
+the sick; thus ye brought an offering: should I accept this of your hand? saith the
+LORD. 14 But cursed be the deceiver, which hath in his flock a male, and voweth, and
+sacrificeth unto the LORD a corrupt thing: for I am a great King, saith the LORD of
+hosts, and my name is dreadful among the heathen.
+D.15 Malachi 2:1–9; 3:3, 4
+1 And now, O ye priests, this commandment is for you. 2 If ye will not hear, and if ye
+will not lay it to heart, to give glory unto my name, saith the LORD of hosts, I will even
+send a curse upon you, and I will curse your blessings: yea, I have cursed them
+already, because ye do not lay it to heart. 3 Behold, I will corrupt your seed, and
+spread dung upon your faces, even the dung of your solemn feasts; and one shall take
+you away with it. 4 And ye shall know that I have sent this commandment unto you,
+that my covenant might be with Levi, saith the LORD of hosts. 5 My covenant was
+with him of life and peace; and I gave them to him for the fear wherewith he feared
+me, and was afraid before my name. 6 The law of truth was in his mouth, and iniquity
+was not found in his lips: he walked with me in peace and equity, and did turn many
+away from iniquity. 7 For the priest’s lips should keep knowledge, and they should
+seek the law at his mouth: for he is the messenger of the LORD of hosts. 8 But ye are
+departed out of the way; ye have caused many to stumble at the law; ye have
+corrupted the covenant of Levi, saith the LORD of hosts. 9 Therefore have I also
+made you contemptible and base before all the people, according as ye have not kept
+my ways, but have been partial in the law. … 3 And he shall sit as a refiner and
+purifier of silver: and he shall purify the sons of Levi, and purge them as gold and
+silver, that they may offer unto the LORD an offering in righteousness. 4 Then shall
+the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old,
+and as in former years.
+D.16 Ezekiel 20:11–13, 21–26, 40, 41
+11 And I gave them my statutes, and shewed them my judgments, which if a man do,
+he shall even live in them. 12 Moreover also I gave them my sabbaths, to be a sign
+between me and them, that they might know that I am the LORD that sanctify them.
+13 But the house of Israel rebelled against me in the wilderness: they walked not in
+my statutes, and they despised my judgments, which if a man do, he shall even live in
+them; and my sabbaths they greatly polluted: then I said, I would pour out my fury
+upon them in the wilderness, to consume them. … 21 Notwithstanding the children
+rebelled against me: they walked not in my statutes, neither kept my judgments to do
+them, which if a man do, he shall even live in them; they polluted my sabbaths: then I
+said, I would pour out my fury upon them, to accomplish my anger against them in the
+wilderness. 22 Nevertheless I withdrew mine hand, and wrought for my name’s sake,
+that it should not be polluted in the sight of the heathen, in whose sight I brought
+them forth. 23 I lifted up mine hand unto them also in the wilderness, that I would
+scatter them among the heathen, and disperse them through the countries; 24
+Because they had not executed my judgments, but had despised my statutes, and had
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 45
+polluted my sabbaths, and their eyes were after their fathers’ idols. 25 Wherefore I
+gave them also statutes that were not good, and judgments whereby they should not
+live; 26 And I polluted them in their own gifts, in that they caused to pass through the
+fire all that openeth the womb, that I might make them desolate, to the end that they
+might know that I am the LORD. … 40 For in mine holy mountain, in the mountain of
+the height of Israel, saith the Lord GOD, there shall all the house of Israel, all of them
+in the land, serve me: there will I accept them, and there will I require your offerings,
+and the firstfruits of your oblations, with all your holy things. 41 I will accept you with
+your sweet savour, when I bring you out from the people, and gather you out of the
+countries wherein ye have been scattered; and I will be sanctified in you before the
+heathen.
+D.17 Hebrews 10:1–10
+1 For the law having a shadow of good things to come, and not the very image of the
+things, can never with those sacrifices which they offered year by year continually
+make the comers thereunto perfect. 2 For then would they not have ceased to be
+offered? because that the worshippers once purged should have had no more
+conscience of sins. 3 But in those sacrifices there is a remembrance again made of
+sins every year. 4 For it is not possible that the blood of bulls and of goats should
+take away sins. 5 Wherefore when he cometh into the world, he saith, Sacrifice and
+offering thou wouldest not, but a body hast thou prepared me: 6 In burnt offerings
+and sacrifices for sin thou hast had no pleasure. 7 Then said I, Lo, I come (in the
+volume of the book it is written of me,) to do thy will, O God. 8 Above when he said,
+Sacrifice and offering and burnt offerings and offering for sin thou wouldest not,
+neither hadst pleasure therein; which are offered by the law; 9 Then said he, Lo, I
+come to do thy will, O God. He taketh away the first, that he may establish the second.
+10 By the which will we are sanctified through the offering of the body of Jesus Christ
+once for all.
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 46
+Appendix E. Where the Passages Are Read
+Every passage cited in the chapters, the Preface, the Thesis and the Conclusion, in the
+order of the Bible, with the pages on which it is read. Each citation is listed as written
+in the text. The appendices are not indexed. A page number is the number in the
+footer.
+The passages in the order of the Bible.
+
+ Passage                Where it is read                               Key passage
+ Exodus 19:5            ch. 5, pp. 20, 21; ch. 9, p. 32
+ 1 Samuel 15:14         ch. 1, p. 4
+ 1 Samuel 15:15         ch. 1, p. 4
+ 1 Samuel 15:18         ch. 1, p. 4
+ 1 Samuel 15:21         ch. 1, p. 4
+ 1 Samuel 15:22         Preface, p. 2; ch. 1, pp. 4, 6; ch. 2, p. 8;
+                        ch. 4, p. 15; Conclusion, p. 35
+ 1 Samuel 15:23         ch. 1, p. 4
+ 1 Samuel 15:24         ch. 1, p. 4
+ 1 Samuel 15:25         ch. 1, p. 4
+ 1 Samuel 15:26         ch. 1, p. 4
+ 1 Samuel 15:31         ch. 1, pp. 4, 7
+ 1 Kings 12:26–33       ch. 3, p. 14
+ 1 Kings 12:27          ch. 3, p. 11
+ 1 Kings 12:28          ch. 3, p. 11
+ 1 Kings 12:29          ch. 3, p. 11
+ 1 Kings 12:31          ch. 3, p. 11
+ 1 Kings 12:32, 33      ch. 3, p. 11
+ Psalms 40:6            ch. 1, pp. 4, 5, 6
+ Psalms 40:6–8          ch. 8, pp. 29, 31; Conclusion, p. 36
+ Psalms 40:7, 8         ch. 1, p. 5
+ Psalms 40:9            ch. 1, p. 5
+ Psalms 50:5            ch. 1, p. 5
+ Psalms 50:6            ch. 1, p. 5
+ Psalms 50:7            ch. 1, p. 5
+
+
+
+                  ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 47
+Passage                 Where it is read                           Key passage
+Psalms 50:8             ch. 1, pp. 5, 7; ch. 9, p. 32
+Psalms 50:8–15          ch. 1, p. 7
+Psalms 50:9, 10         ch. 1, p. 5
+Psalms 50:12, 13        ch. 1, p. 5
+Psalms 50:14            ch. 7, p. 26
+Psalms 50:14, 15        ch. 1, p. 5
+Psalms 50:16, 17        ch. 1, p. 5
+Psalms 50:18–20         ch. 1, p. 5
+Psalms 50:21            ch. 1, p. 6
+Psalms 50:23            ch. 1, p. 5
+Psalms 51:2             ch. 1, p. 6
+Psalms 51:4             ch. 1, p. 6
+Psalms 51:16            ch. 1, p. 6; ch. 8, p. 29
+Psalms 51:16–19         ch. 1, p. 7
+Psalms 51:17            ch. 1, p. 6
+Psalms 51:18, 19        ch. 1, pp. 6, 7
+Psalms 51:19            Conclusion, p. 35
+Isaiah 1:1              ch. 2, p. 7
+Isaiah 1:2              ch. 2, p. 7
+Isaiah 1:4              ch. 2, p. 7
+Isaiah 1:7              ch. 2, p. 7
+Isaiah 1:10             ch. 2, pp. 7, 10
+Isaiah 1:10–17          Conclusion, p. 35
+Isaiah 1:10–20          ch. 9, p. 32
+Isaiah 1:11             Preface, p. 2; ch. 2, p. 8; ch. 8, p. 29
+Isaiah 1:11–13          Conclusion, p. 36
+Isaiah 1:12             ch. 2, p. 8
+Isaiah 1:13, 14         ch. 2, p. 8
+Isaiah 1:15             ch. 2, p. 8
+Isaiah 1:15–17          Conclusion, p. 36
+Isaiah 1:16, 17         ch. 2, p. 9
+
+
+
+                  ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 48
+Passage                 Where it is read                           Key passage
+Isaiah 1:16–20          ch. 9, p. 33; Conclusion, p. 36
+Isaiah 1:18             ch. 2, p. 9
+Isaiah 1:19, 20         ch. 2, p. 9
+Isaiah 1:21             ch. 2, p. 9
+Isaiah 1:22             ch. 2, p. 9
+Isaiah 1:25             ch. 2, p. 9
+Isaiah 1:26             ch. 2, p. 9
+Isaiah 1:27             ch. 2, p. 9
+Isaiah 56:6             ch. 6, p. 23
+Isaiah 56:6, 7          ch. 6, p. 24
+Isaiah 56:7             ch. 6, pp. 21, 23, 25; Conclusion, p. 36
+Isaiah 58:1             ch. 6, p. 22
+Isaiah 58:2             ch. 6, p. 22
+Isaiah 58:2–7           ch. 6, p. 24
+Isaiah 58:3             ch. 6, p. 22
+Isaiah 58:3, 4          ch. 6, p. 22
+Isaiah 58:5             ch. 6, p. 22
+Isaiah 58:6, 7          ch. 6, p. 22
+Isaiah 58:8             ch. 6, p. 22
+Isaiah 58:9             ch. 6, p. 22
+Isaiah 58:13            Preface, p. 2; ch. 6, p. 25
+Isaiah 66:1, 2          ch. 6, pp. 22, 25
+Isaiah 66:1–4           ch. 6, pp. 21, 22, 24; Conclusion, p. 36
+Isaiah 66:3             ch. 6, pp. 23, 25
+Isaiah 66:4             ch. 6, p. 23
+Isaiah 66:19–21         ch. 7, p. 26
+Isaiah 66:20, 21        ch. 6, pp. 23, 24; Conclusion, p. 36
+Jeremiah 2:1–3          ch. 9, p. 32
+Jeremiah 6:19           ch. 5, pp. 18, 21
+Jeremiah 6:19, 20       ch. 5, p. 21
+Jeremiah 6:20           ch. 5, p. 18; Conclusion, p. 36
+
+
+
+                  ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 49
+Passage               Where it is read                               Key passage
+Jeremiah 6:21         ch. 5, p. 18
+Jeremiah 7:2          ch. 5, p. 18
+Jeremiah 7:2–7        ch. 5, p. 21
+Jeremiah 7:3          ch. 5, p. 18; ch. 9, p. 33
+Jeremiah 7:4          ch. 5, p. 18
+Jeremiah 7:4, 8–      ch. 5, p. 21
+11
+Jeremiah 7:5–7        ch. 5, p. 19
+Jeremiah 7:8          ch. 5, p. 18
+Jeremiah 7:9, 10      ch. 5, p. 19
+Jeremiah 7:9–11       Conclusion, p. 36
+Jeremiah 7:11         ch. 5, p. 19
+Jeremiah 7:12         ch. 5, p. 19
+Jeremiah 7:12–15      ch. 5, p. 21; Conclusion, p. 36
+Jeremiah 7:14, 15     ch. 5, p. 19
+Jeremiah 7:21         ch. 5, p. 19
+Jeremiah 7:21–23      ch. 5, p. 21
+Jeremiah 7:22         ch. 1, p. 5; ch. 5, p. 20; ch. 9, p. 32
+Jeremiah 7:22, 23     ch. 5, pp. 20, 21; ch. 9, p. 33; Conclusion,
+                      p. 36
+Jeremiah 7:23         ch. 9, p. 32
+Jeremiah 7:31         ch. 5, pp. 20, 21; ch. 9, p. 34
+Jeremiah 17:24        ch. 5, p. 20
+Jeremiah 17:26        ch. 5, pp. 20, 21
+Jeremiah 18:7–10      ch. 5, p. 19                                   In full, Appendix D
+Jeremiah 26:6         ch. 5, p. 19
+Jeremiah 26:8         ch. 5, p. 19
+Jeremiah 26:16        ch. 5, p. 19
+Jeremiah 31:31–       ch. 8, p. 28
+34
+Jeremiah 33:11        ch. 5, p. 20
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 50
+Passage               Where it is read                                 Key passage
+Jeremiah 33:18        ch. 5, p. 20; ch. 9, p. 32; Conclusion, p.
+                      36
+Ezekiel 20:11, 13,    ch. 9, p. 34
+21
+Ezekiel 20:25         ch. 9, p. 34
+Ezekiel 20:25, 26     ch. 9, pp. 33, 35; Conclusion, p. 36
+Ezekiel 20:25–26      ch. 9, pp. 33, 34
+Ezekiel 20:40         ch. 9, pp. 33, 34; Conclusion, p. 36
+Hosea 3:4             ch. 4, p. 18
+Hosea 3:4, 5          ch. 4, pp. 16, 17
+Hosea 4:1             ch. 4, pp. 14, 17
+Hosea 4:1–13          ch. 4, p. 17
+Hosea 4:2             ch. 4, p. 14
+Hosea 4:6             ch. 4, p. 14
+Hosea 4:8             ch. 4, p. 14
+Hosea 4:13            ch. 4, p. 15
+Hosea 5:6             ch. 4, pp. 15, 17
+Hosea 6:1, 2          ch. 4, p. 15
+Hosea 6:1–7           ch. 4, p. 15
+Hosea 6:4             ch. 4, p. 15
+Hosea 6:6             Preface, p. 2; ch. 1, p. 5; ch. 4, pp. 14, 15,
+                      16, 17; Conclusion, p. 36
+Hosea 6:7             ch. 4, pp. 15, 17
+Hosea 8:11, 13        ch. 4, p. 15
+Hosea 8:11–13         ch. 4, p. 17
+Hosea 8:12            ch. 4, p. 15
+Hosea 8:13            ch. 4, p. 18; ch. 9, p. 33
+Hosea 14:1, 2         ch. 4, p. 16
+Hosea 14:1–2          Conclusion, p. 36
+Hosea 14:2            ch. 4, p. 17
+Amos 1:1              ch. 3, p. 11
+Amos 1:2              ch. 3, p. 11
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 51
+Passage               Where it is read                               Key passage
+Amos 3:14             ch. 3, pp. 11, 13
+Amos 4:4, 5           ch. 3, pp. 11, 13
+Amos 4:6              ch. 3, p. 11
+Amos 5:4, 5           ch. 3, p. 12
+Amos 5:4–6            ch. 3, p. 13
+Amos 5:6              ch. 3, p. 12
+Amos 5:7              ch. 3, p. 12
+Amos 5:10             ch. 3, p. 12
+Amos 5:11             ch. 3, p. 12
+Amos 5:12             ch. 3, p. 12
+Amos 5:12, 24         Conclusion, p. 36
+Amos 5:14             ch. 3, p. 12
+Amos 5:15             ch. 3, p. 12
+Amos 5:21             Preface, p. 2
+Amos 5:21–22          Conclusion, p. 36
+Amos 5:21–23          ch. 3, p. 14
+Amos 5:21–24          ch. 3, pp. 12, 13; ch. 9, p. 32
+Amos 5:25             ch. 3, p. 13; ch. 9, pp. 32, 33; Conclusion,
+                      p. 36
+Amos 5:25–27          Preface, p. 2; ch. 3, pp. 13, 14
+Amos 7:10, 11         ch. 9, p. 33
+Amos 7:13             ch. 3, pp. 11, 13; ch. 9, p. 33
+Amos 8:5, 6           ch. 3, pp. 12, 13
+Micah 6:2             ch. 4, p. 16
+Micah 6:3             ch. 4, p. 16
+Micah 6:4             ch. 4, p. 16
+Micah 6:5             ch. 4, p. 16
+Micah 6:6             ch. 9, p. 32
+Micah 6:6, 7          ch. 4, p. 16
+Micah 6:6–8           ch. 4, pp. 14, 17, 18; ch. 9, p. 32
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 52
+Passage                Where it is read                             Key passage
+Micah 6:8              ch. 4, p. 17; ch. 9, p. 32; Conclusion, p.
+                       36
+Micah 6:10, 11         ch. 4, p. 17
+Zechariah 7:1          ch. 6, p. 23
+Zechariah 7:2, 3       ch. 6, p. 23
+Zechariah 7:5, 6       ch. 6, p. 23
+Zechariah 7:5–14       ch. 6, p. 24
+Zechariah 7:7          ch. 6, p. 23
+Zechariah 7:9, 10      ch. 6, p. 23
+Zechariah 7:12         ch. 6, p. 24
+Zechariah 8:19         ch. 6, pp. 24, 25
+Malachi 1:6            ch. 7, p. 25
+Malachi 1:6, 7         ch. 7, p. 27
+Malachi 1:7            ch. 7, p. 25
+Malachi 1:8            ch. 7, p. 25; ch. 9, p. 33
+Malachi 1:8, 13, 14    ch. 7, p. 27
+Malachi 1:10           ch. 7, pp. 26, 27, 28
+Malachi 1:11           ch. 7, pp. 26, 28
+Malachi 1:13           ch. 7, p. 25
+Malachi 1:14           ch. 7, p. 25
+Malachi 2:1, 2         ch. 7, p. 26
+Malachi 2:1–9          ch. 7, p. 27
+Malachi 2:3            ch. 7, p. 26
+Malachi 2:5, 6         ch. 7, p. 26
+Malachi 2:7            ch. 7, p. 26
+Malachi 2:8            ch. 7, p. 26
+Malachi 3:2            ch. 7, p. 27
+Malachi 3:3, 4         ch. 7, pp. 27, 28; Conclusion, p. 36
+Malachi 3:5            ch. 7, p. 27
+Malachi 3:6            ch. 7, p. 27                                 In full, Appendix D
+Malachi 3:8–12         Preface, p. 2
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 53
+Passage               Where it is read                       Key passage
+Malachi 4:4           ch. 7, p. 27
+Matthew 9:13          ch. 4, pp. 16, 18
+Matthew 12:5          ch. 4, p. 16
+Matthew 12:6          ch. 4, p. 16
+Matthew 12:7          ch. 4, p. 16
+Acts 7:42, 43         ch. 3, p. 13
+Acts 7:49, 50         ch. 6, p. 22
+Hebrews 8:4           ch. 8, p. 28
+Hebrews 8:5           ch. 8, pp. 28, 29
+Hebrews 8:8–12        ch. 8, p. 28
+Hebrews 9:10          ch. 8, p. 29
+Hebrews 10:1–4        ch. 8, pp. 29, 31
+Hebrews 10:1–10       Conclusion, p. 36
+Hebrews 10:4          ch. 8, p. 29
+Hebrews 10:5–7        ch. 8, p. 29
+Hebrews 10:5–10       Preface, p. 2; ch. 8, p. 31
+Hebrews 10:8          ch. 8, p. 30
+Hebrews 10:8, 9       ch. 9, p. 34
+Hebrews 10:9          ch. 8, p. 31
+Hebrews 10:11, 12     ch. 8, p. 30
+Hebrews 10:14         ch. 8, p. 30
+Hebrews 10:15–17      ch. 8, p. 30
+Hebrews 10:18         ch. 8, p. 30
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 54
+Bibliography
+The Holy Bible, King James Version (the Authorized Version, in its standard text).
+   Public domain. All Scripture quotations in this volume.
+Barton, John. The Prophets and the Cult. In Temple and Worship in Biblical Israel, edited
+    by John Day, 111–22. London: T&T Clark, 2007. Known to the author through the
+    abstract of the chapter published by the Temple Studies Group; the position is
+    described and not quoted.
+Boloje, Blessing Onoriode. Extravagant Rituals or Ethical Religion (Micah 6:6–8)? Ritual
+    Interface with Social Responsibility in Micah. Old Testament Essays 32, no. 3
+    (2019): 800–820. Free full text. Quoted from the article.
+Boloje, Blessing Onoriode, and Alphonso Groenewald. Prophetic Criticism of Temple
+    Rituals: A Reflection on Malachi’s Idea about Yahweh and Ethics for Faith
+    Communities. Scriptura 114 (2015): 1–18. Free full text. Quoted from the article.
+Eidevall, Göran. Reciprocity and the Risk of Rejection: Debate over Sacrifice in the
+    Hebrew Bible. Religions 9, no. 12 (2018): 422. Free full text. Quoted from the
+    article; the works of Volz (1937) and Barton (2012) are described as this article
+    reports them and were not read.
+Eidevall, Göran. Does the Bible Really Reject Sacrifices? Yale University Press blog,
+    November 5, 2017. Free full text. Quoted from the post.
+Groenewald, Alphonso. But Let Justice Roll Down Like Waters, and Righteousness Like
+   an Ever-Flowing Stream (Am 5:24): Social Justice versus Cult Criticism in Amos
+   (5:21–24) and Isaiah (1:10–20): A Trauma Perspective. HTS Teologiese Studies 75,
+   no. 3 (2019). Free full text. Quoted from the article; the positions of McKane
+   (1982) and Hendel (1995) are described as this article reports them and were not
+   read.
+Lynch, Matt. The Prophetic Critique of Sacrifice. WTC Theology (TheoMisc blog),
+   August 3, 2017. Free full text. Quoted from the post.
+Maccoby, Hyam. Statutes that Were not Good (Ezekiel 20:25–26): Traditional
+   Interpretations. Journal of Textual Reasoning 8, no. 1 (1999). Free full text. Quoted
+   from the article; the view of Moshe Greenberg is described as this article reports
+   it.
+The Zay-Marie Press titles that follow are cited in the chapters and are not restated.
+Zay-Marie Press. Study 24: The Willful Sin Warning.
+Zay-Marie Press. Study 47: Giving Under Grace.
+Zay-Marie Press. Study 59: The Law’s Jurisdiction and the Body of Christ.
+Zay-Marie Press. Study 62: Matthew 5:17–20.
+Zay-Marie Press. Study 78: The Sabbath and Its Meanings.
+Zay-Marie Press. Tabernacle & Temple Typology. Typology Commentary Series,
+    Volume 1.
+Zay-Marie Press. Priesthood Typology: Aaron, Melchizedek & Christ. Typology
+    Commentary Series, Volume 3.
+
+
+
+
+                ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 55
+Zay-Marie Press. Kingdom Typology: David, Solomon, the Temple, and the Messianic
+    Kingdom. Typology Commentary Series, Volume 5.
+Zay-Marie Press. Acts 1–8: What the Twelve Were Told, and Did. Acts Commentary
+    Series, Volume 1.
+
+Copyright © 2026 Alexander S. Marien. All rights reserved. Published by Zay-Marie Press.
+Licensed for the personal use of the purchaser; no part may be reproduced or distributed
+without permission. Scripture quotations are from the King James Version (KJV).
+
+
+
+
+                 ZAY-MARIE PRESS THE PROPHETS SERIES, VOLUME 2 • 56
+
