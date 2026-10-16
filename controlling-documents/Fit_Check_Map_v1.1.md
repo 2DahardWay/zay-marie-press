@@ -1,6 +1,6 @@
-# Fit Check Map v1.0
+# Fit Check Map v1.1
 
-Version 1.0. Internal editorial record, approved by the publisher 2026-10-15. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
+Version 1.1. Internal editorial record, approved by the publisher 2026-10-15. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
 ## 1. How to use it
 
 1. Name the passage(s) and the one narrower question. 2. Run `python3 -I build-tools/fit-check/fitcheck.py "<passage>"` and read Sections 5 and 6 below. 3. Read the neighbours' own question in Section 4 (and the PDF when the grade is argued). 4. State the verdict: clear, fit by mode, fit by narrower question, overlap (needs a different question), or duplicate. 5. Check the series arc (Section 3) if a volume is proposed.
@@ -667,11 +667,23 @@ Related Reading links by product family (rows link to columns):
 - Standards' overlap notes are merged as short neighbour lines (Section 3). All eight series Standards are now read; Typology, Prophetic and Prophetic Identity have no overlap table, so their neighbour lines come from their rulings and the coverage data.
 - Narrower questions for 70 items are drafted by Claude and kept by the publisher (2026-10-15).
 
+## 8b. Planned series (not yet built; no PDFs to grade)
+
+**The Prophets Series** (ninth commentary series, registered 2026-10-15 in Master Standard v1.159; Standard `Prophets_Series_Standard_v1.2.md`). Four volumes, Volume 4 conditional. Passage lists and neighbour notes are in the Standard; the chapter-level tables below will include these volumes once their PDFs exist. Until then, look up a prophetic passage with `fitcheck.py` and read the Standard before proposing anything near them.
+
+| Planned item | Narrower question (provisional; the publisher approves each volume's title, thesis and outline) |
+|---|---|
+| Prophets Vol 1, How the Prophets Spoke | By the prophets' own statements, how is a word of the LORD known, what can turn an oracle aside, and what does the LORD swear that cannot be turned? |
+| Prophets Vol 2, What the Prophets Condemned | What does each prophet condemn, in whose worship, and what does he leave standing? |
+| Prophets Vol 3, The Nations Judged | Which oracles does Scripture itself report fulfilled, which does it hold open, and what does each say it rests on? (Babylon stays with Prophetic Commentary Vol 3; Edom with Vol 5.) |
+| Prophets Vol 4, Elijah Must First Come (conditional) | What do Malachi 3:1 and 4:5–6 promise, how do the Gospels answer, and what does the text say of a further coming? (Dropped if the outline's realistic page count with cover is under 50.) |
+
 ## 9. Version history
 
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 2026-10-15 | First build from the website pages and the publisher's PDFs (86 studies, 40 commentary volumes, 35 parables, 66 companions, 66 summaries, 5 reader-question volumes and 50 questions, resources and maps, the Full Framework). Replaces the Digital Studies Relationship Map v1.54, carried forward whole in the Appendix. |
+| 1.1 | 2026-10-15 | Adds Section 8b, Planned series: The Prophets Series (four volumes, Volume 4 conditional) with each volume's provisional narrower question, ahead of any PDF. No grades changed. |
 
 ## Appendix. Digital Studies Relationship Map v1.54 (carried forward whole)
 
