@@ -1,0 +1,266 @@
+{
+ "C-1Chr": {
+  "chars": 16259,
+  "question": ""
+ },
+ "C-1Cor": {
+  "chars": 15970,
+  "question": ""
+ },
+ "C-1John": {
+  "chars": 16316,
+  "question": ""
+ },
+ "C-1Kgs": {
+  "chars": 14173,
+  "question": ""
+ },
+ "C-1Pet": {
+  "chars": 16734,
+  "question": ""
+ },
+ "C-1Sam": {
+  "chars": 13558,
+  "question": ""
+ },
+ "C-1Thess": {
+  "chars": 14993,
+  "question": ""
+ },
+ "C-1Tim": {
+  "chars": 13720,
+  "question": ""
+ },
+ "C-2Chr": {
+  "chars": 14865,
+  "question": ""
+ },
+ "C-2Cor": {
+  "chars": 15401,
+  "question": ""
+ },
+ "C-2John": {
+  "chars": 14680,
+  "question": ""
+ },
+ "C-2Kgs": {
+  "chars": 14288,
+  "question": ""
+ },
+ "C-2Pet": {
+  "chars": 16504,
+  "question": ""
+ },
+ "C-2Sam": {
+  "chars": 13733,
+  "question": ""
+ },
+ "C-2Thess": {
+  "chars": 14907,
+  "question": ""
+ },
+ "C-2Tim": {
+  "chars": 14604,
+  "question": ""
+ },
+ "C-3John": {
+  "chars": 14816,
+  "question": ""
+ },
+ "C-Acts": {
+  "chars": 18877,
+  "question": ""
+ },
+ "C-Amos": {
+  "chars": 14283,
+  "question": ""
+ },
+ "C-Col": {
+  "chars": 15101,
+  "question": ""
+ },
+ "C-Dan": {
+  "chars": 16556,
+  "question": ""
+ },
+ "C-Deut": {
+  "chars": 15933,
+  "question": ""
+ },
+ "C-Eccl": {
+  "chars": 13222,
+  "question": ""
+ },
+ "C-Eph": {
+  "chars": 16410,
+  "question": ""
+ },
+ "C-Esth": {
+  "chars": 15251,
+  "question": ""
+ },
+ "C-Exod": {
+  "chars": 15305,
+  "question": ""
+ },
+ "C-Ezek": {
+  "chars": 15308,
+  "question": ""
+ },
+ "C-Ezra": {
+  "chars": 13156,
+  "question": ""
+ },
+ "C-Gal": {
+  "chars": 15357,
+  "question": ""
+ },
+ "C-Gen": {
+  "chars": 16430,
+  "question": ""
+ },
+ "C-Hab": {
+  "chars": 13247,
+  "question": ""
+ },
+ "C-Hag": {
+  "chars": 14118,
+  "question": ""
+ },
+ "C-Heb": {
+  "chars": 15701,
+  "question": ""
+ },
+ "C-Hos": {
+  "chars": 14709,
+  "question": ""
+ },
+ "C-Isa": {
+  "chars": 16103,
+  "question": ""
+ },
+ "C-Jas": {
+  "chars": 14569,
+  "question": ""
+ },
+ "C-Jer": {
+  "chars": 15026,
+  "question": ""
+ },
+ "C-Job": {
+  "chars": 12487,
+  "question": ""
+ },
+ "C-Joel": {
+  "chars": 14438,
+  "question": ""
+ },
+ "C-John": {
+  "chars": 15685,
+  "question": ""
+ },
+ "C-Jonah": {
+  "chars": 13117,
+  "question": ""
+ },
+ "C-Josh": {
+  "chars": 14938,
+  "question": ""
+ },
+ "C-Jude": {
+  "chars": 16283,
+  "question": ""
+ },
+ "C-Judg": {
+  "chars": 12783,
+  "question": ""
+ },
+ "C-Lam": {
+  "chars": 13764,
+  "question": ""
+ },
+ "C-Lev": {
+  "chars": 15868,
+  "question": ""
+ },
+ "C-Luke": {
+  "chars": 16644,
+  "question": ""
+ },
+ "C-Mal": {
+  "chars": 14507,
+  "question": ""
+ },
+ "C-Mark": {
+  "chars": 14687,
+  "question": ""
+ },
+ "C-Matt": {
+  "chars": 13065,
+  "question": ""
+ },
+ "C-Mic": {
+  "chars": 14758,
+  "question": ""
+ },
+ "C-Nah": {
+  "chars": 12083,
+  "question": ""
+ },
+ "C-Neh": {
+  "chars": 13128,
+  "question": ""
+ },
+ "C-Num": {
+  "chars": 15767,
+  "question": ""
+ },
+ "C-Obad": {
+  "chars": 12926,
+  "question": ""
+ },
+ "C-Phil": {
+  "chars": 14975,
+  "question": ""
+ },
+ "C-Phlm": {
+  "chars": 13886,
+  "question": ""
+ },
+ "C-Prov": {
+  "chars": 13867,
+  "question": ""
+ },
+ "C-Ps": {
+  "chars": 16565,
+  "question": ""
+ },
+ "C-Rev": {
+  "chars": 13011,
+  "question": ""
+ },
+ "C-Rom": {
+  "chars": 13328,
+  "question": ""
+ },
+ "C-Ruth": {
+  "chars": 13027,
+  "question": ""
+ },
+ "C-Song": {
+  "chars": 12379,
+  "question": ""
+ },
+ "C-Titus": {
+  "chars": 14729,
+  "question": ""
+ },
+ "C-Zech": {
+  "chars": 16100,
+  "question": ""
+ },
+ "C-Zeph": {
+  "chars": 13258,
+  "question": ""
+ }
+}
