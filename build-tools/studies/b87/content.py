@@ -168,7 +168,7 @@ A(('ctbl', '', [
     ['Heb 1:2; Jas 5:3; 1 Pet 1:5, 20; 2 Pet 3:3; 1 John 2:18; Jude 18', 'Six letters', 'Past, present and future verbs with “last”', 'Whether the days are one period'],
     ['1 Tim 4:1; 2 Tim 3:1', 'Paul to Timothy', '“latter times”; “last days”; “shall depart”; “shall come”', 'Whether the days are one period or the days of Acts 2:17'],
 ], [0.17, 0.2, 0.37, 0.26]))
-A(('p', '8.2 Three readings tested. Three readings are common, and each can be set beside the words. (a) The phrase names one period in every passage. The table shows the phrase in the mouths of Jacob, Balaam, Moses, the prophets, Peter, six letter writers and Paul, with different hearers and different verbs, and no passage states that these are one period. (b) The phrase always names the time that began at Acts 2:17. Acts 2:17 says “in the last days”; it does not say that Genesis 49:1 or Deuteronomy 31:29 is that time, and 2 Peter 3:3 and 2 Timothy 3:1 are future (“shall come”). (c) The phrase always names a time still ahead. Hebrews 1:2 says “hath in these last days spoken,” and 1 John 2:18 says “it is the last time.” The study records the verses and does not decide among the readings; each adds something the text does not state.'))
+A(('p', '8.2 Three readings tested. Three readings are common, and each can be set beside the words. (a) The phrase names one period in every passage. The table shows the phrase in the mouths of Jacob, Balaam, Moses, the prophets, Peter, six letter writers and Paul, with different hearers and different verbs, and no passage states that these are one period. (b) The phrase always names the time that began at Acts 2:17. Acts 2:17 says “in the last days”; it does not say that Genesis 49:1 or Deuteronomy 31:29 is that time, and 2 Peter 3:3 and 2 Timothy 3:1 are future (“shall come”). (c) The phrase always names a time still ahead. Hebrews 1:2 says “hath in these last days spoken,” and 1 John 2:18 says “it is the last time.” Each of the three adds something the text does not state: one period everywhere, a start at Acts 2:17 in every passage, or a time still ahead in every passage. The passages say what each speaker says, and nothing more.'))
 
 A(('h1', 'Conclusion'))
 A(('p', 'The Bible uses “the last days / latter days / last time / time of the end” in many places, but the Bible does not give one single meaning for the phrase. Each speaker uses it differently, to different hearers, and for different things that follow. None of the passages join themselves together, and the study refuses to join them. Any reading that tries to unify all these passages goes beyond what the text states.'))
@@ -176,17 +176,17 @@ A(('p', 'The Bible uses “the last days / latter days / last time / time of the
 A(('h1', 'Study Summary'))
 A(('bul', [
     'The King James Version prints “the last days” eight times and “the latter days” eleven, with near wordings in Ezekiel, Daniel, John, 1 Timothy, 1 Peter, 1 John and Jude.',
-    'Genesis 49:1, Numbers 24:14 and Deuteronomy 4:30 and 31:29 give the phrase to Jacob, Balaam and Moses in four different sentences.',
-    'Isaiah 2:2 and Micah 4:1 agree on a mountain, the law and the word; Jeremiah, Ezekiel, Hosea and Daniel attach the phrase to other matters.',
-    'Acts 2:17 gives “in the last days, saith God,” where Joel 2:28 says “afterward.”',
-    'Six letters and two letters to Timothy use “last” and “latter” wordings with different verbs, and no passage says that another names the same days.',
+    'Jacob, Balaam and Moses each use the phrase in a different sentence, to a different hearer (Genesis 49:1; Numbers 24:14; Deuteronomy 4:30 and 31:29).',
+    'Isaiah 2:2 and Micah 4:1 agree on a mountain, the law and the word. Jeremiah, Ezekiel, Hosea and Daniel attach the phrase to other matters.',
+    'Acts 2:17 says “in the last days, saith God,” where Joel 2:28 says “afterward.”',
+    'The letters use “last” and “latter” wordings with different verbs, and no passage says that another names the same days.',
 ]))
 
 A(('h1', 'Key Distinctions to Retain'))
 A(('bul', [
-    'The same English words stand in many passages, and each passage is read with its own speaker, hearer and sentence; a shared phrase is not a shared period unless a passage says so.',
-    '“The latter days,” “the last days,” “the latter times,” “the last time,” “the time of the end” and “the last day” are different wordings and are kept apart unless a verse joins them.',
-    'The verbs differ (“shall befall,” “hath spoken,” “was manifest,” “it is,” “shall come”); the study records each tense and adds no date.',
+    'The same English words stand in many passages. Each passage has its own speaker, hearer and sentence. A shared phrase is not a shared period unless a passage says so.',
+    '“The latter days,” “the last days,” “the latter times,” “the last time,” “the time of the end” and “the last day” are different wordings. Only a verse can join them, and no verse does.',
+    'The verbs differ (“shall befall,” “hath spoken,” “was manifest,” “it is,” “shall come”). Each verb carries its own tense, and the study adds no date.',
 ]))
 
 A(('h1', 'Scripture-Tracing Exercise'))
@@ -227,4 +227,11 @@ A(('p', 'Group 2: The prophets. Read Isaiah 2:2, Jeremiah 23:20 and Hosea 3:5. O
 A(('p', 'Group 3: The New Testament. Read Acts 2:17, Hebrews 1:2 and 2 Timothy 3:1 in their chapters. Observe the verb and the hearers. Conclude what each states of the days.'))
 
 A(('h1', 'Final Synthesis'))
-A(('p', 'In about 250 words, state where the King James Version prints “the last days” and “the latter days,” show who speaks and who hears in at least five passages, set the verbs of the New Testament passages beside one another and record what each leaves unsaid, quoting the passages.'))
+A(('p', 'The Bible uses “the last days” and “the latter days” in many places, and no passage says they all mean one time. Each speaker uses the phrase in their own sentence, to their own hearers, with their own verb. No passage joins them.'))
+A(('p', 'Now write it in your own words, in about 250 words:'))
+A(('bul', [
+    'Say where the KJV uses the phrase.',
+    'Name who speaks and who hears in at least five passages.',
+    'Set the New Testament verbs side by side and quote them.',
+    'End with one sentence: “No passage states that these are one period.”',
+]))
