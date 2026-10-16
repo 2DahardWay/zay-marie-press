@@ -1290,6 +1290,21 @@
   "key_passages": 10
  },
  {
+  "id": "S87",
+  "type": "Digital Study",
+  "mode": 1,
+  "series": "Digital Studies",
+  "n": 87,
+  "title": "The Last Days",
+  "subtitle": "Where Scripture Uses the Phrase, of Whom Each Passage Speaks, and What It Leaves Unsaid",
+  "slug": "study-87-the-last-days.html",
+  "pages": 16,
+  "price": "$5.99",
+  "question": "” The question this study alone answers: where does the King James Version print “the last days,” “the latter days” and their near wordings, to whom is each spoken, what does each passage say follows, and what does each leave unsaid? WHAT YOU’LL STUDY Follow the Phrase Through the Passages The Wordings in the King James Version Locate each place where the King James Version prints “the last days,” “the latter days” o",
+  "source": "page",
+  "key_passages": 13
+ },
+ {
   "id": "P01",
   "type": "Parable Study",
   "mode": 1,

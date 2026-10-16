@@ -1,6 +1,6 @@
-# Fit Check Map v1.5
+# Fit Check Map v1.6
 
-Version 1.5. Internal editorial record, approved by the publisher 2026-10-16. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
+Version 1.6. Internal editorial record, approved by the publisher 2026-10-16. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
 ## 1. How to use it
 
 1. Name the passage(s) and the one narrower question. 2. Run `python3 -I build-tools/fit-check/fitcheck.py "<passage>"` and read Sections 5 and 6 below. 3. Read the neighbours' own question in Section 4 (and the PDF when the grade is argued). 4. State the verdict: clear, fit by mode, fit by narrower question, overlap (needs a different question), or duplicate. 5. Check the series arc (Section 3) if a volume is proposed.
@@ -13,7 +13,7 @@ Depth grades come from counts in the publisher's PDFs (argued = named 4+ times, 
 
 | Product family | Items | Source of depth grade |
 |---|---|---|
-| Digital Study | 86 | PDF |
+| Digital Study | 87 | PDF |
 | Bible Book Companion | 66 | PDF |
 | Bible Book Summary (free) | 66 | page |
 | Reader Question | 50 | page |
@@ -172,8 +172,8 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-prophecy-mystery-1 | Israel & the Body | 37 |
 | V-prophecy-mystery-2 | The Mystery Program | 35 |
 | V-prophecy-mystery-3 | The Kingdom Program | 26 |
-| V-covenantal-4 | The Eternal Purpose of God | 25 |
 | V-acts-5 | Acts 28 | 25 |
+| V-covenantal-4 | The Eternal Purpose of God | 25 |
 | V-identity-5 | The Eschatological Community | 22 |
 | V-identity-4 | The Olive Tree | 20 |
 | S38 | Why Acts Is Not a Universal Experience Manual | 19 |
@@ -192,7 +192,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | S04 | Digital Study | Israel and the Body of Christ |  | 5 |
 | S05 | Digital Study | The Heavenly Calling |  | 6 |
 | S06 | Digital Study | The Mystery Revealed Through Paul |  | 6 |
-| S07 | Digital Study | The Day of the Lord |  | 7 |
+| S07 | Digital Study | The Day of the Lord |  | 8 |
 | S08 | Digital Study | The Day of Christ |  | 4 |
 | S09 | Digital Study | The Remnant |  | 6 |
 | S10 | Digital Study | Daniel’s Seventieth Week |  | 7 |
@@ -272,6 +272,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | S84 | Digital Study | Suffering and Glory | 16 | 3 |
 | S85 | Digital Study | The World Guilty Before God | 16 | 6 |
 | S86 | Digital Study | The Servant in Isaiah | 16 | 3 |
+| S87 | Digital Study | The Last Days | 16 | 5 |
 | P01 | Parable Study | The Growing Seed |  | 4 |
 | P02 | Parable Study | The Mustard Seed and the Leaven |  | 6 |
 | P03 | Parable Study | The Wheat and the Weeds |  | 4 |
@@ -371,7 +372,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 
 ## 4b. Narrower questions (each item's own statement)
 
-95 of 165 studies, parables and volumes state a narrower question in so many words (marked **stated**). For the 70 that do not (35 parables, 24 volumes, 11 studies) a one-line question was drafted from the item's own text (marked *drafted, for review*) and is not yet approved.
+96 of 166 studies, parables and volumes state a narrower question in so many words (marked **stated**). For the 70 that do not (35 parables, 24 volumes, 11 studies) a one-line question was drafted from the item's own text (marked *drafted, for review*) and is not yet approved.
 
 | ID | Title | Narrower question | Basis |
 |---|---|---|---|
@@ -461,6 +462,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | S84 | Suffering and Glory | what do Romans 8:17–39 and 2 Corinthians 4 say about suffering and glory, and who is “we” in each verse? | **stated** |
 | S85 | The World Guilty Before God | what does Romans 1:18–3:20 charge, against whom, and where does it stop? | **stated** |
 | S86 | The Servant in Isaiah | where Isaiah 41–53 says “my servant,” whom does each passage name, what does it say the servant does or suffers, and what does each New Testament quotation say and leave unsaid? | **stated** |
+| S87 | The Last Days | 28–32 beside Acts 2:16–21 for the sake of Acts 2:38, while this study reports only the opening phrase of Acts 2:17; Study 74 reports the final-ruler passages, and this study reads 1 John 2:18 only for the words “the last time”; Study 80 reads 1 Peter 1:20 among the passages on the foundation of the  | **stated** |
 | P01 | The Growing Seed | What does Jesus teach when a man sows, knows little of how the seed grows, and harvests when it is ripe (Mark 4:26–29)? | *drafted, for review* |
 | P02 | The Mustard Seed and the Leaven | What do the small beginning and large outcome of the mustard seed and the leaven teach about the Kingdom, without assigning meanings the text does not give? | *drafted, for review* |
 | P03 | The Wheat and the Weeds | Why does the Son of Man permit wheat and weeds to grow together until harvest, and what happens when the appointed separation arrives? | *drafted, for review* |
@@ -554,8 +556,8 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 | Colossians 1 | 24 | S05, S06, S41, S45, S53, S55, S56, S58, S69, S84, V-acts-3, V-covenantal-3, V-covenantal-4, V-gospel-5, V-identity-1, V-identity-3, V-identity-4, V-identity-5, V-pauline-2, V-pauline-3, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-prophecy-mystery-4 |
 | Ephesians 3 | 23 | S06, S30, S57, S58, S60, S76, V-acts-1, V-acts-2, V-acts-3, V-acts-5, V-covenantal-1, V-covenantal-2, V-covenantal-3, V-covenantal-4, V-gospel-2, V-gospel-3, V-gospel-4, V-gospel-5, V-identity-2, V-prophecy-mystery-1, V-prophecy-mystery-2, V-typology-1, V-typology-3 |
 | Romans 11 | 21 | S06, S09, S12, S13, S21, S35, S43, S50, S53, V-acts-3, V-acts-5, V-covenantal-2, V-covenantal-4, V-identity-2, V-identity-3, V-identity-4, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-typology-4, V-typology-5 |
+| Acts 2 | 19 | S11, S20, S27, S34, S38, S65, S71, S72, S79, S80, S81, S87, V-acts-1, V-acts-2, V-covenantal-5, V-identity-3, V-prophecy-mystery-1, V-prophecy-mystery-2, V-typology-5 |
 | Matthew 24 | 18 | S02, S03, S10, S29, S62, S66, S74, V-gospel-2, V-gospel-3, V-gospel-5, V-identity-2, V-prophecy-mystery-3, V-prophecy-mystery-4, V-prophetic-1, V-prophetic-2, V-prophetic-4, V-prophetic-5, V-typology-2 |
-| Acts 2 | 18 | S11, S20, S27, S34, S38, S65, S71, S72, S79, S80, S81, V-acts-1, V-acts-2, V-covenantal-5, V-identity-3, V-prophecy-mystery-1, V-prophecy-mystery-2, V-typology-5 |
 | Romans 8 | 18 | S22, S44, S46, S50, S52, S53, S56, S80, S81, S84, V-acts-2, V-covenantal-3, V-covenantal-4, V-identity-4, V-pauline-2, V-pauline-3, V-prophecy-mystery-4, V-prophecy-mystery-5 |
 | Galatians 2 | 16 | S15, S16, S18, S35, S36, S43, S51, S54, S58, S65, S66, V-acts-3, V-acts-4, V-pauline-2, V-prophecy-mystery-1, V-prophecy-mystery-2 |
 | Daniel 7 | 15 | S41, S66, S69, V-covenantal-4, V-covenantal-5, V-gospel-3, V-identity-5, V-prophecy-mystery-2, V-prophecy-mystery-3, V-prophecy-mystery-5, V-prophetic-1, V-prophetic-2, V-prophetic-3, V-prophetic-4, V-typology-2 |
@@ -588,6 +590,7 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 | Galatians 1 | 9 | S43, S60, S66, V-acts-3, V-covenantal-4, V-gospel-4, V-pauline-2, V-prophecy-mystery-1, V-prophecy-mystery-2 |
 | Ephesians 6 | 9 | S05, S22, S48, S76, S77, S81, V-acts-5, V-covenantal-4, V-prophecy-mystery-2 |
 | Revelation 19 | 9 | S01, S64, V-identity-1, V-identity-5, V-prophecy-mystery-5, V-prophetic-1, V-prophetic-2, V-prophetic-3, V-prophetic-5 |
+| Isaiah 2 | 8 | S87, V-covenantal-1, V-covenantal-4, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-prophetic-5, V-prophets-3 |
 | Matthew 25 | 8 | S31, S80, V-covenantal-3, V-covenantal-5, V-gospel-3, V-prophecy-mystery-5, V-prophets-3, V-typology-2 |
 | Acts 7 | 8 | S34, S60, V-acts-1, V-acts-2, V-acts-3, V-covenantal-1, V-covenantal-3, V-typology-1 |
 | Acts 8 | 8 | S34, S60, S80, S86, V-acts-1, V-acts-2, V-acts-3, V-prophecy-mystery-3 |
@@ -599,7 +602,6 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 | Colossians 2 | 8 | S30, S42, S51, S78, V-pauline-2, V-pauline-3, V-pauline-5, V-typology-1 |
 | Revelation 3 | 8 | S26, S68, S69, S73, V-covenantal-5, V-identity-5, V-prophecy-mystery-3, V-typology-5 |
 | Genesis 12 | 7 | S17, V-covenantal-1, V-covenantal-2, V-covenantal-3, V-covenantal-4, V-identity-4, V-prophets-3 |
-| Isaiah 2 | 7 | V-covenantal-1, V-covenantal-4, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-prophetic-5, V-prophets-3 |
 | Isaiah 11 | 7 | S76, V-covenantal-5, V-gospel-3, V-identity-2, V-prophetic-1, V-prophetic-5, V-typology-4 |
 | Ezekiel 37 | 7 | S49, V-covenantal-1, V-covenantal-3, V-covenantal-5, V-identity-3, V-identity-5, V-prophecy-mystery-4 |
 | Daniel 9 | 7 | S03, S10, V-gospel-3, V-prophetic-1, V-prophetic-3, V-prophetic-4, V-typology-1 |
@@ -608,7 +610,7 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 | Acts 10 | 7 | S14, S34, S38, S81, V-acts-2, V-acts-4, V-prophecy-mystery-2 |
 | Acts 19 | 7 | S34, S38, S41, S42, S81, V-acts-2, V-acts-5 |
 
-134 chapters in all; top 60 shown.
+136 chapters in all; top 60 shown.
 
 ## 6. Gaps (chapters no study, volume or parable argues, reports or lists as key)
 
@@ -660,13 +662,13 @@ Companions, summaries and reader questions are not counted, because they read a 
 
 ## 7. Relationships
 
-1289 Related Reading links were read from the website pages (1289 resolve to a mapped item). Links are cross-references; they say a neighbour exists, not what the neighbour argues. The per-item neighbour notes are in `build-tools/fit-check/data/edges.json`.
+1295 Related Reading links were read from the website pages (1295 resolve to a mapped item). Links are cross-references; they say a neighbour exists, not what the neighbour argues. The per-item neighbour notes are in `build-tools/fit-check/data/edges.json`.
 
 Related Reading links by product family (rows link to columns):
 
 | From \ To | Study | Volume | Parable | Companion | Reader Q | Summary | Other |
 |---|---|---|---|---|---|---|---|
-| Study | 263 | 151 | 23 | 30 | 0 | 0 | 0 |
+| Study | 267 | 153 | 23 | 30 | 0 | 0 | 0 |
 | Volume | 131 | 103 | 10 | 99 | 0 | 0 | 0 |
 | Parable | 24 | 10 | 105 | 51 | 0 | 0 | 0 |
 | Companion | 139 | 62 | 3 | 44 | 0 | 0 | 0 |
@@ -696,6 +698,7 @@ Related Reading links by product family (rows link to columns):
 | 1.3 | 2026-10-16 | Adds The Prophets Series Volume 2, What the Prophets Condemned (57 pages with the cover), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists Volumes 3–4 only. Related Reading links added both ways with Study 59, Study 78, Typology Commentary Vol 3, Acts Vol 1 and the Isaiah, Jeremiah and Amos companions. |
 | 1.4 | 2026-10-16 | Adds The Prophets Series Volume 3, The Nations Judged (60 pages with the cover), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists Volume 4 only. Related Reading links added both ways with Study 31, Prophetic Commentary Vol 5 and the Ezekiel companion. |
 | 1.5 | 2026-10-16 | Adds The Prophets Series Volume 4, Elijah Must First Come (55 pages with the cover), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists no planned items. Related Reading links added both ways with Prophetic Commentary Vol 2, Gospel Commentary Vol 2 and the Malachi companion. |
+| 1.6 | 2026-10-16 | Adds Digital Study 87, The Last Days (16 pages with the cover; Doctrinal Themes), to the registry, the passage tables and the Related Reading links, graded from its PDF; the question it answers is stated in the study. Related Reading links added both ways with Study 7. A fifth Prophets Series volume (The Prophetic Hope) was proposed, found to overlap by the Fit Check and dropped, and its time-words topic became Study 87; the Prophets Series stays at four volumes. |
 
 ## Appendix. Digital Studies Relationship Map v1.54 (carried forward whole)
 
