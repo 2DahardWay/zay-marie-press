@@ -2625,6 +2625,13 @@
   "to": "V-typology-3"
  },
  {
+  "from": "S67",
+  "to_slug": "commentary-prophets-01-how-the-prophets-spoke.html",
+  "list": "Commentary Series",
+  "note": "Argues how the prophets mark a word the LORD has sworn, the oath of Psalm 110:4 among them; Study 67 reads that oath in the story of Melchizedek, recording what each passage says.",
+  "to": "V-prophets-1"
+ },
+ {
   "from": "S68",
   "to_slug": "study-31-the-judgments-of-scripture.html",
   "list": "Digital Studies",
@@ -2828,6 +2835,13 @@
   "to": "V-typology-5"
  },
  {
+  "from": "S73",
+  "to_slug": "commentary-prophets-01-how-the-prophets-spoke.html",
+  "list": "Commentary Series",
+  "note": "Argues how the prophets mark the conditional chastening and the sworn covenant, Psalm 89:30–37 among the passages; Study 73 reports the covenant with David and its passages as written.",
+  "to": "V-prophets-1"
+ },
+ {
   "from": "S74",
   "to_slug": "study-10-daniels-seventieth-week.html",
   "list": "Digital Studies",
@@ -2903,6 +2917,13 @@
   "list": "Commentary Series",
   "note": "Argues that the Cross was hid from the Twelve before it was opened to them; Study 75 records what the disciples and earlier believers are said to have believed, passage by passage, without arguing a position beyond the text.",
   "to": "V-gospel-4"
+ },
+ {
+  "from": "S75",
+  "to_slug": "commentary-prophets-01-how-the-prophets-spoke.html",
+  "list": "Commentary Series",
+  "note": "Argues how the prophets say a word of the LORD is known and what turns it aside; Study 75 reports what earlier believers were told and what they believed, 1 Peter 1:10–12 among the passages.",
+  "to": "V-prophets-1"
  },
  {
   "from": "S76",
@@ -4621,6 +4642,13 @@
  },
  {
   "from": "V-prophetic-2",
+  "to_slug": "commentary-prophets-01-how-the-prophets-spoke.html",
+  "list": "Commentary Series",
+  "note": "Argues how Israel’s prophets say a word of the LORD is known and tested, Deuteronomy 13 and 18 among the passages; this volume argues who the false prophet of Revelation 13 is.",
+  "to": "V-prophets-1"
+ },
+ {
+  "from": "V-prophetic-2",
   "to_slug": "packet-revelation.html",
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of Revelation through its key passages; read it for the book’s own structure before this volume’s argument.",
@@ -4786,6 +4814,13 @@
   "list": "Commentary Series",
   "note": "The kingdom promised to Israel, argued across the whole canon.",
   "to": "V-prophecy-mystery-3"
+ },
+ {
+  "from": "V-acts-1",
+  "to_slug": "commentary-prophets-01-how-the-prophets-spoke.html",
+  "list": "Commentary Series",
+  "note": "Argues how the prophets say a word of the LORD is known, reading Deuteronomy 18 in its own chapter; this volume argues the prophet like unto Moses in Acts 3 and 7.",
+  "to": "V-prophets-1"
  },
  {
   "from": "V-acts-1",
@@ -6384,6 +6419,69 @@
   "to": "C-Dan"
  },
  {
+  "from": "V-prophets-1",
+  "to_slug": "study-75-faith-before-the-cross.html",
+  "list": "Digital Studies",
+  "note": "Reports what earlier believers were told and what they believed, 1 Peter 1:10–12 among the passages; this volume reads the same verses for what they say of how the prophets spoke.",
+  "to": "S75"
+ },
+ {
+  "from": "V-prophets-1",
+  "to_slug": "study-67-melchizedek.html",
+  "list": "Digital Studies",
+  "note": "Reads the oath of Psalm 110:4 in its place in the story of Melchizedek; this volume cites the oath as one of the words the prophets mark as sworn.",
+  "to": "S67"
+ },
+ {
+  "from": "V-prophets-1",
+  "to_slug": "study-73-the-davidic-covenant.html",
+  "list": "Digital Studies",
+  "note": "Reports the covenant with David and its passages as written; this volume reads Psalm 89 only for the conditional chastening and the sworn word standing side by side.",
+  "to": "S73"
+ },
+ {
+  "from": "V-prophets-1",
+  "to_slug": "commentary-02-beast-false-prophet.html",
+  "list": "Commentary Series",
+  "note": "Argues who the false prophet of Revelation 13 is; this volume reads how Israel’s prophets were tested and does not take up that figure.",
+  "to": "V-prophetic-2"
+ },
+ {
+  "from": "V-prophets-1",
+  "to_slug": "commentary-acts-01-what-the-twelve-were-told-and-did.html",
+  "list": "Commentary Series",
+  "note": "Argues the prophet like unto Moses in Acts 3 and 7; this volume reads Deuteronomy 18 in its own chapter and leaves that fulfilment there.",
+  "to": "V-acts-1"
+ },
+ {
+  "from": "V-prophets-1",
+  "to_slug": "commentary-covenantal-05-the-davidic-covenant.html",
+  "list": "Commentary Series",
+  "note": "Argues what the sworn covenant with David contains; this volume uses its conclusion and asks only how the prophets mark such a word.",
+  "to": "V-covenantal-5"
+ },
+ {
+  "from": "V-prophets-1",
+  "to_slug": "packet-jeremiah.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Jeremiah through its key passages.",
+  "to": "C-Jer"
+ },
+ {
+  "from": "V-prophets-1",
+  "to_slug": "packet-deuteronomy.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Deuteronomy through its key passages.",
+  "to": "C-Deut"
+ },
+ {
+  "from": "V-prophets-1",
+  "to_slug": "packet-ezekiel.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Ezekiel through its key passages.",
+  "to": "C-Ezek"
+ },
+ {
   "from": "V-typology-1",
   "to_slug": "study-27-israels-seven-appointed-feasts.html",
   "list": "Digital Studies",
@@ -7301,6 +7399,13 @@
   "to": "S04"
  },
  {
+  "from": "C-Deut",
+  "to_slug": "commentary-prophets-01-how-the-prophets-spoke.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on Deuteronomy; this companion stays within the book.",
+  "to": "V-prophets-1"
+ },
+ {
   "from": "C-Eccl",
   "to_slug": "study-31-the-judgments-of-scripture.html",
   "list": "Digital Studies",
@@ -7425,6 +7530,13 @@
   "list": "Digital Studies",
   "note": "Follow the resurrections across Scripture; the companion stays within Ezekiel.",
   "to": "S49"
+ },
+ {
+  "from": "C-Ezek",
+  "to_slug": "commentary-prophets-01-how-the-prophets-spoke.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on Ezekiel; this companion stays within the book.",
+  "to": "V-prophets-1"
  },
  {
   "from": "C-Ezra",
@@ -7656,6 +7768,13 @@
   "list": "Commentary Series",
   "note": "A volume in the Commentary Collection whose argument draws on Jeremiah; this companion stays within the book.",
   "to": "V-identity-3"
+ },
+ {
+  "from": "C-Jer",
+  "to_slug": "commentary-prophets-01-how-the-prophets-spoke.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on Jeremiah; this companion stays within the book.",
+  "to": "V-prophets-1"
  },
  {
   "from": "C-Job",

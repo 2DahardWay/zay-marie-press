@@ -30,6 +30,7 @@ SERIES = {  # filename prefix -> (series label, mode)
     "commentary-acts": ("Acts Commentary", 2),
     "commentary-gospel": ("Gospel Commentary", 2),
     "commentary-pauline": ("Pauline Doctrine Series", 2),
+    "commentary-prophets": ("The Prophets Series", 2),
 }
 PROPHETIC_RX = re.compile(r"^commentary-0(\d)-")
 

@@ -2340,6 +2340,21 @@
   "key_passages": 8
  },
  {
+  "id": "V-prophets-1",
+  "type": "Commentary Volume",
+  "mode": 2,
+  "series": "The Prophets Series",
+  "n": 1,
+  "title": "How the Prophets Spoke",
+  "subtitle": "The Office, the Tests, and the Word the LORD Swears",
+  "slug": "commentary-prophets-01-how-the-prophets-spoke.html",
+  "pages": 51,
+  "price": "$14.99",
+  "question": "It is the first volume of The Prophets Series, each volume of which is built around one narrower question the prophets raise themselves, not a walk through the prophetic books. It is a different kind of book from the Digital Studies, which report what a passage says.",
+  "source": "page",
+  "key_passages": 8
+ },
+ {
   "id": "V-typology-1",
   "type": "Commentary Volume",
   "mode": 2,

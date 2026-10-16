@@ -61,13 +61,14 @@ ARC = {
 "Acts Commentary": ("Acts in order: Acts 1–8 (Vol 1), the Spirit from Pentecost to Ephesus (Vol 2), Paul called and sent (Vol 3), Cornelius and the Council (Vol 4), Acts 28 (Vol 5).", "No other product walks Acts section by section. Closest: Vol 1 and 5 with Prophecy & Mystery Vol 3; Vol 2 with Studies 20, 34, 38. Also Studies 14, 18, 19, 65 and Study 2."),
 "Gospel Commentary": ("The Lord's ministry before the Cross as told to Israel: the Sermon on the Mount (Vol 1), the ministry to Israel (Vol 2), the Olivet Discourse (Vol 3), what the Twelve understood (Vol 4), the Upper Room (Vol 5).", "Closest: Vol 2 with Prophecy & Mystery Vol 3 and Study 2; Vol 3 with Study 29 and Typology Vol 2; Vol 4 with Study 75. No volume works through the parables (the Parable Studies carry them)."),
 "Pauline Doctrine Series": ("Large Pauline themes, one narrow question each: Adam and Christ (Vol 1), the Cross (Vol 2), the person of Christ (Vol 3), the assembly in order (Vol 4), liberty, conscience and the walk (Vol 5).", "Closest: Vol 2 with Studies 53, 54, 55; Vol 4 with Studies 72, 81 and the 1 Corinthians and Timothy companions; Vol 5 with Studies 36, 77, 78; Vol 1 with Study 49 and Prophecy & Mystery Vol 4."),
+"The Prophets Series": ("Questions the prophets raise themselves, one narrow question per volume: how the prophets spoke (Vol 1; built), what they condemned (Vol 2), the nations judged (Vol 3), Elijah must first come (Vol 4, conditional).", "Vol 1 shares passages with Study 75 (1 Peter 1:10–12), Study 67 (Psalm 110:4), Study 73 (Psalm 89), Covenantal Vol 5 (the sworn covenant), Prophetic Vol 2 (the false prophet of Revelation 13) and Acts Vol 1 (the prophet like Moses); it reads Deuteronomy 13 and 18, Jeremiah 23 and 28, 1 Kings 22 and Jonah where no other product argues them. The Standard holds the overlap table for Vols 2–4."),
 }
 A("## 3. Series and arcs\n")
 ser = collections.OrderedDict()
 for r in reg:
     if r["type"] == "Commentary Volume": ser.setdefault(r["series"], []).append(r)
 for s, vs in ser.items():
-    A(f"**{s}** ({len(vs)} volumes)\n")
+    A(f"**{s}** ({len(vs)} volume{'' if len(vs)==1 else 's'})\n")
     if s in ARC: A(f"*Arc:* {ARC[s][0]}\n\n*Neighbours (from the series Standard and the Prefaces):* {ARC[s][1]}\n")
     for v in sorted(vs, key=lambda x: x["n"]):
         A(f"- Vol {v['n']}: {v['title']} — {v.get('pages') or '?'} pp")
@@ -160,8 +161,17 @@ for a in fams:
 A("")
 A("## 8. Not yet in the map\n")
 A("- The Full Framework is read from the print proof (eProof), not from the final interior.\n- Parable files are the published editions (publisher, 2026-10-15), though the files are named FULL_REVIEW.\n- Reader Questions Volumes 2 and 3: PDFs are 29 and 26 pages; the website says 30 and 27. The PDFs are treated as current.\n- Standards' overlap notes are merged as short neighbour lines (Section 3). All eight series Standards are now read; Typology, Prophetic and Prophetic Identity have no overlap table, so their neighbour lines come from their rulings and the coverage data.\n- Narrower questions for 70 items are drafted by Claude and kept by the publisher (2026-10-15).\n")
+A("## 8b. Planned series items (not yet built; no PDFs to grade)\n")
+A('**The Prophets Series** (ninth commentary series, registered 2026-10-15 in Master Standard v1.159; Standard `Prophets_Series_Standard_v1.6.md`). Volume 1, How the Prophets Spoke, is built and in the map above (51 pages with the cover). Volumes 2–4 are planned; Volume 4 is conditional. Passage lists and neighbour notes are in the Standard; the chapter-level tables include these volumes once their PDFs exist. Until then, look up a prophetic passage with `fitcheck.py` and read the Standard before proposing anything near them.')
+A("| Planned item | Narrower question (provisional; the publisher approves each volume's title, thesis and outline) |\n|---|---|")
+A('| Prophets Vol 2, What the Prophets Condemned | What does each prophet condemn, in whose worship, and what does he leave standing? |')
+A('| Prophets Vol 3, The Nations Judged | Which oracles does Scripture itself report fulfilled, which does it hold open, and what does each say it rests on? (Babylon stays with Prophetic Commentary Vol 3; Edom with Vol 5.) |')
+A("| Prophets Vol 4, Elijah Must First Come (conditional) | What do Malachi 3:1 and 4:5–6 promise, how do the Gospels answer, and what does the text say of a further coming? (Dropped if the outline's realistic page count with cover is under 50.) |")
+A("")
 A("## 9. Version history\n")
-A(f"| Version | Date | Change |\n|---|---|---|\n| {VERSION} | {today} | First build from the website pages and the publisher's PDFs (86 studies, 40 commentary volumes, 35 parables, 66 companions, 66 summaries, 5 reader-question volumes and 50 questions, resources and maps, the Full Framework). Replaces the Digital Studies Relationship Map v1.54, carried forward whole in the Appendix. |")
+A(f"| Version | Date | Change |\n|---|---|---|\n| 1.0 | {today} | First build from the website pages and the publisher's PDFs (86 studies, 40 commentary volumes, 35 parables, 66 companions, 66 summaries, 5 reader-question volumes and 50 questions, resources and maps, the Full Framework). Replaces the Digital Studies Relationship Map v1.54, carried forward whole in the Appendix. |")
+A("| 1.1 | 2026-10-15 | Adds Section 8b, Planned series: The Prophets Series (four volumes, Volume 4 conditional) with each volume's provisional narrower question, ahead of any PDF. No grades changed. |")
+A("| 1.2 | 2026-10-15 | Adds The Prophets Series Volume 1, How the Prophets Spoke (51 pages with the cover), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists Volumes 2–4 only. Related Reading links added both ways with Studies 67, 73 and 75, Prophetic Commentary Vol 2, Acts Vol 1 and the Jeremiah, Deuteronomy and Ezekiel companions. |")
 
 import re as _re
 A("\n## Appendix. Digital Studies Relationship Map v1.54 (carried forward whole)\n")
