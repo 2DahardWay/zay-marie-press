@@ -1,6 +1,6 @@
 # Prophets Series Standard
 
-Version 1.2 — 2026-10-15. Registered at the publisher's "i approve" (2026-10-15): the series is **The Prophets Series**, four volumes with Volume 4 conditional, and the pricing is approved; the rule is recorded in Master Standard v1.159 §20 Rule 29 and in CLAUDE.md (v1.159). v1.1 was the four-volume revision of the v1.0 draft after the Fit Check Map run and the Volume 4 outline test. Items still marked proposed or pending remain unruled, and each volume's title, subtitle, thesis, outline and rulings are approved one volume at a time. Everything marked **proposed** is Claude's drafting from the sibling Standards. Volume titles, narrower questions and passage lists are provisional.
+Version 1.3 — 2026-10-15. Records Volume 1's closer check, thesis, outline and seven rulings at the publisher's approval (a record only; no new rule, so the Master Standard stays at v1.159). v1.2 registered the series (four volumes, Volume 4 conditional; the name The Prophets Series; the pricing). Items still marked proposed or pending remain unruled, and each later volume's title, subtitle, thesis, outline and rulings are approved one volume at a time.
 
 Governs the Prophets Series (each title a "Volume"; the shared working term "Commentary Volume" is used for build tooling only), written in Mode 2 (canonical identity synthesis) under Framework §XX and Master Standard §20 Rule 29. Modelled on the Pauline Doctrine Series Standard (v1.15), the Gospel Commentary Series Standard (v1.19) and the Acts Commentary Series Standard (v1.10), and sharing their layout, quotation and citation rules. The Digital Studies stay under Mode 1 and are never changed by this series.
 
@@ -86,3 +86,25 @@ Volumes are numbered 1–4 within the series. Each volume's thesis, outline and 
 
 ## Next steps once approved
 Record the series in Master Standard §20 Rule 29 (DOCX bump to v1.159, both files renamed, PDF regenerated, Version History entry), in CLAUDE.md (a new dated entry) and in this Standard (v1.2); supply the Framework §XX line to the publisher; add the series to the Fit Check Map (v1.1) in the same pass; then begin Volume 1's closer check, thesis and outline for approval. No website change until Volume 1's interior and cover are approved.
+
+## Volume 1: How the Prophets Spoke — closer check, thesis, outline and rulings (publisher approval, 2026-10-15)
+
+**Passages and question.** Numbers 12:6–8; Deuteronomy 13:1–5; 18:15–22; 1 Samuel 3:19–21; 1 Kings 22; Jeremiah 18:7–10; 23:9–40; 26:12–19; 28; Ezekiel 13; 33:13–16; Jonah 3–4; Amos 3:7; Hebrews 1:1; 1 Peter 1:10–12; 2 Peter 1:19–21. Question: by the prophets' own statements, how is a word of the LORD known, what can turn an oracle aside, and what does the LORD swear that cannot be turned? Verdict: fit by narrower question.
+
+**Closer check (neighbouring pages read, 2026-10-15).** Prophetic Commentary Vol 2 argues Deuteronomy 13 and 18:20–22 to identify Revelation 13's false prophet and reports Jeremiah 23:25, 27 and 1 Kings 22:23; Volume 1 reads them for the prophet's office, cites Vol 2 and does not re-argue Revelation 13. Acts Commentary Vol 1 argues Deuteronomy 18:15–19 as the prophet like Moses (Acts 3, 7); the Acts application stays there. Study 75 reports Jonah 3:5 and 1 Peter 1:10–12 on what people believed; Volume 1 reads Jonah 3–4 for the conditional word. Prophecy & Mystery Vol 2 reads Amos 3:7 beside the Mystery not being foretold; Volume 1 stays inside that ruling. Study 68 uses Ezekiel 13:9 only as a register of names; Study 67 reads Hebrews 1:1 only as an audience marker. Open ground: Numbers 12:6–8, 1 Samuel 3, Jeremiah 18:7–10, 26 and 28, Ezekiel 33:13–16, 2 Peter 1:19–21.
+
+**Thesis.** The prophets give the tests themselves. A word is the LORD's if it comes from him and not the prophet's heart (Jeremiah 23, Ezekiel 13); it must not lead Israel from the LORD, whatever sign accompanies it (Deuteronomy 13); an announced event must come to pass (Deuteronomy 18:22) unless the LORD has attached a condition (Jeremiah 18:7–10; Jonah 3–4); what the LORD swears is a different kind of word and is never turned back.
+
+**Provisional outline, eight chapters:** (1) the office; (2) the source; (3) the test of loyalty; (4) the test of fulfilment; (5) the conditional word; (6) the sworn word; (7) the New Testament testimony (Hebrews 1:1; 1 Peter 1:10–12; 2 Peter 1:19–21); (8) objections and replies.
+
+**Condition on chapter 6 (found 2026-10-15 by the passage run).** The sworn-word passages are among the most heavily argued in the catalog: Genesis 22:16–18 (Covenantal Vol 1 and 2, with Studies 15 and 71 and the Genesis companion), Psalm 89:34–37 (Study 73, Covenantal Vol 2 and 5), Jeremiah 31:35–37 (Studies 12 and 72, Covenantal Vol 2, Prophetic Identity Vol 3), Jeremiah 33:19–26 (Covenantal Vol 2), Hebrews 6:17–18 (Study 28, Covenantal Vol 1) and 2 Samuel 7:12–16 (five items). Chapter 6 therefore cites these neighbours and does not re-argue them. Its own ground is the form of the swearing as the prophets speak it (Numbers 23:19; Isaiah 55:10–11; Malachi 3:6; Isaiah 54:9–10 with Prophetic Identity Vol 1 as neighbour) and the contrast with the conditional word. A page budget is made at the outline stage; if chapters 1–8 cannot reach 50 pages with the cover without repeating a neighbour, the publisher is told before drafting.
+
+**Rulings (all approved 2026-10-15).**
+1. Conditional versus sworn: Jeremiah 18:7–10 governs announced judgment and blessing on nations and is never set against the sworn covenant promises (consistent with Covenantal Vol 1).
+2. Jonah: Nineveh's unfulfilled forty days does not make Jonah a false prophet; Jonah 4:2 shows he knew the word was conditional, and Deuteronomy 18:22 is read together with Jeremiah 18:7–10.
+3. Amos 3:7 is the LORD's pattern with the prophets about announced events; it does not say everything was revealed to them, and the Mystery stays hid (Prophecy & Mystery Vol 2).
+4. 1 Peter 1:10–12 is reported as written; no later revelation is added to the prophets' faith (Rule 19).
+5. 1 Kings 22:23: the lying spirit is judgment on Ahab after he refused Micaiah's word (as Prophetic Vol 2).
+6. Ezekiel 33:13–16: the "righteousness and life" language is read in Israel's setting and is never made the Body's ground of salvation.
+7. Hebrews 1:1 and 2 Peter 1:19–21 are cited on the prophets' mode of speaking, each letter on its own audience markers, with no program assigned beyond that.
+
