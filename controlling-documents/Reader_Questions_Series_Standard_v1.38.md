@@ -1,5 +1,7 @@
 # Readers Question Series Standard
 
+Version 1.38 — Bible Book Companion wording (2026-10-16; recorded in Master Standard v1.163): the workflow line and the related-reading list read Bible Book Companions; the “Doctrinal Packets:” label in the five free volume PDFs and the Related Reading line on the volume pages now read “Companions” and “Bible Book Companions”; page counts unchanged (28, 30, 27, 30, 25). Earlier version lines keep the wording in force when they were written.
+
 Version 1.36 — Resources page (2026-10-11; recorded in Master Standard v1.122): the Resource Library opens with non-featured cards and the hero-to-tools gap is trimmed on desktop; no change to this series.
 
 Version 1.35 — Bible Book Summaries page (2026-10-11; recorded in Master Standard v1.121): the filter bar stays pinned as the reader scrolls; no change to this series.
@@ -64,7 +66,7 @@ Roboto only; body 10 pt black (6 pt after, 1.08); entry titles and major heading
 3. What carries the weight: each point marked **Stated**, **Shown by the context** or **Inferred**.
 4. The other readings, stated fairly, with named modern writers; why this answer is preferred.
 5. What it means for the reader.
-6. Related reading (Digital Studies, Commentary Series, Parable Studies, Doctrinal Packets; up to three each).
+6. Related reading (Digital Studies, Commentary Series, Parable Studies, Bible Book Companions; up to three each).
 
 ## Rulings recorded
 | Question | Passage | Ruling | Status |
@@ -112,7 +114,7 @@ Roboto only; body 10 pt black (6 pt after, 1.08); entry titles and major heading
 The great falling away; repentance versus belief; why Sodom and Gomorrah were destroyed; Romans 10:9–10; "grieve not the Holy Spirit"; "well done, thou good and faithful servant"; "the kingdom of heaven suffereth violence"; the "everlasting Father" (Isaiah 9:6); the "two last trumps"; the thorn in the flesh; the trump of 1 Thessalonians 4:16 and the seventh trumpet of Revelation 11.
 
 ## Workflow
-Each question: overlap check against the Relationship Map, studies, commentaries, parables and packets; position ruled or flagged; free page and full entry drafted; KJV verified; preview rendered; "i approve"; then the volume is built to the format, the free pages go on the site, and the Standard, Master Standard and CLAUDE.md are updated in the same pass. The Questions page and volume format are previewed before any push.
+Each question: overlap check against the Relationship Map, studies, commentaries, parables and Bible Book Companions; position ruled or flagged; free page and full entry drafted; KJV verified; preview rendered; "i approve"; then the volume is built to the format, the free pages go on the site, and the Standard, Master Standard and CLAUDE.md are updated in the same pass. The Questions page and volume format are previewed before any push.
 
 ## Volume status
 | Volume | Title | Status |
