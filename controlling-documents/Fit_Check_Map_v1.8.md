@@ -1,6 +1,6 @@
-# Fit Check Map v1.7
+# Fit Check Map v1.8
 
-Version 1.7. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
+Version 1.8. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
 ## 1. How to use it
 
 1. Name the passage(s) and the one narrower question. 2. Run `python3 -I build-tools/fit-check/fitcheck.py "<passage>"` and read Sections 5 and 6 below. 3. Read the neighbours' own question in Section 4 (and the PDF when the grade is argued). 4. State the verdict: clear, fit by mode, fit by narrower question, overlap (needs a different question), or duplicate. 5. Check the series arc (Section 3) if a volume is proposed.
@@ -20,7 +20,7 @@ Depth grades come from counts in the publisher's PDFs (argued = named 4+ times, 
 | Commentary Volume | 44 | PDF |
 | Parable Study | 35 | Word file |
 | Free Resource (library) | 21 | library entry |
-| Free Resource | 7 | page |
+| Free Resource | 8 | page |
 | Reader Questions Volume | 5 | PDF |
 | Interactive Map | 3 | page |
 | Course | 1 | page |
@@ -369,6 +369,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | R-biblical-hermeneutics-course | Course | BIBLICAL HERMENEUTICS |  | 0 |
 | R-full-framework | Book | THE FULL FRAMEWORK |  | 0 |
 | R-diagnostic-manual | Free Resource | THE DIAGNOSTIC MANUAL |  | 0 |
+| R-parable-study-template | Free Resource | Parable Study Template and Worked Example |  | 0 |
 
 ## 4b. Narrower questions (each item's own statement)
 
@@ -700,6 +701,7 @@ Related Reading links by product family (rows link to columns):
 | 1.5 | 2026-10-16 | Adds The Prophets Series Volume 4, Elijah Must First Come (55 pages with the cover), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists no planned items. Related Reading links added both ways with Prophetic Commentary Vol 2, Gospel Commentary Vol 2 and the Malachi companion. |
 | 1.6 | 2026-10-16 | Adds Digital Study 87, The Last Days (16 pages with the cover; Doctrinal Themes), to the registry, the passage tables and the Related Reading links, graded from its PDF; the question it answers is stated in the study. Related Reading links added both ways with Study 7. A fifth Prophets Series volume (The Prophetic Hope) was proposed, found to overlap by the Fit Check and dropped, and its time-words topic became Study 87; the Prophets Series stays at four volumes. |
 | 1.7 | 2026-10-17 | Regrades the 35 Parable Studies from their rebuilt PDFs (the 13-section format, Master Standard v1.164 Rule 35; 15 to 20 pages with the cover; the Sower and the Soils is 19), replacing the grades taken from the earlier editions. Passage depth for the parables now counts the whole rebuilt text, including the neighbour boundaries and the related-passage lists, so parable rows rise sharply (the standing sentence that names Paul's Acts 9 calling is left out of the count, because every parable carries it) and the crowded-chapter and gap tables move with them; read a parable's depth as where the study dwells, not as a position. No product, price or narrower question changed. |
+| 1.8 | 2026-10-17 | Adds the Parable Study Template and its Worked Example (two free PDFs, 5 and 4 pages with the cover; page `parable-study-template.html`) to the registry as one free resource. Its narrower question is how to work any one parable through on paper in eight sections (audience and occasion, the comparison, what Jesus names and leaves unnamed, boundaries, the stated point, the present lesson); the worked example reads Matthew 22:1–14, the same passage as Parable Study 8, which the publisher kept. No passage grades, prices or other products changed. Related links added from the Parables hub, the 35 Parable Study pages and the Resource Library. |
 
 ## Appendix. Digital Studies Relationship Map v1.54 (carried forward whole)
 
