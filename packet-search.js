@@ -15,7 +15,7 @@ cards.forEach(function(c,i){var ok=!q||q.split(' ').every(function(w){return tex
 groups.forEach(function(g){var any=g.querySelector('.packet-hub-card:not([hidden])');g.hidden=!any;var h=g.previousElementSibling;if(h&&h.classList.contains('packet-section'))h.hidden=!any;});
 [].forEach.call(document.querySelectorAll('.packet-testament'),function(h){var n=h.nextElementSibling,any=false;while(n&&!n.classList.contains('packet-testament')){if(n.querySelector&&n.querySelector('.packet-hub-card:not([hidden])'))any=true;n=n.nextElementSibling;}h.hidden=!any;});
 none.hidden=shown>0;
-if(cnt){cnt.hidden=!q||shown===0;cnt.textContent='Showing '+shown+' of '+cards.length+' packets';}
+if(cnt){cnt.hidden=!q||shown===0;cnt.textContent='Showing '+shown+' of '+cards.length+' companions';}
 }
 input.addEventListener('input',run);
 })();
