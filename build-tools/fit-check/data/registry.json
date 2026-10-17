@@ -2430,6 +2430,21 @@
   "key_passages": 8
  },
  {
+  "id": "V-sign-gifts-2",
+  "type": "Commentary Volume",
+  "mode": 2,
+  "series": "The Sign Gifts Series",
+  "n": 2,
+  "title": "Tongues and Prophecy",
+  "subtitle": "Whether Tongues and Prophecy Continue in the Body",
+  "slug": "commentary-sign-gifts-02-tongues-and-prophecy.html",
+  "pages": 55,
+  "price": "$14.99",
+  "question": "It is the second volume of The Sign Gifts Series, each volume of which is built around one narrower question about the signs of Scripture. Volume 1 asks what signs were for and where the record of them ends; this volume asks what tongues and prophecy are and whether they continue in the Body.",
+  "source": "page",
+  "key_passages": 8
+ },
+ {
   "id": "V-typology-1",
   "type": "Commentary Volume",
   "mode": 2,

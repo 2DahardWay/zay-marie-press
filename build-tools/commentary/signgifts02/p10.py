@@ -1,0 +1,31 @@
+from kjvlib import text as T
+C = [
+("h1", "10. Prophecy in the Letters and in Acts"),
+("p", "Claim: prophecy in the New Testament is a word revealed to the speaker, and the passages outside 1 Corinthians that name it agree with that account. They show prophecy in the churches and in the company of Paul in the years of Acts, and they say nothing of its end. The offices of apostle and prophet in Ephesians belong to Volume 4 of this series, and this chapter reads the passages that describe the gift."),
+("sub", "10.1 Prophecy among Paul’s companions, Acts 21"),
+("p", "At Caesarea Paul’s company enters “the house of Philip the evangelist, which was one of the seven” (Acts 21:8). Luke reports: “And the same man had four daughters, virgins, which did prophesy” (Acts 21:9). The text says the daughters prophesied, and it adds nothing about what they said. A prophet comes down from Judaea: “a certain prophet, named Agabus” (Acts 21:10). He takes Paul’s girdle, binds his own hands and feet and says, “Thus saith the Holy Ghost, So shall the Jews at Jerusalem bind the man that owneth this girdle, and shall deliver him into the hands of the Gentiles” (Acts 21:11)."),
+("p", "The prophecy of Agabus is a word, introduced by “Thus saith the Holy Ghost,” that tells of a future event concerning Paul and the Jews at Jerusalem. The event is reported in the chapters that follow. The passage shows prophecy as a revealed word, in the form the volume described from 1 Corinthians 14:30, and it shows it in the company of Paul and in a setting of the Jews at Jerusalem. It is an event of Acts 9 to 28 and is reported as written."),
+("sub", "10.2 Prophecy over Timothy"),
+("p", "Paul writes to Timothy, “This charge I commit unto thee, son Timothy, according to the prophecies which went before on thee, that thou by them mightest war a good warfare” (1 Timothy 1:18), and “Neglect not the gift that is in thee, which was given thee by prophecy, with the laying on of the hands of the presbytery” (1 Timothy 4:14). The two verses report prophecies that had gone before on Timothy and a gift given by prophecy with the laying on of hands. The passages say what they say. They do not say how the prophecies were spoken or what they contained, and they say nothing about their end."),
+("sub", "10.3 Prophesyings not to be despised"),
+("p", "Paul writes to the Thessalonians, “Quench not the Spirit. Despise not prophesyings. Prove all things; hold fast that which is good” (1 Thessalonians 5:19–21). The three commands run together. Prophesyings are not to be despised, they are to be proved, and the good is to be held. The instruction agrees with 1 Corinthians 14:29: prophecy is judged. The letter reports the practice in a church of the overlap. The volume reads it as written."),
+("sub", "10.4 Prophecy beside tongues"),
+("p", "Prophecy and tongues are named together in the passages that matter. At Ephesus the twelve “spake with tongues, and prophesied” (Acts 19:6). In 1 Corinthians 12:10 prophecy and tongues stand in one list, in 13:8 they stand in one sentence of three verbs, and in 14:5 Paul writes, “I would that ye all spake with tongues, but rather that ye prophesied.” The gifts are paired by Paul and by Luke. The volume reads the pairing as the ground for saying that they belong to one period. It does not say that they are the same gift. Tongues are speech to God, and prophecy is speech to men, and the chapters keep them apart."),
+("sub", "10.5 What the passages say of the end of prophecy"),
+("p", "None of the passages above says that prophecy ended. Paul’s own sentence on its end is 1 Corinthians 13:8: “whether there be prophecies, they shall fail.” The sentence says prophecy will fail and gives no date. No verse of the New Testament says that prophecy ended at Acts 28, and the volume says so plainly. The ruling that prophecy goes with the sign-program is reasoned, and the reasoning is set out in chapter 11."),
+("sub", "10.6 What belongs to Volume 4"),
+("p", "Two passages are not argued here. Ephesians 3:5 says that the mystery is “now revealed unto his holy apostles and prophets by the Spirit,” and Ephesians 4:11 lists “apostles” and “prophets” among the gifts of the ascended Christ. They concern the offices, and the foundation of the household of God in Ephesians 2:20. They belong to Volume 4, which asks whether the offices are the same as the gift of prophecy, and what became of them. This volume leaves those questions there and does not decide them."),
+("tbl", "Prophecy outside First Corinthians.", [
+    ("Acts 21:9–11", T("Acts 21:9–11"), "Daughters of Philip prophesy; Agabus speaks a word of the Holy Ghost about Paul."),
+    ("1 Timothy 1:18", T("1 Tim 1:18"), "Prophecies went before on Timothy."),
+    ("1 Timothy 4:14", T("1 Tim 4:14"), "A gift given by prophecy with the laying on of hands."),
+    ("1 Thessalonians 5:20, 21", T("1 Thess 5:20, 21"), "Prophesyings are not to be despised and are to be proved."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "What the volume takes from the passages"),
+("bul", [
+    "Prophecy is a word revealed to the speaker, in Acts 21 and in the letters, and it is proved.",
+    "Prophecy appears in the company of Paul and in the churches of the overlap.",
+    "No passage says that prophecy ended; 13:8 says it shall fail and gives no date.",
+    "The offices of apostle and prophet belong to Volume 4.",
+  ]),
+]

@@ -1,0 +1,33 @@
+from kjvlib import text as T
+C = [
+("h1", "8. First Corinthians 14:20–25: The Sign to Unbelievers"),
+("p", "Claim: the passage in which Paul names the purpose of tongues is 14:20 to 25, and its logic runs from a quotation of Israel’s law to a conclusion and to a picture of the assembly. The volume reads the six verses in order. They say that tongues are a sign, that the sign is to them that believe not, and that the people of the quotation are the people of Isaiah 28."),
+("sub", "8.1 Verse 20: the opening"),
+("p", "Paul opens with a charge: “Brethren, be not children in understanding: howbeit in malice be ye children, but in understanding be men” (1 Corinthians 14:20). The charge picks up the image of 13:11 and leads into the quotation. The Corinthians are to think as men, and the next sentence is the evidence he sets before their understanding."),
+("sub", "8.2 Verse 21: the quotation"),
+("p", "“In the law it is written, With men of other tongues and other lips will I speak unto this people; and yet for all that will they not hear me, saith the Lord” (1 Corinthians 14:21). The sentence names a speaker, the Lord, a people, “this people,” a speech in other tongues and a result: they will not hear. The volume reads Isaiah 28:11, 12 in chapter 3, and the sentence in 1 Corinthians is that passage as Paul cites it. “This people” has a referent in Isaiah, the people ruled from Jerusalem, and Paul does not supply another."),
+("sub", "8.3 Verse 22: the conclusion"),
+("p", "Paul then draws his conclusion, introduced by “Wherefore”: “Wherefore tongues are for a sign, not to them that believe, but to them that believe not: but prophesying serveth not for them that believe not, but for them which believe” (1 Corinthians 14:22). The sentence has two halves. Tongues are for a sign, and the sign is for them that believe not. Prophesying is not for them that believe not, but for them which believe. The sentence says what each gift is for, and it contrasts the audiences."),
+("p", "The conclusion follows from the quotation. A people who will not hear are the people to whom the tongue is a sign. Isaiah’s people were offered rest and “would not hear” (Isaiah 28:12), and the tongue spoken to them is the sign that the LORD’s word to them had gone beyond their own language. Paul’s “them that believe not” are the unbelieving of the people in the quotation. The volume does not say that every unbeliever in the world is meant. It says that the sentence derives from a quotation about one people, and it reads “them that believe not” with that people in view."),
+("p", "The second half of the verse says that prophesying serves believers. That half does not assign prophecy to the believing of Israel or of the Gentiles. It says what prophecy is for in the assembly: the edifying of those who believe. The volume reads it with 14:3 and 14:4, which state the same."),
+("sub", "8.4 Verses 23 to 25: the picture of the assembly"),
+("p", "Paul gives two pictures. In the first, “the whole church be come together into one place, and all speak with tongues, and there come in those that are unlearned, or unbelievers, will they not say that ye are mad?” (1 Corinthians 14:23). In the second, “if all prophesy, and there come in one that believeth not, or one unlearned, he is convinced of all, he is judged of all: And thus are the secrets of his heart made manifest; and so falling down on his face he will worship God, and report that God is in you of a truth” (1 Corinthians 14:24, 25)."),
+("p", "The two pictures fit the two halves of verse 22. The unbelievers who hear uninterpreted tongues say that the speakers are mad, which is the result Isaiah and the Lord give: they will not hear. The unbeliever who hears prophecy is convicted and worships. The pictures concern the effect of the gifts on a stranger who comes into the assembly. The volume notes that the picture of the tongue does not say the stranger is converted, and that it says what he says, which is that the speakers are mad. This agrees with the quotation."),
+("p", "The pictures raise a question about the sentence “tongues are for a sign.” If the sign is for those who believe not, and its effect in the assembly is that they call the speakers mad, then the sign is a sign of the kind Isaiah describes: a witness to a people who will not hear. The volume holds that this is Paul’s meaning and that it agrees with the audience of Isaiah 28."),
+("sub", "8.5 The unbelievers of verse 23"),
+("p", "A difficulty stands in the passage and the volume states it. In verse 23 Paul speaks of “those that are unlearned, or unbelievers” who come into the assembly, and these may include Gentiles of Corinth. If the sign of verse 22 is for Israel, why does Paul then picture a Gentile outsider hearing tongues in the assembly? The volume answers from the form of the passage. Verse 22 gives the purpose and draws it from the quotation. Verse 23 gives an effect in a particular case: the stranger who hears uninterpreted tongues says, “Ye are mad.” The result is the result of the quotation, which says that for all that they will not hear. Paul does not say that the sign was given to the stranger. He says what the stranger concludes."),
+("p", "The pictures do not change the audience of the sign. They show the sign doing what the prophet said it would do among those who do not believe: it is not heard. The prophesying picture in 14:24, 25 shows the other result, the unbeliever who is convinced and who worships. That result belongs to the gift that serves believers and that edifies, and it agrees with 14:3, 4 and 22."),
+("tbl", "First Corinthians 14:20–25 in order.", [
+    ("1 Corinthians 14:21", T("1 Cor 14:21"), "The law is quoted: the Lord speaks to this people with other tongues, and they will not hear."),
+    ("1 Corinthians 14:22", T("1 Cor 14:22"), "Tongues are a sign to them that believe not; prophesying serves them which believe."),
+    ("1 Corinthians 14:23", T("1 Cor 14:23"), "Unbelievers who hear tongues say that the speakers are mad."),
+    ("1 Corinthians 14:24, 25", T("1 Cor 14:24, 25"), "An unbeliever who hears prophecy is convinced, judged and worships."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "What the volume takes from the passages"),
+("bul", [
+    "Paul quotes Israel’s law and names the people to whom the Lord speaks in other tongues.",
+    "Tongues are for a sign to them that believe not, and prophesying serves them which believe.",
+    "The two pictures of the assembly show the effect Isaiah gives: the unbelievers hear tongues and do not hear.",
+    "The purpose of tongues is stated by Paul in 14:22, and the passage does not give another.",
+  ]),
+]

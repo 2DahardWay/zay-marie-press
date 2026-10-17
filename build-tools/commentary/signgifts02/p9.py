@@ -1,0 +1,31 @@
+from kjvlib import text as T
+C = [
+("h1", "9. First Corinthians 14:26–40: The Rules for Tongues and Prophecy in the Assembly"),
+("p", "Claim: the last part of the fourteenth chapter gives rules for the use of tongues and prophecy when the church comes together, and the rules confirm the account of the gifts given in the earlier verses. The order of the assembly, the place of women in it and the other matters of these verses belong to Pauline Doctrine Series Volume 4. This chapter reads only what the verses say of tongues and prophecy."),
+("sub", "9.1 Tongues in the assembly, 14:26–28"),
+("p", "Paul asks, “How is it then, brethren? when ye come together, every one of you hath a psalm, hath a doctrine, hath a tongue, hath a revelation, hath an interpretation. Let all things be done unto edifying” (1 Corinthians 14:26). The rule for tongues follows: “If any man speak in an unknown tongue, let it be by two, or at the most by three, and that by course; and let one interpret” (1 Corinthians 14:27). “But if there be no interpreter, let him keep silence in the church; and let him speak to himself, and to God” (1 Corinthians 14:28)."),
+("p", "The rule has four parts: two or three speakers, in turn, with one to interpret, and silence in the church where there is no interpreter. The instruction “let him speak to himself, and to God” is addressed to a man with a tongue and no interpreter present. It repeats what 14:2 says of the tongue: it is spoken to God. The volume reads verse 28 with verse 2 and with the whole passage on understanding."),
+("sub", "9.2 Prophecy in the assembly, 14:29–33"),
+("p", "The rule for prophets: “Let the prophets speak two or three, and let the other judge” (1 Corinthians 14:29). “If any thing be revealed to another that sitteth by, let the first hold his peace” (1 Corinthians 14:30). “For ye may all prophesy one by one, that all may learn, and all may be comforted” (1 Corinthians 14:31). “And the spirits of the prophets are subject to the prophets” (1 Corinthians 14:32). “For God is not the author of confusion, but of peace, as in all churches of the saints” (1 Corinthians 14:33)."),
+("p", "The verses show what prophecy is in these chapters. It is spoken by members, two or three at a time. Its content is something “revealed” to the speaker, and the word is the one the volume noted in chapter 2. It is judged by others, which means it is not received without test, and the prophets can govern it. The purpose is that all may learn and be comforted. The rule that another may be given a revelation while the first is speaking shows that the word is received in the moment, and not recalled from a store."),
+("sub", "9.3 The close, 14:37–40"),
+("p", "Paul closes with a challenge: “If any man think himself to be a prophet, or spiritual, let him acknowledge that the things that I write unto you are the commandments of the Lord” (1 Corinthians 14:37). Then the last instruction on the gifts: “Wherefore, brethren, covet to prophesy, and forbid not to speak with tongues” (1 Corinthians 14:39). “Let all things be done decently and in order” (1 Corinthians 14:40)."),
+("p", "Two sentences bear on the volume’s ruling. The first is verse 37: a man who thinks himself a prophet must acknowledge Paul’s writing as the commandments of the Lord. The prophet at Corinth is placed under Paul’s letter. The second is verse 39. Paul forbids the forbidding of tongues, and he does so to a church in the years Acts records, when the gift was operating among them. The volume reads the command as it is written: it was given to the Corinthians in that setting. It is not a rule about the gifts in every period, and the volume does not read it as one."),
+("sub", "9.4 What the rules show about the gift"),
+("p", "The rules assume a gift under the speaker’s control. A man with a tongue can keep silence when there is no interpreter (14:28). The prophets can speak in turn, and “the spirits of the prophets are subject to the prophets” (1 Corinthians 14:32). A speaker with a revelation can wait for another to finish (14:30). Paul’s ground for all of it is stated: “God is not the author of confusion, but of peace, as in all churches of the saints” (1 Corinthians 14:33). The rules fit a gift of language and speech that has meaning for a hearer who has the language or the interpreter, and they do not fit a gift that overpowers the speaker."),
+("p", "This agrees with the account the volume gave of the words. A tongue is a language with signification (14:10), it is interpreted (14:13, 27), and it is ordered by a rule of turns. Prophecy is a revealed word that is judged (14:29), and its speakers can be silent. The passage does not describe a gift of uncontrolled speech, and the volume reads the rules as the evidence of that."),
+("tbl", "First Corinthians 14:26–40, the verses on tongues and prophecy.", [
+    ("1 Corinthians 14:27, 28", T("1 Cor 14:27, 28"), "Two or three, by course, with an interpreter, or silence."),
+    ("1 Corinthians 14:29–31", T("1 Cor 14:29–31"), "Prophets speak two or three, another judges, a revelation may interrupt."),
+    ("1 Corinthians 14:37", T("1 Cor 14:37"), "A prophet is placed under Paul’s writing."),
+    ("1 Corinthians 14:39", T("1 Cor 14:39"), "Covet to prophesy; forbid not to speak with tongues."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "What the volume takes from the passages"),
+("bul", [
+    "Tongues in the assembly are limited to two or three, in turn, with an interpreter, and the speaker without an interpreter is silent in the church.",
+    "Prophecy is a word revealed in the moment, judged by others and governed by the prophets.",
+    "A prophet is placed under Paul’s writing as the commandments of the Lord.",
+    "The command to forbid not tongues was given to Corinth in the overlap and is read in that setting.",
+    "The order of the assembly belongs to Pauline Doctrine Series Volume 4 and is not repeated here.",
+  ]),
+]

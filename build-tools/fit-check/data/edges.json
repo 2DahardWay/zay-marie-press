@@ -6133,6 +6133,13 @@
  },
  {
   "from": "V-pauline-4",
+  "to_slug": "commentary-sign-gifts-02-tongues-and-prophecy.html",
+  "list": "Commentary Series",
+  "note": "Argues what tongues and prophecy are and whether they continue; this volume argues the order of the assembly.",
+  "to": "V-sign-gifts-2"
+ },
+ {
+  "from": "V-pauline-4",
   "to_slug": "packet-1-corinthians.html",
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of 1 Corinthians through its key passages.",
@@ -6849,8 +6856,71 @@
   "from": "V-sign-gifts-1",
   "to_slug": "commentary-gospel-02-the-lords-ministry-to-israel.html",
   "list": "Commentary Series",
-  "note": "Argues the Lord’s ministry to Israel; this volume reads His signs only for whom they were given to and what they were set to prove.",
+  "note": "Argues the Lord’s ministry to Israel; this volume reads His signs only for whom they were given and what they were set to prove.",
   "to": "V-gospel-2"
+ },
+ {
+  "from": "V-sign-gifts-2",
+  "to_slug": "study-81-praying-in-the-spirit.html",
+  "list": "Digital Studies",
+  "note": "Reports what the passages say of praying in the Spirit and speaking in tongues without taking a position; this volume argues what the tongues are and whether they continue.",
+  "to": "S81"
+ },
+ {
+  "from": "V-sign-gifts-2",
+  "to_slug": "study-25-the-signs-that-followed.html",
+  "list": "Digital Studies",
+  "note": "Reports what Mark 16 says of signs and its textual question; this volume does not treat Mark 16.",
+  "to": "S25"
+ },
+ {
+  "from": "V-sign-gifts-2",
+  "to_slug": "study-38-why-acts-is-not-a-universal-experience-manual.html",
+  "list": "Digital Studies",
+  "note": "Reads Acts as inspired history that is not a command for every believer; this volume reads the three instances of tongues in Acts beside 1 Corinthians 14.",
+  "to": "S38"
+ },
+ {
+  "from": "V-sign-gifts-2",
+  "to_slug": "packet-1-corinthians.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of 1 Corinthians through its key passages.",
+  "to": "C-1Cor"
+ },
+ {
+  "from": "V-sign-gifts-2",
+  "to_slug": "packet-isaiah.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Isaiah through its key passages.",
+  "to": "C-Isa"
+ },
+ {
+  "from": "V-sign-gifts-2",
+  "to_slug": "packet-acts.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Acts through its key passages.",
+  "to": "C-Acts"
+ },
+ {
+  "from": "V-sign-gifts-2",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "Argues what signs were for, to whom they were given and that the record of signs ends in Acts 28; this volume argues the nature of tongues and prophecy and rests on that ending.",
+  "to": "V-sign-gifts-1"
+ },
+ {
+  "from": "V-sign-gifts-2",
+  "to_slug": "commentary-pauline-04-the-assembly-in-order.html",
+  "list": "Commentary Series",
+  "note": "Argues the order of the assembly in 1 Corinthians 11 to 14; this volume cites the rules of 14:26–40 for what they show about the gift.",
+  "to": "V-pauline-4"
+ },
+ {
+  "from": "V-sign-gifts-2",
+  "to_slug": "commentary-acts-02-the-spirit-in-acts.html",
+  "list": "Commentary Series",
+  "note": "Argues the Spirit scenes in Acts from Pentecost to Ephesus; this volume reads the three instances of tongues beside 1 Corinthians 14.",
+  "to": "V-acts-2"
  },
  {
   "from": "V-typology-1",

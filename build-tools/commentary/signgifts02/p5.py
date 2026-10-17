@@ -1,0 +1,32 @@
+from kjvlib import text as T
+C = [
+("h1", "5. First Corinthians 12: The Gifts, the Giver and the Body"),
+("p", "Claim: the twelfth chapter names tongues and prophecy as two gifts among many, given by one Spirit for the profit of the whole, and it ranks them last and next to last in two lists. The chapter says what the gifts are, who gives them and what the gift is for. It does not say how long they last, and the volume does not read that into it."),
+("sub", "5.1 The test and the giver"),
+("p", "Paul begins with a test of speech by the Spirit. “Wherefore I give you to understand, that no man speaking by the Spirit of God calleth Jesus accursed: and that no man can say that Jesus is the Lord, but by the Holy Ghost” (1 Corinthians 12:3). The test belongs to a church that had come from idols, and it marks the difference between speech by the Spirit of God and the voices of the idols they knew. The giver is stated in the verses that follow: “Now there are diversities of gifts, but the same Spirit” (1 Corinthians 12:4), and the gifts are given “to every man to profit withal” (1 Corinthians 12:7)."),
+("sub", "5.2 The first list, 12:8–10"),
+("p", "The first list runs: “For to one is given by the Spirit the word of wisdom; to another the word of knowledge by the same Spirit; To another faith by the same Spirit; to another the gifts of healing by the same Spirit; To another the working of miracles; to another prophecy; to another discerning of spirits; to another divers kinds of tongues; to another the interpretation of tongues” (1 Corinthians 12:8–10). The list names nine gifts. Prophecy stands in the sixth place, “divers kinds of tongues” in the eighth, and the interpretation of tongues in the ninth. The list closes on the pair that the fourteenth chapter takes up."),
+("p", "Paul adds that “all these worketh that one and the selfsame Spirit, dividing to every man severally as he will” (1 Corinthians 12:11). The gifts are not claimed. They are divided as the Spirit wills, and the sentence rules out a claim that every member has every gift."),
+("sub", "5.3 The second list, 12:28–30"),
+("p", "The second list is given in the setting of the body and has an order. “And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues” (1 Corinthians 12:28). Apostles, prophets and teachers come first, and miracles, healings, helps, governments and tongues follow. Tongues stand last in the list."),
+("p", "The list closes on a run of questions: “Are all apostles? are all prophets? are all teachers? are all workers of miracles? Have all the gifts of healing? do all speak with tongues? do all interpret?” (1 Corinthians 12:29, 30). The form of each question expects the answer no. It is the form that the KJV’s “are all” and “do all” carry. The volume reads the questions as Paul’s statement that no gift is possessed by all, and it holds that the statement is addressed to the Corinthians as members of one body."),
+("sub", "5.4 One body"),
+("p", "The comparison to the body governs the chapter. “For by one Spirit are we all baptized into one body, whether we be Jews or Gentiles, whether we be bond or free; and have been all made to drink into one Spirit” (1 Corinthians 12:13). “Now ye are the body of Christ, and members in particular” (1 Corinthians 12:27). The chapter sets the Corinthians in the one body of Christ, and it sets the gifts inside that body. This is the setting in which Paul places gifts that chapter 14 calls a sign to them that believe not, on the authority of a quotation addressed to Israel. The volume reads that pairing as the mark of the overlap: the Body is formed, and the gifts that belonged to the sign-program still operate inside the churches Paul addresses."),
+("p", "The point is read, not assumed. Paul speaks in this chapter of the gifts as he finds them at Corinth in the years recorded by Acts. He does not say that the same list of gifts is given to the Body for all its history, and he does not say that it is not. Chapter 12 states the giver, the purpose and the order, and it leaves the question of duration to the chapter that follows."),
+("sub", "5.5 A Gentile church and a Jewish sign"),
+("p", "The readers had been Gentiles, and Paul reminds them of it in 12:2. The letter also tells them, near its opening, that they are “enriched by him, in all utterance, and in all knowledge” and that they “come behind in no gift; waiting for the coming of our Lord Jesus Christ” (1 Corinthians 1:5, 7). The Corinthians were richly gifted, and the gifts included tongues. That a church of Gentiles had these gifts, in the years Acts records, is the setting in which Paul writes. The volume reads the chapters in that setting: Gentiles in the church at Corinth with the gifts of the overlap, and a sign that Paul says is for those who believe not, on the authority of the law. The pairing is no contradiction. The gift is among them, and what it is for is given in the law."),
+("tbl", "First Corinthians 12 in order.", [
+    ("1 Corinthians 12:3", T("1 Cor 12:3"), "The test of speech by the Spirit of God, set for a church that had come from idols."),
+    ("1 Corinthians 12:10", T("1 Cor 12:10"), "Prophecy stands sixth, tongues eighth and their interpretation ninth."),
+    ("1 Corinthians 12:11", T("1 Cor 12:11"), "One Spirit divides the gifts as he will."),
+    ("1 Corinthians 12:28", T("1 Cor 12:28"), "God sets the gifts in order; tongues stand last."),
+    ("1 Corinthians 12:30", T("1 Cor 12:30"), "The questions expect the answer no."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "What the volume takes from the passages"),
+("bul", [
+    "Tongues and prophecy are two gifts among many, given by one Spirit as he wills, for the profit of the whole.",
+    "Prophecy stands sixth in the first list, prophets stand second in the second list, and tongues stand eighth in the first and last in the second.",
+    "No gift is possessed by all, and the questions of 12:29, 30 expect the answer no.",
+    "Chapter 12 sets the gifts inside the one body and says nothing of their duration.",
+  ]),
+]

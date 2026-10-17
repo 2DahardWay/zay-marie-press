@@ -1,6 +1,6 @@
-# Fit Check Map v1.12
+# Fit Check Map v1.13
 
-Version 1.12. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
+Version 1.13. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
 ## 1. How to use it
 
 1. Name the passage(s) and the one narrower question. 2. Run `python3 -I build-tools/fit-check/fitcheck.py "<passage>"` and read Sections 5 and 6 below. 3. Read the neighbours' own question in Section 4 (and the PDF when the grade is argued). 4. State the verdict: clear, fit by mode, fit by narrower question, overlap (needs a different question), or duplicate. 5. Check the series arc (Section 3) if a volume is proposed.
@@ -17,7 +17,7 @@ Depth grades come from counts in the publisher's PDFs (argued = named 4+ times, 
 | Bible Book Companion | 66 | PDF |
 | Bible Book Summary (free) | 66 | page |
 | Reader Question | 60 | page |
-| Commentary Volume | 45 | PDF |
+| Commentary Volume | 46 | PDF |
 | Parable Study | 35 | Word file |
 | Free Resource (library) | 21 | library entry |
 | Free Resource | 8 | page |
@@ -123,13 +123,14 @@ Depth grades come from counts in the publisher's PDFs (argued = named 4+ times, 
 - Vol 3: The Nations Judged — 60 pp
 - Vol 4: Elijah Must First Come — 55 pp
 
-**The Sign Gifts Series** (1 volume)
+**The Sign Gifts Series** (2 volumes)
 
-*Arc:* What signs were for, to whom they were given and where the record ends, one narrow question per volume: the sign gifts (Vol 1; built); tongues and prophecy (Vol 2), healing in the Body (Vol 3) and apostles and prophets (Vol 4) are planned.
+*Arc:* What signs were for, to whom they were given and where the record ends, one narrow question per volume: the sign gifts (Vol 1; built), tongues and prophecy (Vol 2; built), healing in the Body (Vol 3) and apostles and prophets (Vol 4) are planned.
 
-*Neighbours (from the series Standard and the Prefaces):* Vol 1 shares passages with Study 25 (Mark 16:17–20), Study 38 and Acts Commentary Vol 2 (the Spirit scenes) and Vol 5 (Acts 28); 2 Corinthians 12:12 and Acts 28 are crowded chapters; Study 81 and Readers Question Vol 5 are neighbours, Hebrews 2:3–4 and the Exodus 4 signs are left to the companions.
+*Neighbours (from the series Standard and the Prefaces):* Vol 1 shares passages with Study 25 (Mark 16:17–20), Study 38 and Acts Commentary Vol 2 (the Spirit scenes) and Vol 5 (Acts 28); 2 Corinthians 12:12 and Acts 28 are crowded chapters; Study 81 and Readers Question Vol 5 are neighbours, Hebrews 2:3–4 and the Exodus 4 signs are left to the companions. Vol 2 shares 1 Corinthians 12–14 with Pauline Vol 4 (the assembly) and Study 81 (praying in the Spirit), Acts 2, 10 and 19 with Acts Vol 2, Study 38 and Study 34, and Acts 28 with Acts Vol 5 and Sign Gifts Vol 1; it reads Isaiah 28:7–14 and 1 Corinthians 13 and 14:21–22 where no other product argues them.
 
 - Vol 1: The Sign Gifts — 55 pp
+- Vol 2: Tongues and Prophecy — 55 pp
 
 **Typology Commentary** (5 volumes)
 
@@ -180,15 +181,15 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-prophecy-mystery-1 | Israel & the Body | 37 |
 | V-prophecy-mystery-2 | The Mystery Program | 35 |
 | V-prophecy-mystery-3 | The Kingdom Program | 26 |
-| V-covenantal-4 | The Eternal Purpose of God | 25 |
 | V-acts-5 | Acts 28 | 25 |
 | V-sign-gifts-1 | The Sign Gifts | 25 |
+| V-covenantal-4 | The Eternal Purpose of God | 25 |
 | V-identity-5 | The Eschatological Community | 22 |
 | V-identity-4 | The Olive Tree | 20 |
 | S38 | Why Acts Is Not a Universal Experience Manual | 19 |
 | V-acts-3 | Paul Called and Sent | 18 |
 | V-identity-3 | The New Covenant | 18 |
-| V-identity-2 | The Remnant | 17 |
+| V-prophecy-mystery-4 | The Resurrection Order in Scripture | 17 |
 
 ## 4. Register (every item, one line)
 
@@ -344,7 +345,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-pauline-1 | Commentary Volume | Adam and Christ | 59 | 7 |
 | V-pauline-2 | Commentary Volume | The Cross in Paul’s Letters | 56 | 8 |
 | V-pauline-3 | Commentary Volume | The Person of Christ in Paul | 50 | 9 |
-| V-pauline-4 | Commentary Volume | The Assembly in Order | 56 | 8 |
+| V-pauline-4 | Commentary Volume | The Assembly in Order | 56 | 9 |
 | V-pauline-5 | Commentary Volume | Liberty, Conscience and the Walk | 59 | 9 |
 | V-prophecy-mystery-1 | Commentary Volume | Israel & the Body | 52 | 9 |
 | V-prophecy-mystery-2 | Commentary Volume | The Mystery Program | 50 | 9 |
@@ -356,6 +357,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-prophets-3 | Commentary Volume | The Nations Judged | 60 | 9 |
 | V-prophets-4 | Commentary Volume | Elijah Must First Come | 55 | 8 |
 | V-sign-gifts-1 | Commentary Volume | The Sign Gifts | 55 | 9 |
+| V-sign-gifts-2 | Commentary Volume | Tongues and Prophecy | 55 | 9 |
 | V-typology-1 | Commentary Volume | Tabernacle & Temple Typology | 50 | 8 |
 | V-typology-2 | Commentary Volume | Prophetic Separation | 50 | 11 |
 | V-typology-3 | Commentary Volume | Priesthood Typology: Aaron, Melchizedek & Christ | 52 | 8 |
@@ -560,16 +562,16 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 
 | Chapter | Items arguing it | Who |
 |---|---|---|
-| Acts 28 | 33 | S01, S02, S03, S04, S05, S06, S09, S10, S11, S12, S13, S14, S17, S18, S20, S21, S22, S31, S32, S34, S35, S36, S41, S50, S58, V-acts-3, V-acts-5, V-identity-2, V-identity-3, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-sign-gifts-1 |
-| Acts 9 | 32 | S01, S02, S03, S04, S05, S06, S09, S10, S11, S13, S14, S17, S18, S19, S20, S21, S22, S25, S27, S32, S34, S38, S42, S58, S60, V-acts-2, V-acts-3, V-acts-5, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-4, V-sign-gifts-1 |
+| Acts 28 | 34 | S01, S02, S03, S04, S05, S06, S09, S10, S11, S12, S13, S14, S17, S18, S20, S21, S22, S31, S32, S34, S35, S36, S41, S50, S58, V-acts-3, V-acts-5, V-identity-2, V-identity-3, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-sign-gifts-1, V-sign-gifts-2 |
+| Acts 9 | 33 | S01, S02, S03, S04, S05, S06, S09, S10, S11, S13, S14, S17, S18, S19, S20, S21, S22, S25, S27, S32, S34, S38, S42, S58, S60, V-acts-2, V-acts-3, V-acts-5, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-4, V-sign-gifts-1, V-sign-gifts-2 |
 | Ephesians 1 | 30 | S01, S04, S05, S06, S30, S34, S38, S46, S50, S52, S53, S56, S57, S58, S60, S69, S77, S80, V-acts-2, V-covenantal-3, V-covenantal-4, V-covenantal-5, V-gospel-5, V-identity-1, V-identity-3, V-identity-4, V-identity-5, V-pauline-2, V-prophecy-mystery-1, V-typology-4 |
 | Ephesians 2 | 28 | S05, S06, S13, S30, S50, S55, S62, S69, V-covenantal-1, V-covenantal-2, V-covenantal-3, V-covenantal-4, V-covenantal-5, V-gospel-1, V-gospel-3, V-identity-1, V-identity-2, V-identity-3, V-identity-4, V-identity-5, V-pauline-2, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-prophecy-mystery-4, V-typology-3, V-typology-4, V-typology-5 |
 | Colossians 1 | 24 | S05, S06, S41, S45, S53, S55, S56, S58, S69, S84, V-acts-3, V-covenantal-3, V-covenantal-4, V-gospel-5, V-identity-1, V-identity-3, V-identity-4, V-identity-5, V-pauline-2, V-pauline-3, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-prophecy-mystery-4 |
 | Matthew 24 | 23 | P10, P20, P31, P32, P33, S02, S03, S10, S29, S62, S66, S74, V-gospel-2, V-gospel-3, V-gospel-5, V-identity-2, V-prophecy-mystery-3, V-prophecy-mystery-4, V-prophetic-1, V-prophetic-2, V-prophetic-4, V-prophetic-5, V-typology-2 |
 | Ephesians 3 | 23 | S06, S30, S57, S58, S60, S76, V-acts-1, V-acts-2, V-acts-3, V-acts-5, V-covenantal-1, V-covenantal-2, V-covenantal-3, V-covenantal-4, V-gospel-2, V-gospel-3, V-gospel-4, V-gospel-5, V-identity-2, V-prophecy-mystery-1, V-prophecy-mystery-2, V-typology-1, V-typology-3 |
 | Matthew 4 | 22 | P00, P02, P11, P12, P15, P17, P18, P20, P25, P26, P31, P32, P33, S02, S41, S62, V-gospel-1, V-gospel-2, V-gospel-3, V-gospel-4, V-prophecy-mystery-1, V-prophecy-mystery-3 |
+| Acts 2 | 21 | S11, S20, S27, S34, S38, S65, S71, S72, S79, S80, S81, S87, V-acts-1, V-acts-2, V-covenantal-5, V-identity-3, V-prophecy-mystery-1, V-prophecy-mystery-2, V-sign-gifts-1, V-sign-gifts-2, V-typology-5 |
 | Romans 11 | 21 | S06, S09, S12, S13, S21, S35, S43, S50, S53, V-acts-3, V-acts-5, V-covenantal-2, V-covenantal-4, V-identity-2, V-identity-3, V-identity-4, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-typology-4, V-typology-5 |
-| Acts 2 | 20 | S11, S20, S27, S34, S38, S65, S71, S72, S79, S80, S81, S87, V-acts-1, V-acts-2, V-covenantal-5, V-identity-3, V-prophecy-mystery-1, V-prophecy-mystery-2, V-sign-gifts-1, V-typology-5 |
 | Romans 8 | 18 | S22, S44, S46, S50, S52, S53, S56, S80, S81, S84, V-acts-2, V-covenantal-3, V-covenantal-4, V-identity-4, V-pauline-2, V-pauline-3, V-prophecy-mystery-4, V-prophecy-mystery-5 |
 | Galatians 2 | 16 | S15, S16, S18, S35, S36, S43, S51, S54, S58, S65, S66, V-acts-3, V-acts-4, V-pauline-2, V-prophecy-mystery-1, V-prophecy-mystery-2 |
 | Galatians 3 | 16 | S35, S36, S40, S48, S53, S54, S56, V-covenantal-1, V-covenantal-2, V-covenantal-3, V-covenantal-4, V-identity-2, V-pauline-2, V-pauline-4, V-prophecy-mystery-1, V-sign-gifts-1 |
@@ -584,6 +586,7 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 | Ephesians 5 | 12 | S01, S08, S34, S42, S45, S48, S64, V-gospel-1, V-identity-1, V-pauline-2, V-prophecy-mystery-2, V-prophecy-mystery-3 |
 | Genesis 15 | 11 | S15, S17, S39, S40, S54, S56, S75, V-covenantal-1, V-covenantal-2, V-covenantal-3, V-identity-3 |
 | Luke 4 | 11 | P12, P14, P16, P17, P19, P20, P24, P25, P26, P34, V-prophets-4 |
+| 1 Corinthians 12 | 11 | S11, S38, S42, S70, S81, V-acts-2, V-identity-4, V-pauline-4, V-prophecy-mystery-1, V-sign-gifts-1, V-sign-gifts-2 |
 | Colossians 3 | 11 | S05, S08, S16, S48, S69, V-covenantal-4, V-gospel-1, V-identity-4, V-identity-5, V-prophecy-mystery-4, V-typology-5 |
 | 2 Thessalonians 2 | 11 | S03, S07, S08, S45, S50, S74, V-prophetic-1, V-prophetic-2, V-prophetic-4, V-prophetic-5, V-typology-1 |
 | Revelation 21 | 11 | S01, S64, S68, S69, V-covenantal-3, V-covenantal-4, V-identity-1, V-identity-3, V-identity-5, V-prophecy-mystery-3, V-typology-1 |
@@ -592,7 +595,6 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 | Matthew 19 | 10 | S41, V-acts-1, V-covenantal-5, V-gospel-4, V-gospel-5, V-identity-5, V-prophecy-mystery-1, V-prophecy-mystery-3, V-prophecy-mystery-5, V-typology-5 |
 | Romans 3 | 10 | S15, S35, S43, S53, S54, S85, V-identity-4, V-pauline-1, V-pauline-2, V-typology-1 |
 | Romans 4 | 10 | S15, S40, S43, S51, S54, V-covenantal-1, V-covenantal-2, V-covenantal-3, V-pauline-1, V-pauline-2 |
-| 1 Corinthians 12 | 10 | S11, S38, S42, S70, S81, V-acts-2, V-identity-4, V-pauline-4, V-prophecy-mystery-1, V-sign-gifts-1 |
 | 1 Corinthians 15 | 10 | S08, S43, S49, S69, V-covenantal-4, V-pauline-1, V-pauline-2, V-prophecy-mystery-2, V-prophecy-mystery-3, V-prophecy-mystery-4 |
 | Galatians 4 | 10 | S40, S52, S53, S56, S62, S69, S78, V-covenantal-2, V-identity-5, V-pauline-3 |
 | Hebrews 8 | 10 | S67, V-covenantal-1, V-covenantal-3, V-covenantal-5, V-identity-1, V-identity-3, V-prophecy-mystery-1, V-typology-1, V-typology-3, V-typology-4 |
@@ -602,13 +604,13 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 | Zechariah 14 | 9 | S27, V-covenantal-5, V-identity-2, V-identity-4, V-prophecy-mystery-1, V-prophecy-mystery-3, V-prophetic-5, V-typology-2, V-typology-5 |
 | Acts 8 | 9 | S34, S60, S80, S86, V-acts-1, V-acts-2, V-acts-3, V-prophecy-mystery-3, V-sign-gifts-1 |
 | Acts 15 | 9 | S19, S38, S51, S58, S59, S60, V-acts-4, V-covenantal-5, V-prophecy-mystery-1 |
+| Acts 19 | 9 | S34, S38, S41, S42, S81, V-acts-2, V-acts-5, V-sign-gifts-1, V-sign-gifts-2 |
 | Galatians 1 | 9 | S43, S60, S66, V-acts-3, V-covenantal-4, V-gospel-4, V-pauline-2, V-prophecy-mystery-1, V-prophecy-mystery-2 |
 | Ephesians 6 | 9 | S05, S22, S48, S76, S77, S81, V-acts-5, V-covenantal-4, V-prophecy-mystery-2 |
 | Revelation 19 | 9 | S01, S64, V-identity-1, V-identity-5, V-prophecy-mystery-5, V-prophetic-1, V-prophetic-2, V-prophetic-3, V-prophetic-5 |
 | Isaiah 2 | 8 | S87, V-covenantal-1, V-covenantal-4, V-prophecy-mystery-1, V-prophecy-mystery-2, V-prophecy-mystery-3, V-prophetic-5, V-prophets-3 |
 | Acts 7 | 8 | S34, S60, V-acts-1, V-acts-2, V-acts-3, V-covenantal-1, V-covenantal-3, V-typology-1 |
 | Acts 13 | 8 | S34, S44, V-acts-3, V-acts-5, V-covenantal-5, V-gospel-2, V-prophecy-mystery-1, V-prophecy-mystery-2 |
-| Acts 19 | 8 | S34, S38, S41, S42, S81, V-acts-2, V-acts-5, V-sign-gifts-1 |
 | Acts 20 | 8 | S43, S72, S78, V-acts-5, V-gospel-3, V-pauline-4, V-prophecy-mystery-1, V-prophecy-mystery-2 |
 | Romans 16 | 8 | S04, S06, S43, V-covenantal-4, V-identity-4, V-pauline-4, V-prophecy-mystery-1, V-prophecy-mystery-2 |
 | Galatians 6 | 8 | S35, S37, S51, V-covenantal-2, V-identity-2, V-pauline-2, V-pauline-4, V-prophecy-mystery-1 |
@@ -621,7 +623,7 @@ Caution: the series keeps returning to a few anchor chapters (Acts 9, Acts 28, E
 | Ezekiel 37 | 7 | S49, V-covenantal-1, V-covenantal-3, V-covenantal-5, V-identity-3, V-identity-5, V-prophecy-mystery-4 |
 | Daniel 9 | 7 | S03, S10, V-gospel-3, V-prophetic-1, V-prophetic-3, V-prophetic-4, V-typology-1 |
 
-155 chapters in all; top 60 shown.
+156 chapters in all; top 60 shown.
 
 ## 6. Gaps (chapters no study, volume or parable argues, reports or lists as key)
 
@@ -652,7 +654,7 @@ Companions, summaries and reader questions are not counted, because they read a 
 | Ecclesiastes | 1–8, 10–12 | 12 |
 | Song of Solomon | 1–8 | 8 |
 | Isaiah | 3, 12, 18, 24, 30–31, 33, 36, 39, 64 | 66 |
-| Jeremiah | 5, 8, 10, 12–15, 19–21, 24, 27, 35, 37–41, 43–45, 52 | 52 |
+| Jeremiah | 8, 10, 12–15, 19–21, 24, 27, 35, 37–41, 43–45, 52 | 52 |
 | Lamentations | 1, 3–5 | 5 |
 | Ezekiel | 1–3, 5, 7–8, 15, 17, 19, 22, 31, 35, 41–42 | 48 |
 | Daniel | 1, 6 | 12 |
@@ -673,14 +675,14 @@ Companions, summaries and reader questions are not counted, because they read a 
 
 ## 7. Relationships
 
-1320 Related Reading links were read from the website pages (1320 resolve to a mapped item). Links are cross-references; they say a neighbour exists, not what the neighbour argues. The per-item neighbour notes are in `build-tools/fit-check/data/edges.json`.
+1330 Related Reading links were read from the website pages (1330 resolve to a mapped item). Links are cross-references; they say a neighbour exists, not what the neighbour argues. The per-item neighbour notes are in `build-tools/fit-check/data/edges.json`.
 
 Related Reading links by product family (rows link to columns):
 
 | From \ To | Study | Volume | Parable | Companion | Reader Q | Summary | Other |
 |---|---|---|---|---|---|---|---|
 | Study | 267 | 155 | 23 | 30 | 0 | 0 | 0 |
-| Volume | 134 | 109 | 10 | 102 | 0 | 0 | 0 |
+| Volume | 137 | 113 | 10 | 105 | 0 | 0 | 0 |
 | Parable | 24 | 10 | 105 | 51 | 0 | 0 | 0 |
 | Companion | 139 | 64 | 3 | 44 | 0 | 0 | 0 |
 | Reader Q | 18 | 13 | 2 | 17 | 0 | 0 | 0 |
@@ -699,11 +701,10 @@ Related Reading links by product family (rows link to columns):
 
 **The Prophets Series** (ninth commentary series, registered 2026-10-15 in Master Standard v1.159; Standard `Prophets_Series_Standard_v1.11.md`). Volumes 1, 2, 3 and 4, How the Prophets Spoke (51 pages with the cover), What the Prophets Condemned (57 pages), The Nations Judged (60 pages) and Elijah Must First Come (55 pages), are built and in the map above. No planned items remain in the series. Passage lists and neighbour notes are in the Standard.
 
-**The Sign Gifts Series** (tenth commentary series, registered 2026-10-17 in Master Standard v1.168; Standard `Sign_Gifts_Series_Standard_v1.3.md`). Volume 1, The Sign Gifts (55 pages with the cover; subtitle The Purpose of Signs, Their Audience, and Their Programmatic End at Acts 28), is built and in the map above. Volumes 2 to 4 are planned, Mode 2, Volume 4 conditional on a 50-page outline test. Planned, with no PDFs to grade:
+**The Sign Gifts Series** (tenth commentary series, registered 2026-10-17 in Master Standard v1.168; Standard `Sign_Gifts_Series_Standard_v1.5.md`). Volume 1, The Sign Gifts (55 pages with the cover; subtitle The Purpose of Signs, Their Audience, and Their Programmatic End at Acts 28), and Volume 2, Tongues and Prophecy (55 pages with the cover; subtitle Whether Tongues and Prophecy Continue in the Body), are built and in the map above. Volumes 3 and 4 are planned, Mode 2, Volume 4 conditional on a 50-page outline test. Planned, with no PDFs to grade:
 
 | Vol | Planned title | Narrower question | Passages (planned) | Verdict | Main neighbours |
 |---|---|---|---|---|---|
-| 2 | Tongues and Prophecy | Whether tongues and prophecy continue in the Body | 1 Corinthians 12–14 (13:8–10 reported as written; 14:21–22 argued); Acts 2, 10, 19; Ephesians 3:5; 1 Thessalonians 5:20 | Fit by mode | Studies 25, 38, 81; Acts Vol 2; Pauline Vol 4 |
 | 3 | Healing in the Body | Whether healing is a gift in the Body today | 1 Corinthians 12:9, 28; James 5:14–16; 2 Corinthians 12; Philippians 2:25–27; 1 Timothy 5:23; 2 Timothy 4:20; Isaiah 53:4–5 with Matthew 8:17 and 1 Peter 2:24 | Clear | Pauline Vol 4 (1 Corinthians 12:9, 28); Study 81 |
 | 4 | Apostles and Prophets | Whether the apostolic and prophetic offices continue | Acts 1:21–26; 1 Corinthians 9:1, 15:8; Romans 16:7; Ephesians 2:20, 3:5, 4:11–13; Revelation 21:14 | Fit by narrower question; conditional | Pauline Vol 4 (Ephesians 4:12); Acts Vol 1 and 5 |
 
@@ -724,6 +725,7 @@ Related Reading links by product family (rows link to columns):
 | 1.10 | 2026-10-17 | Adds Section 8b entry for the planned Sign Gifts Series (four volumes, Volume 4 conditional) with each volume's narrower question, planned passages, verdict and neighbours, ahead of any PDF. No grades changed. |
 | 1.11 | 2026-10-17 | Sign Gifts Series Volume 1 retitled The Sign Gifts (was The Sign Program) with the subtitle and four rulings recorded; verdict stays fit by mode and by narrower question after the closer check of Studies 25, 38 and 81, Acts Volumes 2 and 5, Pauline Volume 4 and Prophecy & Mystery Volume 3. No grades changed. |
 | 1.12 | 2026-10-17 | Adds The Sign Gifts Series Volume 1, The Sign Gifts (55 pages with the cover; subtitle The Purpose of Signs, Their Audience, and Their Programmatic End at Acts 28; $14.99), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists Volumes 2–4 only. Related Reading links added both ways with Studies 25 and 38, Acts Commentary Vol 2 and 5, Gospel Commentary Vol 2 and the Exodus and John companions. The Parable Study Template page is now in the harvest list, so a re-harvest keeps it. Rows 1.10 and 1.11 now sit in this table (they had been appended at the end of the Appendix). |
+| 1.13 | 2026-10-17 | Adds The Sign Gifts Series Volume 2, Tongues and Prophecy (55 pages with the cover; subtitle Whether Tongues and Prophecy Continue in the Body; $14.99), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists Volumes 3 and 4 only. Related Reading links added both ways with Pauline Doctrine Series Volume 4; Studies 81, 25 and 38, Acts Commentary Volume 2 and the 1 Corinthians and Isaiah companions already carry three links in their lists, so the volume page links to them and no link back was added. |
 
 ## Appendix. Digital Studies Relationship Map v1.54 (carried forward whole)
 
