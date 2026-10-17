@@ -358,7 +358,7 @@ class Builder:
         for el in content.ALL:
             k = el[0]
             if k == 'h1':
-                self.h1(el[1], new_page=(el[1]==content.TOCLIST[0]))
+                self.h1(el[1], new_page=(el[1]==content.TOCLIST[0] or el[1] in getattr(content,'PAGE_BREAK_BEFORE',[])))
             elif k == 'sub': self.sub(el[1])
             elif k == 'nav': self.nav(el[1])
             elif k == 'p': self.p(el[1])
