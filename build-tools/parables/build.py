@@ -363,7 +363,6 @@ class Builder:
             elif k == 'nav': self.nav(el[1])
             elif k == 'p': self.p(el[1])
             elif k == 'pk': self.p(el[1], keep=True)
-            elif k == 'pk': self.p(el[1], keep=True)
             elif k == 'call': self.call(el[1], el[2])
             elif k == 'ctbl': self.ctbl(el[1], el[2], el[3])
             elif k == 'tbl': self.tbl(el[1], el[2], el[3])
