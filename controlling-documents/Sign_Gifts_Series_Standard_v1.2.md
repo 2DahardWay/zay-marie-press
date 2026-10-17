@@ -1,6 +1,6 @@
 # The Sign Gifts Series Standard
 
-Version 1.1 — 2026-10-17. Registered at the publisher's direction in Master Standard v1.168 §20 Rule 29, CLAUDE.md v1.168, the Framework (§XX) and Fit Check Map v1.10. v1.0 (2026-10-17): draft. Rulings recorded in v1.1: Volume 4 carries Rule 33's sentence; Volume 2 takes Option A on 1 Corinthians 13:8–10. Nothing is on the website; no volume is started.
+Version 1.2 — 2026-10-17. Volume 1 titled The Sign Gifts, subtitle What Were Signs For, To Whom, and What Ended at Acts 28? (v1.169); four Volume 1 rulings recorded. v1.1: Registered at the publisher's direction in Master Standard v1.168 §20 Rule 29, CLAUDE.md v1.168, the Framework (§XX) and Fit Check Map v1.10. v1.0 (2026-10-17): draft. Rulings recorded in v1.1: Volume 4 carries Rule 33's sentence; Volume 2 takes Option A on 1 Corinthians 13:8–10. Nothing is on the website; no volume is started.
 
 Governs The Sign Gifts Series, a tenth commentary series of four volumes written in Mode 2 under Framework §XX and Master Standard §20 Rule 29. The Digital Studies stay in Mode 1 and are unchanged. Modelled on the Prophets Series Standard (v1.12).
 
@@ -27,10 +27,18 @@ Governs The Sign Gifts Series, a tenth commentary series of four volumes written
 - **Pricing:** series bundle $43.99 (individually $59.96; save $15.97). Complete Commentary Library of 48 volumes in ten series $454.99 (individually $719.52; save $264.53; $72.91 less than ten bundles). Both take effect on the Collection page when the series is complete. Three-volume fallback bundle: $34.99; Library re-ruled.
 
 ## The volumes (titles provisional; title, subtitle, thesis, outline and rulings approved one volume at a time)
-1. **The Sign Program** — what signs were for, to whom they were given, and what ended at Acts 28. Exodus 4:1–9; Isaiah 28:11–12; Joel 2:28–32; Matthew 12:38–39; Mark 16:17–20; Acts 2:22; 5:12; 14:3; 19:11; 28; Romans 15:18–19; 1 Corinthians 1:22; 2 Corinthians 12:12; Hebrews 2:3–4. Verdict: fit by narrower question. Closer check before the thesis: Studies 25, 38, 81; Acts Volumes 2 and 5; Pauline Volume 4; Prophecy & Mystery Volume 3.
+1. **The Sign Gifts** — subtitle: *What Were Signs For, To Whom, and What Ended at Acts 28?* The narrower question: what signs were for, to whom they were given, and what ended at Acts 28. Exodus 4:1–9; Isaiah 28:11–12; Joel 2:28–32; Matthew 12:38–39; Mark 16:17–20; Acts 2:22; 5:12; 14:3; 19:11; 28; Romans 15:18–19; 1 Corinthians 1:22; 2 Corinthians 12:12; Hebrews 2:3–4. Verdict: fit by narrower question. Closer check before the thesis: Studies 25, 38, 81; Acts Volumes 2 and 5; Pauline Volume 4; Prophecy & Mystery Volume 3.
 2. **Tongues and Prophecy** — 1 Corinthians 12–14 (13:8–10; 14:21–22); Acts 2; 10; 19; Ephesians 3:5; 1 Thessalonians 5:20. Verdict: fit by mode. 1 Corinthians 13:8–10 is reported as written (Option A, ruled). 1 Corinthians 14:21–22 is argued from the passage and its Isaiah 28 quotation.
 3. **Healing in the Body** — 1 Corinthians 12:9, 28; James 5:14–16; 2 Corinthians 12; Philippians 2:25–27; 1 Timothy 5:23; 2 Timothy 4:20; Isaiah 53:4–5 with Matthew 8:17 and 1 Peter 2:24. Verdict: clear. James 5 is addressed to the twelve tribes (James 1:1) and is read in its own setting.
 4. **Apostles and Prophets** — Acts 1:21–26; 1 Corinthians 9:1; 15:8; Romans 16:7; Ephesians 2:20; 3:5; 4:11–13; Revelation 21:14. Verdict: fit by narrower question. Carries Rule 33's sentence once, at 2 Corinthians 12:12 (ruled). Conditional: a realistic page count under 50 with the cover at the outline stage drops the volume and the series is three volumes.
+
+## Volume 1 rulings (2026-10-17)
+- Acts 28:8–9 is reported as the last recorded sign. The volume states that the record of signs ends in that chapter. The suspension itself is argued in Acts Volume 5.
+- Mark 16:20 is read as written. The textual question of Mark 16:9–20 is left to Study 25.
+- John 20:30–31 is reported as John's stated purpose for his signs. It is not read as a statement on all signs.
+- Hebrews 2:3–4 is read as written to the Hebrew readers. It is not carried to the Body.
+- Cited as neighbours, not re-argued: Mark 16 (Study 25); the Spirit scenes (Acts Volume 2); 1 Corinthians 14:22 (Volume 2 of this series); Romans 15:18–19 (Gospel Volume 2); the Acts 28 suspension (Acts Volume 5).
+- Proposed outline (twelve chapters, about 50 pages with the cover): question and method; the word "sign"; signs to prove a messenger; signs to a nation; the Lord's signs (John 2:11, 20:30–31; the sign of Jonah); commission and confirmation; signs in Acts 1–8; signs in Acts 9–28 (Rule 11); Paul's own account; the end of the record (Acts 28); objections and replies; conclusion, index and bibliography. The outline is approved with the thesis at the drafting step.
 
 ## Status
 Registered. Each volume's closer check, title, subtitle, thesis, outline and rulings are approved one volume at a time. Volume 1 starts with the closer check of Studies 25, 38 and 81, Acts Volumes 2 and 5, Pauline Volume 4 and Prophecy & Mystery Volume 3. Nothing is on the website. The Fit Check Map carries the series in Section 8b.
