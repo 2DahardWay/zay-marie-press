@@ -36,7 +36,7 @@ Working list for the one full website audit before the site opens to the public 
 25. (Added 2026-10-13) `books.html` now carries a schema.org Book JSON-LD block for The Full Framework with three editions (paperback, hardback, EPUB; ISBNs, prices) marked “ComingSoon”, and `numberOfPages` 236. At launch, or after the proofreading revision pass: change availability to the real state per edition, confirm the page count, and add each edition’s own purchase URL. The “While You Wait” cards (Reader Questions, Second Coming Map, Bible Book Summaries) and the five-volume strip on the same page also follow the audit: re-check their wording and links when Book 2 gets a date or the library counts change.
 
 26. (Added 2026-10-14) `about.html` product-card counts: Digital Studies and Reader Questions are now filled in from `site.js` and `assets/reader-questions-index.json` (typed numbers are the fallback); the Commentary (40) and Bible Book Companion (66) counts are set by hand and need updating when a volume or companion is added. Also at launch: add the author photo in place of the ASM monogram when supplied.
-27. (Added 2026-10-17) The share images of Readers Question Series Volumes 1–5 (`assets/share-reader-questions-0N-…jpg`) still print “$4.99” although the volumes are free (v1.103); Volume 6’s share image says “Free.” Re-letter the five, and check `about.html` and other hand-set counts for 60 questions and six volumes.
+27. (Added 2026-10-17) The share images of Readers Question Series Volumes 1–5 (`assets/share-reader-questions-0N-…jpg`) still print “$4.99” although the volumes are free (v1.103); Volume 6’s share image says “Free.” **Done 2026-10-17:** the five share images are re-lettered “Free” (same layout as Volume 6). Still open: check `about.html` and other hand-set counts for 60 questions and six volumes.
 
 ## 2026-10-07 phone-width sweep (local, Playwright Chromium)
 All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways overflow, 0 load errors (scrollWidth equal to viewport width, and no visible element extending past it). This covers overflow only; section-by-section visual and wording polish remain for the single pre-launch audit.
@@ -70,4 +70,5 @@ All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways ove
 - v1.20, 2026-10-13: item 24 added (Book 1 facts line and notify link on the Books & Series page).
 - v1.21, 2026-10-13: item 25 added (Books page structured data, five-volume strip and While You Wait cards).
 - v1.22, 2026-10-14: item 26 added (About page counts and author photo).
+- v1.24, 2026-10-17: item 27, share images of Volumes 1–5 re-lettered “Free”; hand-set counts still to check.
 - v1.23, 2026-10-17: item 27 added (stale “$4.99” share images on Volumes 1–5; hand-set counts).

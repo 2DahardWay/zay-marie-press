@@ -1051,6 +1051,13 @@
  },
  {
   "from": "S25",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "Argues what signs were for, to whom they were given and where the record of signs in Acts ends; this study reports Mark 16 and its textual question and does not argue that question.",
+  "to": "V-sign-gifts-1"
+ },
+ {
+  "from": "S25",
   "to_slug": "packet-mark.html",
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of Mark through its key passages; Study 25 reads the signs that followed.",
@@ -1524,6 +1531,13 @@
   "list": "Commentary Series",
   "note": "Reads Acts 1–8 scene by scene and argues it reports Israel’s prophetic program in motion; Study 38 asks across the whole book how narrative events instruct, without arguing a position beyond the text.",
   "to": "V-acts-1"
+ },
+ {
+  "from": "S38",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "Argues what the signs in Acts were for and where the record of them ends; this study reads Acts as history that is not a command for every believer and does not argue the end of signs.",
+  "to": "V-sign-gifts-1"
  },
  {
   "from": "S38",
@@ -4950,6 +4964,13 @@
  },
  {
   "from": "V-acts-2",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "Argues what signs were for, to whom they were given and where the record of signs ends; this volume argues the Spirit scenes from Pentecost to Ephesus.",
+  "to": "V-sign-gifts-1"
+ },
+ {
+  "from": "V-acts-2",
   "to_slug": "packet-acts.html",
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of Acts through its key passages; read it for the book’s own structure before this volume’s argument.",
@@ -5094,6 +5115,13 @@
   "list": "Commentary Series",
   "note": "The three accounts of Paul’s call and the sending from Antioch.",
   "to": "V-acts-3"
+ },
+ {
+  "from": "V-acts-5",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "Argues what signs were for and that the last sign in the record falls in Acts 28; this volume argues the national suspension in the same chapter.",
+  "to": "V-sign-gifts-1"
  },
  {
   "from": "V-acts-5",
@@ -5472,6 +5500,13 @@
   "list": "Commentary Series",
   "note": "Argues who the Elijah is that Malachi says will be sent, and whether the promise has been met; this volume argues the Lord’s ministry to Israel and reads John’s errand only within it.",
   "to": "V-prophets-4"
+ },
+ {
+  "from": "V-gospel-2",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "Argues what signs were for, whom they were given to and where the record of them ends; this volume argues the Lord’s ministry to Israel.",
+  "to": "V-sign-gifts-1"
  },
  {
   "from": "V-gospel-2",
@@ -6755,6 +6790,69 @@
   "to": "V-gospel-2"
  },
  {
+  "from": "V-sign-gifts-1",
+  "to_slug": "study-25-the-signs-that-followed.html",
+  "list": "Digital Studies",
+  "note": "Reports what Mark 16 says of signs and the textual question of its last verses; this volume reads the commission only for its audience and the tense of its confirmation.",
+  "to": "S25"
+ },
+ {
+  "from": "V-sign-gifts-1",
+  "to_slug": "study-38-why-acts-is-not-a-universal-experience-manual.html",
+  "list": "Digital Studies",
+  "note": "Reads Acts as inspired history that is not a command for every believer; this volume asks only what the signs in Acts were for and where the record of them ends.",
+  "to": "S38"
+ },
+ {
+  "from": "V-sign-gifts-1",
+  "to_slug": "study-81-praying-in-the-spirit.html",
+  "list": "Digital Studies",
+  "note": "Reports what the passages say of praying in the Spirit and speaking in tongues; this volume does not treat that question.",
+  "to": "S81"
+ },
+ {
+  "from": "V-sign-gifts-1",
+  "to_slug": "packet-acts.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Acts through its key passages.",
+  "to": "C-Acts"
+ },
+ {
+  "from": "V-sign-gifts-1",
+  "to_slug": "packet-exodus.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Exodus through its key passages.",
+  "to": "C-Exod"
+ },
+ {
+  "from": "V-sign-gifts-1",
+  "to_slug": "packet-john.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of John through its key passages.",
+  "to": "C-John"
+ },
+ {
+  "from": "V-sign-gifts-1",
+  "to_slug": "commentary-acts-02-the-spirit-in-acts.html",
+  "list": "Commentary Series",
+  "note": "Argues the Spirit scenes in Acts from Pentecost to Ephesus; this volume cites them only as signs in the record.",
+  "to": "V-acts-2"
+ },
+ {
+  "from": "V-sign-gifts-1",
+  "to_slug": "commentary-acts-05-acts-28-the-close-of-the-book.html",
+  "list": "Commentary Series",
+  "note": "Argues the national suspension at Acts 28; this volume argues that the last sign in the record falls in the same chapter.",
+  "to": "V-acts-5"
+ },
+ {
+  "from": "V-sign-gifts-1",
+  "to_slug": "commentary-gospel-02-the-lords-ministry-to-israel.html",
+  "list": "Commentary Series",
+  "note": "Argues the Lord’s ministry to Israel; this volume reads His signs only for whom they were given to and what they were set to prove.",
+  "to": "V-gospel-2"
+ },
+ {
   "from": "V-typology-1",
   "to_slug": "study-27-israels-seven-appointed-feasts.html",
   "list": "Digital Studies",
@@ -7805,6 +7903,13 @@
   "to": "V-typology-1"
  },
  {
+  "from": "C-Exod",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on Exodus; this companion stays within the book.",
+  "to": "V-sign-gifts-1"
+ },
+ {
   "from": "C-Ezek",
   "to_slug": "study-12-the-new-covenant.html",
   "list": "Digital Studies",
@@ -8132,6 +8237,13 @@
   "list": "Commentary Series",
   "note": "A volume in the Commentary Collection whose argument draws on John; this companion stays within the book.",
   "to": "V-gospel-5"
+ },
+ {
+  "from": "C-John",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection whose argument draws on John; this companion stays within the book.",
+  "to": "V-sign-gifts-1"
  },
  {
   "from": "C-Jonah",

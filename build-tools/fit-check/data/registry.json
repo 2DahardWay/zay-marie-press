@@ -2415,6 +2415,21 @@
   "key_passages": 8
  },
  {
+  "id": "V-sign-gifts-1",
+  "type": "Commentary Volume",
+  "mode": 2,
+  "series": "The Sign Gifts Series",
+  "n": 1,
+  "title": "The Sign Gifts",
+  "subtitle": "The Purpose of Signs, Their Audience, and Their Programmatic End at Acts 28",
+  "slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "pages": 55,
+  "price": "$14.99",
+  "question": "It is the first volume of The Sign Gifts Series, each volume of which is built around one narrower question about the signs of Scripture. This volume asks what signs were for, to whom they were given and where the record of them ends.",
+  "source": "page",
+  "key_passages": 8
+ },
+ {
   "id": "V-typology-1",
   "type": "Commentary Volume",
   "mode": 2,
@@ -5699,6 +5714,21 @@
   "title": "THE DIAGNOSTIC MANUAL",
   "subtitle": "",
   "slug": "diagnostic-manual.html",
+  "pages": null,
+  "price": "",
+  "question": "",
+  "source": "page",
+  "key_passages": 0
+ },
+ {
+  "id": "R-parable-study-template",
+  "type": "Free Resource",
+  "mode": "resource",
+  "series": "Free resources",
+  "n": null,
+  "title": "Parable Study Template",
+  "subtitle": "",
+  "slug": "parable-study-template.html",
   "pages": null,
   "price": "",
   "question": "",

@@ -31,6 +31,7 @@ SERIES = {  # filename prefix -> (series label, mode)
     "commentary-gospel": ("Gospel Commentary", 2),
     "commentary-pauline": ("Pauline Doctrine Series", 2),
     "commentary-prophets": ("The Prophets Series", 2),
+    "commentary-sign-gifts": ("The Sign Gifts Series", 2),
 }
 PROPHETIC_RX = re.compile(r"^commentary-0(\d)-")
 
@@ -48,6 +49,7 @@ RESOURCE_PAGES = {
     "biblical-hermeneutics-course.html": ("Biblical Hermeneutics Course", "course"),
     "full-framework.html": ("The Full Framework", "book"),
     "diagnostic-manual.html": ("Diagnostic Manual", "free resource"),
+    "parable-study-template.html": ("Parable Study Template and Worked Example", "free resource"),
 }
 
 registry, coverage, edges = [], [], []
