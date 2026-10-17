@@ -7,3 +7,6 @@
 .parable-preview-close{position:fixed;top:16px;right:18px;z-index:1;width:44px;height:44px;border:0;border-radius:50%;background:#fff;color:#143823;font:30px/1 Arial,sans-serif;cursor:pointer}
 .parable-preview-close:focus-visible{outline:3px solid #b8871c;outline-offset:3px}
 .parable-preview-dialog p{font:600 .85rem Arial,sans-serif;text-align:center;margin:0}
+
+.para-sample-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:700px){.para-sample-3{grid-template-columns:1fr}.para-sample-3 figure{max-width:420px}}
