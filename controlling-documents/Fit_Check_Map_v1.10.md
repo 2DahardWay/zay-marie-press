@@ -1,6 +1,6 @@
-# Fit Check Map v1.9
+# Fit Check Map v1.10
 
-Version 1.9. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
+Version 1.10. Internal editorial record, approved by the publisher 2026-10-17 (v1.10 adds the planned Sign Gifts Series, 2026-10-17). Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
 ## 1. How to use it
 
 1. Name the passage(s) and the one narrower question. 2. Run `python3 -I build-tools/fit-check/fitcheck.py "<passage>"` and read Sections 5 and 6 below. 3. Read the neighbours' own question in Section 4 (and the PDF when the grade is argued). 4. State the verdict: clear, fit by mode, fit by narrower question, overlap (needs a different question), or duplicate. 5. Check the series arc (Section 3) if a volume is proposed.
@@ -690,6 +690,17 @@ Related Reading links by product family (rows link to columns):
 
 **The Prophets Series** (ninth commentary series, registered 2026-10-15 in Master Standard v1.159; Standard `Prophets_Series_Standard_v1.11.md`). Volumes 1, 2, 3 and 4, How the Prophets Spoke (51 pages with the cover), What the Prophets Condemned (57 pages), The Nations Judged (60 pages) and Elijah Must First Come (55 pages), are built and in the map above. No planned items remain in the series. Passage lists and neighbour notes are in the Standard.
 
+**The Sign Gifts Series** (tenth commentary series, registered 2026-10-17 in Master Standard v1.168; Standard `Sign_Gifts_Series_Standard_v1.1.md`). Four planned volumes, Mode 2, Volume 4 conditional on a 50-page outline test. Planned, with no PDFs to grade:
+
+| Vol | Planned title | Narrower question | Passages (planned) | Verdict | Main neighbours |
+|---|---|---|---|---|---|
+| 1 | The Sign Program | What signs were for, to whom they were given, and what ended at Acts 28 | Exodus 4:1–9; Isaiah 28:11–12; Joel 2:28–32; Matthew 12:38–39; Mark 16:17–20; Acts 2:22, 5:12, 14:3, 19:11, 28; Romans 15:18–19; 1 Corinthians 1:22; 2 Corinthians 12:12; Hebrews 2:3–4 | Fit by narrower question | Studies 25, 38, 81; Acts Vol 2 and 5; Pauline Vol 4; Prophecy & Mystery Vol 3 |
+| 2 | Tongues and Prophecy | Whether tongues and prophecy continue in the Body | 1 Corinthians 12–14 (13:8–10 reported as written; 14:21–22 argued); Acts 2, 10, 19; Ephesians 3:5; 1 Thessalonians 5:20 | Fit by mode | Studies 25, 38, 81; Acts Vol 2; Pauline Vol 4 |
+| 3 | Healing in the Body | Whether healing is a gift in the Body today | 1 Corinthians 12:9, 28; James 5:14–16; 2 Corinthians 12; Philippians 2:25–27; 1 Timothy 5:23; 2 Timothy 4:20; Isaiah 53:4–5 with Matthew 8:17 and 1 Peter 2:24 | Clear | Pauline Vol 4 (1 Corinthians 12:9, 28); Study 81 |
+| 4 | Apostles and Prophets | Whether the apostolic and prophetic offices continue | Acts 1:21–26; 1 Corinthians 9:1, 15:8; Romans 16:7; Ephesians 2:20, 3:5, 4:11–13; Revelation 21:14 | Fit by narrower question; conditional | Pauline Vol 4 (Ephesians 4:12); Acts Vol 1 and 5 |
+
+A fifth volume ("testing claims of signs") was tested and dropped: its passages are already treated by Prophets Vol 1, Prophetic Commentary Vol 2, Study 74 and Gospel Vol 3.
+
 ## 9. Version history
 
 | Version | Date | Change |
@@ -936,3 +947,4 @@ This editorial map distinguishes each study's main question from nearby studies 
 - v1.2  Study 48.  Adds Studies 47 and 48 to "The Body of Christ & Grace" curated collection on the catalog page (publisher-approved), bringing it to a Thirteen-Study Collection at $60.99 ($77.87 value, save $16.88), consistent with this collection's own established discount pattern. Updates the Website implementation status paragraph accordingly.
 - v1.1  Study 48.  Adds Study 48 (The Christian Household) to the study table, the "no distinct journey stop" list, and the Website implementation status paragraph; corrects the "forty-seven subjects" note in Source-version checks to forty-eight.
 - v1.0  Study 47.  First versioned edition. Folds in the unversioned edition's Study 47 addition (Giving Under Grace) and corrects the "forty-six subjects" note in Source-version checks to forty-seven. Establishes version control for this document going forward: each new study or structural change bumps the version and logs the change here, per the same convention used by the Master Standard.
+| 1.10 | 2026-10-17 | Adds Section 8b entry for the planned Sign Gifts Series (four volumes, Volume 4 conditional) with each volume's narrower question, planned passages, verdict and neighbours, ahead of any PDF. No grades changed. |
