@@ -4525,14 +4525,14 @@
   "from": "P33",
   "to_slug": "commentary-gospel-03-the-olivet-discourse.html",
   "list": "Commentary Series",
-  "note": "Sets the whole Olivet Discourse side by side; this edition reads Matthew 24:43–44, Mark 13:34–37 and Luke 12 on its own.",
+  "note": "Sets the whole Olivet Discourse side by side; this edition reads Matthew 24:43–44, Mark 13:34–37 and Luke 12:35–40 on its own.",
   "to": "V-gospel-3"
  },
  {
   "from": "P33",
   "to_slug": "commentary-typology-02-prophetic-separation.html",
   "list": "Commentary Series",
-  "note": "Argues the separation pattern in the Tribulation; this edition reads Matthew 24:43–44, Mark 13:34–37 and Luke 12 on its own.",
+  "note": "Argues the separation pattern in the Tribulation; this edition reads Matthew 24:43–44, Mark 13:34–37 and Luke 12:35–40 on its own.",
   "to": "V-typology-2"
  },
  {
@@ -9063,5 +9063,68 @@
   "list": "Bible Book Companion Series",
   "note": "Interprets the book through its key passages.",
   "to": "C-Col"
+ },
+ {
+  "from": "QV6",
+  "to_slug": "study-24-the-willful-sin-warning.html",
+  "list": "Digital Studies",
+  "note": "Reports the Hebrews 3 wilderness warning as written; entry 9 argues what the rest is.",
+  "to": "S24"
+ },
+ {
+  "from": "QV6",
+  "to_slug": "study-28-the-warning-of-hebrews-6-4-6.html",
+  "list": "Digital Studies",
+  "note": "Reports Hebrews’ warnings as written; entry 9 argues the rest and the audience.",
+  "to": "S28"
+ },
+ {
+  "from": "QV6",
+  "to_slug": "study-82-the-kinsman-redeemer.html",
+  "list": "Digital Studies",
+  "note": "Reports Hebrews 2 as written; entry 4 argues one quotation.",
+  "to": "S82"
+ },
+ {
+  "from": "QV6",
+  "to_slug": "commentary-gospel-02-the-lords-ministry-to-israel.html",
+  "list": "Commentary Series",
+  "note": "Argues the Lord’s ministry to Israel, John 10 among it.",
+  "to": "V-gospel-2"
+ },
+ {
+  "from": "QV6",
+  "to_slug": "commentary-acts-01-what-the-twelve-were-told-and-did.html",
+  "list": "Commentary Series",
+  "note": "Argues Acts 1–8, the setting of Acts 1:20.",
+  "to": "V-acts-1"
+ },
+ {
+  "from": "QV6",
+  "to_slug": "commentary-typology-01-tabernacle-and-temple-typology.html",
+  "list": "Commentary Series",
+  "note": "Argues the rent veil of Matthew 27:51.",
+  "to": "V-typology-1"
+ },
+ {
+  "from": "QV6",
+  "to_slug": "packet-psalms.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book through its key passages.",
+  "to": "C-Ps"
+ },
+ {
+  "from": "QV6",
+  "to_slug": "packet-hebrews.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book through its key passages.",
+  "to": "C-Heb"
+ },
+ {
+  "from": "QV6",
+  "to_slug": "packet-acts.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book through its key passages.",
+  "to": "C-Acts"
  }
 ]

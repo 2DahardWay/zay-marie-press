@@ -1,6 +1,6 @@
-# Fit Check Map v1.8
+# Fit Check Map v1.9
 
-Version 1.8. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
+Version 1.9. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
 ## 1. How to use it
 
 1. Name the passage(s) and the one narrower question. 2. Run `python3 -I build-tools/fit-check/fitcheck.py "<passage>"` and read Sections 5 and 6 below. 3. Read the neighbours' own question in Section 4 (and the PDF when the grade is argued). 4. State the verdict: clear, fit by mode, fit by narrower question, overlap (needs a different question), or duplicate. 5. Check the series arc (Section 3) if a volume is proposed.
@@ -16,12 +16,12 @@ Depth grades come from counts in the publisher's PDFs (argued = named 4+ times, 
 | Digital Study | 87 | PDF |
 | Bible Book Companion | 66 | PDF |
 | Bible Book Summary (free) | 66 | page |
-| Reader Question | 50 | page |
+| Reader Question | 60 | page |
 | Commentary Volume | 44 | PDF |
 | Parable Study | 35 | Word file |
 | Free Resource (library) | 21 | library entry |
 | Free Resource | 8 | page |
-| Reader Questions Volume | 5 | PDF |
+| Reader Questions Volume | 6 | PDF |
 | Interactive Map | 3 | page |
 | Course | 1 | page |
 | Book | 1 | print proof (eProof) |
@@ -172,15 +172,15 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-prophecy-mystery-1 | Israel & the Body | 37 |
 | V-prophecy-mystery-2 | The Mystery Program | 35 |
 | V-prophecy-mystery-3 | The Kingdom Program | 26 |
-| V-covenantal-4 | The Eternal Purpose of God | 25 |
 | V-acts-5 | Acts 28 | 25 |
+| V-covenantal-4 | The Eternal Purpose of God | 25 |
 | V-identity-5 | The Eschatological Community | 22 |
 | V-identity-4 | The Olive Tree | 20 |
 | S38 | Why Acts Is Not a Universal Experience Manual | 19 |
 | V-identity-3 | The New Covenant | 18 |
 | V-acts-3 | Paul Called and Sent | 18 |
+| V-prophecy-mystery-4 | The Resurrection Order in Scripture | 17 |
 | V-identity-2 | The Remnant | 17 |
-| S41 | Kingdom of God orKingdom of Heaven? | 17 |
 
 ## 4. Register (every item, one line)
 
@@ -243,7 +243,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | S55 | Digital Study | Reconciled to God | 20 | 6 |
 | S56 | Digital Study | Inheritance | 20 | 5 |
 | S57 | Digital Study | The Eternal Purpose of God | 20 | 8 |
-| S58 | Digital Study | What Is a Dispensation? | 20 | 7 |
+| S58 | Digital Study | What Is a Dispensation? | 19 | 7 |
 | S59 | Digital Study | The Law’s Jurisdiction and the Body of Christ | 20 | 10 |
 | S60 | Digital Study | The Churches Named in Scripture | 15 | 5 |
 | S61 | Digital Study | Revelation 12 | 14 | 6 |
@@ -251,27 +251,27 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | S63 | Digital Study | Isaiah 7:13–16 | 17 | 5 |
 | S64 | Digital Study | The Wedding and the Wedding Supper | 16 | 9 |
 | S65 | Digital Study | Acts 2:42 | 16 | 5 |
-| S66 | Digital Study | Matthew 28:18–20 | 16 | 6 |
+| S66 | Digital Study | Matthew 28:18–20 | 17 | 6 |
 | S67 | Digital Study | Melchizedek | 17 | 5 |
 | S68 | Digital Study | The Book of Life | 16 | 4 |
-| S69 | Digital Study | The Eternal State | 17 | 5 |
+| S69 | Digital Study | The Eternal State | 16 | 5 |
 | S70 | Digital Study | Born of Water and of the Spirit | 17 | 4 |
 | S71 | Digital Study | The Genealogies of Jesus | 16 | 5 |
 | S72 | Digital Study | The Lord’s Supper | 16 | 6 |
-| S73 | Digital Study | The Davidic Covenant | 16 | 6 |
+| S73 | Digital Study | The Davidic Covenant | 17 | 6 |
 | S74 | Digital Study | The Man of Sin | 16 | 6 |
 | S75 | Digital Study | Faith Before the Cross | 16 | 6 |
 | S76 | Digital Study | Strength to Stand | 16 | 4 |
 | S77 | Digital Study | The Believer and Government | 16 | 4 |
-| S78 | Digital Study | The Sabbath and Its Meanings | 16 | 5 |
+| S78 | Digital Study | The Sabbath and Its Meanings | 17 | 5 |
 | S79 | Digital Study | The Realms of the Dead | 16 | 5 |
 | S80 | Digital Study | The Lamb Foreordained | 16 | 5 |
 | S81 | Digital Study | Praying in the Spirit | 16 | 6 |
-| S82 | Digital Study | The Kinsman-Redeemer | 16 | 3 |
+| S82 | Digital Study | The Kinsman-Redeemer | 17 | 3 |
 | S83 | Digital Study | Marriage and Singleness | 16 | 3 |
-| S84 | Digital Study | Suffering and Glory | 16 | 3 |
+| S84 | Digital Study | Suffering and Glory | 17 | 3 |
 | S85 | Digital Study | The World Guilty Before God | 16 | 6 |
-| S86 | Digital Study | The Servant in Isaiah | 16 | 3 |
+| S86 | Digital Study | The Servant in Isaiah | 17 | 3 |
 | S87 | Digital Study | The Last Days | 16 | 5 |
 | P01 | Parable Study | The Growing Seed |  | 4 |
 | P02 | Parable Study | The Mustard Seed and the Leaven |  | 6 |
@@ -357,9 +357,11 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | QV3 | Reader Questions Volume | Reader Questions | 27 | 9 |
 | QV4 | Reader Questions Volume | Reader Questions | 30 | 9 |
 | QV5 | Reader Questions Volume | Reader Questions | 25 | 6 |
+| QV6 | Reader Questions Volume | Reader Questions | 26 | 9 |
 | R-second-coming-map | Interactive Map | The Second Coming Map |  | 0 |
 | R-jesus-ministry-map | Interactive Map | The Lord’s Ministry Route Map |  | 0 |
 | R-paul-missionary-journeys | Interactive Map | Paul's Missionary Journeys |  | 0 |
+| R-parable-study-template | Free Resource | Parable Study Template and Worked Example |  | 0 |
 | R-acts-overlap-visual-guide | Free Resource | The Acts Overlap Model |  | 0 |
 | R-building-biblical-doctrine | Free Resource | Building Biblical Doctrine |  | 0 |
 | R-historical-drift | Free Resource | Historical Drift |  | 0 |
@@ -369,7 +371,6 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | R-biblical-hermeneutics-course | Course | BIBLICAL HERMENEUTICS |  | 0 |
 | R-full-framework | Book | THE FULL FRAMEWORK |  | 0 |
 | R-diagnostic-manual | Free Resource | THE DIAGNOSTIC MANUAL |  | 0 |
-| R-parable-study-template | Free Resource | Parable Study Template and Worked Example |  | 0 |
 
 ## 4b. Narrower questions (each item's own statement)
 
@@ -663,7 +664,7 @@ Companions, summaries and reader questions are not counted, because they read a 
 
 ## 7. Relationships
 
-1295 Related Reading links were read from the website pages (1295 resolve to a mapped item). Links are cross-references; they say a neighbour exists, not what the neighbour argues. The per-item neighbour notes are in `build-tools/fit-check/data/edges.json`.
+1304 Related Reading links were read from the website pages (1304 resolve to a mapped item). Links are cross-references; they say a neighbour exists, not what the neighbour argues. The per-item neighbour notes are in `build-tools/fit-check/data/edges.json`.
 
 Related Reading links by product family (rows link to columns):
 
@@ -673,7 +674,7 @@ Related Reading links by product family (rows link to columns):
 | Volume | 131 | 103 | 10 | 99 | 0 | 0 | 0 |
 | Parable | 24 | 10 | 105 | 51 | 0 | 0 | 0 |
 | Companion | 139 | 62 | 3 | 44 | 0 | 0 | 0 |
-| Reader Q | 15 | 10 | 2 | 14 | 0 | 0 | 0 |
+| Reader Q | 18 | 13 | 2 | 17 | 0 | 0 | 0 |
 | Summary | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Other | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -702,6 +703,7 @@ Related Reading links by product family (rows link to columns):
 | 1.6 | 2026-10-16 | Adds Digital Study 87, The Last Days (16 pages with the cover; Doctrinal Themes), to the registry, the passage tables and the Related Reading links, graded from its PDF; the question it answers is stated in the study. Related Reading links added both ways with Study 7. A fifth Prophets Series volume (The Prophetic Hope) was proposed, found to overlap by the Fit Check and dropped, and its time-words topic became Study 87; the Prophets Series stays at four volumes. |
 | 1.7 | 2026-10-17 | Regrades the 35 Parable Studies from their rebuilt PDFs (the 13-section format, Master Standard v1.164 Rule 35; 15 to 20 pages with the cover; the Sower and the Soils is 19), replacing the grades taken from the earlier editions. Passage depth for the parables now counts the whole rebuilt text, including the neighbour boundaries and the related-passage lists, so parable rows rise sharply (the standing sentence that names Paul's Acts 9 calling is left out of the count, because every parable carries it) and the crowded-chapter and gap tables move with them; read a parable's depth as where the study dwells, not as a position. No product, price or narrower question changed. |
 | 1.8 | 2026-10-17 | Adds the Parable Study Template and its Worked Example (two free PDFs, 5 and 4 pages with the cover; page `parable-study-template.html`) to the registry as one free resource. Its narrower question is how to work any one parable through on paper in eight sections (audience and occasion, the comparison, what Jesus names and leaves unnamed, boundaries, the stated point, the present lesson); the worked example reads Matthew 22:1–14, the same passage as Parable Study 8, which the publisher kept. No passage grades, prices or other products changed. Related links added from the Parables hub, the 35 Parable Study pages and the Resource Library. |
+| 1.9 | 2026-10-17 | Adds Readers Question Series Volume 6, Questions on Difficult Bible Verses (psalms the New Testament quotes; 26 pages with the cover), and its ten question pages to the registry, the passage tables and the Related Reading links, graded from its PDF (60 questions in 6 volumes). The Parable Study Template row is kept as in v1.8; study page counts (58, 66, 69, 73, 78, 82, 84, 86) follow `site.js` after the Rule 34 rebuilds. No product or price changed. |
 
 ## Appendix. Digital Studies Relationship Map v1.54 (carried forward whole)
 
