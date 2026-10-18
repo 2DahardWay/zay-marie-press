@@ -2445,6 +2445,21 @@
   "key_passages": 8
  },
  {
+  "id": "V-sign-gifts-3",
+  "type": "Commentary Volume",
+  "mode": 2,
+  "series": "The Sign Gifts Series",
+  "n": 3,
+  "title": "Healing in the Body",
+  "subtitle": "The Sign-Gift of Healing and the Body’s Non-Sign Pattern",
+  "slug": "commentary-sign-gifts-03-healing-in-the-body.html",
+  "pages": 55,
+  "price": "$14.99",
+  "question": "It is the third volume of The Sign Gifts Series, each volume of which is built around one narrower question about the signs of Scripture. Volume 1 asks what signs were for and where the record of them ends, and Volume 2 asks what tongues and prophecy are; this volume asks what the Scriptures say healing is for and what the Body does with sickness.",
+  "source": "page",
+  "key_passages": 8
+ },
+ {
   "id": "V-typology-1",
   "type": "Commentary Volume",
   "mode": 2,

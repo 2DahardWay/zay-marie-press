@@ -1,0 +1,30 @@
+from kjvlib import text as T
+C = [
+("h1", "10. Second Corinthians 12:7 to 10: The Thorn and the Answer"),
+("p", "Claim: Paul asked three times for a thorn in the flesh to depart, and the answer was not removal but “My grace is sufficient for thee.” The volume reads the thorn as opposition, as the Readers Question Series does, and reads the answer as the Body’s pattern. The passage stands against any claim that the Body is given gifts of healing as a standing remedy for its trials. The passage is reported as written; the reading of the thorn is the volume’s own."),
+("sub", "10.1 The setting"),
+("p", "Paul is answering those who boast. “It is not expedient for me doubtless to glory. I will come to visions and revelations of the Lord” (2 Corinthians 12:1). He tells of a man in Christ “caught up to the third heaven” (2 Corinthians 12:2), and of the things he heard. Then he turns: “Of such an one will I glory: yet of myself I will not glory, but in mine infirmities” (2 Corinthians 12:5). He had said the same earlier: “If I must needs glory, I will glory of the things which concern mine infirmities” (2 Corinthians 11:30). The glorying in infirmities follows a list of labours, stripes, prisons and deaths (2 Corinthians 11:23). The passage on the thorn stands in that list and is introduced by it."),
+("sub", "10.2 What the text says"),
+("p", "“And lest I should be exalted above measure through the abundance of the revelations, there was given to me a thorn in the flesh, the messenger of Satan to buffet me, lest I should be exalted above measure. For this thing I besought the Lord thrice, that it might depart from me. And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me. Therefore I take pleasure in infirmities, in reproaches, in necessities, in persecutions, in distresses for Christ’s sake: for when I am weak, then am I strong” (2 Corinthians 12:7–10)."),
+("p", "The passage says that the thorn was given, that it was the messenger of Satan, sent to buffet, and that it was given to keep Paul from being exalted. It says that he asked the Lord three times that it depart. It gives the Lord’s answer in his own words: grace is sufficient, and strength is made perfect in weakness. It gives Paul’s response: he will glory in his infirmities, that the power of Christ may rest on him, and he takes pleasure in infirmities, reproaches, necessities, persecutions and distresses."),
+("sub", "10.3 What the passage leaves unsaid"),
+("p", "The passage does not say what the thorn was. It does not say that it was an illness. The word “infirmities” in verses 9 and 10 stands with “reproaches,” “necessities,” “persecutions” and “distresses,” and the list is of the things Paul endured for Christ’s sake, not of diseases. The passage does not say that Paul asked for healing, that the Lord could not heal, or that Paul lacked faith. It does not say that the request was wrong. And it does not say that the answer applies to every sickness. The volume reports the passage as written."),
+("sub", "10.4 The volume’s reading"),
+("p", "The volume reads the thorn as opposition. The phrase is “the messenger of Satan to buffet me,” and the word “buffet” is used of blows (1 Corinthians 4:11 uses it of Paul’s treatment by men). The Old Testament uses the figure of thorns for the enemies of Israel in the land (Numbers 33:55; Judges 2:3), and the passage in 2 Corinthians stands in a defence of Paul’s apostleship against opponents. The volume does not say that the reading is stated in the text. It says that the reading is the one the setting supports, and that Paul’s ground for glorying is in any case the same: weakness, and the power of Christ resting on him."),
+("p", "The volume’s statement on the passage does not depend on the reading of the thorn. Whether the thorn was an opposition or an illness, the Lord’s answer was refusal and sufficiency. The thorn is opposition. God’s answer is refusal and sufficiency. This is the Body’s pattern, and it stands against any claim of healing-gifts in the Mystery Program."),
+("sub", "10.5 Why the pattern matters"),
+("p", "The apostle who in the record of Acts healed the sick, raised Eutychus and shook off a viper was not given a healing in answer to his own prayer. He was given grace. The letter does not set the two against each other. It says that in the Body’s ministry the power of Christ rests on the man who is weak. The Body that follows Paul’s pattern asks, as he asked, and receives, as he received, what the Lord gives. Some are delivered, as Epaphroditus was (Philippians 2:27), and some are left sick, as Trophimus was (2 Timothy 4:20). The letters give the same account of both: the mercy and the sufficiency of God."),
+("tbl", "The thorn and the answer.", [
+    ("2 Corinthians 12:7", T("2 Cor 12:7"), "A thorn in the flesh, the messenger of Satan to buffet."),
+    ("2 Corinthians 12:8", T("2 Cor 12:8"), "Paul besought the Lord thrice."),
+    ("2 Corinthians 12:9", T("2 Cor 12:9"), "The answer: grace sufficient, strength made perfect in weakness."),
+    ("2 Corinthians 12:10", T("2 Cor 12:10"), "Pleasure in infirmities, reproaches, necessities, persecutions, distresses."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "What the volume takes from the passage"),
+("bul", [
+    "Paul asked three times and was refused; the answer was grace sufficient.",
+    "The passage does not name the thorn or say it was an illness, and its list of infirmities is of things endured for Christ’s sake.",
+    "The thorn is opposition, and this is the volume’s reading of a passage that does not say.",
+    "The answer is the Body’s pattern, and it stands against any claim of healing-gifts in the Mystery Program.",
+  ]),
+]

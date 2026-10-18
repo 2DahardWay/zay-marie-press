@@ -1,0 +1,27 @@
+from kjvlib import text as T
+C = [
+("h1", "13. What the Volume Does Not Say"),
+("p", "The volume argues a position, and the position has a boundary. This chapter states the boundary so that the argument is not read as saying more than it says."),
+("sub", "13.1 It does not say that God does not heal"),
+("p", "Nothing in the volume says that God does not heal, that he cannot heal, or that a person who recovers has not been shown mercy. The volume’s subject is the gifts of healing, the authority to heal as a sign, and the promises of healing addressed to Israel. The mercy of God toward the sick is the pattern of the letters to the Body (chapter 9)."),
+("sub", "13.2 It does not forbid prayer, medicine or care"),
+("p", "The Body is told to pray in everything (Philippians 4:6). Paul names a physician among his company (Colossians 4:14) and tells Timothy to use a little wine (1 Timothy 5:23). The volume does not set medicine against prayer or prayer against medicine."),
+("sub", "13.3 It does not judge any report of recovery"),
+("p", "The volume does not examine the accounts of healing given in any assembly, in any age, and it does not say that any of them is false. It says what the Scriptures state about the gift, the sign and the promise."),
+("sub", "13.4 It does not say what the thorn was"),
+("p", "The passage in 2 Corinthians 12 does not name the thorn, and the volume gives its reading as a reading. It says that the reading does not carry the argument, because the Lord’s answer is the same on either reading."),
+("sub", "13.5 It does not read James as false"),
+("p", "The volume reads James 5 as Israel’s passage and does not say that the promise in it fails. It says the promise belongs to the setting in which it was given."),
+("sub", "13.6 It does not settle the offices"),
+("p", "The apostles and prophets are named with the gifts in 1 Corinthians 12:28 and Ephesians 4:11. The volume leaves the offices to Volume 4 and does not say here what became of them."),
+("sub", "13.7 It does not say when each gift stopped"),
+("p", "The volume does not give a date for the last use of a gift in an assembly. It says that the sign-program ended at Acts 28 and that the gift ended with it, and it says that the second is an inference."),
+("ctbl", "What the volume says and does not say.", [
+    ("Question", "The volume says", "The volume does not say"),
+    ("Does God heal?", "Healing in the Body is God’s mercy", "That God cannot heal"),
+    ("May the Body pray for the sick?", "Yes, on Paul’s command to pray", "That James 5 gives the promise"),
+    ("What is the thorn?", "Opposition, as the volume reads it", "That the passage says so"),
+    ("What of the gifts of healing?", "A sign-gift of the overlap, ended with the program", "That a verse states the end"),
+    ("What of recoveries today?", "Mercy, never a sign-gift", "That any report is false"),
+  ], [0.28, 0.38, 0.34]),
+]

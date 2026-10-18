@@ -3290,6 +3290,13 @@
   "to": "S12"
  },
  {
+  "from": "S86",
+  "to_slug": "commentary-sign-gifts-03-healing-in-the-body.html",
+  "list": "Commentary Series",
+  "note": "Reads Isaiah 53:4–6 beside Matthew 8:17 and 1 Peter 2:24 and argues none promises healing to the Body; this study reads the servant passages of Isaiah in order.",
+  "to": "V-sign-gifts-3"
+ },
+ {
   "from": "S87",
   "to_slug": "study-07-the-day-of-the-lord.html",
   "list": "Digital Studies",
@@ -6923,6 +6930,69 @@
   "to": "V-acts-2"
  },
  {
+  "from": "V-sign-gifts-3",
+  "to_slug": "study-86-the-servant-in-isaiah.html",
+  "list": "Digital Studies",
+  "note": "Reads the servant passages of Isaiah 41 to 53 in order; this volume reads only the clauses of Isaiah 53:4–6 beside Matthew 8:17 and 1 Peter 2:24.",
+  "to": "S86"
+ },
+ {
+  "from": "V-sign-gifts-3",
+  "to_slug": "study-25-the-signs-that-followed.html",
+  "list": "Digital Studies",
+  "note": "Reports what Mark 16 says of signs and its textual question; this volume does not treat Mark 16.",
+  "to": "S25"
+ },
+ {
+  "from": "V-sign-gifts-3",
+  "to_slug": "study-38-why-acts-is-not-a-universal-experience-manual.html",
+  "list": "Digital Studies",
+  "note": "Reads Acts as inspired history that is not a command for every believer; this volume reads the healings of Acts 1 to 8 and 9 to 28 for what they were for.",
+  "to": "S38"
+ },
+ {
+  "from": "V-sign-gifts-3",
+  "to_slug": "packet-james.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of James through its key passages.",
+  "to": "C-Jas"
+ },
+ {
+  "from": "V-sign-gifts-3",
+  "to_slug": "packet-1-corinthians.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of 1 Corinthians through its key passages.",
+  "to": "C-1Cor"
+ },
+ {
+  "from": "V-sign-gifts-3",
+  "to_slug": "packet-2-corinthians.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of 2 Corinthians through its key passages.",
+  "to": "C-2Cor"
+ },
+ {
+  "from": "V-sign-gifts-3",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "Argues what signs were for, to whom and that the record ends in Acts 28; this volume takes healing in full and rests on that ending.",
+  "to": "V-sign-gifts-1"
+ },
+ {
+  "from": "V-sign-gifts-3",
+  "to_slug": "commentary-sign-gifts-02-tongues-and-prophecy.html",
+  "list": "Commentary Series",
+  "note": "Argues what tongues and prophecy are and the gift lists of 1 Corinthians 12; this volume takes only the healing clauses.",
+  "to": "V-sign-gifts-2"
+ },
+ {
+  "from": "V-sign-gifts-3",
+  "to_slug": "commentary-acts-05-acts-28-the-close-of-the-book.html",
+  "list": "Commentary Series",
+  "note": "Argues the suspension itself in Acts 28; this volume applies it to the gifts of healing.",
+  "to": "V-acts-5"
+ },
+ {
   "from": "V-typology-1",
   "to_slug": "study-27-israels-seven-appointed-feasts.html",
   "list": "Digital Studies",
@@ -7481,6 +7551,13 @@
   "list": "Commentary Series",
   "note": "A volume in the Commentary Collection whose argument draws on 2 Corinthians; this companion stays within the book.",
   "to": "V-identity-3"
+ },
+ {
+  "from": "C-2Cor",
+  "to_slug": "commentary-sign-gifts-03-healing-in-the-body.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection that reads 2 Corinthians 12:7–10; this companion stays within the book.",
+  "to": "V-sign-gifts-3"
  },
  {
   "from": "C-2Cor",
@@ -8223,6 +8300,13 @@
   "list": "Digital Studies",
   "note": "Follow justification; the companion stays within James.",
   "to": "S54"
+ },
+ {
+  "from": "C-Jas",
+  "to_slug": "commentary-sign-gifts-03-healing-in-the-body.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection that reads James 5 in its Israel setting; this companion stays within the book.",
+  "to": "V-sign-gifts-3"
  },
  {
   "from": "C-Jer",

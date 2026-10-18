@@ -1,0 +1,30 @@
+from kjvlib import text as T
+C = [
+("h1", "2. The Words: Heal, Sick, Gift, Anoint and Save"),
+("p", "Claim: the passages on healing use a small group of words, and the KJV renders several Greek words by the same English word. The volume reads the words where they stand, notes where one English word hides a distinction, and builds nothing on a word the text does not carry. Four things come out of the word study: the common root of the words for sickness, the plural of “gifts of healings,” the verb “anoint” and the verb “save” in James 5:15."),
+("sub", "2.1 Sick and sickness"),
+("p", "The Greek noun the KJV renders “infirmity,” “weakness” and “disease” is one word, and the verb from the same root is the common word for being sick. It is the word in “Behold, he whom thou lovest is sick” (John 11:3), in “For indeed he was sick nigh unto death” (Philippians 2:27), in “Trophimus have I left at Miletum sick” (2 Timothy 4:20) and in “Is any sick among you?” (James 5:14). The noun is in “thine often infirmities” (1 Timothy 5:23), in “through infirmity of the flesh” (Galatians 4:13) and in “my strength is made perfect in weakness” (2 Corinthians 12:9). The KJV’s English varies. The Greek root is one."),
+("p", "The point is a plain one. The passages that the volume reads on sickness in the letters share a vocabulary with the passage in James and with the healings of the Gospels. The shared word does not make the passages one statement, and the missing word does not separate them. It means that a reader who looks for the word will find it in each setting, and the volume reads each in its setting."),
+("sub", "2.2 Heal and cure"),
+("p", "The word the KJV renders “heal” most often is a verb for making well, as in “and he laid his hands on every one of them, and healed them” (Luke 4:40) and in “Paul entered in, and prayed, and laid his hands on him, and healed him” (Acts 28:8). A second verb, rendered “cure” and “heal,” is the one in “power and authority over all devils, and to cure diseases” (Luke 9:1). The two overlap and the volume does not build a doctrine on the difference. The noun that names the gift in 1 Corinthians 12 is formed from the first verb."),
+("sub", "2.3 Gifts of healings"),
+("p", "Paul names the gift twice in the plural and once in a form the KJV renders with a singular. In the first list he says, “to another the gifts of healing by the same Spirit” (1 Corinthians 12:9). In the second he says, “after that miracles, then gifts of healings” (1 Corinthians 12:28). In the questions he asks, “Have all the gifts of healing?” (1 Corinthians 12:30). The plural noun “gifts” is in all three, and the noun “healings” is plural in the second. The wording is that of a gift given in separate instances, each a gift of healing for the occasion, and not a standing office or a general ability."),
+("p", "The volume reports the plural and does not build more on it than the text does. The plural shows that the gift is spoken of in instances. It does not show whether the instances continue, and the volume does not use it for that purpose."),
+("sub", "2.4 Anoint"),
+("p", "The verb the KJV renders “anoint” in James 5:14 is the common word for applying oil, the word in “and they cast out many devils, and anointed with oil many that were sick, and healed them” (Mark 6:13). It is a different word from the one used of the Messiah and of anointing for office. The two words are not interchangeable, and the volume does not draw the Messiah’s anointing into James 5:14. In both Mark 6:13 and James 5:14 the oil is applied to the sick, and in both the setting is Israel’s: the Twelve sent to the house of Israel, and the letter to the twelve tribes."),
+("sub", "2.5 Save and raise up"),
+("p", "James says, “And the prayer of faith shall save the sick, and the Lord shall raise him up; and if he have committed sins, they shall be forgiven him” (James 5:15). The verb “save” is the word used of rescue from sickness and danger as well as from sin, as in “Lord, save me” (Matthew 14:30) and “thy faith hath saved thee” (Luke 18:42). The verb “raise up” is the common word for lifting a person from a bed, as in the healing of Peter’s wife’s mother, “and the fever left her: and she arose” (Matthew 8:15), and it is also the word used of resurrection. In James 5:15 the context is a sick person laid on a bed. The volume reads the verbs in that sense and does not read them as a statement about the soul’s salvation or about resurrection."),
+("tbl", "The words and where the volume reads them.", [
+    ("John 11:3", T("John 11:3"), "The common word for sick is in the message to the Lord."),
+    ("1 Timothy 5:23", T("1 Tim 5:23"), "The noun for infirmity names the condition."),
+    ("Mark 6:13", T("Mark 6:13"), "The verb for anointing with oil, used on the sick in Israel."),
+    ("James 5:15", T("Jas 5:15"), "Save and raise up in the setting of a sick bed."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "What the volume takes from the passages"),
+("bul", [
+    "The words for sickness share a root across the Gospels, Acts and the letters; the shared word does not make the passages one statement.",
+    "“Gifts of healings” is plural and names a gift given in instances; the volume does not use the plural to decide whether the instances continue.",
+    "The verb “anoint” in James 5:14 is the word used on the sick in Mark 6:13, and both stand in Israel’s setting.",
+    "“Save” and “raise up” in James 5:15 are read of a sick person laid on a bed.",
+  ]),
+]
