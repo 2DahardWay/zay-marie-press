@@ -1,0 +1,38 @@
+from kjvlib import text as T
+C = [
+("h1", "4. Others Called Apostles"),
+("p", "Claim: the New Testament calls apostles some men who are not among the Twelve and are not Paul. The passages that do so name the man and give the setting, and none of them says that these men were appointed as the Twelve were or as Paul was. The volume reads each, reports what it says of the sender and the commission, and decides nothing that the wording leaves open."),
+("sub", "4.1 Barnabas"),
+("p", "Luke writes of Paul and Barnabas at Iconium that they abode there a long time, “speaking boldly in the Lord, which gave testimony unto the word of his grace, and granted signs and wonders to be done by their hands” (Acts 14:3). The next verse divides the city: “part held with the Jews, and part with the apostles.” At Lystra the word is used plainly: “Which when the apostles, Barnabas and Paul, heard of, they rent their clothes” (Acts 14:14)."),
+("p", "Two facts stand in these verses. Barnabas and Paul are both called apostles, and signs and wonders were done by the hands of both. The sender is named earlier, in Acts 13:1 to 3. At Antioch there were “certain prophets and teachers,” Barnabas and Saul among them, and “the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them.” The assembly then fasted, prayed, laid their hands on them and “sent them away.” The work is the Holy Ghost’s, and the sending is also the assembly’s. The passage joins both, and the volume does not choose between them."),
+("tbl", "Barnabas and Paul at Antioch and in Galatia.", [
+    ("Acts 13:1–3", T("Acts 13:1-3"), "The Holy Ghost says to separate Barnabas and Saul; the assembly sends them away."),
+    ("Acts 14:3, 4", T("Acts 14:3-4"), "Signs and wonders by their hands; part of the city held with the apostles."),
+    ("Acts 14:14", T("Acts 14:14"), "The apostles, Barnabas and Paul."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "4.2 Epaphroditus and the messengers of the churches"),
+("p", "Chapter 2 gave the two places where the translators wrote “messenger.” Epaphroditus is the Philippians’ messenger to Paul, and the brethren of 2 Corinthians 8:23 are the messengers of the churches. In both places the sender is a church. Neither passage says that these men were chosen by the Lord, or that they held an office beside the Twelve, and neither says that they were not. The passages say what they are sent to do: to minister to Paul’s wants, and to carry the gift."),
+("sub", "4.3 Silvanus and Timothy"),
+("p", "Paul writes to the Thessalonians as one of three: “Paul, and Silvanus, and Timotheus” (1 Thessalonians 1:1). In the second chapter the first person plural continues: “Nor of men sought we glory, neither of you, nor yet of others, when we might have been burdensome, as the apostles of Christ” (1 Thessalonians 2:6). The verse speaks in the plural of a company that includes Silvanus and Timothy, and it uses the phrase “the apostles of Christ.”"),
+("p", "The volume reports the verse and draws the limit of what it says. The “we” of the letter may include all three men or may be Paul speaking of himself and his company, and the verse does not say which. The wording is the King James Version’s. The volume does not make the verse a proof that Silvanus and Timothy were apostles in the sense of the Twelve or of Paul, and it does not make it a proof that they were not."),
+("sub", "4.4 James the Lord’s brother"),
+("p", "Paul tells the Galatians of his first visit to Jerusalem: “But other of the apostles saw I none, save James the Lord’s brother” (Galatians 1:19). In the list of the risen Lord’s appearances Paul writes: “After that, he was seen of James; then of all the apostles” (1 Corinthians 15:7). In Galatians 1:19 James stands among “the apostles,” and in 1 Corinthians 15:7 James is named beside “all the apostles.” The volume reports both and does not reconcile them. The first can be read as placing James among the apostles, and the second as naming him beside them. The volume decides nothing between the two."),
+("sub", "4.5 Andronicus and Junia"),
+("p", "Paul writes at the close of Romans: “Salute Andronicus and Junia, my kinsmen, and my fellowprisoners, who are of note among the apostles, who also were in Christ before me” (Romans 16:7). The verse says that Andronicus and Junia were Paul’s kinsmen and fellowprisoners, that they were in Christ before him, and that they were “of note among the apostles.”"),
+("p", "The phrase “of note among the apostles” can be read two ways. It can mean that they were well known to the apostles, or it can mean that they were notable among those called apostles. The volume reports the wording as the King James Version gives it and decides nothing on whether Andronicus and Junia held the office. The reason is that the argument does not need the verse: the thesis stands on the passages that state the sender and the commission."),
+("sub", "4.6 What the passages leave unsaid"),
+("p", "None of the passages in this chapter says that a man was made an apostle by a church, by a vote or by the laying on of hands in the sense of an office passed down. Acts 13:3 records the laying on of hands on Barnabas and Saul and says that it was for “the work whereunto I have called them.” None says that the Lord appointed the men of this chapter as he appointed the Twelve. And none says that the title was a rank among them. The passages show men who were sent and men who were called apostles, and they leave the rest unsaid. The volume leaves it unsaid also."),
+("tbl", "The others called apostles.", [
+    ("1 Thessalonians 2:6", T("1 Thess 2:6"), "The company of the letter is spoken of as “the apostles of Christ.”"),
+    ("Galatians 1:19", T("Gal 1:19"), "James the Lord’s brother, seen with none other of the apostles."),
+    ("1 Corinthians 15:7", T("1 Cor 15:7"), "Seen of James, then of all the apostles."),
+    ("Romans 16:7", T("Rom 16:7"), "Andronicus and Junia, of note among the apostles."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "What the volume takes from the passages"),
+("bul", [
+    "Barnabas is called an apostle beside Paul, with a sending by the Holy Ghost and the assembly.",
+    "Epaphroditus and the brethren of 2 Corinthians 8:23 are messengers of churches.",
+    "1 Thessalonians 2:6 speaks of a company as the apostles of Christ, and the wording does not say who is included.",
+    "Romans 16:7 is reported in the King James wording, and the volume decides nothing on whether Andronicus and Junia held the office.",
+  ]),
+]

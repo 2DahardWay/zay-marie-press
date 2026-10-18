@@ -750,6 +750,13 @@
  },
  {
   "from": "S18",
+  "to_slug": "commentary-sign-gifts-04-apostles-and-prophets.html",
+  "list": "Commentary Series",
+  "note": "Reads what an apostle is in each passage and whether the office continues; this study reads the two commissions as the passages state them.",
+  "to": "V-sign-gifts-4"
+ },
+ {
+  "from": "S18",
   "to_slug": "packet-acts.html",
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of Acts through its key passages; Study 18 sets Peter’s and Paul’s apostolic commissions side by side.",
@@ -1461,6 +1468,13 @@
   "list": "Commentary Series",
   "note": "Argues what governs the believer where Paul gives no command and how liberty meets the weaker brother; Study 36 reads the three names of 1 Corinthians 10:32 as written, and the volume cites the verse only for the stumbling of chapter 8.",
   "to": "V-pauline-5"
+ },
+ {
+  "from": "S36",
+  "to_slug": "commentary-sign-gifts-04-apostles-and-prophets.html",
+  "list": "Commentary Series",
+  "note": "Reads the foundation of Ephesians 2:20 and the prophets of Ephesians 3:5; this study reads the identity of Jew, Gentile and the church.",
+  "to": "V-sign-gifts-4"
  },
  {
   "from": "S37",
@@ -5027,6 +5041,13 @@
  },
  {
   "from": "V-acts-3",
+  "to_slug": "commentary-sign-gifts-04-apostles-and-prophets.html",
+  "list": "Commentary Series",
+  "note": "Reads Paul’s apostleship and the signs of an apostle; this volume argues his call and sending.",
+  "to": "V-sign-gifts-4"
+ },
+ {
+  "from": "V-acts-3",
   "to_slug": "packet-acts.html",
   "list": "Bible Book Companion Series",
   "note": "Interprets the book of Acts through its key passages; read it for the book’s own structure before this volume’s argument.",
@@ -6993,6 +7014,69 @@
   "to": "V-acts-5"
  },
  {
+  "from": "V-sign-gifts-4",
+  "to_slug": "study-18-peter-and-paul-distinct-apostolic-commissions.html",
+  "list": "Digital Studies",
+  "note": "Reads the two commissions as the passages state them; this volume asks what an apostle is and whether the office continues.",
+  "to": "S18"
+ },
+ {
+  "from": "V-sign-gifts-4",
+  "to_slug": "study-14-acts-9-and-the-beginning-of-mystery.html",
+  "list": "Digital Studies",
+  "note": "Reads Acts 9 and the beginning of the Mystery; this volume reads Paul’s apostleship and the signs of an apostle.",
+  "to": "S14"
+ },
+ {
+  "from": "V-sign-gifts-4",
+  "to_slug": "study-36-jews-gentiles-and-the-church-of-god.html",
+  "list": "Digital Studies",
+  "note": "Reads the identity of Jew, Gentile and the church; this volume reads the foundation of Ephesians 2:20.",
+  "to": "S36"
+ },
+ {
+  "from": "V-sign-gifts-4",
+  "to_slug": "packet-ephesians.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Ephesians through its key passages.",
+  "to": "C-Eph"
+ },
+ {
+  "from": "V-sign-gifts-4",
+  "to_slug": "packet-galatians.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of Galatians through its key passages.",
+  "to": "C-Gal"
+ },
+ {
+  "from": "V-sign-gifts-4",
+  "to_slug": "packet-2-corinthians.html",
+  "list": "Bible Book Companion Series",
+  "note": "Interprets the book of 2 Corinthians through its key passages.",
+  "to": "C-2Cor"
+ },
+ {
+  "from": "V-sign-gifts-4",
+  "to_slug": "commentary-sign-gifts-01-the-sign-gifts.html",
+  "list": "Commentary Series",
+  "note": "Argues what signs were for, to whom and that the record ends in Acts 28; this volume takes the offices that stood with the signs.",
+  "to": "V-sign-gifts-1"
+ },
+ {
+  "from": "V-sign-gifts-4",
+  "to_slug": "commentary-acts-03-paul-called-and-sent.html",
+  "list": "Commentary Series",
+  "note": "Argues Paul’s call and sending in Acts 9, 13, 22 and 26; this volume reads his apostleship and its marks.",
+  "to": "V-acts-3"
+ },
+ {
+  "from": "V-sign-gifts-4",
+  "to_slug": "commentary-pauline-04-the-assembly-in-order.html",
+  "list": "Commentary Series",
+  "note": "Argues the order of the assembly and the gift lists; this volume argues the offices of apostle and prophet.",
+  "to": "V-pauline-4"
+ },
+ {
   "from": "V-typology-1",
   "to_slug": "study-27-israels-seven-appointed-feasts.html",
   "list": "Digital Studies",
@@ -7558,6 +7642,13 @@
   "list": "Commentary Series",
   "note": "A volume in the Commentary Collection that reads 2 Corinthians 12:7–10; this companion stays within the book.",
   "to": "V-sign-gifts-3"
+ },
+ {
+  "from": "C-2Cor",
+  "to_slug": "commentary-sign-gifts-04-apostles-and-prophets.html",
+  "list": "Commentary Series",
+  "note": "A volume in the Commentary Collection that reads 2 Corinthians 11 and 12 on the signs of an apostle; this companion stays within the book.",
+  "to": "V-sign-gifts-4"
  },
  {
   "from": "C-2Cor",

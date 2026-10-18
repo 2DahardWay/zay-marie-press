@@ -1,0 +1,38 @@
+from kjvlib import text as T
+C = [
+("h1", "11. What Ends, What Continues and What Resumes"),
+("p", "Claim: three things must be kept apart. The apostolic office as a sign-authenticated witness ends with the sign-program at Acts 28. What the apostles delivered continues, in Paul’s letters and in the other Scriptures, and the assemblies are told to hold it. And the office of the Twelve, which is Israel’s, is suspended with Israel’s program at Acts 28 and resumes in the Kingdom. A reader who runs the three together will conclude that either everything ends or nothing does."),
+("sub", "11.1 What ends"),
+("p", "Chapter 6 argued that the signs of an apostle were the mark of the office, and that the sign-program associated with Israel ceases programmatically at Acts 28. The office as a witness authenticated by signs ends with it. That is the volume’s position and its reason: the sign and the office have one ground. The office that ends is the office as the passages describe it, a man sent by the Lord, a witness of the resurrection, whose commission is shown by signs."),
+("p", "Three observations support the position. The record of Acts, which names the signs of the apostles in Jerusalem, in Galatia, in Ephesus and on Malta, records no sign after Acts 28. The letters that give directions for the assemblies, whenever they were written, name no apostle or prophet to be appointed. And the foundation is spoken of as laid. The three are not proofs taken singly. They are three lines that run in one direction."),
+("sub", "11.2 What continues: the letters"),
+("p", "What the apostle delivered does not end with the office. Paul says to the Corinthians, “If any man think himself to be a prophet, or spiritual, let him acknowledge that the things that I write unto you are the commandments of the Lord” (1 Corinthians 14:37). Peter writes of Paul’s letters: “even as our beloved brother Paul also according to the wisdom given unto him hath written unto you; as also in all his epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable wrest, as they do also the other scriptures, unto their own destruction” (2 Peter 3:15, 16)."),
+("p", "The second letter of Peter counts Paul’s epistles with “the other scriptures.” The statement is read as written. It puts the letters in the class of Scripture, and it warns of those who twist them. The volume does not take from it a rule about when the canon closed, and it does not use it to date any letter. The point is narrower: what Paul wrote carries his authority in the assemblies after his work in them is done."),
+("p", "Paul’s own instruction to Timothy points the same way: “And the things that thou hast heard of me among many witnesses, the same commit thou to faithful men, who shall be able to teach others also” (2 Timothy 2:2). The things are committed to faithful men who can teach. The direction concerns what is taught. It does not concern who holds the office."),
+("tbl", "What continues.", [
+    ("1 Corinthians 14:37", T("1 Cor 14:37"), "The things Paul writes are the commandments of the Lord."),
+    ("2 Peter 3:15, 16", T("2 Pet 3:15-16"), "Paul’s epistles are counted with the other scriptures, and some wrest them."),
+    ("2 Timothy 2:2", T("2 Tim 2:2"), "What Timothy heard is to be committed to faithful men able to teach others."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "11.3 What the assemblies are given in place of the office"),
+("p", "The letters that look to the future of the assemblies give directions about persons, and the persons are elders and overseers. Paul left Titus in Crete to “ordain elders in every city” (Titus 1:5). He says to Timothy, “If a man desire the office of a bishop, he desireth a good work” (1 Timothy 3:1). To the elders of Ephesus he says, “Take heed therefore unto yourselves, and to all the flock, over the which the Holy Ghost hath made you overseers, to feed the church of God” (Acts 20:28)."),
+("p", "The volume reports the directions. They say how the assembly is to be ordered. They do not name apostles or prophets among the persons to be appointed, and they do not tell Titus or Timothy to look for them. The silence is not a proof by itself, but it stands beside the statement that the foundation was laid and beside the end of the signs, and the three agree. Paul also reminds Timothy of the gift that is in him, “which was given thee by prophecy, with the laying on of the hands of the presbytery” (1 Timothy 4:14), and of “the prophecies which went before on thee” (1 Timothy 1:18). The volume reports these as written. They show prophecy in the setting of Timothy’s call, and they do not show Timothy as an apostle."),
+("sub", "11.4 What resumes: the Twelve"),
+("p", "The office of the Twelve is Israel’s, and its end is the thrones. The Lord said they should sit upon twelve thrones “in the regeneration when the Son of man shall sit in the throne of his glory” (Matthew 19:28), and “sit on thrones judging the twelve tribes of Israel” (Luke 22:30). Those promises are not fulfilled in the days of the book of Acts. At the opening of Acts the disciples ask, “Lord, wilt thou at this time restore again the kingdom to Israel?” (Acts 1:6). The kingdom is the subject, and it has not come."),
+("p", "The volume’s position is that Israel’s Prophecy Program was nationally suspended at Acts 28, that the office of the Twelve is suspended with it, and that it resumes when the program resumes, in the Kingdom, when the Son of man sits in the throne of his glory. The Twelve are not replaced during the suspension. They are not made a part of the Body, and the Body is not made a part of their office. The two stand apart, as the passages stand apart: the Twelve to the house of Israel, and Paul the apostle of the Gentiles. Concurrency is operational, not transformational."),
+("p", "The wall of the city in Revelation 21:14, with its twelve foundations and the names of the twelve apostles of the Lamb, is reported as written (chapter 3). The volume does not use it to show that the Twelve’s office resumes, nor does it use it to show that it does not."),
+("sub", "11.5 Three things kept apart"),
+("ctbl", "Three things, three statements.", [
+    ("Thing", "What it is", "What the volume says"),
+    ("The office", "Sign-authenticated witness", "Ends with the sign-program at Acts 28."),
+    ("The word", "What the apostles delivered", "Continues in Paul’s letters and the other Scriptures."),
+    ("The Twelve", "Israel’s apostles", "Suspended with Israel’s program at Acts 28; resume in the Kingdom."),
+  ], [0.2, 0.4, 0.4]),
+("sub", "What the volume takes from the passages"),
+("bul", [
+    "The apostolic office as a sign-authenticated witness ends with the sign-program at Acts 28.",
+    "What the apostles delivered continues in Paul’s letters, which Peter counts with the other scriptures.",
+    "The directions for the assemblies name elders and overseers and name no apostle or prophet to be appointed.",
+    "The Twelve’s office is suspended with Israel’s program and resumes in the Kingdom.",
+  ]),
+]

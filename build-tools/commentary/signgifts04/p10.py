@@ -1,0 +1,38 @@
+from kjvlib import text as T
+C = [
+("h1", "10. The Gifts of the Ascended Christ"),
+("p", "Claim: Ephesians 4:7 to 13 says that the ascended Christ gave apostles and prophets among the gifts to the Body, for a stated purpose and toward a stated goal. The verse that names the goal, “Till we all come,” dates nothing. It states where the building is going, and it does not say when any office stops or whether any office continues to that point. The volume reads the passage in order, notes what it says and what it leaves unsaid, and does not extend apostles or prophets beyond Acts 28 on the strength of the word “till.”"),
+("sub", "10.1 The passage in order"),
+("p", "Paul writes: “But unto every one of us is given grace according to the measure of the gift of Christ. Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men” (Ephesians 4:7, 8). The gift is Christ’s, and it is given after his ascension. Paul then says who gave: “And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers” (Ephesians 4:11)."),
+("p", "The purpose follows in three clauses: “For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ” (Ephesians 4:12). The goal follows: “Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ” (Ephesians 4:13)."),
+("tbl", "Ephesians 4:7–13 in order.", [
+    ("Ephesians 4:7, 8", T("Eph 4:7-8"), "Grace is given according to the measure of the gift of Christ; he ascended and gave gifts unto men."),
+    ("Ephesians 4:11", T("Eph 4:11"), "He gave some apostles, some prophets, some evangelists, some pastors and teachers."),
+    ("Ephesians 4:12", T("Eph 4:12"), "The purpose: the perfecting of the saints, the work of the ministry, the edifying of the body of Christ."),
+    ("Ephesians 4:13", T("Eph 4:13"), "The goal: the unity of the faith, a perfect man, the measure of the stature of the fulness of Christ."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "10.2 Psalm 68:18"),
+("p", "Paul’s “he led captivity captive, and gave gifts unto men” echoes the psalm: “Thou hast ascended on high, thou hast led captivity captive: thou hast received gifts for men; yea, for the rebellious also, that the LORD God might dwell among them” (Psalm 68:18). The wording differs. The psalm says that the LORD “received gifts for men”; Ephesians says that he “gave gifts unto men.” The volume reports both and does not reconcile them. It notes that Paul introduces the lines with “Wherefore he saith” and applies them to the ascended Christ. The apostle’s use of the psalm is his own, and the volume does not argue that Psalm 68 itself speaks of apostles and prophets."),
+("p", "Verses 9 and 10 are a parenthesis: “(Now that he ascended, what is it but that he also descended first into the lower parts of the earth? He that descended is the same also that ascended up far above all heavens, that he might fill all things.)” The volume reports the parenthesis as written. It does not identify “the lower parts of the earth,” and it does not need to, because the argument of this chapter rests on verses 7, 8 and 11 to 13."),
+("sub", "10.3 What is said of the gifts"),
+("p", "Four points are stated. The gifts are Christ’s own, given after his ascension. They are given to the Body: the passage speaks of “every one of us” and of “the body of Christ.” Apostles and prophets stand first and second in the list, as they do in 1 Corinthians 12:28. And the list is of persons, not of acts: “some, apostles; and some, prophets.” The gift is a man whom Christ gives."),
+("p", "The first thing to say of the list is that it agrees with the argument of chapter 9. Apostles and prophets are among the gifts to the Body, and the foundation was laid by the apostles and prophets to whom the mystery was revealed. The gift of apostles and prophets to the Body is the gift of the men through whom the revelation came and the foundation was laid. The passage does not say that every man in the list was a foundation-layer, and it does not say that none was. It names the gifts, and it gives their purpose."),
+("tbl", "The lists of persons God has set in the church.", [
+    ("1 Corinthians 12:28", T("1 Cor 12:28"), "God hath set some in the church, first apostles, secondarily prophets, thirdly teachers."),
+    ("1 Corinthians 12:29", T("1 Cor 12:29"), "Are all apostles? are all prophets? are all teachers?"),
+    ("Ephesians 4:11", T("Eph 4:11"), "He gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "10.4 The word “till”"),
+("p", "Ephesians 4:13 begins with the word “Till”: “Till we all come in the unity of the faith.” Some readers take the verse to mean that the gifts of verse 11, apostles and prophets among them, continue until the Body reaches the goal the verse names; others take the goal to be reached already, or to be reached only at the Lord’s return. The volume does not decide among these readings, and the volume’s position is that the verse is not dated."),
+("p", "Four observations show why the verse cannot carry the weight placed on it. First, “till” marks the end of a movement and does not say which of the things that began it are still present at the end. Second, the verse says “we all come,” which names the arrival of the whole company at a state, and says nothing of the means. Third, the goal is described in terms that no assembly in any age has been said to have reached: “a perfect man, … the measure of the stature of the fulness of Christ.” Fourth, the passage does not say that the gifts of verse 11 are the only means to the goal. The word “till” dates nothing in the verse."),
+("p", "The volume therefore reports the verse and leaves its date open. It does not extend apostles or prophets beyond Acts 28 because of it. It says, as a report of what the verse leaves unsaid, that the verse does not state the time at which any gift stops and does not state that any gift continues to the point it names."),
+("sub", "10.5 What the passage does not say"),
+("p", "The passage does not say that apostles and prophets are to be appointed. It does not say that the Body will always have them. It does not say that they have ceased. And it does not say what the “work of the ministry” is, beyond the three clauses that state the purpose. The passage is a statement of what Christ gave and why. The volume takes it as that."),
+("sub", "What the volume takes from the passages"),
+("bul", [
+    "Apostles and prophets are among the gifts the ascended Christ gave to the Body, for the perfecting of the saints, the work of the ministry and the edifying of the body of Christ.",
+    "Paul’s use of Psalm 68:18 differs from the psalm’s wording, and the volume reports both without reconciling them.",
+    "The word “till” in Ephesians 4:13 marks a goal and dates no gift. The volume leaves the date open and does not extend apostles or prophets beyond Acts 28.",
+    "The passage does not say that the offices are to be appointed, that they continue, or that they cease.",
+  ]),
+]

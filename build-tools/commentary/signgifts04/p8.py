@@ -1,0 +1,33 @@
+from kjvlib import text as T
+C = [
+("h1", "8. New Testament Prophets as Persons"),
+("p", "Claim: the New Testament names a number of prophets by name or by place, and describes what they did. They are men and women in the assemblies of the overlap who spoke by the Spirit. The passages name them, say what they said, and in one place use the word of a poet of Crete. The volume reads these passages before it reads the foundation of Ephesians 2, because the persons must be seen before the office can be asked about."),
+("sub", "8.1 Prophets from Jerusalem and Agabus"),
+("p", "Luke records that “in these days came prophets from Jerusalem unto Antioch. And there stood up one of them named Agabus, and signified by the Spirit that there should be great dearth throughout all the world: which came to pass in the days of Claudius Cæsar” (Acts 11:27, 28). The prophets are named as a company, and one of them is named. What Agabus did is stated: he signified by the Spirit that a dearth should come, and Luke records that it came."),
+("p", "Agabus appears again at Caesarea: “there came down from Judaea a certain prophet, named Agabus. And when he was come unto us, he took Paul’s girdle, and bound his own hands and feet, and said, Thus saith the Holy Ghost, So shall the Jews at Jerusalem bind the man that owneth this girdle, and shall deliver him into the hands of the Gentiles” (Acts 21:10, 11). The volume reports the passage as written. It records that Agabus spoke in the name of the Holy Ghost, that his words were about what would befall Paul, and that Luke does not record the events of Acts 21 as a failure of the word."),
+("sub", "8.2 Judas and Silas"),
+("p", "The council at Jerusalem sent “chosen men of their own company to Antioch with Paul and Barnabas; namely, Judas surnamed Barsabas, and Silas, chief men among the brethren” (Acts 15:22). Luke then says: “And Judas and Silas, being prophets also themselves, exhorted the brethren with many words, and confirmed them” (Acts 15:32). The passage describes what the prophets did: they exhorted and confirmed. It names no foretelling. It names the work of building up the brethren with many words."),
+("sub", "8.3 The prophets and teachers at Antioch"),
+("p", "At Antioch “there were in the church that was at Antioch certain prophets and teachers; as Barnabas, and Simeon that was called Niger, and Lucius of Cyrene, and Manaen, which had been brought up with Herod the tetrarch, and Saul” (Acts 13:1). The list includes Barnabas and Saul. The passage joins the two names, prophets and teachers, and does not distinguish which of the five was which. What follows is the word of the Holy Ghost, spoken as they ministered to the Lord and fasted: “Separate me Barnabas and Saul for the work whereunto I have called them” (Acts 13:2). The volume records that a word of the Spirit came in an assembly of prophets and teachers, and the passage does not say through whom."),
+("sub", "8.4 Philip’s daughters"),
+("p", "At Caesarea Paul’s company “entered into the house of Philip the evangelist, which was one of the seven; and abode with him. And the same man had four daughters, virgins, which did prophesy” (Acts 21:8, 9). The verse records that they prophesied. It does not record what they said, it does not give them a title beyond the verb, and it does not say that they held an office. The volume reports the passage as it stands."),
+("sub", "8.5 A prophet of Crete"),
+("p", "In Titus the word is used of a pagan poet. Paul writes, “One of themselves, even a prophet of their own, said, The Cretians are alway liars, evil beasts, slow bellies. This witness is true” (Titus 1:12, 13). The word “prophet” here names a man of Crete who spoke a saying about his own people, and Paul says his witness is true. The verse shows that the word has a plain sense, one who speaks for a people or for a god, and that Paul can use it without implying that the man held the office of Ephesians 2:20. Not every use of the word names the office of the foundation."),
+("tbl", "Prophets named as persons.", [
+    ("Acts 11:27, 28", T("Acts 11:27-28"), "Prophets from Jerusalem at Antioch; Agabus signifies a dearth by the Spirit."),
+    ("Acts 15:32", T("Acts 15:32"), "Judas and Silas, being prophets, exhort and confirm the brethren."),
+    ("Acts 21:8, 9", T("Acts 21:8-9"), "Philip’s four daughters did prophesy."),
+    ("Acts 21:10, 11", T("Acts 21:10-11"), "Agabus binds his hands and feet with Paul’s girdle and says what the Holy Ghost says."),
+    ("Titus 1:12", T("Titus 1:12"), "A prophet of the Cretians’ own, quoted by Paul."),
+  ], [0.2, 0.5, 0.3]),
+("sub", "8.6 The prophets in the assembly"),
+("p", "Paul gives the order for the prophets at Corinth. “Let the prophets speak two or three, and let the other judge. If any thing be revealed to another that sitteth by, let the first hold his peace. For ye may all prophesy one by one, that all may learn, and all may be comforted. And the spirits of the prophets are subject to the prophets” (1 Corinthians 14:29–32). The passage describes prophets speaking in turn, a revelation given to one who sits by, and others judging. The order of the assembly and the gift of prophecy are the subject of Volume 2 of this series and of Pauline Doctrine Series Volume 4, and this volume takes only the persons."),
+("p", "Two limits keep the chapter within its question. The passages here do not say that any of these persons held the office of the foundation in Ephesians 2:20, and they do not say that none did. They name men and women who spoke by the Spirit in the assemblies, and they say what they said. The next chapter takes the foundation and asks who the prophets of Ephesians 2:20 and 3:5 are."),
+("sub", "What the volume takes from the passages"),
+("bul", [
+    "The New Testament names prophets by name and by place: Agabus, Judas and Silas, the prophets at Antioch, and Philip’s daughters.",
+    "The passages describe what they did: signified by the Spirit, exhorted and confirmed, prophesied.",
+    "Titus 1:12 uses the word of a poet of Crete, so the word has a plain sense besides the office.",
+    "None of the passages says that these persons held the office of the foundation, and none says that they did not.",
+  ]),
+]

@@ -1,0 +1,28 @@
+from kjvlib import text as T
+C = [
+("h1", "12. What the Volume Does Not Say"),
+("p", "The volume argues a position, and the position has a boundary. This chapter states the boundary so that the argument is not read as saying more than it says."),
+("sub", "12.1 It does not say that God no longer sends men"),
+("p", "Nothing in the volume says that God does not send men to preach, to teach, to plant churches or to carry the word to places it has not been. The volume’s subject is the offices of apostle and prophet as the passages describe them: a witness sent by the Lord and authenticated by signs, and the prophets to whom the mystery was revealed. It does not say that missionaries, pastors and teachers have no calling. It says nothing of those callings, because the passages it reads do not say that they ended."),
+("sub", "12.2 It does not say that no man speaks the word of God"),
+("p", "The volume does not say that no man speaks by the Spirit, that no word of exhortation is ever given, or that the Scriptures cannot be taught with power. Its subject is the offices and the foundation. The gift of prophecy as it was exercised in the assemblies is the subject of Volume 2, and the volume states nothing against what that volume argues."),
+("sub", "12.3 It does not decide Romans 16:7 or the standing of Silvanus and Timothy"),
+("p", "The volume reports Romans 16:7 in the King James wording and decides nothing on whether Andronicus and Junia held the office. It reports 1 Thessalonians 2:6 and decides nothing on who is included in “the apostles of Christ.” The argument stands without either."),
+("sub", "12.4 It does not date Ephesians 4:13"),
+("p", "The volume reports the verse and leaves its date open. It does not say that the goal has been reached, and it does not say that it will be reached at the Lord’s return. It says that the verse does not extend apostles or prophets beyond Acts 28."),
+("sub", "12.5 It does not identify the prophets by name"),
+("p", "The volume says that the prophets of Ephesians 2:20 and 3:5 are those to whom the mystery was revealed now. It does not say who they were. The persons named in chapter 8 are persons of the assemblies, and the passages do not say whether any of them was of this company."),
+("sub", "12.6 It does not say who holds the Twelve’s office now"),
+("p", "The Twelve’s office is suspended with Israel’s program, and no one holds it in the meantime. The volume does not say that the thrones are filled, that Matthias or Paul takes a throne, or that the foundations of the city in Revelation 21:14 are the thrones of Matthew 19:28."),
+("sub", "12.7 It makes no statement about God’s power"),
+("p", "The volume governs the offices and the programs. It makes no statement about what God can do. It does not say that God cannot raise up a prophet or send an apostle. It says what the passages say the offices were, how they were authenticated, what they founded, and when the volume reads the sign-program as ending."),
+("ctbl", "What the volume does not say.", [
+    ("Topic", "What the volume does not say", "What it does say"),
+    ("Sending", "That God no longer sends men", "The offices of apostle and prophet are read as the passages describe them"),
+    ("Speaking", "That no man speaks the word of God", "The foundation was laid once"),
+    ("Romans 16:7", "Whether Andronicus and Junia held the office", "The wording is reported as written"),
+    ("Ephesians 4:13", "When the goal is reached", "The verse dates no gift"),
+    ("The prophets", "Who they were by name", "They are those to whom the mystery is now revealed"),
+    ("God’s power", "Anything about it", "The volume governs the offices and the programs"),
+  ], [0.2, 0.4, 0.4]),
+]
