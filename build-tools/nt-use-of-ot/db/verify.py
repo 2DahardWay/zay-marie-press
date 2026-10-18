@@ -1,7 +1,7 @@
 import sys,re
 sys.path.insert(0,'/home/claude/zay-marie-press/build-tools/parables')
 import kjvlib
-from data2 import R
+from data3 import R
 def vs(refs):
     out=[]
     for b,c,s in refs:

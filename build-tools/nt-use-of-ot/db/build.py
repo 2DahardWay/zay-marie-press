@@ -3,7 +3,7 @@ sys.path.insert(0,'/home/claude/zay-marie-press/build-tools/nt-use-of-ot/db')
 from seelinks import see
 sys.path.insert(0,'/home/claude/zay-marie-press/build-tools/parables')
 import kjvlib
-from data2 import R
+from data3 import R
 ROOT='/home/claude/zay-marie-press/'
 def verses(refs):
     out=[]
@@ -27,15 +27,18 @@ TYPO={
 "Hebrews 7:1\u20133":("Melchisedec, king of Salem and priest of the most high God (Genesis 14:18\u201320)","The Son of God (Hebrews 7:3)","\u201cMade like unto the Son of God\u201d (Hebrews 7:3)."),
 "Hebrews 9:23\u201324":("The holy places made with hands (Exodus 25:40)","Heaven itself (Hebrews 9:24)","\u201cThe figures of the true\u201d (Hebrews 9:24)."),
 "1 Peter 3:20\u201321":("Noah and the few saved by water (Genesis 7:7)","Baptism (1 Peter 3:21)","\u201cThe like figure whereunto even baptism doth also now save us\u201d (1 Peter 3:21)."),
+"Colossians 2:16\u201317":("Meat and drink, a holyday, the new moon and the sabbath days (Leviticus 23:2\u20134; Numbers 28:9\u201311)","\u201cThe body is of Christ\u201d (Colossians 2:17)","\u201cWhich are a shadow of things to come; but the body is of Christ\u201d (Colossians 2:17)."),
 "Galatians 4:21\u201331":("Hagar and Sarah, the two sons of Abraham (Genesis 21:10)","The two covenants (Galatians 4:24)","\u201cWhich things are an allegory\u201d (Galatians 4:24), the one place the KJV uses the word."),
 }
+ORDER=['Matthew','Mark','Luke','John','Acts','Romans','1 Corinthians','2 Corinthians','Galatians','Ephesians','Philippians','Colossians','1 Thessalonians','2 Thessalonians','1 Timothy','2 Timothy','Titus','Philemon','Hebrews','James','1 Peter','2 Peter','1 John','2 John','3 John','Jude','Revelation']
 rows=[]
 for i,r in enumerate(R,1):
     book=r['nt_label'].rsplit(' ',1)[0]
     rows.append(dict(id=i,nt=r['nt_label'],book=book,ot=r['ot_label'],otb=sorted({b for b,_,_ in r['ot']}),
       typ=TMAP.get(r['typ'],r['typ']),typo=TYPO.get(r['nt_label']),tag={'Marked':'Marked by the text','Shown':'Shown by the context','None':'Not signalled by the text'}[r['tag']],
       fm=r['fm'],note=('' if r['typ'] in ('Typology','Allegory') else r['note']),ntv=verses(r['nt']),otv=verses(r['ot']),
-      line=('Acts' if book=='Acts' else 'Paul\'s letters' if book in ('Romans','1 Corinthians','2 Corinthians','Galatians','Ephesians','Philippians','1 Timothy','2 Timothy') else 'Israel line'),loose=loose(r),see=see(r['nt_label'])))
+      line=('Acts' if book=='Acts' else 'Paul\'s letters' if book in ('Romans','1 Corinthians','2 Corinthians','Galatians','Ephesians','Philippians','Colossians','1 Thessalonians','2 Thessalonians','1 Timothy','2 Timothy','Titus','Philemon') else 'Israel line'),loose=loose(r),see=see(r['nt_label'])))
+rows.sort(key=lambda x:ORDER.index(x['book']))
 json.dump(rows,open(ROOT+'assets/ot-in-nt-quotations.json','w'),ensure_ascii=False,separators=(',',':'))
 src=open(ROOT+'new-testament-use-of-old-testament.html').read()
 css=re.search(r'<style>(.*?)</style>',src,re.S).group(1)
@@ -60,7 +63,6 @@ DESC="A free searchable list of places where New Testament writers quote, allude
 BOOKS=[]
 for x in rows:
     if x['book'] not in BOOKS: BOOKS.append(x['book'])
-ORDER=['Matthew','Mark','Luke','John','Acts','Romans','1 Corinthians','2 Corinthians','Galatians','Ephesians','Philippians','Philippians','1 Timothy','2 Timothy','Hebrews','James','1 Peter','2 Peter','Revelation']
 BOOKS=[b for i,b in enumerate(ORDER) if b in BOOKS and b not in ORDER[:i]]
 head=f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>{TITLE}</title><meta name="description" content="{html.escape(DESC)}"/><link rel="canonical" href="https://zaymariepress.com/ot-in-nt-quotations.html"/><meta property="og:type" content="website"/><meta property="og:site_name" content="Zay-Marie Press"/><meta property="og:title" content="{TITLE} | Zay-Marie Press"/><meta property="og:description" content="{html.escape(DESC)}"/><meta property="og:url" content="https://zaymariepress.com/ot-in-nt-quotations.html"/><meta property="og:image" content="https://zaymariepress.com/assets/share-ot-in-nt-quotations.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="{TITLE} | Zay-Marie Press"/><meta name="twitter:description" content="{html.escape(DESC)}"/><meta name="twitter:image" content="https://zaymariepress.com/assets/share-ot-in-nt-quotations.jpg"/><link rel="icon" href="assets/zay-marie-press-favicon.png" type="image/png"/><style>{css}{EXTRA}</style></head>'
 body='''<body><header class="top"><div class="wrap nav"><a class="brand" href="resources.html">Zay-Marie Press</a><nav class="navlinks"><a href="new-testament-use-of-old-testament.html">Read the survey guide</a></nav><a class="closex" href="resources.html" aria-label="Close and return to Resources" title="Close and return to Resources">✕</a></div></header><main>
@@ -84,7 +86,7 @@ function fz(t){var s=norm(t).replace(/([a-z])(\\d)/g,'$1 $2').replace(/^([1-3])(
 function qn(s){s=norm(s).replace(/\\./g,'').replace(/([a-z])(\\d)/g,'$1 $2').replace(/^([1-3])([a-z])/,'$1 $2');var w=s.split(' ');if(AB[w[0]])w[0]=AB[w[0]];else if(w.length>1&&AB[w[0]+' '+w[1]]){w.splice(0,2,AB[w[0]+' '+w[1]])}return w.join(' ').replace(/–|—/g,'-')}
 function hay(r){return qn(r.nt+' '+r.ot+' '+r.fm+' '+r.note+' '+r.ntv.join(' ')+' '+r.otv.join(' ')+' '+r.typ+' '+r.tag+' '+(r.typo?r.typo.join(' '):'')).replace(/\\s+/g,' ')}
 function chap(label){var m=label.match(/^(.*?) (\\d+):/);return m?m[1].toLowerCase()+' '+m[2]:''}
-function match(r,t){if(!t)return true;var n=qn(t);var H=r._h;var rg=n.match(/^([1-3]? ?[a-z ]+?) (\\d+):(\\d+) ?(?:-| to ) ?(\\d+)$/);if(rg){var rb=rg[1].trim(),rc=+rg[2],r1=+rg[3],r2=+rg[4];if(r2<r1){var tt=r1;r1=r2;r2=tt}var al=(r.nt+'; '+r.ot).split(/; */);for(var ii=0;ii<al.length;ii++){var xx=qn(al[ii]).match(/^([1-3]? ?[a-z ]+?) (\\d+):(\\d+)(?:-(\\d+))?/);if(xx&&xx[1].trim()===rb&&+xx[2]===rc){var a1=+xx[3],a2=xx[4]?+xx[4]:a1;if(a1<=r2&&a2>=r1)return true}}return false}var isRef=/^([1-3]? ?[a-z ]+?) (\\d+)(?::(\\d+))?$/.test(n);if(!isRef&&H.indexOf(n)>=0)return true;
+function match(r,t){if(!t)return true;var n=qn(t);var H=r._h;var rg=n.match(/^([1-3]? ?[a-z ]+?) (\\d+):(\\d+) ?(?:-| to ) ?(\\d+)$/);if(rg){var rb=rg[1].trim(),rc=+rg[2],r1=+rg[3],r2=+rg[4];if(r2<r1){var tt=r1;r1=r2;r2=tt}var al=(r.nt+'; '+r.ot).split(/; */);for(var ii=0;ii<al.length;ii++){var xx=qn(al[ii]).match(/^([1-3]? ?[a-z ]+?) (\\d+):(\\d+)(?:-(\\d+))?/);if(xx&&xx[1].trim()===rb&&+xx[2]===rc){var a1=+xx[3],a2=xx[4]?+xx[4]:a1;if(a1<=r2&&a2>=r1)return true}}return false}var nb=NTALL.filter(function(x){return x.toLowerCase()===n})[0];if(nb)return r.book===nb;var isRef=/^([1-3]? ?[a-z ]+?) (\\d+)(?::(\\d+))?$/.test(n);if(!isRef&&H.indexOf(n)>=0)return true;
  var m=n.match(/^([1-3]? ?[a-z ]+?) (\\d+)(?::(\\d+))?$/);if(m){var b=m[1].trim(),c=+m[2],v=m[3]?+m[3]:null;var lab=[r.nt,r.ot];for(var k=0;k<lab.length;k++){var parts=lab[k].toLowerCase().split(/; */);for(var p=0;p<parts.length;p++){var mm=parts[p].match(/^(?:(.*?) )?(\\d+)[:](\\d+)(?:[–-](\\d+))?(?:, (\\d+))?/);}}
   var all=(r.nt+'; '+r.ot).split(/; */);for(var i=0;i<all.length;i++){var x=qn(all[i]);var mx=x.match(/^([1-3]? ?[a-z ]+?) (\\d+):(\\d+)(?:-(\\d+))?/);if(mx&&mx[1].trim()===b&&+mx[2]===c){if(v===null)return true;var a=+mx[3],z=mx[4]?+mx[4]:a;if(v>=a&&v<=z)return true}}
   if(!r._fb)return false;var sides=[[r.ntv,r.nt],[r.otv,r.ot]];for(var q2=0;q2<2;q2++){if(qn(sides[q2][1]).indexOf(b)<0)continue;var vv=sides[q2][0];for(var j=0;j<vv.length;j++){var vm=vv[j].match(/^(\\d+):(\\d+)/);if(vm&&+vm[1]===c&&(v===null||+vm[2]===v))return true}}return false}
@@ -102,7 +104,7 @@ function otsegs(r){return r._os||(r._os=r.ot.split(/; */).map(pr).filter(Boolean
 function same(r){if(r._sm)return r._sm;var A=otsegs(r),out=[];r._sm=out;D.forEach(function(o){if(o.id===r.id)return;var B=otsegs(o);for(var i=0;i<A.length;i++)for(var j=0;j<B.length;j++){if(A[i].b===B[j].b&&A[i].c===B[j].c&&A[i].a<=B[j].z&&B[j].a<=A[i].z){out.push(o);return}}});return out}
 function sameHtml(r){var o=same(r);if(!o.length)return'';var sh=o.slice(0,5).map(function(x){return'<a href="#use-'+x.id+'">'+esc(x.nt)+'</a>'}).join(' · ');return'<p class="uc-p uc-same"><b>This Old Testament passage is also used in:</b> '+sh+(o.length>5?' · and '+(o.length-5)+' more':'')+'</p>'}
 function helper(t){var n=qn(t),m=n.match(/^([1-3]? ?[a-z ]+?) (\\d+)(?::(\\d+))?(?:-(\\d+))?$/),b=m?m[1].trim():n.replace(/ \\d.*$/,'');var nt=NTALL.filter(function(x){return x.toLowerCase()===b})[0];
- if(nt&&!BK.some(function(x){return x===nt}))return'<p>'+esc(nt)+' is not in this edition yet. The books covered so far are listed in the chips above.</p>';
+ if(nt&&!BK.some(function(x){return x===nt}))return'<p>'+esc(nt)+' has no use listed in this edition. The books with listed uses are in the chips above.</p>';
  if(m){var c=+m[2],near=D.filter(function(r){return r.book.toLowerCase()===b}).map(function(r){var p=pr(r.nt);return p?{r:r,d:Math.abs(p.c-c)*1000+Math.abs(p.a-(m[3]?+m[3]:1))}:null}).filter(Boolean).sort(function(x,y){return x.d-y.d}).slice(0,3);
   if(near.length)return'<p>No use is listed at '+esc(t)+'. Nearest in '+esc(near[0].r.book)+': '+near.map(function(x){return'<a href="#use-'+x.r.id+'">'+esc(x.r.nt)+'</a>'}).join(' · ')+'.</p>'}
  if(BN.some(function(x){return b===x||b.indexOf(x)>=0})&&!nt)return'<p>No New Testament use of that passage is listed in this edition. Try a New Testament book, or a nearby chapter.</p>';
