@@ -1,6 +1,6 @@
-# Fit Check Map v1.16
+# Fit Check Map v1.17
 
-Version 1.16. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
+Version 1.17. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
 ## 1. How to use it
 
 1. Name the passage(s) and the one narrower question. 2. Run `python3 -I build-tools/fit-check/fitcheck.py "<passage>"` and read Sections 5 and 6 below. 3. Read the neighbours' own question in Section 4 (and the PDF when the grade is argued). 4. State the verdict: clear, fit by mode, fit by narrower question, overlap (needs a different question), or duplicate. 5. Check the series arc (Section 3) if a volume is proposed.
@@ -20,7 +20,7 @@ Depth grades come from counts in the publisher's PDFs (argued = named 4+ times, 
 | Commentary Volume | 48 | PDF |
 | Parable Study | 35 | Word file |
 | Free Resource (library) | 21 | library entry |
-| Free Resource | 9 | page |
+| Free Resource | 10 | page |
 | Reader Questions Volume | 6 | PDF |
 | Interactive Map | 3 | page |
 | Course | 1 | page |
@@ -378,6 +378,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | R-paul-missionary-journeys | Interactive Map | Paul's Missionary Journeys |  | 0 |
 | R-acts-overlap-visual-guide | Free Resource | The Acts Overlap Model |  | 0 |
 | R-new-testament-use-of-old-testament | Free Resource | The New Testament's Use of the Old Testament |  | 0 |
+| R-ot-in-nt-quotations | Free Resource | Search the New Testament's Use of the Old Testament |  | 0 |
 | R-building-biblical-doctrine | Free Resource | Building Biblical Doctrine |  | 0 |
 | R-historical-drift | Free Resource | Historical Drift |  | 0 |
 | R-replacement-theology | Free Resource | Replacement Theology |  | 0 |
@@ -728,6 +729,7 @@ Related Reading links by product family (rows link to columns):
 | 1.14 | 2026-10-17 | Adds The Sign Gifts Series Volume 3, Healing in the Body (55 pages with the cover; subtitle The Sign-Gift of Healing and the Body's Non-Sign Pattern; $14.99), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists Volume 4 only. Related Reading links added both ways with Study 86 and the James and 2 Corinthians companions; Studies 25 and 38, Sign Gifts Volumes 1 and 2, Acts Commentary Vol 5 and the 1 Corinthians companion already carry three links in their lists, so the volume page links to them and no link back was added. |
 | 1.15 | 2026-10-17 | Adds The Sign Gifts Series Volume 4, Apostles and Prophets (52 pages with the cover; subtitle The Apostolic and Prophetic Offices in Scripture; $14.99), to the registry, the passage tables, the series arcs and the Related Reading links, graded from its PDF; Section 8b now lists no planned items, and the series is complete at four volumes. Related Reading links added both ways with Studies 18 and 36, Acts Commentary Volume 3 and the 2 Corinthians companion; Study 14, Sign Gifts Volumes 1, 2 and 3, Pauline Volume 4 and the Ephesians and Galatians companions already carry three links in their lists, so the volume page links to them and no link back was added. Series pricing took effect on the Commentary Collection page: bundle $43.99, Library of 48 volumes in ten series $454.99. |
 | 1.16 | 2026-10-18 | Adds the free resource The New Testament's Use of the Old Testament (survey guide with a 25-row chart and PDF) to the registry. Verdict clear: no product states its question; Studies 62, 63 and 86, Typology Commentary Volume 4, Acts Commentary Volumes 2 and 4 and Readers Question Volume 6 are neighbours, cited and not argued. Survey, no position on how the New Testament uses the Old. Passage tables not regraded (a resource, no commentary depth). |
+| 1.17 | 2026-10-18 | Adds the free resource Search the New Testament's Use of the Old Testament (page `ot-in-nt-quotations.html`, data `assets/ot-in-nt-quotations.json`, 257 uses across the New Testament) to the registry; library count 31. Verdict: overlap at the passage level (many studies, volumes and companions argue the same passages), accepted because it is a lookup of where a New Testament verse quotes or points to an Old Testament text and how the text marks the link, and argues no position; neighbours cited, not argued. One eight-kind classification (Quotation direct and composite; Allusion lexical, thematic, narrative, typological; Echo; Parallel) plus Interpretive Device (Pauline) for Galatians 4:21–31, applied to the database and to the survey guide, which was re-labelled in the same pass; tag "Not signalled by the text" for parallels; Matthew 27:9–10 listed as Matthew names the source, no note. Build files in `build-tools/nt-use-of-ot/`. Passage tables not regraded. |
 
 ## Appendix. Digital Studies Relationship Map v1.54 (carried forward whole)
 
