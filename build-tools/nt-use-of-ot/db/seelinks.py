@@ -56,6 +56,6 @@ def see(nt_label,maxspan=30):
     out.sort(key=lambda x:(-x[1][0],-x[1][1]))
     res=[]
     for k,_ in out[:3]:
-        sl=reg[k]['slug'];a=anchor(sl,iv)
-        res.append([label(k),sl+('#'+a if a else '')])
+        sl=reg[k]['slug']
+        res.append([label(k),sl])
     return res
