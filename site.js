@@ -44,7 +44,7 @@ if (toggle && nav) {
       const btn = document.createElement('button'); btn.type = 'button'; btn.className = 'nav-group-btn'; btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-haspopup', 'true'); btn.innerHTML = 'RESOURCES <span aria-hidden="true">\u25BE</span>';
       const sub = document.createElement('div'); sub.className = 'nav-sub';
       const qLink = document.createElement('a'); qLink.href = 'questions.html'; qLink.textContent = 'READER QUESTIONS';
-      const resNext = resLink.nextElementSibling; resLink.textContent = 'RESOURCES'; const smLink = document.createElement('a'); smLink.href = 'second-coming-map.html'; smLink.textContent = 'SECOND COMING MAP'; sub.appendChild(resLink); sub.appendChild(qLink); const jmLink = document.createElement('a'); jmLink.href = 'jesus-ministry-map.html'; jmLink.textContent = 'MINISTRY ROUTE MAP'; const ntLink = document.createElement('a'); ntLink.href = 'new-testament-use-of-old-testament.html'; ntLink.textContent = 'NT USE OF THE OT'; sub.appendChild(smLink); sub.appendChild(jmLink); sub.appendChild(ntLink);
+      const resNext = resLink.nextElementSibling; resLink.textContent = 'RESOURCES'; sub.appendChild(resLink); sub.appendChild(qLink);
       group.appendChild(btn); group.appendChild(sub); nav.insertBefore(group, resNext);
       const setGroup = (open) => { btn.setAttribute('aria-expanded', String(open)); group.classList.toggle('open', open); };
       btn.addEventListener('click', (e) => { e.stopPropagation(); setGroup(btn.getAttribute('aria-expanded') !== 'true'); });
