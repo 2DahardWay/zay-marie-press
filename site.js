@@ -180,3 +180,19 @@ if(document.body.classList.contains('digital-studies-page')){
 })();
 
 ;(function(){try{const col=[...document.querySelectorAll('.footer-column')].find(c=>{const h=c.querySelector('h3');return h&&h.textContent.trim()==='Explore';});if(!col||col.querySelector('a[href="questions.html"]'))return;const box=col.querySelector('.footer-links-stacked');if(!box)return;const res=box.querySelector('a[href="resources.html"]');if(!res)return;const br=document.createElement('br');const a=document.createElement('a');a.href='questions.html';a.textContent='Reader Questions';res.after(br,a);}catch(e){}})();
+
+/* Floating "Back to top" arrow on long pages (publisher approval 2026-10-17). Skips pages that already carry one. */
+(function(){try{
+  var start=function(){
+    if(window.__bttSite||document.querySelector('.btt-float,#totop,.totop'))return;
+    window.__bttSite=true;
+    if(!document.getElementById('btt-site-css')){var st=document.createElement('style');st.id='btt-site-css';st.textContent='.btt-float{position:fixed;right:18px;bottom:18px;z-index:40;width:48px;height:48px;border-radius:50%;border:0;background:#176536;color:#fff;font:700 1.2rem/1 Arial,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer;opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}.btt-float.show{opacity:1;visibility:visible}.btt-float:hover{background:#0f4f29}.btt-float:focus-visible{outline:3px solid #b8871c;outline-offset:3px}@media(prefers-reduced-motion:reduce){.btt-float{transition:none}}@media(max-width:480px){.btt-float{width:38px;height:38px;right:8px;bottom:10px;font-size:1rem;box-shadow:0 2px 8px rgba(0,0,0,.22)}.btt-float.show{opacity:.82}.btt-float.show:hover,.btt-float.show:focus-visible{opacity:1}}@media print{.btt-float{display:none!important}}';document.head.appendChild(st);}
+    var rm=function(){return window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;};
+    var f=document.createElement('button');f.type='button';f.className='btt-float';f.setAttribute('aria-label','Back to top');f.innerHTML='↑';
+    f.addEventListener('click',function(){var r=rm(),y0=window.pageYOffset;window.scrollTo({top:0,behavior:r?'auto':'smooth'});if(!r)setTimeout(function(){if(window.pageYOffset>=y0-2&&y0>2)window.scrollTo({top:0,behavior:'instant'});},900);var h=document.querySelector('header a, .logo a');if(h)setTimeout(function(){h.focus({preventScroll:true})},r?0:1000);});
+    document.body.appendChild(f);
+    var upd=function(){var y=window.pageYOffset,h=document.documentElement.scrollHeight,vh=window.innerHeight;f.classList.toggle('show',h>vh*3&&y>vh*1.5&&y+vh<h-500);};
+    window.addEventListener('scroll',upd,{passive:true});window.addEventListener('resize',upd);upd();
+  };
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
+}catch(e){}})();
