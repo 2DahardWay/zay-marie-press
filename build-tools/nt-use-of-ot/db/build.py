@@ -1,4 +1,6 @@
 import sys,re,json,html
+sys.path.insert(0,'/home/claude/zay-marie-press/build-tools/nt-use-of-ot/db')
+from seelinks import see
 sys.path.insert(0,'/home/claude/zay-marie-press/build-tools/parables')
 import kjvlib
 from data2 import R
@@ -33,7 +35,7 @@ for i,r in enumerate(R,1):
     rows.append(dict(id=i,nt=r['nt_label'],book=book,ot=r['ot_label'],otb=sorted({b for b,_,_ in r['ot']}),
       typ=TMAP.get(r['typ'],r['typ']),typo=TYPO.get(r['nt_label']),tag={'Marked':'Marked by the text','Shown':'Shown by the context','None':'Not signalled by the text'}[r['tag']],
       fm=r['fm'],note=('' if r['typ'] in ('Typology','Allegory') else r['note']),ntv=verses(r['nt']),otv=verses(r['ot']),
-      line=('Acts' if book=='Acts' else 'Paul\'s letters' if book in ('Romans','1 Corinthians','2 Corinthians','Galatians','Ephesians','Philippians','1 Timothy','2 Timothy') else 'Israel line'),loose=loose(r)))
+      line=('Acts' if book=='Acts' else 'Paul\'s letters' if book in ('Romans','1 Corinthians','2 Corinthians','Galatians','Ephesians','Philippians','1 Timothy','2 Timothy') else 'Israel line'),loose=loose(r),see=see(r['nt_label'])))
 json.dump(rows,open(ROOT+'assets/ot-in-nt-quotations.json','w'),ensure_ascii=False,separators=(',',':'))
 src=open(ROOT+'new-testament-use-of-old-testament.html').read()
 css=re.search(r'<style>(.*?)</style>',src,re.S).group(1)
@@ -41,7 +43,7 @@ EXTRA='''
 .hero{padding:34px 0 10px!important;min-height:0!important}.hero h1{font-size:clamp(30px,5vw,46px)!important}
 .sbox{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 10px}.sbox input[type=search]{flex:1 1 280px;min-width:0;padding:13px 14px;font:16px Arial;border-radius:10px;border:1px solid var(--gold);background:#0c1a30;color:#fff}
 .flt{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 8px}.flt select{padding:10px;border-radius:8px;border:1px solid rgba(212,175,55,.5);background:#0c1a30;color:#fff;font:15px Arial;max-width:100%}
-#count{margin:10px 0 16px;color:#cfd8e6;font-size:15px}#res .uc{margin-bottom:14px}.note2{font-size:14px;color:#cfd8e6;margin:6px 0 0}mark{background:#d4af37;color:#091426;padding:0 2px;border-radius:2px}
+.uc-see{margin-top:14px;padding-top:12px;border-top:1px solid rgba(212,175,55,.25);font-size:14px;line-height:1.7}.uc-see a{color:var(--gold,#d4af37);text-decoration:underline;text-underline-offset:3px}#count{margin:10px 0 16px;color:#cfd8e6;font-size:15px}#res .uc{margin-bottom:14px}.note2{font-size:14px;color:#cfd8e6;margin:6px 0 0}mark{background:#d4af37;color:#091426;padding:0 2px;border-radius:2px}
 .tag.t3{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.35);color:#e6edf7}.tip{background:rgba(212,175,55,.1);border:1px solid rgba(212,175,55,.4);border-radius:10px;padding:12px 14px;font-size:15px;margin:10px 0}
 '''
 TITLE="Search the New Testament’s Use of the Old Testament"
@@ -76,7 +78,7 @@ function match(r,t){if(!t)return true;var n=qn(t);var H=r._h;var rg=n.match(/^([
 function hl(s,t){return esc(s)}
 function card(r){var cls=r.tag.charAt(0)==='M'?'t1':r.tag.charAt(0)==='S'?'t2':'t3';var fm=r.fm;
  function fmt(arr,bold){return arr.map(function(v){var i=v.indexOf(' ');var t=esc(v.slice(i+1));if(bold&&fm){var e=esc(fm);var k=t.indexOf(e);if(k>=0)t=t.replace(e,'<b>'+e+'</b>')}return'<sup>'+v.slice(0,i)+'</sup> '+t}).join(' ')}
- return'<article class="uc"><div class="uc-h"><span class="uc-n">'+r.id+'</span><div><h3>'+esc(r.nt)+' <span class="arrow">←</span> '+esc(r.ot)+'</h3><p class="uc-meta">'+esc(r.line)+' · '+esc(r.typ)+' · <span class="tag '+cls+'">'+esc(r.tag)+'</span></p></div></div>'+(r.typo?'<div class="uc-cols" style="margin-bottom:10px"><div><h4>'+(r.typ.indexOf('Interpretive')===0?'Accounts Paul names':'Old Testament type')+'</h4><p>'+esc(r.typo[0])+'</p></div><div><h4>'+(r.typ.indexOf('Interpretive')===0?'What he says they are':'New Testament antitype')+'</h4><p>'+esc(r.typo[1])+'</p></div></div><p class="uc-p"><b>'+(r.typ.indexOf('Interpretive')===0?'Marked by Paul':'Canonical justification')+'.</b> '+esc(r.typo[2])+'</p>':'')+(r.note?'<p class="uc-p">'+esc(r.note)+'</p>':'')+(r.loose&&r.note.indexOf('differs')<0?'<p class="uc-p"><i>The New Testament wording differs from the KJV Old Testament wording here; both are given as written.</i></p>':'')+'<div class="uc-cols"><div><h4>New Testament (KJV)</h4><p>'+fmt(r.ntv,true)+'</p></div><div><h4>Old Testament (KJV)</h4><p>'+(r.otv.length?fmt(r.otv,false):'<i>The source is given as named in the New Testament verse; no Old Testament text is shown.</i>')+'</p></div></div></article>'}
+ return'<article class="uc"><div class="uc-h"><span class="uc-n">'+r.id+'</span><div><h3>'+esc(r.nt)+' <span class="arrow">←</span> '+esc(r.ot)+'</h3><p class="uc-meta">'+esc(r.line)+' · '+esc(r.typ)+' · <span class="tag '+cls+'">'+esc(r.tag)+'</span></p></div></div>'+(r.typo?'<div class="uc-cols" style="margin-bottom:10px"><div><h4>'+(r.typ.indexOf('Interpretive')===0?'Accounts Paul names':'Old Testament type')+'</h4><p>'+esc(r.typo[0])+'</p></div><div><h4>'+(r.typ.indexOf('Interpretive')===0?'What he says they are':'New Testament antitype')+'</h4><p>'+esc(r.typo[1])+'</p></div></div><p class="uc-p"><b>'+(r.typ.indexOf('Interpretive')===0?'Marked by Paul':'Canonical justification')+'.</b> '+esc(r.typo[2])+'</p>':'')+(r.note?'<p class="uc-p">'+esc(r.note)+'</p>':'')+(r.loose&&r.note.indexOf('differs')<0?'<p class="uc-p"><i>The New Testament wording differs from the KJV Old Testament wording here; both are given as written.</i></p>':'')+'<div class="uc-cols"><div><h4>New Testament (KJV)</h4><p>'+fmt(r.ntv,true)+'</p></div><div><h4>Old Testament (KJV)</h4><p>'+(r.otv.length?fmt(r.otv,false):'<i>The source is given as named in the New Testament verse; no Old Testament text is shown.</i>')+'</p></div></div>'+(r.see&&r.see.length?'<p class="uc-p uc-see"><b>Read more on this passage:</b> '+r.see.map(function(x){return'<a href="'+x[1]+'">'+esc(x[0])+'</a>'}).join(' · ')+'</p>':'')+'</article>'}
 function run(){var t=q.value;var out=D.filter(function(r){return(!fb.value||r.book===fb.value)&&(!ft.value||r.typ.indexOf(ft.value)===0)&&(!fg.value||r.tag===fg.value)&&match(r,t)});
  cnt.textContent=out.length+' of '+D.length+' uses shown';res.innerHTML=out.length?out.map(card).join(''):'<p>No match in this edition. Try a book name, a chapter (for example “Isaiah 53”), or a word from the verse.</p>'}
 fetch('assets/ot-in-nt-quotations.json').then(function(r){return r.json()}).then(function(d){D=d;D.forEach(function(r){r._h=hay(r);r._fb=(r.nt+'; '+r.ot).split(/; */).some(function(x){return !/^[1-3]? ?[A-Za-z ]+? \\d+:\\d+(?:[–-]\\d+)?$/.test(x.trim())})});document.getElementById('n').textContent=D.length;run()});
