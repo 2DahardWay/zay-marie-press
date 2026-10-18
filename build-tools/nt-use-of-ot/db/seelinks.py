@@ -19,15 +19,16 @@ def label(i):
     if t=='Digital Study': return 'Study %d: %s'%(r['n'],r['title'])
     if t=='Parable Study': return 'Parable Study: '+r['title']
     return '%s, Volume %s: %s'%(r['series'],r.get('n',''),r['title'])
-def see(nt_label):
+def see(nt_label,maxspan=30):
+    """Only coverage rows that name the verses themselves (a span of at most maxspan verses), never whole-chapter coverage."""
     iv=[x for ref in B.find_refs(nt_label) for x in ref[1]]
     L=sum(h-l+1 for _,l,h in iv) or 1
     sc={}
     for code,lo,hi in iv:
         for c in cov:
-            if c['book']==code and c['depth']=='argued' and c['lo']<=hi and lo<=c['hi'] and reg.get(c['item'],{}).get('type') in OK:
+            if c['book']==code and c['depth'] in ('argued','reported') and c['hi']-c['lo']<=maxspan and c['lo']<=hi and lo<=c['hi'] and reg.get(c['item'],{}).get('type') in OK:
                 ov=min(hi,c['hi'])-max(lo,c['lo'])+1
-                s=sc.setdefault(c['item'],[0,0]);s[0]+=ov;s[1]=tot[(c['item'],code)]
-    out=[(k,v[0]/L*.5+v[0]/v[1]*.5) for k,v in sc.items() if v[0]/L>=.5]
-    out.sort(key=lambda x:-x[1])
+                k=sc.setdefault(c['item'],[0,0]);k[0]=max(k[0],ov);k[1]+=c.get('mentions',1)
+    out=[(k,v) for k,v in sc.items() if v[0]/L>=.5]
+    out.sort(key=lambda x:(-x[1][0],-x[1][1]))
     return [[label(k),reg[k]['slug']] for k,_ in out[:3]]
