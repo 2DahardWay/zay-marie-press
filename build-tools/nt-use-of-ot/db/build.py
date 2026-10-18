@@ -31,7 +31,7 @@ TYPO={
 "Galatians 4:21\u201331":("Hagar and Sarah, the two sons of Abraham (Genesis 21:10)","The two covenants (Galatians 4:24)","\u201cWhich things are an allegory\u201d (Galatians 4:24), the one place the KJV uses the word."),
 }
 ORDER=['Matthew','Mark','Luke','John','Acts','Romans','1 Corinthians','2 Corinthians','Galatians','Ephesians','Philippians','Colossians','1 Thessalonians','2 Thessalonians','1 Timothy','2 Timothy','Titus','Philemon','Hebrews','James','1 Peter','2 Peter','1 John','2 John','3 John','Jude','Revelation']
-OTN={'Gen':'Genesis','Exod':'Exodus','Lev':'Leviticus','Num':'Numbers','Deut':'Deuteronomy','Josh':'Joshua','1Sam':'1 Samuel','2Sam':'2 Samuel','1Kgs':'1 Kings','2Kgs':'2 Kings','Job':'Job','Ps':'Psalms','Prov':'Proverbs','Isa':'Isaiah','Jer':'Jeremiah','Ezek':'Ezekiel','Dan':'Daniel','Hos':'Hosea','Joel':'Joel','Amos':'Amos','Jonah':'Jonah','Mic':'Micah','Hab':'Habakkuk','Hag':'Haggai','Zech':'Zechariah','Mal':'Malachi'}
+OTN={'Gen':'Genesis','Exod':'Exodus','Lev':'Leviticus','Num':'Numbers','Deut':'Deuteronomy','Josh':'Joshua','1Sam':'1 Samuel','2Sam':'2 Samuel','1Kgs':'1 Kings','2Kgs':'2 Kings','Job':'Job','Ps':'Psalms','Prov':'Proverbs','Isa':'Isaiah','Jer':'Jeremiah','Ezek':'Ezekiel','Dan':'Daniel','Hos':'Hosea','Joel':'Joel','Amos':'Amos','Jonah':'Jonah','Mic':'Micah','Hab':'Habakkuk','Hag':'Haggai','Zech':'Zechariah','Mal':'Malachi','Eccl':'Ecclesiastes','2Chr':'2 Chronicles'}
 WRK={'Matthew':'Matthew','Mark':'Mark','Luke':'Luke','Acts':'Luke','John':'John','1 John':'John','2 John':'John','3 John':'John','Revelation':'John','Hebrews':'Hebrews','James':'James','1 Peter':'Peter','2 Peter':'Peter','Jude':'Jude'}
 def ctx(refs):
     out=[]
