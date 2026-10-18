@@ -14,6 +14,29 @@ OK={'Digital Study','Commentary Volume','Parable Study'}
 tot={}
 for c in cov:
     if c['depth']=='argued': tot[(c['item'],c['book'])]=tot.get((c['item'],c['book']),0)+c['hi']-c['lo']+1
+import re,os
+ROOT='/home/claude/zay-marie-press/'
+_cards={}
+def cards(slug):
+    if slug not in _cards:
+        out=[]
+        p=ROOT+slug
+        if os.path.exists(p):
+            t=open(p,encoding='utf-8').read()
+            for m in re.finditer(r'<div class="scripture-card" id="([^"]+)"><h3>(.*?)</h3>',t):
+                iv=[x for ref in B.find_refs(re.sub(r'<[^>]+>','',m.group(2)).replace('&amp;','&')) for x in ref[1]]
+                out.append((m.group(1),iv))
+        _cards[slug]=out
+    return _cards[slug]
+def anchor(slug,nt_ivs):
+    best=None;bo=0
+    for cid,iv in cards(slug):
+        ov=0
+        for c1,l1,h1 in iv:
+            for c2,l2,h2 in nt_ivs:
+                if c1==c2 and l1<=h2 and l2<=h1: ov+=min(h1,h2)-max(l1,l2)+1
+        if ov>bo: bo=ov;best=cid
+    return best
 def label(i):
     r=reg[i];t=r['type']
     if t=='Digital Study': return 'Study %d: %s'%(r['n'],r['title'])
@@ -31,4 +54,8 @@ def see(nt_label,maxspan=30):
                 k=sc.setdefault(c['item'],[0,0]);k[0]=max(k[0],ov);k[1]+=c.get('mentions',1)
     out=[(k,v) for k,v in sc.items() if v[0]/L>=.5]
     out.sort(key=lambda x:(-x[1][0],-x[1][1]))
-    return [[label(k),reg[k]['slug']] for k,_ in out[:3]]
+    res=[]
+    for k,_ in out[:3]:
+        sl=reg[k]['slug'];a=anchor(sl,iv)
+        res.append([label(k),sl+('#'+a if a else '')])
+    return res
