@@ -194,7 +194,7 @@ def E(nl,nt,ol,ot,fm='',note=''):
     Q(nl,nt,ol,ot,fm,note,typ="Echo (verbal resonance)",tag="Shown")
 E("Mark 1:6",[("Mark",1,"6")],"2 Kings 1:8",[("2Kgs",1,"8")],"","The clothing of John is described in the words used of Elijah.")
 E("Revelation 22:2",[("Rev",22,"2")],"Ezekiel 47:12",[("Ezek",47,"12")],"","")
-E("Philippians 2:10–11",[("Phil",2,"10-11")],"Isaiah 45:23",[("Isa",45,"23")],"","Isaiah 45:23 is quoted with a formula in Romans 14:11.")
+Q("Philippians 2:10–11",[("Phil",2,"10-11")],"Isaiah 45:23",[("Isa",45,"23")],"","The words “every knee” and “every tongue” match Isaiah 45:23; the verse does not say it is quoting. Isaiah 45:23 is quoted with a formula in Romans 14:11.",typ="Allusion")
 # ---- Parallel (non-dependent similarity): clear similarity, no signal of dependence in the NT text
 def P(nl,nt,ol,ot,note=''):
     Q(nl,nt,ol,ot,'',note,typ="Parallel (non-dependent similarity)",tag="None")
