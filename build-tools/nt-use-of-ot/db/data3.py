@@ -189,3 +189,7 @@ Q('Luke 10:15',[("Luke",10,"15")],'Isaiah 14:13; Isaiah 14:15',[("Isa",14,"13"),
 Q('Luke 23:36',[("Luke",23,"36")],'Psalm 69:21',[("Ps",69,"21")],'','The words “vinegar” match Psalm 69:21; the verse does not say it is quoting.',typ="Allusion")
 Q('Matthew 11:23',[("Matt",11,"23")],'Isaiah 14:13; Isaiah 14:15',[("Isa",14,"13"),("Isa",14,"15")],'','The words “hell” match Isaiah 14:13; Isaiah 14:15; the verse does not say it is quoting.',typ="Allusion")
 Q('Matthew 24:31',[("Matt",24,"31")],'Isaiah 27:13',[("Isa",27,"13")],'','The words “trumpet” match Isaiah 27:13; the verse does not say it is quoting.',typ="Allusion")
+# ---- 2 John and 3 John, added at the publisher's direction (2026-10-18)
+E("2 John 8",[("2John",1,"8")],"Ruth 2:12",[("Ruth",2,"12")],"","“A full reward” in both. The wording is slight, and the verse does not say it is quoting.")
+E("2 John 4",[("2John",1,"4")],"Psalm 86:11",[("Ps",86,"11")],"","“Walking in truth” beside “I will walk in thy truth.” The wording is slight, and the verse does not say it is quoting.")
+E("3 John 3–4",[("3John",1,"3-4")],"Psalm 86:11",[("Ps",86,"11")],"","“Walkest in the truth” and “walk in truth” beside “I will walk in thy truth.” The wording is slight, and the verses do not say they are quoting.")
