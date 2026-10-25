@@ -288,6 +288,11 @@ while i < len(lines):
         callout(title, body_lines); i += 1; continue
     if ln.startswith('::: table'):
         flush_para(buf); buf = []
+        _last = body[-2] if len(body) > 1 else None  # last element before sectPr
+        if _last is not None and _last.tag == qn('w:p'):
+            from docx.text.paragraph import Paragraph
+            Paragraph(_last, d._body).paragraph_format.keep_with_next = True
+        flush_para(buf); buf = []
         opts = ln[len('::: table'):].split()
         ratios = [int(x) for x in opts[0].split(',')]; tall = 'tall' in opts
         rows = []; i += 1
