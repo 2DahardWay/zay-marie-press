@@ -1,0 +1,367 @@
+#! What You Will Learn in This Study
+
+By the end of this study, you should be able to:
+
+- Trace the five paired contrasts in 6:14–16a by following each term Paul sets against another.
+- Follow the words "as God hath said" back to the Old Testament lines Paul gathers in 6:16–18.
+- Read each of those lines in its own chapter, audience and setting before reading Paul's use of it.
+- Compare Paul's wording with the wording of each source and note where he changes it.
+- Separate what Paul directly commands the Corinthian assembly from what he quotes.
+- Test the application in 7:1 against the passage's own words.
+
+::: callout STUDY GOAL
+To read 2 Corinthians 6:14–7:1 verse by verse so that you can state what Paul commands, what he quotes, and what he applies, and can show from the text itself why a citation is not a transfer.
+:::
+
+## Study Outline
+
+1. Where the passage sits (6:11–13 and 7:2–4)
+2. The command: "Be ye not unequally yoked together with unbelievers" (6:14a)
+3. The five questions (6:14b–16a)
+4. "Ye are the temple of the living God" (6:16a)
+5. "As God hath said": four sources read in their own settings (6:16b–18)
+6. What Paul applies: "Having therefore these promises" (7:1)
+7. What the passage does not say
+
+# Introduction
+
+Few paragraphs in Paul's letters are quoted more often and defined less carefully than 2 Corinthians 6:14–7:1. "Be ye not unequally yoked together with unbelievers" is read as a rule for marriage, for business, for friendship and for church membership, sometimes all in one sermon. Then the passage turns, and Paul quotes Israel's Scriptures in a chain of promises: "I will dwell in them, and walk in them; and I will be their God, and they shall be my people." The reader is left holding a command, a stack of quotations, and no clear way to say how they fit together.
+
+This study does one thing: it walks the passage in order and lets the text answer three separate questions. What does Paul **command** the Corinthian assembly to do? What does he **quote** from the Old Testament, and what did those lines say to Israel in their own settings? What does he **apply** to Corinth from them? The three questions are kept apart on purpose. Most confusion over this passage comes from letting the second answer slide into the first.
+
+This reading rests on the passage's own audience markers and setting. Paul writes to "the church of God which is at Corinth" (1:1) and addresses them directly as "ye" and as "dearly beloved" (7:1). The Old Testament lines he cites were spoken to Israel, to Judah, to David's house and to Israel's priests. The study reads Paul's direct address as addressed to the Corinthian assembly and reads each quotation as addressed to the people it was first spoken to.
+
+Four boundaries govern the reading:
+
+1. **Citation is not covenantal transfer.** When Paul says "as God hath said," he draws on Israel's Scriptures. That does not make the Corinthian assembly a party to the covenants those Scriptures belong to.
+2. **Application is not identity.** Paul applies a principle: the God who dwells among his people calls for separation from idolatry and uncleanness. Applying a principle does not give the assembly Israel's name, Israel's promises or Israel's program.
+3. **Direct instruction and quoted Scripture are different kinds of text.** What Paul says to Corinth in his own voice ("ye are the temple of the living God," "let us cleanse ourselves") establishes the assembly's present standing. What he quotes supplies the scriptural principle he applies.
+4. **Each source is read before its use.** A quoted line is not interpreted from Paul's use of it alone. It is read in its own chapter first.
+
+Throughout, "Israel's Prophecy Program" means God's dealings with Israel and the nations through the covenants and the prophets, and "the Body of Christ" means the assembly formed through the gospel of the grace of God that Paul received. They run concurrently in Acts 9–28, the period in which this letter was written, and they do not merge, transfer or absorb one another.
+
+::: callout READ FIRST
+In 2 Corinthians 6:14–7:1 there are three kinds of statement: what Paul commands, what he quotes, and what he applies. Keep them in three separate columns in your notes as you read.
+:::
+
+# 1. Where the Passage Sits (6:11–13; 7:2–4)
+
+The passage does not stand alone. Before it, Paul has spent most of chapter 6 describing his own ministry (6:1–10) and has just opened his heart to the assembly. After it, he picks up the same appeal. Read the frame first.
+
+::: table 2,6,7
+| Verse | KJV text | What to observe |
+| 6:11 | O ye Corinthians, our mouth is open unto you, our heart is enlarged. | Paul speaks to "ye Corinthians" by name. The audience is fixed before the command begins. |
+| 6:12 | Ye are not straitened in us, but ye are straitened in your own bowels. | The restriction he names is in the assembly's own affections, not in Paul. |
+| 6:13 | Now for a recompence in the same, (I speak as unto my children,) be ye also enlarged. | Paul asks for open hearts in return. The relationship is personal and pastoral. |
+| 7:2 | Receive us; we have wronged no man, we have corrupted no man, we have defrauded no man. | The personal appeal of 6:11–13 resumes here, after the passage, as a request to be received. |
+| 7:3 | I speak not this to condemn you: for I have said before, that ye are in our hearts to die and live with you. | Paul states his purpose: not condemnation. |
+:::
+
+The appeal in 6:11–13 and 7:2–4 is one appeal. The passage stands inside it, and that placement shows a pastor speaking to children he loves, not a judge reading a list.
+
+# 2. The Command: "Be Ye Not Unequally Yoked" (6:14a)
+
+::: table 2,6,7
+| Verse | KJV text | What to observe |
+| 6:14a | Be ye not unequally yoked together with unbelievers: | A prohibition addressed to "ye." The word for "unequally yoked" appears only here in the New Testament. "Unbelievers" is the plural of the word also translated "infidel" in 6:15. |
+:::
+
+The picture is two animals pulling under one yoke. A yoke joins two for shared work, and "unequally" means the two are not matched. Paul does not cite Deuteronomy 22:10 ("Thou shalt not plow with an ox and an ass together"), but the image is in the same family, and a reader familiar with Israel's Scriptures would hear the echo. The echo is noted here and nothing is built on it.
+
+Three features of the sentence control what it can be taken to mean:
+
+- **It names a pairing:** believers on one side, unbelievers on the other.
+- **It names a joint work.** Whatever the yoke is, it is something two parties pull together. The following verses fill in the area: fellowship, communion, concord, part and agreement, all set against righteousness, light, Christ and the temple of God.
+- **It names no marriage, no business and no friendship.** Each of those is a possible application, but none is in the text. The text's own area (6:14b–16a) stays in front, and applications beyond it are readers' applications, not Paul's words.
+
+**Observe.** Write 6:14a in your own words without adding any setting Paul did not name. Then list the setting words that Paul does use in 6:14b–16a.
+
+# 3. The Five Questions (6:14b–16a)
+
+::: table 2,6,7
+| Verse | KJV text | What to observe |
+| 6:14b | for what fellowship hath righteousness with unrighteousness? | Question one. Righteousness and unrighteousness are set side by side as unlike. |
+| 6:14c | and what communion hath light with darkness? | Question two. Light and darkness. Communion is shared participation. |
+| 6:15a | And what concord hath Christ with Belial? | Question three. Christ is named. "Belial" is a personal name, and it appears only here in the New Testament. |
+| 6:15b | or what part hath he that believeth with an infidel? | Question four. The pairing of 6:14a is restated: "he that believeth" and "an infidel" (the same word translated "unbelievers"). |
+| 6:16a | And what agreement hath the temple of God with idols? | Question five. The setting becomes concrete: the temple of God and idols. |
+:::
+
+### 3.1 The pattern of the questions
+
+There are five questions, and every one is asked in the same form: *what [shared thing] has [one side] with [the other]?* Each expects the answer "none." Paul does not argue for the answer. He assumes the Corinthians already hold it, and asks them to apply it.
+
+The pairs move from abstract to concrete. Righteousness and light are qualities. Christ and Belial are persons. The believer and the unbeliever are people the Corinthians know. The temple of God and idols are things the Corinthians can see. The fifth question is the one that carries the passage forward into the quotation.
+
+### 3.2 "Belial"
+
+The name means "worthlessness" in Hebrew, and in the Old Testament it is most often used in the phrase "sons of Belial" or "children of Belial." Deuteronomy 13:13 is the clearest example in point: "Certain men, the children of Belial, are gone out from among you, and have withdrawn the inhabitants of their city, saying, Let us go and serve other gods, which ye have not known." The word is already tied there to the service of other gods. That connection is reported here, and no doctrine is built on it.
+
+### 3.3 The Corinthian setting
+
+The assembly had already been told in the first letter what fellowship with idols looked like in their city. In 1 Corinthians 10:20–21 Paul wrote, "I would not that ye should have fellowship with devils. Ye cannot drink the cup of the Lord, and the cup of devils: ye cannot be partakers of the Lord's table, and of the table of devils." In 8:10 he had described a man who might "sit at meat in the idol's temple." The area words of 6:14–16 (fellowship, communion, agreement, idols) match that earlier teaching. The match is the most natural setting the text itself supplies.
+
+::: callout CONTRAST
+Place the five pairs in two columns, one headed "what God is" and one headed "what he is set against." Paul never names a particular person, relationship or institution on either side.
+:::
+
+# 4. "Ye Are the Temple of the Living God" (6:16a)
+
+::: table 2,6,7
+| Verse | KJV text | What to observe |
+| 6:16a | for ye are the temple of the living God; | Paul's own statement. "Ye" is plural and refers to the Corinthian assembly. It comes before the words "as God hath said." |
+:::
+
+### 4.1 Paul's own statement
+
+This sentence is Paul speaking in his own voice about the assembly he is writing to. It is not a quotation, and nothing in it is introduced by "saith" or "said." He made the same statement to the same assembly in the first letter: "Know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you?" (1 Corinthians 3:16). He applied it to the individual body in 1 Corinthians 6:19. It is a settled part of what Paul teaches this assembly about itself.
+
+### 4.2 Its place in the argument
+
+The sentence has a job in the argument. It is the reason behind the fifth question: the temple of God has no agreement with idols, *for* the Corinthians are that temple. The question and the identity statement belong together.
+
+### 4.3 What it asserts
+
+The sentence asserts three things and no more:
+
+- It describes the assembly's **present standing**, in Paul's words.
+- It gives the **reason** the assembly cannot share in idolatrous worship.
+- It is **not** offered as proof that the Corinthians have inherited the temple, tabernacle or dwelling promises given to Israel. Paul does not say so, and the text that follows does not say so either.
+
+The tabernacle and temple pattern in Israel's Scriptures is a subject of its own, and the commentary on it (Typology, Volume 1) treats where that pattern points and where it does not pass to the Body. This study does not reopen that question; it reads Paul's sentence for what it says.
+
+::: callout DISTINGUISH
+Write the words of 6:16a on one line, and the words that begin 6:16b on the next. Mark the exact place where Paul stops speaking in his own voice and starts to cite.
+:::
+
+# 5. "As God Hath Said": Four Sources in Their Own Settings (6:16b–18)
+
+::: table 2,6,7
+| Verse | KJV text | What to observe |
+| 6:16b | as God hath said, I will dwell in them, and walk in them; and I will be their God, and they shall be my people. | The citation formula, then a chain of lines. Paul writes "them" where Leviticus 26:12 has "you." |
+| 6:17a | Wherefore come out from among them, and be ye separate, saith the Lord, and touch not the unclean thing; and I will receive you, | "Wherefore" draws a command from the lines just cited. The speaker is "the Lord." |
+| 6:18 | And will be a Father unto you, and ye shall be my sons and daughters, saith the Lord Almighty. | Several lines under one introduction. The pronoun is now "you." |
+:::
+
+Paul gathers lines from at least four places in Israel's Scriptures: Leviticus 26, Ezekiel 37, Isaiah 52 and 2 Samuel 7. They are taken one at a time, in the order they appear in Paul's chain, and each is read before it is compared with Paul's wording.
+
+### 5.1 Source one: Leviticus 26:11–12
+
+"And I set my tabernacle among you: and my soul shall not abhor you. And I will walk among you, and will be your God, and ye shall be my people."
+
+The lines belong to a section of blessings that opens, "If ye walk in my statutes, and keep my commandments, and do them" (26:3). They are spoken to Israel at Sinai, with the land in view (26:5–6), and they are tied to "my covenant with you" (26:9). The same chapter turns at 26:14 to the consequences of disobedience. The promise of God's presence is set inside that covenant, and its condition is Israel's obedience to what was commanded.
+
+### 5.2 Source two: Ezekiel 37:26–27
+
+"Moreover I will make a covenant of peace with them; it shall be an everlasting covenant with them: and I will place them, and multiply them, and will set my sanctuary in the midst of them for evermore. My tabernacle also shall be with them: yea, I will be their God, and they shall be my people."
+
+The lines close a promise of national restoration. God will gather "the children of Israel" from among the nations and make them "one nation in the land upon the mountains of Israel," with "David my servant" as king, and they will "dwell in the land that I have given unto Jacob" (37:21–25). The sanctuary in their midst is part of that restored kingdom. It is spoken to the house of Israel and, in the same chapter, to Judah and Joseph (37:15–22).
+
+### 5.3 Source three: Isaiah 52:11
+
+"Depart ye, depart ye, go ye out from thence, touch no unclean thing; go ye out of the midst of her; be ye clean, that bear the vessels of the LORD."
+
+This is the one source that contains a command of separation. The command is addressed to a particular group, "be ye clean, that bear the vessels of the LORD," in the context of Zion's redemption (52:1–10), where the LORD "hath comforted his people" and "made bare his holy arm in the eyes of all the nations." The people are leaving a place of captivity and carrying the sacred vessels with them. The unclean thing they are told not to touch belongs to the setting of that departure and that priestly task.
+
+### 5.4 Source four: 2 Samuel 7:14
+
+"I will be his father, and he shall be my son. If he commit iniquity, I will chasten him with the rod of men, and with the stripes of the children of men."
+
+God speaks to David through Nathan about David's coming seed: "I will set up thy seed after thee … and I will stablish the throne of his kingdom for ever" (7:12–13). The Father-son language is addressed to David's offspring, and the verse includes a clause about chastening that Paul does not quote.
+
+### 5.5 Comparing Paul's wording with the sources
+
+::: table 3,3,6
+| Paul's line | Source | What changes |
+| "I will dwell in them, and walk in them" (6:16b) | Leviticus 26:12; Ezekiel 37:27 | "Walk among you" becomes "walk in them": both the preposition and the pronoun change. "Tabernacle" is not used by Paul. The two sources are combined into one line. |
+| "I will be their God, and they shall be my people" (6:16b) | Leviticus 26:12; Ezekiel 37:27 | Nearly identical to both sources. |
+| "Come out from among them … and be ye separate … touch not the unclean thing" (6:17) | Isaiah 52:11 | The command is addressed to the Corinthians. "Be ye separate" is Paul's wording. The line is introduced by "saith the Lord." |
+| "And will be a Father unto you … my sons and daughters" (6:18) | 2 Samuel 7:14 | "His father" becomes "a Father unto you." "My son" becomes "my sons and daughters." The chastening clause is omitted. "Almighty" is added. |
+:::
+
+Three things stand out when the table is read in order. First, Paul **combines** lines from different places and different speakers into one chain; he is not quoting a single passage. Second, he **adjusts** the wording to fit the assembly he is addressing. Third, he **leaves behind** the covenant conditions, the land, the king and the chastening clause that belonged to each source in its own setting.
+
+### 5.6 What Paul draws from the chain
+
+The chain carries a principle, in the order Paul states it: the God who speaks is the God who dwells with his own people; those who belong to him are to come out from what is unclean and separate themselves from idolatry; and the same God receives them and relates to them as a Father. That principle is what Paul uses to press the command in 6:14.
+
+The text does not say that these lines are being fulfilled in Corinth. Paul does not use fulfillment language here; he says only "as God hath said." It does not say that the assembly has entered Israel's covenants, or has received Israel's land, king or kingdom. Each of those belongs to the original setting of the source and is not carried into the passage by Paul's citation. Paul cites the Scriptures; he applies the principle to the assembly he is writing to. Citation is not covenantal transfer, and application is not identity.
+
+::: callout TRACE
+For each source, write three lines: (1) who was spoken to, (2) what setting or condition came with the promise, (3) what Paul keeps and what he leaves behind. Do the exercise before reading the next section.
+:::
+
+# 6. What Paul Applies: "Having Therefore These Promises" (7:1)
+
+::: table 2,6,7
+| Verse | KJV text | What to observe |
+| 7:1 | Having therefore these promises, dearly beloved, let us cleanse ourselves from all filthiness of the flesh and spirit, perfecting holiness in the fear of God. | "Therefore" draws a conclusion from 6:16–18. "Dearly beloved" names the audience. "Let us" includes Paul. Two actions: cleanse, and perfect holiness. |
+:::
+
+### 6.1 The verse phrase by phrase
+
+Verse 7:1 is where Paul states what he applies. Read it phrase by phrase.
+
+- **"Having therefore these promises."** The antecedent is the chain of 6:16–18, the lines Paul has just introduced with "as God hath said." Paul calls them "promises." He does not list which promise addresses which need, and he does not explain how the assembly stands in relation to each one.
+- **"Dearly beloved."** The address is the same assembly, now in the language of 6:13 ("as unto my children"). The instruction is given to people Paul loves, as 7:3 confirms.
+- **"Let us cleanse ourselves."** The action is something the believers do, and Paul puts himself with them. It is an appeal, not an order from a distance.
+- **"From all filthiness of the flesh and spirit."** The cleansing covers the outer and the inner. Paul uses the same pair in 1 Corinthians 7:34, "holy both in body and in spirit."
+- **"Perfecting holiness in the fear of God."** The second action is ongoing: holiness being brought to completion. The motive Paul names is the fear of God.
+
+### 6.2 Separation and holiness
+
+The command in 6:17 is negative: come out, be separate, touch not. The appeal in 7:1 is positive: cleanse, and perfect holiness. The two belong together, but neither is the other. Separation is the stepping away; holiness is what is being built.
+
+### 6.3 How "these promises" is read
+
+Paul's own word is "promises," and this study keeps it. The text does not say that each promise has been transferred to Corinth, and it does not say that the assembly has become a party to the covenants in which the lines were first given. What the text shows is the direction of the argument: Paul cites God's word to his people about his presence, his claim on them and his fatherly care, and then he rests his appeal for separation and holiness on that word. The promises are read as the scriptural ground for the principle Paul applies, and the appeal itself is read as Paul's direct instruction to the Corinthian assembly in his own voice.
+
+The doctrine of sanctification across Paul's letters, and how each use of the word relates to Israel's holiness under the Law, is the subject of Study 45. This study stays with the single appeal of 7:1.
+
+**Apply.** Complete this sentence from the text alone: "Paul asks the Corinthian assembly to ______, because ______." Check each blank against 6:17 and 7:1.
+
+# 7. What the Passage Does Not Say
+
+### 7.1 What the text does not contain
+
+1. **It does not mention marriage.** The same assembly was taught about existing marriages to unbelievers in 1 Corinthians 7:12–15: "If any brother hath a wife that believeth not, and she be pleased to dwell with him, let him not put her away." Both texts stand as written; neither is used to cancel the other. For a widow's remarriage, see also 1 Corinthians 7:39, "only in the Lord."
+2. **It does not call for withdrawal from the world.** Paul had already written, "I wrote unto you in an epistle not to company with fornicators: yet not altogether with the fornicators of this world … for then must ye needs go out of the world" (1 Corinthians 5:9–10). He also allowed a believer to accept an unbeliever's invitation to a meal (1 Corinthians 10:27). The yoke of 6:14 is something narrower than ordinary contact.
+3. **It does not place the assembly in Israel's covenants.** The quoted promises were given to Israel, to Judah and to David's house. Paul's citation does not make the assembly a party to them.
+4. **It does not give the assembly Israel's name or program.** The passage never calls the Corinthians Israel.
+5. **It does not concern disagreements among believers.** Every contrast in the passage sets believer against unbeliever, Christ against Belial, the temple of God against idols.
+6. **It does not state a method for using Israel's Scriptures.** That method is the subject of Study 39. This passage is one example of Paul using those Scriptures.
+
+### 7.2 Neighbouring studies and volumes
+
+::: table 5,9
+| Neighbour | Ground it covers that this study does not |
+| Study 39, The Church's Relationship to Israel's Scriptures | The repeatable method for how the Body learns from Israel's Scriptures. This study walks one passage. |
+| Study 37, What Does Paul Mean by "New Creation"? | What "new creation" itself asserts. This study does not enter 5:17. |
+| Study 45, Sanctification Under Grace | The several things Paul means by sanctification language. This study handles only 7:1. |
+| Study 52, Sonship and Adoption | Sonship and adoption in Paul's letters. This study reports the Father and sons language only as part of the quoted chain. |
+| Typology Commentary, Volume 1 | The tabernacle and temple pattern in Israel's Scriptures. |
+| Typology Commentary, Volume 2 (Prophetic Separation) | God separating the judged from the kept in Israel's Tribulation. This study is about a believer's separation from idolatry and unbelieving fellowship, which is a different subject, though the word "separate" is shared. |
+| Prophetic Identity Commentary, Volume 3 (The New Covenant) | The new covenant as promised to Israel. This study reads the Leviticus and Ezekiel lines in their own settings but does not argue the covenant. |
+:::
+
+# Conclusion
+
+Second Corinthians 6:14–7:1 commands the assembly not to be unequally yoked with unbelievers, asks five questions that each expect the answer "none," declares that the assembly is the temple of the living God, and cites lines from Leviticus, Ezekiel, Isaiah and 2 Samuel, "as God hath said," before it appeals: let us cleanse ourselves, perfecting holiness in the fear of God. The passage does not mention marriage, does not call for withdrawal from the world, and does not place the assembly in Israel's covenants, land or kingdom. Any reading that adds something else goes beyond what the text states.
+
+# Study Summary
+
+- Paul writes to the Corinthian assembly; 6:14a forbids being unequally yoked with unbelievers and names no setting, and the five questions that follow supply the area.
+- The five questions move from qualities (righteousness and unrighteousness, light and darkness) to persons (Christ and Belial) to things the Corinthians can see (the temple of God and idols).
+- "Ye are the temple of the living God" is Paul's own statement to the assembly, not a quotation.
+- "As God hath said" introduces lines from Leviticus 26:11–12, Ezekiel 37:26–27, Isaiah 52:11 and 2 Samuel 7:14.
+- Each source was spoken to Israel, Judah or David's house, with conditions, a land or a king attached.
+- Paul combines the lines, adjusts their wording, and leaves the conditions, the land, the king and the chastening clause behind.
+- Verse 7:1 appeals to the assembly to cleanse itself and to perfect holiness in the fear of God.
+- The passage names no marriage, calls for no withdrawal from the world and does not place the assembly in Israel's covenants.
+
+# Key Distinctions to Retain
+
+::: table 4,9
+| Distinction | In this passage |
+| Command and quotation | Verses 6:14–16a are Paul's command and argument; 6:16b–18 is cited Scripture. |
+| Paul's statement and the sources | "Ye are the temple of the living God" is Paul's own; "I will dwell in them" is cited. |
+| Citation and transfer | Citing a promise does not make the hearer a party to the covenant it came from. |
+| Principle and identity | Paul applies a principle to the assembly; the citation does not change the assembly's identity. |
+| Separation and holiness | Verse 6:17 is the stepping away; 7:1 is the building up. |
+| Passage and applications | The text names idols, the temple and unbelieving fellowship; marriage and business are readers' applications. |
+:::
+
+# Scripture-Tracing Exercise
+
+Open your Bible and read each source in its own chapter before you fill its row. For each row, record who was spoken to, the setting or condition that came with the promise, what Paul keeps, and what Paul leaves behind.
+
+::: table 5,4,9 tall
+| Paul's line | Source passage | Your findings |
+| "I will dwell in them, and walk in them" (6:16b) | Leviticus 26:11–12 | |
+| "I will be their God, and they shall be my people" (6:16b) | Ezekiel 37:26–27 | |
+| "Come out from among them … touch not the unclean thing" (6:17) | Isaiah 52:11 | |
+| "And will be a Father unto you … my sons and daughters" (6:18) | 2 Samuel 7:14 | |
+:::
+
+# Review and Discussion Questions
+
+1. List the five questions of 6:14b–16a in order. What does each one set against what?
+2. Where exactly does Paul stop speaking in his own voice in 6:16 and begin to cite? How do you know?
+3. Why is "ye are the temple of the living God" Paul's statement and not part of the quotation?
+4. Name the setting, audience and condition of each of the four sources in their own chapters.
+5. List the three things Paul does with the sources (combine, adjust, leave behind). Give one example of each.
+6. What is the difference between a command, a quotation and an application? Give one verse from the passage for each.
+7. What does 7:1 ask the assembly to do? What reason does Paul give?
+8. Why can the same assembly be told in 1 Corinthians 7:12–15 not to put away an unbelieving spouse and in 2 Corinthians 6:14 not to be unequally yoked? What does the text of each passage say about its own setting?
+9. What would be lost if a reader treated the citation of Leviticus 26 as proof that the assembly had entered Israel's covenant?
+
+# Teaching Outline
+
+**I. The Setting of the Appeal (6:11–13; 7:2–4)**
+
+A. Paul's open heart and the assembly's restricted affections
+B. The appeal that frames the passage
+C. The audience fixed before the command begins
+
+**II. The Command and Its Five Questions (6:14–16a)**
+
+A. The prohibition: unequally yoked with unbelievers
+B. Five questions, each expecting "none"
+C. The Corinthian setting of idols, the cup and the table
+
+**III. The Assembly as the Temple of the Living God (6:16a)**
+
+A. Paul's direct statement
+B. Its place in the argument
+C. What it asserts and what it does not
+
+**IV. The Chain Introduced by "As God Hath Said" (6:16b–18)**
+
+A. Four sources, each read in its own setting
+B. Combined, adjusted and left behind
+C. The principle Paul draws, without transfer of covenant
+
+**V. The Appeal of 7:1**
+
+A. "Having therefore these promises"
+B. Cleansing and perfecting holiness
+C. What the passage does not say
+
+# Guided Further Study
+
+Open and read each passage below in its chapter before you answer. In each group, observe what is assigned, compare what you found with what this study reports, and record a short conclusion in your own words.
+
+**Observe**
+
+1. Read 2 Corinthians 6:11–7:4 as one unit, ignoring the chapter break. List every verb addressed to "ye" or "us."
+2. Read Leviticus 26:1–13 and mark every "if." Note what comes before and after the promise of God's presence.
+3. Read Ezekiel 37:15–28 and list who is addressed, what land is named and who is king.
+4. Read Isaiah 52:1–12 and mark the groups addressed in each verse.
+5. Read 2 Samuel 7:8–16 and list what God promises to David and to his seed.
+
+**Compare**
+
+6. Set 1 Corinthians 10:14–22 beside 2 Corinthians 6:14–16. What words do the two passages share, and what words do they not?
+7. Compare 1 Corinthians 3:16 and 6:19 with 2 Corinthians 6:16a. What does each statement say about the temple, and to whom?
+8. Compare Deuteronomy 13:13 with 2 Corinthians 6:15. How is "Belial" used in each?
+9. Compare 1 Corinthians 5:9–10, 7:12–15 and 10:27 with 2 Corinthians 6:14. What does each text say about contact with unbelievers?
+10. Compare 2 Samuel 7:14 with 2 Corinthians 6:18. List each word Paul changes.
+
+**Conclude**
+
+11. Write one sentence stating what Paul commands in 6:14–7:1.
+12. Write one sentence stating what Paul quotes and where it comes from.
+13. Write one sentence stating what Paul applies, and to whom.
+14. State, in your own words and from the text only, why citation is not covenantal transfer.
+
+# Final Synthesis
+
+In 2 Corinthians 6:14–7:1, Paul forbids the assembly to be unequally yoked with unbelievers, declares that the assembly is the temple of the living God, and cites God's words to Israel, to Judah and to David's house as the ground for an appeal to separate from idolatry and to cleanse itself. The cited lines keep their original audience and setting. The appeal is Paul's own, addressed to the Corinthian assembly.
+
+Write it in your own words, in one paragraph of four to six sentences, including each of these:
+
+- What Paul commands in 6:14–7:1.
+- The four sources Paul cites, and who each was spoken to.
+- What Paul changes in the wording and what he leaves behind.
+- What Paul applies in 7:1, and to whom.
+- One closing sentence naming what the passage does not say: it does not place the assembly in Israel's covenants, land, kingdom or name.

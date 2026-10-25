@@ -1305,6 +1305,21 @@
   "key_passages": 13
  },
  {
+  "id": "S88",
+  "type": "Digital Study",
+  "mode": 1,
+  "series": "Digital Studies",
+  "n": 88,
+  "title": "Unequally Yoked",
+  "subtitle": "What Paul Commands, What He Quotes, and What He Applies in 2 Corinthians 6:14–7:1",
+  "slug": "study-88-unequally-yoked.html",
+  "pages": 16,
+  "price": "$5.99",
+  "question": "The question this study alone answers: in 2 Corinthians 6:14–7:1, what is Paul’s own command, what is quoted from Israel’s Scriptures, and what does he apply to Corinth? WHAT YOU’LL STUDY Follow Command, Quotation and Application Five Paired Contrasts Trace the five paired contrasts in 6:14–16a by following each term Paul sets against another.",
+  "source": "page",
+  "key_passages": 8
+ },
+ {
   "id": "P01",
   "type": "Parable Study",
   "mode": 1,
@@ -5852,6 +5867,21 @@
   "pages": null,
   "price": "free",
   "question": "Six free volumes of ten questions each, every answer argued from the verse’s own passage and the chapter before it. Search the sixty questions, read each full answer on its own page, or download a whole volume as a free PDF.",
+  "category": "Interpretation",
+  "source": "page"
+ },
+ {
+  "id": "RL30",
+  "type": "Free Resource (library)",
+  "mode": "resource",
+  "series": "Free resources",
+  "n": 30,
+  "title": "The New Testament’s Use of the Old Testament",
+  "subtitle": "A Survey Guide with a 25-Row Chart and a Searchable List of Uses",
+  "slug": "resource-library#30",
+  "pages": null,
+  "price": "free",
+  "question": "A survey of how, where and why the New Testament writers use Israel’s Scriptures, with 25 uses set beside the KJV text, classified under one eight-kind system and tagged by what the text itself marks. A companion page searches hundreds of uses.",
   "category": "Interpretation",
   "source": "page"
  },

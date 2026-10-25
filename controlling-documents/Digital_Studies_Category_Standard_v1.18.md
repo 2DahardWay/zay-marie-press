@@ -1,9 +1,9 @@
 # Digital Studies — Catalog Category Standard
 
-Version 1.17 — publisher directive, 2026-10-01 (assignments through Study 87). Governs how every Digital Study is classified into one of the five primary catalog categories, and the cover label each category uses. Applies to all current studies and every new study. Each study has exactly one primary category, assigned by its controlling subject. Collections and bundles are separate and unaffected.
+Version 1.18 — publisher directive, 2026-10-01 (assignments through Study 88). Governs how every Digital Study is classified into one of the five primary catalog categories, and the cover label each category uses. Applies to all current studies and every new study. Each study has exactly one primary category, assigned by its controlling subject. Collections and bundles are separate and unaffected.
 
 ## Binding force (settled; do not re-ask)
-This Standard is final and in force. The 87 assignments below are fixed rulings, not proposals. Claude does not ask the publisher where a study belongs, and does not reopen an assigned study, unless the publisher himself changes it. For a new study, Claude classifies it by the procedure below, places the card and cover label accordingly, and states the category and the one-line reason in its delivery message so the publisher can overrule. Changes to a ruling come only from the publisher, and are logged here with a version bump.
+This Standard is final and in force. The 88 assignments below are fixed rulings, not proposals. Claude does not ask the publisher where a study belongs, and does not reopen an assigned study, unless the publisher himself changes it. For a new study, Claude classifies it by the procedure below, places the card and cover label accordingly, and states the category and the one-line reason in its delivery message so the publisher can overrule. Changes to a ruling come only from the publisher, and are logged here with a version bump.
 
 ## Decision procedure for a new study
 Apply the tests in order. The first test that fits decides the category.
@@ -63,14 +63,14 @@ Note: the small eyebrow on a card ("Digital Study" or "Biblical Doctrine") is co
 - Covenant methodology = Foundations; covenant content = Israel & Prophecy.
 - Studies 44 (Walking in the Spirit), 45 (Sanctification Under Grace) and 46 (Secure in Christ) are Doctrinal Themes, kept by explicit ruling even though grace instruction and "Pauline commands" also appear in the Body rule.
 
-## Current assignments (87 studies)
+## Current assignments (88 studies)
 
 | Category | Studies | Count |
 |---|---|---|
 | Foundations | 4, 18, 32, 36, 38, 39, 58 | 7 |
 | Israel & Prophecy | 2, 7, 9, 10, 12, 13, 17, 21, 23, 26, 27, 35, 40, 41, 61, 64, 71, 73, 74 | 19 |
 | Body of Christ | 3, 5, 6, 8, 11, 14, 16, 22, 30, 37, 43, 47, 48, 59 | 14 |
-| Passages | 15, 19, 20, 24, 25, 28, 29, 62, 63, 65, 66, 67, 70, 76, 77, 83, 84, 85, 86 | 19 |
+| Passages | 15, 19, 20, 24, 25, 28, 29, 62, 63, 65, 66, 67, 70, 76, 77, 83, 84, 85, 86, 88 | 20 |
 | Doctrinal Themes | 1, 31, 33, 34, 42, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 60, 68, 69, 72, 75, 78, 79, 80, 81, 82, 87 | 28 |
 
 Publisher rulings of 2026-10-01 applied in this version: 1 Bride of Christ → Doctrinal Themes; 6 and 11 → Body of Christ; 18 Peter and Paul → Foundations; 41 Kingdom of God or Kingdom of Heaven → Israel & Prophecy; 34 Filled Again → Doctrinal Themes; 36 Jews, Gentiles and the Church of God → Foundations; 60 Churches Named in Scripture → Doctrinal Themes; 37 New Creation → Body of Christ (unchanged); 43 Gospel of the Grace of God → Body of Christ; 57 Eternal Purpose of God → Doctrinal Themes (unchanged); 44–46 → Doctrinal Themes; 58 → Foundations; 59 → Body of Christ.
@@ -104,4 +104,5 @@ When a study changes category, re-letter its cover in the cover's own style (sam
 - v1.7 (2026-10-05): Study 77 (The Believer and Government) added to Passages by the decision procedure (one tight passage, Romans 13:1–7, walked verse by verse; the parallels in Titus, 1 Timothy, 1 Peter, Matthew and Acts are set beside it and do not make it a theme study). No existing ruling changed. Counts: Passages 15; 77 studies in all.
 - v1.6 (2026-10-05): Study 76 (Strength to Stand) added to Passages by the decision procedure (one tight passage, Ephesians 6:10–20, walked verse by verse; the parallels in Isaiah and 1 Thessalonians are set beside it and do not make it a theme study). No existing ruling changed. Counts: Passages 14; 76 studies in all.
 - v1.16 (2026-10-11): Study 86 (The Servant in Isaiah) added to Passages by the decision procedure (one tight cluster, the servant passages of Isaiah 41–53 walked in the order Isaiah gave them, with the New Testament quotations read in their own chapters; it does not trace a doctrine or term across both programs). No existing ruling changed. Counts: Passages 19; 86 studies in all. Cover label PASSAGES.
+- v1.18 (2026-10-25): Study 88 (Unequally Yoked) added to Passages by the decision procedure (test 5: one tight passage, 2 Corinthians 6:14–7:1, walked in the order Paul wrote it, with the quoted lines read in their own chapters; it does not trace a doctrine or term across both programs). No existing ruling changed. Counts: Passages 20; 88 studies in all. Cover label PASSAGES (the supplied cover carries no category label; the publisher approved it as supplied).
 - v1.17 (2026-10-16): Study 87 (The Last Days) added to Doctrinal Themes by the decision procedure (test 2: the phrase “the last days” and its near wordings traced across passages and across both programs; not a single-passage walk, so test 5 does not apply). No existing ruling changed. Counts: Doctrinal Themes 28; 87 studies in all. Cover label DOCTRINAL THEMES.

@@ -3346,6 +3346,48 @@
   "to": "V-prophecy-mystery-3"
  },
  {
+  "from": "S88",
+  "to_slug": "study-39-the-churchs-relationship-to-israels-scriptures.html",
+  "list": "Digital Studies",
+  "note": "Set out the repeatable method for how the Body learns from Israel’s Scriptures; Study 88 walks one passage.",
+  "to": "S39"
+ },
+ {
+  "from": "S88",
+  "to_slug": "study-37-what-does-paul-mean-by-new-creation.html",
+  "list": "Digital Studies",
+  "note": "Read what “new creation” itself asserts; Study 88 does not enter 5:17.",
+  "to": "S37"
+ },
+ {
+  "from": "S88",
+  "to_slug": "study-45-sanctification-under-grace.html",
+  "list": "Digital Studies",
+  "note": "Read the several things Paul means by sanctification language; Study 88 handles only 7:1.",
+  "to": "S45"
+ },
+ {
+  "from": "S88",
+  "to_slug": "commentary-typology-01-tabernacle-and-temple-typology.html",
+  "list": "Commentary Series",
+  "note": "Argues the tabernacle and temple pattern in Israel’s Scriptures; Study 88 reads Paul’s temple statement in its passage and does not argue the pattern.",
+  "to": "V-typology-1"
+ },
+ {
+  "from": "S88",
+  "to_slug": "commentary-typology-02-prophetic-separation.html",
+  "list": "Commentary Series",
+  "note": "Argues God separating the judged from the kept in Israel’s Tribulation; Study 88 concerns a believer’s separation from idolatry and unbelieving fellowship, a different subject.",
+  "to": "V-typology-2"
+ },
+ {
+  "from": "S88",
+  "to_slug": "commentary-identity-03-the-new-covenant.html",
+  "list": "Commentary Series",
+  "note": "Argues the new covenant as promised to Israel; Study 88 reads the Leviticus and Ezekiel lines in their own settings and does not argue the covenant.",
+  "to": "V-identity-3"
+ },
+ {
   "from": "P01",
   "to_slug": "parable-02-the-mustard-seed-and-the-leaven.html",
   "list": "Parable Studies",

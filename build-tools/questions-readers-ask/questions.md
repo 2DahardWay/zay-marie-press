@@ -1,4 +1,4 @@
-# Questions Readers Ask — source list (87 questions, grouped by catalog category)
+# Questions Readers Ask — source list (88 questions, grouped by catalog category)
 
 Each question is worded as a reader would ask it, without stating the study's answer. Format: `N. question → study number title`. One line per study, in catalog-category order. Edit this file, then run build_qra.py.
 
@@ -68,33 +68,34 @@ Each question is worded as a reader would ask it, without stating the study's an
 57. What do Romans 8 and 2 Corinthians 4 say about suffering and glory, and who is "we" in each? → 84 Suffering and Glory
 58. What does Romans 1–3 say is wrong with the whole world, and where does conscience fit in? → 85 The World Guilty Before God
 59. Who is the servant in Isaiah, and who is “my servant” in Isaiah 53? → 86 The Servant in Isaiah
+60. What does “be ye not unequally yoked” mean in 2 Corinthians 6:14, and what is Paul quoting in verses 16–18? → 88 Unequally Yoked
 
 ## Doctrinal Themes
-60. Who is the Bride of Christ? → 1 The Bride of Christ
-61. What judgments does Scripture describe, and who faces which? → 31 The Judgments of Scripture
-62. What crowns does Scripture name, and who receives them? → 33 The Crowns of Scripture
-63. What does it mean to be filled with the Spirit again? → 34 Filled Again
-64. What is the "one baptism"? → 42 One Baptism
-65. What does it mean to walk in the Spirit? → 44 Walking in the Spirit
-66. What is sanctification under grace? → 45 Sanctification Under Grace
-67. Can I lose my salvation? → 46 Secure in Christ
-68. What resurrections does Scripture describe? → 49 The Resurrections of Scripture
-69. What does the Bible mean by election? → 50 Election
-70. Does circumcision matter today? → 51 Circumcision
-71. What is sonship and adoption? → 52 Sonship and Adoption
-72. What is redemption? → 53 Redemption
-73. What does it mean to be justified? → 54 Justification
-74. What does it mean to be reconciled to God? → 55 Reconciled to God
-75. What is the inheritance Scripture speaks of? → 56 Inheritance
-76. What is God's eternal purpose? → 57 The Eternal Purpose of God
-77. What does Scripture mean by "church," and which churches does it name? → 60 The Churches Named in Scripture
-78. Whose names are written in the Book of Life? → 68 The Book of Life
-79. What does Scripture say about the eternal state? → 69 The Eternal State
-80. What is the Lord's Supper, and how should the cup and bread be understood? → 72 The Lord's Supper
-81. What did believers before the Cross believe, and how were they saved? → 75 Faith Before the Cross
-82. Is the Sabbath for me today? → 78 The Sabbath and Its Meanings
-83. What happens to the dead? What are Sheol, Hades, Gehenna and the lake of fire? → 79 The Realms of the Dead
-84. Was Christ foreordained before the foundation of the world? → 80 The Lamb Foreordained
-85. What does Scripture mean by praying in the Spirit, and is praying in tongues the same thing? → 81 Praying in the Spirit
-86. What did the law require of a kinsman-redeemer, and where does Scripture say each requirement was met? → 82 The Kinsman-Redeemer
-87. What does Scripture mean by "the last days," and do all the passages that use the phrase mean the same time? → 87 The Last Days
+61. Who is the Bride of Christ? → 1 The Bride of Christ
+62. What judgments does Scripture describe, and who faces which? → 31 The Judgments of Scripture
+63. What crowns does Scripture name, and who receives them? → 33 The Crowns of Scripture
+64. What does it mean to be filled with the Spirit again? → 34 Filled Again
+65. What is the "one baptism"? → 42 One Baptism
+66. What does it mean to walk in the Spirit? → 44 Walking in the Spirit
+67. What is sanctification under grace? → 45 Sanctification Under Grace
+68. Can I lose my salvation? → 46 Secure in Christ
+69. What resurrections does Scripture describe? → 49 The Resurrections of Scripture
+70. What does the Bible mean by election? → 50 Election
+71. Does circumcision matter today? → 51 Circumcision
+72. What is sonship and adoption? → 52 Sonship and Adoption
+73. What is redemption? → 53 Redemption
+74. What does it mean to be justified? → 54 Justification
+75. What does it mean to be reconciled to God? → 55 Reconciled to God
+76. What is the inheritance Scripture speaks of? → 56 Inheritance
+77. What is God's eternal purpose? → 57 The Eternal Purpose of God
+78. What does Scripture mean by "church," and which churches does it name? → 60 The Churches Named in Scripture
+79. Whose names are written in the Book of Life? → 68 The Book of Life
+80. What does Scripture say about the eternal state? → 69 The Eternal State
+81. What is the Lord's Supper, and how should the cup and bread be understood? → 72 The Lord's Supper
+82. What did believers before the Cross believe, and how were they saved? → 75 Faith Before the Cross
+83. Is the Sabbath for me today? → 78 The Sabbath and Its Meanings
+84. What happens to the dead? What are Sheol, Hades, Gehenna and the lake of fire? → 79 The Realms of the Dead
+85. Was Christ foreordained before the foundation of the world? → 80 The Lamb Foreordained
+86. What does Scripture mean by praying in the Spirit, and is praying in tongues the same thing? → 81 Praying in the Spirit
+87. What did the law require of a kinsman-redeemer, and where does Scripture say each requirement was met? → 82 The Kinsman-Redeemer
+88. What does Scripture mean by "the last days," and do all the passages that use the phrase mean the same time? → 87 The Last Days
