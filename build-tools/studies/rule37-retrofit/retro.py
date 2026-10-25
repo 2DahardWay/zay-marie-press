@@ -72,6 +72,11 @@ def run(n):
     for p in d.paragraphs:
         for r in p.runs:
             if 'Study Summary and Key' in r.text: r.text=r.text.replace('Study Summary and Key','Conclusion and Key')
+    for p in d.paragraphs:
+        if 'Conclusion, Study Summary,' in p.text:
+            for r in p.runs:
+                r.text=r.text.replace('Conclusion, Study Summary, Key','Conclusion, Key').replace(' Guided Further Study and Final Synthesis.',' and Guided Further Study.').replace('Teaching Outline, and Guided','Teaching Outline and Guided')
+            print(n,'outline fixed:',p.text[:150])
     out=f'o{n}.docx'; d.save(out)
     # TOC pass x2
     for it in range(3):
