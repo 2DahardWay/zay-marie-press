@@ -63,6 +63,9 @@ def run(n):
     ks=list(body); ii=next(i for i,e in enumerate(ks) if e.tag==qn('w:p') and txt(e).startswith('ZAY-MARIE PRESS DIGITAL STUDIES'))
     for e in (ks[ii-1],ks[ii]):
         if e.tag==qn('w:p'): Paragraph(e,d).paragraph_format.keep_with_next=True
+    for p in d.paragraphs:
+        for r in p.runs:
+            if 'Study Summary and Key' in r.text: r.text=r.text.replace('Study Summary and Key','Conclusion and Key')
     out=f'o{n}.docx'; d.save(out)
     # TOC pass x2
     for it in range(3):
