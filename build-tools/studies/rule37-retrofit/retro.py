@@ -24,6 +24,8 @@ def run(n):
     # conclusion paragraph + extras
     cp=kids[ci+1]; P=Paragraph(cp,d); r0=P.runs[0]; r0.text=C[n]
     for r in P.runs[1:]: r._r.getparent().remove(r._r)
+    if n=='11':
+        ft=next(e for e in kids if e.tag==qn('w:tbl') and txt(e).startswith('FINAL CONTROL')); cp.addnext(ft)
     j=ci+2
     while j<len(kids) and not h1(kids[j]):
         t=txt(kids[j])
@@ -51,6 +53,7 @@ def run(n):
     # TOC entries
     for p in d.paragraphs[:40]:
         if p.text.startswith(('Study Summary','Final Synthesis','Key Truths to Remember','A Note on the Acts Overlap')) and '\t' in p.text: rm.append(p._p)
+    if n=='11': rm=[e for e in rm if e is not ft]
     for e in set(rm): e.getparent().remove(e)
     ks=list(body); ii=next(i for i,e in enumerate(ks) if e.tag==qn('w:p') and txt(e).startswith('ZAY-MARIE PRESS DIGITAL STUDIES'))
     for e in (ks[ii-1],ks[ii]):
