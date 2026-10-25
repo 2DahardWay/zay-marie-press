@@ -16,10 +16,16 @@ def render(docxp,outdir):
     return os.path.join(outdir,os.path.basename(docxp).replace('.docx','.pdf'))
 def run(n):
     d=docx.Document(f's{n}.docx'); body=d.element.body; kids=list(body)
-    h1=lambda e: e.tag==qn('w:p') and style(e)=='Heading1'
+    def h1(e):
+        if e.tag!=qn('w:p'): return False
+        if style(e)=='Heading1': return True
+        r=e.find(qn('w:r'))
+        if r is None: return False
+        sz=r.find(qn('w:rPr')+'/'+qn('w:sz')); b=r.find(qn('w:rPr')+'/'+qn('w:b'))
+        return sz is not None and sz.get(qn('w:val'))=='34' and b is not None and txt(e)!='' and '\t' not in txt(e)
     def idx(pred): return next((i for i,e in enumerate(kids) if pred(e)),None)
     ci=idx(lambda e:h1(e) and txt(e).startswith('Conclusion') and not kids.index(e)<30)
-    imp=idx(lambda e:e.tag==qn('w:p') and txt(e).startswith('ZAY-MARIE PRESS DIGITAL STUDIES'))
+    imp=idx(lambda e:e.tag==qn('w:p') and txt(e).startswith(('ZAY-MARIE PRESS DIGITAL STUDIES','Copyright ©')))
     rm=[]
     # conclusion paragraph + extras
     cp=kids[ci+1]; P=Paragraph(cp,d); r0=P.runs[0]; r0.text=C[n]
@@ -60,7 +66,7 @@ def run(n):
         rm=[e for e in rm if e not in keep]
         if keep: print(n,'relocated callouts:',[txt(e)[:25] for e in keep])
     for e in set(rm): e.getparent().remove(e)
-    ks=list(body); ii=next(i for i,e in enumerate(ks) if e.tag==qn('w:p') and txt(e).startswith('ZAY-MARIE PRESS DIGITAL STUDIES'))
+    ks=list(body); ii=next(i for i,e in enumerate(ks) if e.tag==qn('w:p') and txt(e).startswith(('ZAY-MARIE PRESS DIGITAL STUDIES','Copyright ©')))
     for e in (ks[ii-1],ks[ii]):
         if e.tag==qn('w:p'): Paragraph(e,d).paragraph_format.keep_with_next=True
     for p in d.paragraphs:
