@@ -54,6 +54,11 @@ def run(n):
     for p in d.paragraphs[:40]:
         if p.text.startswith(('Study Summary','Final Synthesis','Key Truths to Remember','A Note on the Acts Overlap')) and '\t' in p.text: rm.append(p._p)
     if n=='11': rm=[e for e in rm if e is not ft]
+    if n not in ('02','03','04','11'):
+        keep=[e for e in dict.fromkeys(rm) if e.tag==qn('w:tbl') and len(e.findall('.//'+qn('w:tr')))==1]
+        for e in reversed(keep): cp.addnext(e)
+        rm=[e for e in rm if e not in keep]
+        if keep: print(n,'relocated callouts:',[txt(e)[:25] for e in keep])
     for e in set(rm): e.getparent().remove(e)
     ks=list(body); ii=next(i for i,e in enumerate(ks) if e.tag==qn('w:p') and txt(e).startswith('ZAY-MARIE PRESS DIGITAL STUDIES'))
     for e in (ks[ii-1],ks[ii]):
