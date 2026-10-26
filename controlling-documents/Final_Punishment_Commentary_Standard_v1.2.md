@@ -1,0 +1,66 @@
+# The End of the Lost — Stand-alone Commentary Volume Standard
+
+Version 1.2 — 2026-10-26. Chapter-by-chapter plan recorded with the publisher's two rulings on Chapter 8 (who stands at the great white throne stays open; the second death and the lake of fire get their own short section); record only, no Master Standard change. v1.1 — 2026-10-26. Thesis, title and architecture approved by the publisher; Library price for 49 volumes approved ($464.99); registered in Master Standard v1.175 §20 Rule 29 and CLAUDE.md v1.175. Nothing drafted; nothing on the website. v1.0 (2026-10-26): draft recording the publisher's six rulings, the revised thesis, the cumulative-method rule and the chapter architecture.
+
+Governs one stand-alone Commentary Volume written in Mode 2 under Framework §XX and Master Standard §20 Rule 29. It belongs to no series and is not part of the Acts Overlap Theology Series. The Digital Studies stay in Mode 1 and are unchanged (Study 79 keeps its report-only treatment under Rule 27).
+
+## Title and subtitle (publisher, 2026-10-26)
+**The End of the Lost**
+*Destruction, Eternal Punishment, and the Case Against Annihilationism*
+(Stand-alone, no volume number; publisher ruling 2026-10-26: "standalone, remove Volume 1".)
+
+## Fit Check (2026-10-26)
+Verdict: fit by narrower question. Narrower question: What does Scripture say becomes of the lost, and what do its words for death, destruction, punishment, torment, exclusion and the second death establish, each in its own context?
+Not re-argued (cited only): who is judged, where and when (Studies 31, 49, 68; Prophecy & Mystery Volume 5); the realms and word studies (Study 79); Luke 16 (Parable Study 24); the Lamb and foundation passages (Study 80).
+Open ground: 2 Thessalonians 1:9 (passing mentions only); Mark 9:48 and Isaiah 66:24 (reported only); Jude 7 and Revelation 14:11 (argued for other questions).
+
+## Revised thesis (publisher's ruling 2026-10-26 replaces the drafted "ruin, not ending")
+Destruction language in Scripture does not by itself establish annihilation. Its meaning is fixed by context, and the words for death, destruction, punishment, torment, exclusion, the second death and final judgment are not one word. The judgment passages, taken cumulatively, each in its own setting, establish irreversible, enduring punishment and, where the text says so, continuing conscious experience; they do not require cessation of existence. "Ruin" is used only where a passage's context supports it. No single Greek word or proof text carries the case.
+
+## Publisher's rulings (2026-10-26)
+1. Thesis: revised as above. No universal lexical rule that every destruction term means "ruin rather than cessation".
+2. Revelation 14:11: read as continuing conscious experience, argued from the whole statement ("no rest day nor night"), not from the rising smoke alone; kept within Revelation's prophetic setting; its program-specific features not transferred to the Body.
+3. 2 Thessalonians 1:9: "from the presence of the Lord" read as exclusion or separation, developed from the context ("eternal destruction", the Lord's presence and glorious power) as an enduring judicial condition, not the moment existence ends; the preposition alone does not carry the doctrine.
+4. Matthew 10:28 and 25:46: kept within Israel's Kingdom/Prophecy setting; not transferred to the Body or treated as Mystery doctrine; used as witnesses to what Scripture reveals of the fate and punishment of the wicked within the Prophecy Program, with the audience, commission and kingdom context preserved. The volume distinguishes doctrinal testimony about judgment from programmatic application to the Body.
+5. Placement: stand-alone Commentary Collection volume at $14.99; not in the Acts Overlap Theology Series. The Library is re-ruled (price open, see below).
+6. Standards: this Standard, and a Rule 29 entry in the Master Standard and CLAUDE.md together once the thesis and architecture are locked.
+
+## Governing method rule for the manuscript
+The case is built cumulatively and never rests on one Greek word or one proof text. The volume distinguishes death, destruction, punishment, torment, exclusion, second death and final judgment, asking of each text what it explicitly establishes in its own context. Where annihilationism makes a legitimate lexical observation, the volume acknowledges it and does not overstate the reply. The conclusion stands because the total scriptural evidence requires it, not because every judgment term is forced to mean eternal conscious torment.
+
+## Binding rules
+Rules 7, 11 and 13–19 bind (including the Galatians 3 and Romans 11 standing sentences where those texts arise), with Rule 32 and the expanded Rule 33 where touched. Rules 8, 12, 20–28 and 30 do not. Passage citation and modern-sources-only rules (Rule 29) apply: a writer is quoted only where the actual words are read in a free full text; otherwise the position is described in the volume's own words, no quotation marks. Each side of the objections chapter is stated in its own best form. Reader-facing wording rule applies to every word; the mode label never appears.
+
+## Format
+50–70 pages including the cover; KJV only; Roboto; $14.99; footer "ZAY-MARIE PRESS COMMENTARY COLLECTION • N" (no volume number; wording pending ruling); cover 1600 × 2400 supplied art, website covers 1024 × 1536; verse-level index "Where the Passages Are Read"; four-page "A Look Inside" (Table of Contents, Preface, one page of the argument at work, one page from the objections chapter); Related Reading box; objections chapter in the Covenantal pattern (two to four modern writers on each side, named, answered from Scripture, closing table).
+
+## Chapter plan (approved 2026-10-26; about 54 pages with the cover; under 50 is flagged before drafting)
+| # | Chapter | What it settles | Pages |
+|---|---|---|---|
+| | Cover, Table of Contents | | 2 |
+| 1 | Preface: the question and the position | States plainly that the volume argues a position; names the question | 3 |
+| 2 | How the case is argued | The seven terms (death, destruction, punishment, torment, exclusion, second death, final judgment) kept apart; audience and setting fixed first; no single word or proof text carries the case; legitimate lexical points acknowledged | 4 |
+| 3 | Death, destruction and perishing in their own contexts | Concedes that apollymi and olethros sometimes describe a thing ceasing; shows where they do not (lost sheep, burst wineskins, the world that "perished" in the flood, nations "destroyed from being a people"); context decides. Cites Prophets Vol. 3 and Gospel Vol. 2 | 6 |
+| 4 | Matthew 10:28 and Philippians 3:19 | Matthew 10:28 in the Twelve's mission to Israel; "able to destroy" states a power, not the outcome; Philippians 3:19 "end … destruction" | 5 |
+| 5 | 2 Thessalonians 1:7–10 | "Everlasting destruction from the presence of the Lord" developed from the context as an enduring judicial exclusion, not from the preposition alone | 5 |
+| 6 | "Eternal": Matthew 25:46, Daniel 12:2, Jude 7 | One adjective (aionios) for the life and the punishment; concedes "eternal" can describe a result (Hebrews 6:2); Matthew 25:46 read as the living nations at the King's return (Gospel Vol. 3, Study 31, Parable Study 31) | 6 |
+| 7 | The fire and the worm | Mark 9:43–48 and Isaiah 66:24; concedes Isaiah 66:24 describes corpses; argues from the Lord's use of it | 5 |
+| 8 | Revelation 14:9–11 and 20:10–15 | 8.1 Revelation 14:9–11: "no rest day nor night" as continuing experience, within Revelation's prophetic setting. 8.2 Revelation 20:10: the beast and the false prophet still in the lake after the thousand years (19:20). 8.3 The second death and the lake of fire (own short section, see below). 8.4 Revelation 20:11–15, used only for what it establishes for this thesis | 8 |
+| 9 | Objections and replies | Opposing voices: Atkinson (through Peterson's report), Fudge, Wenham, Stott, Pinnock, described without quotation marks; fortifying voices: Peterson, Saville, Woodier, with Linfield as a fair survey; closing table | 7 |
+| 10 | Conclusion | One plain-voice paragraph (Rule 34) | 2 |
+| | Appendices: key passages; "Where the Passages Are Read"; Bibliography and imprint | | 4 |
+
+## Publisher's rulings on Chapter 8 (2026-10-26)
+1. **Who stands at the great white throne stays open.** Chapter 8 does not resolve questions that Prophecy & Mystery Vol. 5 deliberately leaves open: (a) whether anyone who believed during the thousand years stands at the throne, and how; (b) the relation between works and the book of life. Both stand exactly as in that volume and are not resolved indirectly through wording here. Revelation 20:11–15 is used only for what it establishes for this thesis; the identity or programmatic classification of every person before the throne is not necessary to the argument. The volume's purpose is narrower: what Scripture reveals about the nature and duration of final punishment, and whether the judgment texts require annihilation.
+2. **The second death and the lake of fire get their own short section within Chapter 8 (8.3).** It examines what Revelation explicitly says: the lake of fire is called "the second death" (20:14; 21:8); Death and Hades are cast into it (20:14); those not found in the book of life are cast into it (20:15). The central question: does "second death" itself require cessation of existence, or must its meaning be established from Revelation's description of the lake of fire and the surrounding judgment texts? The section is disciplined by the controlling thesis: it does not define "death" beforehand as annihilation or as conscious punishment; it establishes the meaning from context and then brings Revelation 20 into the cumulative case. It is not a separate study of the great white throne; its purpose is the second death and the lake of fire as evidence of the final condition of the lost.
+
+## Strongest conditionalist points (stated fairly in Chapter 9)
+Ezekiel 18:4 ("the soul that sinneth, it shall die"); Psalm 37:20 and Malachi 4:1–3 (smoke, ashes); Jude 7 ("eternal fire") as a result Sodom does not still show; Isaiah 66:24 as corpses; Revelation 20:9 ("fire … devoured them"); Matthew 10:28 read as a power actually exercised. Held back (cited only): Luke 16 (Parable Study 24, Study 79); Romans 2:5–9 (addressed to the moralist).
+
+## Sources (checked 2026-10-26; free full texts read)
+Quoted (short, exact): Robert A. Peterson, "Basil Atkinson: A Key Figure for Twentieth-Century Evangelical Annihilationism," The Churchman, pp. 198-217 (year not shown in the copy); Andy Saville, "Arguing with Annihilationism," Scottish Bulletin of Evangelical Theology, pp. 66-90; Marlin Woodier, "Eternal Punishment?," Evangel 21.1 (Spring 2003); Alan M. Linfield, "Sheep and Goats," Evangelical Review of Theology 21.1 (1997; first in Vox Evangelica 24, 1994), pp. 39-63; Evangelical Alliance (ACUTE), The Nature of Hell (Paternoster, 2000), conclusions pp. 130-135 (names no writers). Not free: the primary texts of Fudge, Stott, Pinnock, Wenham; their positions are described in the volume's own words, naming author and work, no quotation marks (Rule 29 passage-citation rule). Neighbour products checked 2026-10-26 (PDFs read for the judgment passages): Prophecy & Mystery Vol. 5, Gospel Vols. 2 and 3, Typology Vol. 2, Prophets Vol. 3, Parable Study 31 and Study 31/79: none states a position on the nature or duration of the punishment; all report Matthew 25:46 and Revelation 20 as written.
+
+## Points still open
+- Closed 2026-10-26: thesis locked; Library of 49 volumes $464.99 (individually $734.51; save $269.52, about 37%), effective on the Collection page when the volume is published.
+- Footer and cover bottom line for the volume; Collection page anchor and volume page name.
+- Whether Luke 16 enters as a cited neighbour only (drafted so).
