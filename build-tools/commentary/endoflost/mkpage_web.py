@@ -8,7 +8,7 @@ L = open(SRC, encoding='utf-8').read().split('\n')
 assert len(L) in (42, 43), len(L)
 TITLE = 'The End of the Lost'
 SUB = 'Destruction, Eternal Punishment, and the Case Against Annihilationism'
-DESC = ('A stand-alone Commentary Volume that argues that destruction language does not by itself establish annihilation, reads the words for death, destruction, punishment, torment, exclusion, the second death and final judgment in their own contexts, '
+DESC = ('A single-volume Commentary that argues that destruction language does not by itself establish annihilation, reads the words for death, destruction, punishment, torment, exclusion, the second death and final judgment in their own contexts, '
         'and argues that the passages taken together establish irreversible, everlasting punishment, so that those finally cast into the lake of fire do not cease to exist; it names modern writers on both sides and rules on each objection.')
 def head(s):
     s = s.replace('sign-gifts-04-apostles-and-prophets', 'end-of-the-lost').replace('sign-gifts-04-', 'end-of-the-lost-')
@@ -22,7 +22,7 @@ def head(s):
     return s
 L = [head(x) for x in L]
 def setl(n, s): L[n - 1] = s
-setl(6, '<div class="eyebrow">COMMENTARY COLLECTION · STAND-ALONE VOLUME</div>')
+setl(6, '<div class="eyebrow">COMMENTARY COLLECTION · SINGLE VOLUME SERIES</div>')
 setl(9, '<p class="detail-kicker">Does the Bible’s language of destruction mean that the lost cease to exist, or does it describe a punishment that does not end?</p>')
 setl(10, '<p class="detail-copy">Scripture speaks of the lost in the words of death, destruction, perishing, punishment, torment, exclusion and the second death. Some careful writers read those words as the end of existence; others read them as a punishment without end. What does each passage say, in the setting where it stands, and what do the passages say when they are read together?</p>')
 setl(11, '<p class="detail-copy">It argues that destruction language does not by itself establish annihilation, that its meaning is fixed by context, and that the passages taken together establish irreversible, everlasting punishment: Revelation describes human beings under torment without rest, identifies the lake of fire as the second death and names that lake as the place of torment day and night for ever and ever. Those finally cast into it do not cease to exist. The case is cumulative and never rests on one Greek word or one proof text. In Chapter 9 it sets its reading beside modern writers on both sides and rules on each objection.</p>')
@@ -69,7 +69,7 @@ inc = [('66-Page Digital PDF', 'Cover and a fully numbered interior.'), ('Nine C
  ('Appendices', 'The passages at a glance, the key passages in full and a verse-by-verse index of where the passages are read.'),
  ('Bibliography', 'Every work cited, listed by author and title.')]
 setl(39, ''.join('<div class="include-item"><h3>%s</h3><p>%s</p></div>' % i for i in inc))
-setl(40, '</div> <div class="final-buy"><div><div class="eyebrow">COMMENTARY COLLECTION · STAND-ALONE VOLUME</div><h2>The End of the Lost</h2><p>66-page digital PDF · For personal use</p></div><div class="final-offer"><div class="detail-price">$14.99</div><span class="detail-button pending" aria-disabled="true">Checkout Coming Soon</span></div></div>')
+setl(40, '</div> <div class="final-buy"><div><div class="eyebrow">COMMENTARY COLLECTION · SINGLE VOLUME SERIES</div><h2>The End of the Lost</h2><p>66-page digital PDF · For personal use</p></div><div class="final-offer"><div class="detail-price">$14.99</div><span class="detail-button pending" aria-disabled="true">Checkout Coming Soon</span></div></div>')
 setl(41, '<a class="back-link" href="commentary.html#end-of-the-lost">← Back to the Commentary Collection</a>')
 open(DST, 'w', encoding='utf-8').write('\n'.join(L))
 print('wrote', DST, len(L))
