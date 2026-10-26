@@ -5,9 +5,9 @@ Version 1.0 — 2026-10-26. Draft. Records the publisher's six rulings of 2026-1
 Governs one stand-alone Commentary Volume written in Mode 2 under Framework §XX and Master Standard §20 Rule 29. It belongs to no series and is not part of the Acts Overlap Theology Series. The Digital Studies stay in Mode 1 and are unchanged (Study 79 keeps its report-only treatment under Rule 27).
 
 ## Title and subtitle (publisher, 2026-10-26)
-Volume 1. **The End of the Lost**
+**The End of the Lost**
 *Destruction, Eternal Punishment, and the Case Against Annihilationism*
-(The publisher labelled it "Volume 1"; the series or collection name that goes with the number is open, see below.)
+(Stand-alone, no volume number; publisher ruling 2026-10-26: "standalone, remove Volume 1".)
 
 ## Fit Check (2026-10-26)
 Verdict: fit by narrower question. Narrower question: What does Scripture say becomes of the lost, and what do its words for death, destruction, punishment, torment, exclusion and the second death establish, each in its own context?
@@ -32,7 +32,7 @@ The case is built cumulatively and never rests on one Greek word or one proof te
 Rules 7, 11 and 13–19 bind (including the Galatians 3 and Romans 11 standing sentences where those texts arise), with Rule 32 and the expanded Rule 33 where touched. Rules 8, 12, 20–28 and 30 do not. Passage citation and modern-sources-only rules (Rule 29) apply: a writer is quoted only where the actual words are read in a free full text; otherwise the position is described in the volume's own words, no quotation marks. Each side of the objections chapter is stated in its own best form. Reader-facing wording rule applies to every word; the mode label never appears.
 
 ## Format
-50–70 pages including the cover; KJV only; Roboto; $14.99; footer "ZAY-MARIE PRESS COMMENTARY COLLECTION, VOLUME • N" (form for a stand-alone volume pending ruling); cover 1600 × 2400 supplied art, website covers 1024 × 1536; verse-level index "Where the Passages Are Read"; four-page "A Look Inside" (Table of Contents, Preface, one page of the argument at work, one page from the objections chapter); Related Reading box; objections chapter in the Covenantal pattern (two to four modern writers on each side, named, answered from Scripture, closing table).
+50–70 pages including the cover; KJV only; Roboto; $14.99; footer "ZAY-MARIE PRESS COMMENTARY COLLECTION • N" (no volume number; wording pending ruling); cover 1600 × 2400 supplied art, website covers 1024 × 1536; verse-level index "Where the Passages Are Read"; four-page "A Look Inside" (Table of Contents, Preface, one page of the argument at work, one page from the objections chapter); Related Reading box; objections chapter in the Covenantal pattern (two to four modern writers on each side, named, answered from Scripture, closing table).
 
 ## Chapter architecture (page budget about 52 with the cover; under 50 is flagged before drafting)
 1. Preface and the question, position stated plainly (3)
@@ -50,6 +50,5 @@ Rules 7, 11 and 13–19 bind (including the Galatians 3 and Romans 11 standing s
 ## Points still open
 - Thesis wording locked? (publisher)
 - Library price for 49 volumes (proposal: $464.99; individual $734.51; save $269.52, about 37%).
-- "Volume 1" implies a numbered line: which series or collection name appears on the cover bottom and in the footer (a stand-alone with no series would not carry a volume number), and whether further volumes are planned;
 - Footer and cover bottom line for the volume; Collection page anchor and volume page name.
 - Whether Luke 16 enters as a cited neighbour only (drafted so).
