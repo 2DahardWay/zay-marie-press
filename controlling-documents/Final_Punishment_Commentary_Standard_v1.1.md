@@ -1,6 +1,6 @@
 # The End of the Lost — Stand-alone Commentary Volume Standard
 
-Version 1.0 — 2026-10-26. Draft. Records the publisher's six rulings of 2026-10-26, the revised thesis, the cumulative-method rule and the chapter architecture. Not yet registered in Master Standard §20 Rule 29 or CLAUDE.md (held until the publisher locks the thesis and rules the Library price). Nothing drafted; nothing on the website.
+Version 1.1 — 2026-10-26. Thesis, title and architecture approved by the publisher; Library price for 49 volumes approved ($464.99); registered in Master Standard v1.175 §20 Rule 29 and CLAUDE.md v1.175. Nothing drafted; nothing on the website. v1.0 (2026-10-26): draft recording the publisher's six rulings, the revised thesis, the cumulative-method rule and the chapter architecture.
 
 Governs one stand-alone Commentary Volume written in Mode 2 under Framework §XX and Master Standard §20 Rule 29. It belongs to no series and is not part of the Acts Overlap Theology Series. The Digital Studies stay in Mode 1 and are unchanged (Study 79 keeps its report-only treatment under Rule 27).
 
@@ -48,7 +48,6 @@ Rules 7, 11 and 13–19 bind (including the Galatians 3 and Romans 11 standing s
 11. Appendices: key passages; "Where the Passages Are Read"; Bibliography (3)
 
 ## Points still open
-- Thesis wording locked? (publisher)
-- Library price for 49 volumes (proposal: $464.99; individual $734.51; save $269.52, about 37%).
+- Closed 2026-10-26: thesis locked; Library of 49 volumes $464.99 (individually $734.51; save $269.52, about 37%), effective on the Collection page when the volume is published.
 - Footer and cover bottom line for the volume; Collection page anchor and volume page name.
 - Whether Luke 16 enters as a cited neighbour only (drafted so).
