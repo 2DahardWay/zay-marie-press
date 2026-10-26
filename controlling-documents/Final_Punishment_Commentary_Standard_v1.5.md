@@ -66,3 +66,6 @@ Quoted (short, exact): Robert A. Peterson, "Basil Atkinson: A Key Figure for Twe
 - Closed 2026-10-26: thesis locked; Library of 49 volumes $464.99 (individually $734.51; save $269.52, about 37%), effective on the Collection page when the volume is published.
 - Footer and cover bottom line for the volume; Collection page anchor and volume page name.
 - Whether Luke 16 enters as a cited neighbour only (drafted so).
+
+
+**Revision note (2026-10-26, record only):** the reviewer's corrections were applied to the review draft (now 59 pages with the cover). Revelation 20:10: the KJV's supplied "are" is not relied on (no corresponding Greek verb); the plural statement of torment carries the argument, marked shown by the grammar and context, with the beast and false prophet's continued consciousness Inferred. 2 Thessalonians 1:9 is an irreversible penalty, exclusion or source left open. Matthew 25:46 states permanence only. Revelation 14:11 is read beside 20:10. The throne exclusion wording, millennial-believers sentence, Preface boundary and method sentence were revised, and "shown" is lowercase throughout.

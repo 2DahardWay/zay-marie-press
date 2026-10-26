@@ -24,13 +24,13 @@ C = [
 ("sub", "2.4 No single word, no single proof text"),
 ("p", "The case is cumulative. It does not rest on the Greek word for destroy, or on the word for everlasting, or on the smoke that goes up in Revelation 14, or on the worm of Mark 9. The volume does not expect any one of these to bear the weight of the question, and the reader should not be asked to believe that it does. Where the other side makes a fair point about a word, the volume says so. The point may be that destruction, in some verses, describes a thing coming to an end. It may be that everlasting, in some verses, describes a result. It may be that a fire which is not quenched does not by itself show that what is cast into it continues to burn. These are conceded where they are true, and the volume then asks what the rest of the passage and the passages beside it add."),
 ("sub", "2.5 Three marks of evidence"),
-("p", "Each conclusion in the chapters that follow is marked as one of three kinds. A conclusion is Stated where the verse says it in so many words. It is Shown by the context where the verse does not say it but the verses around it do, or the passage it quotes does. It is Inferred where the volume draws it by reasoning from what is stated and shown. A reader who accepts the first and the second and doubts the third knows exactly what he doubts. The volume holds that the case needs all three, and that it is weakest where it is inferred. It says so at those points."),
+("p", "Each conclusion in the chapters that follow is marked as one of three kinds. A conclusion is Stated where the verse says it in so many words. It is shown by the context where the verse does not say it but the verses around it do, or the passage it quotes does. It is Inferred where the volume draws it by reasoning from what is stated and shown. A reader who accepts the first and the second and doubts the third knows exactly what he doubts. The volume holds that the case needs all three, and that it is weakest where it is inferred. It says so at those points."),
 ("ctbl", "How the argument is built.", [
     ("Step", "What is done", "Chapters"),
     ("Words", "The words of destruction and death are shown to be used in more than one way, and the word alone is not taken to decide", "2 and 3"),
     ("Texts", "The passages most often cited on either side are read in their own settings, in order", "4 to 8"),
     ("Objections", "Named modern writers on both sides are stated in their own best form and answered from Scripture", "9"),
-    ("Conclusion", "What the cumulative reading shows is stated, with what it leaves unsaid", "10"),
+    ("Conclusion", "What the cumulative reading shows is stated, with what it leaves unsaid", "Conclusion"),
   ], [0.2, 0.6, 0.2]),
 ("sub", "What the volume takes from this chapter"),
 ("bul", [
@@ -38,6 +38,6 @@ C = [
     "Seven terms are kept apart, and each passage is asked which of them it uses.",
     "Each passage is read in the setting in which it stands, and nothing said to Israel is carried to the Body of Christ.",
     "The case is cumulative; no single word or proof text carries it, and fair lexical points on the other side are conceded.",
-    "Each conclusion is marked Stated, Shown by the context, or Inferred.",
+    "Each conclusion is marked Stated, shown by the context, or Inferred.",
   ]),
 ]
