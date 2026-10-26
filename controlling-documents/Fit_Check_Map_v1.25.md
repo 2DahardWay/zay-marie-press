@@ -1,6 +1,6 @@
-# Fit Check Map v1.24
+# Fit Check Map v1.25
 
-Version 1.24. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
+Version 1.25. Internal editorial record, approved by the publisher 2026-10-17. Replaces the Digital Studies Relationship Map (v1.54, carried forward whole in the Appendix). Standing rule: this map is consulted first, as the opening step of every topic check (Approval Checkpoint 1), before any study, commentary volume, parable, reader question, companion, resource, map or book is proposed, outlined or drafted: check the passage, the one narrower question, the series arc and the neighbours, and state the verdict. A new product is added to the map in the same pass as its website package.
 ## 1. How to use it
 
 1. Name the passage(s) and the one narrower question. 2. Run `python3 -I build-tools/fit-check/fitcheck.py "<passage>"` and read Sections 5 and 6 below. 3. Read the neighbours' own question in Section 4 (and the PDF when the grade is argued). 4. State the verdict: clear, fit by mode, fit by narrower question, overlap (needs a different question), or duplicate. 5. Check the series arc (Section 3) if a volume is proposed.
@@ -17,7 +17,7 @@ Depth grades come from counts in the publisher's PDFs (argued = named 4+ times, 
 | Bible Book Companion | 66 | PDF |
 | Bible Book Summary (free) | 66 | page |
 | Reader Question | 60 | page |
-| Commentary Volume | 48 | PDF |
+| Commentary Volume | 49 | PDF |
 | Parable Study | 35 | Word file |
 | Free Resource (library) | 21 | library entry |
 | Free Resource | 10 | page |
@@ -363,6 +363,7 @@ Nearest neighbours by shared chapters (chapters the book argues or reports that 
 | V-sign-gifts-2 | Commentary Volume | Tongues and Prophecy | 55 | 9 |
 | V-sign-gifts-3 | Commentary Volume | Healing in the Body | 55 | 9 |
 | V-sign-gifts-4 | Commentary Volume | Apostles and Prophets | 52 | 9 |
+| V-end-of-the-lost | Commentary Volume | The End of the Lost (stand-alone) | 66 | 9 |
 | V-typology-1 | Commentary Volume | Tabernacle & Temple Typology | 50 | 8 |
 | V-typology-2 | Commentary Volume | Prophetic Separation | 50 | 11 |
 | V-typology-3 | Commentary Volume | Priesthood Typology: Aaron, Melchizedek & Christ | 52 | 8 |
@@ -736,6 +737,7 @@ Related Reading links by product family (rows link to columns):
 | 1.22 | 2026-10-18 | Search the New Testament's Use of the Old Testament grows from 436 to 439 uses: adds three echoes in 2 John and 3 John at the publisher's direction (2 John 8 with Ruth 2:12; 2 John 4 and 3 John 3–4 with Psalm 86:11), each tagged Shown by the context. Philemon still has no use: its candidates (Philemon 16, 18–19) share no wording with their Old Testament neighbours. Four weaker candidates and the phrase “face to face” were left out. No product, price or other question changed. |
 | 1.23 | 2026-10-25 | Adds Digital Study 88, Unequally Yoked (16 pages with the cover; Passages & Apostolic Context, test 5: one passage, 2 Corinthians 6:14–7:1, walked in order), to the registry and the Related Reading links (Studies 39, 37 and 45; Typology Volumes 1 and 2; Prophetic Identity Volume 3), graded from its PDF. No reciprocal links added: Studies 39, 37 and 45 already carry three Digital Studies links. The Digital Study count is 88 and the page count 16. Heading and version line corrected to the file version. |
 | 1.24 | 2026-10-25 | Records the Study Connections Guide placement of Study 88: Theme 3, Life and standing in Christ (end of the list, after Study 57; theme counts now 17 for Theme 3 and 13 for Theme 4; the guide’s closing link reads “Browse all 88 studies”). The publisher kept this placement on 2026-10-25 after considering Theme 1 (Israel, the Body, and covenant identity); Study 87 stays in Theme 4. No product, price, link or question changed. |
+| 1.25 | 2026-10-26 | Adds the stand-alone Commentary Volume The End of the Lost (66 pages with the cover; $14.99; no series; page `commentary-end-of-the-lost.html`) to the registry and the Related Reading links (Studies 79 and 68, Prophecy & Mystery Volume 5, Gospel Volume 3, Parable Study 31 and the 2 Thessalonians companion link to it; Studies 79 and 68 carry it in the Study Connections Guide). Fit Check verdicts: fit by narrower question (whether the final punishment of the lost is their ceasing to exist); Revelation 20:10 is crowded (Studies 31, 49 and 68, Prophecy & Mystery Volumes 4 and 5, Study 79) and Matthew 25:46 is argued in Parable Studies 22 and 31, Gospel Volume 3 and Prophets Volume 3, which the volume reads for the word “eternal” only. Its passage depth grades are added at the next full harvest run. |
 | 1.18 | 2026-10-18 | Search the New Testament's Use of the Old Testament grows from 257 to 276 uses: adds Colossians (3), 1 Thessalonians (4), 2 Thessalonians (4), Titus (1), 1 John (1) and Jude (6) under the same eight-kind classification; Philemon, 2 John and 3 John have no use that meets the criteria. Also adds search by misspelling and loose input, a no-result helper, same-passage links between uses, collapsible cards, a pinned book-chip bar, shareable addresses, and two dedicated share images. Related Reading links on each use go to the top of the linked page. Registry row updated to 276 uses. |
 | 1.17 | 2026-10-18 | Adds the free resource Search the New Testament's Use of the Old Testament (page `ot-in-nt-quotations.html`, data `assets/ot-in-nt-quotations.json`, 276 uses across the New Testament (see v1.18)) to the registry; library count 31. Verdict: overlap at the passage level (many studies, volumes and companions argue the same passages), accepted because it is a lookup of where a New Testament verse quotes or points to an Old Testament text and how the text marks the link, and argues no position; neighbours cited, not argued. One eight-kind classification (Quotation direct and composite; Allusion lexical, thematic, narrative, typological; Echo; Parallel) plus Interpretive Device (Pauline) for Galatians 4:21–31, applied to the database and to the survey guide, which was re-labelled in the same pass; tag "Not signalled by the text" for parallels; Matthew 27:9–10 listed as Matthew names the source, no note. Build files in `build-tools/nt-use-of-ot/`. Passage tables not regraded. |
 
