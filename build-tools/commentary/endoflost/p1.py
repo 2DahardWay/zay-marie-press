@@ -28,9 +28,9 @@ C = [
 ("ctbl", "How the argument is built.", [
     ("Step", "What is done", "Chapters"),
     ("Words", "The words of destruction and death are shown to be used in more than one way, and the word alone is not taken to decide", "2 and 3"),
-    ("Texts", "The passages most often cited on either side are read in their own settings, in order", "4 to 7"),
-    ("Objections", "Named modern writers on both sides are stated in their own best form and answered from Scripture", "8"),
-    ("Conclusion", "What the cumulative reading shows is stated, with what it leaves unsaid", "9"),
+    ("Texts", "The passages most often cited on either side are read in their own settings, in order", "4 to 8"),
+    ("Objections", "Named modern writers on both sides are stated in their own best form and answered from Scripture", "9"),
+    ("Conclusion", "What the cumulative reading shows is stated, with what it leaves unsaid", "10"),
   ], [0.2, 0.6, 0.2]),
 ("sub", "What the volume takes from this chapter"),
 ("bul", [

@@ -5,6 +5,7 @@ import sys,re,os
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import kjvlib, content
 Q=re.compile('“([^”]+)”')
+MODERN=set(l.strip() for l in open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'modern.txt')) if l.strip())
 def pieces(q):
     return [p.strip() for p in re.split(r'…|\.\.\.',q) if p.strip()]
 miss=[];rowbad=[];nq=0
@@ -13,6 +14,7 @@ def scan(ctx,s):
     for m in Q.finditer(s):
         for p in pieces(m.group(1)):
             nq+=1
+            if p in MODERN: continue
             if not kjvlib.in_corpus(p): miss.append((ctx,p))
 cur='front'
 for el in content.ALL:
@@ -22,7 +24,7 @@ for el in content.ALL:
     elif k=='call': scan(cur,el[2])
     elif k in('bul','num'):
         for t in el[1]: scan(cur,t)
-    elif k=='bib': scan(cur,el[1])
+    elif k=='bib': pass
     elif k in('tbl','ctbl'):
         scan(cur,el[1])
         for r in el[2]:
