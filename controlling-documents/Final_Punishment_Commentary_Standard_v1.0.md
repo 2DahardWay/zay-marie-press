@@ -4,8 +4,10 @@ Version 1.0 — 2026-10-26. Draft. Records the publisher's six rulings of 2026-1
 
 Governs one stand-alone Commentary Volume written in Mode 2 under Framework §XX and Master Standard §20 Rule 29. It belongs to no series and is not part of the Acts Overlap Theology Series. The Digital Studies stay in Mode 1 and are unchanged (Study 79 keeps its report-only treatment under Rule 27).
 
-## Working title (for approval)
-*The End of the Lost: Destruction, Eternal Punishment and the Case Against Annihilationism*
+## Title and subtitle (publisher, 2026-10-26)
+Volume 1. **The End of the Lost**
+*Destruction, Eternal Punishment, and the Case Against Annihilationism*
+(The publisher labelled it "Volume 1"; the series or collection name that goes with the number is open, see below.)
 
 ## Fit Check (2026-10-26)
 Verdict: fit by narrower question. Narrower question: What does Scripture say becomes of the lost, and what do its words for death, destruction, punishment, torment, exclusion and the second death establish, each in its own context?
@@ -48,5 +50,6 @@ Rules 7, 11 and 13–19 bind (including the Galatians 3 and Romans 11 standing s
 ## Points still open
 - Thesis wording locked? (publisher)
 - Library price for 49 volumes (proposal: $464.99; individual $734.51; save $269.52, about 37%).
-- Footer and cover bottom line for a stand-alone volume; Collection page anchor and volume page name.
+- "Volume 1" implies a numbered line: which series or collection name appears on the cover bottom and in the footer (a stand-alone with no series would not carry a volume number), and whether further volumes are planned;
+- Footer and cover bottom line for the volume; Collection page anchor and volume page name.
 - Whether Luke 16 enters as a cited neighbour only (drafted so).
