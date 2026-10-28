@@ -72,3 +72,4 @@ All 283 root HTML pages loaded at 390, 360 and 320 px: 0 pages with sideways ove
 - v1.22, 2026-10-14: item 26 added (About page counts and author photo).
 - v1.24, 2026-10-17: item 27, share images of Volumes 1–5 re-lettered “Free”; hand-set counts still to check.
 - v1.23, 2026-10-17: item 27 added (stale “$4.99” share images on Volumes 1–5; hand-set counts).
+- v1.25, 2026-10-28: item 28 added (phone-width check of the home and a study page after the speed pass; remaining web images over 500 KB; confirm the one-hour `assets/` cache header suits cover and PDF swaps).
