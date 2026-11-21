@@ -197,3 +197,4 @@ if(document.body.classList.contains('digital-studies-page')){
   };
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
 }catch(e){}})();
+;(function(){try{const col=[...document.querySelectorAll('.footer-column')].find(c=>{const h=c.querySelector('h3');return h&&h.textContent.trim()==='Reader Support';});if(!col||col.querySelector('a[href="refund-policy-and-terms.html"]'))return;const box=col.querySelector('.footer-links-stacked');if(!box)return;const br=document.createElement('br');const a=document.createElement('a');a.href='refund-policy-and-terms.html';a.textContent='Refund Policy & Terms of Sale';box.append(br,a);}catch(e){}})();
