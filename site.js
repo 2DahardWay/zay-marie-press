@@ -198,3 +198,52 @@ if(document.body.classList.contains('digital-studies-page')){
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
 }catch(e){}})();
 ;(function(){try{const col=[...document.querySelectorAll('.footer-column')].find(c=>{const h=c.querySelector('h3');return h&&h.textContent.trim()==='Reader Support';});if(!col||col.querySelector('a[href="refund-policy-and-terms.html"]'))return;const box=col.querySelector('.footer-links-stacked');if(!box)return;const br=document.createElement('br');const a=document.createElement('a');a.href='refund-policy-and-terms.html';a.textContent='Refund Policy & Terms of Sale';box.append(br,a);}catch(e){}})();
+
+/* Add to Cart buttons (Payhip cart on shop.zaymariepress.com). The cart lives on the
+   same site (zaymariepress.com), so a credentialed no-cors request fills the buyer's cart. */
+(function () {
+  var SHOP = 'https://shop.zaymariepress.com';
+  var COMMON = 'common%5Buser_id_encrypted%5D=9G8VrV0RzV&common%5Btheme_key%5D=echoes&common%5Benvironment_id_encrypted%5D=rKBPdvagBN&common%5Bshop_language%5D=english';
+  if (!document.getElementById('zmp-cart-css')) {
+    var st = document.createElement('style');
+    st.id = 'zmp-cart-css';
+    st.textContent = '.zmp-cart-btn{display:inline-block;margin:10px 0 0 10px;background:#fff;color:#176b3a;border:2px solid #176b3a;padding:11px 18px;font-family:Arial,sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;text-decoration:none;cursor:pointer;line-height:1.2}.detail-buyline .zmp-cart-btn,.final-offer .zmp-cart-btn{margin-top:0;padding:11px 20px}.zmp-cart-btn:hover,.zmp-cart-btn:focus-visible{background:#e8f0e8}.zmp-cart-btn.is-added{background:#176b3a;color:#fff}.zmp-cart-btn[disabled]{opacity:.7;cursor:wait}@media(max-width:520px){.zmp-cart-btn{margin-left:0;display:block;text-align:center;margin-top:10px}.detail-buyline .zmp-cart-btn{display:inline-block}}';
+    document.head.appendChild(st);
+  }
+  function idOf(a) {
+    var m = (a.getAttribute('href') || '').match(/cart_links%5B%5D=(\w+)/);
+    return m ? m[1] : null;
+  }
+  function wire(a) {
+    if (a.dataset.zmpCart) return;
+    var id = idOf(a);
+    if (!id || !/shop\.zaymariepress\.com\/(buy|order)\?/.test(a.getAttribute('href'))) return;
+    a.dataset.zmpCart = '1';
+    var b = document.createElement('a');
+    b.className = 'zmp-cart-btn';
+    b.href = SHOP + '/b/' + id;
+    b.setAttribute('role', 'button');
+    b.textContent = 'Add to Cart';
+    b.addEventListener('click', function (e) {
+      if (b.classList.contains('is-added')) return;
+      e.preventDefault();
+      b.setAttribute('disabled', '');
+      b.textContent = 'Adding…';
+      fetch(SHOP + '/cartv2/add?' + COMMON + '&link=' + id + '&session_enabled=1', { mode: 'no-cors', credentials: 'include' })
+        .then(function () {
+          b.removeAttribute('disabled');
+          b.classList.add('is-added');
+          b.href = SHOP + '/cart';
+          b.textContent = 'Added — View Cart';
+        })
+        .catch(function () {
+          window.location.href = SHOP + '/b/' + id;
+        });
+    });
+    a.insertAdjacentElement('afterend', b);
+  }
+  function run() {
+    [].forEach.call(document.querySelectorAll('a[href*="shop.zaymariepress.com/"]'), wire);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
+})();
