@@ -200,7 +200,7 @@ if(document.body.classList.contains('digital-studies-page')){
 ;(function(){try{const col=[...document.querySelectorAll('.footer-column')].find(c=>{const h=c.querySelector('h3');return h&&h.textContent.trim()==='Reader Support';});if(!col||col.querySelector('a[href="refund-policy-and-terms.html"]'))return;const box=col.querySelector('.footer-links-stacked');if(!box)return;const br=document.createElement('br');const a=document.createElement('a');a.href='refund-policy-and-terms.html';a.textContent='Refund Policy & Terms of Sale';box.append(br,a);}catch(e){}})();
 
 /* Add to Cart buttons (Payhip cart on shop.zaymariepress.com). The cart lives on the
-   same site (zaymariepress.com), so a credentialed no-cors request fills the buyer's cart. */
+   same site (zaymariepress.com), so a credentialed no-cors request fills the buyer's cart. Bundles are excluded: Payhip's cart ignores a bundle's pricing plan and shows the wrong price. */
 (function () {
   var SHOP = 'https://shop.zaymariepress.com';
   var COMMON = 'common%5Buser_id_encrypted%5D=9G8VrV0RzV&common%5Btheme_key%5D=echoes&common%5Benvironment_id_encrypted%5D=rKBPdvagBN&common%5Bshop_language%5D=english';
@@ -217,7 +217,7 @@ if(document.body.classList.contains('digital-studies-page')){
   function wire(a) {
     if (a.dataset.zmpCart) return;
     var id = idOf(a);
-    if (!id || !/shop\.zaymariepress\.com\/(buy|order)\?/.test(a.getAttribute('href'))) return;
+    if (!id || !/shop\.zaymariepress\.com\/buy\?/.test(a.getAttribute('href')) || /^(Sgz89|TQrs8|pP4zW|w9L4t|E530p|mq3FC|2ANy9|8CPrp|qOIeh|ay4uA|VqxJ5|aL2C1|q12Gz|tNvf8|JGrbs|uM3PC|r89PJ|EcW3u|WFnSE|hYuPk|a3BIm|xAVhU|XU4oF|xnKLs|IMeaG|KIODC)$/.test(id)) return;
     a.dataset.zmpCart = '1';
     var b = document.createElement('a');
     b.className = 'zmp-cart-btn';
