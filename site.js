@@ -207,7 +207,7 @@ if(document.body.classList.contains('digital-studies-page')){
 (function () {
   var SHOP = 'https://shop.zaymariepress.com';
   var COMMON = 'common%5Buser_id_encrypted%5D=9G8VrV0RzV&common%5Btheme_key%5D=echoes&common%5Benvironment_id_encrypted%5D=rKBPdvagBN&common%5Bshop_language%5D=english';
-  var BUNDLES = /^(Sgz89|TQrs8|pP4zW|w9L4t|E530p|mq3FC|2ANy9|8CPrp|qOIeh|ay4uA|VqxJ5|aL2C1|q12Gz|tNvf8|JGrbs|uM3PC|r89PJ|EcW3u|WFnSE|hYuPk|a3BIm|xAVhU|XU4oF|xnKLs|IMeaG|KIODC)$/;
+  var BUNDLES = /^(Sgz89|TQrs8|pP4zW|w9L4t|E530p|mq3FC|2ANy9|8CPrp|qOIeh|ay4uA|VqxJ5|aL2C1|q12Gz|tNvf8|JGrbs|uM3PC|r89PJ|EcW3u|WFnSE|hYuPk|a3BIm|xAVhU|XU4oF|xnKLs|IMeaG|KIODC|N0yPl|VJebN|c0fk2|hT2tj|6YH5S|u80ws|7ciJM|b8Tc4|nuSPv|VoZTD)$/;
   if (!document.getElementById('zmp-cart-css')) {
     var st = document.createElement('style');
     st.id = 'zmp-cart-css';
