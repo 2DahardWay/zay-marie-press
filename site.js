@@ -216,6 +216,18 @@ if(document.body.classList.contains('digital-studies-page')){
   }
   function getAdded() { try { return JSON.parse(sessionStorage.getItem('zmpCart') || '[]'); } catch (e) { return []; } }
   function saveAdded(a) { try { sessionStorage.setItem('zmpCart', JSON.stringify(a)); } catch (e) {} }
+  /* Returning from the shop: its return links carry ?zmpcart=N (the real cart count), so the badge matches the cart. */
+  (function () {
+    try {
+      var p = new URLSearchParams(location.search);
+      if (!p.has('zmpcart')) return;
+      var n = parseInt(p.get('zmpcart'), 10), a = [];
+      if (!isNaN(n) && n >= 0 && n < 100) { for (var i = 0; i < n; i++) a.push('_c' + i); saveAdded(a); }
+      p.delete('zmpcart');
+      var q = p.toString();
+      history.replaceState(null, '', location.pathname + (q ? '?' + q : '') + location.hash);
+    } catch (e) {}
+  })();
   var badge;
   function paint() { if (!badge) return; var n = getAdded().length; badge.textContent = n; badge.hidden = !n; }
   function addToCart(id, b, onAdded) {
