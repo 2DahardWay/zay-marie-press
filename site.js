@@ -230,19 +230,22 @@ if(document.body.classList.contains('digital-studies-page')){
   })();
   var badge;
   function paint() { if (!badge) return; var n = getAdded().length; badge.textContent = n; badge.hidden = !n; }
+  var addQueue = Promise.resolve(); /* adds run one at a time, so quick clicks on several studies are all kept */
   function addToCart(id, b, onAdded) {
-    if (b.classList.contains('is-added')) return;
+    if (b.classList.contains('is-added') || b.hasAttribute('disabled')) return;
     b.setAttribute('disabled', '');
     b.textContent = 'Adding…';
-    fetch(SHOP + '/cartv2/add?' + COMMON + '&link=' + id + '&session_enabled=1', { mode: 'no-cors', credentials: 'include' })
-      .then(function () {
-        b.removeAttribute('disabled');
-        b.classList.add('is-added');
-        b.textContent = 'Added — View Cart';
-        var a = getAdded(); if (a.indexOf(id) < 0) { a.push(id); saveAdded(a); } paint();
-        if (onAdded) onAdded();
-      })
-      .catch(function () { window.location.href = SHOP + '/b/' + id; });
+    addQueue = addQueue.then(function () {
+      return fetch(SHOP + '/cartv2/add?' + COMMON + '&link=' + id + '&session_enabled=1', { mode: 'no-cors', credentials: 'include' })
+        .then(function () {
+          b.removeAttribute('disabled');
+          b.classList.add('is-added');
+          b.textContent = 'Added — View Cart';
+          var a = getAdded(); if (a.indexOf(id) < 0) { a.push(id); saveAdded(a); } paint();
+          if (onAdded) onAdded();
+        })
+        .catch(function () { window.location.href = SHOP + '/b/' + id; });
+    });
   }
   function idOf(a) { var m = (a.getAttribute('href') || '').match(/cart_links%5B%5D=(\w+)/); return m ? m[1] : null; }
   function wire(a) {
@@ -294,7 +297,7 @@ if(document.body.classList.contains('digital-studies-page')){
   }
   function run() {
     [].forEach.call(document.querySelectorAll('a[href*="shop.zaymariepress.com/"]'), wire);
-    [].forEach.call(document.querySelectorAll('.packet-hub-card[data-cart], .para-card[data-cart]'), wireCard);
+    [].forEach.call(document.querySelectorAll('.packet-hub-card[data-cart], .para-card[data-cart], .study-card[data-cart]'), wireCard);
     headerCart();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
