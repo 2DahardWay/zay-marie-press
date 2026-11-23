@@ -36,7 +36,8 @@
 .study-card mark{background:#f6e3a8;color:inherit}
 @media(max-width:900px){.catalog-tools-inner{grid-template-columns:1fr 1fr!important;grid-template-areas:"search search" "field sort" "tabs tabs" "count reset"!important}}
 @media(max-width:560px){.catalog-tools-inner{grid-template-columns:1fr!important;grid-template-areas:"search" "field" "sort" "tabs" "count" "reset"!important}.catalog-reset{justify-self:start!important}.catalog-tabs button{font-size:.78rem!important}}
-@media(prefers-reduced-motion:reduce){.catalog-tabs button,.study-card .zmp-cart-btn{display:block;margin:12px 0 0;padding:10px 12px;text-align:center;font-size:.74rem}.study-card{transition:none}.catalog-tabs button:hover,.study-card:hover{transform:none}}
+.study-card .zmp-cart-btn{box-sizing:border-box;flex:none;display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;justify-self:start;width:auto;min-width:128px;height:32px;margin:12px 0 0;padding:0 16px;font-size:.7rem;line-height:1;text-align:center;white-space:nowrap}
+@media(prefers-reduced-motion:reduce){.catalog-tabs button,.study-card{transition:none}.catalog-tabs button:hover,.study-card:hover{transform:none}}
 .catalog-filters-toggle{display:none}
 @media(max-width:900px){.catalog-tools{position:sticky!important}
 .catalog-tools-inner{grid-template-columns:minmax(0,1fr) 104px!important;grid-template-areas:"search toggle" "field field" "sort sort" "tabs tabs" "count count" "reset reset"!important;gap:8px 10px!important}
