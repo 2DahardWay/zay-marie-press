@@ -230,9 +230,24 @@ if(document.body.classList.contains('digital-studies-page')){
   })();
   var badge;
   function paint() { if (!badge) return; var n = getAdded().length; badge.textContent = n; badge.hidden = !n; }
+  /* Remember where the customer was, so the shop's "Continue shopping" and logo can bring them back to this exact page and card.
+     The cookie is scoped to .zaymariepress.com so the shop (shop.zaymariepress.com) can read it. */
+  function saveBack(card) {
+    try {
+      if (!/(^|\.)zaymariepress\.com$/.test(location.hostname)) return;
+      var path = location.pathname.replace(/\/index\.html$/, '/');
+      var v = path + (card && card.id ? '#' + card.id : '');
+      if (!card) { /* opening the cart from the header: keep the card already saved for this same page */
+        var m = document.cookie.match(/(?:^|;\s*)zmp_back=([^;]*)/), old = m ? decodeURIComponent(m[1]) : '';
+        if (old.split('#')[0] === path) v = old;
+      }
+      document.cookie = 'zmp_back=' + encodeURIComponent(v) + '; domain=.zaymariepress.com; path=/; max-age=604800; SameSite=Lax; Secure';
+    } catch (e) {}
+  }
   var addQueue = Promise.resolve(); /* adds run one at a time, so quick clicks on several studies are all kept */
   function addToCart(id, b, onAdded) {
     if (b.classList.contains('is-added') || b.hasAttribute('disabled')) return;
+    saveBack(b.closest ? b.closest('.study-card, .packet-hub-card, .para-card') : null);
     b.setAttribute('disabled', '');
     b.textContent = 'Adding…';
     addQueue = addQueue.then(function () {
@@ -290,6 +305,7 @@ if(document.body.classList.contains('digital-studies-page')){
     a.className = 'zmp-cart-link';
     a.href = SHOP + '/cart';
     a.setAttribute('aria-label', 'Cart');
+    a.addEventListener('click', function () { saveBack(null); });
     a.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.8a1 1 0 0 0 1-.8L20 8H6.2"/><circle cx="9.5" cy="20" r="1.2"/><circle cx="17" cy="20" r="1.2"/></svg><span class="zmp-cart-count" hidden></span>';
     nav.appendChild(a);
     badge = a.querySelector('.zmp-cart-count');
