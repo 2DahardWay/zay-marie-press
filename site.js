@@ -266,7 +266,7 @@ if(document.body.classList.contains('digital-studies-page')){
     }
     b.addEventListener('click', go);
     b.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') go(e); });
-    (card.querySelector('.packet-hub-price') || card).appendChild(b);
+    (card.querySelector('.packet-hub-price') || card.querySelector('.para-meta') || card).appendChild(b);
   }
   function headerCart() {
     var nav = document.querySelector('.primary-nav');
@@ -282,7 +282,7 @@ if(document.body.classList.contains('digital-studies-page')){
   }
   function run() {
     [].forEach.call(document.querySelectorAll('a[href*="shop.zaymariepress.com/"]'), wire);
-    [].forEach.call(document.querySelectorAll('.packet-hub-card[data-cart]'), wireCard);
+    [].forEach.call(document.querySelectorAll('.packet-hub-card[data-cart], .para-card[data-cart]'), wireCard);
     headerCart();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
