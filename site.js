@@ -228,6 +228,29 @@ if(document.body.classList.contains('digital-studies-page')){
       history.replaceState(null, '', location.pathname + (q ? '?' + q : '') + location.hash);
     } catch (e) {}
   })();
+  /* Returning from the shop to "#c-<id>": scroll to that product's card, clear of the sticky header and search bars.
+     Done in script because some pages build their card ids after load, and sticky bars would otherwise cover the card. */
+  (function () {
+    var m = location.hash.match(/^#c-(\w+)$/);
+    if (!m) return;
+    function go() {
+      var el = document.querySelector('[data-cart="' + m[1] + '"]');
+      if (!el) return;
+      var off = 0, all = document.querySelectorAll('body *');
+      for (var i = 0; i < all.length; i++) {
+        var p = getComputedStyle(all[i]).position;
+        if (p !== 'sticky' && p !== 'fixed') continue;
+        var r = all[i].getBoundingClientRect();
+        if (r.height > 0 && r.height < 400 && r.top >= -2 && r.top < 260 && r.width > innerWidth * 0.5) off = Math.max(off, r.bottom);
+      }
+      var y = el.getBoundingClientRect().top + window.pageYOffset - off - 14;
+      window.scrollTo({ top: Math.max(0, y), behavior: 'instant' });
+    }
+    var stop = false;
+    ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (ev) { window.addEventListener(ev, function () { stop = true; }, { passive: true, once: true }); });
+    function run() { go(); [300, 900, 1800].forEach(function (d) { setTimeout(function () { if (!stop) go(); }, d); }); }
+    if (document.readyState === 'complete') run(); else window.addEventListener('load', run);
+  })();
   var badge;
   function paint() { if (!badge) return; var n = getAdded().length; badge.textContent = n; badge.hidden = !n; }
   /* Remember where the customer was, so the shop's "Continue shopping" and logo can bring them back to this exact page and card.
@@ -236,7 +259,8 @@ if(document.body.classList.contains('digital-studies-page')){
     try {
       if (!/(^|\.)zaymariepress\.com$/.test(location.hostname)) return;
       var path = location.pathname.replace(/\/index\.html$/, '/');
-      var v = path + (card && card.id ? '#' + card.id : '');
+      var cid = card && card.getAttribute ? card.getAttribute('data-cart') : '';
+      var v = path + (cid && /^\w+$/.test(cid) ? '#c-' + cid : '');
       if (!card) { /* opening the cart from the header: keep the card already saved for this same page */
         var m = document.cookie.match(/(?:^|;\s*)zmp_back=([^;]*)/), old = m ? decodeURIComponent(m[1]) : '';
         if (old.split('#')[0] === path) v = old;
