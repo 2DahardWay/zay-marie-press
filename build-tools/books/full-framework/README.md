@@ -1,6 +1,8 @@
 # The Full Framework (Book 1), print interior files
 
-Current, submit-ready files (2026-10-18, with the Selected Bibliography, Rule 36):
+**CURRENT FINAL (2026-11-22):** `Full_Framework_FINAL_PRE_PROOF_CORRECTIONS_ACTS15.pdf`, the publisher's final interior (390 pages, Cambria, 6 x 9, includes the Acts 15 corrections). The IngramSpark eproof (ISBN 9798997885601, 392 pages) was checked page for page against it (eproof page N+4 = this file's page N) and matches. It is newer than every file below. No editable DOCX of this final is in the repo; send it and commit it here. The v11 DOCX and the 240-page PDF below are OLDER text and must not be used for printing.
+
+Older files (2026-10-18, superseded):
 
 - `The_Full_Framework_Print_Interior_Editable_6x9_v11_with_Bibliography.docx`: editable source. Start every revision here.
 - `Full_Framework_Print_Interior_6x9_240pp.pdf`: print interior built from that DOCX (6 x 9, Caladea embedded, 240 pages; page 240 is a blank pad so the count is even; bibliography is printed pages 231-233).
