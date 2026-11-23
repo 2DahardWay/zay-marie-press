@@ -222,7 +222,12 @@ if(document.body.classList.contains('digital-studies-page')){
       var p = new URLSearchParams(location.search);
       if (!p.has('zmpcart')) return;
       var n = parseInt(p.get('zmpcart'), 10), a = [];
-      if (!isNaN(n) && n >= 0 && n < 100) { for (var i = 0; i < n; i++) a.push('_c' + i); saveAdded(a); }
+      if (!isNaN(n) && n >= 0 && n < 100) {
+        /* keep the real product ids when the count still matches (so cards stay "Added"); otherwise the cart changed and we can't tell which, so show only the count */
+        var old = getAdded().filter(function (x) { return x.charAt(0) !== '_'; });
+        if (old.length === n) a = old; else for (var i = 0; i < n; i++) a.push('_c' + i);
+        saveAdded(a);
+      }
       p.delete('zmpcart');
       var q = p.toString();
       history.replaceState(null, '', location.pathname + (q ? '?' + q : '') + location.hash);
@@ -286,6 +291,10 @@ if(document.body.classList.contains('digital-studies-page')){
         .catch(function () { window.location.href = SHOP + '/b/' + id; });
     });
   }
+  function markAdded(b, id) {
+    if (getAdded().indexOf(id) < 0) return false;
+    b.classList.add('is-added'); b.textContent = 'Added — View Cart'; return true;
+  }
   function idOf(a) { var m = (a.getAttribute('href') || '').match(/cart_links%5B%5D=(\w+)/); return m ? m[1] : null; }
   function wire(a) {
     if (a.dataset.zmpCart) return;
@@ -302,6 +311,7 @@ if(document.body.classList.contains('digital-studies-page')){
       e.preventDefault();
       addToCart(id, b, function () { b.href = SHOP + '/cart'; });
     });
+    if (markAdded(b, id)) b.href = SHOP + '/cart';
     a.insertAdjacentElement('afterend', b);
   }
   function wireCard(card) {
@@ -320,6 +330,7 @@ if(document.body.classList.contains('digital-studies-page')){
     }
     b.addEventListener('click', go);
     b.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') go(e); });
+    markAdded(b, id);
     (card.querySelector('.packet-hub-price') || card.querySelector('.para-meta') || card).appendChild(b);
   }
   function headerCart() {
