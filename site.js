@@ -211,7 +211,7 @@ if(document.body.classList.contains('digital-studies-page')){
   if (!document.getElementById('zmp-cart-css')) {
     var st = document.createElement('style');
     st.id = 'zmp-cart-css';
-    st.textContent = '.zmp-cart-btn{display:inline-block;margin:10px 0 0 10px;background:#fff;color:#176b3a;border:2px solid #176b3a;padding:11px 18px;font-family:Arial,sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;text-decoration:none;cursor:pointer;line-height:1.2}.detail-buyline .zmp-cart-btn,.final-offer .zmp-cart-btn{margin-top:0;padding:11px 20px}.zmp-cart-btn:hover,.zmp-cart-btn:focus-visible{background:#e8f0e8}.zmp-cart-btn.is-added{background:#176b3a;color:#fff}.zmp-cart-btn[disabled]{opacity:.7;cursor:wait}.packet-hub-card .zmp-cart-btn{display:block;margin:8px 0 0;padding:7px 10px;font-size:.68rem;text-align:center;white-space:nowrap}.zmp-cart-link{position:relative;display:inline-flex;align-items:center;gap:6px}.zmp-cart-link svg{width:20px;height:20px;display:block}.zmp-cart-count{min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:#176b3a;color:#fff;font:700 .68rem/18px Arial,sans-serif;text-align:center}.zmp-cart-count[hidden]{display:none}@media(max-width:900px){.zmp-cart-link::after{content:"CART";font:700 .8rem Arial,sans-serif;letter-spacing:.07em}}@media(max-width:520px){.zmp-cart-btn{margin-left:0;display:block;text-align:center;margin-top:10px}.detail-buyline .zmp-cart-btn{display:inline-block}.packet-hub-card .zmp-cart-btn{display:block}}';
+    st.textContent = '.zmp-cart-btn{display:inline-block;margin:10px 0 0 10px;background:#fff;color:#176b3a;border:2px solid #176b3a;padding:11px 18px;font-family:Arial,sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;text-decoration:none;cursor:pointer;line-height:1.2}.detail-buyline .zmp-cart-btn,.final-offer .zmp-cart-btn{margin-top:0;padding:11px 20px}.zmp-cart-btn:hover,.zmp-cart-btn:focus-visible{background:#e8f0e8}.zmp-cart-btn.is-added{background:#176b3a;color:#fff}.zmp-cart-btn[disabled]{opacity:.7;cursor:wait}.packet-hub-card .zmp-cart-btn{display:block;margin:8px 0 0;padding:7px 10px;font-size:.68rem;text-align:center;white-space:nowrap}.zmp-cart-link{position:relative;display:inline-flex;align-items:center;gap:6px}.zmp-cart-link svg{width:20px;height:20px;display:block}.zmp-cart-count{min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:#176b3a;color:#fff;font:700 .68rem/18px Arial,sans-serif;text-align:center}.zmp-cart-count[hidden]{display:none}.zmp-cart-mobile{display:none}@media(max-width:820px){.zmp-cart-mobile{display:inline-flex;align-items:center;gap:5px;position:relative;margin:0 12px 0 auto;padding:8px;color:#1c2922;text-decoration:none}.zmp-cart-mobile svg{width:26px;height:26px;display:block}.zmp-cart-mobile .zmp-cart-count{position:absolute;top:0;right:-2px}.primary-nav .zmp-cart-link{display:none}}@media(max-width:900px){.zmp-cart-link::after{content:"CART";font:700 .8rem Arial,sans-serif;letter-spacing:.07em}}@media(max-width:520px){.zmp-cart-btn{margin-left:0;display:block;text-align:center;margin-top:10px}.detail-buyline .zmp-cart-btn{display:inline-block}.packet-hub-card .zmp-cart-btn{display:block}}';
     document.head.appendChild(st);
   }
   function getAdded() { try { return JSON.parse(sessionStorage.getItem('zmpCart') || '[]'); } catch (e) { return []; } }
@@ -256,8 +256,8 @@ if(document.body.classList.contains('digital-studies-page')){
     function run() { go(); [300, 900, 1800].forEach(function (d) { setTimeout(function () { if (!stop) go(); }, d); }); }
     if (document.readyState === 'complete') run(); else window.addEventListener('load', run);
   })();
-  var badge;
-  function paint() { if (!badge) return; var n = getAdded().length; badge.textContent = n; badge.hidden = !n; }
+  var badge, badge2;
+  function paint() { var n = getAdded().length; [badge, badge2].forEach(function (b) { if (!b) return; b.textContent = n; b.hidden = !n; }); }
   /* Remember where the customer was, so the shop's "Continue shopping" and logo can bring them back to this exact page and card.
      The cookie is scoped to .zaymariepress.com so the shop (shop.zaymariepress.com) can read it. */
   function saveBack(card) {
@@ -344,6 +344,18 @@ if(document.body.classList.contains('digital-studies-page')){
     a.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a1 1 0 0 0 1 .8h8.8a1 1 0 0 0 1-.8L20 8H6.2"/><circle cx="9.5" cy="20" r="1.2"/><circle cx="17" cy="20" r="1.2"/></svg><span class="zmp-cart-count" hidden></span>';
     nav.appendChild(a);
     badge = a.querySelector('.zmp-cart-count');
+    /* On phones the menu list is folded away, so the cart also sits in the header bar beside MENU. */
+    var bar = document.querySelector('.site-header .nav'), tg = bar && bar.querySelector('.menu-toggle');
+    if (tg && !bar.querySelector('.zmp-cart-mobile')) {
+      var m = document.createElement('a');
+      m.className = 'zmp-cart-mobile';
+      m.href = SHOP + '/cart';
+      m.setAttribute('aria-label', 'Cart');
+      m.addEventListener('click', function () { saveBack(null); });
+      m.innerHTML = a.innerHTML;
+      bar.insertBefore(m, tg);
+      badge2 = m.querySelector('.zmp-cart-count');
+    }
     paint();
   }
   function run() {
