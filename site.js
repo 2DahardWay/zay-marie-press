@@ -374,13 +374,15 @@ if(document.body.classList.contains('digital-studies-page')){
   }
   /* Commentary Collection bundles: an "Add ... to cart" button directly beneath each Buy button. */
   /* Payhip bundles cannot be carted at the right price, so each bundle's Add to cart uses a matching regular product (same contents, same price). */
-  var CART_OF = {'2ANy9':'i4xu2','E530p':'MEidm','ay4uA':'auOr4','w9L4t':'WZ72d','mq3FC':'cd3DA','qOIeh':'g3RK0','VqxJ5':'SpY3W','8CPrp':'yEh1F','pP4zW':'2xFHD','TQrs8':'Fiq9w','Sgz89':'hmSTt'};
+  var CART_OF = {'2ANy9':'i4xu2','E530p':'MEidm','ay4uA':'auOr4','w9L4t':'WZ72d','mq3FC':'cd3DA','qOIeh':'g3RK0','VqxJ5':'SpY3W','8CPrp':'yEh1F','pP4zW':'2xFHD','TQrs8':'Fiq9w','Sgz89':'hmSTt',
+    /* Digital Studies collections */ 'EcW3u':'Jvwly','WFnSE':'9Klue','hYuPk':'suvkm','a3BIm':'daQCY','xAVhU':'Cnyut','XU4oF':'7C1sh','xnKLs':'WgOGV','IMeaG':'tBLYE'};
   function wireBundle(a) {
     if (a.dataset.zmpCart) return;
     var id = CART_OF[idOf(a)];
     if (!id) return;
     a.dataset.zmpCart = '1';
     var label = (a.textContent || '').replace(/^Buy the\s+/, '').replace(/\s+bundle$/, '').trim();
+    if (a.closest('.collection-card')) label = 'Collection';
     var b = document.createElement('a');
     b.className = 'zmp-cart-btn zmp-bundle-cart';
     b.href = SHOP + '/b/' + id;
@@ -407,7 +409,7 @@ if(document.body.classList.contains('digital-studies-page')){
       });
     }
     tuck(); [100, 500, 1500].forEach(function (d) { setTimeout(tuck, d); });
-    [].forEach.call(document.querySelectorAll('a.com-bundle-link'), wireBundle);
+    [].forEach.call(document.querySelectorAll('a.com-bundle-link, .collection-card a[href*="cart_links"]'), wireBundle);
     headerCart();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
