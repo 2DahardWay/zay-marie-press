@@ -333,9 +333,9 @@ body:has(.page-hero + .white .feature) .page-hero + .white{padding-top:62px}
 .scripture-card:target{outline:3px solid #d4af37;outline-offset:2px}
 
 /* Buy Now and Add to Cart are the same size on every product page (studies, commentary volumes, Bible Book Companions) */
-body .detail-buyline .detail-button,body .detail-buyline .zmp-cart-btn,body .final-offer .detail-button,body .final-offer .zmp-cart-btn{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:156px;height:46px;margin:0;padding:0 14px;border:2px solid #176b3a;font:700 .8rem/1.2 Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap}
+body .detail-buyline .detail-button,body .detail-buyline .zmp-cart-btn,body .final-offer .detail-button,body .final-offer .zmp-cart-btn{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:156px;height:46px;margin:0 14px 14px 0;padding:0 14px;border:2px solid #176b3a;font:700 .8rem/1.2 Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap}
 body .detail-buyline .detail-button.pending,body .final-offer .detail-button.pending{width:auto;min-width:156px;padding:0 18px}
 
 /* Parable Study pages: Buy Now (.para-pending) and Add to Cart match the other product pages */
-body a.para-pending,body a.para-pending~.zmp-cart-btn,body .para-pending+.zmp-cart-btn{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:156px;height:46px;margin:0;padding:0 14px;border:2px solid #176b3a;font:700 .8rem/1.2 Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap;vertical-align:middle}
-body a.para-pending~.zmp-cart-btn,body .para-pending+.zmp-cart-btn{margin-left:10px}
+body a.para-pending,body a.para-pending~.zmp-cart-btn,body .para-pending+.zmp-cart-btn{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:156px;height:46px;margin:0 14px 14px 0;padding:0 14px;border:2px solid #176b3a;font:700 .8rem/1.2 Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap;vertical-align:middle}
+body a.para-pending~.zmp-cart-btn,body .para-pending+.zmp-cart-btn{margin:0 14px 14px 0}
