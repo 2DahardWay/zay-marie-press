@@ -372,6 +372,29 @@ if(document.body.classList.contains('digital-studies-page')){
     }
     paint();
   }
+  /* Commentary Collection bundles: an "Add ... to cart" button directly beneath each Buy button. */
+  function wireBundle(a) {
+    if (a.dataset.zmpCart) return;
+    var id = idOf(a);
+    if (!id) return;
+    a.dataset.zmpCart = '1';
+    var label = (a.textContent || '').replace(/^Buy the\s+/, '').replace(/\s+bundle$/, '').trim();
+    var b = document.createElement('a');
+    b.className = 'zmp-cart-btn zmp-bundle-cart';
+    b.href = SHOP + '/b/' + id;
+    b.setAttribute('role', 'button');
+    b.style.cssText = 'display:block;width:fit-content;max-width:100%;box-sizing:border-box;margin:10px 0 0;padding:11px 18px;border:0;box-shadow:inset 0 0 0 2px #176b3a;font-weight:700;line-height:1.2;letter-spacing:normal;text-transform:none;text-align:left;white-space:normal';
+    var cs = window.getComputedStyle(a); b.style.fontFamily = cs.fontFamily; b.style.fontSize = cs.fontSize;
+    var base = 'Add the ' + label + ' to cart';
+    b.textContent = base;
+    b.addEventListener('click', function (e) {
+      if (b.classList.contains('is-added')) { b.href = SHOP + '/cart'; return; }
+      e.preventDefault();
+      addToCart(id, b, function () { b.href = SHOP + '/cart'; });
+    });
+    if (markAdded(b, id)) b.href = SHOP + '/cart';
+    a.insertAdjacentElement('afterend', b);
+  }
   function run() {
     [].forEach.call(document.querySelectorAll('a[href*="shop.zaymariepress.com/"]'), wire);
     [].forEach.call(document.querySelectorAll('.packet-hub-card[data-cart], .para-card[data-cart], .study-card[data-cart], .bb-tile[data-cart]'), wireCard);
@@ -382,6 +405,7 @@ if(document.body.classList.contains('digital-studies-page')){
       });
     }
     tuck(); [100, 500, 1500].forEach(function (d) { setTimeout(tuck, d); });
+    [].forEach.call(document.querySelectorAll('a.com-bundle-link'), wireBundle);
     headerCart();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
