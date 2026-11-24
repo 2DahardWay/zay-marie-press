@@ -11,10 +11,13 @@
 <div class="bar"><span id="t">PDF</span><div class="r"><a class="dl" id="dl" href="#" download>Download PDF</a><button class="x" type="button" id="x" aria-label="Close and return">&times;</button></div></div>
 <div class="pg" id="pg"><div class="msg" id="m">Loading…</div></div>
 <script type="module">
-var FILES={guide:['Study Connections Guide','assets/zay-marie-press-study-connections-guide.pdf','study-connections.html'],questions:['Questions Readers Ask','assets/zay-marie-press-questions-readers-ask.pdf','digital-studies.html']};
-var k=new URLSearchParams(location.search).get('f'),f=FILES[k]||FILES.guide;
+var FILES={guide:['Study Connections Guide','assets/zay-marie-press-study-connections-guide.pdf','/study-connections.html'],questions:['Questions Readers Ask','assets/zay-marie-press-questions-readers-ask.pdf','/digital-studies.html']};
+var q=new URLSearchParams(location.search),k=q.get('f'),f=FILES[k];
+if(!f){if(/^assets\/[A-Za-z0-9_\-.]+\.pdf$/.test(k||'')){f=[k.replace(/^assets\//,'').replace(/\.pdf$/,'').replace(/[_\-]+/g,' '),k,'/']}else{f=FILES.guide}}
+var ref='';try{var u=new URL(document.referrer);if(u.origin===location.origin&&u.pathname.indexOf('pdf-viewer')<0)ref=u.pathname+u.search+u.hash}catch(e){}
+var back=ref||f[2];
 document.getElementById('t').textContent=f[0];document.title=f[0]+' | Zay-Marie Press';document.getElementById('dl').href=f[1];
-document.getElementById('x').addEventListener('click',function(){try{window.close()}catch(e){}setTimeout(function(){location.replace('/'+f[2])},120)});
+document.getElementById('x').addEventListener('click',function(){try{window.close()}catch(e){}setTimeout(function(){location.replace(back)},120)});
 var pg=document.getElementById('pg'),m=document.getElementById('m');
 function fail(){m.innerHTML='The viewer could not load here. <a href="'+f[1]+'">Open the PDF directly</a> or use Download PDF above.';}
 try{
