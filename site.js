@@ -405,7 +405,7 @@ if(document.body.classList.contains('digital-studies-page')){
       });
     }
     tuck(); [100, 500, 1500].forEach(function (d) { setTimeout(tuck, d); });
-    [].forEach.call(document.querySelectorAll('a.com-bundle-link'), wireBundle);
+    if (window.ZMP_BUNDLE_CART === true) [].forEach.call(document.querySelectorAll('a.com-bundle-link'), wireBundle); /* held off: shop shows $999.99 for bundles added this way */
     headerCart();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
