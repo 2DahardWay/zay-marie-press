@@ -221,6 +221,7 @@ if(document.body.classList.contains('digital-studies-page')){
     try {
       var p = new URLSearchParams(location.search);
       if (!p.has('zmpcart')) return;
+      try { sessionStorage.setItem('zmpSynced', '1'); } catch (e) {}
       var n = parseInt(p.get('zmpcart'), 10), a = [];
       if (!isNaN(n) && n >= 0 && n < 100) {
         /* keep the real product ids when the count still matches (so cards stay "Added"); otherwise the cart changed and we can't tell which, so show only the count */
@@ -233,6 +234,17 @@ if(document.body.classList.contains('digital-studies-page')){
       history.replaceState(null, '', location.pathname + (q ? '?' + q : '') + location.hash);
     } catch (e) {}
   })();
+  /* After a visit to the shop's cart, the site cannot know what was removed there. If the visitor comes back without the
+     shop's ?zmpcart=N link (for example through this site's own menu), the stored count may be stale, so the badge hides until the next add. */
+  var stale = false;
+  try {
+    var hadSync = /[?&]zmpcart=/.test(location.search) || sessionStorage.getItem('zmpSynced') === '1';
+    sessionStorage.removeItem('zmpSynced');
+    if (sessionStorage.getItem('zmpAway') === '1') { sessionStorage.removeItem('zmpAway'); if (!hadSync) { stale = true; sessionStorage.setItem('zmpStale', '1'); } else sessionStorage.removeItem('zmpStale'); }
+    else if (sessionStorage.getItem('zmpStale') === '1') stale = true;
+  } catch (e) {}
+  function markAway() { try { sessionStorage.setItem('zmpAway', '1'); } catch (e) {} }
+  document.addEventListener('click', function (e) { var a = e.target && e.target.closest ? e.target.closest('a[href]') : null; if (a && (a.getAttribute('href') || '').indexOf(SHOP + '/cart') === 0) markAway(); }, true);
   /* Returning from the shop to "#c-<id>": scroll to that product's card, clear of the sticky header and search bars.
      Done in script because some pages build their card ids after load, and sticky bars would otherwise cover the card. */
   (function () {
@@ -257,7 +269,8 @@ if(document.body.classList.contains('digital-studies-page')){
     if (document.readyState === 'complete') run(); else window.addEventListener('load', run);
   })();
   var badge, badge2;
-  function paint() { var n = getAdded().length; [badge, badge2].forEach(function (b) { if (!b) return; b.textContent = n; b.hidden = !n; }); }
+  function paint() { var n = stale ? 0 : getAdded().length; [badge, badge2].forEach(function (b) { if (!b) return; b.textContent = n; b.hidden = !n; }); }
+  window.addEventListener('pageshow', function (e) { try { if (e.persisted && sessionStorage.getItem('zmpAway') === '1') { sessionStorage.removeItem('zmpAway'); stale = true; sessionStorage.setItem('zmpStale', '1'); paint(); } } catch (x) {} });
   /* Remember where the customer was, so the shop's "Continue shopping" and logo can bring them back to this exact page and card.
      The cookie is scoped to .zaymariepress.com so the shop (shop.zaymariepress.com) can read it. */
   function saveBack(card) {
@@ -285,6 +298,7 @@ if(document.body.classList.contains('digital-studies-page')){
           b.removeAttribute('disabled');
           b.classList.add('is-added');
           b.textContent = 'Added — View Cart';
+          if (stale) { stale = false; try { sessionStorage.removeItem('zmpStale'); } catch (x) {} saveAdded([]); }
           var a = getAdded(); if (a.indexOf(id) < 0) { a.push(id); saveAdded(a); } paint();
           if (onAdded) onAdded();
         })
@@ -325,7 +339,7 @@ if(document.body.classList.contains('digital-studies-page')){
     function go(e) {
       e.preventDefault();
       e.stopPropagation();
-      if (b.classList.contains('is-added')) { window.location.href = SHOP + '/cart'; return; }
+      if (b.classList.contains('is-added')) { markAway(); window.location.href = SHOP + '/cart'; return; }
       addToCart(id, b);
     }
     b.addEventListener('click', go);
