@@ -289,7 +289,7 @@ if(document.body.classList.contains('digital-studies-page')){
   var addQueue = Promise.resolve(); /* adds run one at a time, so quick clicks on several studies are all kept */
   function addToCart(id, b, onAdded) {
     if (b.classList.contains('is-added') || b.hasAttribute('disabled')) return;
-    saveBack(b.closest ? b.closest('.study-card, .packet-hub-card, .para-card') : null);
+    saveBack(b.closest ? b.closest('.study-card, .packet-hub-card, .para-card, .bb-tile') : null);
     b.setAttribute('disabled', '');
     b.textContent = 'Adding…';
     addQueue = addQueue.then(function () {
@@ -330,7 +330,7 @@ if(document.body.classList.contains('digital-studies-page')){
   }
   function wireCard(card) {
     var id = card.getAttribute('data-cart');
-    if (!id || BUNDLES.test(id) || card.querySelector('.zmp-cart-btn')) return;
+    if (!id || (BUNDLES.test(id) && !card.hasAttribute('data-bundle-ok')) || card.querySelector('.zmp-cart-btn')) return;
     var b = document.createElement('span');
     b.className = 'zmp-cart-btn';
     b.setAttribute('role', 'button');
@@ -374,7 +374,7 @@ if(document.body.classList.contains('digital-studies-page')){
   }
   function run() {
     [].forEach.call(document.querySelectorAll('a[href*="shop.zaymariepress.com/"]'), wire);
-    [].forEach.call(document.querySelectorAll('.packet-hub-card[data-cart], .para-card[data-cart], .study-card[data-cart]'), wireCard);
+    [].forEach.call(document.querySelectorAll('.packet-hub-card[data-cart], .para-card[data-cart], .study-card[data-cart], .bb-tile[data-cart]'), wireCard);
     headerCart();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
