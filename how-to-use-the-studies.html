@@ -8,5 +8,5 @@ iframe{flex:1 1 auto;width:100%;border:0;background:#fff}
 @media(max-width:480px){.bar span{font-size:14px}}</style></head><body>
 <div class="bar"><span>How to Use the Digital Studies</span><div class="r"><a class="dl" href="assets/zay-marie-press-how-to-use-the-digital-studies.pdf" download>Download PDF</a><button class="x" type="button" id="x" aria-label="Close and return to the Digital Studies">&times;</button></div></div>
 <iframe src="assets/zay-marie-press-how-to-use-the-digital-studies.pdf" title="How to Use the Digital Studies (PDF)"></iframe>
-<script>document.getElementById('x').addEventListener('click',function(){window.close();setTimeout(function(){if(history.length>1){history.back()}else{location.href='digital-studies.html'}setTimeout(function(){location.href='digital-studies.html'},900)},150)});</script>
+<script>document.getElementById('x').addEventListener('click',function(){try{window.close()}catch(e){}setTimeout(function(){location.replace('/digital-studies.html')},120)});</script>
 </body></html>
