@@ -373,9 +373,11 @@ if(document.body.classList.contains('digital-studies-page')){
     paint();
   }
   /* Commentary Collection bundles: an "Add ... to cart" button directly beneath each Buy button. */
+  /* Payhip bundles cannot be carted at the right price, so each bundle's Add to cart uses a matching regular product (same contents, same price). */
+  var CART_OF = {'2ANy9':'i4xu2','E530p':'MEidm','ay4uA':'auOr4','w9L4t':'WZ72d','mq3FC':'cd3DA','qOIeh':'g3RK0','VqxJ5':'SpY3W','8CPrp':'yEh1F','pP4zW':'2xFHD','TQrs8':'Fiq9w','Sgz89':'hmSTt'};
   function wireBundle(a) {
     if (a.dataset.zmpCart) return;
-    var id = idOf(a);
+    var id = CART_OF[idOf(a)];
     if (!id) return;
     a.dataset.zmpCart = '1';
     var label = (a.textContent || '').replace(/^Buy the\s+/, '').replace(/\s+bundle$/, '').trim();
@@ -405,7 +407,7 @@ if(document.body.classList.contains('digital-studies-page')){
       });
     }
     tuck(); [100, 500, 1500].forEach(function (d) { setTimeout(tuck, d); });
-    if (window.ZMP_BUNDLE_CART === true) [].forEach.call(document.querySelectorAll('a.com-bundle-link'), wireBundle); /* held off: shop shows $999.99 for bundles added this way */
+    [].forEach.call(document.querySelectorAll('a.com-bundle-link'), wireBundle);
     headerCart();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
