@@ -76,6 +76,3 @@
 .packet-hub-card .cv{width:104px;border-top:3px solid #b8871c;box-shadow:0 6px 16px rgba(8,45,69,.22);line-height:0}
 .packet-hub-card .cv img{width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;display:block}
 @media(max-width:700px){.packet-hub-grid .packet-hub-card.has-cover{grid-template-columns:96px 1fr;gap:14px}.packet-hub-grid .packet-hub-card.has-cover .packet-hub-price{grid-column:2}.packet-hub-card .cv{width:96px}}
-
-/* Buy Now and Add to Cart are the same size on every companion page */
-body .detail-buyline .detail-button,body .detail-buyline .zmp-cart-btn,body .final-offer .detail-button,body .final-offer .zmp-cart-btn{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:156px;height:46px;margin:0;padding:0 14px;border:2px solid #176b3a;font:700 .8rem/1.2 Arial,sans-serif;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap}
