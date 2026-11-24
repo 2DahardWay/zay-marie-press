@@ -375,6 +375,13 @@ if(document.body.classList.contains('digital-studies-page')){
   function run() {
     [].forEach.call(document.querySelectorAll('a[href*="shop.zaymariepress.com/"]'), wire);
     [].forEach.call(document.querySelectorAll('.packet-hub-card[data-cart], .para-card[data-cart], .study-card[data-cart], .bb-tile[data-cart]'), wireCard);
+    function tuck() {
+      [].forEach.call(document.querySelectorAll('.study-card > .zmp-cart-btn'), function (btn) {
+        var c = btn.parentNode.querySelector('.study-card-content');
+        if (c) { btn.style.margin = '10px 0 0'; btn.style.alignSelf = 'flex-start'; c.appendChild(btn); }
+      });
+    }
+    tuck(); [100, 500, 1500].forEach(function (d) { setTimeout(tuck, d); });
     headerCart();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
