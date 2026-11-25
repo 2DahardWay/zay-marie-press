@@ -395,7 +395,7 @@ if(document.body.classList.contains('digital-studies-page')){
     b.style.cssText = 'display:block;width:fit-content;max-width:100%;box-sizing:border-box;margin:10px 0 0;padding:11px 18px;border:0;box-shadow:inset 0 0 0 2px #176b3a;font-weight:700;line-height:1.2;letter-spacing:normal;text-transform:none;text-align:left;white-space:normal';
     var cs = window.getComputedStyle(a); b.style.fontFamily = cs.fontFamily; b.style.fontSize = cs.fontSize;
     if (a.classList.contains('library-action')) { /* dark navy panel: white outline, centered, uppercase like the Buy button */ b.style.boxShadow = 'inset 0 0 0 2px #fff'; b.style.color = '#fff'; b.style.background = 'transparent'; b.style.margin = '12px auto 0'; b.style.textAlign = 'center'; b.style.textTransform = 'uppercase'; b.style.letterSpacing = '.06em'; b.style.fontSize = '.8rem'; b.style.textDecoration = 'none'; }
-    var base = 'Add the ' + label + ' to cart';
+    var base = a.classList.contains('library-action') ? 'Add to cart' : 'Add the ' + label + ' to cart';
     b.textContent = base;
     b.addEventListener('click', function (e) {
       if (b.classList.contains('is-added')) { b.href = SHOP + '/cart'; return; }
