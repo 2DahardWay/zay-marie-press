@@ -394,6 +394,7 @@ if(document.body.classList.contains('digital-studies-page')){
     b.setAttribute('role', 'button');
     b.style.cssText = 'display:block;width:fit-content;max-width:100%;box-sizing:border-box;margin:10px 0 0;padding:11px 18px;border:0;box-shadow:inset 0 0 0 2px #176b3a;font-weight:700;line-height:1.2;letter-spacing:normal;text-transform:none;text-align:left;white-space:normal';
     var cs = window.getComputedStyle(a); b.style.fontFamily = cs.fontFamily; b.style.fontSize = cs.fontSize;
+    if (a.closest('.collection-card')) { /* same size as the Buy button above it: full width, same line height */ b.style.width = '100%'; b.style.lineHeight = cs.lineHeight; b.style.minHeight = a.offsetHeight + 'px'; b.style.display = 'flex'; b.style.alignItems = 'center'; }
     if (a.classList.contains('library-action')) { /* dark navy panel: white outline, centered, uppercase like the Buy button */ b.style.boxShadow = 'inset 0 0 0 2px #fff'; b.style.color = '#fff'; b.style.background = 'transparent'; b.style.margin = '12px auto 0'; b.style.textAlign = 'center'; b.style.textTransform = 'uppercase'; b.style.letterSpacing = '.06em'; b.style.fontSize = '.8rem'; b.style.textDecoration = 'none'; }
     var base = a.classList.contains('library-action') ? 'Add to cart' : 'Add the ' + label + ' to cart';
     b.textContent = base;
