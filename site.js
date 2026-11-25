@@ -289,7 +289,7 @@ if(document.body.classList.contains('digital-studies-page')){
   var addQueue = Promise.resolve(); /* adds run one at a time, so quick clicks on several studies are all kept */
   function addToCart(id, b, onAdded) {
     if (b.classList.contains('is-added') || b.hasAttribute('disabled')) return;
-    saveBack(b.closest ? b.closest('.study-card, .packet-hub-card, .para-card, .bb-tile') : null);
+    saveBack(b.closest ? b.closest('.study-card, .packet-hub-card, .para-card, .bb-tile, [data-cart]') : null);
     b.setAttribute('disabled', '');
     b.textContent = 'Adding…';
     addQueue = addQueue.then(function () {
@@ -381,6 +381,9 @@ if(document.body.classList.contains('digital-studies-page')){
     var id = CART_OF[idOf(a)];
     if (!id) return;
     a.dataset.zmpCart = '1';
+    /* mark the card around this bundle, so "Continue shopping" in the shop brings the visitor back to it (see saveBack) */
+    var box = a.closest('.collection-card, .com-complete-feature, article');
+    if (box && !box.hasAttribute('data-cart')) box.setAttribute('data-cart', id);
     var label = (a.textContent || '').replace(/^Buy the\s+/, '').replace(/\s+bundle$/, '').trim();
     if (a.closest('.collection-card')) label = 'Collection';
     var b = document.createElement('a');
