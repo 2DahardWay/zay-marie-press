@@ -375,23 +375,26 @@ if(document.body.classList.contains('digital-studies-page')){
   /* Commentary Collection bundles: an "Add ... to cart" button directly beneath each Buy button. */
   /* Payhip bundles cannot be carted at the right price, so each bundle's Add to cart uses a matching regular product (same contents, same price). */
   var CART_OF = {'2ANy9':'i4xu2','E530p':'MEidm','ay4uA':'auOr4','w9L4t':'WZ72d','mq3FC':'cd3DA','qOIeh':'g3RK0','VqxJ5':'SpY3W','8CPrp':'yEh1F','pP4zW':'2xFHD','TQrs8':'Fiq9w','Sgz89':'hmSTt',
-    /* Digital Studies collections */ 'EcW3u':'Jvwly','WFnSE':'9Klue','hYuPk':'suvkm','a3BIm':'daQCY','xAVhU':'Cnyut','XU4oF':'7C1sh','xnKLs':'WgOGV','IMeaG':'tBLYE'};
+    /* Digital Studies collections */ 'EcW3u':'Jvwly','WFnSE':'9Klue','hYuPk':'suvkm','a3BIm':'daQCY','xAVhU':'Cnyut','XU4oF':'7C1sh','xnKLs':'WgOGV','IMeaG':'tBLYE',
+    /* Current Library Edition (all 88 studies) */ 'KIODC':'hMZO7'};
   function wireBundle(a) {
     if (a.dataset.zmpCart) return;
     var id = CART_OF[idOf(a)];
     if (!id) return;
     a.dataset.zmpCart = '1';
     /* mark the card around this bundle, so "Continue shopping" in the shop brings the visitor back to it (see saveBack) */
-    var box = a.closest('.collection-card, .com-complete-feature, article');
+    var box = a.closest('.collection-card, .com-complete-feature, .library-feature, article');
     if (box && !box.hasAttribute('data-cart')) box.setAttribute('data-cart', id);
     var label = (a.textContent || '').replace(/^Buy the\s+/, '').replace(/\s+bundle$/, '').trim();
     if (a.closest('.collection-card')) label = 'Collection';
+    if (a.classList.contains('library-action')) label = 'Library Edition';
     var b = document.createElement('a');
     b.className = 'zmp-cart-btn zmp-bundle-cart';
     b.href = SHOP + '/b/' + id;
     b.setAttribute('role', 'button');
     b.style.cssText = 'display:block;width:fit-content;max-width:100%;box-sizing:border-box;margin:10px 0 0;padding:11px 18px;border:0;box-shadow:inset 0 0 0 2px #176b3a;font-weight:700;line-height:1.2;letter-spacing:normal;text-transform:none;text-align:left;white-space:normal';
     var cs = window.getComputedStyle(a); b.style.fontFamily = cs.fontFamily; b.style.fontSize = cs.fontSize;
+    if (a.classList.contains('library-action')) { /* dark navy panel: white outline, centered, uppercase like the Buy button */ b.style.boxShadow = 'inset 0 0 0 2px #fff'; b.style.color = '#fff'; b.style.background = 'transparent'; b.style.margin = '12px auto 0'; b.style.textAlign = 'center'; b.style.textTransform = 'uppercase'; b.style.letterSpacing = '.06em'; b.style.fontSize = '.8rem'; b.style.textDecoration = 'none'; }
     var base = 'Add the ' + label + ' to cart';
     b.textContent = base;
     b.addEventListener('click', function (e) {
@@ -412,7 +415,7 @@ if(document.body.classList.contains('digital-studies-page')){
       });
     }
     tuck(); [100, 500, 1500].forEach(function (d) { setTimeout(tuck, d); });
-    [].forEach.call(document.querySelectorAll('a.com-bundle-link, .collection-card a[href*="cart_links"]'), wireBundle);
+    [].forEach.call(document.querySelectorAll('a.com-bundle-link, a.library-action, .collection-card a[href*="cart_links"]'), wireBundle);
     headerCart();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
